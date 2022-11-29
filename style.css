@@ -1,0 +1,17 @@
+:root{
+    --random : red;
+}
+.cmsg{
+    border: 1px outset black;
+    width: 170px;
+}.cmsg:hover{
+    background-color: aquamarine;
+    transition: 2s;
+    background-blend-mode: color;
+}
+#btn{
+    background-color: blanchedalmond;
+    border: 1px outset black;
+    width:fit-content;
+}#btn:hover{ transition: 3s; background-color: aqua;} 
+#btn:hover:after{transition: 3s; background-color: var(--random);}
