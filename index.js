@@ -1,5 +1,6 @@
-const plaintext  = document.getElementById('plaintext');
 
+const plaintext  = document.getElementById('plaintext');
+window.onclick = ()=>
 document.getElementById("btn").onclick =()=>{
     const caesar = getEncryptedAlphabet(document.getElementById("key").value)
     const cmsg = document.createElement('div')
@@ -30,7 +31,7 @@ function decrypt(text,key){
     return msg
 }
 function getEncryptedAlphabet(key){
-    //monkey brain neuron activation ooga booga
+    //monkey brain neuron activation 
     let alphabet = [], cryptedalphabet = [],map = new Map();
     for (let i = 0; i < 128; i++) {
         alphabet.push(String.fromCharCode(i))
