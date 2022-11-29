@@ -2,16 +2,17 @@
 const plaintext  = document.getElementById('plaintext');
 window.onclick = ()=>
 document.getElementById("btn").onclick =()=>{
-    const caesar = getEncryptedAlphabet(document.getElementById("key").value)
-    const cmsg = document.createElement('div')
-    cmsg.textContent = encrypt(plaintext.value,caesar)
-    cmsg.className = 'cmsg'
-    document.getElementById('encrypted').append(cmsg)
-    cmsg.onclick = ()=>{
-            document.getElementById('encrypted').removeChild(cmsg)
-            document.getElementById('decrypted').append(cmsg)
-            cmsg.textContent = decrypt(cmsg.textContent,caesar)
-        
+    if(!['',' '].includes(document.getElementById("key").value)) {
+        const caesar = getEncryptedAlphabet(document.getElementById("key").value)
+        const cmsg = document.createElement('div')
+        cmsg.textContent = encrypt(plaintext.value,caesar)
+        cmsg.className = 'cmsg'
+        document.getElementById('encrypted').append(cmsg)
+        cmsg.onclick = ()=>{
+                document.getElementById('encrypted').removeChild(cmsg)
+                document.getElementById('decrypted').append(cmsg)
+                cmsg.textContent = decrypt(cmsg.textContent,caesar)
+    }
     }
 }
 function encrypt(text,key){
@@ -33,7 +34,7 @@ function decrypt(text,key){
 function getEncryptedAlphabet(key){
     //monkey brain neuron activation 
     let alphabet = [], cryptedalphabet = [],map = new Map();
-    for (let i = 0; i < 128; i++) {
+    for (let i = 0; i < 256; i++) {
         alphabet.push(String.fromCharCode(i))
     }
     cryptedalphabet = alphabet

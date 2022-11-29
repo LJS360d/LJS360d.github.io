@@ -10,10 +10,13 @@
 <body>
     <h1>Crypt a Message, DO IT!</h1>
     <p>
-        type somthing here and submit it, i will crypt it rq
+        Type a message down here, choose a key and click on submit to encrypt the message
     </p>
+    <div id="monki">
+        <img src="https://i1.sndcdn.com/artworks-6ZfbKT6nxHtUfTDq-f4pVtA-t500x500.jpg" alt="ASCII table" width="100">
+    </div>
     <input type="text" id="plaintext">
-    <input type="number" id="key" value="68" style="width: 8%;">Change the Key
+    <input type="number" id="key" value="68" max="255" style="width: 8%;">Change the Key
     <div id="btn">Submit</div>
 
     <div id="encrypted">Encrypted Strings:</div>
