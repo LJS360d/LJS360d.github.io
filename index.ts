@@ -1,4 +1,3 @@
 document.getElementById('crypt')?.onclick = ()=>{
-    document.append(document.getElementById('plaintext').value)
-     
+    document.append(document.getElementById('plaintext').value) 
 }
