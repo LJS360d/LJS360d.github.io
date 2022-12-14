@@ -23,4 +23,3 @@ function animateTrail(){
     requestAnimationFrame(animateTrail)
 }
 animateTrail()
-
