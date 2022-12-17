@@ -2,6 +2,8 @@ body{
     cursor: none;
     background-color: #202020;
     margin: 0px;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 #background-grid{
     width: 100vw;
