@@ -22,7 +22,7 @@ body{
     width: 25px;
     border-radius: 100%;
     border: 3px outset white;
-    scale: 1.5;
+    scale: 1;
     font-size:larger;
     z-index: 1;
     background-color: pink;
