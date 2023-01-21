@@ -2,6 +2,8 @@ body{
     cursor: none;
     background-color: #202020;
     margin: 0px;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 #background-grid{
     width: 100vw;
@@ -14,6 +16,23 @@ body{
     background-position: 0% 0%;
     background-size: 12vmin 4vmin;
 }
+.circle{
+    position: fixed;
+    height: 25px;
+    width: 25px;
+    border-radius: 100%;
+    border: 3px outset white;
+    scale: 1;
+    font-size:larger;
+    z-index: 1;
+    background-color: pink;
+    text-align:center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    transition: background-color 800ms ease;
+    margin: auto;
+    padding: 12.5px 12.5px;
+
+}
 .cursor-trail{
     height: 25px;
     width: 25px;
@@ -22,7 +41,7 @@ body{
     background: linear-gradient(150deg, #5c0000, #6c0010, #970051, #c200d1, #6510ff, #4a6aff, #75c2ff, #85dcff);    
     left: 0px;
     top: 0px;
-    z-index: 10000;
+    z-index: 100;
     pointer-events: none;
     opacity: 0%;
     transition: opacity 500ms ease;
