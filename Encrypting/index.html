@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encrypt Tool</title>
+    <link rel="stylesheet" href="./style.css"> 
+</head>
+<body>
+    <h1>Crypt a Message, DO IT!</h1> <div id="code"></div>
+    <p>
+        Type a message down here, choose a key and click on submit to encrypt the message
+    </p>
+    <div id="monki">
+        <img src="https://i1.sndcdn.com/artworks-6ZfbKT6nxHtUfTDq-f4pVtA-t500x500.jpg" alt="monkey" width="100">
+    </div>
+    <input type="text" id="plaintext">
+    <input type="number" id="key" value="68" max="255" style="width: 8%;">Change the Key
+    <input id="algorithm" type="text range" list="algs" value="Caesar">Choose which algorithm to use
+    <datalist id="algs">
+        <option value="Caesar"></option>
+        <option value="Iliad"></option>
+        <option value="Transposition"></option>
+        <option value="Alberti"></option>
+        <option value="Vigenère"></option>
+        <option value="Grid"></option>
+    </datalist>
+    <div id="btn">Submit</div>
+
+    <div id="encrypted">Encrypted Strings:</div>
+    <div id="decrypted" style="float: left;">Decrypted Strings:</div>
+
+
+</body>
+<script src="./index.js"></script>
+</html>

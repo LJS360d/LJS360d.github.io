@@ -1,0 +1,24 @@
+body{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    background-image: url(https://image.cnbcfm.com/api/v1/image/106878527-1620223837055-106748412-1602881184740-biden.jpg?v=1620224062);
+}
+#chat{
+    display: table;
+    background-color: aqua;
+    position: absolute;
+    width: 60vw;
+    height: 97vh;
+    border: 3px outset black;
+}
+.chatmsg{display: block;}
+#sndbtn{
+    position: relative;
+    display: table-cell;
+    top: 87%;
+}
+#msg{
+    position: relative;
+    display: table-cell;
+    top: 87%;
+    width: 52vw;
+}

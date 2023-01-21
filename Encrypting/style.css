@@ -1,0 +1,25 @@
+:root{
+    --random : red;
+    font-family: cursive;
+    background-color: gold;
+}
+.cmsg{
+    border: 1px outset black;
+    width: 170px;
+    background-color: white;
+}.cmsg:hover{
+    background-image: url(https://static.wikia.nocookie.net/nekopara/images/a/a8/Ch_cho_img_03.png/revision/latest?cb=20210407084351);
+    background-blend-mode: darken;
+}
+#btn{
+    background-color: azure;
+    border: 1px outset black;
+    width:fit-content;
+}#btn:hover{ background-image: url(https://i1.sndcdn.com/artworks-6ZfbKT6nxHtUfTDq-f4pVtA-t500x500.jpg);} 
+#btn:hover:after{transition: 3s; background-color: var(--random);}
+#decrypted{
+    float: right;
+}
+#monki{
+    right: 40%;
+}

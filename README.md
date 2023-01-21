@@ -1,1 +1,1 @@
-Efolo stupido
+No ketchup, fuck da red stuff
