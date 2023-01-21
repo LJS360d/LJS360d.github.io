@@ -1,1 +1,4 @@
-No ketchup, fuck da red stuff
+For website change the URL 
+/Encrypting -> 🙊 Encrypting 
+/FXDOX -> 🗺️ Get Doxxed
+/CursorTrail -> 🟣 Not osu!
