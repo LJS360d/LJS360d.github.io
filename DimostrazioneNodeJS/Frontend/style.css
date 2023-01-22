@@ -10,7 +10,7 @@ body{
     height: 97vh;
     border: 3px outset black;
 }
-.chatmsg{display: block;}
+.chatmsg{display: block; border: 1px outset black; margin-top: 1px;}
 #sndbtn{
     position: relative;
     display: table-cell;
