@@ -4,15 +4,12 @@ http.listen(8080, () => console.log(`listening on port ${http.address().port}`))
 
 io.on('connection', (socket) =>{
 
-    console.log(`User connected ID:${socket.id}`)
+    console.log(`User connected! ID:${socket.id}`)
 
-    socket.on('message',(message,content)=>{
-
-        console.log(`${socket.id} sent ${message}`);
-        
+    socket.on('message',(message,sender,content)=>{
+        console.log(`${sender} sent ${message}:${content}`);  
         if (message == 'newmsg') {
-            console.log(content);
-            io.emit('newmsg',socket.id,content)
+            io.emit('newmsg',sender,content)
         }
     })
 })
