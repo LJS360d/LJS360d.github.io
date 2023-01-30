@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <script src="https://cdn.socket.io/socket.io-3.0.0.js"></script>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <div id="header">
+        <span class="headcell" id="namechange">
+            <label id="lb" for="nameinput" style="position: fixed;">Change Your name</label><br>
+            <input class="headcell" type="text" id="nameinput" maxlength="15" >
+            <button class="headcell" id="namesnd">Submit</button>
+        </span>
+        <span class="headcell" id="urname"></span>
+        <h1 id="info" class="headcell" style="display: block; position: absolute;"></h1>
+    </div>
+    
+    <div id="board">
+        <span id="b1" class="cell unselectable">X</span>
+        <span id="vline1"></span>
+        <span id="b2" class="cell unselectable">X</span>
+        <span id="vline2"></span>
+        <span id="b3" class="cell unselectable">X</span><br>
+        <span id="hline1"></span>   
+        <span id="b4" class="cell unselectable">X</span>
+        <span id="b5" class="cell unselectable">X</span>
+        <span id="b6" class="cell unselectable">X</span><br>
+        <span id="hline2"></span>  
+        <span id="b7" class="cell unselectable">X</span>
+        <span id="b8" class="cell unselectable">X</span>
+        <span id="b9" class="cell unselectable">X</span>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

@@ -1,7 +1,7 @@
 document.getElementById('wordsbox').appendChild(getGeoCoords())
 const hoverables = document.getElementsByClassName('word')
 for (const word of hoverables) {
-    spanify(word);;
+    spanify(word);
 }
 function spanify(...nodes){
     for (const node of nodes) {
@@ -28,7 +28,7 @@ function getGeoCoords() {
         spanify(lat,long)},null,{enableHighAccuracy: true,timeout: 1000,maximumAge: 0});
         
     } else {
-      coords.innerText = "Geolocation disabled.";
+      coords.innerText = "Geolocation disabled :(";
     }
     return coords
 }
