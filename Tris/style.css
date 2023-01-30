@@ -18,7 +18,7 @@ body{
     color: white;
     font-size: 150%;
     cursor: pointer;
-    font-family: system-ui, sans-serif;
+    font-family: sans-serif;
 }
 .unselectable{
     -webkit-touch-callout: none;
