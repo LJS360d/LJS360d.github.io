@@ -6,7 +6,7 @@ let username = softcache.getItem('username');
 if(username != null){
     document.getElementById('namechange').style.display = 'none'
     document.getElementById("urname").textContent = username
-    document.getElementById("urname").style.display = 'block'
+    document.getElementById("urname").style.display = 'inline-block'
     socket.send('username',username)
 }document.getElementById("namesnd").onclick =()=>{
     username = document.getElementById("nameinput").value;
@@ -66,7 +66,7 @@ function namingToggle(change){
         document.getElementById("nameinput").style.display = 'none';
         document.getElementById("namesnd").style.display = 'none';
         document.getElementById("urname").textContent = username;
-        document.getElementById("urname").style.display = 'table-cell'; 
+        document.getElementById("urname").style.display = 'inline-block'; 
     }
 }
 function resetBoard(){
