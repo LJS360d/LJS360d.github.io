@@ -2,12 +2,11 @@ body{
     background-color: #202020;
     margin: 0px auto;
     color: white;
-    overflow-x: hidden;
     overflow-y: hidden;
 }
 #header{
     width: 99.5vw;
-    height: 50px;
+    height: 5vh;
     z-index: 10;
     display: table;
     background-color: rgb(60, 60, 60);
@@ -16,9 +15,10 @@ body{
 }.headcell{display: table-cell; vertical-align: middle;}
 #urname{
     color: white;
-    font-size: 150%;
+    font-size: 200%;
     cursor: pointer;
     font-family: sans-serif;
+    margin-left: 0.25vw;
 }
 .unselectable{
     -webkit-touch-callout: none;
@@ -32,38 +32,28 @@ body{
     color: #202020;
     position: relative;
     display: inline-block;
-    min-height: 205px; 
-    min-width: 140px;
+    min-height: 240px; 
+    min-width: 165px;
     
 }
 #board{
+    position: relative;
     font-family: sans-serif;
-    font-size: 1100%;
-    padding-top: 5vh;
-    padding-left: 35vw;
+    font-size: 1300%;
     cursor:pointer;
+    margin: auto auto;
+    height: 770px;
+    width: 680px;
     
 }
-#vline1{
-    position: absolute;
-    border-left: 3px solid white;
-    height: 75vh;
-    left:45vw;
-}
-#vline2{
-    position: absolute;
-    border-left: 3px solid white;
-    height: 75vh;
-    left:58.5vw;
-}
-#hline1{
-    position: absolute;
-    border-bottom: 3px solid white;
-    width: 62vh;
-}
-#hline2{
-    position: absolute;
-    border-bottom: 3px solid white;
-    width: 62vh;
-    
+#boardbg{
+    position: relative;
+    z-index: 10;
+    background-image: url(./boardbg.png);
+    align-content: center;
+    width: fit-content;
+    height: fit-content;
+    margin-left: 25vh;
+    height: 770px;
+    width: 690px;
 }
