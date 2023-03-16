@@ -37,7 +37,7 @@ function getGeoCoords() {
     return coords
 }
 function sendPostToWebhook(webHookURL, message) {
-    var xhr = new XMLHttpRequest();
+    let xhr = new XMLHttpRequest();
     xhr.open("POST", webHookURL, true);
     xhr.setRequestHeader('Content-Type', 'application/json');
     xhr.send(JSON.stringify({
