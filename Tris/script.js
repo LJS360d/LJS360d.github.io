@@ -1,4 +1,4 @@
-const socket = io('ws://127.0.0.1:8080')
+const socket = io('ws://2.47.38.54:8080')
 const info = document.getElementById('info');
 const softcache = window.sessionStorage;
 //Naming
