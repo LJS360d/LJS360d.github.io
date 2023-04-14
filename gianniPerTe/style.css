@@ -1,4 +1,5 @@
 @import url(loading-wave.css);
+
 body {
     overflow-x: hidden;
     margin: 0 0;
@@ -21,26 +22,33 @@ div.header {
 }
 
 div.content {
-    overflow: auto;
+    overflow-y: auto;
+    overflow-x: hidden;
     display: flex;
     flex-direction: column;
-    flex-direction: row;
     width: 100dvw;
     height: 100dvh;
     background-color: #565869;
 }
 
-div.content>div {
-    display: flex;
-    flex-direction: column;
+div.content-left {
+    display: block;
     width: 50%;
-    height: 100%;
-    background-color: inherit;
-    gap: 1pc;
+    height: min-content;
+    margin-left: .5rem;
+    background-color: hsla(0, 0%, 100%, .05);
+    border-radius: 5px;
+
 }
 
-div.content-left {
-    margin-left: 1rem;
+div.content-right {
+    display: block;
+    width: 100%;
+    height: min-content;
+}
+
+div.content-right>* {
+    float: right;
 }
 
 md-block.gptmsg {
