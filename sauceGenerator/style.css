@@ -12,9 +12,9 @@ div.header {
     border-bottom: 3px solid #677187;
     width: 100dvw;
     height: min-content;
-    background-color: #474e5d;
     align-items: center;
     justify-content: space-between;
+    background-color: #474e5d;
 }
 
 div.header>div.options {

@@ -9,17 +9,17 @@ class PokemonData {
         for (const typeData of json['types']) {
             this.types.push(typeData.type.name)
         }
-        this.abilities = [] 
+        this.abilities = []
         for (const abilityData of json['abilities']) {
             this.abilities.push(abilityData.ability.name)
         }
         this.stats = new Map()
         for (const statData of json['stats']) {
             const statName = statData.stat.name
-            this.stats.set(statName,statData.base_stat)
+            this.stats.set(statName, statData.base_stat)
         }
         for (const key in this) {
-            console.log(key,this[key]);
+            console.log(key, this[key]);
         }
     }
 }
@@ -103,7 +103,7 @@ async function renderPokemonData(pkmnName) {
     }
     async function getPokemonDataConstructor(pkmnName) {
         try {
-            return (await fetch(`https://pokeapi.co/api/v2/pokemon/${pkmnName}`)).json((pkmnData)=>{return pkmnData})
+            return (await fetch(`https://pokeapi.co/api/v2/pokemon/${pkmnName}`)).json((pkmnData) => { return pkmnData })
         } catch (err) {
             throw err
         }
