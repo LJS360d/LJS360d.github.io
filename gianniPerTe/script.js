@@ -51,11 +51,13 @@ async function getGPTResponse(msg) {
         .catch(err => console.error(err));
 }
 function toggleLoading() {
+    const msgInpt = document.getElementById('msgforgpt')
     const dotContainer = document.querySelector('.dot-container')
     if (dotContainer.classList.contains('paused')) {
         dotContainer.classList.remove('paused')
+        msgInpt.disabled = true
     } else {
+        msgInpt.disabled = false
         dotContainer.classList.add('paused')
-
     }
 }
