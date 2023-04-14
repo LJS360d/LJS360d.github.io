@@ -1,0 +1,35 @@
+body {
+    margin: 0 0;
+    display: flex;
+    flex-direction: column;
+    height: 100dvh;
+    align-items: center;
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(218, 177, 209, 1) 23%, rgba(178, 180, 213, 1) 36%, rgba(218, 180, 211, 1) 51%, rgba(173, 183, 224, 1) 72%, rgba(165, 184, 227, 1) 81%, rgba(154, 186, 231, 1) 93%, rgba(148, 187, 233, 1) 100%);
+}
+
+div.header {
+    padding: 2rem 0;
+    position: sticky;
+    display: flex;
+    width: 100dvw;
+    height: min-content;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(146deg, rgba(180, 58, 159, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+}
+
+div.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100dvw;
+    height: 100dvh;
+}
+
+span.random-fact {
+    height: min-content;
+    font-size: 2.5pc;
+    font-family: "Comic Sans MS";
+}
