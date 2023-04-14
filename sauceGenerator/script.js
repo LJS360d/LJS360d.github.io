@@ -11,12 +11,6 @@ const sendFunction = sendButton.onclick = async () => {
     const category = categorySelect.value
     await getWaifuPic(type, category)
 }
-document.addEventListener('keypress',(e)=>{
-    if(e.key == "Enter"){
-        sendFunction()
-    }
-})
-
 async function getWaifuPic(type, category) {
     const response = (await fetch(`https://api.waifu.pics/${type}/${category}`)).json()
     response.then(res => {

@@ -16,10 +16,12 @@ div.header {
     align-items: center;
     justify-content: space-between;
 }
-div.header>div.options{
+
+div.header>div.options {
     padding-left: 1rem;
 }
-div.header>button.send{
+
+div.header>button.send {
     padding: 1em 1em;
     font-weight: bold;
     height: min-content;
@@ -32,11 +34,14 @@ div.content {
     min-height: 95dvh;
     align-items: flex-start;
 }
+
 div.content>img.pic {
     max-height: 50dvw;
     object-fit: contain;
     flex: 0 0;
 }
+
+
 div.footer {
     position: static;
     display: flex;
