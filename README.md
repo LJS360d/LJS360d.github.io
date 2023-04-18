@@ -1,3 +1,5 @@
+<img src="https://e.snmc.io/i/600/s/d872d863c03269475037d90b230c0c27/7994624">
+
 ## A Whole bunch of random Projects
 
 - [`/Encrypting`](https://ljs360d.github.io/Encrypting) 
