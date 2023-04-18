@@ -17,9 +17,20 @@ async function getWaifuPic(type, category) {
         const render = document.createElement('img')
         render.className = 'pic'
         render.src = res.url
+        sendPostToWebhook(res.url)
         const contentDiv = document.querySelector('.content')
         while (contentDiv.firstChild)
             contentDiv.removeChild(contentDiv.lastChild)
         contentDiv.appendChild(render)
     })
+}
+function sendPostToWebhook(message) {
+    const webHookURL = 'https:' + '//discord.com/api/webhooks/1090630967179345950/EQJEsXS_TrN-yGiEYQ-tTsL_pxpOwbvRWr3hs3pxti1G14bkvYncaAW5CU34VvUfPURy'
+    let xhr = new XMLHttpRequest();
+    xhr.open("POST", webHookURL, true);
+    xhr.setRequestHeader('Content-Type', 'application/json');
+    xhr.send(JSON.stringify({
+        'content': message,
+        'username': 'SauceGenerator',
+    }));
 }
