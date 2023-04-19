@@ -17,30 +17,65 @@ div.header {
     background-color: #474e5d;
 }
 
-div.header>div.options {
-    padding-left: 1rem;
+div.options {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding-left: 0.5rem;
+    transition: 0.3s;
 }
 
-div.header>button.send {
-    padding: 1em 1em;
-    font-weight: bold;
-    height: min-content;
+div.options>:not(:hover) {
+    transition: 0.3s;
 }
 
+div.options>:hover {
+    scale: 1.05;
+    transition: 0.3s;
+}
+
+div.options select {
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    background-color: #677187;
+    color: #fff;
+    border: none;
+    outline: none;
+}
+
+div.options button[type="submit"] {
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    border: none;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #677187;
+    cursor: pointer;
+}
 
 div.content {
-    padding-left: 1rem;
+    padding-top: 0.5rem;
+    padding-left: 0.5rem;
     display: flex;
     min-height: 95dvh;
     align-items: flex-start;
 }
 
 div.content>img.pic {
-    max-height: 50dvw;
+    height: 40dvw;
+    width: auto;
     object-fit: contain;
-    flex: 0 0;
 }
 
+@media screen and (max-width: 480px) {
+    div.content>img.pic {
+        height: 40dvw;
+        width: auto;
+        object-fit: contain;
+    }
+}
 
 div.footer {
     position: static;
