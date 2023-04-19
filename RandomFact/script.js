@@ -1,4 +1,5 @@
 const randomFactSpan = document.querySelector('span.random-fact');
+new window.SpeechSynthesisUtterance().lang = 'en-US';
 window.onload = () => { renderRandomFact(randomFactSpan) }
 window.onclick = () => { renderRandomFact(randomFactSpan) }
 function renderRandomFact(element) {
@@ -10,6 +11,7 @@ function renderRandomFact(element) {
         .then(response => response.json())
         .then(data => {
             element.textContent = data.text;
+            window.speechSynthesis.speak(data.text);
         })
         .catch(error => {
             console.error('Error fetching random fact:', error);

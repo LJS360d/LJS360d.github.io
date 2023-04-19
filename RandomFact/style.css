@@ -4,12 +4,14 @@ body {
     flex-direction: column;
     height: 100dvh;
     align-items: center;
-    background: rgb(238, 174, 202);
-    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(218, 177, 209, 1) 23%, rgba(178, 180, 213, 1) 36%, rgba(218, 180, 211, 1) 51%, rgba(173, 183, 224, 1) 72%, rgba(165, 184, 227, 1) 81%, rgba(154, 186, 231, 1) 93%, rgba(148, 187, 233, 1) 100%);
+
+    background-image: url(https://i.gifer.com/3YIt.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 div.header {
-    padding: 2rem 0;
+    padding: 0.5rem 0;
     position: sticky;
     display: flex;
     width: 100dvw;
@@ -32,4 +34,6 @@ span.random-fact {
     height: min-content;
     font-size: 2.5pc;
     font-family: "Comic Sans MS";
+    text-shadow: 1px 1px 2px #000000;
+    -webkit-text-stroke: 0.5px #ffffff;
 }
