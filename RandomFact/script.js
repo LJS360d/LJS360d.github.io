@@ -1,5 +1,6 @@
-import { toggleLoading } from './loading-wave.js';
-import { showSnackbarGreenText } from './snackbar.js'
+import { toggleLoading } from './modules/loading-wave.js';
+import { showSnackbarGreenText } from './modules/snackbar.js'
+import { appendTypewriterText } from './modules/typewriter.js';
 const randomFactSpan = document.querySelector('span.random-fact');
 window.onload = () => { renderRandomFact(randomFactSpan) }
 document.querySelector('div.content').onclick = () => { renderRandomFact(randomFactSpan) }
@@ -12,7 +13,8 @@ function renderRandomFact(element) {
     })
         .then(response => response.json())
         .then(data => {
-            element.textContent = data.text;
+            element.textContent = '';
+            appendTypewriterText(element, data.text);
         })
         .catch(error => {
             console.error(error)
