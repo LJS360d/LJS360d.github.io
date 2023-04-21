@@ -45,6 +45,9 @@
 
 Welcome to my random projects showcase! Here you can find some of the projects I've been working on. Each project has a brief description.
 
+## [VNBrigate](https://ljs360d.github.io/VNBrigate)
+
+A Visual Novel game that showcases the international brigades that fought for freedom in Spain.
 ## [Encrypting](https://ljs360d.github.io/Encrypting)
 
 A simple encryption tool that allows you to encrypt and decrypt messages using a key.
