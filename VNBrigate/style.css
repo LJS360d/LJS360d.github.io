@@ -2,7 +2,7 @@
 @import url(styles/typewriter.css);
 
 :root {
-    --bgUrl: url("https://i.waifu.pics/x7bS2nT.jpg");
+    --bgUrl: url("assets/backgrounds/bg1.png");
 }
 
 body {
@@ -63,6 +63,7 @@ div.scenario>span#scene {
     height: 25%;
     width: 100%;
     background-color: #ffffff50;
+    font-size: 1.5pc;
 }
 
 div.scenario>span#scene>p {
@@ -164,10 +165,9 @@ div.choices>div:hover {
 
 
     div.scenario>span#scene {
-        height: 25%;
+        height: 27%;
         width: 100%;
         background-color: #ffffff50;
-        -webkit-text-stroke: 0.5px cyan;
         font-size: 1pc;
     }
 
@@ -185,7 +185,9 @@ div.choices>div:hover {
         align-items: center;
         transition: 0.3s;
         font-size: 1pc;
+        width: 95vw;
     }
+
     div.choices>div:active {
         background-color: cyan;
         transition: 0.3s;
