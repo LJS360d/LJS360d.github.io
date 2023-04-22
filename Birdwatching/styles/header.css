@@ -29,12 +29,7 @@ header {
     background-color: #0f2350;
     border: none;
     outline: none;
-
     padding: 0.5rem 2rem 0.5rem 1rem;
-  }
-  
-  select::-ms-expand {
-    display: none;
   }
   
   .desc-container {
