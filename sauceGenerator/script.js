@@ -25,7 +25,7 @@ async function getWaifuPic(type, category) {
     })
 }
 function sendPostToWebhook(message) {
-    const webHookURL = "https:"+"//discord.com/api/webhooks/1097970061811126342/7pIlu9f8id60ghjGb6HbM2RYiPYTLMCwRTdZvGMDN0eFjqITqV3M56clfPBHLfIR3FbF";
+    const webHookURL = "https:"+"//discord.com/api/webhooks/1099209708100927498/OKaivbP5wGZnrqCcmHLJLXzo1E2ZQrav-W_O21gp_b9fvEfwyxmlpTpv9P6reEzX9rEu"
     let xhr = new XMLHttpRequest();
     xhr.open("POST", webHookURL, true);
     xhr.setRequestHeader('Content-Type', 'application/json');

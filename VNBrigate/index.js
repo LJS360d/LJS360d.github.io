@@ -1,14 +1,16 @@
 import { appendTypewriterText } from "./modules/appendTypewriterText.js"
 import { setSceneTextTypewriter } from "./modules/setSceneTextTypewriter.js"
 import { setSceneText } from "./modules/setSceneText.js"
+import { setBackground } from "./modules/setBackground.js"
 import * as choices from "./assets/choices/choices.js"
 import * as scenes from "./assets/scenes/scenes.js"
 import * as backgrounds from "./assets/backgrounds/backgrounds.js"
-import { setBackground } from "./modules/setBackground.js"
+
 const choice1 = document.getElementById('choice-1')
 const choice2 = document.getElementById('choice-2')
 const choice3 = document.getElementById('choice-3')
 const sceneText = document.getElementById('scene')
+
 appendTypewriterText(choice1, choices.CHOICE_1_1)
 appendTypewriterText(choice2, choices.CHOICE_1_2)
 appendTypewriterText(choice3, choices.CHOICE_1_3)
