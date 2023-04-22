@@ -1,7 +1,7 @@
 import { showSnackbarGreenText } from './modules/snackbar.js'
 const animalType = document.getElementById('type')
 function renderAnimalImage(element, type) {
-    fetch(`http://shibe.online/api/${type}`, {
+    fetch(`http://shibe.online/api/${type}?count=1&urls=true&httpsUrls=true`, {
         headers: {
             'Accept': 'application/json'
         }
