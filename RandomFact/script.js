@@ -24,3 +24,8 @@ function renderRandomFact(element) {
 document.getElementById('copy').addEventListener('click', () => {
     navigator.clipboard.writeText(randomFactSpan.textContent).then(() => showSnackbarGreenText('Copied!'))
 })
+document.body.addEventListener('keydown', (e) => {
+    if (e.key === " ") {
+        renderRandomFact(randomFactSpan);
+    }
+})
