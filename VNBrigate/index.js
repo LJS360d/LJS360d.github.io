@@ -28,6 +28,9 @@ function choice1Click() {
                 toggleChoicesView()
             }, 5000)
             break;
+        case choices.CHOICE_1_2:
+            
+            break;
     }
 
 }

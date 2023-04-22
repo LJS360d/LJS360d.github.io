@@ -1,0 +1,44 @@
+@import url(styles/header.css);
+@import url(styles/snackbar.css);
+
+body {
+    margin: 0 0;
+    display: flex;
+    flex-direction: column;
+    height: 100dvh;
+    width: 100dvw;
+    align-items: center;
+    overflow: hidden;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+div.content {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: #0b2665;
+
+    font-size: larger;
+    color: #ffffff;
+}
+
+div.content>img {
+    width: 30rem;
+    max-height: 42rem;
+    object-fit: contain;
+    border: 3px solid #ffd700;
+    box-shadow: 0 0 20px #0000004d;
+}
+
+footer {
+    z-index: 10;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    height: 5rem;
+    border-top: 3px solid #ffd700;
+    background-color: #0F2350;
+}

@@ -3,6 +3,10 @@
 
 Welcome to my random projects showcase! Here you can find some of the projects I've been working on. Each project has a brief description.
 
+## [Birdwatching](https://ljs360d.github.io/Birdwatching)
+
+Actually Birds, Cats and Dogs. Generate a random image, very classy.
+
 ## [VNBrigate](https://ljs360d.github.io/VNBrigate)
 
 A Visual Novel game that showcases the international brigades that fought for freedom in Spain.
