@@ -28,15 +28,29 @@ header select {
     background-color: #00000000;
     border: none;
     outline: none;
+    appearance: none;
     padding: 0.5rem 2rem 0.5rem 1rem;
+    cursor: pointer;
 }
 
-header select:focus, header select:hover {
-    border: 3px solid #e6bd00;
+header .select-container {
+    cursor: pointer;
     transition: 0.3s;
-    scale: 1.1;
+    user-select: none;
+    position: relative;
 }
 
+header .select-container:focus,
+header .select-container:hover {
+    border: 3px solid #e6bd00;
+    transform: scale(1.1);
+}
+.select-container b{
+    z-index: -1;
+    position: fixed;
+    margin-top: 1pc;
+    transform: translateX(-1.5rem);
+}
 header button {
     margin-right: 1em;
     font-family: Arial, Helvetica, sans-serif;

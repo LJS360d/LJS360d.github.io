@@ -5,7 +5,7 @@ const randomFactSpan = document.querySelector('span.random-fact');
 
 toggleLoading();
 const typeSelect = document.getElementById('fact-type');
-function renderSwitchFact(type,element) {
+function renderSwitchFact(type, element) {
     switch (type) {
         case "random":
             renderRandomFact(element);
@@ -52,10 +52,10 @@ document.getElementById('copy').addEventListener('click', () => {
     navigator.clipboard.writeText(randomFactSpan.textContent).then(() => showSnackbarGreenText('Copied!'))
 })
 document.body.addEventListener('keydown', (e) => {
-    if (e.key === " ") {
-        renderSwitchFact(typeSelect.value,randomFactSpan)
-    }
+    if (e.key === " ")
+        renderSwitchFact(typeSelect.value, randomFactSpan)
+
 })
-window.onload = () => { renderSwitchFact(typeSelect.value,randomFactSpan) }
-document.querySelector('div.content').onclick = () => { renderSwitchFact(typeSelect.value,randomFactSpan) }
-document.getElementById('fact-type').onchange = () => { renderSwitchFact(typeSelect.value,randomFactSpan) }
+window.onload = () => { renderSwitchFact(typeSelect.value, randomFactSpan) }
+document.querySelector('div.content').onclick = () => { renderSwitchFact(typeSelect.value, randomFactSpan) }
+document.getElementById('fact-type').onchange = () => { renderSwitchFact(typeSelect.value, randomFactSpan) }
