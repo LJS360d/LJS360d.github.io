@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <div class="header">
+    <header>
         <div class="loading-container">
             <div class="dot-container paused">
                 <div class="dot"></div>
@@ -26,8 +26,14 @@
                 <div class="dot"></div>
             </div>
         </div>
+        <div class="select-container">
+            <select id="fact-type">
+                <option value="random">Random</option>
+                <option value="cat">Cats</option>
+            </select>
+        </div>
         <button id="copy">Copy Fact to Clipboard</button>
-    </div>
+    </header>
     <div class="content">
         <span class="random-fact"></span>
     </div>

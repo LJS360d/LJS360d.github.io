@@ -28,7 +28,7 @@ A garbage web app that displays information about Pokemon.
 
 ## [RandomFact](https://ljs360d.github.io/RandomFact)
 
-Get a random real life fact every time you click on the page.
+Get a random real life, or cats, fact every time you click on the page.
 
 ## [sauceGenerator](https://ljs360d.github.io/sauceGenerator)
 
