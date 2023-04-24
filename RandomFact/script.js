@@ -13,6 +13,9 @@ function renderSwitchFact(type, element) {
         case "cat":
             renderRandomCatFact(element)
             break;
+        case "v2":
+            renderRandomV2Fact(element)
+            break;
     }
 }
 function renderRandomFact(element) {
@@ -47,6 +50,25 @@ function renderRandomCatFact(element) {
             console.error(error)
             element.textContent = 'Error fetching random fact:', error;
         });
+}
+function renderRandomV2Fact(element){
+    fetch('https://api.api-ninjas.com/v1/facts', {
+        headers: {
+            'X-Api-Key': 't3neLT4iSFNXHd+C69gJyw==S0SLFTfRd2MszCvH',
+            'Accept': 'application/json'
+        }
+    })
+        .then(response => response.json())
+        .then(data => {
+            console.log();
+            element.textContent = '';
+            appendTypewriterText(element, data[0].fact);
+        })
+        .catch(error => {
+            console.error(error)
+            element.textContent = 'Error fetching random fact:', error;
+        });
+
 }
 document.getElementById('copy').addEventListener('click', () => {
     navigator.clipboard.writeText(randomFactSpan.textContent).then(() => showSnackbarGreenText('Copied!'))
