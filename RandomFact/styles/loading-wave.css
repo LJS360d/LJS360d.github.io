@@ -17,7 +17,12 @@
     margin: 0 5px;
     background-color: #ffffff;
     border-radius: 50%;
+    transition: 0.3s;
     animation: dot-animation 4s infinite;
+}
+
+.dot-container:has(.dot:hover) .dot{
+    scale: 1.5;
 }
 
 .dot:nth-child(1) {
@@ -54,6 +59,22 @@
 
 .dot:nth-child(9) {
     animation-delay: 4s;
+}
+
+.dot:nth-child(10) {
+    animation-delay: 4.5s;
+}
+
+.dot:nth-child(11) {
+    animation-delay: 5s;
+}
+
+.dot:nth-child(12) {
+    animation-delay: 5.5s;
+}
+
+.dot:nth-child(13) {
+    animation-delay: 6s;
 }
 
 @keyframes dot-animation {

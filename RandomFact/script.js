@@ -32,7 +32,7 @@ function renderRandomFact(element) {
         })
         .catch(error => {
             console.error(error)
-            element.textContent = 'Error fetching random fact:', error;
+            element.textContent = 'Error fetching fact:', error;
         });
 }
 function renderRandomCatFact(element) {
@@ -48,7 +48,7 @@ function renderRandomCatFact(element) {
         })
         .catch(error => {
             console.error(error)
-            element.textContent = 'Error fetching random fact:', error;
+            element.textContent = 'Error fetching fact:', error;
         });
 }
 function renderRandomV2Fact(element){
@@ -66,7 +66,7 @@ function renderRandomV2Fact(element){
         })
         .catch(error => {
             console.error(error)
-            element.textContent = 'Error fetching random fact:', error;
+            element.textContent = 'Error fetching fact:', error;
         });
 
 }
