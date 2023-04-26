@@ -46,7 +46,7 @@ function choice2Click() {
                 sceneText.textContent = scenes.SCENE_1
                 toggleChoicesView()
             }, 5000)
-            break;
+            break;  
     }
 }
 function choice3Click() {
