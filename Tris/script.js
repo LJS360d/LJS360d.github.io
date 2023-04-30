@@ -40,7 +40,7 @@ socket.on('boardupdate',(position,symbol)=>{
     document.getElementById(`b${position}`).style.color = 'white'
 })
 socket.on('symbol',sym=>{symbol=sym;if(sym=='O')turn=false})
-socket.on('turnupdate',()=>{turn=!turn})
+socket.on('turnupdate',function(){turn=!turn})
 socket.on('winner',(sym)=>{
     if(sym === symbol)
     info.textContent = `You won`

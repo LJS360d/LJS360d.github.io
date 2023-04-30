@@ -2,6 +2,7 @@ import { appendTypewriterText } from "./modules/appendTypewriterText.js"
 import { setSceneTextTypewriter } from "./modules/setSceneTextTypewriter.js"
 import { setSceneText } from "./modules/setSceneText.js"
 import { setBackground } from "./modules/setBackground.js"
+import { choicesFlow,choicesMap } from "./assets/choices/choicesFlow.js"
 import * as choices from "./assets/choices/choices.js"
 import * as scenes from "./assets/scenes/scenes.js"
 import * as backgrounds from "./assets/backgrounds/backgrounds.js"
@@ -18,8 +19,12 @@ setSceneText(scenes.SCENE_1)
 
 function choice1Click() {
     toggleChoicesView()
+    const isCorrectChoice = choicesFlow.get(choicesMap.get(this.firstChild.textContent))
+    console.log(isCorrectChoice)
+
     switch (this.firstChild.textContent) {
         case choices.CHOICE_1_1:
+            
             setSceneTextTypewriter(scenes.SCENE_1_1)
             setBackground(backgrounds.BG_1_1)
             setTimeout(() => {
@@ -36,6 +41,9 @@ function choice1Click() {
 }
 function choice2Click() {
     toggleChoicesView()
+    const isCorrectChoice = choicesFlow.get(choicesMap.get(this.firstChild.textContent))
+    console.log(isCorrectChoice)
+
     switch (this.firstChild.textContent) {
         case choices.CHOICE_1_2:
             setSceneTextTypewriter(scenes.SCENE_1_2)
@@ -51,6 +59,8 @@ function choice2Click() {
 }
 function choice3Click() {
     toggleChoicesView()
+    const isCorrectChoice = choicesFlow.get(choicesMap.get(this.firstChild.textContent))
+    console.log(isCorrectChoice)
     switch (this.firstChild.textContent) {
         case choices.CHOICE_1_3:
             setSceneTextTypewriter(scenes.SCENE_1_3)
