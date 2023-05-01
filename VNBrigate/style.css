@@ -3,10 +3,8 @@
 @import url(styles/media-android.css);
 @import url(styles/media-iphone.css);
 
-
-
 :root {
-    --bgUrl: url("assets/backgrounds/bg1.png");
+    --bgUrl: "";
 }
 
 body {

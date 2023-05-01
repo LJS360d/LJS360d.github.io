@@ -9,6 +9,8 @@ export function appendTypewriterText(element, text) {
     typewriterTxt.classList.add('typewriter')
     typewriterTxt.style.width = ''
     if (element instanceof HTMLElement) {
+        while(element.firstChild)
+            element.removeChild(element.lastChild)
         element.appendChild(typewriterTxt)
     } else {
         throw new Error('Not an HTMLElement')

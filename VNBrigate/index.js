@@ -2,94 +2,61 @@ import { appendTypewriterText } from "./modules/appendTypewriterText.js"
 import { setSceneTextTypewriter } from "./modules/setSceneTextTypewriter.js"
 import { setSceneText } from "./modules/setSceneText.js"
 import { setBackground } from "./modules/setBackground.js"
-import { choicesFlow,choicesMap } from "./assets/choices/choicesFlow.js"
-import * as choices from "./assets/choices/choices.js"
-import * as scenes from "./assets/scenes/scenes.js"
-import * as backgrounds from "./assets/backgrounds/backgrounds.js"
+import { Scene, scenesFlow } from "./assets/scenes/scenesFlow.js"
 
 const choice1 = document.getElementById('choice-1')
 const choice2 = document.getElementById('choice-2')
 const choice3 = document.getElementById('choice-3')
 const sceneText = document.getElementById('scene')
 
-appendTypewriterText(choice1, choices.CHOICE_1_1)
-appendTypewriterText(choice2, choices.CHOICE_1_2)
-appendTypewriterText(choice3, choices.CHOICE_1_3)
-setSceneText(scenes.SCENE_1)
+const startScenario = scenesFlow.get('start')
+setChoicesTextTypewriter(startScenario.nextChoices)
+setSceneText(startScenario.scene)
+setBackground(startScenario.background)
 
-function choice1Click() {
+
+function choiceButtonClick() {
     toggleChoicesView()
-    const isCorrectChoice = choicesFlow.get(choicesMap.get(this.firstChild.textContent))
-    console.log(isCorrectChoice)
-
-    switch (this.firstChild.textContent) {
-        case choices.CHOICE_1_1:
-            
-            setSceneTextTypewriter(scenes.SCENE_1_1)
-            setBackground(backgrounds.BG_1_1)
+    const prevScene = sceneText.textContent
+    const newScenario = scenesFlow.get(this.firstChild.textContent)
+    if (newScenario instanceof Scene) {
+        setSceneTextTypewriter(newScenario.scene)
+        setBackground(newScenario.background[0])
+        if (!newScenario.success) {
             setTimeout(() => {
-                setBackground(backgrounds.BG_1)
-                sceneText.textContent = scenes.SCENE_1
-                toggleChoicesView()
+                //show fail screen before going to next
+                setSceneText(prevScene)
             }, 5000)
-            break;
-        case choices.CHOICE_1_2:
-            
-            break;
+        }
+        setTimeout(() => {
+            setChoicesTextTypewriter(newScenario.nextChoices)
+            setBackground(newScenario.background[1])
+            toggleChoicesView()
+        }, 5000)
     }
 
 }
-function choice2Click() {
-    toggleChoicesView()
-    const isCorrectChoice = choicesFlow.get(choicesMap.get(this.firstChild.textContent))
-    console.log(isCorrectChoice)
 
-    switch (this.firstChild.textContent) {
-        case choices.CHOICE_1_2:
-            setSceneTextTypewriter(scenes.SCENE_1_2)
-            setBackground(backgrounds.BG_1_2)
-
-            setTimeout(() => {
-                setBackground(backgrounds.BG_1)
-                sceneText.textContent = scenes.SCENE_1
-                toggleChoicesView()
-            }, 5000)
-            break;  
-    }
+function setChoicesTextTypewriter(choices) {
+    appendTypewriterText(choice1, choices[0])
+    appendTypewriterText(choice2, choices[1])
+    appendTypewriterText(choice3, choices[2])
 }
-function choice3Click() {
-    toggleChoicesView()
-    const isCorrectChoice = choicesFlow.get(choicesMap.get(this.firstChild.textContent))
-    console.log(isCorrectChoice)
-    switch (this.firstChild.textContent) {
-        case choices.CHOICE_1_3:
-            setSceneTextTypewriter(scenes.SCENE_1_3)
-            setBackground(backgrounds.BG_1_3)
-
-            setTimeout(() => {
-                setBackground(backgrounds.BG_1)
-                sceneText.textContent = scenes.SCENE_1
-                toggleChoicesView()
-            }, 5000)
-            break;
-    }
-}
-
 function toggleChoicesView() {
     (choice1.style.display === 'none') ?
         showChoices() : hideChoices()
-        function hideChoices() {
-            choice1.style.display = 'none'
-            choice2.style.display = 'none'
-            choice3.style.display = 'none'
-        }
-        function showChoices() {
-            setTimeout(() => { choice1.style.display = 'flex' }, 500)
-            setTimeout(() => { choice2.style.display = 'flex' }, 1000)
-            setTimeout(() => { choice3.style.display = 'flex' }, 1500)
-        }
+    function hideChoices() {
+        choice1.style.display = 'none'
+        choice2.style.display = 'none'
+        choice3.style.display = 'none'
+    }
+    function showChoices() {
+        setTimeout(() => { choice1.style.display = 'flex' }, 500)
+        setTimeout(() => { choice2.style.display = 'flex' }, 1000)
+        setTimeout(() => { choice3.style.display = 'flex' }, 1500)
+    }
 }
 
-choice1.addEventListener('click', choice1Click)
-choice2.addEventListener('click', choice2Click)
-choice3.addEventListener('click', choice3Click)
+choice1.addEventListener('click', choiceButtonClick)
+choice2.addEventListener('click', choiceButtonClick)
+choice3.addEventListener('click', choiceButtonClick)
