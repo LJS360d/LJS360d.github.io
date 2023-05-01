@@ -17,24 +17,28 @@ setBackground(startScenario.background)
 
 function choiceButtonClick() {
     toggleChoicesView()
+    const READ_TIME_MS = 5000
     const prevScene = sceneText.textContent
     const newScenario = scenesFlow.get(this.firstChild.textContent)
     if (newScenario instanceof Scene) {
+
         setSceneTextTypewriter(newScenario.scene)
         setBackground(newScenario.background[0])
-        if (!newScenario.success) {
+        if (!newScenario.success)
             setTimeout(() => {
-                //show fail screen before going to next
+                //TODO:show +1/fail screen before going to next/prev
+
                 setSceneText(prevScene)
-            }, 5000)
-        }
+            }, READ_TIME_MS)
+
         setTimeout(() => {
             setChoicesTextTypewriter(newScenario.nextChoices)
             setBackground(newScenario.background[1])
             toggleChoicesView()
-        }, 5000)
+        }, READ_TIME_MS)
+    } else {
+        throw new Error('The Value in scenesFlow must be an instance of class Scene')
     }
-
 }
 
 function setChoicesTextTypewriter(choices) {
