@@ -1,4 +1,4 @@
-export const CHOICE_1_1 = 'Fava';
+export const CHOICE_1_1 = 'PUPPA';
 
 export const CHOICE_1_2 = 'CHOICE_1_2';
 

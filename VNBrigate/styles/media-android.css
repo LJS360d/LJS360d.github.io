@@ -1,4 +1,4 @@
-@media only screen and (max-width: 500px) {
+@media screen and (max-width: 499px) {
     body {
         margin: 0 0;
         display: flex;
@@ -6,7 +6,6 @@
         height: 100dvh;
         align-items: center;
         font-family: 'Share-TechMono', sans-serif;
-
         overflow-x: hidden;
         overflow-y: auto;
     }
