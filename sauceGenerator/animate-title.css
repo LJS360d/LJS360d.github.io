@@ -1,0 +1,35 @@
+:root{
+    --c: red;
+}
+#title {
+    display: flex;
+    align-items: center;
+    font-size: 48px;
+    position: relative;
+}
+
+#title>span {
+    display: block;
+    transition: all 1s ease-in-out;
+}
+
+#title:hover>span {
+    transform: rotateY(1440deg);
+    color: var(--c);
+}
+
+span.letter {
+    animation: appear-top 2s 1;
+}
+
+@keyframes appear-top {
+
+    from {
+        opacity: 0;
+        transform: translateY(-50px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+}
