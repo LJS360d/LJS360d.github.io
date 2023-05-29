@@ -1,0 +1,72 @@
+/* Iphone media query */
+@media only screen and (max-device-width: 926px) {
+  body {
+    width: 100dvw;
+    height: 100dvh;
+    margin: 0 0;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+  }
+  .background {
+    background: linear-gradient(
+      176deg,
+      rgba(42, 255, 0, 1) 0%,
+      rgba(76, 163, 0, 1) 30%,
+      rgba(0, 131, 27, 1) 60%,
+      rgba(0, 54, 11, 1) 100%
+    );
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -99;
+  }
+  h1 {
+    padding: 16px;
+    font-size: 10pc;
+    font-family: 'DeliciousOutline';
+    margin: 0;
+  }
+
+  h2 {
+    padding: 16px;
+    font-size: 5pc;
+  }
+
+  .qrcode{
+    display: none;
+  }
+  .content {
+    flex: 1;
+  }
+  .data-render {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .data-render span {
+    font-size: 4pc;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 12px;
+  }
+  .footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .footer a{
+    font-size: 4pc;
+  }
+  .footer span {
+    font-size: 3pc;
+  }
+  .footer p{
+    font-size: 2.25pc;
+  }
+}

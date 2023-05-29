@@ -42,4 +42,7 @@ A JavaScript implementation of the classic game Tris.
 
 GPT stands for Gianni Per Te.
 
+## [GreenApp](https://ljs360d.github.io/GreenApp)
+
+La App quella verde.
 

