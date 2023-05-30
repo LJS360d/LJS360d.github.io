@@ -1,5 +1,4 @@
-export const SCENE_1 = 
-"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras scelerisque elit sagittis augue bibendum pharetra. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed elementum mi interdum lectus facilisis feugiat."
+export const SCENE_1 = "David, un giovane inglese, e i suoi compagni di brigata sono in battaglia contro le truppe franchiste, che cercano di resistere all' interno della caserma Montaña di Madrid in attesa di soccorsi."
 
 export const SCENE_1_1 = "SCENE_1_1";
 

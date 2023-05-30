@@ -1,4 +1,4 @@
-export const BG_1 = "assets/backgrounds/bg1.png"
+export const BG_1 = "https://media.discordapp.net/attachments/1047776661824864297/1113090102835548242/luogo_di_socorso.jpg?width=1440&height=432"
 
 export const BG_1_1 = "https://i.waifu.pics/ueqBS0o.jpg"
 

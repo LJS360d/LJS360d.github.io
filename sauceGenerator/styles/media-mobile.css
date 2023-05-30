@@ -1,0 +1,73 @@
+@media only screen and (max-device-width: 926px) {
+  body {
+    margin: 0 0;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    overflow: hidden;
+    width: 100dvw;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #343945;
+    width: 100%;
+    padding: 1rem;
+    gap: .25rem;
+  }
+
+  .options {
+    display: flex;
+    align-items: center;
+  }
+
+  span#title {
+    user-select: none;
+    cursor: default;
+    font-size: 1pc;
+    color: white;
+    font-weight: bold;
+    font-family: "DeliciousOutline";
+  }
+
+  button.send {
+    display: none;
+  }
+
+  select {
+    padding: .25rem;
+    border-radius: 5px;
+    border: none;
+    background-color: #f5f5f5;
+  }
+
+  select:focus {
+    outline: none;
+    box-shadow: 0px 0px 3px #007bff;
+  }
+
+  optgroup[label="NSFW"] {
+    color: #dc3545;
+    font-weight: bold;
+  }
+
+  div.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #474e5d;
+    width: 100dvw;
+  }
+
+  div.content > img.pic {
+    height: auto;
+    width: 100%;
+    object-fit: contain;
+  }
+
+  footer {
+    background-color: #343945;
+    padding: 20px;
+    text-align: center;
+  }
+}

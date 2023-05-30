@@ -1,0 +1,76 @@
+@media only screen and (min-width: 900px) and (orientation: landscape) {
+
+    div.background {
+        position: absolute;
+        display: block;
+        width: 100dvw;
+        height: 100dvh;
+        background-image: var(--bgUrl);
+        background-size: cover;
+        background-repeat: no-repeat;
+        z-index: -100;
+        filter: blur(16px);
+    }
+    
+    div.content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100dvw;
+        height: 100dvh;
+    
+    }
+    
+    div.scenario>h3 {
+        margin-left: 0;
+        margin-top: 0;
+        font-size: 2pc;
+        text-shadow: 1px 1px 2px #000000;
+        -webkit-text-stroke: 0.5px #ffffff;
+    }
+    
+    div.scenario {
+        width: 60%;
+        height: 60vh;
+        display: flex;
+        flex-direction: column;
+        background-image: var(--bgUrl);
+        background-repeat: no-repeat;
+        background-position: 50%;
+        background-size: cover !important;
+        justify-content: space-between;
+    }
+    
+    div.scenario>span#scene {
+        height: 25%;
+        width: 100%;
+        background-color: #50505050;
+        color: white;
+        font-size: 1.5pc;
+    }
+    
+    
+    div.choices {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+    }
+    
+    div.choices>div {
+        height: 10dvh;
+        width: 60dvw;
+        border: 3px solid black;
+        background-color: #f1f1f1;
+        display: flex;
+        align-items: center;
+        font-size: 2em;
+        transition: 0.3s;
+    }
+    
+    div.choices>div:hover {
+        cursor: pointer;
+        scale: 1.05;
+        transition: 0.3s;
+    }
+}
