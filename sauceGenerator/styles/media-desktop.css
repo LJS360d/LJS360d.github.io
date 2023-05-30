@@ -2,9 +2,11 @@
   body {
     margin: 0 0;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    overflow: hidden;
+    overflow-x: hidden;
   }
-
+  body::-webkit-scrollbar{
+    display: none;
+  }
   header {
     display: flex;
     justify-content: space-between;
@@ -76,5 +78,13 @@
     background-color: #343945;
     padding: 20px;
     text-align: center;
+  }
+  footer > p {
+    color: white;
+    font-family: "DeliciousOutline";
+  }
+
+  .mobile-only {
+    display: none;
   }
 }
