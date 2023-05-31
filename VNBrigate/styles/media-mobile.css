@@ -20,7 +20,7 @@
         background-image: var(--bgUrl);
         background-repeat: no-repeat;
         background-position: 50%;
-        background-size: cover !important;
+        background-size: contain !important;
         justify-content: space-between;
         margin-left: 1rem;
         margin-right: 1rem;

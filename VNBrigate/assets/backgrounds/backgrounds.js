@@ -1,9 +1,6 @@
-export const BG_1 = "https://cdn.discordapp.com/attachments/1047776661824864297/1113102050423734372/luogo_di_socorso.jpg"
-
-export const BG_1_1 = "https://i.waifu.pics/ueqBS0o.jpg"
-
-export const BG_1_2 = "https://i.waifu.pics/5DzyBWd.jpg"
-
-export const BG_1_3 = "https://i.waifu.pics/CgnVr~h.jpg"
-
-export const BG_2 = "https://i.waifu.pics/ZBCHHyT.jpg"
+export const BG_DEATH = "../assets/backgrounds/your_dead.png";
+export const BG_INTRO = "../assets/backgrounds/intro.png";
+export const BG_RIPNICOLAS = "../assets/backgrounds/RIP_Nicolas.png";
+export const BG_DEATH_ALL = "../assets/backgrounds/death_all.png";
+export const BG_DEPARTURE = "../assets/backgrounds/departure.png";
+export const BG_1 = "../assets/backgrounds/nicolas_ferita.png";
