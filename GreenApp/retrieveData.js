@@ -63,11 +63,11 @@ $(document).ready(function () {
 
     <span><i class="fa-solid fa-smog"> ppm 10</i><span ${rowModel.getPpm10Color()}>${rowModel.ppm10}</span></span>
     
-    <span><i class="fa-solid fa-biohazard"> Acetone</i><span ${rowModel.getCh3Color()}>${rowModel.ch3}</span></span>
-    
     <span><i class="fa-solid fa-burst"> Ammoniaca</i><span ${rowModel.getNh3Color()}>${rowModel.nh3}</span></span>
     
     <span><i class="fa-solid fa-hurricane"> Anidride Carbonica</i><span ${rowModel.getCo2Color()}>${rowModel.co2}</span></span>
+    
+    <span><i class="fa-solid fa-biohazard"> Monossido di Carbonio</i><span ${rowModel.getCoColor()}>${rowModel.co}</span></span>
     
     </div>`;
     contentDiv.appendChild(dataRender);

@@ -7,7 +7,7 @@ export class rowModel {
     this.humidity = String(this.rawData[3]).concat("%");
     this.ppm2_5 = String(this.rawData[4]).concat("µg/m³");
     this.ppm10 = String(this.rawData[5]).concat("µg/m³");
-    this.ch3 = String(this.rawData[6]).concat("ppm");
+    this.co = String(this.rawData[6]).concat("mg/m³");
     this.co2 = String(this.rawData[7]).concat("ppm");
     this.nh3 = String(this.rawData[8]).concat("µg/m³");
   }
@@ -40,11 +40,11 @@ export class rowModel {
     return styleString+"'";
   }
 
-  getCh3Color(){
-    const ch3Value = parseFloat(String(this.rawData[6]).replace(",","."));
+  getCoColor(){
+    const coValue = parseFloat(String(this.rawData[6]).replace(",","."));
     let styleString = "style='color: ";
-    if(ch3Value > 50) styleString+="red;"
-    else if(ch3Value > 40)  styleString+="orange;"
+    if(coValue > 50) styleString+="red;"
+    else if(coValue > 40)  styleString+="orange;"
     else  styleString+="lime;";
     return styleString+"'";
   
