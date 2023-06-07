@@ -1,9 +1,4 @@
 @media only screen and (min-width: 927px) and (orientation: landscape) {
-  body {
-    margin: 0 0;
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    overflow-x: hidden;
-  }
 
   body::-webkit-scrollbar {
     display: none;
@@ -13,30 +8,16 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #343945;
     padding: 20px;
   }
 
-  .options {
-    display: flex;
-    align-items: center;
-  }
-
   span#title {
-    user-select: none;
-    cursor: default;
     font-size: 2pc;
-    color: white;
-    font-weight: bold;
-    font-family: "DeliciousOutline";
   }
 
   button {
     padding: 10px 15px;
     border-radius: 5px;
-    border: none;
-    color: #fff;
-    background-color: #007bff;
     margin-right: 10px;
     cursor: pointer;
   }
@@ -48,9 +29,7 @@
   select {
     padding: 10px;
     border-radius: 5px;
-    border: none;
-    background-color: #f5f5f5;
-    cursor: pointer;
+      cursor: pointer;
   }
 
   select:focus {
@@ -58,37 +37,22 @@
     box-shadow: 0px 0px 3px #007bff;
   }
 
-  optgroup[label="NSFW"] {
-    color: #dc3545;
-    font-weight: bold;
-  }
-
   div.content {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #474e5d;
     min-height: 80vh;
     user-select: none;
   }
 
-  div.content>img.pic {
+  div.content img.pic {
     height: 80vh;
     width: auto;
     object-fit: contain;
   }
 
-  footer {
-    background-color: #343945;
-    padding: 20px;
-    text-align: center;
-    display: flex;
-    justify-content: space-between;
-  }
-
   footer p {
-    color: white;
-    font-family: "DeliciousOutline";
+    font-size: large;
   }
 
   .mobile-only {

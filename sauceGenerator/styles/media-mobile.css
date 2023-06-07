@@ -1,34 +1,21 @@
 @media only screen and (max-device-width: 926px) {
-  body {
-    margin: 0 0;
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    overflow-x: hidden;
-    width: 100dvw;
-  }
 
   header {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: #343945;
     width: 100%;
     gap: .25rem;
     padding: 1rem 0;
   }
 
-  .options {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  span#title {
+    font-size: 1pc;
   }
 
-  span#title {
-    user-select: none;
-    cursor: default;
-    font-size: 1pc;
-    color: white;
-    font-weight: bold;
-    font-family: "DeliciousOutline";
+  button {
+    border-radius: 5px;
+    padding: 0.25rem;
   }
 
   button.send {
@@ -43,58 +30,24 @@
     width: 80%;
   }
 
-  select:focus {
-    outline: none;
-    box-shadow: 0px 0px 3px #007bff;
-  }
-
-  optgroup[label="NSFW"] {
-    color: #dc3545;
-    font-weight: bold;
-  }
-
   div.content {
     display: flex;
-    background-color: #474e5d;
     min-height: 82vh;
   }
 
-  div.content>img.pic {
+  div.content img.pic {
     height: 82vh;
     width: 100%;
     object-fit: contain;
   }
 
-  footer {
-    background-color: #343945;
-    padding: 20px;
-    text-align: center;
-    bottom: 0;
+  footer div {
     display: flex;
-    justify-content: space-between;
+    align-items: center;
   }
 
   footer p {
-    color: white;
-    font-family: "DeliciousOutline";
     font-size: smaller;
-  }
-
-  #sidebar-btn {
-    /* position */
-    position: absolute;
-    right: 0;
-    bottom: 5rem;
-
-    /* Appearance */
-    padding: 2px 6px;
-    border-radius: 5px;
-    border: none;
-    color: #fff;
-    background-color: #007bff;
-
-
-    text-align: center;
   }
 
   .desktop-only {
