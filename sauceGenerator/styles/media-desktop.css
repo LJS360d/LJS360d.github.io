@@ -4,9 +4,11 @@
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     overflow-x: hidden;
   }
-  body::-webkit-scrollbar{
+
+  body::-webkit-scrollbar {
     display: none;
   }
+
   header {
     display: flex;
     justify-content: space-between;
@@ -29,7 +31,7 @@
     font-family: "DeliciousOutline";
   }
 
-  button.send {
+  button {
     padding: 10px 15px;
     border-radius: 5px;
     border: none;
@@ -39,7 +41,7 @@
     cursor: pointer;
   }
 
-  button.send:hover {
+  button:hover {
     background-color: #0062cc;
   }
 
@@ -66,10 +68,12 @@
     justify-content: center;
     align-items: center;
     background-color: #474e5d;
+    min-height: 80vh;
+    user-select: none;
   }
 
-  div.content > img.pic {
-    height: 86vh;
+  div.content>img.pic {
+    height: 80vh;
     width: auto;
     object-fit: contain;
   }
@@ -78,8 +82,11 @@
     background-color: #343945;
     padding: 20px;
     text-align: center;
+    display: flex;
+    justify-content: space-between;
   }
-  footer > p {
+
+  footer p {
     color: white;
     font-family: "DeliciousOutline";
   }

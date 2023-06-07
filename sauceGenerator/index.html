@@ -70,36 +70,56 @@
                 <button id="v2" type="submit" class="send">Send V2 <i class="far fa-paper-plane"></i></button>
                 <select id="tagSelect">
                     <optgroup label="SFW">
-                      <option value="maid">Maid</option>
-                      <option value="waifu">Waifu</option>
-                      <option value="marin-kitagawa">Marin Kitagawa</option>
-                      <option value="mori-calliope">Mori Calliope</option>
-                      <option value="raiden-shogun">Raiden Shogun</option>
-                      <option value="oppai">Oppai</option>
-                      <option value="selfies">Selfies</option>
-                      <option value="uniform">Uniform</option>
+                        <option value="maid">Maid</option>
+                        <option value="waifu">Waifu</option>
+                        <option value="marin-kitagawa">Marin Kitagawa</option>
+                        <option value="mori-calliope">Mori Calliope</option>
+                        <option value="raiden-shogun">Raiden Shogun</option>
+                        <option value="oppai">Oppai</option>
+                        <option value="selfies">Selfies</option>
+                        <option value="uniform">Uniform</option>
                     </optgroup>
                     <optgroup label="NSFW">
-                      <option value="ass">Ass</option>
-                      <option value="hentai">Hentai</option>
-                      <option value="milf">Milf</option>
-                      <option value="oral">Oral</option>
-                      <option value="paizuri">Paizuri</option>
-                      <option value="ecchi">Ecchi</option>
-                      <option value="ero">Ero</option>
+                        <option value="ass">Ass</option>
+                        <option value="hentai">Hentai</option>
+                        <option value="milf">Milf</option>
+                        <option value="oral">Oral</option>
+                        <option value="paizuri">Paizuri</option>
+                        <option value="ecchi">Ecchi</option>
+                        <option value="ero">Ero</option>
                     </optgroup>
-                  </select>
-                  
+                </select>
+
             </div>
         </div>
     </header>
+    <div id="album">
+    </div>
     <div class="content">
     </div>
     <footer>
-        <p>
-            Tap on the right of the screen to get an image from the right Selection,
-            Left for the left selection
-        </p>
+        <div class="navbar-left">
+            <button onclick="toggleAlbum()">Toggle Album</button>
+            <!--<button onclick="clearAlbum()">Clear Album</button>-->
+        </div>
+        <div class="navbar-center">
+            <p>
+                Tap on the right of the screen to get an image from the right Selection,
+                Left for the left selection
+            </p>
+        </div>
     </footer>
+    <script type="text/javascript">
+        const album = document.getElementById('album')
+        function toggleAlbum() {
+            album.style.display = (album.style.display == 'none') ? 'block' : 'none'
+        }
+        /* function clearAlbum() {
+            while(album.firstChild)
+            album.removeChild(album.lastChild)
+            
+        } */
+    </script>
 </body>
+
 </html>
