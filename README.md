@@ -34,9 +34,9 @@ Get a random real life, or cats, fact every time you click on the page.
 
 Best project.
 
-## [Tris](https://ljs360d.github.io/Tris)
+## [Tic Tac Toe](https://ljs360d.github.io/Tris)
 
-A JavaScript implementation of the classic game Tris.
+A JavaScript implementation of the classic game Tic Tac Toe.
 
 ## [gianniPerTe](https://ljs360d.github.io/gianniPerTe)
 

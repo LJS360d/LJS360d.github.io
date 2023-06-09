@@ -1,33 +1,37 @@
-*{
-    font-weight: 650;
-    font-size: 6.5vw;
-    font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
-}
 body {
-    background-image: linear-gradient(90deg,#111, #444,#aaa);
-
+    background-image: url("assets/trollface-funny.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-#wordsbox{
+
+#wordsbox {
     padding-top: 5vh;
     padding-left: 10vw;
     z-index: 1;
 }
-.line{
+
+span {
+    font-weight: 650;
+    font-size: 6.5vw;
+    color: white;
+    text-shadow: 1px 1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, -1px -1px 0 #000;
+}
+
+.line {
     display: flex;
+    flex-direction: row;
 }
-.word{
-    cursor: pointer;
-    text-transform: uppercase;
-    color:white;
-}
-.char{
+
+.line .char {
     cursor: pointer;
     color: white;
     text-transform: uppercase;
-    min-width: 8.68px;
+    font-weight: 650;
+    font-size: 6.5vw;
+    font-family: "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
+    text-shadow: 1px 1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, -1px -1px 0 #000;
 }
-#wordsbox:has(.hoverfx:hover) .hoverfx:not(.hoverfx:hover){
+
+#wordsbox:has(.hoverfx:hover) .hoverfx:not(.hoverfx:hover) {
     opacity: 0.3;
 }
-  
-  
