@@ -1,0 +1,30 @@
+.badge-selector{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(5, 2fr);
+    gap: 0.25rem;
+    width: min-content;
+}
+
+.badge-selector-item {
+    aspect-ratio: 1;
+    height: 3rem;
+    font-size: 1.5pc;
+    color: white;
+    border: 1px solid;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: 0.3s all;
+    border-radius: 5px;
+}
+
+.badge-selector-item:hover {
+    scale: 1.1;
+}
+
+.badge-selector:has(.badge-selector-item:hover) .badge-selector-item:not(.badge-selector-item:hover){
+    opacity: 0.3;
+}

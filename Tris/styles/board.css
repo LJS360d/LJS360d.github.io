@@ -1,0 +1,55 @@
+#board {
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 2fr);
+    gap: .5rem;
+    width: min-content;
+    transition: 0.3s all;
+}
+#board.draw{
+    animation: draw 1s infinite ease-in-out;
+}
+
+.board-cell {
+    display: flex;
+    justify-content: center;
+    color: white;
+    aspect-ratio: 1;
+    height: 200px;
+    background-color: #202020;
+    font-size:calc( 200px - 50px);
+    font-family: 'NRT Reg', sans-serif;
+    user-select: none;
+
+    transition: 0.3s all;
+}
+
+.board-cell.win {
+    color: lime;
+    animation: win 1s infinite ease-in-out;
+}
+
+@keyframes win {
+    0% {
+        color: white;
+    }
+    50% {
+        color: lime;
+    }
+    100% {
+        color: white;
+    }
+}
+
+@keyframes draw {
+    0% {
+        background-color: white;
+    }
+    50% {
+        background-color: red;
+    }
+    100% {
+        background-color: white;
+    }
+}

@@ -1,0 +1,46 @@
+#header {
+    display: flex;
+    justify-content: space-between;
+    height: 92px;
+}
+
+#header>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .5rem;
+    gap: .5rem;
+}
+
+.player-select {
+    font-size: 1.2pc;
+    font-family: 'NRT Reg', sans-serif;
+}
+
+#xButton:checked ~ label[for="xButton"] {
+    background-color: green;
+    color: white;
+}
+#oButton:checked ~ label[for="oButton"] {
+    background-color: red;
+    color: white;
+}
+
+#userbar {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .25rem;
+    padding: 0.75rem 0.375rem;
+    border-radius: 0.375rem;
+    font-size: 1.5pc;
+}
+
+#userbar span.username {
+    font-family: 'DeliciousOutline', sans-serif;
+}
+
+#userbar i {
+    color: white;
+}

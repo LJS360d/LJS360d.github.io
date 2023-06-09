@@ -1,0 +1,14 @@
+dialog {
+    background-color: #212529;
+    border-radius: 5px;
+    color: white;
+}
+
+.close-modal {
+    cursor: pointer;
+    font-size: 2pc;
+}
+
+.modal-form{
+    gap: 1rem;
+}

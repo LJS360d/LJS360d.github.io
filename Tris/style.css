@@ -1,25 +1,25 @@
+@import url('https://fonts.cdnfonts.com/css/nrt-reg');
+@import url('https://fonts.cdnfonts.com/css/deliciousoutline');
+@import url("./styles/board.css");
+@import url("./styles/header.css");
+@import url("./styles/modal.css");
+@import url("./styles/badge-selector.css");
+
 body{
-    background-color: #202020;
     margin: 0px auto;
     color: white;
     overflow-y: hidden;
 }
-#header{
-    width: 99.5vw;
-    height: 5vh;
-    z-index: 10;
-    display: table;
-    background-color: rgb(60, 60, 60);
-    border: 3px outset white;
-    margin: 0 auto;
-}.headcell{display: table-cell; vertical-align: middle;}
-#urname{
-    color: white;
-    font-size: 200%;
-    cursor: pointer;
-    font-family: sans-serif;
-    margin-left: 0.25vw;
+
+#content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100dvh - 92px);
+    background-color: #202020;
+
 }
+
 .unselectable{
     -webkit-touch-callout: none;
     -webkit-user-select: none;
@@ -27,33 +27,4 @@ body{
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-}
-.cell{
-    color: #202020;
-    position: relative;
-    display: inline-block;
-    min-height: 240px; 
-    min-width: 165px;
-    
-}
-#board{
-    position: relative;
-    font-family: sans-serif;
-    font-size: 1300%;
-    cursor:pointer;
-    margin: auto auto;
-    height: 770px;
-    width: 680px;
-    
-}
-#boardbg{
-    position: relative;
-    z-index: 10;
-    background-image: url(./boardbg.png);
-    align-content: center;
-    width: fit-content;
-    height: fit-content;
-    margin-left: 25vh;
-    height: 770px;
-    width: 690px;
 }
