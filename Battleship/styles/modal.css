@@ -1,0 +1,26 @@
+dialog {
+    background-color: #212529;
+    border-radius: 5px;
+    color: white;
+}
+
+.close-modal {
+    cursor: pointer;
+    font-size: 2pc;
+}
+
+dialog form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+dialog form div {
+    display: flex;
+}
+
+select {
+    display: flex;
+    width: 100%;
+    padding: .25rem;
+    margin: 1rem;
+}

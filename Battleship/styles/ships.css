@@ -1,0 +1,35 @@
+#ship-container {
+    display: flex;
+    flex-direction: column;
+    gap: calc(var(--boardLabelFontSize) / 3);
+    margin: var(--boardLabelFontSize);
+    width: min-content;
+}
+
+ship {
+    display: flex;
+    width: min-content;
+}
+
+ship[rotation="right"] {
+    flex-direction: row;
+}
+
+
+ship[rotation="down"] {
+    flex-direction: column;
+}
+
+
+ship square {
+    background-color: rgba(0, 255, 255, 0.4);
+    aspect-ratio: 1;
+    height: var(--squareSize);
+    border: 1px solid white;
+    transition: 0.2s all;
+    aspect-ratio: 1;
+}
+
+ship[positioning="1"] square {
+    background-color: rgba(0, 255, 255, 0.6);
+}

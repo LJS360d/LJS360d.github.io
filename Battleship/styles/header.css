@@ -1,0 +1,48 @@
+@import url("opponent-search.css");
+#header {
+    display: flex;
+    justify-content: space-between;
+    height: 92px;
+    color: white;
+}
+
+#header>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .5rem;
+    gap: .5rem;
+}
+
+#userbar {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .25rem;
+    padding: 0.75rem 0.375rem;
+    border-radius: 0.375rem;
+    font-size: 1.5pc;
+    user-select: none;
+}
+
+#userbar span.username {
+    font-family: 'DeliciousOutline', sans-serif;
+}
+
+#userbar i {
+    aspect-ratio: 1;
+    width: 1.5rem;
+}
+
+.form-switch {
+    gap: .5rem;
+}
+
+input[type="checkbox"]+label {
+    transition: 0.3s all;
+}
+
+input[type="checkbox"]:checked+label {
+    color: lime;
+}

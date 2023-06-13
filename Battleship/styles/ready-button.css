@@ -1,0 +1,57 @@
+button.ready {
+    display: none;
+    min-width: 300px;
+    min-height: 60px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    font-weight: 700;
+    background: #4FD1C5;
+    background: linear-gradient(90deg, rgb(92, 238, 29) 0%, rgb(2, 163, 10) 100%);
+    border: none;
+    border-radius: 1000px;
+    transition: all 0.3s ease-in-out 0s;
+    cursor: pointer;
+    outline: none;
+    position: relative;
+}
+
+button.ready:not(.disabled):hover,
+button.ready:not(.disabled):focus {
+    transform: scale(1.01);
+}
+
+/* ring animation */
+button.ready:not(.disabled):after {
+    content: '';
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    border: 6px solid #5cee1d;
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: ring 1.5s infinite;
+}
+
+button.ready:not(.disabled):hover::after {
+    animation: none;
+    display: none;
+}
+
+@keyframes ring {
+    0% {
+        width: 30px;
+        height: 30px;
+        opacity: 1;
+    }
+
+    100% {
+        width: 100%;
+        height: 150px;
+        opacity: 0;
+    }
+}

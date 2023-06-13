@@ -7,9 +7,9 @@ Welcome to my random projects showcase! Here you can find some of the projects I
 
 Actually Birds, Cats and Dogs. Generate a random image, very classy.
 
-## [VNBrigate](https://ljs360d.github.io/VNBrigate)
+## [Battleship](https://ljs360d.github.io/Battleship)
 
-A Visual Novel game that showcases the international brigades that fought for freedom in Spain.
+You know it, you love it, it's Battleship, it's a game, about ships, that do battle.
 ## [Encrypting](https://ljs360d.github.io/Encrypting)
 
 A simple encryption tool that allows you to encrypt and decrypt messages using a key.

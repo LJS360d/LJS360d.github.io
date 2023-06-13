@@ -1,0 +1,121 @@
+chat {
+    position: relative;
+    color: white;
+    display: flex;
+    border: 1px solid;
+    border-right: none;
+    width: 30%;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.3s ease-in-out;
+}
+
+chat nav.chat-header {
+    position: sticky;
+    flex-shrink: 0;
+    height: 2rem;
+    width: 100%;
+    border-bottom: 1px solid;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+}
+
+chat nav.chat-header #turn-counter {
+    transition: color 0.3s;
+}
+
+chat nav.chat-header #turn-counter.my-turn {
+    color: lime;
+
+}
+
+chat nav.chat-footer {
+    display: flex;
+    position: sticky;
+    flex-shrink: 0;
+    height: min-content;
+    width: 100%;
+    border-top: 1px solid;
+    bottom: 0;
+    z-index: 1;
+}
+
+chat nav.chat-footer div.message-send-bar {
+    display: flex;
+    border-radius: 10px;
+    width: 100%;
+}
+
+chat nav.chat-footer div.message-send-bar button {
+    border-radius: 5px;
+    background-color: inherit;
+    border: none;
+    cursor: pointer;
+    padding: 1rem;
+}
+
+chat nav.chat-footer div.message-send-bar button i {
+    color: white;
+}
+
+chat nav.chat-footer div.message-send-bar input {
+    resize: none;
+    outline: none;
+    border: none;
+    font-size: 1pc;
+    padding: .5rem .5rem;
+    width: 100%;
+    border-radius: 5px;
+    background-color: inherit;
+    color: white;
+}
+
+chat div#chat-messages {
+    min-height: 75vh;
+    max-height: 75vh;
+    flex: 1;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+}
+
+chat div#chat-messages message {
+    flex-shrink: 0;
+    background-color: #202020;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+chat div#chat-messages message span.sender {
+    z-index: 1;
+    padding: .25rem;
+}
+
+chat div#chat-messages message span.message {
+    margin-left: 1rem;
+    padding: .15rem;
+    word-wrap: break-word;
+}
+
+chat div#chat-messages message:nth-child(even) {
+    background-color: #353535;
+}
+
+chat div#chat-messages::-webkit-scrollbar {
+    width: 3px;
+}
+
+chat div#chat-messages::-webkit-scrollbar-thumb {
+    background-color: #454545;
+    border-radius: 4px;
+}
+
+chat.hidden {
+    transform: translateX(100%);
+}

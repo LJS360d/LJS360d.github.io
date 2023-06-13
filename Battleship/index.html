@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- metadata -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+        integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/ce9bc4dbd7.js" crossorigin="anonymous"></script>
+    <!-- others -->
+    <script src="https://cdn.socket.io/socket.io-3.0.0.js"></script>
+    <script src="https://unpkg.com/petite-vue" defer init></script>
+    <!-- icons -->
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png" />
+    <link rel="manifest" href="assets/site.webmanifest" />
+    <!-- own scripts/styles -->
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="modules/auth.js"></script>
+    <script type="module" src="modules/badges.js"></script>
+    <script type="module" src="modules/board.js"></script>
+    <script type="module" src="modules/ships.js"></script>
+    <script type="module" src="modules/options.js"></script>
+    <!-- server communication -->
+    <script type="module" src="modules/server-side/disconnect.js"></script>
+    <script type="module" src="modules/server-side/chat.js"></script>
+    <script type="module" src="modules/server-side/match.js"></script>
+    <script type="module" src="modules/server-side/opponent-search.js"></script>
+    <script type="module" src="modules/server-side/onReady.js"></script>
+
+    <script type="module" src="script.js" defer></script>
+    <!-- Title -->
+    <title>Battleship</title>
+</head>
+
+<body>
+    <!--header-->
+    <nav id="header" class="navbar navbar-dark bg-dark">
+        <div class="navbar-left">
+            <button id="menu-button" type="button" class="btn text-white"
+                onclick="document.getElementById('menu-dialog').showModal()"><i class="fa fa-bars"></i></button>
+            <button id="auth-button" type="button" class="btn btn-outline-success"
+                onclick="document.getElementById('auth-modal').showModal()">Choose a name</button>
+            <dialog id="auth-modal">
+                <!-- close-button -->
+                <span onclick="this.parentElement.close()" class="close-modal">&times;</span>
+                <form autocomplete="off" id="auth-form" method="dialog" class="modal-form d-flex flex-md-column">
+                    <input id="auth-username" type="text" placeholder="Username" minlength="4" maxlength="16" required>
+                    <button id="auth-confirm" class="btn btn-success" type="submit" formmethod="dialog">Confirm</button>
+                </form>
+            </dialog>
+            <dialog id="badge-change">
+                <!-- close-button -->
+                <span onclick="this.parentElement.close()" class="close-modal">&times;</span>
+                <h2>Select a new Badge</h2>
+                <div class="badge-selector">
+                    <!-- badge choices built here in modules/badges.js -->
+                </div>
+                <h5>Unlock more badges by Playing</h5>
+            </dialog>
+            <dialog id="menu-dialog">
+                <!-- close-button -->
+                <span onclick="this.parentElement.close()" class="close-modal">&times;</span>
+                <form action="dialog">
+                    <h4>Options</h4>
+                    <div class="form-switch">
+                        <input class="form-check-input" type="checkbox" id="highlight-taken-squares">
+                        <label for="highlight-taken-squares">Highlight Taken Squares</label>
+                    </div>
+                    <div>
+                        <input type="range" name="adjust-square-size" id="square-size-slider"
+                        min="1" max="4">
+                        <label for="square-size-slider">Adjust Square Size</label>
+                    </div>
+                    <div>
+                        <label for="theme-select">Change Theme</label>
+                        <select name="theme" id="theme-select">
+                            <option value="dark">Dark</option>
+                        </select>
+                    </div>
+                    <button class="btn btn-success" formmethod="dialog" type="submit">Confirm</button>
+                </form>
+            </dialog>
+        </div>
+        <div class="navbar-right">
+            <button id="random-opponent-button" class="btn btn-outline-success">Search a Random Opponent</button>
+            <button id="toggle-chat-button" class="btn btn-outline-primary">Hide Chat</button>
+
+        </div>
+    </nav>
+    <div id="app-wrapper">
+        <div id="content">
+            <div id="board-container">
+                <!--Board built here in modules/board.js-->
+            </div>
+            <div id="ship-container">
+                <!--Ships built here in modules/ships.js-->
+            </div>
+            <div id="opponent-board-container">
+                <!--Opponent Board built here in on 'match-started'-->
+            </div>
+        </div>
+
+        <chat id="chat">
+            <nav class="chat-header navbar navbar-dark bg-dark">
+                <span id="turn-counter"></span>
+            </nav>
+            <div id="chat-messages">
+                <!-- Get messages from server-side -> modules/server-side/chat.js -->
+            </div>
+            <nav class="chat-footer bg-dark">
+                <div class="message-send-bar">
+                    <input type="text" name="chat-msg" id="chat-msg-input" 
+                    placeholder="Send a Message" maxlength="300">
+                    <button type="submit"><i class="fa fa-paper-plane"></i></button>
+                </div>
+            </nav>
+        </chat>
+    </div>
+</body>
+
+</html>

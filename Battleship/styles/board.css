@@ -1,0 +1,80 @@
+#board-container{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+board {
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+    grid-template-rows: repeat(11, 1fr);
+    width: min-content;
+    transition: 0.3s all;
+    color: white;
+}
+
+board square {
+    display: inline-block;
+    aspect-ratio: 1;
+    height: var(--squareSize);
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid white;
+    transition: 0.2s ease-in-out;
+}
+board square.hit {
+    background-color: #ff0000aa;
+}
+board square.miss {
+    background-color: #00ff00aa;
+}
+board square:not(.hit):not(.miss).taken {
+    background-color: #fff200aa;
+}
+
+board square:not(.hit):not(.miss):hover {
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+board span {
+    user-select: none;
+    display: flex;
+    aspect-ratio: 1;
+    height: var(--squareSize);
+    font-size: var(--boardLabelFontSize);
+    box-sizing: border-box;
+    border: 1px solid;
+
+}
+
+board span.column-label {
+    align-items: flex-end;
+    justify-content: center;
+}
+
+board span.row-label {
+    justify-content: center;
+    align-items: center;
+
+}
+
+span.row-label[row="0"]:has(~square:hover[row="0"]),
+span.row-label[row="1"]:has(~square:hover[row="1"]),
+span.row-label[row="2"]:has(~square:hover[row="2"]),
+span.row-label[row="3"]:has(~square:hover[row="3"]),
+span.row-label[row="4"]:has(~square:hover[row="4"]),
+span.row-label[row="5"]:has(~square:hover[row="5"]),
+span.row-label[row="6"]:has(~square:hover[row="6"]),
+span.row-label[row="7"]:has(~square:hover[row="7"]),
+span.row-label[row="8"]:has(~square:hover[row="8"]),
+span.row-label[row="9"]:has(~square:hover[row="9"]),
+span.column-label[column="A"]:has(~square:hover[column="A"]),
+span.column-label[column="B"]:has(~square:hover[column="B"]),
+span.column-label[column="C"]:has(~square:hover[column="C"]),
+span.column-label[column="D"]:has(~square:hover[column="D"]),
+span.column-label[column="E"]:has(~square:hover[column="E"]),
+span.column-label[column="F"]:has(~square:hover[column="F"]),
+span.column-label[column="G"]:has(~square:hover[column="G"]),
+span.column-label[column="H"]:has(~square:hover[column="H"]),
+span.column-label[column="I"]:has(~square:hover[column="I"]),
+span.column-label[column="J"]:has(~square:hover[column="J"]) {
+    background-color: rgba(0, 255, 0, 0.3);
+}
