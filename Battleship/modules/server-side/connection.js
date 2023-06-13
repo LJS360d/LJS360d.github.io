@@ -1,4 +1,4 @@
-export const REPL_URL = "ws://battleship.ljs360d.repl.co"
+export const REPL_URL = "wss://battleship.ljs360d.repl.co"
 //const LOCAL = "ws://127.0.0.1:8080"
 export const socket = io(REPL_URL, {
     secure: true,
