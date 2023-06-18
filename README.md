@@ -1,7 +1,9 @@
 
-# Random Projects Showcase
+# Go somewhere nice
 
-Welcome to my random projects showcase! Here you can find some of the projects I've been working on. Each project has a brief description.
+## [My Portfolio](https://ljs360d.github.io/Portfolio)
+
+Pretty?
 
 ## [Birdwatching](https://ljs360d.github.io/Birdwatching)
 
