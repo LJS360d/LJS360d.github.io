@@ -1,0 +1,21 @@
+@import url(./star-trail.css);
+@import url(./background.css);
+@import url(./content.css);
+@import url(./projects.css);
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+body::-webkit-scrollbar {
+  width: 3px;
+  background: linear-gradient(to bottom, rgba(32, 32, 32, 0.5) 30%, rgba(0, 0, 0, 0.8));
+  z-index: -999;
+}
+body::-webkit-scrollbar-thumb {
+  height: 20%;
+  border-radius: 20px;
+  background: linear-gradient(to bottom, #ff98cf, #a8dcff);
+}
