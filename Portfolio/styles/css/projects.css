@@ -14,10 +14,10 @@
   padding: 1rem;
   position: relative;
   color: black;
-  border: 2px solid;
   border-radius: 1rem;
   width: 25rem;
   transition: all 0.3s;
+  box-shadow: 6px 4px 1rem rgba(0, 0, 0, 0.4);
   cursor: pointer;
 }
 #my-projects .project img {
