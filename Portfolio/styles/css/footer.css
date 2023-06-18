@@ -1,0 +1,49 @@
+#footer {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 1rem;
+  background-color: #202020;
+  z-index: 10;
+  font-family: "Montserrat";
+  color: white;
+}
+#footer div.nav-left,
+#footer div.nav-right {
+  gap: 3rem;
+  display: flex;
+  flex-direction: row;
+}
+#footer div.nav-left div,
+#footer div.nav-right div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+#footer p {
+  margin: 0;
+}
+#footer a {
+  text-decoration: underline;
+  color: inherit;
+  background-color: transparent;
+  font-weight: inherit;
+  font-style: inherit;
+}
+#footer ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+#footer ul li {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 1rem;
+}
+#footer ul li i {
+  width: 1rem;
+  font-size: 1.5pc;
+}
