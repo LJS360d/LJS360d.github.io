@@ -3,6 +3,7 @@
 @import url(./content.css);
 @import url(./footer.css);
 @import url(./projects.css);
+@import url(./slanted-container.css);
 @import url("https://fonts.cdnfonts.com/css/deliciousoutline");
 body {
   width: 100vw;

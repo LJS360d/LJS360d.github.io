@@ -28,8 +28,39 @@
 }
 #content #heading h1 {
   margin: 0;
-  font-size: 5pc;
+  font-size: 4pc;
 }
 #content #factual {
-  padding: 1rem;
+  font-size: 1.3pc;
+  padding: 0.75rem;
+  display: flex;
+  justify-content: space-between;
+}
+#content #factual p {
+  width: 70%;
+}
+#content #factual .photo-roll {
+  width: 20%;
+  max-height: 40rem;
+  display: flex;
+  flex-direction: column;
+  overflow-y: hidden;
+  scroll-behavior: smooth;
+  border-radius: 50px;
+}
+#content #factual .photo-roll img {
+  width: 100%;
+  aspect-ratio: 1;
+  -o-object-fit: contain;
+     object-fit: contain;
+  animation: scrollAnimation 5s infinite linear;
+}
+
+@keyframes scrollAnimation {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
 }
