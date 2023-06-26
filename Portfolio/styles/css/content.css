@@ -46,9 +46,12 @@
   flex-direction: column;
   overflow-y: hidden;
   scroll-behavior: smooth;
+  margin: 0;
   border-radius: 50px;
+  background-color: black;
 }
 #content #factual .photo-roll img {
+  margin: 0;
   width: 100%;
   aspect-ratio: 1;
   -o-object-fit: contain;

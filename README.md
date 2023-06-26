@@ -3,7 +3,7 @@
 
 ## [My Portfolio](https://ljs360d.github.io/Portfolio)
 
-Pretty?
+Why again?
 
 ## [Birdwatching](https://ljs360d.github.io/Birdwatching)
 
