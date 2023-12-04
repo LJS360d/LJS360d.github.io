@@ -9,7 +9,7 @@ Why again?
 
 Actually Birds, Cats and Dogs. Generate a random image, very classy.
 
-## [sauceGenerator](https://ljs360d.github.io/sauceGenerator)
+## [sauceGenerator](https://sauce-forge.ljs360d.repl.co/sauce)
 
 Best project.
 
