@@ -1,9 +1,14 @@
-import { type ChangeEvent, useEffect, useState } from "react";
+import { useEffect, useState, type ChangeEvent } from "react";
 import { MdClose } from "react-icons/md";
-import Toolbar from "./Toolbar";
 import type { Route } from "../../models/types/route.type";
+import Toolbar from "./Toolbar";
 
 interface SidebarProps {
+  data: SidebarData;
+  changeTheme: (event: ChangeEvent<HTMLSelectElement>) => void;
+}
+
+interface SidebarData {
   title: string;
   theme?: string;
   themes: string[];
@@ -11,21 +16,10 @@ interface SidebarProps {
   routes: Route[];
 }
 
-export default function Sidebar({
-  themes,
-  version,
-  routes,
-  title,
-  theme,
-}: SidebarProps) {
+export default function Sidebar({ data, changeTheme }: SidebarProps) {
+  const { themes, version, routes, title, theme } = data;
   const [selectedTheme, setSelectedTheme] = useState<string | undefined>(theme);
   const sidebarId = "toggle-sidebar";
-  const changeTheme = (event: ChangeEvent<HTMLSelectElement>) => {
-    const newTheme = event.target.value;
-    setSelectedTheme(newTheme);
-    document.documentElement.setAttribute("data-theme", newTheme);
-    localStorage.setItem("theme", newTheme);
-  };
 
   useEffect(() => {
     const storedTheme = localStorage.getItem("theme");
@@ -60,7 +54,7 @@ export default function Sidebar({
               {routes.map((route, index) => (
                 <li key={index} className="capitalize">
                   <a href={route.route}>
-                    <route.icon />
+                    {route.icon({})}
                     <span>{route.label ?? route.route}</span>
                   </a>
                 </li>

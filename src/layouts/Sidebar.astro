@@ -1,0 +1,83 @@
+---
+import { MdClose } from "react-icons/md";
+import Toolbar from "../components/layout/Toolbar";
+import type { Route } from "../models/types/route.type";
+
+interface Props {
+  data: SidebarData;
+}
+
+interface SidebarData {
+  title: string;
+  theme?: string;
+  themes: string[];
+  version: string;
+  routes: Route[];
+}
+
+const sidebarId = "sidebar-toggle";
+const { data } = Astro.props;
+const { title, themes, theme, routes, version } = data;
+---
+
+<div class="drawer sticky top-0 z-40">
+  <input id={sidebarId} type="checkbox" class="drawer-toggle" />
+  <div class="drawer-content">
+    <Toolbar title={title} sidebarId={sidebarId} />
+    <slot />
+  </div>
+  <div class="drawer-side z-50">
+    <label for={sidebarId} aria-label="close sidebar" class="drawer-overlay"
+    ></label>
+    <div class="bg-base-300 flex flex-col h-full justify-between w-60">
+      <div>
+        <header class="flex w-full">
+          <label for={sidebarId} class="justify-start w-full btn btn-ghost">
+            <MdClose className="text-2xl" />
+          </label>
+        </header>
+        <ul class="menu text-lg">
+          {
+            routes.map((route) => (
+              <li class="capitalize">
+                <a href={route.route}>
+                  <route.icon />
+                  <span>{route.label ?? route.route}</span>
+                </a>
+              </li>
+            ))
+          }
+        </ul>
+      </div>
+      <footer class="flex flex-col items-center justify-center pb-2">
+        <div class="w-1/2">
+          <div class="label">
+            <span class="label-text">Theme</span>
+          </div>
+          <select
+            id="theme-select"
+            class="select select-secondary capitalize w-full"
+            name="theme"
+            onchange="
+            document.documentElement.setAttribute('data-theme', this.value);
+            localStorage.setItem('theme', this.value);
+            "
+          >
+            {themes.map((t) => <option value={t}>{t}</option>)}
+          </select>
+        </div>
+        <span class="text-sm">
+          Version: <b class="font-bold">{version}</b>
+        </span>
+      </footer>
+    </div>
+  </div>
+</div>
+<script data-theme={theme} type="module">
+  const themeSelect = document.getElementById("theme-select");
+  const themeKey = "theme";
+  const theme = localStorage.getItem(themeKey) || this.dataset.value;
+  console.log(theme);
+  themeSelect.value = theme;
+  document.documentElement.setAttribute("data-theme", theme);
+</script>

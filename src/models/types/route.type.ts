@@ -1,4 +1,5 @@
-import type { IconType } from "react-icons/lib";
+import type { ReactElement } from "react";
+import type { IconType } from "react-icons";
 
 export interface Route {
   readonly label: string;
