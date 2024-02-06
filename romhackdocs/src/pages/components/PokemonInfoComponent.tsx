@@ -1,15 +1,34 @@
 import Image from 'next/image';
 
 import { PokemonInfo } from '@/types/PokemonInfo';
+import { Types } from '@/types/Types';
 
 import StatBar from './StatBar';
+import TypeIcon from './TypeIcon';
 
 interface pokemonInfoProps {
   entry: PokemonInfo;
 }
 
 function PokemonInfoComponent({ entry }: pokemonInfoProps) {
-  const speciesName = entry.species.replace(/_/, "-").toLowerCase();
+  const speciesName = entry.species
+    .replace(/_/g, "-")
+    .toLowerCase();
+  const speciesUrl =
+    speciesName === "darmanitan-galarian"
+      ? "darmanitan-galarian-standard"
+      : speciesName === "darmanitan-zen-mode-galarian"
+      ? "darmanitan-galarian-zen"
+      : speciesName.replace(/(-cloak|-style|-mode)/g, "");
+
+      
+  const oldTypes = Array.from(
+    new Set(entry.oldType?.toLowerCase().split("/") as Types[])
+  );
+  const newTypes = Array.from(
+    new Set(entry.newType?.toLowerCase().split("/") as Types[])
+  );
+
   function copyToClipboard() {
     navigator.clipboard.writeText(getPokemonInfo());
   }
@@ -22,7 +41,7 @@ function PokemonInfoComponent({ entry }: pokemonInfoProps) {
     return info + "```";
   }
   return (
-    <li className='pokemon-info'>
+    <li className="pokemon-info">
       <div
         className="species"
         onClick={copyToClipboard}
@@ -31,7 +50,7 @@ function PokemonInfoComponent({ entry }: pokemonInfoProps) {
         <span>{speciesName}</span>
         <Image
           className="sprite"
-          src={`https://img.pokemondb.net/sprites/home/normal/${speciesName}.png`}
+          src={`https://img.pokemondb.net/sprites/home/normal/${speciesUrl}.png`}
           alt="Sprite"
           width={112}
           height={112}
@@ -48,9 +67,20 @@ function PokemonInfoComponent({ entry }: pokemonInfoProps) {
         )}
         {entry.newType && (
           <div className="type">
-            {"Type: "}
-            <span className="st red">{entry.oldType}</span>
-            <span className="green">{entry.newType}</span>
+            {
+              <div className="fd-row">
+                <span className="red">Old Type: </span>
+                {oldTypes.map((type, i) => (
+                  <TypeIcon key={i} type={type} strikeThrough></TypeIcon>
+                ))}
+              </div>
+            }
+            <div className="fd-row">
+              <span className="green">New Type: </span>
+              {newTypes.map((type, i) => (
+                <TypeIcon key={i} type={type}></TypeIcon>
+              ))}
+            </div>
           </div>
         )}
       </div>

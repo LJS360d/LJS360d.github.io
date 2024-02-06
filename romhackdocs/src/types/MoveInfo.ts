@@ -1,5 +1,6 @@
 export interface MoveInfo {
     name: string;
+    type?: string;
     oldPower?: string;
     newPower?: string;
     oldAccuracy?: string;

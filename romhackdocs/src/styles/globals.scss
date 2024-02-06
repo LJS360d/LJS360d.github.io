@@ -1,4 +1,6 @@
 @use "stats";
+@use "types";
+
 @use "list-style";
 @use "pokemon-list";
 
@@ -30,18 +32,20 @@ body {
     flex-direction: row;
 }
 .st {
-    /* position: relative;
+    text-decoration: line-through;
+}
+.obst {
+    position: relative;
     &::before {
         position: absolute;
         content: "";
         left: 0;
         top: 50%;
         right: 0;
-        border-top: 1px solid;
-        border-color: inherit;
-        transform: rotate(-5deg);
-    } */
-    text-decoration: line-through;
+        border-top: 3px solid;
+        border-color: red;
+        transform: rotate(10deg);
+    }
 }
 .red {
     color: red;
@@ -55,12 +59,14 @@ body {
 .invis {
     visibility: hidden;
 }
-.old-abilities,
-.new-abilities {
+.fd-row {
     display: flex;
     flex-direction: row;
 }
-
+.fd-column {
+    display: flex;
+    flex-direction: column;
+}
 span,
 b {
     text-transform: capitalize;

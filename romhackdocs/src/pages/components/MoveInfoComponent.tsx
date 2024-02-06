@@ -1,21 +1,28 @@
 import { Effects } from '@/types/EffectsRecord';
 import { MoveInfo } from '@/types/MoveInfo';
+import { Types } from '@/types/Types';
+
+import TypeIcon from './TypeIcon';
 
 interface moveInfoProps {
   entry: MoveInfo;
 }
 function MoveInfoComponent({ entry }: moveInfoProps) {
   const moveName = entry.name?.replace(/_/g, " ").toLowerCase();
+  const oldType = entry.oldType?.replace(/TYPE_/g, "").toLowerCase() as Types;
+  const newType = entry.newType?.replace(/TYPE_/g, "").toLowerCase() as Types;
+  const type = entry.type?.replace(/TYPE_/g, "").toLowerCase() as Types;
   return (
     <li className="move-info">
       <div>
-        <span className="move-name">{moveName}</span>
+        <span className="bold">{moveName}</span>
         {entry.newType && (
           <div>
-            <span className="st red">{entry.oldType}</span>
-            <span className="green bold">{entry.newType}</span>
+            <TypeIcon type={oldType} strikeThrough></TypeIcon>
+            <TypeIcon type={newType}></TypeIcon>
           </div>
         )}
+        {entry.type && <TypeIcon type={type}></TypeIcon>}
       </div>
       {entry.newPower && (
         <div>

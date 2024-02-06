@@ -1,0 +1,18 @@
+$types: ("normal", "fire", "water", "grass", "electric", "ice", "fighting", "poison", "ground", "flying", "psychic", "bug", "rock", "ghost", "dark", "dragon", "steel", "fairy","unknown");
+$typesColors: ("A8A878", "F08030", "6890F0", "78C850", "F8D030", "98D8D8", "C03028", "A040A0", "E0C068", "A890F0", "F85888", "A8B820", "B8A038", "705898", "705848", "7038F8", "B8B8D0", "EE99AC","68A090");
+
+@each $type, $color in zip($types, $typesColors) {
+  span.type-#{$type} {
+    background-color: unquote('#' + $color);
+    padding: .2rem;
+    width: 4rem;
+    border-radius: .5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Montserrat";
+    font-weight: bold;
+    color: #fff;
+    font-size: medium;
+  }
+}

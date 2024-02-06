@@ -52,8 +52,12 @@ function compareMoveInfo(oldInfo: MoveInfo[], newInfo: MoveInfo[]): string {
                 info += `"old${capitalize(key)}":"${oldMove[key]}","new${capitalize(key)}":"${newMove[key]}",`
 
         });
-        if (info !== '')
+        if (info !== '') {
+            if(oldMove["type"] === newMove["type"]){
+                info += `"type":"${oldMove["type"]}",`
+            }
             docs += `{"name":"${newMove.name}",\n${info.trim().substring(0, info.length - 1)}\n},`
+        }
     });
     return '[' + docs.substring(0, docs.length - 1) + ']';
 }

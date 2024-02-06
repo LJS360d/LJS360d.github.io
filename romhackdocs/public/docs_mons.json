@@ -1,0 +1,2731 @@
+[{"species":"BULBASAUR",
+"oldAbilities":"OVERGROW/NONE"
+,"newAbilities":"OVERGROW/THICK FAT"
+},{"species":"IVYSAUR",
+"oldAbilities":"OVERGROW/NONE"
+,"newAbilities":"OVERGROW/THICK FAT"
+},{"species":"VENUSAUR",
+"oldAbilities":"OVERGROW/NONE"
+,"newAbilities":"OVERGROW/THICK FAT"
+},{"species":"CHARMANDER",
+"oldAbilities":"BLAZE/NONE"
+,"newAbilities":"BLAZE/SOLAR POWER"
+},{"species":"CHARMELEON",
+"oldAbilities":"BLAZE/NONE"
+,"newAbilities":"BLAZE/SOLAR POWER"
+},{"species":"CHARIZARD",
+"oldAbilities":"BLAZE/NONE"
+,"newAbilities":"BLAZE/SOLAR POWER"
+},{"species":"SQUIRTLE",
+"oldAbilities":"TORRENT/NONE"
+,"newAbilities":"TORRENT/SHELL ARMOR"
+},{"species":"WARTORTLE",
+"oldAbilities":"TORRENT/NONE"
+,"newAbilities":"TORRENT/SHELL ARMOR"
+},{"species":"BLASTOISE",
+"oldAbilities":"TORRENT/NONE"
+,"newAbilities":"TORRENT/MEGA LAUNCHER"
+},{"species":"CATERPIE",
+"oldAbilities":"SHIELD DUST/NONE"
+,"newAbilities":"SHIELD DUST/SHIELD DUST"
+},{"species":"METAPOD",
+"oldAbilities":"SHED SKIN/NONE"
+,"newAbilities":"SHED SKIN/SHED SKIN"
+},{"species":"BUTTERFREE",
+"oldStats":"60/45/50/80/80/70",
+"newStats":"65/55/50/90/80/80",
+"oldAbilities":"COMPOUND EYES/NONE"
+,"newAbilities":"COMPOUND EYES/SERENE GRACE"
+},{"species":"WEEDLE",
+"oldAbilities":"SHIELD DUST/NONE"
+,"newAbilities":"SHIELD DUST/SHIELD DUST"
+},{"species":"KAKUNA",
+"oldAbilities":"SHED SKIN/NONE"
+,"newAbilities":"SHED SKIN/SHED SKIN"
+},{"species":"BEEDRILL",
+"oldStats":"65/80/40/45/80/75",
+"newStats":"65/100/40/45/80/90",
+"oldAbilities":"SWARM/NONE"
+,"newAbilities":"HUSTLE/TECHNICIAN"
+},{"species":"PIDGEY",
+"oldType":"NORMAL/FLYING"
+,"newType":"FLYING/FLYING"
+},{"species":"PIDGEOTTO",
+"oldStats":"63/60/55/50/50/71",
+"newStats":"63/65/55/65/50/71",
+"oldType":"NORMAL/FLYING"
+,"newType":"FLYING/FLYING"
+},{"species":"PIDGEOT",
+"oldStats":"83/80/75/70/70/91",
+"newStats":"85/80/75/70/70/105",
+"oldType":"NORMAL/FLYING"
+,"newType":"FLYING/FLYING",
+"oldAbilities":"KEEN EYE/TANGLED FEET"
+,"newAbilities":"AERILATE/AERILATE"
+},{"species":"RATTATA",
+"oldAbilities":"RUN AWAY/GUTS"
+,"newAbilities":"HUSTLE/GUTS"
+},{"species":"RATICATE",
+"oldAbilities":"RUN AWAY/GUTS"
+,"newAbilities":"HUSTLE/GUTS"
+},{"species":"SPEAROW",
+"oldType":"NORMAL/FLYING"
+,"newType":"FLYING/FLYING",
+"oldAbilities":"KEEN EYE/NONE"
+,"newAbilities":"KEEN EYE/TOUGH CLAWS"
+},{"species":"FEAROW",
+"oldStats":"65/90/65/61/61/100",
+"newStats":"65/110/65/60/60/100",
+"oldType":"NORMAL/FLYING"
+,"newType":"FLYING/FLYING",
+"oldAbilities":"KEEN EYE/NONE"
+,"newAbilities":"INTIMIDATE/TOUGH CLAWS"
+},{"species":"ARBOK",
+"oldStats":"60/85/69/65/79/80",
+"newStats":"70/100/70/80/80/80",
+"oldType":"POISON/POISON"
+,"newType":"POISON/DRAGON"
+},{"species":"RAICHU",
+"oldStats":"60/90/55/90/80/100",
+"newStats":"60/90/55/90/80/110",
+"oldAbilities":"STATIC/NONE"
+,"newAbilities":"STATIC/ELECTRIC SURGE"
+},{"species":"SANDSHREW",
+"oldAbilities":"SAND VEIL/NONE"
+,"newAbilities":"SAND VEIL/SAND RUSH"
+},{"species":"SANDSLASH",
+"oldStats":"75/100/110/45/55/65",
+"newStats":"75/100/120/45/65/75",
+"oldAbilities":"SAND VEIL/NONE"
+,"newAbilities":"TOUGH CLAWS/SAND RUSH"
+},{"species":"NIDORAN_F",
+"oldAbilities":"POISON POINT/RIVALRY"
+,"newAbilities":"POISON POINT/HUSTLE"
+},{"species":"NIDORINA",
+"oldAbilities":"POISON POINT/RIVALRY"
+,"newAbilities":"POISON POINT/HUSTLE"
+},{"species":"NIDOQUEEN",
+"oldStats":"90/82/87/75/85/76",
+"newStats":"90/92/87/75/85/76",
+"oldAbilities":"POISON POINT/RIVALRY"
+,"newAbilities":"POISON POINT/SHEER FORCE"
+},{"species":"NIDORAN_M",
+"oldAbilities":"POISON POINT/RIVALRY"
+,"newAbilities":"POISON POINT/HUSTLE"
+},{"species":"NIDORINO",
+"oldAbilities":"POISON POINT/RIVALRY"
+,"newAbilities":"POISON POINT/HUSTLE"
+},{"species":"NIDOKING",
+"oldStats":"81/92/77/85/75/85",
+"newStats":"81/102/77/85/75/85",
+"oldAbilities":"POISON POINT/RIVALRY"
+,"newAbilities":"POISON POINT/SHEER FORCE"
+},{"species":"CLEFAIRY",
+"oldType":"NORMAL/NORMAL"
+,"newType":"FAIRY/FAIRY"
+},{"species":"CLEFABLE",
+"oldStats":"95/70/73/85/90/60",
+"newStats":"95/70/73/95/90/60",
+"oldType":"NORMAL/NORMAL"
+,"newType":"FAIRY/FAIRY"
+},{"species":"VULPIX",
+"oldAbilities":"FLASH FIRE/NONE"
+,"newAbilities":"FLASH FIRE/DROUGHT"
+},{"species":"NINETALES",
+"oldAbilities":"FLASH FIRE/NONE"
+,"newAbilities":"FLASH FIRE/DROUGHT"
+},{"species":"JIGGLYPUFF",
+"oldType":"NORMAL/NORMAL"
+,"newType":"NORMAL/FAIRY",
+"oldAbilities":"CUTE CHARM/COMPETITIVE"
+,"newAbilities":"FLUFFY/COMPETITIVE"
+},{"species":"WIGGLYTUFF",
+"oldStats":"140/70/45/75/50/45",
+"newStats":"140/70/45/95/60/45",
+"oldType":"NORMAL/NORMAL"
+,"newType":"NORMAL/FAIRY",
+"oldAbilities":"CUTE CHARM/COMPETITIVE"
+,"newAbilities":"FLUFFY/COMPETITIVE"
+},{"species":"ZUBAT",
+"oldAbilities":"INNER FOCUS/NONE"
+,"newAbilities":"INNER FOCUS/INFILTRATOR"
+},{"species":"GOLBAT",
+"oldAbilities":"INNER FOCUS/NONE"
+,"newAbilities":"INNER FOCUS/INFILTRATOR"
+},{"species":"ODDISH",
+"oldStats":"45/50/55/75/65/30",
+"newStats":"45/50/55/75/65/40",
+"oldAbilities":"CHLOROPHYLL/NONE"
+,"newAbilities":"CHLOROPHYLL/LEAF GUARD"
+},{"species":"GLOOM",
+"oldAbilities":"CHLOROPHYLL/NONE"
+,"newAbilities":"CHLOROPHYLL/OVERCOAT"
+},{"species":"VILEPLUME",
+"oldStats":"75/80/85/100/90/50",
+"newStats":"75/80/85/110/90/60",
+"oldAbilities":"CHLOROPHYLL/NONE"
+,"newAbilities":"CHLOROPHYLL/OVERCOAT"
+},{"species":"PARAS",
+"oldAbilities":"EFFECT SPORE/DRY SKIN"
+,"newAbilities":"POISON HEAL/DRY SKIN"
+},{"species":"PARASECT",
+"oldStats":"60/95/80/60/80/30",
+"newStats":"80/110/80/80/80/30",
+"oldAbilities":"EFFECT SPORE/DRY SKIN"
+,"newAbilities":"POISON HEAL/DRY SKIN"
+},{"species":"VENONAT",
+"oldStats":"60/55/50/40/55/45",
+"newStats":"60/55/50/40/55/55"
+},{"species":"VENOMOTH",
+"oldType":"BUG/POISON"
+,"newType":"BUG/PSYCHIC"
+},{"species":"DUGTRIO",
+"oldStats":"35/80/50/50/70/120",
+"newStats":"45/110/50/50/70/120",
+"oldAbilities":"SAND VEIL/ARENA TRAP"
+,"newAbilities":"SAND FORCE/ARENA TRAP"
+},{"species":"MEOWTH",
+"oldAbilities":"PICKUP/TECHNICIAN"
+,"newAbilities":"GOOD AS GOLD/TECHNICIAN"
+},{"species":"PERSIAN",
+"oldStats":"65/70/60/65/65/115",
+"newStats":"70/95/60/65/65/115",
+"oldAbilities":"LIMBER/TECHNICIAN"
+,"newAbilities":"GOOD AS GOLD/TECHNICIAN"
+},{"species":"PSYDUCK",
+"oldStats":"50/52/48/65/50/55",
+"newStats":"60/45/50/70/50/55",
+"oldType":"WATER/WATER"
+,"newType":"WATER/PSYCHIC"
+},{"species":"GOLDUCK",
+"oldStats":"80/82/78/95/80/85",
+"newStats":"85/60/80/105/85/85",
+"oldType":"WATER/WATER"
+,"newType":"WATER/PSYCHIC",
+"oldAbilities":"DAMP/CLOUD NINE"
+,"newAbilities":"SWIFT SWIM/CLOUD NINE"
+},{"species":"MANKEY",
+"oldAbilities":"VITAL SPIRIT/ANGER POINT"
+,"newAbilities":"VITAL SPIRIT/DEFIANT"
+},{"species":"PRIMEAPE",
+"oldStats":"65/105/60/60/70/95",
+"newStats":"65/105/60/60/70/100",
+"oldAbilities":"VITAL SPIRIT/ANGER POINT"
+,"newAbilities":"IRON FIST/DEFIANT"
+},{"species":"POLIWHIRL",
+"oldStats":"65/65/65/50/50/90",
+"newStats":"65/65/65/65/50/90"
+},{"species":"POLIWRATH",
+"oldStats":"90/85/95/70/90/70",
+"newStats":"90/95/95/70/90/70",
+"oldAbilities":"WATER ABSORB/DAMP"
+,"newAbilities":"WATER ABSORB/SHEER FORCE"
+},{"species":"ABRA",
+"oldAbilities":"SYNCHRONIZE/INNER FOCUS"
+,"newAbilities":"SYNCHRONIZE/MAGIC GUARD"
+},{"species":"KADABRA",
+"oldAbilities":"SYNCHRONIZE/INNER FOCUS"
+,"newAbilities":"SYNCHRONIZE/MAGIC GUARD"
+},{"species":"ALAKAZAM",
+"oldStats":"55/50/45/135/85/120",
+"newStats":"55/50/45/135/95/120",
+"oldAbilities":"SYNCHRONIZE/INNER FOCUS"
+,"newAbilities":"SYNCHRONIZE/MAGIC GUARD"
+},{"species":"MACHAMP",
+"oldStats":"90/130/80/65/85/55",
+"newStats":"90/130/80/50/85/65"
+},{"species":"BELLSPROUT",
+"oldAbilities":"CHLOROPHYLL/NONE"
+,"newAbilities":"CHLOROPHYLL/GLUTTONY"
+},{"species":"WEEPINBELL",
+"oldAbilities":"CHLOROPHYLL/NONE"
+,"newAbilities":"CHLOROPHYLL/GLUTTONY"
+},{"species":"VICTREEBEL",
+"oldStats":"80/105/65/100/60/70",
+"newStats":"85/105/70/105/70/70",
+"oldAbilities":"CHLOROPHYLL/NONE"
+,"newAbilities":"CHLOROPHYLL/GLUTTONY"
+},{"species":"GOLEM",
+"oldStats":"80/110/130/55/65/45",
+"newStats":"90/120/130/55/65/45"
+},{"species":"PONYTA",
+"oldStats":"50/85/55/65/65/90",
+"newStats":"50/65/55/85/65/90",
+"oldType":"FIRE/FIRE"
+,"newType":"FIRE/FAIRY",
+"oldAbilities":"RUN AWAY/FLASH FIRE"
+,"newAbilities":"FLAME BODY/FLASH FIRE"
+},{"species":"RAPIDASH",
+"oldStats":"65/100/70/80/80/105",
+"newStats":"65/70/70/100/80/120",
+"oldType":"FIRE/FIRE"
+,"newType":"FIRE/FAIRY",
+"oldAbilities":"RUN AWAY/FLASH FIRE"
+,"newAbilities":"FLAME BODY/FLASH FIRE"
+},{"species":"SLOWPOKE",
+"oldAbilities":"OBLIVIOUS/OWN TEMPO"
+,"newAbilities":"REGENERATOR/OWN TEMPO"
+},{"species":"SLOWBRO",
+"oldAbilities":"OBLIVIOUS/OWN TEMPO"
+,"newAbilities":"REGENERATOR/SHELL ARMOR"
+},{"species":"MAGNEMITE",
+"oldAbilities":"MAGNET PULL/STURDY"
+,"newAbilities":"MAGNET PULL/ANALYTIC"
+},{"species":"MAGNETON",
+"oldAbilities":"MAGNET PULL/STURDY"
+,"newAbilities":"MAGNET PULL/ANALYTIC"
+},{"species":"FARFETCHD",
+"oldStats":"52/65/55/58/62/60",
+"newStats":"60/90/65/70/65/80",
+"oldAbilities":"KEEN EYE/INNER FOCUS"
+,"newAbilities":"SUPER LUCK/INNER FOCUS"
+},{"species":"DODUO",
+"oldAbilities":"RUN AWAY/EARLY BIRD"
+,"newAbilities":"TECHNICIAN/UNBURDEN"
+},{"species":"DODRIO",
+"oldAbilities":"RUN AWAY/EARLY BIRD"
+,"newAbilities":"TECHNICIAN/UNBURDEN"
+},{"species":"SEEL",
+"oldAbilities":"THICK FAT/HYDRATION"
+,"newAbilities":"THICK FAT/ICE BODY"
+},{"species":"DEWGONG",
+"oldType":"WATER/ICE"
+,"newType":"ICE/WATER",
+"oldAbilities":"THICK FAT/HYDRATION"
+,"newAbilities":"THICK FAT/ICE SCALES"
+},{"species":"GRIMER",
+"oldAbilities":"STENCH/STICKY HOLD"
+,"newAbilities":"POISON TOUCH/CORROSION"
+},{"species":"MUK",
+"oldAbilities":"STENCH/STICKY HOLD"
+,"newAbilities":"POISON TOUCH/CORROSION"
+},{"species":"GENGAR",
+"oldStats":"60/65/60/130/75/110",
+"newStats":"60/70/60/130/75/110"
+},{"species":"ONIX",
+"oldStats":"35/45/160/30/45/70",
+"newStats":"35/75/160/30/45/70"
+},{"species":"DROWZEE",
+"oldAbilities":"INSOMNIA/FOREWARN"
+,"newAbilities":"INSOMNIA/BAD DREAMS"
+},{"species":"HYPNO",
+"oldStats":"85/73/70/73/115/67",
+"newStats":"85/73/70/75/115/67",
+"oldAbilities":"INSOMNIA/FOREWARN"
+,"newAbilities":"INSOMNIA/BAD DREAMS"
+},{"species":"KRABBY",
+"oldStats":"30/105/90/25/25/50",
+"newStats":"30/105/90/45/35/50"
+},{"species":"KINGLER",
+"oldStats":"55/130/115/50/50/75",
+"newStats":"55/120/115/70/60/80",
+"oldType":"WATER/WATER"
+,"newType":"WATER/STEEL"
+},{"species":"VOLTORB",
+"oldAbilities":"SOUNDPROOF/STATIC"
+,"newAbilities":"TRANSISTOR/STATIC"
+},{"species":"ELECTRODE",
+"oldStats":"60/50/70/80/80/140",
+"newStats":"60/50/70/80/80/150",
+"oldAbilities":"SOUNDPROOF/STATIC"
+,"newAbilities":"TRANSISTOR/STATIC"
+},{"species":"EXEGGCUTE",
+"oldAbilities":"CHLOROPHYLL/NONE"
+,"newAbilities":"CHLOROPHYLL/HARVEST"
+},{"species":"EXEGGUTOR",
+"oldStats":"95/95/85/125/65/55",
+"newStats":"105/85/85/125/75/55",
+"oldAbilities":"CHLOROPHYLL/NONE"
+,"newAbilities":"CHLOROPHYLL/HARVEST"
+},{"species":"CUBONE",
+"oldStats":"50/50/95/40/50/35",
+"newStats":"50/65/95/40/50/35",
+"oldAbilities":"ROCK HEAD/LIGHTNING ROD"
+,"newAbilities":"ROCK HEAD/BATTLE ARMOR"
+},{"species":"MAROWAK",
+"oldStats":"60/80/110/50/80/45",
+"newStats":"70/80/110/50/80/45",
+"oldAbilities":"ROCK HEAD/LIGHTNING ROD"
+,"newAbilities":"ROCK HEAD/BATTLE ARMOR"
+},{"species":"HITMONLEE",
+"oldStats":"50/120/53/35/110/87",
+"newStats":"60/125/60/35/110/90",
+"oldAbilities":"LIMBER/RECKLESS"
+,"newAbilities":"UNBURDEN/RECKLESS"
+},{"species":"HITMONCHAN",
+"oldStats":"50/105/79/35/110/76",
+"newStats":"70/100/90/35/110/75",
+"oldAbilities":"KEEN EYE/IRON FIST"
+,"newAbilities":"INNER FOCUS/IRON FIST"
+},{"species":"LICKITUNG",
+"oldStats":"90/55/75/60/75/30",
+"newStats":"90/65/75/60/75/30",
+"oldAbilities":"OWN TEMPO/OBLIVIOUS"
+,"newAbilities":"ADAPTABILITY/CLOUD NINE"
+},{"species":"WEEZING",
+"oldStats":"65/90/120/85/70/60",
+"newStats":"70/90/120/90/70/60"
+},{"species":"TANGELA",
+"oldAbilities":"CHLOROPHYLL/LEAF GUARD"
+,"newAbilities":"CHLOROPHYLL/REGENERATOR"
+},{"species":"KANGASKHAN",
+"oldAbilities":"EARLY BIRD/SCRAPPY"
+,"newAbilities":"PARENTAL BOND/SCRAPPY"
+},{"species":"SEADRA",
+"oldAbilities":"POISON POINT/SNIPER"
+,"newAbilities":"POISON POINT/DAMP"
+},{"species":"GOLDEEN",
+"oldStats":"45/67/60/35/50/63",
+"newStats":"45/67/60/45/50/63",
+"oldType":"WATER/WATER"
+,"newType":"WATER/NORMAL",
+"oldAbilities":"SWIFT SWIM/WATER VEIL"
+,"newAbilities":"SWIFT SWIM/RECKLESS"
+},{"species":"SEAKING",
+"oldStats":"80/92/65/65/80/68",
+"newStats":"80/105/65/70/80/80",
+"oldType":"WATER/WATER"
+,"newType":"WATER/NORMAL",
+"oldAbilities":"SWIFT SWIM/WATER VEIL"
+,"newAbilities":"SWIFT SWIM/RECKLESS"
+},{"species":"STARYU",
+"oldAbilities":"ILLUMINATE/NATURAL CURE"
+,"newAbilities":"ANALYTIC/NATURAL CURE"
+},{"species":"STARMIE",
+"oldAbilities":"ILLUMINATE/NATURAL CURE"
+,"newAbilities":"ANALYTIC/NATURAL CURE"
+},{"species":"MR_MIME",
+"oldType":"PSYCHIC/PSYCHIC"
+,"newType":"PSYCHIC/FAIRY"
+},{"species":"JYNX",
+"oldStats":"65/50/35/115/95/95",
+"newStats":"65/50/35/115/95/115",
+"oldAbilities":"OBLIVIOUS/FOREWARN"
+,"newAbilities":"OBLIVIOUS/DRY SKIN"
+},{"species":"ELECTABUZZ",
+"oldAbilities":"STATIC/NONE"
+,"newAbilities":"MOTOR DRIVE/STATIC"
+},{"species":"MAGMAR",
+"oldAbilities":"FLAME BODY/NONE"
+,"newAbilities":"FLAME BODY/FLASH FIRE"
+},{"species":"PINSIR",
+"oldStats":"65/125/100/55/70/85",
+"newStats":"80/125/100/40/70/85",
+"oldAbilities":"HYPER CUTTER/MOLD BREAKER"
+,"newAbilities":"MOXIE/MOLD BREAKER"
+},{"species":"TAUROS",
+"oldType":"NORMAL/NORMAL"
+,"newType":"GROUND/NORMAL"
+},{"species":"MAGIKARP",
+"oldAbilities":"SWIFT SWIM/NONE"
+,"newAbilities":"SWIFT SWIM/SWIFT SWIM"
+},{"species":"GYARADOS",
+"oldAbilities":"INTIMIDATE/NONE"
+,"newAbilities":"INTIMIDATE/MOLD BREAKER"
+},{"species":"DITTO",
+"oldAbilities":"LIMBER/NONE"
+,"newAbilities":"IMPOSTER/IMPOSTER"
+},{"species":"FLAREON",
+"oldAbilities":"FLASH FIRE/FLASH FIRE"
+,"newAbilities":"FLASH FIRE/GUTS"
+},{"species":"OMASTAR",
+"oldStats":"70/60/125/115/70/55",
+"newStats":"70/60/125/115/70/60"
+},{"species":"KABUTOPS",
+"oldStats":"60/115/105/65/70/80",
+"newStats":"60/115/105/65/70/85"
+},{"species":"SNORLAX",
+"oldAbilities":"IMMUNITY/THICK FAT"
+,"newAbilities":"GLUTTONY/THICK FAT"
+},{"species":"ARTICUNO",
+"oldAbilities":"PRESSURE/NONE"
+,"newAbilities":"SNOW WARNING/NONE"
+},{"species":"ZAPDOS",
+"oldAbilities":"PRESSURE/NONE"
+,"newAbilities":"DRIZZLE/NONE"
+},{"species":"MOLTRES",
+"oldAbilities":"PRESSURE/NONE"
+,"newAbilities":"DROUGHT/NONE"
+},{"species":"DRATINI",
+"oldAbilities":"SHED SKIN/NONE"
+,"newAbilities":"SHED SKIN/MARVEL SCALE"
+},{"species":"DRAGONAIR",
+"oldAbilities":"SHED SKIN/NONE"
+,"newAbilities":"SHED SKIN/MARVEL SCALE"
+},{"species":"DRAGONITE",
+"oldAbilities":"INNER FOCUS/NONE"
+,"newAbilities":"INNER FOCUS/MARVEL SCALE"
+},{"species":"CHIKORITA",
+"oldAbilities":"OVERGROW/NONE"
+,"newAbilities":"OVERGROW/LEAF GUARD"
+},{"species":"BAYLEEF",
+"oldAbilities":"OVERGROW/NONE"
+,"newAbilities":"OVERGROW/LEAF GUARD"
+},{"species":"MEGANIUM",
+"oldType":"GRASS/GRASS"
+,"newType":"GRASS/FAIRY",
+"oldAbilities":"OVERGROW/NONE"
+,"newAbilities":"OVERGROW/TRIAGE"
+},{"species":"CYNDAQUIL",
+"oldAbilities":"BLAZE/NONE"
+,"newAbilities":"BLAZE/FLASH FIRE"
+},{"species":"QUILAVA",
+"oldAbilities":"BLAZE/NONE"
+,"newAbilities":"BLAZE/FLASH FIRE"
+},{"species":"TYPHLOSION",
+"oldStats":"78/84/78/109/85/100",
+"newStats":"78/84/78/100/85/109",
+"oldAbilities":"BLAZE/NONE"
+,"newAbilities":"BLAZE/BERSERK"
+},{"species":"TOTODILE",
+"oldAbilities":"TORRENT/NONE"
+,"newAbilities":"TORRENT/STRONG JAW"
+},{"species":"CROCONAW",
+"oldAbilities":"TORRENT/NONE"
+,"newAbilities":"TORRENT/STRONG JAW"
+},{"species":"FERALIGATR",
+"oldType":"WATER/WATER"
+,"newType":"WATER/DARK",
+"oldAbilities":"TORRENT/NONE"
+,"newAbilities":"TORRENT/STRONG JAW"
+},{"species":"SENTRET",
+"oldStats":"35/46/34/35/45/20",
+"newStats":"35/50/35/35/45/60",
+"oldAbilities":"RUN AWAY/KEEN EYE"
+,"newAbilities":"SCRAPPY/QUICK FEET"
+},{"species":"FURRET",
+"oldStats":"85/76/64/45/55/90",
+"newStats":"85/90/65/65/55/90",
+"oldAbilities":"RUN AWAY/KEEN EYE"
+,"newAbilities":"SCRAPPY/SPEED BOOST"
+},{"species":"HOOTHOOT",
+"oldType":"NORMAL/FLYING"
+,"newType":"PSYCHIC/FLYING",
+"oldAbilities":"INSOMNIA/KEEN EYE"
+,"newAbilities":"INSOMNIA/TINTED LENS"
+},{"species":"NOCTOWL",
+"oldStats":"100/50/50/76/96/70",
+"newStats":"100/50/50/100/100/70",
+"oldType":"NORMAL/FLYING"
+,"newType":"PSYCHIC/FLYING",
+"oldAbilities":"INSOMNIA/KEEN EYE"
+,"newAbilities":"INSOMNIA/TINTED LENS"
+},{"species":"LEDYBA",
+"oldStats":"40/20/30/40/80/55",
+"newStats":"40/60/30/35/80/60",
+"oldAbilities":"SWARM/EARLY BIRD"
+,"newAbilities":"SWARM/IRON FIST"
+},{"species":"LEDIAN",
+"oldStats":"55/35/50/55/110/85",
+"newStats":"55/90/50/55/110/90",
+"oldType":"BUG/FLYING"
+,"newType":"BUG/FIGHTING",
+"oldAbilities":"SWARM/EARLY BIRD"
+,"newAbilities":"SWARM/IRON FIST"
+},{"species":"SPINARAK",
+"oldAbilities":"SWARM/INSOMNIA"
+,"newAbilities":"GOOEY/INSOMNIA"
+},{"species":"ARIADOS",
+"oldStats":"70/90/70/60/60/40",
+"newStats":"85/90/75/60/75/65",
+"oldAbilities":"SWARM/INSOMNIA"
+,"newAbilities":"GOOEY/INSOMNIA"
+},{"species":"CROBAT",
+"oldAbilities":"INNER FOCUS/NONE"
+,"newAbilities":"INNER FOCUS/INFILTRATOR"
+},{"species":"CHINCHOU",
+"oldType":"WATER/ELECTRIC"
+,"newType":"ELECTRIC/WATER",
+"oldAbilities":"VOLT ABSORB/ILLUMINATE"
+,"newAbilities":"VOLT ABSORB/WATER ABSORB"
+},{"species":"LANTURN",
+"oldStats":"125/58/58/76/76/67",
+"newStats":"125/55/68/85/75/67",
+"oldType":"WATER/ELECTRIC"
+,"newType":"ELECTRIC/WATER",
+"oldAbilities":"VOLT ABSORB/ILLUMINATE"
+,"newAbilities":"VOLT ABSORB/WATER ABSORB"
+},{"species":"CLEFFA",
+"oldType":"NORMAL/NORMAL"
+,"newType":"FAIRY/FAIRY"
+},{"species":"IGGLYBUFF",
+"oldType":"NORMAL/NORMAL"
+,"newType":"NORMAL/FAIRY"
+},{"species":"TOGEPI",
+"oldType":"NORMAL/NORMAL"
+,"newType":"FAIRY/FAIRY"
+},{"species":"TOGETIC",
+"oldType":"NORMAL/FLYING"
+,"newType":"FAIRY/FLYING"
+},{"species":"XATU",
+"oldStats":"65/75/70/95/70/95",
+"newStats":"75/75/70/95/70/95",
+"oldAbilities":"SYNCHRONIZE/EARLY BIRD"
+,"newAbilities":"SYNCHRONIZE/MAGIC BOUNCE"
+},{"species":"MAREEP",
+"oldType":"ELECTRIC/ELECTRIC"
+,"newType":"ELECTRIC/GRASS",
+"oldAbilities":"STATIC/NONE"
+,"newAbilities":"STATIC/COTTON DOWN"
+},{"species":"FLAAFFY",
+"oldType":"ELECTRIC/ELECTRIC"
+,"newType":"ELECTRIC/GRASS",
+"oldAbilities":"STATIC/NONE"
+,"newAbilities":"STATIC/FLUFFY"
+},{"species":"AMPHAROS",
+"oldType":"ELECTRIC/ELECTRIC"
+,"newType":"ELECTRIC/GRASS",
+"oldAbilities":"STATIC/NONE"
+,"newAbilities":"STATIC/SIMPLE"
+},{"species":"BELLOSSOM",
+"oldStats":"75/80/85/90/100/50",
+"newStats":"75/80/95/90/100/60",
+"oldType":"GRASS/GRASS"
+,"newType":"GRASS/FAIRY",
+"oldAbilities":"CHLOROPHYLL/NONE"
+,"newAbilities":"CHLOROPHYLL/DANCER"
+},{"species":"MARILL",
+"oldType":"WATER/WATER"
+,"newType":"WATER/FAIRY"
+},{"species":"AZUMARILL",
+"oldStats":"100/50/80/50/80/50",
+"newStats":"100/60/80/80/80/50",
+"oldType":"WATER/WATER"
+,"newType":"WATER/FAIRY"
+},{"species":"SUDOWOODO",
+"oldStats":"70/100/115/30/65/30",
+"newStats":"90/110/120/30/65/40",
+"oldAbilities":"STURDY/ROCK HEAD"
+,"newAbilities":"SAP SIPPER/ROCK HEAD"
+},{"species":"POLITOED",
+"oldStats":"90/75/75/90/100/70",
+"newStats":"90/75/85/90/100/70",
+"oldAbilities":"WATER ABSORB/DAMP"
+,"newAbilities":"WATER ABSORB/DRIZZLE"
+},{"species":"HOPPIP",
+"oldType":"GRASS/FLYING"
+,"newType":"FLYING/GRASS"
+},{"species":"SKIPLOOM",
+"oldType":"GRASS/FLYING"
+,"newType":"FLYING/GRASS"
+},{"species":"JUMPLUFF",
+"oldStats":"75/55/70/55/85/110",
+"newStats":"75/65/70/55/95/110",
+"oldType":"GRASS/FLYING"
+,"newType":"FLYING/GRASS",
+"oldAbilities":"CHLOROPHYLL/LEAF GUARD"
+,"newAbilities":"CHLOROPHYLL/AERILATE"
+},{"species":"AIPOM",
+"oldAbilities":"RUN AWAY/PICKUP"
+,"newAbilities":"TECHNICIAN/SKILL LINK"
+},{"species":"SUNFLORA",
+"oldStats":"75/75/55/105/85/30",
+"newStats":"75/75/65/120/85/50",
+"oldType":"GRASS/GRASS"
+,"newType":"GRASS/FIRE"
+},{"species":"WOOPER",
+"oldStats":"55/45/45/25/25/15",
+"newStats":"55/50/45/45/25/15",
+"oldType":"WATER/GROUND"
+,"newType":"GROUND/WATER",
+"oldAbilities":"DAMP/WATER ABSORB"
+,"newAbilities":"UNAWARE/WATER ABSORB"
+},{"species":"QUAGSIRE",
+"oldStats":"95/85/85/65/65/35",
+"newStats":"95/90/85/85/65/35",
+"oldType":"WATER/GROUND"
+,"newType":"GROUND/WATER",
+"oldAbilities":"DAMP/WATER ABSORB"
+,"newAbilities":"UNAWARE/WATER ABSORB"
+},{"species":"ESPEON",
+"oldAbilities":"SYNCHRONIZE/SYNCHRONIZE"
+,"newAbilities":"SYNCHRONIZE/MAGIC BOUNCE"
+},{"species":"UMBREON",
+"oldAbilities":"SYNCHRONIZE/SYNCHRONIZE"
+,"newAbilities":"SYNCHRONIZE/INNER FOCUS"
+},{"species":"MURKROW",
+"oldAbilities":"INSOMNIA/SUPER LUCK"
+,"newAbilities":"INSOMNIA/PRANKSTER"
+},{"species":"SLOWKING",
+"oldAbilities":"OBLIVIOUS/OWN TEMPO"
+,"newAbilities":"REGENERATOR/SHELL ARMOR"
+},{"species":"MISDREAVUS",
+"oldType":"GHOST/GHOST"
+,"newType":"GHOST/FAIRY"
+},{"species":"GIRAFARIG",
+"oldStats":"70/80/65/90/65/85",
+"newStats":"70/90/65/100/65/105",
+"oldAbilities":"INNER FOCUS/EARLY BIRD"
+,"newAbilities":"SAP SIPPER/EARLY BIRD"
+},{"species":"PINECO",
+"oldAbilities":"STURDY/NONE"
+,"newAbilities":"STURDY/OVERCOAT"
+},{"species":"FORRETRESS",
+"oldStats":"75/90/140/60/60/40",
+"newStats":"75/90/140/70/60/30",
+"oldAbilities":"STURDY/NONE"
+,"newAbilities":"STURDY/OVERCOAT"
+},{"species":"DUNSPARCE",
+"oldStats":"100/70/70/65/65/45",
+"newStats":"125/100/80/85/75/55"
+},{"species":"GLIGAR",
+"oldAbilities":"HYPER CUTTER/SAND VEIL"
+,"newAbilities":"HYPER CUTTER/IMMUNITY"
+},{"species":"STEELIX",
+"oldStats":"75/85/200/55/65/30",
+"newStats":"75/105/200/55/65/30"
+},{"species":"SNUBBULL",
+"oldType":"NORMAL/NORMAL"
+,"newType":"FAIRY/FAIRY"
+},{"species":"GRANBULL",
+"oldStats":"90/120/75/60/60/45",
+"newStats":"90/110/75/90/60/45",
+"oldType":"NORMAL/NORMAL"
+,"newType":"FAIRY/FIGHTING",
+"oldAbilities":"INTIMIDATE/QUICK FEET"
+,"newAbilities":"INTIMIDATE/STRONG JAW"
+},{"species":"QWILFISH",
+"oldStats":"65/95/75/55/55/85",
+"newStats":"65/95/95/75/55/95",
+"oldType":"WATER/POISON"
+,"newType":"POISON/WATER",
+"oldAbilities":"POISON POINT/SWIFT SWIM"
+,"newAbilities":"POISON POINT/INTIMIDATE"
+},{"species":"SHUCKLE",
+"oldAbilities":"STURDY/GLUTTONY"
+,"newAbilities":"CONTRARY/GLUTTONY"
+},{"species":"SNEASEL",
+"oldStats":"55/95/55/35/75/115",
+"newStats":"55/35/55/95/75/115"
+},{"species":"URSARING",
+"oldType":"NORMAL/NORMAL"
+,"newType":"NORMAL/GROUND"
+},{"species":"SLUGMA",
+"oldAbilities":"MAGMA ARMOR/FLAME BODY"
+,"newAbilities":"MAGMA ARMOR/WATER ABSORB"
+},{"species":"MAGCARGO",
+"oldStats":"50/50/120/80/80/30",
+"newStats":"80/50/120/100/80/30",
+"oldAbilities":"MAGMA ARMOR/FLAME BODY"
+,"newAbilities":"MAGMA ARMOR/WATER ABSORB"
+},{"species":"SWINUB",
+"oldAbilities":"OBLIVIOUS/SNOW CLOAK"
+,"newAbilities":"THICK FAT/SNOW CLOAK"
+},{"species":"PILOSWINE",
+"oldAbilities":"OBLIVIOUS/SNOW CLOAK"
+,"newAbilities":"THICK FAT/SNOW CLOAK"
+},{"species":"CORSOLA",
+"oldStats":"55/55/85/65/85/35",
+"newStats":"95/55/95/65/95/35",
+"oldAbilities":"HUSTLE/NATURAL CURE"
+,"newAbilities":"REGENERATOR/NATURAL CURE"
+},{"species":"OCTILLERY",
+"oldAbilities":"SUCTION CUPS/SNIPER"
+,"newAbilities":"MEGA LAUNCHER/SNIPER"
+},{"species":"DELIBIRD",
+"oldStats":"45/55/45/65/45/75",
+"newStats":"45/55/45/105/45/100",
+"oldAbilities":"VITAL SPIRIT/HUSTLE"
+,"newAbilities":"VITAL SPIRIT/MOODY"
+},{"species":"SKARMORY",
+"oldAbilities":"KEEN EYE/STURDY"
+,"newAbilities":"BATTLE ARMOR/STURDY"
+},{"species":"HOUNDOOM",
+"oldStats":"75/90/50/110/80/95",
+"newStats":"75/75/50/110/80/110"
+},{"species":"KINGDRA",
+"oldStats":"75/95/95/95/95/85",
+"newStats":"75/75/95/115/95/85",
+"oldAbilities":"SWIFT SWIM/SNIPER"
+,"newAbilities":"SWIFT SWIM/DAMP"
+},{"species":"PHANPY",
+"oldAbilities":"PICKUP/NONE"
+,"newAbilities":"PICKUP/ROCK HEAD"
+},{"species":"DONPHAN",
+"oldAbilities":"STURDY/NONE"
+,"newAbilities":"STURDY/ROCK HEAD"
+},{"species":"STANTLER",
+"oldStats":"73/95/62/85/65/85",
+"newStats":"75/105/75/75/65/85",
+"oldType":"NORMAL/NORMAL"
+,"newType":"NORMAL/GHOST"
+},{"species":"SMEARGLE",
+"oldAbilities":"OWN TEMPO/TECHNICIAN"
+,"newAbilities":"OWN TEMPO/MOODY"
+},{"species":"TYROGUE",
+"oldStats":"35/35/35/35/35/35",
+"newStats":"40/40/40/40/40/40"
+},{"species":"HITMONTOP",
+"oldStats":"50/95/95/35/110/70",
+"newStats":"65/95/95/35/110/80"
+},{"species":"ELEKID",
+"oldAbilities":"STATIC/NONE"
+,"newAbilities":"MOTOR DRIVE/STATIC"
+},{"species":"MAGBY",
+"oldAbilities":"FLAME BODY/NONE"
+,"newAbilities":"FLAME BODY/FLASH FIRE"
+},{"species":"MILTANK",
+"oldStats":"95/80/105/40/70/100",
+"newStats":"95/90/105/40/70/100"
+},{"species":"ENTEI",
+"oldStats":"115/115/85/90/75/100",
+"newStats":"115/90/85/115/75/100"
+},{"species":"LUGIA",
+"oldType":"PSYCHIC/FLYING"
+,"newType":"FLYING/PSYCHIC",
+"oldAbilities":"PRESSURE/NONE"
+,"newAbilities":"DELTA STREAM/NONE"
+},{"species":"HO_OH",
+"oldAbilities":"PRESSURE/NONE"
+,"newAbilities":"REGENERATOR/NONE"
+},{"species":"TREECKO",
+"oldAbilities":"OVERGROW/NONE"
+,"newAbilities":"OVERGROW/UNBURDEN"
+},{"species":"GROVYLE",
+"oldAbilities":"OVERGROW/NONE"
+,"newAbilities":"OVERGROW/UNBURDEN"
+},{"species":"SCEPTILE",
+"oldType":"GRASS/GRASS"
+,"newType":"GRASS/DRAGON",
+"oldAbilities":"OVERGROW/NONE"
+,"newAbilities":"OVERGROW/UNBURDEN"
+},{"species":"TORCHIC",
+"oldAbilities":"BLAZE/NONE"
+,"newAbilities":"BLAZE/SPEED BOOST"
+},{"species":"COMBUSKEN",
+"oldAbilities":"BLAZE/NONE"
+,"newAbilities":"BLAZE/SPEED BOOST"
+},{"species":"BLAZIKEN",
+"oldAbilities":"BLAZE/NONE"
+,"newAbilities":"BLAZE/SPEED BOOST"
+},{"species":"MUDKIP",
+"oldAbilities":"TORRENT/NONE"
+,"newAbilities":"TORRENT/DAMP"
+},{"species":"MARSHTOMP",
+"oldAbilities":"TORRENT/NONE"
+,"newAbilities":"TORRENT/DAMP"
+},{"species":"SWAMPERT",
+"oldAbilities":"TORRENT/NONE"
+,"newAbilities":"TORRENT/DAMP"
+},{"species":"MIGHTYENA",
+"oldStats":"70/90/70/60/60/70",
+"newStats":"70/90/70/90/60/90"
+},{"species":"LINOONE",
+"oldAbilities":"PICKUP/GLUTTONY"
+,"newAbilities":"PICKPOCKET/GLUTTONY"
+},{"species":"BEAUTIFLY",
+"oldStats":"60/70/50/90/50/65",
+"newStats":"60/70/55/100/55/75",
+"oldType":"BUG/FLYING"
+,"newType":"BUG/FAIRY"
+},{"species":"DUSTOX",
+"oldStats":"60/50/70/50/90/65",
+"newStats":"95/50/70/50/90/65"
+},{"species":"LOTAD",
+"oldType":"WATER/GRASS"
+,"newType":"GRASS/WATER",
+"oldAbilities":"SWIFT SWIM/RAIN DISH"
+,"newAbilities":"SWIFT SWIM/OWN TEMPO"
+},{"species":"LOMBRE",
+"oldType":"WATER/GRASS"
+,"newType":"GRASS/WATER",
+"oldAbilities":"SWIFT SWIM/RAIN DISH"
+,"newAbilities":"SWIFT SWIM/OWN TEMPO"
+},{"species":"LUDICOLO",
+"oldStats":"80/70/70/90/100/70",
+"newStats":"80/70/70/100/100/70",
+"oldType":"WATER/GRASS"
+,"newType":"GRASS/WATER",
+"oldAbilities":"SWIFT SWIM/RAIN DISH"
+,"newAbilities":"SWIFT SWIM/OWN TEMPO"
+},{"species":"SHIFTRY",
+"oldStats":"90/100/60/90/60/80",
+"newStats":"90/70/60/120/60/90"
+},{"species":"TAILLOW",
+"oldType":"NORMAL/FLYING"
+,"newType":"FLYING/NORMAL",
+"oldAbilities":"GUTS/NONE"
+,"newAbilities":"GUTS/SCRAPPY"
+},{"species":"SWELLOW",
+"oldStats":"60/85/60/50/50/125",
+"newStats":"60/85/60/75/50/125",
+"oldType":"NORMAL/FLYING"
+,"newType":"FLYING/NORMAL",
+"oldAbilities":"GUTS/NONE"
+,"newAbilities":"GUTS/SCRAPPY"
+},{"species":"WINGULL",
+"oldType":"WATER/FLYING"
+,"newType":"FLYING/WATER"
+},{"species":"PELIPPER",
+"oldStats":"60/50/100/85/70/65",
+"newStats":"60/50/100/95/70/65",
+"oldType":"WATER/FLYING"
+,"newType":"FLYING/WATER",
+"oldAbilities":"KEEN EYE/DRIZZLE"
+,"newAbilities":"UNAWARE/DRIZZLE"
+},{"species":"RALTS",
+"oldType":"PSYCHIC/PSYCHIC"
+,"newType":"PSYCHIC/FAIRY"
+},{"species":"KIRLIA",
+"oldType":"PSYCHIC/PSYCHIC"
+,"newType":"PSYCHIC/FAIRY"
+},{"species":"GARDEVOIR",
+"oldStats":"68/65/65/125/115/80",
+"newStats":"68/65/65/125/135/80",
+"oldType":"PSYCHIC/PSYCHIC"
+,"newType":"PSYCHIC/FAIRY"
+},{"species":"SURSKIT",
+"oldAbilities":"SWIFT SWIM/NONE"
+,"newAbilities":"SWIFT SWIM/RAIN DISH"
+},{"species":"MASQUERAIN",
+"oldStats":"70/60/62/80/82/60",
+"newStats":"70/60/60/100/80/100",
+"oldAbilities":"INTIMIDATE/NONE"
+,"newAbilities":"INTIMIDATE/WATER BUBBLE"
+},{"species":"BRELOOM",
+"oldStats":"60/130/80/60/60/70",
+"newStats":"70/130/80/60/60/70",
+"oldAbilities":"EFFECT SPORE/POISON HEAL"
+,"newAbilities":"TECHNICIAN/POISON HEAL"
+},{"species":"VIGOROTH",
+"oldStats":"80/80/80/55/55/90",
+"newStats":"90/80/80/55/65/90"
+},{"species":"WHISMUR",
+"oldStats":"64/51/23/51/23/28",
+"newStats":"65/55/25/50/25/30",
+"oldAbilities":"SOUNDPROOF/NONE"
+,"newAbilities":"SOUNDPROOF/RATTLED"
+},{"species":"LOUDRED",
+"oldStats":"84/71/43/71/43/48",
+"newStats":"85/75/60/75/45/60",
+"oldAbilities":"SOUNDPROOF/NONE"
+,"newAbilities":"SOUNDPROOF/SCRAPPY"
+},{"species":"EXPLOUD",
+"oldStats":"104/91/63/91/63/68",
+"newStats":"105/100/85/90/70/70",
+"oldAbilities":"SOUNDPROOF/NONE"
+,"newAbilities":"PUNK ROCK/SCRAPPY"
+},{"species":"MAKUHITA",
+"oldStats":"72/60/30/20/30/25",
+"newStats":"75/60/30/20/30/25"
+},{"species":"HARIYAMA",
+"oldStats":"144/120/60/40/60/50",
+"newStats":"145/120/70/40/70/50"
+},{"species":"AZURILL",
+"oldType":"NORMAL/NORMAL"
+,"newType":"WATER/FAIRY"
+},{"species":"SKITTY",
+"oldAbilities":"CUTE CHARM/NORMALIZE"
+,"newAbilities":"CUTE CHARM/WONDER SKIN"
+},{"species":"DELCATTY",
+"oldStats":"70/65/65/55/55/70",
+"newStats":"70/65/65/70/60/120",
+"oldType":"NORMAL/NORMAL"
+,"newType":"NORMAL/FAIRY",
+"oldAbilities":"CUTE CHARM/NORMALIZE"
+,"newAbilities":"CUTE CHARM/WONDER SKIN"
+},{"species":"SABLEYE",
+"oldStats":"50/75/75/65/65/50",
+"newStats":"50/95/75/95/75/50",
+"oldAbilities":"KEEN EYE/STALL"
+,"newAbilities":"PRANKSTER/NONE"
+},{"species":"MAWILE",
+"oldStats":"50/85/85/55/55/50",
+"newStats":"60/105/85/75/55/60",
+"oldType":"STEEL/STEEL"
+,"newType":"STEEL/FAIRY",
+"oldAbilities":"HYPER CUTTER/INTIMIDATE"
+,"newAbilities":"INTIMIDATE/NONE"
+},{"species":"LAIRON",
+"oldAbilities":"STURDY/ROCK HEAD"
+,"newAbilities":"FILTER/ROCK HEAD"
+},{"species":"AGGRON",
+"oldStats":"70/110/180/60/60/50",
+"newStats":"70/110/180/60/60/55",
+"oldAbilities":"STURDY/ROCK HEAD"
+,"newAbilities":"FILTER/ROCK HEAD"
+},{"species":"MEDICHAM",
+"oldStats":"60/60/75/60/75/80",
+"newStats":"60/60/75/100/75/90"
+},{"species":"ELECTRIKE",
+"oldStats":"40/45/40/65/40/65",
+"newStats":"40/45/40/65/40/75",
+"oldAbilities":"STATIC/LIGHTNING ROD"
+,"newAbilities":"STATIC/INTIMIDATE"
+},{"species":"MANECTRIC",
+"oldStats":"70/75/60/105/60/105",
+"newStats":"70/75/60/105/60/115",
+"oldAbilities":"STATIC/LIGHTNING ROD"
+,"newAbilities":"STATIC/INTIMIDATE"
+},{"species":"PLUSLE",
+"oldStats":"60/50/40/85/75/95",
+"newStats":"60/50/40/85/75/105",
+"oldAbilities":"PLUS/NONE"
+,"newAbilities":"PLUS/VOLT ABSORB"
+},{"species":"MINUN",
+"oldStats":"60/40/50/75/85/95",
+"newStats":"60/40/50/75/85/105",
+"oldAbilities":"MINUS/NONE"
+,"newAbilities":"MINUS/LIGHTNING ROD"
+},{"species":"VOLBEAT",
+"oldStats":"65/73/55/47/75/85",
+"newStats":"65/75/75/70/85/85",
+"oldType":"BUG/BUG"
+,"newType":"BUG/ELECTRIC",
+"oldAbilities":"ILLUMINATE/SWARM"
+,"newAbilities":"PRANKSTER/SWARM"
+},{"species":"ILLUMISE",
+"oldStats":"65/47/55/73/75/85",
+"newStats":"65/70/75/75/85/85",
+"oldType":"BUG/BUG"
+,"newType":"BUG/FAIRY",
+"oldAbilities":"OBLIVIOUS/TINTED LENS"
+,"newAbilities":"PRANKSTER/TINTED LENS"
+},{"species":"ROSELIA",
+"oldStats":"50/60/45/100/80/65",
+"newStats":"60/60/45/100/80/65",
+"oldAbilities":"NATURAL CURE/POISON POINT"
+,"newAbilities":"NATURAL CURE/TECHNICIAN"
+},{"species":"GULPIN",
+"oldStats":"70/43/53/43/53/40",
+"newStats":"70/53/53/53/53/40",
+"oldAbilities":"LIQUID OOZE/STICKY HOLD"
+,"newAbilities":"LIQUID OOZE/GLUTTONY"
+},{"species":"SWALOT",
+"oldStats":"100/73/83/73/83/55",
+"newStats":"100/93/83/93/83/55",
+"oldAbilities":"LIQUID OOZE/STICKY HOLD"
+,"newAbilities":"LIQUID OOZE/GLUTTONY"
+},{"species":"CARVANHA",
+"oldAbilities":"ROUGH SKIN/NONE"
+,"newAbilities":"ROUGH SKIN/SPEED BOOST"
+},{"species":"SHARPEDO",
+"oldAbilities":"ROUGH SKIN/NONE"
+,"newAbilities":"ROUGH SKIN/SPEED BOOST"
+},{"species":"WAILMER",
+"oldAbilities":"WATER VEIL/OBLIVIOUS"
+,"newAbilities":"WATER VEIL/PRESSURE"
+},{"species":"WAILORD",
+"oldStats":"170/90/45/90/45/60",
+"newStats":"170/90/55/90/55/60",
+"oldAbilities":"WATER VEIL/OBLIVIOUS"
+,"newAbilities":"RAIN DISH/PRESSURE"
+},{"species":"CAMERUPT",
+"oldStats":"70/100/70/105/75/40",
+"newStats":"80/100/70/125/75/40",
+"oldAbilities":"MAGMA ARMOR/SOLID ROCK"
+,"newAbilities":"SOLID ROCK/SIMPLE"
+},{"species":"TORKOAL",
+"oldAbilities":"WHITE SMOKE/DROUGHT"
+,"newAbilities":"DROUGHT/DROUGHT"
+},{"species":"GRUMPIG",
+"oldStats":"80/45/65/90/110/80",
+"newStats":"80/40/65/115/110/80",
+"oldType":"PSYCHIC/PSYCHIC"
+,"newType":"PSYCHIC/DARK",
+"oldAbilities":"THICK FAT/OWN TEMPO"
+,"newAbilities":"THICK FAT/MAGIC GUARD"
+},{"species":"SPINDA",
+"oldStats":"60/60/60/60/60/60",
+"newStats":"75/75/75/75/75/75",
+"oldAbilities":"OWN TEMPO/TANGLED FEET"
+,"newAbilities":"OWN TEMPO/CONTRARY"
+},{"species":"FLYGON",
+"oldStats":"80/100/80/80/80/100",
+"newStats":"80/100/80/100/80/100"
+},{"species":"CACNEA",
+"oldAbilities":"SAND VEIL/NONE"
+,"newAbilities":"IRON BARBS/WATER ABSORB"
+},{"species":"CACTURNE",
+"oldStats":"70/115/60/115/60/55",
+"newStats":"70/115/60/115/60/60",
+"oldAbilities":"SAND VEIL/NONE"
+,"newAbilities":"IRON BARBS/WATER ABSORB"
+},{"species":"SWABLU",
+"oldType":"NORMAL/FLYING"
+,"newType":"FAIRY/FLYING",
+"oldAbilities":"NATURAL CURE/NONE"
+,"newAbilities":"NATURAL CURE/COTTON DOWN"
+},{"species":"ALTARIA",
+"oldStats":"75/70/90/70/105/80",
+"newStats":"75/70/90/70/95/80",
+"oldType":"DRAGON/FLYING"
+,"newType":"FAIRY/DRAGON",
+"oldAbilities":"NATURAL CURE/NONE"
+,"newAbilities":"NATURAL CURE/COTTON DOWN"
+},{"species":"ZANGOOSE",
+"oldStats":"73/115/60/60/60/90",
+"newStats":"80/115/60/60/60/95",
+"oldAbilities":"IMMUNITY/NONE"
+,"newAbilities":"IMMUNITY/TOXIC BOOST"
+},{"species":"SEVIPER",
+"oldStats":"73/100/60/100/60/65",
+"newStats":"80/105/60/100/60/65",
+"oldAbilities":"SHED SKIN/NONE"
+,"newAbilities":"SHED SKIN/MERCILESS"
+},{"species":"LUNATONE",
+"oldStats":"70/55/65/95/85/70",
+"newStats":"90/55/85/95/95/70"
+},{"species":"SOLROCK",
+"oldStats":"70/95/85/55/65/70",
+"newStats":"90/95/95/55/85/70"
+},{"species":"BARBOACH",
+"oldAbilities":"OBLIVIOUS/ANTICIPATION"
+,"newAbilities":"WATER COMPACTION/POISON POINT"
+},{"species":"WHISCASH",
+"oldStats":"110/78/73/76/71/60",
+"newStats":"110/90/73/76/71/70",
+"oldAbilities":"OBLIVIOUS/ANTICIPATION"
+,"newAbilities":"WATER COMPACTION/POISON POINT"
+},{"species":"CORPHISH",
+"oldStats":"43/80/65/50/35/35",
+"newStats":"43/50/65/80/35/35",
+"oldAbilities":"HYPER CUTTER/SHELL ARMOR"
+,"newAbilities":"ADAPTABILITY/SHELL ARMOR"
+},{"species":"CRAWDAUNT",
+"oldStats":"63/120/85/90/55/55",
+"newStats":"63/90/85/120/55/55",
+"oldAbilities":"HYPER CUTTER/SHELL ARMOR"
+,"newAbilities":"ADAPTABILITY/SHELL ARMOR"
+},{"species":"CLAYDOL",
+"oldStats":"60/70/105/70/120/75",
+"newStats":"60/100/105/70/105/75"
+},{"species":"LILEEP",
+"oldAbilities":"SUCTION CUPS/NONE"
+,"newAbilities":"SHELL ARMOR/WATER ABSORB"
+},{"species":"CRADILY",
+"oldStats":"86/81/97/81/107/43",
+"newStats":"86/81/100/81/110/42",
+"oldAbilities":"SUCTION CUPS/NONE"
+,"newAbilities":"SHELL ARMOR/WATER ABSORB"
+},{"species":"ANORITH",
+"oldAbilities":"BATTLE ARMOR/NONE"
+,"newAbilities":"BATTLE ARMOR/SWIFT SWIM"
+},{"species":"ARMALDO",
+"oldStats":"75/125/100/70/80/45",
+"newStats":"75/130/100/60/80/55",
+"oldAbilities":"BATTLE ARMOR/NONE"
+,"newAbilities":"BATTLE ARMOR/SWIFT SWIM"
+},{"species":"MILOTIC",
+"oldType":"WATER/WATER"
+,"newType":"WATER/FAIRY"
+},{"species":"KECLEON",
+"oldStats":"60/90/70/60/120/40",
+"newStats":"60/100/70/90/120/40",
+"oldAbilities":"COLOR CHANGE/NONE"
+,"newAbilities":"COLOR CHANGE/PROTEAN"
+},{"species":"SHUPPET",
+"oldAbilities":"INSOMNIA/FRISK"
+,"newAbilities":"INSOMNIA/SHADOW SHIELD"
+},{"species":"BANETTE",
+"oldStats":"64/115/65/83/63/65",
+"newStats":"64/115/65/83/63/80",
+"oldAbilities":"INSOMNIA/FRISK"
+,"newAbilities":"TECHNICIAN/SHADOW SHIELD"
+},{"species":"DUSCLOPS",
+"oldStats":"40/70/130/60/130/25",
+"newStats":"40/85/130/60/130/25"
+},{"species":"TROPIUS",
+"oldStats":"99/68/83/72/87/51",
+"newStats":"105/80/85/75/90/65",
+"oldType":"GRASS/FLYING"
+,"newType":"FLYING/GRASS",
+"oldAbilities":"CHLOROPHYLL/SOLAR POWER"
+,"newAbilities":"CHLOROPHYLL/HARVEST"
+},{"species":"CHIMECHO",
+"oldStats":"65/50/70/95/80/65",
+"newStats":"80/50/80/100/90/80"
+},{"species":"ABSOL",
+"oldStats":"65/130/60/75/60/75",
+"newStats":"65/100/60/115/60/115"
+},{"species":"SNORUNT",
+"oldAbilities":"INNER FOCUS/ICE BODY"
+,"newAbilities":"INNER FOCUS/MOODY"
+},{"species":"GLALIE",
+"oldAbilities":"INNER FOCUS/ICE BODY"
+,"newAbilities":"REFRIGERATE/MOODY"
+},{"species":"WALREIN",
+"oldStats":"110/80/90/95/90/65",
+"newStats":"110/70/90/105/90/65"
+},{"species":"HUNTAIL",
+"oldStats":"55/104/105/94/75/52",
+"newStats":"55/104/105/94/75/72",
+"oldType":"WATER/WATER"
+,"newType":"WATER/DARK"
+},{"species":"GOREBYSS",
+"oldStats":"55/84/105/114/75/52",
+"newStats":"55/84/105/114/75/72",
+"oldType":"WATER/WATER"
+,"newType":"WATER/FAIRY"
+},{"species":"RELICANTH",
+"oldStats":"100/90/130/45/65/55",
+"newStats":"100/110/130/45/65/55",
+"oldType":"WATER/ROCK"
+,"newType":"ROCK/WATER"
+},{"species":"LUVDISC",
+"oldStats":"43/30/55/40/65/97",
+"newStats":"50/30/75/95/75/125",
+"oldType":"WATER/WATER"
+,"newType":"WATER/FAIRY",
+"oldAbilities":"SWIFT SWIM/NONE"
+,"newAbilities":"SWIFT SWIM/HYDRATION"
+},{"species":"BAGON",
+"oldAbilities":"ROCK HEAD/NONE"
+,"newAbilities":"ROCK HEAD/SHEER FORCE"
+},{"species":"SHELGON",
+"oldAbilities":"ROCK HEAD/NONE"
+,"newAbilities":"ROCK HEAD/OVERCOAT"
+},{"species":"SALAMENCE",
+"oldAbilities":"INTIMIDATE/NONE"
+,"newAbilities":"INTIMIDATE/MOXIE"
+},{"species":"REGIROCK",
+"oldAbilities":"CLEAR BODY/NONE"
+,"newAbilities":"CLEAR BODY/ADAPTABILITY"
+},{"species":"REGICE",
+"oldAbilities":"CLEAR BODY/NONE"
+,"newAbilities":"CLEAR BODY/ADAPTABILITY"
+},{"species":"REGISTEEL",
+"oldAbilities":"CLEAR BODY/NONE"
+,"newAbilities":"CLEAR BODY/ADAPTABILITY"
+},{"species":"RAYQUAZA",
+"oldType":"DRAGON/FLYING"
+,"newType":"FLYING/DRAGON"
+},{"species":"TURTWIG",
+"oldAbilities":"OVERGROW/NONE"
+,"newAbilities":"OVERGROW/SHELL ARMOR"
+},{"species":"GROTLE",
+"oldAbilities":"OVERGROW/NONE"
+,"newAbilities":"OVERGROW/SHELL ARMOR"
+},{"species":"TORTERRA",
+"oldAbilities":"OVERGROW/NONE"
+,"newAbilities":"OVERGROW/SHELL ARMOR"
+},{"species":"CHIMCHAR",
+"oldAbilities":"BLAZE/NONE"
+,"newAbilities":"BLAZE/IRON FIST"
+},{"species":"MONFERNO",
+"oldAbilities":"BLAZE/NONE"
+,"newAbilities":"BLAZE/IRON FIST"
+},{"species":"INFERNAPE",
+"oldAbilities":"BLAZE/NONE"
+,"newAbilities":"BLAZE/IRON FIST"
+},{"species":"PIPLUP",
+"oldAbilities":"TORRENT/NONE"
+,"newAbilities":"TORRENT/DEFIANT"
+},{"species":"PRINPLUP",
+"oldAbilities":"TORRENT/NONE"
+,"newAbilities":"TORRENT/DEFIANT"
+},{"species":"EMPOLEON",
+"oldAbilities":"TORRENT/NONE"
+,"newAbilities":"TORRENT/SUPREME OVERLORD"
+},{"species":"STARLY",
+"oldAbilities":"KEEN EYE/NONE"
+,"newAbilities":"KEEN EYE/RECKLESS"
+},{"species":"STARAVIA",
+"oldAbilities":"INTIMIDATE/NONE"
+,"newAbilities":"INTIMIDATE/RECKLESS"
+},{"species":"STARAPTOR",
+"oldAbilities":"INTIMIDATE/NONE"
+,"newAbilities":"INTIMIDATE/RECKLESS"
+},{"species":"BIBAREL",
+"oldStats":"79/85/60/55/60/71",
+"newStats":"79/90/60/70/60/76"
+},{"species":"KRICKETOT",
+"oldAbilities":"SHED SKIN/NONE"
+,"newAbilities":"SHED SKIN/RUN AWAY"
+},{"species":"KRICKETUNE",
+"oldStats":"77/85/51/55/51/65",
+"newStats":"75/95/60/55/60/70",
+"oldAbilities":"SWARM/NONE"
+,"newAbilities":"SWARM/TECHNICIAN"
+},{"species":"SHINX",
+"oldStats":"45/65/34/40/34/45",
+"newStats":"45/40/34/65/34/45"
+},{"species":"LUXIO",
+"oldStats":"60/85/49/60/49/60",
+"newStats":"60/60/49/85/49/60",
+"oldType":"ELECTRIC/ELECTRIC"
+,"newType":"ELECTRIC/DARK",
+"oldAbilities":"RIVALRY/INTIMIDATE"
+,"newAbilities":"STRONG JAW/INTIMIDATE"
+},{"species":"LUXRAY",
+"oldStats":"80/120/79/95/79/70",
+"newStats":"80/95/79/120/79/70",
+"oldType":"ELECTRIC/ELECTRIC"
+,"newType":"ELECTRIC/DARK",
+"oldAbilities":"RIVALRY/INTIMIDATE"
+,"newAbilities":"STRONG JAW/INTIMIDATE"
+},{"species":"ROSERADE",
+"oldStats":"60/70/55/125/105/90",
+"newStats":"70/70/65/125/105/90",
+"oldAbilities":"NATURAL CURE/POISON POINT"
+,"newAbilities":"NATURAL CURE/TECHNICIAN"
+},{"species":"CRANIDOS",
+"oldAbilities":"MOLD BREAKER/NONE"
+,"newAbilities":"MOLD BREAKER/ROCK HEAD"
+},{"species":"RAMPARDOS",
+"oldStats":"97/165/60/65/50/58",
+"newStats":"97/165/65/65/50/58",
+"oldAbilities":"MOLD BREAKER/NONE"
+,"newAbilities":"MOLD BREAKER/ROCK HEAD"
+},{"species":"SHIELDON",
+"oldAbilities":"STURDY/NONE"
+,"newAbilities":"STURDY/DAUNTLESS SHIELD"
+},{"species":"BASTIODON",
+"oldAbilities":"STURDY/NONE"
+,"newAbilities":"STURDY/DAUNTLESS SHIELD"
+},{"species":"WORMADAM",
+"oldAbilities":"ANTICIPATION/NONE"
+,"newAbilities":"RATTLED/NONE"
+},{"species":"MOTHIM",
+"oldStats":"70/94/50/94/50/66",
+"newStats":"70/94/50/66/50/94",
+"oldAbilities":"SWARM/NONE"
+,"newAbilities":"SWARM/TINTED LENS"
+},{"species":"COMBEE",
+"oldAbilities":"HONEY GATHER/NONE"
+,"newAbilities":"HONEY GATHER/HONEY GATHER"
+},{"species":"VESPIQUEN",
+"oldStats":"70/80/102/80/102/40",
+"newStats":"90/80/102/80/102/40",
+"oldAbilities":"PRESSURE/NONE"
+,"newAbilities":"PRESSURE/QUEENLY MAJESTY"
+},{"species":"PACHIRISU",
+"oldStats":"60/45/70/45/90/95",
+"newStats":"70/45/70/45/90/105",
+"oldAbilities":"RUN AWAY/PICKUP"
+,"newAbilities":"VOLT ABSORB/PICKUP"
+},{"species":"FLOATZEL",
+"oldStats":"85/105/55/85/50/115",
+"newStats":"85/105/55/105/50/115"
+},{"species":"AMBIPOM",
+"oldAbilities":"TECHNICIAN/PICKUP"
+,"newAbilities":"TECHNICIAN/SKILL LINK"
+},{"species":"BUNEARY",
+"oldAbilities":"RUN AWAY/KLUTZ"
+,"newAbilities":"RUN AWAY/SCRAPPY"
+},{"species":"LOPUNNY",
+"oldStats":"65/76/84/54/96/105",
+"newStats":"65/110/84/54/96/105",
+"oldType":"NORMAL/NORMAL"
+,"newType":"NORMAL/FIGHTING",
+"oldAbilities":"CUTE CHARM/KLUTZ"
+,"newAbilities":"CUTE CHARM/SCRAPPY"
+},{"species":"MISMAGIUS",
+"oldStats":"60/60/60/105/105/105",
+"newStats":"60/60/60/110/110/110",
+"oldType":"GHOST/GHOST"
+,"newType":"GHOST/FAIRY"
+},{"species":"HONCHKROW",
+"oldStats":"100/125/52/105/52/71",
+"newStats":"100/125/55/105/54/71",
+"oldAbilities":"INSOMNIA/SUPER LUCK"
+,"newAbilities":"INSOMNIA/MOXIE"
+},{"species":"GLAMEOW",
+"oldStats":"49/55/42/42/37/85",
+"newStats":"49/55/42/52/37/85"
+},{"species":"PURUGLY",
+"oldStats":"71/82/64/64/59/112",
+"newStats":"71/100/64/74/59/112",
+"oldAbilities":"THICK FAT/OWN TEMPO"
+,"newAbilities":"THICK FAT/DEFIANT"
+},{"species":"SKUNTANK",
+"oldStats":"103/93/67/71/61/84",
+"newStats":"113/93/67/82/61/84",
+"oldAbilities":"STENCH/AFTERMATH"
+,"newAbilities":"STENCH/POISON TOUCH"
+},{"species":"BRONZOR",
+"oldStats":"57/24/86/24/86/23",
+"newStats":"57/24/86/34/86/23"
+},{"species":"BRONZONG",
+"oldStats":"67/89/116/79/116/33",
+"newStats":"67/89/116/89/116/33"
+},{"species":"CHATOT",
+"oldStats":"76/65/45/92/42/91",
+"newStats":"76/92/55/65/55/91",
+"oldAbilities":"KEEN EYE/TANGLED FEET"
+,"newAbilities":"PUNK ROCK/TANGLED FEET"
+},{"species":"SPIRITOMB",
+"oldStats":"50/92/108/92/108/35",
+"newStats":"70/102/123/102/123/35"
+},{"species":"GIBLE",
+"oldAbilities":"SAND VEIL/NONE"
+,"newAbilities":"SAND VEIL/ROUGH SKIN"
+},{"species":"GABITE",
+"oldAbilities":"SAND VEIL/NONE"
+,"newAbilities":"SAND VEIL/ROUGH SKIN"
+},{"species":"GARCHOMP",
+"oldAbilities":"SAND VEIL/NONE"
+,"newAbilities":"SAND RUSH/ROUGH SKIN"
+},{"species":"MUNCHLAX",
+"oldAbilities":"PICKUP/THICK FAT"
+,"newAbilities":"GLUTTONY/THICK FAT"
+},{"species":"LUCARIO",
+"oldStats":"70/110/70/115/70/90",
+"newStats":"70/125/70/100/70/90"
+},{"species":"DRAPION",
+"oldStats":"70/90/110/60/75/95",
+"newStats":"70/100/110/60/75/95"
+},{"species":"CROAGUNK",
+"oldAbilities":"ANTICIPATION/DRY SKIN"
+,"newAbilities":"POISON TOUCH/DRY SKIN"
+},{"species":"TOXICROAK",
+"oldStats":"83/106/65/86/65/85",
+"newStats":"83/106/95/86/65/85",
+"oldAbilities":"ANTICIPATION/DRY SKIN"
+,"newAbilities":"POISON TOUCH/DRY SKIN"
+},{"species":"CARNIVINE",
+"oldStats":"74/100/72/90/72/46",
+"newStats":"84/100/82/90/72/46",
+"oldType":"GRASS/GRASS"
+,"newType":"GRASS/POISON"
+},{"species":"FINNEON",
+"oldAbilities":"SWIFT SWIM/STORM DRAIN"
+,"newAbilities":"SWIFT SWIM/DAZZLING"
+},{"species":"LUMINEON",
+"oldStats":"69/69/76/69/86/91",
+"newStats":"80/67/76/80/86/91",
+"oldType":"WATER/WATER"
+,"newType":"WATER/BUG",
+"oldAbilities":"SWIFT SWIM/STORM DRAIN"
+,"newAbilities":"SWIFT SWIM/DAZZLING"
+},{"species":"ABOMASNOW",
+"oldStats":"90/92/75/92/85/60",
+"newStats":"100/92/85/112/95/40"
+},{"species":"WEAVILE",
+"oldStats":"70/120/65/45/85/125",
+"newStats":"70/45/65/120/85/125"
+},{"species":"MAGNEZONE",
+"oldAbilities":"MAGNET PULL/STURDY"
+,"newAbilities":"MAGNET PULL/ANALYTIC"
+},{"species":"LICKILICKY",
+"oldStats":"110/85/95/80/95/50",
+"newStats":"110/95/95/80/95/50",
+"oldAbilities":"OWN TEMPO/OBLIVIOUS"
+,"newAbilities":"ADAPTABILITY/CLOUD NINE"
+},{"species":"RHYPERIOR",
+"oldStats":"115/140/130/55/55/40",
+"newStats":"115/140/130/55/55/50"
+},{"species":"TANGROWTH",
+"oldAbilities":"CHLOROPHYLL/LEAF GUARD"
+,"newAbilities":"CHLOROPHYLL/REGENERATOR"
+},{"species":"ELECTIVIRE",
+"oldType":"ELECTRIC/ELECTRIC"
+,"newType":"ELECTRIC/FIGHTING",
+"oldAbilities":"MOTOR DRIVE/NONE"
+,"newAbilities":"MOTOR DRIVE/IRON FIST"
+},{"species":"MAGMORTAR",
+"oldType":"FIRE/FIRE"
+,"newType":"FIRE/DARK",
+"oldAbilities":"FLAME BODY/NONE"
+,"newAbilities":"MEGA LAUNCHER/FLASH FIRE"
+},{"species":"TOGEKISS",
+"oldType":"NORMAL/FLYING"
+,"newType":"FAIRY/FLYING"
+},{"species":"YANMEGA",
+"oldStats":"86/76/86/116/56/95",
+"newStats":"86/96/70/116/56/95"
+},{"species":"LEAFEON",
+"oldStats":"65/110/130/60/65/95",
+"newStats":"65/60/130/110/65/95",
+"oldAbilities":"LEAF GUARD/LEAF GUARD"
+,"newAbilities":"LEAF GUARD/CHLOROPHYLL"
+},{"species":"GLACEON",
+"oldAbilities":"SNOW CLOAK/SNOW CLOAK"
+,"newAbilities":"SNOW CLOAK/ICE BODY"
+},{"species":"GLISCOR",
+"oldAbilities":"HYPER CUTTER/SAND VEIL"
+,"newAbilities":"HYPER CUTTER/POISON HEAL"
+},{"species":"MAMOSWINE",
+"oldAbilities":"OBLIVIOUS/SNOW CLOAK"
+,"newAbilities":"THICK FAT/SNOW CLOAK"
+},{"species":"GALLADE",
+"oldAbilities":"STEADFAST/NONE"
+,"newAbilities":"SHARPNESS/JUSTIFIED"
+},{"species":"PROBOPASS",
+"oldStats":"60/55/145/75/150/40",
+"newStats":"60/75/145/55/150/40",
+"oldAbilities":"STURDY/MAGNET PULL"
+,"newAbilities":"ROCKY PAYLOAD/MAGNET PULL"
+},{"species":"DUSKNOIR",
+"oldStats":"45/100/135/65/135/45",
+"newStats":"45/110/135/65/135/45",
+"oldAbilities":"PRESSURE/NONE"
+,"newAbilities":"IRON FIST/NONE"
+},{"species":"FROSLASS",
+"oldAbilities":"SNOW CLOAK/NONE"
+,"newAbilities":"SNOW CLOAK/SNOW WARNING"
+},{"species":"DIALGA",
+"oldAbilities":"PRESSURE/NONE"
+,"newAbilities":"PRESSURE/REGENERATOR"
+},{"species":"PALKIA",
+"oldAbilities":"PRESSURE/NONE"
+,"newAbilities":"PRESSURE/SPEED BOOST"
+},{"species":"HEATRAN",
+"oldAbilities":"FLASH FIRE/NONE"
+,"newAbilities":"FLASH FIRE/EARTH EATER"
+},{"species":"REGIGIGAS",
+"oldAbilities":"SLOW START/NONE"
+,"newAbilities":"MOLD BREAKER/NONE"
+},{"species":"GIRATINA",
+"oldAbilities":"PRESSURE/NONE"
+,"newAbilities":"PRESSURE/SUPREME OVERLORD"
+},{"species":"CRESSELIA",
+"oldType":"PSYCHIC/PSYCHIC"
+,"newType":"FAIRY/FAIRY"
+},{"species":"PHIONE",
+"oldType":"WATER/WATER"
+,"newType":"WATER/FAIRY"
+},{"species":"MANAPHY",
+"oldType":"WATER/WATER"
+,"newType":"WATER/FAIRY"
+},{"species":"ARCEUS",
+"oldStats":"120/120/120/120/120/120",
+"newStats":"125/125/125/125/125/125"
+},{"species":"SNIVY",
+"oldAbilities":"OVERGROW/NONE"
+,"newAbilities":"OVERGROW/CONTRARY"
+},{"species":"SERVINE",
+"oldAbilities":"OVERGROW/NONE"
+,"newAbilities":"OVERGROW/CONTRARY"
+},{"species":"SERPERIOR",
+"oldAbilities":"OVERGROW/NONE"
+,"newAbilities":"OVERGROW/CONTRARY"
+},{"species":"TEPIG",
+"oldAbilities":"BLAZE/NONE"
+,"newAbilities":"BLAZE/THICK FAT"
+},{"species":"PIGNITE",
+"oldAbilities":"BLAZE/NONE"
+,"newAbilities":"BLAZE/THICK FAT"
+},{"species":"EMBOAR",
+"oldAbilities":"BLAZE/NONE"
+,"newAbilities":"BLAZE/RECKLESS"
+},{"species":"OSHAWOTT",
+"oldAbilities":"TORRENT/NONE"
+,"newAbilities":"TORRENT/SHARPNESS"
+},{"species":"DEWOTT",
+"oldAbilities":"TORRENT/NONE"
+,"newAbilities":"TORRENT/SHARPNESS"
+},{"species":"SAMUROTT",
+"oldAbilities":"TORRENT/NONE"
+,"newAbilities":"TORRENT/SHARPNESS"
+},{"species":"PATRAT",
+"oldAbilities":"RUN AWAY/KEEN EYE"
+,"newAbilities":"CHEEK POUCH/SCRAPPY"
+},{"species":"WATCHOG",
+"oldStats":"60/85/69/60/69/77",
+"newStats":"67/85/69/60/69/100",
+"oldAbilities":"ILLUMINATE/KEEN EYE"
+,"newAbilities":"CHEEK POUCH/SCRAPPY"
+},{"species":"STOUTLAND",
+"oldStats":"85/100/90/45/90/80",
+"newStats":"85/110/90/45/90/80",
+"oldType":"NORMAL/NORMAL"
+,"newType":"NORMAL/GROUND"
+},{"species":"PURRLOIN",
+"oldAbilities":"LIMBER/UNBURDEN"
+,"newAbilities":"PRANKSTER/UNBURDEN"
+},{"species":"LIEPARD",
+"oldStats":"64/88/50/88/50/106",
+"newStats":"75/90/50/100/50/106",
+"oldAbilities":"LIMBER/UNBURDEN"
+,"newAbilities":"PRANKSTER/UNBURDEN"
+},{"species":"PANSAGE",
+"oldStats":"50/53/48/53/48/64",
+"newStats":"50/48/48/58/48/64",
+"oldAbilities":"GLUTTONY/NONE"
+,"newAbilities":"GLUTTONY/OVERGROW"
+},{"species":"SIMISAGE",
+"oldStats":"75/98/63/98/63/101",
+"newStats":"75/80/63/116/63/101",
+"oldAbilities":"GLUTTONY/NONE"
+,"newAbilities":"GLUTTONY/OVERGROW"
+},{"species":"PANSEAR",
+"oldStats":"50/53/48/53/48/64",
+"newStats":"50/48/48/58/48/64",
+"oldAbilities":"GLUTTONY/NONE"
+,"newAbilities":"GLUTTONY/BLAZE"
+},{"species":"SIMISEAR",
+"oldStats":"75/98/63/98/63/101",
+"newStats":"75/80/63/116/63/101",
+"oldAbilities":"GLUTTONY/NONE"
+,"newAbilities":"GLUTTONY/BLAZE"
+},{"species":"PANPOUR",
+"oldStats":"50/53/48/53/48/64",
+"newStats":"50/48/48/58/48/64",
+"oldAbilities":"GLUTTONY/NONE"
+,"newAbilities":"GLUTTONY/TORRENT"
+},{"species":"SIMIPOUR",
+"oldStats":"75/98/63/98/63/101",
+"newStats":"75/80/63/116/63/101",
+"oldAbilities":"GLUTTONY/NONE"
+,"newAbilities":"GLUTTONY/TORRENT"
+},{"species":"MUNNA",
+"oldType":"PSYCHIC/PSYCHIC"
+,"newType":"PSYCHIC/FAIRY",
+"oldAbilities":"FOREWARN/SYNCHRONIZE"
+,"newAbilities":"BAD DREAMS/TELEPATHY"
+},{"species":"MUSHARNA",
+"oldStats":"116/55/85/107/95/29",
+"newStats":"116/55/95/107/105/29",
+"oldType":"PSYCHIC/PSYCHIC"
+,"newType":"PSYCHIC/FAIRY",
+"oldAbilities":"FOREWARN/SYNCHRONIZE"
+,"newAbilities":"BAD DREAMS/COMATOSE"
+},{"species":"PIDOVE",
+"oldType":"NORMAL/FLYING"
+,"newType":"FLYING/NORMAL",
+"oldAbilities":"BIG PECKS/SUPER LUCK"
+,"newAbilities":"ADAPTABILITY/SUPER LUCK"
+},{"species":"TRANQUILL",
+"oldType":"NORMAL/FLYING"
+,"newType":"FLYING/NORMAL",
+"oldAbilities":"BIG PECKS/SUPER LUCK"
+,"newAbilities":"ADAPTABILITY/SUPER LUCK"
+},{"species":"UNFEZANT",
+"oldStats":"80/105/80/65/55/93",
+"newStats":"80/115/80/65/55/93",
+"oldType":"NORMAL/FLYING"
+,"newType":"FLYING/NORMAL",
+"oldAbilities":"BIG PECKS/SUPER LUCK"
+,"newAbilities":"ADAPTABILITY/SUPER LUCK"
+},{"species":"BLITZLE",
+"oldAbilities":"LIGHTNING ROD/MOTOR DRIVE"
+,"newAbilities":"SAP SIPPER/MOTOR DRIVE"
+},{"species":"ZEBSTRIKA",
+"oldStats":"75/100/63/80/63/116",
+"newStats":"75/80/63/100/63/116"
+},{"species":"GIGALITH",
+"oldStats":"85/135/130/60/70/25",
+"newStats":"85/135/130/60/80/25"
+},{"species":"WOOBAT",
+"oldAbilities":"UNAWARE/KLUTZ"
+,"newAbilities":"UNAWARE/SIMPLE"
+},{"species":"SWOOBAT",
+"oldStats":"67/57/55/77/55/114",
+"newStats":"87/57/55/97/55/114",
+"oldAbilities":"UNAWARE/KLUTZ"
+,"newAbilities":"UNAWARE/SIMPLE"
+},{"species":"DRILBUR",
+"oldAbilities":"SAND RUSH/SAND FORCE"
+,"newAbilities":"SAND RUSH/MOLD BREAKER"
+},{"species":"EXCADRILL",
+"oldAbilities":"SAND RUSH/SAND FORCE"
+,"newAbilities":"SAND RUSH/MOLD BREAKER"
+},{"species":"AUDINO",
+"oldStats":"103/60/86/60/86/50",
+"newStats":"108/60/106/60/106/50",
+"oldType":"NORMAL/NORMAL"
+,"newType":"NORMAL/FAIRY"
+},{"species":"TYMPOLE",
+"oldAbilities":"SWIFT SWIM/HYDRATION"
+,"newAbilities":"SWIFT SWIM/WATER ABSORB"
+},{"species":"PALPITOAD",
+"oldAbilities":"SWIFT SWIM/HYDRATION"
+,"newAbilities":"SWIFT SWIM/WATER ABSORB"
+},{"species":"SEISMITOAD",
+"oldStats":"105/85/75/85/75/74",
+"newStats":"105/100/75/85/75/74",
+"oldAbilities":"SWIFT SWIM/POISON TOUCH"
+,"newAbilities":"SWIFT SWIM/WATER ABSORB"
+},{"species":"THROH",
+"oldStats":"120/100/85/30/85/45",
+"newStats":"125/100/85/30/85/45",
+"oldAbilities":"GUTS/INNER FOCUS"
+,"newAbilities":"GUTS/SCRAPPY"
+},{"species":"SAWK",
+"oldStats":"75/125/75/30/75/85",
+"newStats":"75/125/75/30/75/90",
+"oldAbilities":"STURDY/INNER FOCUS"
+,"newAbilities":"STURDY/MOLD BREAKER"
+},{"species":"LEAVANNY",
+"oldStats":"75/103/80/70/70/92",
+"newStats":"75/103/80/80/80/92",
+"oldAbilities":"SWARM/CHLOROPHYLL"
+,"newAbilities":"SHARPNESS/CHLOROPHYLL"
+},{"species":"VENIPEDE",
+"oldAbilities":"POISON POINT/SWARM"
+,"newAbilities":"SWARM/SPEED BOOST"
+},{"species":"WHIRLIPEDE",
+"oldAbilities":"POISON POINT/SWARM"
+,"newAbilities":"SWARM/SPEED BOOST"
+},{"species":"SCOLIPEDE",
+"oldStats":"60/90/89/55/69/112",
+"newStats":"60/100/89/55/69/112",
+"oldAbilities":"POISON POINT/SWARM"
+,"newAbilities":"SWARM/SPEED BOOST"
+},{"species":"COTTONEE",
+"oldType":"GRASS/GRASS"
+,"newType":"GRASS/FAIRY"
+},{"species":"WHIMSICOTT",
+"oldStats":"60/67/85/77/75/116",
+"newStats":"60/67/85/90/75/116",
+"oldType":"GRASS/GRASS"
+,"newType":"GRASS/FAIRY"
+},{"species":"LILLIGANT",
+"oldStats":"70/60/75/110/75/90",
+"newStats":"80/60/75/110/75/90"
+},{"species":"KROOKODILE",
+"oldStats":"95/117/70/65/70/92",
+"newStats":"95/117/85/65/75/92"
+},{"species":"DARUMAKA",
+"oldAbilities":"HUSTLE/NONE"
+,"newAbilities":"HUSTLE/INNER FOCUS"
+},{"species":"DARMANITAN",
+"oldAbilities":"SHEER FORCE/NONE"
+,"newAbilities":"SHEER FORCE/ZEN MODE"
+},{"species":"MARACTUS",
+"oldAbilities":"WATER ABSORB/CHLOROPHYLL"
+,"newAbilities":"WATER ABSORB/SAND FORCE"
+},{"species":"DWEBBLE",
+"oldStats":"50/65/85/35/35/55",
+"newStats":"55/65/85/35/35/55"
+},{"species":"CRUSTLE",
+"oldStats":"70/95/125/65/75/45",
+"newStats":"70/115/125/65/75/55"
+},{"species":"SCRAGGY",
+"oldAbilities":"SHED SKIN/MOXIE"
+,"newAbilities":"INTIMIDATE/MOXIE"
+},{"species":"SCRAFTY",
+"oldStats":"65/90/115/45/115/58",
+"newStats":"65/105/115/45/115/58",
+"oldAbilities":"SHED SKIN/MOXIE"
+,"newAbilities":"INTIMIDATE/MOXIE"
+},{"species":"SIGILYPH",
+"oldAbilities":"WONDER SKIN/MAGIC GUARD"
+,"newAbilities":"TINTED LENS/MAGIC GUARD"
+},{"species":"COFAGRIGUS",
+"oldStats":"58/50/145/95/105/30",
+"newStats":"65/95/145/50/105/30"
+},{"species":"TIRTOUGA",
+"oldAbilities":"SOLID ROCK/STURDY"
+,"newAbilities":"SOLID ROCK/SHELL ARMOR"
+},{"species":"CARRACOSTA",
+"oldStats":"74/108/133/83/65/32",
+"newStats":"74/108/133/85/65/55",
+"oldAbilities":"SOLID ROCK/STURDY"
+,"newAbilities":"SOLID ROCK/SHELL ARMOR"
+},{"species":"ARCHEN",
+"oldAbilities":"DEFEATIST/NONE"
+,"newAbilities":"EARLY BIRD/NONE"
+},{"species":"ARCHEOPS",
+"oldAbilities":"DEFEATIST/NONE"
+,"newAbilities":"EARLY BIRD/NONE"
+},{"species":"GARBODOR",
+"oldStats":"80/95/82/60/82/75",
+"newStats":"80/95/88/60/82/75",
+"oldAbilities":"STENCH/WEAK ARMOR"
+,"newAbilities":"TOXIC DEBRIS/WEAK ARMOR"
+},{"species":"ZOROARK",
+"oldStats":"60/105/60/120/60/105",
+"newStats":"60/95/60/130/60/115"
+},{"species":"MINCCINO",
+"oldAbilities":"CUTE CHARM/TECHNICIAN"
+,"newAbilities":"SKILL LINK/TECHNICIAN"
+},{"species":"CINCCINO",
+"oldStats":"75/95/60/65/60/115",
+"newStats":"80/95/70/70/70/115",
+"oldAbilities":"CUTE CHARM/TECHNICIAN"
+,"newAbilities":"SKILL LINK/TECHNICIAN"
+},{"species":"GOTHITA",
+"oldAbilities":"FRISK/COMPETITIVE"
+,"newAbilities":"SHADOW TAG/COMPETITIVE"
+},{"species":"GOTHORITA",
+"oldAbilities":"FRISK/COMPETITIVE"
+,"newAbilities":"SHADOW TAG/COMPETITIVE"
+},{"species":"GOTHITELLE",
+"oldAbilities":"FRISK/COMPETITIVE"
+,"newAbilities":"SHADOW TAG/COMPETITIVE"
+},{"species":"SOLOSIS",
+"oldAbilities":"OVERCOAT/MAGIC GUARD"
+,"newAbilities":"REGENERATOR/MAGIC GUARD"
+},{"species":"DUOSION",
+"oldAbilities":"OVERCOAT/MAGIC GUARD"
+,"newAbilities":"REGENERATOR/MAGIC GUARD"
+},{"species":"REUNICLUS",
+"oldAbilities":"OVERCOAT/MAGIC GUARD"
+,"newAbilities":"REGENERATOR/MAGIC GUARD"
+},{"species":"DUCKLETT",
+"oldType":"WATER/FLYING"
+,"newType":"FLYING/WATER",
+"oldAbilities":"KEEN EYE/BIG PECKS"
+,"newAbilities":"KEEN EYE/RAIN DISH"
+},{"species":"SWANNA",
+"oldStats":"75/87/63/87/63/98",
+"newStats":"80/97/63/97/63/100",
+"oldType":"WATER/FLYING"
+,"newType":"FLYING/WATER",
+"oldAbilities":"KEEN EYE/BIG PECKS"
+,"newAbilities":"DAZZLING/RAIN DISH"
+},{"species":"VANILLITE",
+"oldAbilities":"ICE BODY/SNOW CLOAK"
+,"newAbilities":"WEAK ARMOR/SNOW CLOAK"
+},{"species":"VANILLISH",
+"oldAbilities":"ICE BODY/SNOW CLOAK"
+,"newAbilities":"WEAK ARMOR/SNOW CLOAK"
+},{"species":"VANILLUXE",
+"oldStats":"71/95/85/110/95/79",
+"newStats":"85/84/85/110/95/79",
+"oldAbilities":"ICE BODY/SNOW WARNING"
+,"newAbilities":"WEAK ARMOR/SNOW WARNING"
+},{"species":"EMOLGA",
+"oldStats":"55/75/60/75/60/103",
+"newStats":"55/85/60/85/60/103",
+"oldAbilities":"STATIC/NONE"
+,"newAbilities":"STATIC/MOTOR DRIVE"
+},{"species":"ESCAVALIER",
+"oldAbilities":"SWARM/SHELL ARMOR"
+,"newAbilities":"SWARM/HEATPROOF"
+},{"species":"FOONGUS",
+"oldAbilities":"EFFECT SPORE/NONE"
+,"newAbilities":"EFFECT SPORE/REGENERATOR"
+},{"species":"AMOONGUSS",
+"oldAbilities":"EFFECT SPORE/NONE"
+,"newAbilities":"EFFECT SPORE/REGENERATOR"
+},{"species":"JELLICENT",
+"oldStats":"100/60/70/85/105/60",
+"newStats":"100/75/70/85/105/60"
+},{"species":"ALOMOMOLA",
+"oldStats":"165/75/80/40/45/65",
+"newStats":"165/40/80/75/45/65",
+"oldAbilities":"HEALER/HYDRATION"
+,"newAbilities":"REGENERATOR/NATURAL CURE"
+},{"species":"GALVANTULA",
+"oldStats":"70/77/60/97/60/108",
+"newStats":"70/77/60/107/60/108"
+},{"species":"KLINK",
+"oldAbilities":"PLUS/MINUS"
+,"newAbilities":"LEVITATE/CLEAR BODY"
+},{"species":"KLANG",
+"oldAbilities":"PLUS/MINUS"
+,"newAbilities":"LEVITATE/CLEAR BODY"
+},{"species":"KLINKLANG",
+"oldAbilities":"PLUS/MINUS"
+,"newAbilities":"LEVITATE/CLEAR BODY"
+},{"species":"TYNAMO",
+"oldStats":"35/55/40/45/40/60",
+"newStats":"40/45/40/55/40/60"
+},{"species":"EELEKTRIK",
+"oldStats":"65/85/70/75/70/40",
+"newStats":"65/65/75/85/80/40"
+},{"species":"EELEKTROSS",
+"oldStats":"85/115/80/105/80/50",
+"newStats":"90/90/80/115/90/50"
+},{"species":"ELGYEM",
+"oldAbilities":"TELEPATHY/SYNCHRONIZE"
+,"newAbilities":"ANALYTIC/PSYCHIC SURGE"
+},{"species":"BEHEEYEM",
+"oldAbilities":"TELEPATHY/SYNCHRONIZE"
+,"newAbilities":"ANALYTIC/PSYCHIC SURGE"
+},{"species":"CHANDELURE",
+"oldStats":"60/55/90/145/90/80",
+"newStats":"60/55/90/145/90/90"
+},{"species":"HAXORUS",
+"oldAbilities":"RIVALRY/MOLD BREAKER"
+,"newAbilities":"SHARPNESS/MOLD BREAKER"
+},{"species":"BEARTIC",
+"oldStats":"95/110/80/70/80/50",
+"newStats":"95/130/80/70/80/50",
+"oldType":"ICE/ICE"
+,"newType":"ICE/FIGHTING",
+"oldAbilities":"SNOW CLOAK/SLUSH RUSH"
+,"newAbilities":"SWIFT SWIM/SLUSH RUSH"
+},{"species":"CRYOGONAL",
+"oldStats":"70/50/30/95/135/105",
+"newStats":"100/50/50/95/135/105"
+},{"species":"SHELMET",
+"oldAbilities":"HYDRATION/SHELL ARMOR"
+,"newAbilities":"SHELL ARMOR/HEATPROOF"
+},{"species":"ACCELGOR",
+"oldStats":"80/70/40/100/60/145",
+"newStats":"80/100/40/70/60/145",
+"oldAbilities":"HYDRATION/STICKY HOLD"
+,"newAbilities":"WEAK ARMOR/SPEED BOOST"
+},{"species":"STUNFISK",
+"oldStats":"109/66/84/81/99/32",
+"newStats":"109/66/84/91/109/32",
+"oldAbilities":"STATIC/LIMBER"
+,"newAbilities":"STATIC/WATER COMPACTION"
+},{"species":"MIENFOO",
+"oldAbilities":"INNER FOCUS/REGENERATOR"
+,"newAbilities":"RECKLESS/REGENERATOR"
+},{"species":"MIENSHAO",
+"oldStats":"65/125/60/95/60/105",
+"newStats":"85/125/60/75/60/105",
+"oldAbilities":"INNER FOCUS/REGENERATOR"
+,"newAbilities":"RECKLESS/REGENERATOR"
+},{"species":"DRUDDIGON",
+"oldStats":"77/120/90/60/90/48",
+"newStats":"97/120/80/80/80/48",
+"oldType":"DRAGON/DRAGON"
+,"newType":"DRAGON/ROCK"
+},{"species":"GOLETT",
+"oldAbilities":"IRON FIST/KLUTZ"
+,"newAbilities":"IRON FIST/NO GUARD"
+},{"species":"GOLURK",
+"oldStats":"89/124/80/55/80/55",
+"newStats":"99/124/80/55/80/55",
+"oldAbilities":"IRON FIST/KLUTZ"
+,"newAbilities":"IRON FIST/NO GUARD"
+},{"species":"BISHARP",
+"oldAbilities":"DEFIANT/INNER FOCUS"
+,"newAbilities":"DEFIANT/SUPREME OVERLORD"
+},{"species":"BOUFFALANT",
+"oldType":"NORMAL/NORMAL"
+,"newType":"NORMAL/FIGHTING"
+},{"species":"RUFFLET",
+"oldType":"NORMAL/FLYING"
+,"newType":"FLYING/NORMAL"
+},{"species":"BRAVIARY",
+"oldStats":"100/123/75/57/75/80",
+"newStats":"100/123/75/57/85/80",
+"oldType":"NORMAL/FLYING"
+,"newType":"FLYING/FIGHTING",
+"oldAbilities":"KEEN EYE/SHEER FORCE"
+,"newAbilities":"DEFIANT/SHEER FORCE"
+},{"species":"VULLABY",
+"oldAbilities":"BIG PECKS/OVERCOAT"
+,"newAbilities":"WEAK ARMOR/OVERCOAT"
+},{"species":"MANDIBUZZ",
+"oldStats":"110/65/105/55/95/80",
+"newStats":"110/65/105/65/95/80",
+"oldAbilities":"BIG PECKS/OVERCOAT"
+,"newAbilities":"WEAK ARMOR/OVERCOAT"
+},{"species":"HEATMOR",
+"oldAbilities":"GLUTTONY/FLASH FIRE"
+,"newAbilities":"EARTH EATER/GLUTTONY"
+},{"species":"DURANT",
+"oldAbilities":"SWARM/HUSTLE"
+,"newAbilities":"STRONG JAW/HUSTLE"
+},{"species":"COBALION",
+"oldAbilities":"JUSTIFIED/NONE"
+,"newAbilities":"JUSTIFIED/SHARPNESS"
+},{"species":"TERRAKION",
+"oldAbilities":"JUSTIFIED/NONE"
+,"newAbilities":"JUSTIFIED/SHARPNESS"
+},{"species":"VIRIZION",
+"oldAbilities":"JUSTIFIED/NONE"
+,"newAbilities":"JUSTIFIED/SHARPNESS"
+},{"species":"ZEKROM",
+"oldStats":"100/150/120/120/100/90",
+"newStats":"100/120/120/150/100/90"
+},{"species":"LANDORUS",
+"oldAbilities":"SAND FORCE/NONE"
+,"newAbilities":"SHEER FORCE/NONE"
+},{"species":"KELDEO",
+"oldAbilities":"JUSTIFIED/NONE"
+,"newAbilities":"SOUL HEART/NONE"
+},{"species":"CHESPIN",
+"oldAbilities":"OVERGROW/NONE"
+,"newAbilities":"OVERGROW/BULLETPROOF"
+},{"species":"QUILLADIN",
+"oldAbilities":"OVERGROW/NONE"
+,"newAbilities":"OVERGROW/BULLETPROOF"
+},{"species":"CHESNAUGHT",
+"oldAbilities":"OVERGROW/NONE"
+,"newAbilities":"OVERGROW/BULLETPROOF"
+},{"species":"FENNEKIN",
+"oldAbilities":"BLAZE/NONE"
+,"newAbilities":"BLAZE/MAGICIAN"
+},{"species":"BRAIXEN",
+"oldAbilities":"BLAZE/NONE"
+,"newAbilities":"BLAZE/MAGICIAN"
+},{"species":"DELPHOX",
+"oldAbilities":"BLAZE/NONE"
+,"newAbilities":"BLAZE/MAGICIAN"
+},{"species":"FROAKIE",
+"oldAbilities":"TORRENT/NONE"
+,"newAbilities":"TORRENT/PROTEAN"
+},{"species":"FROGADIER",
+"oldAbilities":"TORRENT/NONE"
+,"newAbilities":"TORRENT/PROTEAN"
+},{"species":"GRENINJA",
+"oldAbilities":"TORRENT/NONE"
+,"newAbilities":"TORRENT/PROTEAN"
+},{"species":"BUNNELBY",
+"oldAbilities":"PICKUP/CHEEK POUCH"
+,"newAbilities":"HUGE POWER/CHEEK POUCH"
+},{"species":"DIGGERSBY",
+"oldAbilities":"PICKUP/CHEEK POUCH"
+,"newAbilities":"HUGE POWER/CHEEK POUCH"
+},{"species":"FLETCHLING",
+"oldType":"NORMAL/FLYING"
+,"newType":"FLYING/NORMAL",
+"oldAbilities":"BIG PECKS/NONE"
+,"newAbilities":"BIG PECKS/GALE WINGS"
+},{"species":"FLETCHINDER",
+"oldType":"FIRE/FLYING"
+,"newType":"FLYING/FIRE",
+"oldAbilities":"FLAME BODY/NONE"
+,"newAbilities":"FLAME BODY/GALE WINGS"
+},{"species":"TALONFLAME",
+"oldType":"FIRE/FLYING"
+,"newType":"FLYING/FIRE",
+"oldAbilities":"FLAME BODY/NONE"
+,"newAbilities":"FLAME BODY/GALE WINGS"
+},{"species":"SPEWPA",
+"oldAbilities":"SHED SKIN/NONE"
+,"newAbilities":"SHED SKIN/SHED SKIN"
+},{"species":"LITLEO",
+"oldAbilities":"RIVALRY/UNNERVE"
+,"newAbilities":"RIVALRY/SOUL HEART"
+},{"species":"PYROAR",
+"oldAbilities":"RIVALRY/UNNERVE"
+,"newAbilities":"RIVALRY/SOUL HEART"
+},{"species":"SKIDDO",
+"oldAbilities":"SAP SIPPER/NONE"
+,"newAbilities":"SAP SIPPER/GRASS PELT"
+},{"species":"GOGOAT",
+"oldStats":"123/100/62/97/81/68",
+"newStats":"123/100/60/100/80/70",
+"oldAbilities":"SAP SIPPER/NONE"
+,"newAbilities":"SAP SIPPER/GRASS PELT"
+},{"species":"PANGORO",
+"oldStats":"95/124/78/69/71/58",
+"newStats":"95/125/75/90/70/55"
+},{"species":"MEOWSTIC",
+"oldStats":"74/48/76/83/81/104",
+"newStats":"75/45/75/105/80/105",
+"oldAbilities":"KEEN EYE/INFILTRATOR"
+,"newAbilities":"PRANKSTER/INFILTRATOR"
+},{"species":"SPRITZEE",
+"oldAbilities":"HEALER/NONE"
+,"newAbilities":"HEALER/CORROSION"
+},{"species":"AROMATISSE",
+"oldStats":"101/72/72/99/89/29",
+"newStats":"100/70/80/100/90/30",
+"oldType":"FAIRY/FAIRY"
+,"newType":"FAIRY/POISON",
+"oldAbilities":"HEALER/NONE"
+,"newAbilities":"MISTY SURGE/CORROSION"
+},{"species":"SWIRLIX",
+"oldStats":"62/48/66/59/57/49",
+"newStats":"65/48/66/59/60/49",
+"oldType":"FAIRY/FAIRY"
+,"newType":"FAIRY/NORMAL",
+"oldAbilities":"SWEET VEIL/NONE"
+,"newAbilities":"SWEET VEIL/UNBURDEN"
+},{"species":"SLURPUFF",
+"oldType":"FAIRY/FAIRY"
+,"newType":"FAIRY/NORMAL",
+"oldAbilities":"SWEET VEIL/NONE"
+,"newAbilities":"SWEET VEIL/UNBURDEN"
+},{"species":"INKAY",
+"oldAbilities":"CONTRARY/SUCTION CUPS"
+,"newAbilities":"CONTRARY/NONE"
+},{"species":"MALAMAR",
+"oldStats":"86/92/88/68/75/73",
+"newStats":"96/92/88/68/75/73",
+"oldAbilities":"CONTRARY/SUCTION CUPS"
+,"newAbilities":"CONTRARY/NONE"
+},{"species":"BINACLE",
+"oldStats":"42/52/67/39/56/50",
+"newStats":"42/62/67/39/56/50"
+},{"species":"BARBARACLE",
+"oldStats":"72/105/115/54/86/68",
+"newStats":"70/115/115/54/80/68"
+},{"species":"SKRELP",
+"oldAbilities":"POISON POINT/POISON TOUCH"
+,"newAbilities":"ADAPTABILITY/POISON TOUCH"
+},{"species":"DRAGALGE",
+"oldStats":"65/75/90/97/123/44",
+"newStats":"85/75/90/100/125/45",
+"oldAbilities":"POISON POINT/POISON TOUCH"
+,"newAbilities":"ADAPTABILITY/POISON TOUCH"
+},{"species":"CLAWITZER",
+"oldStats":"71/73/88/120/89/59",
+"newStats":"80/55/100/120/90/55"
+},{"species":"HELIOPTILE",
+"oldStats":"44/38/33/61/43/70",
+"newStats":"45/35/40/60/60/70",
+"oldAbilities":"DRY SKIN/SAND VEIL"
+,"newAbilities":"DRY SKIN/SOLAR POWER"
+},{"species":"HELIOLISK",
+"oldStats":"62/55/52/109/94/109",
+"newStats":"60/55/55/110/95/110",
+"oldType":"ELECTRIC/NORMAL"
+,"newType":"ELECTRIC/DRAGON",
+"oldAbilities":"DRY SKIN/SAND VEIL"
+,"newAbilities":"DRY SKIN/SOLAR POWER"
+},{"species":"TYRUNT",
+"oldStats":"58/89/77/45/45/48",
+"newStats":"60/90/80/45/45/60",
+"oldType":"ROCK/DRAGON"
+,"newType":"DRAGON/ROCK",
+"oldAbilities":"STRONG JAW/NONE"
+,"newAbilities":"SAND STREAM/ROCK HEAD"
+},{"species":"TYRANTRUM",
+"oldStats":"82/121/119/69/59/71",
+"newStats":"82/121/110/69/59/80",
+"oldType":"ROCK/DRAGON"
+,"newType":"DRAGON/ROCK",
+"oldAbilities":"STRONG JAW/NONE"
+,"newAbilities":"SAND STREAM/ROCK HEAD"
+},{"species":"AMAURA",
+"oldStats":"77/59/50/67/63/46",
+"newStats":"80/45/60/80/70/45",
+"oldAbilities":"REFRIGERATE/NONE"
+,"newAbilities":"REFRIGERATE/SNOW WARNING"
+},{"species":"AURORUS",
+"oldStats":"123/77/72/99/92/58",
+"newStats":"123/50/80/126/92/50",
+"oldAbilities":"REFRIGERATE/NONE"
+,"newAbilities":"REFRIGERATE/SNOW WARNING"
+},{"species":"SYLVEON",
+"oldAbilities":"CUTE CHARM/CUTE CHARM"
+,"newAbilities":"PIXILATE/PIXILATE"
+},{"species":"HAWLUCHA",
+"oldStats":"78/92/75/74/63/118",
+"newStats":"78/100/75/65/64/118",
+"oldAbilities":"LIMBER/UNBURDEN"
+,"newAbilities":"MOLD BREAKER/UNBURDEN"
+},{"species":"DEDENNE",
+"oldStats":"67/58/57/81/67/101",
+"newStats":"70/60/60/85/70/105",
+"oldAbilities":"CHEEK POUCH/PICKUP"
+,"newAbilities":"CHEEK POUCH/PRANKSTER"
+},{"species":"GOOMY",
+"oldStats":"45/50/35/55/75/40",
+"newStats":"50/50/40/60/75/40",
+"oldAbilities":"SAP SIPPER/HYDRATION"
+,"newAbilities":"WATER ABSORB/GOOEY"
+},{"species":"SLIGGOO",
+"oldStats":"68/75/53/83/113/60",
+"newStats":"70/70/60/90/115/60",
+"oldAbilities":"SAP SIPPER/HYDRATION"
+,"newAbilities":"WATER ABSORB/GOOEY"
+},{"species":"GOODRA",
+"oldStats":"90/100/70/110/150/80",
+"newStats":"105/70/70/125/150/80",
+"oldAbilities":"SAP SIPPER/HYDRATION"
+,"newAbilities":"WATER ABSORB/GOOEY"
+},{"species":"KLEFKI",
+"oldStats":"57/80/91/80/87/75",
+"newStats":"67/80/91/80/87/75"
+},{"species":"PHANTUMP",
+"oldStats":"43/70/48/50/60/38",
+"newStats":"50/80/60/50/60/40",
+"oldAbilities":"NATURAL CURE/FRISK"
+,"newAbilities":"NATURAL CURE/CURSED BODY"
+},{"species":"TREVENANT",
+"oldStats":"85/110/76/65/82/56",
+"newStats":"90/130/80/65/80/55",
+"oldAbilities":"NATURAL CURE/FRISK"
+,"newAbilities":"NATURAL CURE/CURSED BODY"
+},{"species":"PUMPKABOO",
+"oldStats":"49/66/70/44/55/51",
+"newStats":"50/60/65/65/65/65"
+},{"species":"GOURGEIST",
+"oldStats":"65/90/122/58/75/84",
+"newStats":"65/80/115/85/75/90"
+},{"species":"BERGMITE",
+"oldStats":"55/69/85/32/35/28",
+"newStats":"55/70/85/35/35/30"
+},{"species":"NOIVERN",
+"oldStats":"85/70/80/97/80/123",
+"newStats":"85/80/70/97/80/123",
+"oldAbilities":"FRISK/INFILTRATOR"
+,"newAbilities":"PUNK ROCK/INFILTRATOR"
+},{"species":"DIANCIE",
+"oldAbilities":"CLEAR BODY/NONE"
+,"newAbilities":"MAGIC BOUNCE/NONE"
+},{"species":"HOOPA",
+"oldAbilities":"MAGICIAN/NONE"
+,"newAbilities":"MAGICIAN/PRANKSTER"
+},{"species":"VOLCANION",
+"oldStats":"80/110/120/130/90/70",
+"newStats":"110/80/120/130/90/70",
+"oldAbilities":"WATER ABSORB/NONE"
+,"newAbilities":"WATER ABSORB/STEAM ENGINE"
+},{"species":"ROWLET",
+"oldAbilities":"OVERGROW/NONE"
+,"newAbilities":"OVERGROW/LONG REACH"
+},{"species":"DARTRIX",
+"oldAbilities":"OVERGROW/NONE"
+,"newAbilities":"OVERGROW/LONG REACH"
+},{"species":"DECIDUEYE",
+"oldAbilities":"OVERGROW/NONE"
+,"newAbilities":"OVERGROW/LONG REACH"
+},{"species":"LITTEN",
+"oldAbilities":"BLAZE/NONE"
+,"newAbilities":"BLAZE/INTIMIDATE"
+},{"species":"TORRACAT",
+"oldAbilities":"BLAZE/NONE"
+,"newAbilities":"BLAZE/INTIMIDATE"
+},{"species":"INCINEROAR",
+"oldStats":"95/115/90/80/90/60",
+"newStats":"95/80/90/115/90/60",
+"oldAbilities":"BLAZE/NONE"
+,"newAbilities":"BLAZE/INTIMIDATE"
+},{"species":"POPPLIO",
+"oldAbilities":"TORRENT/NONE"
+,"newAbilities":"TORRENT/LIQUID VOICE"
+},{"species":"BRIONNE",
+"oldAbilities":"TORRENT/NONE"
+,"newAbilities":"TORRENT/LIQUID VOICE"
+},{"species":"PRIMARINA",
+"oldAbilities":"TORRENT/NONE"
+,"newAbilities":"TORRENT/LIQUID VOICE"
+},{"species":"TOUCANNON",
+"oldAbilities":"KEEN EYE/SKILL LINK"
+,"newAbilities":"SHEER FORCE/SKILL LINK"
+},{"species":"YUNGOOS",
+"oldAbilities":"STAKEOUT/STRONG JAW"
+,"newAbilities":"STAKEOUT/ADAPTABILITY"
+},{"species":"GUMSHOOS",
+"oldStats":"88/110/60/55/60/45",
+"newStats":"100/110/70/55/70/45",
+"oldAbilities":"STAKEOUT/STRONG JAW"
+,"newAbilities":"STAKEOUT/ADAPTABILITY"
+},{"species":"GRUBBIN",
+"oldStats":"47/62/45/55/45/46",
+"newStats":"50/65/55/55/45/46"
+},{"species":"CHARJABUG",
+"oldStats":"57/82/95/55/75/36",
+"newStats":"60/82/95/55/75/36"
+},{"species":"VIKAVOLT",
+"oldStats":"77/70/90/145/75/43",
+"newStats":"90/70/90/145/75/55"
+},{"species":"CRABOMINABLE",
+"oldStats":"97/132/77/62/67/43",
+"newStats":"96/135/77/82/67/43"
+},{"species":"RIBOMBEE",
+"oldStats":"60/55/60/95/70/124",
+"newStats":"75/55/60/95/70/125",
+"oldAbilities":"HONEY GATHER/SHIELD DUST"
+,"newAbilities":"SWEET VEIL/SHIELD DUST"
+},{"species":"LYCANROC",
+"oldStats":"75/115/65/55/65/112",
+"newStats":"78/115/65/55/65/112",
+"oldAbilities":"KEEN EYE/SAND RUSH"
+,"newAbilities":"TECHNICIAN/SAND RUSH"
+},{"species":"WISHIWASHI",
+"oldStats":"45/20/20/25/25/40",
+"newStats":"45/10/20/10/20/80"
+},{"species":"MAREANIE",
+"oldAbilities":"MERCILESS/LIMBER"
+,"newAbilities":"MERCILESS/REGENERATOR"
+},{"species":"TOXAPEX",
+"oldAbilities":"MERCILESS/LIMBER"
+,"newAbilities":"MERCILESS/REGENERATOR"
+},{"species":"DEWPIDER",
+"oldStats":"38/40/52/40/72/27",
+"newStats":"60/60/55/40/75/30",
+"oldType":"WATER/BUG"
+,"newType":"BUG/WATER"
+},{"species":"ARAQUANID",
+"oldStats":"68/70/92/50/132/42",
+"newStats":"65/70/92/81/130/42",
+"oldType":"WATER/BUG"
+,"newType":"BUG/WATER"
+},{"species":"FOMANTIS",
+"oldStats":"40/55/35/50/35/35",
+"newStats":"40/55/40/55/40/35",
+"oldType":"GRASS/GRASS"
+,"newType":"GRASS/BUG",
+"oldAbilities":"LEAF GUARD/NONE"
+,"newAbilities":"CONTRARY/CHLOROPHYLL"
+},{"species":"LURANTIS",
+"oldStats":"70/105/90/80/90/45",
+"newStats":"70/105/80/90/90/45",
+"oldType":"GRASS/GRASS"
+,"newType":"GRASS/BUG",
+"oldAbilities":"LEAF GUARD/NONE"
+,"newAbilities":"CONTRARY/CHLOROPHYLL"
+},{"species":"MORELULL",
+"oldAbilities":"ILLUMINATE/EFFECT SPORE"
+,"newAbilities":"RAIN DISH/EFFECT SPORE"
+},{"species":"SHIINOTIC",
+"oldStats":"60/45/80/90/100/30",
+"newStats":"100/40/80/90/100/30",
+"oldAbilities":"ILLUMINATE/EFFECT SPORE"
+,"newAbilities":"RAIN DISH/EFFECT SPORE"
+},{"species":"SALANDIT",
+"oldStats":"48/44/40/71/40/77",
+"newStats":"50/60/50/75/50/77"
+},{"species":"SALAZZLE",
+"oldStats":"68/64/60/111/60/117",
+"newStats":"68/80/60/111/60/117"
+},{"species":"STUFFUL",
+"oldAbilities":"FLUFFY/KLUTZ"
+,"newAbilities":"FLUFFY/NONE"
+},{"species":"BEWEAR",
+"oldAbilities":"FLUFFY/KLUTZ"
+,"newAbilities":"FLUFFY/NONE"
+},{"species":"BOUNSWEET",
+"oldStats":"42/30/38/30/38/32",
+"newStats":"55/30/40/30/40/35"
+},{"species":"STEENEE",
+"oldStats":"52/40/48/40/48/62",
+"newStats":"60/40/50/50/50/65"
+},{"species":"TSAREENA",
+"oldStats":"72/120/98/50/98/72",
+"newStats":"70/120/95/65/95/72",
+"oldType":"GRASS/GRASS"
+,"newType":"GRASS/FIGHTING",
+"oldAbilities":"LEAF GUARD/QUEENLY MAJESTY"
+,"newAbilities":"MOXIE/QUEENLY MAJESTY"
+},{"species":"COMFEY",
+"oldType":"FAIRY/FAIRY"
+,"newType":"FAIRY/GRASS",
+"oldAbilities":"FLOWER VEIL/TRIAGE"
+,"newAbilities":"TRIAGE/NATURAL CURE"
+},{"species":"ORANGURU",
+"oldAbilities":"INNER FOCUS/TELEPATHY"
+,"newAbilities":"SYMBIOSIS/TELEPATHY"
+},{"species":"PASSIMIAN",
+"oldAbilities":"RECEIVER/NONE"
+,"newAbilities":"RECEIVER/GORILLA TACTICS"
+},{"species":"WIMPOD",
+"oldStats":"25/35/40/20/30/80",
+"newStats":"40/50/40/20/30/80"
+},{"species":"PALOSSAND",
+"oldStats":"85/75/110/100/75/35",
+"newStats":"95/100/110/75/80/35"
+},{"species":"PYUKUMUKU",
+"oldAbilities":"INNARDS OUT/NONE"
+,"newAbilities":"INNARDS OUT/UNAWARE"
+},{"species":"KOMALA",
+"oldStats":"65/115/65/75/95/65",
+"newStats":"65/115/65/55/95/85"
+},{"species":"TURTONATOR",
+"oldStats":"60/78/135/91/85/36",
+"newStats":"60/64/135/91/85/50"
+},{"species":"TOGEDEMARU",
+"oldStats":"65/98/63/40/73/96",
+"newStats":"65/98/63/60/73/96"
+},{"species":"BRUXISH",
+"oldStats":"68/105/70/70/70/92",
+"newStats":"68/105/70/75/70/92"
+},{"species":"DRAMPA",
+"oldStats":"78/60/85/135/91/36",
+"newStats":"88/60/85/135/91/36"
+},{"species":"JANGMO_O",
+"oldStats":"45/55/65/45/45/45",
+"newStats":"45/60/65/45/45/45"
+},{"species":"TAPU_KOKO",
+"oldStats":"70/115/85/95/75/130",
+"newStats":"70/95/85/115/75/130"
+},{"species":"TAPU_BULU",
+"oldStats":"70/130/115/85/95/75",
+"newStats":"70/110/115/105/95/75"
+},{"species":"SOLGALEO",
+"oldAbilities":"FULL METAL BODY/NONE"
+,"newAbilities":"FLASH FIRE/NONE"
+},{"species":"NIHILEGO",
+"oldStats":"109/53/47/127/131/103",
+"newStats":"109/127/47/53/131/103"
+},{"species":"NAGANADEL",
+"oldStats":"73/73/73/127/73/121",
+"newStats":"73/103/73/127/73/121"
+},{"species":"ZERAORA",
+"oldType":"ELECTRIC/ELECTRIC"
+,"newType":"ELECTRIC/FIGHTING"
+},{"species":"GROOKEY",
+"oldStats":"50/65/50/40/40/65",
+"newStats":"50/40/50/65/40/65",
+"oldAbilities":"OVERGROW/NONE"
+,"newAbilities":"OVERGROW/GRASSY SURGE"
+},{"species":"THWACKEY",
+"oldStats":"70/85/70/55/60/80",
+"newStats":"70/55/70/85/60/80",
+"oldAbilities":"OVERGROW/NONE"
+,"newAbilities":"OVERGROW/GRASSY SURGE"
+},{"species":"RILLABOOM",
+"oldStats":"100/125/90/60/70/85",
+"newStats":"100/60/90/125/70/85",
+"oldAbilities":"OVERGROW/NONE"
+,"newAbilities":"OVERGROW/GRASSY SURGE"
+},{"species":"SCORBUNNY",
+"oldAbilities":"BLAZE/NONE"
+,"newAbilities":"BLAZE/LIBERO"
+},{"species":"RABOOT",
+"oldAbilities":"BLAZE/NONE"
+,"newAbilities":"BLAZE/LIBERO"
+},{"species":"CINDERACE",
+"oldStats":"80/116/75/65/75/119",
+"newStats":"80/100/75/86/75/119",
+"oldAbilities":"BLAZE/NONE"
+,"newAbilities":"BLAZE/LIBERO"
+},{"species":"SOBBLE",
+"oldAbilities":"TORRENT/NONE"
+,"newAbilities":"TORRENT/ADAPTABILITY"
+},{"species":"DRIZZILE",
+"oldAbilities":"TORRENT/NONE"
+,"newAbilities":"TORRENT/ADAPTABILITY"
+},{"species":"INTELEON",
+"oldAbilities":"TORRENT/NONE"
+,"newAbilities":"TORRENT/ADAPTABILITY"
+},{"species":"SKWOVET",
+"oldAbilities":"CHEEK POUCH/NONE"
+,"newAbilities":"CHEEK POUCH/GLUTTONY"
+},{"species":"GREEDENT",
+"oldStats":"120/95/95/55/75/20",
+"newStats":"120/100/100/60/75/20",
+"oldAbilities":"CHEEK POUCH/NONE"
+,"newAbilities":"CHEEK POUCH/GLUTTONY"
+},{"species":"ROOKIDEE",
+"oldAbilities":"KEEN EYE/UNNERVE"
+,"newAbilities":"KEEN EYE/BIG PECKS"
+},{"species":"CORVISQUIRE",
+"oldAbilities":"KEEN EYE/UNNERVE"
+,"newAbilities":"KEEN EYE/BIG PECKS"
+},{"species":"CORVIKNIGHT",
+"oldAbilities":"PRESSURE/UNNERVE"
+,"newAbilities":"PRESSURE/MIRROR ARMOR"
+},{"species":"ORBEETLE",
+"oldStats":"60/45/110/80/120/90",
+"newStats":"60/45/110/90/120/90",
+"oldAbilities":"SWARM/FRISK"
+,"newAbilities":"PSYCHIC SURGE/SCREEN CLEANER"
+},{"species":"NICKIT",
+"oldAbilities":"RUN AWAY/UNBURDEN"
+,"newAbilities":"STAKEOUT/UNBURDEN"
+},{"species":"THIEVUL",
+"oldStats":"70/58/58/87/92/90",
+"newStats":"70/58/58/101/92/96",
+"oldAbilities":"RUN AWAY/UNBURDEN"
+,"newAbilities":"STAKEOUT/UNBURDEN"
+},{"species":"GOSSIFLEUR",
+"oldStats":"40/40/60/40/60/10",
+"newStats":"40/40/60/40/60/20"
+},{"species":"ELDEGOSS",
+"oldStats":"60/50/90/80/120/60",
+"newStats":"70/50/90/80/120/70"
+},{"species":"YAMPER",
+"oldAbilities":"BALL FETCH/NONE"
+,"newAbilities":"BALL FETCH/RATTLED"
+},{"species":"BOLTUND",
+"oldStats":"69/90/60/90/60/121",
+"newStats":"69/80/60/100/60/121",
+"oldAbilities":"STRONG JAW/NONE"
+,"newAbilities":"STRONG JAW/COMPETITIVE"
+},{"species":"ROLYCOLY",
+"oldAbilities":"STEAM ENGINE/HEATPROOF"
+,"newAbilities":"STEAM ENGINE/NONE"
+},{"species":"CARKOL",
+"oldAbilities":"STEAM ENGINE/FLAME BODY"
+,"newAbilities":"STEAM ENGINE/NONE"
+},{"species":"COALOSSAL",
+"oldStats":"110/80/120/80/90/30",
+"newStats":"110/80/120/80/100/30",
+"oldAbilities":"STEAM ENGINE/FLAME BODY"
+,"newAbilities":"STEAM ENGINE/NONE"
+},{"species":"FLAPPLE",
+"oldStats":"70/110/80/95/60/70",
+"newStats":"70/95/80/110/60/70"
+},{"species":"SANDACONDA",
+"oldStats":"72/107/125/65/70/71",
+"newStats":"72/107/125/65/75/71"
+},{"species":"BARRASKEWDA",
+"oldStats":"61/123/60/60/50/136",
+"newStats":"61/123/60/80/50/136"
+},{"species":"SIZZLIPEDE",
+"oldAbilities":"FLASH FIRE/WHITE SMOKE"
+,"newAbilities":"FLASH FIRE/FLAME BODY"
+},{"species":"CENTISKORCH",
+"oldAbilities":"FLASH FIRE/WHITE SMOKE"
+,"newAbilities":"FLASH FIRE/FLAME BODY"
+},{"species":"CLOBBOPUS",
+"oldType":"FIGHTING/FIGHTING"
+,"newType":"FIGHTING/WATER",
+"oldAbilities":"LIMBER/NONE"
+,"newAbilities":"LIMBER/TECHNICIAN"
+},{"species":"GRAPPLOCT",
+"oldType":"FIGHTING/FIGHTING"
+,"newType":"FIGHTING/WATER",
+"oldAbilities":"LIMBER/NONE"
+,"newAbilities":"REGENERATOR/TECHNICIAN"
+},{"species":"HATENNA",
+"oldAbilities":"HEALER/ANTICIPATION"
+,"newAbilities":"FRIEND GUARD/MAGIC BOUNCE"
+},{"species":"HATTREM",
+"oldAbilities":"HEALER/ANTICIPATION"
+,"newAbilities":"FRIEND GUARD/MAGIC BOUNCE"
+},{"species":"HATTERENE",
+"oldAbilities":"HEALER/ANTICIPATION"
+,"newAbilities":"FRIEND GUARD/MAGIC BOUNCE"
+},{"species":"IMPIDIMP",
+"oldAbilities":"PRANKSTER/FRISK"
+,"newAbilities":"PRANKSTER/PICKPOCKET"
+},{"species":"MORGREM",
+"oldAbilities":"PRANKSTER/FRISK"
+,"newAbilities":"PRANKSTER/PICKPOCKET"
+},{"species":"GRIMMSNARL",
+"oldStats":"95/120/65/95/75/60",
+"newStats":"95/95/65/120/75/60",
+"oldAbilities":"PRANKSTER/FRISK"
+,"newAbilities":"PRANKSTER/PICKPOCKET"
+},{"species":"OBSTAGOON",
+"oldStats":"93/90/101/60/81/95",
+"newStats":"93/90/101/70/81/95",
+"oldAbilities":"RECKLESS/GUTS"
+,"newAbilities":"DEFIANT/GUTS"
+},{"species":"PERRSERKER",
+"oldStats":"70/110/100/50/60/50",
+"newStats":"80/110/100/50/60/50",
+"oldAbilities":"BATTLE ARMOR/TOUGH CLAWS"
+,"newAbilities":"STEELY SPIRIT/TOUGH CLAWS"
+},{"species":"CURSOLA",
+"oldType":"GHOST/GHOST"
+,"newType":"GHOST/WATER",
+"oldAbilities":"WEAK ARMOR/NONE"
+,"newAbilities":"WEAK ARMOR/PERISH BODY"
+},{"species":"SIRFETCHD",
+"oldType":"FIGHTING/FIGHTING"
+,"newType":"FIGHTING/FLYING",
+"oldAbilities":"STEADFAST/NONE"
+,"newAbilities":"SHARPNESS/SCRAPPY"
+},{"species":"MR_RIME",
+"oldStats":"80/85/75/110/100/70",
+"newStats":"80/75/75/110/100/80",
+"oldAbilities":"TANGLED FEET/SCREEN CLEANER"
+,"newAbilities":"QUICK FEET/SCREEN CLEANER"
+},{"species":"RUNERIGUS",
+"oldStats":"58/95/145/50/105/30",
+"newStats":"65/95/145/50/105/30"
+},{"species":"MILCERY",
+"oldAbilities":"SWEET VEIL/NONE"
+,"newAbilities":"SWEET VEIL/AROMA VEIL"
+},{"species":"FALINKS",
+"oldStats":"65/100/100/70/60/75",
+"newStats":"70/100/100/70/70/75",
+"oldAbilities":"BATTLE ARMOR/NONE"
+,"newAbilities":"BATTLE ARMOR/DEFIANT"
+},{"species":"PINCURCHIN",
+"oldStats":"48/101/95/91/85/15",
+"newStats":"48/91/100/101/85/15",
+"oldAbilities":"LIGHTNING ROD/NONE"
+,"newAbilities":"ELECTRIC SURGE/NONE"
+},{"species":"SNOM",
+"oldAbilities":"SHIELD DUST/NONE"
+,"newAbilities":"SHIELD DUST/ICE SCALES"
+},{"species":"FROSMOTH",
+"oldStats":"70/65/60/125/90/65",
+"newStats":"70/65/60/125/90/75",
+"oldAbilities":"SHIELD DUST/NONE"
+,"newAbilities":"SHIELD DUST/ICE SCALES"
+},{"species":"STONJOURNER",
+"oldStats":"100/125/135/20/20/70",
+"newStats":"100/125/135/20/50/70"
+},{"species":"EISCUE",
+"oldType":"ICE/ICE"
+,"newType":"ICE/STEEL"
+},{"species":"INDEEDEE",
+"oldAbilities":"INNER FOCUS/SYNCHRONIZE"
+,"newAbilities":"PSYCHIC SURGE/SYNCHRONIZE"
+},{"species":"COPPERAJAH",
+"oldStats":"122/130/69/80/69/30",
+"newStats":"122/130/80/58/80/30"
+},{"species":"DRACOZOLT",
+"oldStats":"90/100/90/80/70/75",
+"newStats":"90/80/90/100/70/75",
+"oldAbilities":"VOLT ABSORB/HUSTLE"
+,"newAbilities":"VOLT ABSORB/SAND RUSH"
+},{"species":"ARCTOZOLT",
+"oldStats":"90/100/90/90/80/55",
+"newStats":"90/90/90/100/80/55",
+"oldAbilities":"VOLT ABSORB/STATIC"
+,"newAbilities":"VOLT ABSORB/SLUSH RUSH"
+},{"species":"DRACOVISH",
+"oldStats":"90/90/100/70/80/75",
+"newStats":"90/70/100/90/80/75",
+"oldAbilities":"WATER ABSORB/STRONG JAW"
+,"newAbilities":"WATER ABSORB/SAND RUSH"
+},{"species":"ARCTOVISH",
+"oldStats":"90/90/100/80/90/55",
+"newStats":"90/80/100/90/90/55",
+"oldAbilities":"WATER ABSORB/ICE BODY"
+,"newAbilities":"WATER ABSORB/SLUSH RUSH"
+},{"species":"DURALUDON",
+"oldAbilities":"LIGHT METAL/HEAVY METAL"
+,"newAbilities":"FLASH FIRE/HEAVY METAL"
+},{"species":"ETERNATUS",
+"oldAbilities":"PRESSURE/NONE"
+,"newAbilities":"LEVITATE/NONE"
+},{"species":"URSHIFU",
+"oldStats":"100/130/100/63/60/97",
+"newStats":"100/130/100/93/60/97"
+},{"species":"GLASTRIER",
+"oldStats":"100/145/130/65/110/30",
+"newStats":"100/65/130/145/110/30",
+"oldAbilities":"CHILLING NEIGH/NONE"
+,"newAbilities":"GRIM NEIGH/NONE"
+},{"species":"SPECTRIER",
+"oldStats":"100/65/60/145/80/130",
+"newStats":"100/145/60/65/80/130",
+"oldAbilities":"GRIM NEIGH/NONE"
+,"newAbilities":"CHILLING NEIGH/NONE"
+},{"species":"CALYREX",
+"oldAbilities":"UNNERVE/NONE"
+,"newAbilities":"PSYCHIC SURGE/GRASSY SURGE"
+},{"species":"BASCULEGION",
+"oldAbilities":"RATTLED/ADAPTABILITY"
+,"newAbilities":"SWIFT SWIM/ADAPTABILITY"
+},{"species":"BASCULEGION_FEMALE",
+"oldAbilities":"RATTLED/ADAPTABILITY"
+,"newAbilities":"SWIFT SWIM/ADAPTABILITY"
+},{"species":"RATTATA_ALOLAN",
+"oldAbilities":"GLUTTONY/HUSTLE"
+,"newAbilities":"THICK FAT/HUSTLE"
+},{"species":"RATICATE_ALOLAN",
+"oldStats":"75/71/70/40/80/77",
+"newStats":"75/71/70/60/80/77",
+"oldAbilities":"GLUTTONY/HUSTLE"
+,"newAbilities":"THICK FAT/HUSTLE"
+},{"species":"RAICHU_ALOLAN",
+"oldStats":"60/85/50/95/85/110",
+"newStats":"60/80/50/100/85/110"
+},{"species":"SANDSHREW_ALOLAN",
+"oldAbilities":"SNOW CLOAK/NONE"
+,"newAbilities":"SLUSH RUSH/TOUGH CLAWS"
+},{"species":"SANDSLASH_ALOLAN",
+"oldStats":"75/100/120/25/65/65",
+"newStats":"75/100/120/55/65/65",
+"oldAbilities":"SNOW CLOAK/NONE"
+,"newAbilities":"SLUSH RUSH/TOUGH CLAWS"
+},{"species":"VULPIX_ALOLAN",
+"oldAbilities":"SNOW CLOAK/NONE"
+,"newAbilities":"SNOW WARNING/NONE"
+},{"species":"NINETALES_ALOLAN",
+"oldAbilities":"SNOW CLOAK/NONE"
+,"newAbilities":"SNOW WARNING/NONE"
+},{"species":"DIGLETT_ALOLAN",
+"oldAbilities":"SAND VEIL/TANGLING HAIR"
+,"newAbilities":"SAND FORCE/TANGLING HAIR"
+},{"species":"DUGTRIO_ALOLAN",
+"oldStats":"35/100/60/50/70/110",
+"newStats":"45/110/60/50/70/110",
+"oldAbilities":"SAND VEIL/TANGLING HAIR"
+,"newAbilities":"SAND FORCE/TANGLING HAIR"
+},{"species":"PERSIAN_ALOLAN",
+"oldStats":"65/60/60/75/65/115",
+"newStats":"65/60/60/95/65/115"
+},{"species":"GEODUDE_ALOLAN",
+"oldStats":"40/80/100/30/30/20",
+"newStats":"40/70/100/40/30/20",
+"oldAbilities":"MAGNET PULL/STURDY"
+,"newAbilities":"GALVANIZE/STURDY"
+},{"species":"GRAVELER_ALOLAN",
+"oldStats":"55/95/115/45/45/35",
+"newStats":"55/85/115/55/45/35",
+"oldAbilities":"MAGNET PULL/STURDY"
+,"newAbilities":"GALVANIZE/STURDY"
+},{"species":"GOLEM_ALOLAN",
+"oldStats":"80/120/130/55/65/45",
+"newStats":"80/120/130/70/60/40",
+"oldAbilities":"MAGNET PULL/STURDY"
+,"newAbilities":"GALVANIZE/STURDY"
+},{"species":"EXEGGUTOR_ALOLAN",
+"oldAbilities":"FRISK/NONE"
+,"newAbilities":"FRISK/HARVEST"
+},{"species":"MAROWAK_ALOLAN",
+"oldStats":"60/80/110/50/80/45",
+"newStats":"70/80/110/50/80/45",
+"oldAbilities":"CURSED BODY/LIGHTNING ROD"
+,"newAbilities":"CURSED BODY/ROCK HEAD"
+},{"species":"PONYTA_GALARIAN",
+"oldStats":"50/85/55/65/65/90",
+"newStats":"50/65/55/85/65/90"
+},{"species":"RAPIDASH_GALARIAN",
+"oldStats":"65/100/70/80/80/105",
+"newStats":"65/80/70/100/80/105",
+"oldAbilities":"RUN AWAY/PASTEL VEIL"
+,"newAbilities":"FLASH FIRE/PASTEL VEIL"
+},{"species":"SLOWPOKE_GALARIAN",
+"oldAbilities":"GLUTTONY/OWN TEMPO"
+,"newAbilities":"GLUTTONY/REGENERATOR"
+},{"species":"SLOWBRO_GALARIAN",
+"oldAbilities":"QUICK DRAW/OWN TEMPO"
+,"newAbilities":"QUICK DRAW/REGENERATOR"
+},{"species":"FARFETCHD_GALARIAN",
+"oldType":"FIGHTING/FIGHTING"
+,"newType":"FIGHTING/FLYING",
+"oldAbilities":"STEADFAST/NONE"
+,"newAbilities":"SHARPNESS/SCRAPPY"
+},{"species":"WEEZING_GALARIAN",
+"oldAbilities":"LEVITATE/NEUTRALIZING GAS"
+,"newAbilities":"MISTY SURGE/NEUTRALIZING GAS"
+},{"species":"SLOWKING_GALARIAN",
+"oldAbilities":"CURIOUS MEDICINE/OWN TEMPO"
+,"newAbilities":"CURIOUS MEDICINE/REGENERATOR"
+},{"species":"CORSOLA_GALARIAN",
+"oldAbilities":"WEAK ARMOR/NONE"
+,"newAbilities":"WEAK ARMOR/CURSED BODY"
+},{"species":"DARUMAKA_GALARIAN",
+"oldAbilities":"HUSTLE/NONE"
+,"newAbilities":"HUSTLE/INNER FOCUS"
+},{"species":"DARMANITAN_GALARIAN",
+"oldAbilities":"GORILLA TACTICS/NONE"
+,"newAbilities":"GORILLA TACTICS/ZEN MODE"
+},{"species":"STUNFISK_GALARIAN",
+"oldStats":"109/81/99/66/84/32",
+"newStats":"109/91/109/66/84/32",
+"oldAbilities":"MIMICRY/NONE"
+,"newAbilities":"MIMICRY/WATER COMPACTION"
+},{"species":"BRAVIARY_HISUIAN",
+"oldStats":"110/83/70/112/70/65",
+"newStats":"110/93/70/112/70/65",
+"oldAbilities":"KEEN EYE/SHEER FORCE"
+,"newAbilities":"COMPETITIVE/SHEER FORCE"
+},{"species":"WORMADAM_SANDY_CLOAK",
+"oldAbilities":"ANTICIPATION/NONE"
+,"newAbilities":"RATTLED/OVERCOAT"
+},{"species":"WORMADAM_TRASH_CLOAK",
+"oldAbilities":"ANTICIPATION/NONE"
+,"newAbilities":"RATTLED/OVERCOAT"
+},{"species":"DARMANITAN_ZEN_MODE",
+"oldAbilities":"SHEER FORCE/NONE"
+,"newAbilities":"SHEER FORCE/ZEN MODE"
+},{"species":"DARMANITAN_ZEN_MODE_GALARIAN",
+"oldStats":"105/160/55/30/55/135",
+"newStats":"105/30/55/160/55/135",
+"oldAbilities":"GORILLA TACTICS/NONE"
+,"newAbilities":"GORILLA TACTICS/ZEN MODE"
+},{"species":"KYUREM_WHITE",
+"oldAbilities":"TURBOBLAZE/NONE"
+,"newAbilities":"ORICHALCUM PULSE/NONE"
+},{"species":"KYUREM_BLACK",
+"oldAbilities":"TERAVOLT/NONE"
+,"newAbilities":"HADRON ENGINE/NONE"
+},{"species":"MEOWSTIC_FEMALE",
+"oldStats":"74/48/76/83/81/104",
+"newStats":"75/45/75/105/80/105",
+"oldAbilities":"KEEN EYE/INFILTRATOR"
+,"newAbilities":"COMPETITIVE/INFILTRATOR"
+},{"species":"PUMPKABOO_SMALL",
+"oldStats":"44/66/70/44/55/56",
+"newStats":"45/55/60/70/70/70"
+},{"species":"PUMPKABOO_LARGE",
+"oldStats":"54/66/70/44/55/46",
+"newStats":"55/65/70/60/60/60"
+},{"species":"PUMPKABOO_SUPER",
+"oldStats":"59/66/70/44/55/41",
+"newStats":"60/70/75/55/55/55"
+},{"species":"GOURGEIST_SMALL",
+"oldStats":"55/85/122/58/75/99",
+"newStats":"55/65/110/100/80/100"
+},{"species":"GOURGEIST_LARGE",
+"oldStats":"75/95/122/58/75/69",
+"newStats":"75/95/120/70/70/80"
+},{"species":"GOURGEIST_SUPER",
+"oldStats":"85/100/122/58/75/54",
+"newStats":"85/110/125/55/65/70"
+},{"species":"HOOPA_UNBOUND",
+"oldAbilities":"MAGICIAN/NONE"
+,"newAbilities":"MAGICIAN/SHADOW TAG"
+},{"species":"LYCANROC_MIDNIGHT",
+"oldAbilities":"KEEN EYE/VITAL SPIRIT"
+,"newAbilities":"NO GUARD/VITAL SPIRIT"
+},{"species":"INDEEDEE_FEMALE",
+"oldAbilities":"OWN TEMPO/SYNCHRONIZE"
+,"newAbilities":"PSYCHIC SURGE/SYNCHRONIZE"
+},{"species":"URSHIFU_RAPID_STRIKE_STYLE",
+"oldStats":"100/130/100/63/60/97",
+"newStats":"100/130/100/93/60/97"
+},{"species":"CALYREX_ICE_RIDER",
+"oldStats":"100/165/150/85/130/50",
+"newStats":"100/85/150/165/130/50"
+},{"species":"CALYREX_SHADOW_RIDER",
+"oldStats":"100/85/80/165/100/150",
+"newStats":"100/165/80/85/100/150"
+}]
