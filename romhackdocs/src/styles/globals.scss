@@ -1,0 +1,92 @@
+@import url("https://fonts.cdnfonts.com/css/montserrat");
+
+body {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #222;
+    color: white;
+    #version {
+        position: absolute;
+        top: 0;
+        left: 0;
+        color: white;
+    }
+
+    ul {
+        list-style: none;
+        padding: 0;
+        overflow-y: auto;
+        overflow-x: hidden;
+        flex-wrap: wrap;
+        align-content: flex-start;
+        gap: 0.5rem;
+        height: 90vh;
+        display: flex;
+        font-size: larger;
+        li {
+            background-color: #333;
+            padding: 2rem;
+            width: 100%;
+            border-radius: 4px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            height: min-content;
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+            div {
+                gap: 0.5rem;
+                display: flex;
+                position: relative;
+                flex-direction: column;
+                &::before {
+                    position: absolute;
+                    top: -1.5rem;
+                    color: white;
+                }
+                &.species {
+                    display: flex;
+                    flex-direction: column;
+                    color: white;
+                }
+                &.stats {
+                    display: flex;
+                    flex-direction: row;
+                }
+                &.type::before {
+                    content: "Type:";
+                }
+                &.ability::before {
+                    content: "Abilities:";
+                }
+                &.stats::before {
+                    content: "Stats:";
+                }
+            }
+        }
+    }
+}
+.st {
+    text-decoration: line-through;
+}
+.red {
+    font-size: medium;
+    color: red;
+}
+.green {
+    font-weight: bold;
+    color: green;
+}
+.old-abilities,.new-abilities {
+    display: flex;
+    flex-direction: row;
+}
+.old-stats,.new-stats {
+    display: flex;
+    flex-direction: column;
+}
+span,
+b {
+    text-transform: capitalize;
+    width: max-content;
+}
