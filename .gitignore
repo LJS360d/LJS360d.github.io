@@ -19,7 +19,7 @@ pnpm-debug.log*
 
 # Except the 'public/css' directory itself
 !/public/css/
-data/**
+
 # Also, except all files inside the 'public/css' directory
 !/public/css/*
 
