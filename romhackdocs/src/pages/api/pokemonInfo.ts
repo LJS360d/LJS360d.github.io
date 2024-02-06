@@ -7,8 +7,8 @@ import path from 'path';
 
 import { PokemonInfo } from '@/types/PokemonInfo';
 
-const docs = async (req: NextApiRequest, res: NextApiResponse<PokemonInfo[] | { error: string }>) => {
-    const filePath = path.join(process.cwd(), 'public/docs.json');
+const pokemonInfo = async (req: NextApiRequest, res: NextApiResponse<PokemonInfo[] | { error: string }>) => {
+    const filePath = path.join(process.cwd(), 'public/docs_mons.json');
 
     try {
         const fileContent = fs.readFileSync(filePath, 'utf8');
@@ -19,4 +19,4 @@ const docs = async (req: NextApiRequest, res: NextApiResponse<PokemonInfo[] | { 
         res.status(500).json({ error: 'Internal server error' });
     }
 };
-export default docs;
+export default pokemonInfo;

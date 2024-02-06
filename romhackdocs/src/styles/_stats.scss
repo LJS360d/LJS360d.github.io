@@ -1,0 +1,16 @@
+.stats {
+    display: flex;
+    flex-direction: row;
+    .stat-bar {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        width: 7rem;
+        justify-content: space-between;
+    
+        .stat-label {
+            flex: 1;
+        }
+        
+    }
+}

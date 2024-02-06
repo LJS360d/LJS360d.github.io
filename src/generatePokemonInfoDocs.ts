@@ -40,12 +40,10 @@ function parsePokemonInfo(data: string): PokemonInfo[] {
         val.replace(/^(TYPE_|ABILITY_|EGG_GROUP_)/g, "").trim())) : Number(value) || value;
 
     });
-
     if (pokemonInfo.species && pokemonInfo.baseHP) {
       pokemonInfoList.push(pokemonInfo as PokemonInfo);
     }
   }
-
   return pokemonInfoList;
 }
 
@@ -109,7 +107,7 @@ function comparePokemonInfo(oldInfo: PokemonInfo[], newInfo: PokemonInfo[]): str
   return '[' + docs.substring(0, docs.length - 1) + ']';
 }
 
-function generateDocs() {
+function generatePokemonInfoDocs() {
   const oldData = readFileSync('data/old_info.txt', 'utf-8');
   const newData = readFileSync('data/new_info.txt', 'utf-8');
 
@@ -117,8 +115,10 @@ function generateDocs() {
   const newPokemonInfo = parsePokemonInfo(newData);
 
   const docs = comparePokemonInfo(oldPokemonInfo, newPokemonInfo);
-  writeFileSync('data/docs.json', docs, 'utf-8');
-  writeFileSync('romhackdocs/public/docs.json', docs, 'utf-8');
+  writeFileSync('data/docs_mons.json', docs, 'utf-8');
+  writeFileSync('romhackdocs/public/docs_mons.json', docs, 'utf-8');
+  console.log("Generated PokemonInfo JSON");
+  
 
 }
-generateDocs();
+export default generatePokemonInfoDocs;
