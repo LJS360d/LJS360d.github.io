@@ -1,0 +1,40 @@
+---
+import tailwindConfig from "../../tailwind.config.mjs";
+import Sidebar from "../components/layout/Sidebar";
+import pkg from "../../package.json";
+import { RoutesIterator } from "../models/static/routes";
+export interface Props {
+  title: string;
+}
+
+const { title } = Astro.props;
+const themes = tailwindConfig.daisyui.themes as string[];
+const theme = themes[0];
+const version = pkg.version;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Astro description" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{title}</title>
+  </head>
+  <body>
+    <Sidebar
+      routes={RoutesIterator}
+      title={title}
+      themes={themes}
+      theme={theme}
+      version={version}
+    />
+    <slot />
+  </body>
+</html>
+
+<style lang="scss">
+  @import "../styles/styles.scss";
+</style>

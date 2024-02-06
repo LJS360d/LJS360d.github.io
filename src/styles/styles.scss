@@ -1,0 +1,41 @@
+@use 'types';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  // font-family: "Montserrat", sans-serif;
+}
+
+@layer utilities {
+  .old {
+    @apply text-red-500 line-through;
+  }
+
+  .new {
+    @apply text-green-500 font-semibold;
+  }
+
+  .obst {
+    @apply relative;
+
+    &::before {
+      content: '';
+      top: 50%;
+      transform: rotate(10deg);
+      @apply absolute border-2 border-red-500 right-0 left-0;
+    }
+  }
+
+  .new-pop {
+    @apply relative;
+
+    &::before {
+      content: 'New!';
+      top: -1.5rem;
+      left: -0.7rem;
+      @apply absolute text-green-500 font-semibold;
+    }
+  }
+}

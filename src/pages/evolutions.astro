@@ -1,0 +1,13 @@
+---
+import type { EvolutionData } from "../models/types/evolution.data";
+import evolutionsDiff from "../data/evolutions_diff.json";
+import Layout from "../layouts/Layout.astro";
+import EvolutionComponent from "../components/ui/evolution/EvolutionComponent";
+const evolutionsData = evolutionsDiff as EvolutionData[];
+---
+
+<Layout title="Evolutions">
+  <ul class="menu gap-4 w-full">
+    {evolutionsData.map((evo) => <EvolutionComponent evolution={evo} />)}
+  </ul>
+</Layout>

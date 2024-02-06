@@ -1,0 +1,13 @@
+---
+import MoveComponent from "../components/ui/move/MoveComponent";
+import movesDiff from "../data/moves_diff.json";
+import Layout from "../layouts/Layout.astro";
+import type { MoveData } from "../models/types/move.data";
+const movesData = movesDiff as MoveData[];
+---
+
+<Layout title="Moves">
+  <ul class="menu gap-4 w-full">
+    {movesData.map((move) => <MoveComponent move={move} />)}
+  </ul>
+</Layout>

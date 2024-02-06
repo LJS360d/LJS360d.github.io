@@ -1,0 +1,13 @@
+---
+import PokemonComponent from "../components/ui/pokemon/PokemonComponent";
+import monsDiff from "../data/pokemon_diff.json";
+import Layout from "../layouts/Layout.astro";
+import type { PokemonData } from "../models/types/pokemon.data";
+const monsData = monsDiff as PokemonData[];
+---
+
+<Layout title="Pokèmon">
+  <ul class="menu gap-4 w-full">
+    {monsData.map((mon) => <PokemonComponent pokemon={mon} />)}
+  </ul>
+</Layout>
