@@ -77,7 +77,6 @@ const { title, themes, theme, routes, version } = data;
   const themeSelect = document.getElementById("theme-select");
   const themeKey = "theme";
   const theme = localStorage.getItem(themeKey) || this.dataset.value;
-  console.log(theme);
   themeSelect.value = theme;
   document.documentElement.setAttribute("data-theme", theme);
 </script>
