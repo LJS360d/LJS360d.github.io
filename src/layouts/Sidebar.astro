@@ -20,7 +20,7 @@ const { data } = Astro.props;
 const { title, themes, theme, routes, version } = data;
 ---
 
-<div class="drawer sticky top-0 z-40">
+<div class="drawer">
   <input id={sidebarId} type="checkbox" class="drawer-toggle" />
   <div class="drawer-content">
     <Toolbar title={title} sidebarId={sidebarId} />
