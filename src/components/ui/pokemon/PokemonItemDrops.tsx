@@ -1,4 +1,4 @@
-import { PokemonData } from "../../../models/types/pokemon.data";
+import type { PokemonData } from "../../../models/types/pokemon.data";
 
 interface ItemBarProps {
   pokemon: PokemonData;

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { LearnsetInfo } from "../../../models/types/LearnsetInfo";
+import type { LearnsetInfo } from "../../../models/types/LearnsetInfo";
 
 interface LearnsetInfoProps {
   learnset: LearnsetInfo;

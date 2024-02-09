@@ -1,9 +1,6 @@
 import { GiAppleCore } from "react-icons/gi";
 import { MdCatchingPokemon, MdFlare, MdHome, MdTimeline } from "react-icons/md";
 import type { Route } from "../types/route.type";
-import type { IconBaseProps } from "react-icons";
-
-const iconBaseProps: IconBaseProps = {};
 
 export const RoutesIterator: Route[] = [
   { label: "Home", route: "/", icon: MdHome },
