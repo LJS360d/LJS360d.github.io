@@ -1,0 +1,25 @@
+---
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout title="Items">
+  <ul id="item-list" class="menu gap-4 w-full"></ul>
+</Layout>
+
+<script>
+  const itemList = document.getElementById("item-list") as HTMLUListElement;
+  const itemArr = Array.from(itemList.children) as HTMLLIElement[];
+  document.addEventListener("search", updateList);
+
+  function updateList(event: Event) {
+    const searchText = (event as CustomEvent).detail.text.toUpperCase();
+    for (const itemElement of itemArr) {
+      if (searchText === "") {
+        itemElement.hidden = false;
+        continue;
+      }
+      const itemName = itemElement.getAttribute("data-item-name")!;
+      itemElement.hidden = !itemName.includes(searchText);
+    }
+  }
+</script>

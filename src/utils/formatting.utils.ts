@@ -9,3 +9,10 @@ export function toCapitalized(str: string): string {
     .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
     .join(' ');
 }
+
+export function toKebabCase(str: string): string {
+  return str
+    .replaceAll('_', '-')
+    .replace(/([a-z])([A-Z])/g, '$1-$2')
+    .toLowerCase();
+}

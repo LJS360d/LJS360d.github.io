@@ -76,9 +76,11 @@ export default function EvolutionComponent({ evolution }: EvolutionProps) {
                             oldMethod={null}
                             newMethod={evoOrFinalMon.method}
                           />
-                          <span className='text-xl'>
-                            {evoOrFinalMon.clause[i]}
-                          </span>
+                          <EvolutionClause
+                            i={i}
+                            oldClause={null}
+                            newClause={evoOrFinalMon.clause}
+                          />
                         </div>
                         <MdEast className='scale-[1.5]' />
                       </div>
