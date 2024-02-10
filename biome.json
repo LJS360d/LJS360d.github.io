@@ -46,6 +46,9 @@
       "suspicious": {
         "noArrayIndexKey": "off",
         "noExplicitAny": "off"
+      },
+      "complexity": {
+        "noForEach": "off"
       }
     }
   }

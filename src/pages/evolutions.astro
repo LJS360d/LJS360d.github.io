@@ -7,7 +7,29 @@ const evolutionsData = evolutionsDiff as EvolutionData[];
 ---
 
 <Layout title="Evolutions">
-  <ul class="menu gap-4 w-full">
+  <ul id="evolution-list" class="menu gap-4 w-full">
     {evolutionsData.map((evo) => <EvolutionComponent evolution={evo} />)}
   </ul>
 </Layout>
+
+<script>
+  const evolutionList = document.getElementById(
+    "evolution-list",
+  ) as HTMLUListElement;
+  const evolutionArr = Array.from(evolutionList.children) as HTMLLIElement[];
+  document.addEventListener("search", updateList);
+
+  function updateList(event: Event) {
+    const searchText = (event as CustomEvent).detail.text.toUpperCase();
+    for (const evolutionElement of evolutionArr) {
+      if (searchText === "") {
+        evolutionElement.hidden = false;
+        continue;
+      }
+      const evolutionNames = evolutionElement.getAttribute(
+        "data-evolution-names",
+      )!;
+      evolutionElement.hidden = !evolutionNames.includes(searchText);
+    }
+  }
+</script>
