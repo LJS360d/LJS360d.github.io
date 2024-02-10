@@ -1,0 +1,19 @@
+---
+import { MdMenu } from "react-icons/md";
+import SearchBar from "./SearchBar.astro";
+
+const { sidebarId, title } = Astro.props;
+---
+
+<header class="navbar bg-base-300 shadow-lg sticky top-0 z-50">
+  <div class="navbar-start gap-2">
+    <label for={sidebarId} class="btn rounded-full btn-ghost">
+      <MdMenu className="text-lg" />
+    </label>
+    <h1 class="select-none">{title}</h1>
+  </div>
+  <div class="navbar-center"></div>
+  <div class="navbar-end">
+    <SearchBar />
+  </div>
+</header>

@@ -1,25 +1,5 @@
 [
   {
-    "name": "NONE",
-    "oldEffect": "HIT",
-    "newEffect": "HIT",
-    "oldType": "NORMAL",
-    "newType": "NORMAL",
-    "oldCategory": "PHYSICAL",
-    "newCategory": "PHYSICAL",
-    "oldAccuracy": 0,
-    "newAccuracy": 0,
-    "oldPp": 0,
-    "newPp": 0,
-    "oldEffectChance": 0,
-    "newEffectChance": 0,
-    "oldTarget": "SINGLE",
-    "newTarget": "SINGLE",
-    "oldPriority": 0,
-    "newPriority": 0,
-    "changes": []
-  },
-  {
     "name": "POUND",
     "oldEffect": "HIT",
     "newEffect": "HIT",

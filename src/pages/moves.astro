@@ -7,7 +7,25 @@ const movesData = movesDiff as MoveData[];
 ---
 
 <Layout title="Moves">
-  <ul class="menu gap-4 w-full">
+  <ul id="move-list" class="menu gap-4 w-full">
     {movesData.map((move) => <MoveComponent move={move} />)}
   </ul>
 </Layout>
+
+<script>
+  const moveList = document.getElementById("move-list") as HTMLUListElement;
+  const moveArr = Array.from(moveList.children) as HTMLLIElement[];
+  document.addEventListener("search", updateList);
+
+  function updateList(event: Event) {
+    const searchText = (event as CustomEvent).detail.text.toUpperCase();
+    for (const moveElement of moveArr) {
+      if (searchText === "") {
+        moveElement.hidden = false;
+        continue;
+      }
+      const moveName = moveElement.getAttribute("data-move-name")!;
+      moveElement.hidden = !moveName.includes(searchText);
+    }
+  }
+</script>

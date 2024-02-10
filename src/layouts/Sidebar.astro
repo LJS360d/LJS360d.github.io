@@ -1,8 +1,7 @@
 ---
 import { MdClose } from "react-icons/md";
-import Toolbar from "../components/layout/Toolbar";
 import type { Route } from "../models/types/route.type";
-
+import Toolbar from "./Toolbar.astro";
 interface Props {
   data: SidebarData;
 }
@@ -73,10 +72,12 @@ const { title, themes, theme, routes, version } = data;
     </div>
   </div>
 </div>
-<script data-theme={theme} type="module">
-  const themeSelect = document.getElementById("theme-select");
+<script>
+  const themeSelect = document.getElementById(
+    "theme-select",
+  ) as HTMLSelectElement;
   const themeKey = "theme";
-  const theme = localStorage.getItem(themeKey) || this.dataset.value;
+  const theme = localStorage.getItem(themeKey) || themeSelect.value;
   themeSelect.value = theme;
   document.documentElement.setAttribute("data-theme", theme);
 </script>

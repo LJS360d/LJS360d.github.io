@@ -1,13 +1,62 @@
 ---
 import PokemonComponent from "../components/ui/pokemon/PokemonComponent";
 import monsDiff from "../data/pokemon_diff.json";
+import learnsetsDiff from "../data/learnsets_diff.json";
 import Layout from "../layouts/Layout.astro";
 import type { PokemonData } from "../models/types/pokemon.data";
+import type { LearnsetData } from "../models/types/learnset.data";
 const monsData = monsDiff as PokemonData[];
+const learnsetsData = learnsetsDiff as LearnsetData[];
+function getLearnset(pokemon: string) {
+  return learnsetsData.find((ls) => ls.pokemon === pokemon);
+}
 ---
 
 <Layout title="Pokèmon">
-  <ul class="menu gap-4 w-full">
-    {monsData.map((mon) => <PokemonComponent pokemon={mon} />)}
+  <ul id="pokemon-list" class="menu gap-4 w-full">
+    {
+      monsData.map((mon) => (
+        <PokemonComponent pokemon={mon} learnset={getLearnset(mon.species)} />
+      ))
+    }
   </ul>
 </Layout>
+
+<script>
+  const pokemonList = document.getElementById(
+    "pokemon-list",
+  ) as HTMLUListElement;
+  const pokemonArr = Array.from(pokemonList.children) as HTMLLIElement[];
+  document.addEventListener("search", updateList);
+
+  function updateList(event: Event) {
+    const searchText = (event as CustomEvent).detail.text.toUpperCase();
+    for (const pokemonElement of pokemonArr) {
+      if (searchText === "") {
+        pokemonElement.hidden = false;
+        continue;
+      }
+      const pokemonName = pokemonElement.getAttribute("data-pokemon-name")!;
+      pokemonElement.hidden = !pokemonName.includes(searchText);
+    }
+  }
+</script>
+
+<!-- <script>
+  import autoAnimate from "@formkit/auto-animate";
+  const pokemonList = document.getElementById(
+    "pokemon-list",
+  ) as HTMLUListElement;
+  autoAnimate(pokemonList);
+  const pokemonArr = Array.from(pokemonList.children) as HTMLLIElement[];
+  document.addEventListener("search", (event: Event) => {
+    const searchText = (event as CustomEvent).detail.text.toUpperCase();
+    pokemonList.innerHTML = "";
+    pokemonArr.forEach((pokemonElement) => {
+      const pokemonName = pokemonElement.getAttribute("data-pokemon-name")!;
+      if (searchText !== "" && pokemonName.includes(searchText)) {
+        pokemonList.appendChild(pokemonElement);
+      }
+    });
+  });
+</script> -->

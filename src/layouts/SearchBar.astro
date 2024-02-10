@@ -1,0 +1,36 @@
+---
+import { MdSearch } from "react-icons/md";
+---
+
+<div class="relative">
+  <MdSearch className="absolute left-4 top-4 text-lg text-gray-500" />
+  <input
+    autocomplete="off"
+    id="search-input"
+    placeholder="Search..."
+    class="input pl-10 pr-0"
+    type="text"
+  />
+</div>
+
+<script>
+  const DEBOUNCE_DELAY = 500;
+  import { debounce } from "../utils/event.utils";
+  const inputElement = document.getElementById(
+    "search-input",
+  ) as HTMLInputElement;
+
+  const debouncedDispatchSearchEvent = debounce(function (event: Event) {
+    const text = (event.target as HTMLInputElement).value;
+    dispatchSearchEvent(text);
+  }, DEBOUNCE_DELAY);
+
+  inputElement.addEventListener("input", debouncedDispatchSearchEvent);
+
+  function dispatchSearchEvent(text: string) {
+    const searchEvent = new CustomEvent("search", {
+      detail: { text },
+    });
+    document.dispatchEvent(searchEvent);
+  }
+</script>

@@ -3,6 +3,29 @@
 @tailwind components;
 @tailwind utilities;
 
+@mixin base-scrollbar {
+  &::-webkit-scrollbar-thumb {
+    background-color: currentColor;
+    max-height: 4rem;
+    border-radius: 16px;
+    width: .35rem;
+  }
+
+  &::-webkit-scrollbar {
+    background-color: transparent;
+    width: .35rem;
+  }
+
+  &::-webkit-scrollbar-track {
+    border-radius: 16px;
+  }
+}
+
+[hidden] {
+  display: none !important;
+}
+
+
 body {
   margin: 0;
   // font-family: "Montserrat", sans-serif;
@@ -38,4 +61,12 @@ body {
       @apply absolute text-green-500 font-semibold;
     }
   }
+}
+
+@layer components {
+
+  .sb-base {
+    @include base-scrollbar()
+  }
+
 }
