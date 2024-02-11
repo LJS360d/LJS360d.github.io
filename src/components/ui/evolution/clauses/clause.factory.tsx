@@ -15,7 +15,8 @@ export default function ClauseFactory({ clause }: ClauseProps) {
   }
   if (isMove(clause)) return <MoveClause move={clause} />;
   if (isType(clause)) return <TypeClause type={clause} />;
-  return <>{toCapitalized(String(clause))}</>;
+  if (isPlace(clause)) return <>{getPlaceName(clause)}</>;
+  return <>{toCapitalized(clause || '')}</>;
 }
 
 function isLevel(str: string) {
@@ -36,4 +37,8 @@ function isType(str: string) {
 
 function isPlace(str: string) {
   return String(str).startsWith('MAP');
+}
+
+function getPlaceName(str: string) {
+  return toCapitalized(str.replace(/^MAP_(?=[^_])|^MAPSEC_(?=[^_])/i, ''));
 }
