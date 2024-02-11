@@ -7,7 +7,7 @@ const movesData = movesDiff as MoveData[];
 ---
 
 <Layout title="Moves">
-  <ul id="move-list" class="menu gap-4 w-full">
+  <ul id="move-list" class="list-base">
     {movesData.map((move) => <MoveComponent move={move} />)}
   </ul>
 </Layout>

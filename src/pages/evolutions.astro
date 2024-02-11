@@ -7,7 +7,7 @@ const evolutionsData = evolutionsDiff as EvolutionData[];
 ---
 
 <Layout title="Evolutions">
-  <ul id="evolution-list" class="menu gap-4 w-full">
+  <ul id="evolution-list" class="list-base">
     {evolutionsData.map((evo) => <EvolutionComponent evolution={evo} />)}
   </ul>
 </Layout>

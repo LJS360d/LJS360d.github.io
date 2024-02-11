@@ -1,4 +1,4 @@
-import Clause from './clauses/clauses';
+import Clause from './clauses/clause.factory';
 
 interface EvolutionClauseProps {
   oldClause: string[] | null;

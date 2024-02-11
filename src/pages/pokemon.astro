@@ -13,7 +13,7 @@ function getLearnset(pokemon: string) {
 ---
 
 <Layout title="Pokèmon">
-  <ul id="pokemon-list" class="menu gap-4 w-full">
+  <ul id="pokemon-list" class="list-base">
     {
       monsData.map((mon) => (
         <PokemonComponent pokemon={mon} learnset={getLearnset(mon.species)} />

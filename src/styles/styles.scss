@@ -69,4 +69,7 @@ body {
     @include base-scrollbar()
   }
 
+  .list-base {
+    @apply menu gap-4 w-full;
+  }
 }
