@@ -10,6 +10,13 @@ export function toCapitalized(str: string): string {
     .join(' ');
 }
 
+export function toLowerSnakeCase(str: string) {
+  return str
+    .toLowerCase()
+    .split(/[\s_-]+/g)
+    .join('_');
+}
+
 export function toKebabCase(str: string): string {
   return str
     .replaceAll('_', '-')
