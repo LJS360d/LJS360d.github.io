@@ -12,7 +12,7 @@ export default function ItemComponent({ item }: ItemComponentProps) {
     <li data-item-name={item.name} className='flex justify-between'>
       <div className='flex '>
         <img
-          src={`/assets/processed/${toLowerSnakeCase(item.name)}.png`}
+          src={`/assets/items/${toLowerSnakeCase(item.name)}.png`}
           alt={item.name}
           width={24}
           height={24}
