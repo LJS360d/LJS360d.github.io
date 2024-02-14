@@ -1,9 +1,15 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import ItemComponent from "../components/ui/item/ItemComponent";
+import itemsDiff from "../data/items_diff.json";
+import type { ItemData } from "../models/types/item.data";
+const itemsData = itemsDiff as ItemData[];
 ---
 
 <Layout title="Items">
-  <ul id="item-list" class="list-base"></ul>
+  <ul id="item-list" class="list-base">
+    {itemsData.map((item) => <ItemComponent item={item} />)}
+  </ul>
 </Layout>
 
 <script>

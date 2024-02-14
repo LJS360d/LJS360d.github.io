@@ -1,37 +1,5 @@
 [
   {
-    "name": "NONE",
-    "displayName": "????????",
-    "sprite": "https://img.pokemondb.net/sprites/items/none.png",
-    "pocket": "POCKET_ITEMS",
-    "description": "?????",
-    "price": 0,
-    "flingPower": null,
-    "holdEffectParam": null,
-    "holdEffect": null,
-    "battleUsage": null,
-    "fieldUseFunc": "ItemUseOutOfBattle_CannotUse",
-    "importance": null,
-    "type": "ITEM_USE_BAG_MENU",
-    "secondaryId": null,
-    "old": {
-      "name": "NONE",
-      "displayName": "????????",
-      "sprite": "https://img.pokemondb.net/sprites/items/none.png",
-      "pocket": "POCKET_ITEMS",
-      "description": "?????",
-      "price": 0,
-      "flingPower": null,
-      "holdEffectParam": null,
-      "holdEffect": null,
-      "battleUsage": null,
-      "fieldUseFunc": "ItemUseOutOfBattle_CannotUse",
-      "importance": null,
-      "type": "ITEM_USE_BAG_MENU",
-      "secondaryId": null
-    }
-  },
-  {
     "name": "POKE_BALL",
     "displayName": "Poké Ball",
     "sprite": "https://img.pokemondb.net/sprites/items/poke-ball.png",
