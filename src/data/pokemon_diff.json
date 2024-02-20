@@ -33880,10 +33880,10 @@
     "newFlags": []
   },
   {
-    "species": "ROTOM_FORM",
+    "species": "ROTOM_FAN",
     "number": 479,
-    "imageUrl": "https://img.pokemondb.net/sprites/home/normal/rotom-wash.png",
-    "iconUrl": "https://img.pokemondb.net/sprites/scarlet-violet/icon/rotom.png",
+    "imageUrl": "https://img.pokemondb.net/sprites/home/normal/rotom-fan.png",
+    "iconUrl": "https://img.pokemondb.net/sprites/scarlet-violet/icon/rotom-fan.png",
     "oldStats": [
       50,
       65,
@@ -33902,11 +33902,259 @@
     ],
     "oldTypes": [
       "ELECTRIC",
-      "type"
+      "FLYING"
     ],
     "newTypes": [
       "ELECTRIC",
-      "type"
+      "FLYING"
+    ],
+    "oldAbilities": [
+      "LEVITATE"
+    ],
+    "newAbilities": [
+      "LEVITATE"
+    ],
+    "oldEggGroups": [
+      "AMORPHOUS"
+    ],
+    "newEggGroups": [
+      "AMORPHOUS"
+    ],
+    "oldEggCycles": 20,
+    "newEggCycles": 20,
+    "oldGrowthRate": "MEDIUM_FAST",
+    "newGrowthRate": "MEDIUM_FAST",
+    "oldExpYield": 182,
+    "newExpYield": 182,
+    "oldEvYield": {
+      "spAttack": 1
+    },
+    "newEvYield": {
+      "spAttack": 1
+    },
+    "oldCatchRate": 45,
+    "newCatchRate": 45,
+    "oldGenderRatio": null,
+    "newGenderRatio": null,
+    "oldFriendship": 0,
+    "newFriendship": 0,
+    "oldFlags": [],
+    "newFlags": []
+  },
+  {
+    "species": "ROTOM_FROST",
+    "number": 479,
+    "imageUrl": "https://img.pokemondb.net/sprites/home/normal/rotom-frost.png",
+    "iconUrl": "https://img.pokemondb.net/sprites/scarlet-violet/icon/rotom-frost.png",
+    "oldStats": [
+      50,
+      65,
+      107,
+      105,
+      107,
+      86
+    ],
+    "newStats": [
+      50,
+      65,
+      107,
+      105,
+      107,
+      86
+    ],
+    "oldTypes": [
+      "ELECTRIC",
+      "ICE"
+    ],
+    "newTypes": [
+      "ELECTRIC",
+      "ICE"
+    ],
+    "oldAbilities": [
+      "LEVITATE"
+    ],
+    "newAbilities": [
+      "LEVITATE"
+    ],
+    "oldEggGroups": [
+      "AMORPHOUS"
+    ],
+    "newEggGroups": [
+      "AMORPHOUS"
+    ],
+    "oldEggCycles": 20,
+    "newEggCycles": 20,
+    "oldGrowthRate": "MEDIUM_FAST",
+    "newGrowthRate": "MEDIUM_FAST",
+    "oldExpYield": 182,
+    "newExpYield": 182,
+    "oldEvYield": {
+      "spAttack": 1
+    },
+    "newEvYield": {
+      "spAttack": 1
+    },
+    "oldCatchRate": 45,
+    "newCatchRate": 45,
+    "oldGenderRatio": null,
+    "newGenderRatio": null,
+    "oldFriendship": 0,
+    "newFriendship": 0,
+    "oldFlags": [],
+    "newFlags": []
+  },
+  {
+    "species": "ROTOM_HEAT",
+    "number": 479,
+    "imageUrl": "https://img.pokemondb.net/sprites/home/normal/rotom-heat.png",
+    "iconUrl": "https://img.pokemondb.net/sprites/scarlet-violet/icon/rotom-heat.png",
+    "oldStats": [
+      50,
+      65,
+      107,
+      105,
+      107,
+      86
+    ],
+    "newStats": [
+      50,
+      65,
+      107,
+      105,
+      107,
+      86
+    ],
+    "oldTypes": [
+      "ELECTRIC",
+      "FIRE"
+    ],
+    "newTypes": [
+      "ELECTRIC",
+      "FIRE"
+    ],
+    "oldAbilities": [
+      "LEVITATE"
+    ],
+    "newAbilities": [
+      "LEVITATE"
+    ],
+    "oldEggGroups": [
+      "AMORPHOUS"
+    ],
+    "newEggGroups": [
+      "AMORPHOUS"
+    ],
+    "oldEggCycles": 20,
+    "newEggCycles": 20,
+    "oldGrowthRate": "MEDIUM_FAST",
+    "newGrowthRate": "MEDIUM_FAST",
+    "oldExpYield": 182,
+    "newExpYield": 182,
+    "oldEvYield": {
+      "spAttack": 1
+    },
+    "newEvYield": {
+      "spAttack": 1
+    },
+    "oldCatchRate": 45,
+    "newCatchRate": 45,
+    "oldGenderRatio": null,
+    "newGenderRatio": null,
+    "oldFriendship": 0,
+    "newFriendship": 0,
+    "oldFlags": [],
+    "newFlags": []
+  },
+  {
+    "species": "ROTOM_MOW",
+    "number": 479,
+    "imageUrl": "https://img.pokemondb.net/sprites/home/normal/rotom-mow.png",
+    "iconUrl": "https://img.pokemondb.net/sprites/scarlet-violet/icon/rotom-mow.png",
+    "oldStats": [
+      50,
+      65,
+      107,
+      105,
+      107,
+      86
+    ],
+    "newStats": [
+      50,
+      65,
+      107,
+      105,
+      107,
+      86
+    ],
+    "oldTypes": [
+      "ELECTRIC",
+      "GRASS"
+    ],
+    "newTypes": [
+      "ELECTRIC",
+      "GRASS"
+    ],
+    "oldAbilities": [
+      "LEVITATE"
+    ],
+    "newAbilities": [
+      "LEVITATE"
+    ],
+    "oldEggGroups": [
+      "AMORPHOUS"
+    ],
+    "newEggGroups": [
+      "AMORPHOUS"
+    ],
+    "oldEggCycles": 20,
+    "newEggCycles": 20,
+    "oldGrowthRate": "MEDIUM_FAST",
+    "newGrowthRate": "MEDIUM_FAST",
+    "oldExpYield": 182,
+    "newExpYield": 182,
+    "oldEvYield": {
+      "spAttack": 1
+    },
+    "newEvYield": {
+      "spAttack": 1
+    },
+    "oldCatchRate": 45,
+    "newCatchRate": 45,
+    "oldGenderRatio": null,
+    "newGenderRatio": null,
+    "oldFriendship": 0,
+    "newFriendship": 0,
+    "oldFlags": [],
+    "newFlags": []
+  },
+  {
+    "species": "ROTOM_WASH",
+    "number": 479,
+    "imageUrl": "https://img.pokemondb.net/sprites/home/normal/rotom-wash.png",
+    "iconUrl": "https://img.pokemondb.net/sprites/scarlet-violet/icon/rotom-wash.png",
+    "oldStats": [
+      50,
+      65,
+      107,
+      105,
+      107,
+      86
+    ],
+    "newStats": [
+      50,
+      65,
+      107,
+      105,
+      107,
+      86
+    ],
+    "oldTypes": [
+      "ELECTRIC",
+      "WATER"
+    ],
+    "newTypes": [
+      "ELECTRIC",
+      "WATER"
     ],
     "oldAbilities": [
       "LEVITATE"
