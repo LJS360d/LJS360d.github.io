@@ -1,5 +1,6 @@
+import { useCallback, useState } from 'react';
 import type { LearnsetData } from '../../../models/types/learnset.data';
-import type { PokemonData } from '../../../models/types/pokemon.data';
+import type { PokemonInfo } from '../../../models/types/pokemon.info';
 import LearnsetComponent from '../learnset/LearnsetComponent';
 import PokemonSprite from '../shared/PokemonSprite';
 import AbilitiesBar from './PokemonAbilities';
@@ -7,13 +8,18 @@ import StatBar from './PokemonStats';
 import TypeBar from './PokemonTyping';
 
 interface PokemonComponentProps {
-  pokemon: PokemonData;
+  pokemon: PokemonInfo;
   learnset?: LearnsetData;
 }
 function PokemonComponent({ pokemon, learnset }: PokemonComponentProps) {
+  const [dialogOpen, setDialogOpen] = useState<boolean>(false);
+  const toggleDialog = useCallback(() => {
+    setDialogOpen(!dialogOpen);
+  }, [dialogOpen]);
+
   return (
     <li
-      data-pokemon-name={pokemon.species}
+      data-name={pokemon.species}
       className='cursor-default bg-base-200 rounded-lg flex flex-row justify-start flex-1'>
       {/* left */}
       <div className='cursor-default flex flex-row flex-1'>
@@ -26,7 +32,7 @@ function PokemonComponent({ pokemon, learnset }: PokemonComponentProps) {
       </div>
       {/* right */}
       {learnset && (
-        <div className='min-w-36'>
+        <div onClick={() => toggleDialog()} className='min-w-36'>
           <LearnsetComponent learnset={learnset} />
         </div>
       )}

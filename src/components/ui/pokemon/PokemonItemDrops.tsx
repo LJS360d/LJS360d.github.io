@@ -1,7 +1,7 @@
-import type { PokemonData } from "../../../models/types/pokemon.data";
+import type { PokemonInfo } from '../../../models/types/pokemon.info';
 
 interface ItemBarProps {
-  pokemon: PokemonData;
+  pokemon: PokemonInfo;
 }
 
 function PokemonItemDrops({ pokemon }: ItemBarProps) {

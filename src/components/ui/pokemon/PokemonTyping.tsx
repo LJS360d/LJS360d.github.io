@@ -1,31 +1,33 @@
-import type { PokemonData } from "../../../models/types/pokemon.data";
-import TypeIcon from "../shared/TypeIcon";
-import lodash from "lodash";
+import lodash from 'lodash';
+import type { PokemonInfo } from '../../../models/types/pokemon.info';
+import TypeIcon from '../shared/TypeIcon';
 const { isEqual } = lodash;
 
 interface TypeBarProps {
-  pokemon: PokemonData;
+  pokemon: PokemonInfo;
 }
 
 function PokemonTyping({ pokemon }: TypeBarProps) {
-  const shouldShowOldTypes = !isEqual(pokemon.newTypes, pokemon.oldTypes);
-  const activeTypes = shouldShowOldTypes ? pokemon.newTypes : pokemon.oldTypes;
+  const newTypes = pokemon.types;
+  const oldTypes = pokemon.old?.types ?? newTypes;
+  const shouldShowOldTypes = !isEqual(newTypes, oldTypes);
+  const activeTypes = shouldShowOldTypes ? newTypes : oldTypes;
 
   return (
-    <div className="flex flex-col gap-2">
-      <span className="mr-2">Type:</span>
+    <div className='flex flex-col gap-2'>
+      <span className='mr-2'>Type:</span>
       {shouldShowOldTypes && (
-        <div className="flex flex-row items-center">
-          <div className="flex flex-wrap gap-2">
-            {pokemon.oldTypes.map((type, i) => (
+        <div className='flex flex-row items-center'>
+          <div className='flex flex-wrap gap-2'>
+            {oldTypes.map((type, i) => (
               <TypeIcon key={i} type={type} strikeThrough />
             ))}
           </div>
         </div>
       )}
 
-      <div className="flex flex-row items-center">
-        <div className="flex flex-wrap gap-2">
+      <div className='flex flex-row items-center'>
+        <div className='flex flex-wrap gap-2'>
           {activeTypes.map((type, i) => (
             <TypeIcon key={i} type={type} />
           ))}

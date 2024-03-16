@@ -1,11 +1,11 @@
 ---
 import PokemonComponent from "../components/ui/pokemon/PokemonComponent";
-import monsDiff from "../data/pokemon_diff.json";
 import learnsetsDiff from "../data/learnsets_diff.json";
+import mons from "../data/pokemon.json";
 import Layout from "../layouts/Layout.astro";
-import type { PokemonData } from "../models/types/pokemon.data";
 import type { LearnsetData } from "../models/types/learnset.data";
-const monsData = monsDiff as PokemonData[];
+import type { PokemonInfo } from "../models/types/pokemon.info";
+const monsData = mons as PokemonInfo[];
 const learnsetsData = learnsetsDiff as LearnsetData[];
 function getLearnset(pokemon: string) {
   return learnsetsData.find((ls) => ls.pokemon === pokemon);
@@ -23,23 +23,14 @@ function getLearnset(pokemon: string) {
 </Layout>
 
 <script>
+  import { updateList } from "../utils/search.utils";
   const pokemonList = document.getElementById(
     "pokemon-list",
   ) as HTMLUListElement;
   const pokemonArr = Array.from(pokemonList.children) as HTMLLIElement[];
-  document.addEventListener("search", updateList);
-
-  function updateList(event: Event) {
-    const searchText = (event as CustomEvent).detail.text.toUpperCase();
-    for (const pokemonElement of pokemonArr) {
-      if (searchText === "") {
-        pokemonElement.hidden = false;
-        continue;
-      }
-      const pokemonName = pokemonElement.getAttribute("data-pokemon-name")!;
-      pokemonElement.hidden = !pokemonName.includes(searchText);
-    }
-  }
+  document.addEventListener("search", (ev) =>
+    updateList(ev, pokemonArr, "data-name"),
+  );
 </script>
 
 <!-- <script>

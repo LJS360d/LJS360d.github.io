@@ -3,6 +3,12 @@ import { MdSearch } from "react-icons/md";
 ---
 
 <div class="relative">
+  <div
+    id="search-loading"
+    hidden
+    class="loading loading-spinner loading-md bg-accent absolute top-3 -left-8"
+  >
+  </div>
   <MdSearch className="absolute left-4 top-4 text-lg text-gray-500" />
   <input
     autocomplete="off"
@@ -19,6 +25,9 @@ import { MdSearch } from "react-icons/md";
   const inputElement = document.getElementById(
     "search-input",
   ) as HTMLInputElement;
+  const loadingElement = document.getElementById(
+    "search-loading",
+  ) as HTMLDivElement;
 
   const debouncedDispatchSearchEvent = debounce(function (event: Event) {
     const text = (event.target as HTMLInputElement).value;
@@ -26,11 +35,17 @@ import { MdSearch } from "react-icons/md";
   }, DEBOUNCE_DELAY);
 
   inputElement.addEventListener("input", debouncedDispatchSearchEvent);
+  document.addEventListener("searchEnd", handleSearchEnd);
 
   function dispatchSearchEvent(text: string) {
     const searchEvent = new CustomEvent("search", {
       detail: { text },
     });
+    loadingElement.hidden = false;
     document.dispatchEvent(searchEvent);
+  }
+
+  function handleSearchEnd(_: Event) {
+    loadingElement.hidden = true;
   }
 </script>

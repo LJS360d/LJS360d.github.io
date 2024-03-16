@@ -13,23 +13,12 @@ const evolutionsData = evolutionsDiff as EvolutionData[];
 </Layout>
 
 <script>
+  import { updateList } from "../utils/search.utils";
   const evolutionList = document.getElementById(
     "evolution-list",
   ) as HTMLUListElement;
   const evolutionArr = Array.from(evolutionList.children) as HTMLLIElement[];
-  document.addEventListener("search", updateList);
-
-  function updateList(event: Event) {
-    const searchText = (event as CustomEvent).detail.text.toUpperCase();
-    for (const evolutionElement of evolutionArr) {
-      if (searchText === "") {
-        evolutionElement.hidden = false;
-        continue;
-      }
-      const evolutionNames = evolutionElement.getAttribute(
-        "data-evolution-names",
-      )!;
-      evolutionElement.hidden = !evolutionNames.includes(searchText);
-    }
-  }
+  document.addEventListener("search", (ev) =>
+    updateList(ev, evolutionArr, "data-evolution-name"),
+  );
 </script>
