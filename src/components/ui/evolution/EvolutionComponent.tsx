@@ -15,11 +15,7 @@ export default function EvolutionComponent({ evolution }: EvolutionProps) {
   ): evoOrFinalMon is PokemonSprite {
     if (typeof evoOrFinalMon === 'object' && evoOrFinalMon !== null) {
       const sprite = evoOrFinalMon as PokemonSprite;
-      return (
-        typeof sprite.species === 'string' &&
-        typeof sprite.imageUrl === 'string' &&
-        typeof sprite.iconUrl === 'string'
-      );
+      return typeof sprite.species === 'string';
     }
     return false;
   }

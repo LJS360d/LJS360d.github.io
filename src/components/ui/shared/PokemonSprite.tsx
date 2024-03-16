@@ -1,8 +1,7 @@
-import type { PokemonInfo } from '../../../models/types/pokemon.info';
 import { toLowerSnakeCase } from '../../../utils/formatting.utils';
 
 interface PokemonSpriteProps {
-  pokemon: PokemonInfo;
+  pokemon: { species: string };
 }
 
 export default function PokemonSpriteComponent({
