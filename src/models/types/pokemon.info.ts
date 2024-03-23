@@ -8,6 +8,7 @@ export interface PokemonInfoDefinition {
   species: string;
   speciesName: string;
   stats: PokemonStatModel;
+  bst: number;
   types: PokemonType[];
   natDexNum: number;
   abilities: string[];
@@ -18,7 +19,7 @@ export interface PokemonInfoDefinition {
   eggCycles: number;
   eggGroups: string[];
   evolutions: [];
-  formChangeTable: 'TODO';
+  formChangeTable: PokemonFormChange[];
   evYield: PokemonEvYieldModel;
   expYield: number;
   friendship: string;
@@ -42,6 +43,12 @@ type PokemonEvYieldModel = [
   number | null,
 ];
 
+export interface PokemonFormChange {
+  form: string;
+  clause: string;
+  method?: string;
+}
+
 export enum PokemonFlags {
   alolanForm = 'ALOLAN',
   galarianForm = 'GALARIAN',
@@ -55,4 +62,6 @@ export enum PokemonFlags {
   ultraBurst = 'ULTRABURST',
   gigantamax = 'GIGANTAMAX',
   paradoxForm = 'PARADOX',
+  totem = 'TOTEM',
+  alternateForm = 'ALTERNATE_FORM',
 }
