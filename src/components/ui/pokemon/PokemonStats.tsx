@@ -11,9 +11,9 @@ export default function PokemonStats({ pokemon }: StatBarProps) {
   const oldStats = pokemon.old?.stats ?? newStats;
   const statDifferences = getStatDifferences();
 
-  const oldBST = pokemon.old?.bst;
-  const newBST = pokemon.bst;
-  const BSTDifference = oldBST ?? 0 + newBST;
+  const oldBST = oldStats.reduce((sum, num) => sum + num, 0);
+  const newBST = newStats.reduce((sum, num) => sum + num, 0);
+  const BSTDifference = statDifferences.reduce((sum, num) => sum + num, 0);
 
   function getStatDifferences() {
     const statDifferencesArray = [];
