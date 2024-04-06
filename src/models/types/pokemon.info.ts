@@ -9,6 +9,7 @@ export interface PokemonInfoDefinition {
   speciesName: string;
   stats: PokemonStatModel;
   bst: number;
+  generation: number;
   types: PokemonType[];
   natDexNum: number;
   abilities: string[];
