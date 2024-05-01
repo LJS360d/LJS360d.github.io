@@ -1,5 +1,5 @@
-import movesDiff from '../../../../data/moves_diff.json';
-import type { MoveData } from '../../../../models/types/move.data';
+import moves from '../../../../data/moves.json';
+import type { MoveInfo } from '../../../../models/types/move.info';
 import { PokemonTypeColor } from '../../../../models/types/pokemon.type';
 import { toCapitalized } from '../../../../utils/formatting.utils';
 type MoveClauseProps = {
@@ -8,7 +8,7 @@ type MoveClauseProps = {
 
 export default function MoveClause({ move }: MoveClauseProps) {
   const cleanMove = move.replace('MOVE_', '');
-  const moveData = (movesDiff as MoveData[]).find((m) => m.name === cleanMove);
+  const moveData = (moves as MoveInfo[]).find((m) => m.name === cleanMove);
   if (!moveData) return <span>{toCapitalized(cleanMove)}</span>;
   const moveColor = getMoveTypeColor(moveData);
   return (
@@ -18,7 +18,7 @@ export default function MoveClause({ move }: MoveClauseProps) {
   );
 }
 
-function getMoveTypeColor(move: MoveData) {
-  const type = (move.newType as keyof typeof PokemonTypeColor) || 'UNKNOWN';
+function getMoveTypeColor(move: MoveInfo) {
+  const type = (move.type as keyof typeof PokemonTypeColor) || 'UNKNOWN';
   return PokemonTypeColor[type];
 }

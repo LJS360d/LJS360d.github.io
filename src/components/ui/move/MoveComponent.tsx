@@ -1,14 +1,14 @@
 import {
   EffectsEnum,
-  type MoveData,
-  TargetsEnum,
-} from '../../../models/types/move.data';
+  MoveTarget,
+  type MoveInfo,
+} from '../../../models/types/move.info';
+import { toCapitalized } from '../../../utils/formatting.utils';
 import TypeIcon from '../shared/TypeIcon';
 import MoveCategory from './MoveCategoryIcon';
-import { toCapitalized } from '../../../utils/formatting.utils';
 
 interface MoveComponentProps {
-  move: MoveData;
+  move: MoveInfo;
 }
 function MoveComponent({ move }: MoveComponentProps) {
   return (
@@ -18,108 +18,137 @@ function MoveComponent({ move }: MoveComponentProps) {
       <div className='flex flex-col items-start'>
         <h6 className='capitalize'>{toCapitalized(move.name)}</h6>
         <div className='flex flex-row'>
-          {move.oldType !== move.newType ? (
+          {move.old && move.type !== move.old?.type ? (
             <div className='flex flex-col'>
-              <TypeIcon type={move.newType} />
-              <TypeIcon type={move.oldType} strikeThrough />
+              <TypeIcon type={move.type} />
+              <TypeIcon type={move.old.type} strikeThrough />
             </div>
           ) : (
-            <TypeIcon type={move.newType} />
+            <TypeIcon type={move.type} />
           )}
-          {move.oldCategory !== move.newCategory ? (
+          {move.old && move.category !== move.old.category ? (
             <>
-              <MoveCategory category={move.newCategory} />
-              <MoveCategory category={move.oldCategory} strikeThrough />
+              <MoveCategory category={move.category} />
+              <MoveCategory category={move.old.category} strikeThrough />
             </>
           ) : (
-            <MoveCategory category={move.newCategory} />
+            <MoveCategory category={move.category} />
           )}
         </div>
       </div>
-
-      <div className='flex flex-col items-start'>
-        <span>Power</span>
-        {move.oldPower !== move.newPower ? (
-          <>
-            <span className='new'>{move.newPower}</span>
-            <span className='old'>{move.oldPower}</span>
-          </>
-        ) : (
-          <span>{move.newPower}</span>
-        )}
-      </div>
+      {move.category !== 'STATUS' && move.power && move.power > 1 && (
+        <div className='flex flex-col items-start'>
+          <span>Power</span>
+          {move.old && move.power !== move.old.power ? (
+            <>
+              <span className='new'>{move.power}</span>
+              <span className='old'>{move.old.power}</span>
+            </>
+          ) : (
+            <span>{move.power}</span>
+          )}
+        </div>
+      )}
       <div className='flex flex-col items-start'>
         <span>Accuracy</span>
-        {move.oldAccuracy !== move.newAccuracy ? (
+        {move.old && move.accuracy !== move.old.accuracy ? (
           <>
-            <span className='new'>{move.newAccuracy}%</span>
-            <span className='old'>{move.oldAccuracy}%</span>
+            <span className='new'>{move.accuracy}%</span>
+            <span className='old'>{move.old.accuracy}%</span>
           </>
         ) : (
-          <span>{move.newAccuracy ? `${move.newAccuracy}%` : '-'}</span>
+          <span>{move.accuracy ? `${move.accuracy}%` : '-'}</span>
         )}
       </div>
-      {move.newTarget !== 'SINGLE' && (
+      {move.target !== MoveTarget.SINGLE && (
         <div className='flex flex-col items-start'>
           <span>Target</span>
-          {move.oldTarget !== move.newTarget ? (
+          {move.old && move.target !== move.old.target ? (
             <>
               <span className='new'>
-                {TargetsEnum[move.newTarget] ?? move.newTarget}
+                {MoveTarget[move.target] ?? move.target}
               </span>
               <span className='old'>
-                {TargetsEnum[move.oldTarget] ?? move.oldTarget}
+                {MoveTarget[move.old.target] ?? move.old.target}
               </span>
             </>
           ) : (
-            <span>{TargetsEnum[move.newTarget] ?? move.newTarget}</span>
+            <span>{MoveTarget[move.target] ?? move.target}</span>
           )}
         </div>
       )}
-      {move.newPriority > 0 && (
+      {move.priority && move?.priority > 0 && (
         <div className='flex flex-col items-start'>
           <span>Priority</span>
-          {move.oldPriority !== move.newPriority ? (
+          {move.old && move.priority !== move.old.priority ? (
             <>
-              <span className='new'>{move.newPriority}</span>
-              <span className='old'>{move.oldPriority}</span>
+              <span className='new'>{move.priority}</span>
+              <span className='old'>{move.old.priority}</span>
             </>
           ) : (
-            <span>{move.newPriority}</span>
+            <span>{move.priority}</span>
           )}
         </div>
       )}
-      {move.newEffect !== 'HIT' && (
+      {move.recoil && move.recoil > 0 && (
+        <div className='flex flex-col items-start'>
+          <span>Recoil</span>
+          {move.old && move.recoil !== move.old.recoil ? (
+            <>
+              <span className='new'>{move.recoil}%</span>
+              <span className='old'>{move.old.recoil}%</span>
+            </>
+          ) : (
+            <span>{move.recoil}%</span>
+          )}
+        </div>
+      )}
+      {move.effect !== 'EFFECT_HIT' && (
         <div className='flex flex-col items-start'>
           <span>Effect</span>
-          {move.oldEffect !== move.newEffect ? (
+          {move.old && move.effect !== move.old.effect ? (
             <>
-              <span className='new w-fit'>
-                {EffectsEnum[move.newEffect] ?? move.newEffect}
-              </span>
-              <span className='old w-fit'>
-                {EffectsEnum[move.oldEffect] ?? move.oldEffect}
-              </span>
+              <span className='new w-fit'>{move.effect}</span>
+              <span className='old w-fit'>{move.old.effect}</span>
             </>
           ) : (
-            <span className='w-fit'>
-              {EffectsEnum[move.newEffect] ?? move.newEffect}
-            </span>
+            <span className='w-fit'>{move.effect}</span>
           )}
         </div>
       )}
-      {move.newEffectChance > 0 && (
-        <div className='flex flex-col items-start'>
-          <span>Effect Chance</span>
-          {move.oldEffectChance !== move.newEffectChance ? (
-            <>
-              <span className='new'>{move.newEffectChance}%</span>
-              <span className='old'>{move.oldEffectChance}%</span>
-            </>
-          ) : (
-            <span>{move.newEffectChance}%</span>
-          )}
-        </div>
+      {move.additionalEffects && (
+        <>
+          <div className='flex flex-col items-start'>
+            <span>Effect</span>
+            {move.old &&
+            move.old.additionalEffects?.moveEffect !==
+              move.additionalEffects.moveEffect ? (
+              <>
+                <span className='new'>{move.additionalEffects.moveEffect}</span>
+                <span className='old'>
+                  {move.old.additionalEffects?.moveEffect}
+                </span>
+              </>
+            ) : (
+              <span>{move.additionalEffects.moveEffect}</span>
+            )}
+          </div>
+          <div className='flex flex-col items-start'>
+            <span>Effect chance</span>
+            {move.old &&
+            move.old.additionalEffects?.chance !==
+              move.additionalEffects.chance ? (
+              <>
+                <span className='new'>{move.additionalEffects.chance}%</span>
+                <span className='old'>
+                  {move.old.additionalEffects?.chance}%
+                </span>
+              </>
+            ) : (
+              <span>{move.additionalEffects.chance}%</span>
+            )}
+          </div>
+        </>
       )}
     </li>
   );
