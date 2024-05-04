@@ -52,7 +52,7 @@ const RareCandy = () => (
     title='By level'
     className='w-6 aspect-square'
     alt='Level'
-    src='assets/items/rare_candy.png'
+    src='/assets/items/rare_candy.png'
   />
 );
 const PokeBall = () => (
@@ -60,7 +60,7 @@ const PokeBall = () => (
     title='Pokè Ball'
     className='w-6 aspect-square'
     alt='Level'
-    src='assets/items/poke_ball.png'
+    src='/assets/items/poke_ball.png'
   />
 );
 export const Effects: Record<string, string> = {
