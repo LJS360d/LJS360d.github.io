@@ -13579,7 +13579,16 @@
             "species": "SLIGGOO",
             "methods": [
               {
-                "method": "EVO_LEVEL",
+                "method": "EVO_LEVEL_RAIN",
+                "clause": "30"
+              }
+            ]
+          },
+          {
+            "species": "SLIGGOO_HISUIAN",
+            "methods": [
+              {
+                "method": "EVO_LEVEL_FOG",
                 "clause": "30"
               }
             ]
@@ -13595,7 +13604,17 @@
               {
                 "method": "EVO_LEVEL_RAIN",
                 "clause": "50"
-              },
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "from": "SLIGGOO_HISUIAN",
+        "to": [
+          {
+            "species": "GOODRA_HISUIAN",
+            "methods": [
               {
                 "method": "EVO_LEVEL_FOG",
                 "clause": "50"
@@ -13627,48 +13646,6 @@
           "to": [
             {
               "species": "GOODRA",
-              "methods": [
-                {
-                  "method": "EVO_LEVEL_RAIN",
-                  "clause": "50"
-                },
-                {
-                  "method": "EVO_LEVEL_FOG",
-                  "clause": "50"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "family": "SLIGGOO_HISUIAN",
-    "evolutions": [
-      {
-        "from": "SLIGGOO_HISUIAN",
-        "to": [
-          {
-            "species": "GOODRA_HISUIAN",
-            "methods": [
-              {
-                "method": "EVO_LEVEL_RAIN",
-                "clause": "40"
-              }
-            ]
-          }
-        ]
-      }
-    ],
-    "old": {
-      "family": "SLIGGOO_HISUIAN",
-      "evolutions": [
-        {
-          "from": "SLIGGOO_HISUIAN",
-          "to": [
-            {
-              "species": "GOODRA_HISUIAN",
               "methods": [
                 {
                   "method": "EVO_LEVEL_RAIN",

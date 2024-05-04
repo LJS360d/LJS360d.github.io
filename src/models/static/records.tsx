@@ -8,6 +8,7 @@ const Night = () => (
 );
 const Dusk = () => <span className='text-orange-400 font-semibold'>Dusk</span>;
 const Rain = () => <span className='text-blue-400 font-semibold'>Rain</span>;
+const Fog = () => <span className='text-slate-400 font-semibold'>Fog</span>;
 const AmpedNatures = [
   'Adamant',
   'Brave',
@@ -155,6 +156,21 @@ const weatherMethods = {
   HOLD_RAIN: (
     <>
       During <Rain /> while holding
+    </>
+  ),
+  FOG: (
+    <>
+      During <Fog /> using
+    </>
+  ),
+  LEVEL_FOG: (
+    <>
+      During <Fog /> at level
+    </>
+  ),
+  HOLD_FOG: (
+    <>
+      During <Fog /> while holding
     </>
   ),
 };
