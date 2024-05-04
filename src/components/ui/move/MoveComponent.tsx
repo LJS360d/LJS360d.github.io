@@ -1,6 +1,7 @@
 import {
   EffectsEnum,
   MoveTarget,
+  getEffectStr,
   type MoveInfo,
 } from '../../../models/types/move.info';
 import { toCapitalized } from '../../../utils/formatting.utils';
@@ -108,11 +109,11 @@ function MoveComponent({ move }: MoveComponentProps) {
           <span>Effect</span>
           {move.old && move.effect !== move.old.effect ? (
             <>
-              <span className='new w-fit'>{move.effect}</span>
-              <span className='old w-fit'>{move.old.effect}</span>
+              <span className='new w-fit'>{getEffectStr(move.effect)}</span>
+              <span className='old w-fit'>{getEffectStr(move.old.effect)}</span>
             </>
           ) : (
-            <span className='w-fit'>{move.effect}</span>
+            <span className='w-fit'>{getEffectStr(move.effect)}</span>
           )}
         </div>
       )}
@@ -124,13 +125,15 @@ function MoveComponent({ move }: MoveComponentProps) {
             move.old.additionalEffects?.moveEffect !==
               move.additionalEffects.moveEffect ? (
               <>
-                <span className='new'>{move.additionalEffects.moveEffect}</span>
+                <span className='new'>
+                  {getEffectStr(move.additionalEffects.moveEffect)}
+                </span>
                 <span className='old'>
-                  {move.old.additionalEffects?.moveEffect}
+                  {getEffectStr(move.old.additionalEffects?.moveEffect)}
                 </span>
               </>
             ) : (
-              <span>{move.additionalEffects.moveEffect}</span>
+              <span>{getEffectStr(move.additionalEffects.moveEffect)}</span>
             )}
           </div>
           <div className='flex flex-col items-start'>

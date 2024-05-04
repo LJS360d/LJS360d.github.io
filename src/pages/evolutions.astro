@@ -1,9 +1,9 @@
 ---
-import type { EvolutionData } from "../models/types/evolution.data";
-import evolutionsDiff from "../data/evolutions_diff.json";
+import evolutions from "../data/evolutions.json";
 import Layout from "../layouts/Layout.astro";
 import EvolutionComponent from "../components/ui/evolution/EvolutionComponent";
-const evolutionsData = evolutionsDiff as EvolutionData[];
+import type { EvolutionInfo } from "../models/types/evolution.info";
+const evolutionsData = evolutions as EvolutionInfo[];
 ---
 
 <Layout title="Evolutions">

@@ -57,9 +57,19 @@ export enum MoveTarget {
   RANDOM = 'RANDOM',
 }
 
+export function getEffectStr(str?: string) {
+  return (
+    EffectsEnum[
+      str
+        ?.replace('EFFECT_', '')
+        .replace('MOVE_', '') as keyof typeof EffectsEnum
+    ] ?? str
+  );
+}
+
 export enum EffectsEnum {
   MULTI_HIT = 'Hits the target 2-5 times',
-  PAY_DAY = 'Scatters coins on the ground',
+  PAYDAY = 'Scatters coins on the ground',
   HIT = 'None',
   ATTACK_UP_HIT = 'May Increase the ATK of the user',
   RAMPAGE = 'Confuses the user after 2-3 turns',
@@ -80,14 +90,20 @@ export enum EffectsEnum {
   DEFENSE_DOWN_HIT = 'May decrease the DEF of the target',
   FUTURE_SIGHT = 'Deals damage 2 turns after use',
   FAKE_OUT = 'Flinches the target',
+  FLINCH = 'May flinch the target',
   KNOCK_OFF = "Removes the target's item,\npower increases by 50%",
-  BURN_HIT = 'May burn the target',
+  BURN = 'May burn the target',
+  TOXIC = 'Badly poisons the target',
+  PARALYSIS = 'May paralyze the target',
+  FREEZE_OR_FROSTBITE = 'May freeze the target',
   PSYSHOCK = "Inflicts damage on the target's DEF instead of SPDEF",
   RECOIL_50 = 'Damages the user for 50% of the damage dealt',
   RECHARGE = 'After use the user takes 1 turn to recharge',
   OVERHEAT = "Greatly decreases the user's SPATK",
   INCINERATE = "Destroys the target's held berry",
   SPECIAL_ATTACK_DOWN_HIT = "May decrease the target's SPATK",
+  ACCURACY_DOWN = "Decreases the target's accuracy",
+  OHKO = 'Defeats the target in ONE HIT',
   ALWAYS_CRIT = 'Always results in a critical hit',
   RELIC_SONG = "May put the target asleep, Changes Meloetta's form",
   ATTACK_DOWN_HIT = "May decrease the target's ATK",

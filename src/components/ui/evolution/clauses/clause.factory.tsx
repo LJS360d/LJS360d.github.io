@@ -9,9 +9,11 @@ import MoveClause from './clause.move';
 import TypeClause from './clause.type';
 
 export default function ClauseFactory({ clause }: ClauseProps) {
-  if (isLevel(clause)) return clause;
+  if (isLevel(clause)) {
+    return <span className='font-semibold text-sm'>{clause}</span>;
+  }
   if (isItem(clause)) {
-    return <ItemClause item={clause} />;
+    return <ItemClause item={clause.replace('ITEM_', '')} />;
   }
   if (isMove(clause)) return <MoveClause move={clause} />;
   if (isType(clause)) return <TypeClause type={clause} />;
@@ -24,7 +26,7 @@ function isLevel(str: string) {
 }
 
 function isItem(str: string) {
-  return itemsDiff.some((item) => item.name.includes(str));
+  return itemsDiff.some((item) => item.name.includes(str.replace('ITEM_', '')));
 }
 
 function isMove(str: string) {

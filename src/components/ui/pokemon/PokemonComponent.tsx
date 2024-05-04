@@ -23,7 +23,7 @@ function PokemonComponent({ pokemon, learnset }: PokemonComponentProps) {
       className='cursor-default bg-base-200 rounded-lg flex flex-row justify-start flex-1'>
       {/* left */}
       <div className='cursor-default flex flex-row flex-1'>
-        <PokemonSprite pokemon={pokemon} />
+        <PokemonSprite pokemon={pokemon.species} />
         <StatBar pokemon={pokemon} />
         <div className='flex gap-4'>
           <AbilitiesBar pokemon={pokemon} />

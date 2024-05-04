@@ -18,7 +18,7 @@ export default function ItemClause({ item }: ItemClauseProps) {
       src={getItemIconUrl(item)}
       alt={item}
       title={toCapitalized(item)}
-      className='h-8 aspect-square'
+      className='w-6 aspect-square'
     />
   );
 }

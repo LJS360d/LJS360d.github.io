@@ -47,6 +47,22 @@ const LowKey = () => (
     <span className='text-blue-300 font-semibold hover:underline'>Low-Key</span>
   </div>
 );
+const RareCandy = () => (
+  <img
+    title='By level'
+    className='w-6 aspect-square'
+    alt='Level'
+    src='assets/items/rare_candy.png'
+  />
+);
+const PokeBall = () => (
+  <img
+    title='Pokè Ball'
+    className='w-6 aspect-square'
+    alt='Level'
+    src='assets/items/poke_ball.png'
+  />
+);
 export const Effects: Record<string, string> = {
   EFFECT_HIT: 'None',
   EFFECT_OVERHEAT: 'Decreases SPATK by 2 stages',
@@ -143,10 +159,30 @@ const weatherMethods = {
   ),
 };
 const monSpecificMethods = {
-  LEVEL_SILCOON: '50% chance at level',
-  LEVEL_CASCOON: '50% chance at level',
+  LEVEL_SILCOON: (
+    <div className='flex flex-col items-center'>
+      <RareCandy />
+      <span className='italic text-xs'>by personality</span>
+    </div>
+  ),
+  LEVEL_CASCOON: (
+    <div className='flex flex-col items-center'>
+      <RareCandy />
+      <span className='italic text-xs'>by personality</span>
+    </div>
+  ),
   LEVEL_NINJASK: 'Level',
-  LEVEL_SHEDINJA: 'With an empty slot in the party at level',
+  LEVEL_SHEDINJA: (
+    <div className='flex flex-col items-center'>
+      <RareCandy />
+      <div className='italic text-xs'>
+        <span>with an empty slot in the party</span>
+        <span className='flex justify-center items-center'>
+          and at least 1 <PokeBall /> in the bag
+        </span>
+      </div>
+    </div>
+  ),
   FRIENDSHIP_MOVE_TYPE: 'At high friendship while knowing a',
   SPECIFIC_MON_IN_PARTY: 'Level up while having in party',
   TRADE_SPECIFIC_MON: 'Trade with',
@@ -169,7 +205,7 @@ const monSpecificMethods = {
   ),
 };
 export const EvolutionMethods: Record<string, string | JSX.Element> = {
-  LEVEL: 'Level ',
+  LEVEL: <RareCandy />,
   TRADE: 'Trade',
   ITEM: 'Use',
   HOLD: 'Level up while holding',

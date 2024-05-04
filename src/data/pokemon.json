@@ -115861,9 +115861,7 @@
       "growthRate": "GROWTH_SLOW",
       "height": 22,
       "weight": 3200,
-      "flags": [
-        "PARADOX"
-      ]
+      "flags": []
     }
   },
   {
@@ -115959,9 +115957,7 @@
       "growthRate": "GROWTH_SLOW",
       "height": 12,
       "weight": 80,
-      "flags": [
-        "PARADOX"
-      ]
+      "flags": []
     }
   },
   {
@@ -116057,9 +116053,7 @@
       "growthRate": "GROWTH_SLOW",
       "height": 12,
       "weight": 210,
-      "flags": [
-        "PARADOX"
-      ]
+      "flags": []
     }
   },
   {
@@ -116155,9 +116149,7 @@
       "growthRate": "GROWTH_SLOW",
       "height": 14,
       "weight": 40,
-      "flags": [
-        "PARADOX"
-      ]
+      "flags": []
     }
   },
   {
@@ -116253,9 +116245,7 @@
       "growthRate": "GROWTH_SLOW",
       "height": 32,
       "weight": 920,
-      "flags": [
-        "PARADOX"
-      ]
+      "flags": []
     }
   },
   {
@@ -116351,9 +116341,7 @@
       "growthRate": "GROWTH_SLOW",
       "height": 23,
       "weight": 600,
-      "flags": [
-        "PARADOX"
-      ]
+      "flags": []
     }
   },
   {
@@ -116449,9 +116437,7 @@
       "growthRate": "GROWTH_SLOW",
       "height": 9,
       "weight": 2400,
-      "flags": [
-        "PARADOX"
-      ]
+      "flags": []
     }
   },
   {
@@ -116547,9 +116533,7 @@
       "growthRate": "GROWTH_SLOW",
       "height": 6,
       "weight": 110,
-      "flags": [
-        "PARADOX"
-      ]
+      "flags": []
     }
   },
   {
@@ -116645,9 +116629,7 @@
       "growthRate": "GROWTH_SLOW",
       "height": 18,
       "weight": 3807,
-      "flags": [
-        "PARADOX"
-      ]
+      "flags": []
     }
   },
   {
@@ -116743,9 +116725,7 @@
       "growthRate": "GROWTH_SLOW",
       "height": 13,
       "weight": 1110,
-      "flags": [
-        "PARADOX"
-      ]
+      "flags": []
     }
   },
   {
@@ -116841,9 +116821,7 @@
       "growthRate": "GROWTH_SLOW",
       "height": 12,
       "weight": 360,
-      "flags": [
-        "PARADOX"
-      ]
+      "flags": []
     }
   },
   {
@@ -116939,9 +116917,7 @@
       "growthRate": "GROWTH_SLOW",
       "height": 16,
       "weight": 3030,
-      "flags": [
-        "PARADOX"
-      ]
+      "flags": []
     }
   },
   {
@@ -117998,9 +117974,7 @@
       "growthRate": "GROWTH_SLOW",
       "height": 20,
       "weight": 3800,
-      "flags": [
-        "PARADOX"
-      ]
+      "flags": []
     }
   },
   {
@@ -118096,9 +118070,7 @@
       "growthRate": "GROWTH_SLOW",
       "height": 14,
       "weight": 350,
-      "flags": [
-        "PARADOX"
-      ]
+      "flags": []
     }
   },
   {
@@ -118147,8 +118119,7 @@
     "height": 25,
     "weight": 3030,
     "flags": [
-      "LEGENDARY",
-      "PARADOX"
+      "LEGENDARY"
     ],
     "old": {
       "species": "KORAIDON",
@@ -118196,8 +118167,7 @@
       "height": 25,
       "weight": 3030,
       "flags": [
-        "LEGENDARY",
-        "PARADOX"
+        "LEGENDARY"
       ]
     }
   },
@@ -118247,8 +118217,7 @@
     "height": 35,
     "weight": 2400,
     "flags": [
-      "LEGENDARY",
-      "PARADOX"
+      "LEGENDARY"
     ],
     "old": {
       "species": "MIRAIDON",
@@ -118296,8 +118265,7 @@
       "height": 35,
       "weight": 2400,
       "flags": [
-        "LEGENDARY",
-        "PARADOX"
+        "LEGENDARY"
       ]
     }
   },
@@ -118394,9 +118362,7 @@
       "growthRate": "GROWTH_SLOW",
       "height": 35,
       "weight": 2800,
-      "flags": [
-        "PARADOX"
-      ]
+      "flags": []
     }
   },
   {
@@ -118492,9 +118458,7 @@
       "growthRate": "GROWTH_SLOW",
       "height": 15,
       "weight": 1250,
-      "flags": [
-        "PARADOX"
-      ]
+      "flags": []
     }
   },
   {
@@ -119601,9 +119565,7 @@
       "growthRate": "GROWTH_SLOW",
       "height": 35,
       "weight": 5900,
-      "flags": [
-        "PARADOX"
-      ]
+      "flags": []
     }
   },
   {
@@ -119699,9 +119661,7 @@
       "growthRate": "GROWTH_SLOW",
       "height": 52,
       "weight": 4800,
-      "flags": [
-        "PARADOX"
-      ]
+      "flags": []
     }
   },
   {
@@ -119797,9 +119757,7 @@
       "growthRate": "GROWTH_SLOW",
       "height": 15,
       "weight": 1625,
-      "flags": [
-        "PARADOX"
-      ]
+      "flags": []
     }
   },
   {
@@ -119895,9 +119853,7 @@
       "growthRate": "GROWTH_SLOW",
       "height": 16,
       "weight": 1560,
-      "flags": [
-        "PARADOX"
-      ]
+      "flags": []
     }
   },
   {

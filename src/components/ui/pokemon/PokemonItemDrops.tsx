@@ -5,7 +5,11 @@ interface ItemBarProps {
 }
 
 function PokemonItemDrops({ pokemon }: ItemBarProps) {
-  return <></>;
+  return (
+    <>
+      TODO: {pokemon.itemCommon} {pokemon.itemRare}
+    </>
+  );
 }
 
 export default PokemonItemDrops;
