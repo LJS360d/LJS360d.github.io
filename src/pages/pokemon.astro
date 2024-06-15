@@ -10,14 +10,22 @@ const learnsetsData = learnsetsDiff as LearnsetData[];
 function getLearnset(pokemon: string) {
   return learnsetsData.find((ls) => ls.pokemon === pokemon);
 }
+const onlyModified =
+  new URL(Astro.request.url).searchParams.get("diffOnly") === "true";
+
+function isModified(mon: PokemonInfo) {
+  return JSON.stringify(mon.old) !== JSON.stringify({ ...mon, old: undefined });
+}
 ---
 
 <Layout title="Pokèmon">
   <ul id="pokemon-list" class="list-base">
     {
-      monsData.map((mon) => (
-        <PokemonComponent pokemon={mon} learnset={getLearnset(mon.species)} />
-      ))
+      monsData
+        .filter((mon) => !onlyModified && isModified(mon))
+        .map((mon) => (
+          <PokemonComponent pokemon={mon} learnset={getLearnset(mon.species)} />
+        ))
     }
   </ul>
 </Layout>
