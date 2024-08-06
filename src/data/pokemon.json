@@ -1537,8 +1537,7 @@
     ],
     "natDexNum": 16,
     "abilities": [
-      "KEEN_EYE",
-      "TANGLED_FEET"
+      "KEEN_EYE"
     ],
     "bodyColor": "BODY_COLOR_BROWN",
     "catchRate": 255,
@@ -1584,8 +1583,7 @@
       ],
       "natDexNum": 16,
       "abilities": [
-        "KEEN_EYE",
-        "TANGLED_FEET"
+        "KEEN_EYE"
       ],
       "bodyColor": "BODY_COLOR_BROWN",
       "catchRate": 255,
@@ -1632,8 +1630,7 @@
     ],
     "natDexNum": 17,
     "abilities": [
-      "KEEN_EYE",
-      "TANGLED_FEET"
+      "KEEN_EYE"
     ],
     "bodyColor": "BODY_COLOR_BROWN",
     "catchRate": 120,
@@ -1679,8 +1676,7 @@
       ],
       "natDexNum": 17,
       "abilities": [
-        "KEEN_EYE",
-        "TANGLED_FEET"
+        "KEEN_EYE"
       ],
       "bodyColor": "BODY_COLOR_BROWN",
       "catchRate": 120,
@@ -1779,8 +1775,7 @@
       ],
       "natDexNum": 18,
       "abilities": [
-        "KEEN_EYE",
-        "TANGLED_FEET"
+        "KEEN_EYE"
       ],
       "bodyColor": "BODY_COLOR_BROWN",
       "catchRate": 45,
@@ -3535,8 +3530,7 @@
       ],
       "natDexNum": 29,
       "abilities": [
-        "POISON_POINT",
-        "RIVALRY"
+        "POISON_POINT"
       ],
       "bodyColor": "BODY_COLOR_BLUE",
       "catchRate": 235,
@@ -3630,8 +3624,7 @@
       ],
       "natDexNum": 30,
       "abilities": [
-        "POISON_POINT",
-        "RIVALRY"
+        "POISON_POINT"
       ],
       "bodyColor": "BODY_COLOR_BLUE",
       "catchRate": 120,
@@ -3726,8 +3719,7 @@
       ],
       "natDexNum": 31,
       "abilities": [
-        "POISON_POINT",
-        "RIVALRY"
+        "POISON_POINT"
       ],
       "bodyColor": "BODY_COLOR_BLUE",
       "catchRate": 45,
@@ -3774,8 +3766,7 @@
     ],
     "natDexNum": 32,
     "abilities": [
-      "POISON_POINT",
-      "RIVALRY"
+      "POISON_POINT"
     ],
     "bodyColor": "BODY_COLOR_PURPLE",
     "catchRate": 235,
@@ -3821,8 +3812,7 @@
       ],
       "natDexNum": 32,
       "abilities": [
-        "POISON_POINT",
-        "RIVALRY"
+        "POISON_POINT"
       ],
       "bodyColor": "BODY_COLOR_PURPLE",
       "catchRate": 235,
@@ -3917,8 +3907,7 @@
       ],
       "natDexNum": 33,
       "abilities": [
-        "POISON_POINT",
-        "RIVALRY"
+        "POISON_POINT"
       ],
       "bodyColor": "BODY_COLOR_PURPLE",
       "catchRate": 120,
@@ -4015,8 +4004,7 @@
       ],
       "natDexNum": 34,
       "abilities": [
-        "POISON_POINT",
-        "RIVALRY"
+        "POISON_POINT"
       ],
       "bodyColor": "BODY_COLOR_PURPLE",
       "catchRate": 45,
@@ -4064,8 +4052,7 @@
     ],
     "natDexNum": 173,
     "abilities": [
-      "CUTE_CHARM",
-      "MAGIC_GUARD"
+      "CUTE_CHARM"
     ],
     "bodyColor": "BODY_COLOR_PINK",
     "catchRate": 150,
@@ -4111,8 +4098,7 @@
       ],
       "natDexNum": 173,
       "abilities": [
-        "CUTE_CHARM",
-        "MAGIC_GUARD"
+        "CUTE_CHARM"
       ],
       "bodyColor": "BODY_COLOR_PINK",
       "catchRate": 150,
@@ -4160,8 +4146,7 @@
     ],
     "natDexNum": 35,
     "abilities": [
-      "CUTE_CHARM",
-      "MAGIC_GUARD"
+      "CUTE_CHARM"
     ],
     "bodyColor": "BODY_COLOR_PINK",
     "catchRate": 150,
@@ -4207,8 +4192,7 @@
       ],
       "natDexNum": 35,
       "abilities": [
-        "CUTE_CHARM",
-        "MAGIC_GUARD"
+        "CUTE_CHARM"
       ],
       "bodyColor": "BODY_COLOR_PINK",
       "catchRate": 150,
@@ -4256,8 +4240,7 @@
     ],
     "natDexNum": 36,
     "abilities": [
-      "CUTE_CHARM",
-      "MAGIC_GUARD"
+      "CUTE_CHARM"
     ],
     "bodyColor": "BODY_COLOR_PINK",
     "catchRate": 25,
@@ -4303,8 +4286,7 @@
       ],
       "natDexNum": 36,
       "abilities": [
-        "CUTE_CHARM",
-        "MAGIC_GUARD"
+        "CUTE_CHARM"
       ],
       "bodyColor": "BODY_COLOR_PINK",
       "catchRate": 25,
@@ -4741,8 +4723,7 @@
     ],
     "natDexNum": 174,
     "abilities": [
-      "CUTE_CHARM",
-      "COMPETITIVE"
+      "CUTE_CHARM"
     ],
     "bodyColor": "BODY_COLOR_PINK",
     "catchRate": 170,
@@ -4787,8 +4768,7 @@
       ],
       "natDexNum": 174,
       "abilities": [
-        "CUTE_CHARM",
-        "COMPETITIVE"
+        "CUTE_CHARM"
       ],
       "bodyColor": "BODY_COLOR_PINK",
       "catchRate": 170,
@@ -4883,8 +4863,7 @@
       ],
       "natDexNum": 39,
       "abilities": [
-        "CUTE_CHARM",
-        "COMPETITIVE"
+        "CUTE_CHARM"
       ],
       "bodyColor": "BODY_COLOR_PINK",
       "catchRate": 170,
@@ -4980,8 +4959,7 @@
       ],
       "natDexNum": 40,
       "abilities": [
-        "CUTE_CHARM",
-        "COMPETITIVE"
+        "CUTE_CHARM"
       ],
       "bodyColor": "BODY_COLOR_PINK",
       "catchRate": 50,
@@ -5750,8 +5728,7 @@
       ],
       "natDexNum": 46,
       "abilities": [
-        "EFFECT_SPORE",
-        "DRY_SKIN"
+        "EFFECT_SPORE"
       ],
       "bodyColor": "BODY_COLOR_RED",
       "catchRate": 190,
@@ -5852,8 +5829,7 @@
       ],
       "natDexNum": 47,
       "abilities": [
-        "EFFECT_SPORE",
-        "DRY_SKIN"
+        "EFFECT_SPORE"
       ],
       "bodyColor": "BODY_COLOR_RED",
       "catchRate": 75,
@@ -5904,8 +5880,7 @@
     ],
     "natDexNum": 48,
     "abilities": [
-      "COMPOUND_EYES",
-      "TINTED_LENS"
+      "COMPOUND_EYES"
     ],
     "bodyColor": "BODY_COLOR_PURPLE",
     "catchRate": 190,
@@ -5951,8 +5926,7 @@
       ],
       "natDexNum": 48,
       "abilities": [
-        "COMPOUND_EYES",
-        "TINTED_LENS"
+        "COMPOUND_EYES"
       ],
       "bodyColor": "BODY_COLOR_PURPLE",
       "catchRate": 190,
@@ -6000,8 +5974,7 @@
     ],
     "natDexNum": 49,
     "abilities": [
-      "SHIELD_DUST",
-      "TINTED_LENS"
+      "SHIELD_DUST"
     ],
     "bodyColor": "BODY_COLOR_PURPLE",
     "catchRate": 75,
@@ -6048,8 +6021,7 @@
       ],
       "natDexNum": 49,
       "abilities": [
-        "SHIELD_DUST",
-        "TINTED_LENS"
+        "SHIELD_DUST"
       ],
       "bodyColor": "BODY_COLOR_PURPLE",
       "catchRate": 75,
@@ -6545,8 +6517,7 @@
       ],
       "natDexNum": 52,
       "abilities": [
-        "PICKUP",
-        "TECHNICIAN"
+        "PICKUP"
       ],
       "bodyColor": "BODY_COLOR_YELLOW",
       "catchRate": 255,
@@ -6646,8 +6617,7 @@
       ],
       "natDexNum": 53,
       "abilities": [
-        "LIMBER",
-        "TECHNICIAN"
+        "LIMBER"
       ],
       "bodyColor": "BODY_COLOR_YELLOW",
       "catchRate": 90,
@@ -7327,8 +7297,7 @@
       ],
       "natDexNum": 56,
       "abilities": [
-        "VITAL_SPIRIT",
-        "ANGER_POINT"
+        "VITAL_SPIRIT"
       ],
       "bodyColor": "BODY_COLOR_BROWN",
       "catchRate": 190,
@@ -7421,8 +7390,7 @@
       ],
       "natDexNum": 57,
       "abilities": [
-        "VITAL_SPIRIT",
-        "ANGER_POINT"
+        "VITAL_SPIRIT"
       ],
       "bodyColor": "BODY_COLOR_BROWN",
       "catchRate": 75,
@@ -8637,8 +8605,7 @@
     ],
     "natDexNum": 66,
     "abilities": [
-      "GUTS",
-      "NO_GUARD"
+      "GUTS"
     ],
     "bodyColor": "BODY_COLOR_GRAY",
     "catchRate": 180,
@@ -8684,8 +8651,7 @@
       ],
       "natDexNum": 66,
       "abilities": [
-        "GUTS",
-        "NO_GUARD"
+        "GUTS"
       ],
       "bodyColor": "BODY_COLOR_GRAY",
       "catchRate": 180,
@@ -8733,8 +8699,7 @@
     ],
     "natDexNum": 67,
     "abilities": [
-      "GUTS",
-      "NO_GUARD"
+      "GUTS"
     ],
     "bodyColor": "BODY_COLOR_GRAY",
     "catchRate": 90,
@@ -8780,8 +8745,7 @@
       ],
       "natDexNum": 67,
       "abilities": [
-        "GUTS",
-        "NO_GUARD"
+        "GUTS"
       ],
       "bodyColor": "BODY_COLOR_GRAY",
       "catchRate": 90,
@@ -8829,8 +8793,7 @@
     ],
     "natDexNum": 68,
     "abilities": [
-      "GUTS",
-      "NO_GUARD"
+      "GUTS"
     ],
     "bodyColor": "BODY_COLOR_GRAY",
     "catchRate": 45,
@@ -8881,8 +8844,7 @@
       ],
       "natDexNum": 68,
       "abilities": [
-        "GUTS",
-        "NO_GUARD"
+        "GUTS"
       ],
       "bodyColor": "BODY_COLOR_GRAY",
       "catchRate": 45,
@@ -11855,8 +11817,7 @@
       ],
       "natDexNum": 86,
       "abilities": [
-        "THICK_FAT",
-        "HYDRATION"
+        "THICK_FAT"
       ],
       "bodyColor": "BODY_COLOR_WHITE",
       "catchRate": 190,
@@ -11953,8 +11914,7 @@
       ],
       "natDexNum": 87,
       "abilities": [
-        "THICK_FAT",
-        "HYDRATION"
+        "THICK_FAT"
       ],
       "bodyColor": "BODY_COLOR_WHITE",
       "catchRate": 75,
@@ -12398,8 +12358,7 @@
     ],
     "natDexNum": 90,
     "abilities": [
-      "SHELL_ARMOR",
-      "SKILL_LINK"
+      "SHELL_ARMOR"
     ],
     "bodyColor": "BODY_COLOR_PURPLE",
     "catchRate": 190,
@@ -12446,8 +12405,7 @@
       ],
       "natDexNum": 90,
       "abilities": [
-        "SHELL_ARMOR",
-        "SKILL_LINK"
+        "SHELL_ARMOR"
       ],
       "bodyColor": "BODY_COLOR_PURPLE",
       "catchRate": 190,
@@ -12497,8 +12455,7 @@
     ],
     "natDexNum": 91,
     "abilities": [
-      "SHELL_ARMOR",
-      "SKILL_LINK"
+      "SHELL_ARMOR"
     ],
     "bodyColor": "BODY_COLOR_PURPLE",
     "catchRate": 60,
@@ -12546,8 +12503,7 @@
       ],
       "natDexNum": 91,
       "abilities": [
-        "SHELL_ARMOR",
-        "SKILL_LINK"
+        "SHELL_ARMOR"
       ],
       "bodyColor": "BODY_COLOR_PURPLE",
       "catchRate": 60,
@@ -13150,8 +13106,7 @@
       ],
       "natDexNum": 96,
       "abilities": [
-        "INSOMNIA",
-        "FOREWARN"
+        "INSOMNIA"
       ],
       "bodyColor": "BODY_COLOR_YELLOW",
       "catchRate": 190,
@@ -13244,8 +13199,7 @@
       ],
       "natDexNum": 97,
       "abilities": [
-        "INSOMNIA",
-        "FOREWARN"
+        "INSOMNIA"
       ],
       "bodyColor": "BODY_COLOR_YELLOW",
       "catchRate": 75,
@@ -14464,8 +14418,7 @@
     ],
     "natDexNum": 236,
     "abilities": [
-      "GUTS",
-      "STEADFAST"
+      "GUTS"
     ],
     "bodyColor": "BODY_COLOR_PURPLE",
     "catchRate": 75,
@@ -14510,8 +14463,7 @@
       ],
       "natDexNum": 236,
       "abilities": [
-        "GUTS",
-        "STEADFAST"
+        "GUTS"
       ],
       "bodyColor": "BODY_COLOR_PURPLE",
       "catchRate": 75,
@@ -14604,8 +14556,7 @@
       ],
       "natDexNum": 106,
       "abilities": [
-        "LIMBER",
-        "RECKLESS"
+        "LIMBER"
       ],
       "bodyColor": "BODY_COLOR_BROWN",
       "catchRate": 45,
@@ -14652,8 +14603,7 @@
     ],
     "natDexNum": 107,
     "abilities": [
-      "KEEN_EYE",
-      "IRON_FIST"
+      "KEEN_EYE"
     ],
     "bodyColor": "BODY_COLOR_BROWN",
     "catchRate": 45,
@@ -14698,8 +14648,7 @@
       ],
       "natDexNum": 107,
       "abilities": [
-        "KEEN_EYE",
-        "IRON_FIST"
+        "KEEN_EYE"
       ],
       "bodyColor": "BODY_COLOR_BROWN",
       "catchRate": 45,
@@ -14746,8 +14695,7 @@
     ],
     "natDexNum": 237,
     "abilities": [
-      "INTIMIDATE",
-      "TECHNICIAN"
+      "INTIMIDATE"
     ],
     "bodyColor": "BODY_COLOR_BROWN",
     "catchRate": 45,
@@ -14792,8 +14740,7 @@
       ],
       "natDexNum": 237,
       "abilities": [
-        "INTIMIDATE",
-        "TECHNICIAN"
+        "INTIMIDATE"
       ],
       "bodyColor": "BODY_COLOR_BROWN",
       "catchRate": 45,
@@ -15952,8 +15899,7 @@
       ],
       "natDexNum": 114,
       "abilities": [
-        "CHLOROPHYLL",
-        "LEAF_GUARD"
+        "CHLOROPHYLL"
       ],
       "bodyColor": "BODY_COLOR_BLUE",
       "catchRate": 45,
@@ -16200,8 +16146,7 @@
     ],
     "natDexNum": 116,
     "abilities": [
-      "SWIFT_SWIM",
-      "SNIPER"
+      "SWIFT_SWIM"
     ],
     "bodyColor": "BODY_COLOR_BLUE",
     "catchRate": 225,
@@ -16248,8 +16193,7 @@
       ],
       "natDexNum": 116,
       "abilities": [
-        "SWIFT_SWIM",
-        "SNIPER"
+        "SWIFT_SWIM"
       ],
       "bodyColor": "BODY_COLOR_BLUE",
       "catchRate": 225,
@@ -16298,8 +16242,7 @@
     ],
     "natDexNum": 117,
     "abilities": [
-      "POISON_POINT",
-      "SNIPER"
+      "POISON_POINT"
     ],
     "bodyColor": "BODY_COLOR_BLUE",
     "catchRate": 75,
@@ -16346,8 +16289,7 @@
       ],
       "natDexNum": 117,
       "abilities": [
-        "POISON_POINT",
-        "SNIPER"
+        "POISON_POINT"
       ],
       "bodyColor": "BODY_COLOR_BLUE",
       "catchRate": 75,
@@ -16397,8 +16339,7 @@
     ],
     "natDexNum": 230,
     "abilities": [
-      "SWIFT_SWIM",
-      "SNIPER"
+      "SWIFT_SWIM"
     ],
     "bodyColor": "BODY_COLOR_BLUE",
     "catchRate": 45,
@@ -16446,8 +16387,7 @@
       ],
       "natDexNum": 230,
       "abilities": [
-        "SWIFT_SWIM",
-        "SNIPER"
+        "SWIFT_SWIM"
       ],
       "bodyColor": "BODY_COLOR_BLUE",
       "catchRate": 45,
@@ -16888,8 +16828,7 @@
     ],
     "natDexNum": 439,
     "abilities": [
-      "SOUNDPROOF",
-      "FILTER"
+      "SOUNDPROOF"
     ],
     "bodyColor": "BODY_COLOR_PINK",
     "catchRate": 145,
@@ -16934,8 +16873,7 @@
       ],
       "natDexNum": 439,
       "abilities": [
-        "SOUNDPROOF",
-        "FILTER"
+        "SOUNDPROOF"
       ],
       "bodyColor": "BODY_COLOR_PINK",
       "catchRate": 145,
@@ -16978,8 +16916,7 @@
     "bst": 460,
     "generation": 1,
     "types": [
-      "PSYCHIC",
-      "FAIRY"
+      "PSYCHIC"
     ],
     "natDexNum": 122,
     "abilities": [
@@ -17274,8 +17211,7 @@
     ],
     "natDexNum": 123,
     "abilities": [
-      "SWARM",
-      "TECHNICIAN"
+      "SWARM"
     ],
     "bodyColor": "BODY_COLOR_GREEN",
     "catchRate": 45,
@@ -17321,8 +17257,7 @@
       ],
       "natDexNum": 123,
       "abilities": [
-        "SWARM",
-        "TECHNICIAN"
+        "SWARM"
       ],
       "bodyColor": "BODY_COLOR_GREEN",
       "catchRate": 45,
@@ -17370,8 +17305,7 @@
     ],
     "natDexNum": 212,
     "abilities": [
-      "SWARM",
-      "TECHNICIAN"
+      "SWARM"
     ],
     "bodyColor": "BODY_COLOR_RED",
     "catchRate": 25,
@@ -17423,8 +17357,7 @@
       ],
       "natDexNum": 212,
       "abilities": [
-        "SWARM",
-        "TECHNICIAN"
+        "SWARM"
       ],
       "bodyColor": "BODY_COLOR_RED",
       "catchRate": 25,
@@ -17574,8 +17507,7 @@
     ],
     "natDexNum": 238,
     "abilities": [
-      "OBLIVIOUS",
-      "FOREWARN"
+      "OBLIVIOUS"
     ],
     "bodyColor": "BODY_COLOR_PINK",
     "catchRate": 45,
@@ -17621,8 +17553,7 @@
       ],
       "natDexNum": 238,
       "abilities": [
-        "OBLIVIOUS",
-        "FOREWARN"
+        "OBLIVIOUS"
       ],
       "bodyColor": "BODY_COLOR_PINK",
       "catchRate": 45,
@@ -17717,8 +17648,7 @@
       ],
       "natDexNum": 124,
       "abilities": [
-        "OBLIVIOUS",
-        "FOREWARN"
+        "OBLIVIOUS"
       ],
       "bodyColor": "BODY_COLOR_RED",
       "catchRate": 45,
@@ -18389,8 +18319,7 @@
       ],
       "natDexNum": 127,
       "abilities": [
-        "HYPER_CUTTER",
-        "MOLD_BREAKER"
+        "HYPER_CUTTER"
       ],
       "bodyColor": "BODY_COLOR_BROWN",
       "catchRate": 45,
@@ -18490,8 +18419,7 @@
       ],
       "natDexNum": 128,
       "abilities": [
-        "INTIMIDATE",
-        "ANGER_POINT"
+        "INTIMIDATE"
       ],
       "bodyColor": "BODY_COLOR_BROWN",
       "catchRate": 45,
@@ -19247,8 +19175,7 @@
     ],
     "natDexNum": 133,
     "abilities": [
-      "RUN_AWAY",
-      "ADAPTABILITY"
+      "RUN_AWAY"
     ],
     "bodyColor": "BODY_COLOR_BROWN",
     "catchRate": 45,
@@ -19298,8 +19225,7 @@
       ],
       "natDexNum": 133,
       "abilities": [
-        "RUN_AWAY",
-        "ADAPTABILITY"
+        "RUN_AWAY"
       ],
       "bodyColor": "BODY_COLOR_BROWN",
       "catchRate": 45,
@@ -20092,8 +20018,7 @@
     ],
     "natDexNum": 137,
     "abilities": [
-      "TRACE",
-      "DOWNLOAD"
+      "TRACE"
     ],
     "bodyColor": "BODY_COLOR_PINK",
     "catchRate": 45,
@@ -20138,8 +20063,7 @@
       ],
       "natDexNum": 137,
       "abilities": [
-        "TRACE",
-        "DOWNLOAD"
+        "TRACE"
       ],
       "bodyColor": "BODY_COLOR_PINK",
       "catchRate": 45,
@@ -20186,8 +20110,7 @@
     ],
     "natDexNum": 233,
     "abilities": [
-      "TRACE",
-      "DOWNLOAD"
+      "TRACE"
     ],
     "bodyColor": "BODY_COLOR_RED",
     "catchRate": 45,
@@ -20232,8 +20155,7 @@
       ],
       "natDexNum": 233,
       "abilities": [
-        "TRACE",
-        "DOWNLOAD"
+        "TRACE"
       ],
       "bodyColor": "BODY_COLOR_RED",
       "catchRate": 45,
@@ -20753,9 +20675,9 @@
     "species": "AERODACTYL",
     "stats": [
       80,
-      105,
+      110,
       65,
-      60,
+      55,
       75,
       130
     ],
@@ -25354,8 +25276,7 @@
     ],
     "natDexNum": 187,
     "abilities": [
-      "CHLOROPHYLL",
-      "LEAF_GUARD"
+      "CHLOROPHYLL"
     ],
     "bodyColor": "BODY_COLOR_PINK",
     "catchRate": 255,
@@ -25402,8 +25323,7 @@
       ],
       "natDexNum": 187,
       "abilities": [
-        "CHLOROPHYLL",
-        "LEAF_GUARD"
+        "CHLOROPHYLL"
       ],
       "bodyColor": "BODY_COLOR_PINK",
       "catchRate": 255,
@@ -25452,8 +25372,7 @@
     ],
     "natDexNum": 188,
     "abilities": [
-      "CHLOROPHYLL",
-      "LEAF_GUARD"
+      "CHLOROPHYLL"
     ],
     "bodyColor": "BODY_COLOR_GREEN",
     "catchRate": 120,
@@ -25500,8 +25419,7 @@
       ],
       "natDexNum": 188,
       "abilities": [
-        "CHLOROPHYLL",
-        "LEAF_GUARD"
+        "CHLOROPHYLL"
       ],
       "bodyColor": "BODY_COLOR_GREEN",
       "catchRate": 120,
@@ -25598,8 +25516,7 @@
       ],
       "natDexNum": 189,
       "abilities": [
-        "CHLOROPHYLL",
-        "LEAF_GUARD"
+        "CHLOROPHYLL"
       ],
       "bodyColor": "BODY_COLOR_BLUE",
       "catchRate": 45,
@@ -25835,8 +25752,7 @@
     ],
     "natDexNum": 191,
     "abilities": [
-      "CHLOROPHYLL",
-      "SOLAR_POWER"
+      "CHLOROPHYLL"
     ],
     "bodyColor": "BODY_COLOR_YELLOW",
     "catchRate": 235,
@@ -25881,8 +25797,7 @@
       ],
       "natDexNum": 191,
       "abilities": [
-        "CHLOROPHYLL",
-        "SOLAR_POWER"
+        "CHLOROPHYLL"
       ],
       "bodyColor": "BODY_COLOR_YELLOW",
       "catchRate": 235,
@@ -25930,8 +25845,7 @@
     ],
     "natDexNum": 192,
     "abilities": [
-      "CHLOROPHYLL",
-      "SOLAR_POWER"
+      "CHLOROPHYLL"
     ],
     "bodyColor": "BODY_COLOR_YELLOW",
     "catchRate": 120,
@@ -25976,8 +25890,7 @@
       ],
       "natDexNum": 192,
       "abilities": [
-        "CHLOROPHYLL",
-        "SOLAR_POWER"
+        "CHLOROPHYLL"
       ],
       "bodyColor": "BODY_COLOR_YELLOW",
       "catchRate": 120,
@@ -26664,8 +26577,7 @@
       ],
       "natDexNum": 198,
       "abilities": [
-        "INSOMNIA",
-        "SUPER_LUCK"
+        "INSOMNIA"
       ],
       "bodyColor": "BODY_COLOR_BLACK",
       "catchRate": 30,
@@ -30752,8 +30664,7 @@
       ],
       "natDexNum": 210,
       "abilities": [
-        "INTIMIDATE",
-        "QUICK_FEET"
+        "INTIMIDATE"
       ],
       "bodyColor": "BODY_COLOR_PURPLE",
       "catchRate": 75,
@@ -30887,12 +30798,12 @@
     "stats": [
       65,
       95,
-      85,
+      95,
       55,
       55,
-      85
+      95
     ],
-    "bst": 440,
+    "bst": 460,
     "generation": 2,
     "types": [
       "DARK",
@@ -30990,11 +30901,11 @@
       85,
       115,
       95,
-      65,
+      95,
       65,
       85
     ],
-    "bst": 510,
+    "bst": 540,
     "generation": 8,
     "types": [
       "DARK",
@@ -31147,8 +31058,7 @@
       ],
       "natDexNum": 213,
       "abilities": [
-        "STURDY",
-        "GLUTTONY"
+        "STURDY"
       ],
       "bodyColor": "BODY_COLOR_YELLOW",
       "catchRate": 190,
@@ -31696,8 +31606,7 @@
     ],
     "natDexNum": 216,
     "abilities": [
-      "PICKUP",
-      "QUICK_FEET"
+      "PICKUP"
     ],
     "bodyColor": "BODY_COLOR_BROWN",
     "catchRate": 120,
@@ -31724,6 +31633,7 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 6,
     "weight": 88,
+    "itemCommon": "ITEM_HONEY",
     "flags": [],
     "old": {
       "species": "TEDDIURSA",
@@ -31742,8 +31652,7 @@
       ],
       "natDexNum": 216,
       "abilities": [
-        "PICKUP",
-        "QUICK_FEET"
+        "PICKUP"
       ],
       "bodyColor": "BODY_COLOR_BROWN",
       "catchRate": 120,
@@ -31770,6 +31679,7 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 6,
       "weight": 88,
+      "itemCommon": "ITEM_HONEY",
       "flags": []
     }
   },
@@ -31791,8 +31701,7 @@
     ],
     "natDexNum": 217,
     "abilities": [
-      "GUTS",
-      "QUICK_FEET"
+      "GUTS"
     ],
     "bodyColor": "BODY_COLOR_BROWN",
     "catchRate": 60,
@@ -31837,8 +31746,7 @@
       ],
       "natDexNum": 217,
       "abilities": [
-        "GUTS",
-        "QUICK_FEET"
+        "GUTS"
       ],
       "bodyColor": "BODY_COLOR_BROWN",
       "catchRate": 60,
@@ -32313,8 +32221,7 @@
       ],
       "natDexNum": 220,
       "abilities": [
-        "OBLIVIOUS",
-        "SNOW_CLOAK"
+        "OBLIVIOUS"
       ],
       "bodyColor": "BODY_COLOR_BROWN",
       "catchRate": 225,
@@ -32362,8 +32269,7 @@
     ],
     "natDexNum": 221,
     "abilities": [
-      "OBLIVIOUS",
-      "SNOW_CLOAK"
+      "OBLIVIOUS"
     ],
     "bodyColor": "BODY_COLOR_BROWN",
     "catchRate": 75,
@@ -32409,8 +32315,7 @@
       ],
       "natDexNum": 221,
       "abilities": [
-        "OBLIVIOUS",
-        "SNOW_CLOAK"
+        "OBLIVIOUS"
       ],
       "bodyColor": "BODY_COLOR_BROWN",
       "catchRate": 75,
@@ -32847,8 +32752,7 @@
     ],
     "natDexNum": 223,
     "abilities": [
-      "HUSTLE",
-      "SNIPER"
+      "HUSTLE"
     ],
     "bodyColor": "BODY_COLOR_GRAY",
     "catchRate": 190,
@@ -32894,8 +32798,7 @@
       ],
       "natDexNum": 223,
       "abilities": [
-        "HUSTLE",
-        "SNIPER"
+        "HUSTLE"
       ],
       "bodyColor": "BODY_COLOR_GRAY",
       "catchRate": 190,
@@ -32990,8 +32893,7 @@
       ],
       "natDexNum": 224,
       "abilities": [
-        "SUCTION_CUPS",
-        "SNIPER"
+        "SUCTION_CUPS"
       ],
       "bodyColor": "BODY_COLOR_RED",
       "catchRate": 75,
@@ -33818,8 +33720,7 @@
     ],
     "natDexNum": 234,
     "abilities": [
-      "INTIMIDATE",
-      "FRISK"
+      "INTIMIDATE"
     ],
     "bodyColor": "BODY_COLOR_BROWN",
     "catchRate": 45,
@@ -33864,8 +33765,7 @@
       ],
       "natDexNum": 234,
       "abilities": [
-        "INTIMIDATE",
-        "FRISK"
+        "INTIMIDATE"
       ],
       "bodyColor": "BODY_COLOR_BROWN",
       "catchRate": 45,
@@ -34054,8 +33954,7 @@
       ],
       "natDexNum": 235,
       "abilities": [
-        "OWN_TEMPO",
-        "TECHNICIAN"
+        "OWN_TEMPO"
       ],
       "bodyColor": "BODY_COLOR_WHITE",
       "catchRate": 45,
@@ -34102,8 +34001,7 @@
     ],
     "natDexNum": 241,
     "abilities": [
-      "THICK_FAT",
-      "SCRAPPY"
+      "THICK_FAT"
     ],
     "bodyColor": "BODY_COLOR_PINK",
     "catchRate": 45,
@@ -34150,8 +34048,7 @@
       ],
       "natDexNum": 241,
       "abilities": [
-        "THICK_FAT",
-        "SCRAPPY"
+        "THICK_FAT"
       ],
       "bodyColor": "BODY_COLOR_PINK",
       "catchRate": 45,
@@ -35978,8 +35875,7 @@
     ],
     "natDexNum": 261,
     "abilities": [
-      "RUN_AWAY",
-      "QUICK_FEET"
+      "RUN_AWAY"
     ],
     "bodyColor": "BODY_COLOR_GRAY",
     "catchRate": 255,
@@ -36024,8 +35920,7 @@
       ],
       "natDexNum": 261,
       "abilities": [
-        "RUN_AWAY",
-        "QUICK_FEET"
+        "RUN_AWAY"
       ],
       "bodyColor": "BODY_COLOR_GRAY",
       "catchRate": 255,
@@ -36072,8 +35967,7 @@
     ],
     "natDexNum": 262,
     "abilities": [
-      "INTIMIDATE",
-      "QUICK_FEET"
+      "INTIMIDATE"
     ],
     "bodyColor": "BODY_COLOR_GRAY",
     "catchRate": 127,
@@ -36118,8 +36012,7 @@
       ],
       "natDexNum": 262,
       "abilities": [
-        "INTIMIDATE",
-        "QUICK_FEET"
+        "INTIMIDATE"
       ],
       "bodyColor": "BODY_COLOR_GRAY",
       "catchRate": 127,
@@ -36166,8 +36059,7 @@
     ],
     "natDexNum": 263,
     "abilities": [
-      "PICKUP",
-      "GLUTTONY"
+      "PICKUP"
     ],
     "bodyColor": "BODY_COLOR_BROWN",
     "catchRate": 255,
@@ -36214,8 +36106,7 @@
       ],
       "natDexNum": 263,
       "abilities": [
-        "PICKUP",
-        "GLUTTONY"
+        "PICKUP"
       ],
       "bodyColor": "BODY_COLOR_BROWN",
       "catchRate": 255,
@@ -36312,8 +36203,7 @@
       ],
       "natDexNum": 264,
       "abilities": [
-        "PICKUP",
-        "GLUTTONY"
+        "PICKUP"
       ],
       "bodyColor": "BODY_COLOR_WHITE",
       "catchRate": 90,
@@ -37919,8 +37809,7 @@
     ],
     "natDexNum": 278,
     "abilities": [
-      "KEEN_EYE",
-      "HYDRATION"
+      "KEEN_EYE"
     ],
     "bodyColor": "BODY_COLOR_WHITE",
     "catchRate": 190,
@@ -37968,8 +37857,7 @@
       ],
       "natDexNum": 278,
       "abilities": [
-        "KEEN_EYE",
-        "HYDRATION"
+        "KEEN_EYE"
       ],
       "bodyColor": "BODY_COLOR_WHITE",
       "catchRate": 190,
@@ -38068,8 +37956,7 @@
       ],
       "natDexNum": 279,
       "abilities": [
-        "KEEN_EYE",
-        "DRIZZLE"
+        "KEEN_EYE"
       ],
       "bodyColor": "BODY_COLOR_YELLOW",
       "catchRate": 45,
@@ -38719,8 +38606,7 @@
     ],
     "natDexNum": 285,
     "abilities": [
-      "EFFECT_SPORE",
-      "POISON_HEAL"
+      "EFFECT_SPORE"
     ],
     "bodyColor": "BODY_COLOR_BROWN",
     "catchRate": 255,
@@ -38768,8 +38654,7 @@
       ],
       "natDexNum": 285,
       "abilities": [
-        "EFFECT_SPORE",
-        "POISON_HEAL"
+        "EFFECT_SPORE"
       ],
       "bodyColor": "BODY_COLOR_BROWN",
       "catchRate": 255,
@@ -38870,8 +38755,7 @@
       ],
       "natDexNum": 286,
       "abilities": [
-        "EFFECT_SPORE",
-        "POISON_HEAL"
+        "EFFECT_SPORE"
       ],
       "bodyColor": "BODY_COLOR_GREEN",
       "catchRate": 90,
@@ -40198,8 +40082,7 @@
       ],
       "natDexNum": 300,
       "abilities": [
-        "CUTE_CHARM",
-        "NORMALIZE"
+        "CUTE_CHARM"
       ],
       "bodyColor": "BODY_COLOR_PINK",
       "catchRate": 255,
@@ -40295,8 +40178,7 @@
       ],
       "natDexNum": 301,
       "abilities": [
-        "CUTE_CHARM",
-        "NORMALIZE"
+        "CUTE_CHARM"
       ],
       "bodyColor": "BODY_COLOR_PURPLE",
       "catchRate": 60,
@@ -40398,8 +40280,7 @@
       ],
       "natDexNum": 302,
       "abilities": [
-        "KEEN_EYE",
-        "STALL"
+        "KEEN_EYE"
       ],
       "bodyColor": "BODY_COLOR_PURPLE",
       "catchRate": 45,
@@ -41558,8 +41439,7 @@
     ],
     "natDexNum": 314,
     "abilities": [
-      "OBLIVIOUS",
-      "TINTED_LENS"
+      "OBLIVIOUS"
     ],
     "bodyColor": "BODY_COLOR_PURPLE",
     "catchRate": 150,
@@ -41606,8 +41486,7 @@
       ],
       "natDexNum": 314,
       "abilities": [
-        "OBLIVIOUS",
-        "TINTED_LENS"
+        "OBLIVIOUS"
       ],
       "bodyColor": "BODY_COLOR_PURPLE",
       "catchRate": 150,
@@ -42549,8 +42428,7 @@
     ],
     "natDexNum": 322,
     "abilities": [
-      "OBLIVIOUS",
-      "SIMPLE"
+      "OBLIVIOUS"
     ],
     "bodyColor": "BODY_COLOR_YELLOW",
     "catchRate": 255,
@@ -42596,8 +42474,7 @@
       ],
       "natDexNum": 322,
       "abilities": [
-        "OBLIVIOUS",
-        "SIMPLE"
+        "OBLIVIOUS"
       ],
       "bodyColor": "BODY_COLOR_YELLOW",
       "catchRate": 255,
@@ -42698,8 +42575,7 @@
       ],
       "natDexNum": 323,
       "abilities": [
-        "MAGMA_ARMOR",
-        "SOLID_ROCK"
+        "MAGMA_ARMOR"
       ],
       "bodyColor": "BODY_COLOR_RED",
       "catchRate": 150,
@@ -42798,8 +42674,7 @@
       ],
       "natDexNum": 324,
       "abilities": [
-        "WHITE_SMOKE",
-        "DROUGHT"
+        "WHITE_SMOKE"
       ],
       "bodyColor": "BODY_COLOR_BROWN",
       "catchRate": 90,
@@ -43083,8 +42958,7 @@
       ],
       "natDexNum": 327,
       "abilities": [
-        "OWN_TEMPO",
-        "TANGLED_FEET"
+        "OWN_TEMPO"
       ],
       "bodyColor": "BODY_COLOR_BROWN",
       "catchRate": 255,
@@ -44254,8 +44128,7 @@
       ],
       "natDexNum": 339,
       "abilities": [
-        "OBLIVIOUS",
-        "ANTICIPATION"
+        "OBLIVIOUS"
       ],
       "bodyColor": "BODY_COLOR_GRAY",
       "catchRate": 190,
@@ -44350,8 +44223,7 @@
       ],
       "natDexNum": 340,
       "abilities": [
-        "OBLIVIOUS",
-        "ANTICIPATION"
+        "OBLIVIOUS"
       ],
       "bodyColor": "BODY_COLOR_BLUE",
       "catchRate": 75,
@@ -45168,8 +45040,7 @@
     ],
     "natDexNum": 349,
     "abilities": [
-      "SWIFT_SWIM",
-      "OBLIVIOUS"
+      "SWIFT_SWIM"
     ],
     "bodyColor": "BODY_COLOR_BROWN",
     "catchRate": 255,
@@ -45215,8 +45086,7 @@
       ],
       "natDexNum": 349,
       "abilities": [
-        "SWIFT_SWIM",
-        "OBLIVIOUS"
+        "SWIFT_SWIM"
       ],
       "bodyColor": "BODY_COLOR_BROWN",
       "catchRate": 255,
@@ -45265,8 +45135,7 @@
     ],
     "natDexNum": 350,
     "abilities": [
-      "MARVEL_SCALE",
-      "COMPETITIVE"
+      "MARVEL_SCALE"
     ],
     "bodyColor": "BODY_COLOR_PINK",
     "catchRate": 60,
@@ -45312,8 +45181,7 @@
       ],
       "natDexNum": 350,
       "abilities": [
-        "MARVEL_SCALE",
-        "COMPETITIVE"
+        "MARVEL_SCALE"
       ],
       "bodyColor": "BODY_COLOR_PINK",
       "catchRate": 60,
@@ -46273,8 +46141,7 @@
       ],
       "natDexNum": 353,
       "abilities": [
-        "INSOMNIA",
-        "FRISK"
+        "INSOMNIA"
       ],
       "bodyColor": "BODY_COLOR_BLACK",
       "catchRate": 225,
@@ -46375,8 +46242,7 @@
       ],
       "natDexNum": 354,
       "abilities": [
-        "INSOMNIA",
-        "FRISK"
+        "INSOMNIA"
       ],
       "bodyColor": "BODY_COLOR_BLACK",
       "catchRate": 45,
@@ -46761,8 +46627,7 @@
       ],
       "natDexNum": 357,
       "abilities": [
-        "CHLOROPHYLL",
-        "SOLAR_POWER"
+        "CHLOROPHYLL"
       ],
       "bodyColor": "BODY_COLOR_GREEN",
       "catchRate": 200,
@@ -46998,8 +46863,7 @@
     ],
     "natDexNum": 359,
     "abilities": [
-      "PRESSURE",
-      "SUPER_LUCK"
+      "PRESSURE"
     ],
     "bodyColor": "BODY_COLOR_WHITE",
     "catchRate": 30,
@@ -47050,8 +46914,7 @@
       ],
       "natDexNum": 359,
       "abilities": [
-        "PRESSURE",
-        "SUPER_LUCK"
+        "PRESSURE"
       ],
       "bodyColor": "BODY_COLOR_WHITE",
       "catchRate": 30,
@@ -47152,8 +47015,7 @@
       ],
       "natDexNum": 361,
       "abilities": [
-        "INNER_FOCUS",
-        "ICE_BODY"
+        "INNER_FOCUS"
       ],
       "bodyColor": "BODY_COLOR_GRAY",
       "catchRate": 190,
@@ -47255,8 +47117,7 @@
       ],
       "natDexNum": 362,
       "abilities": [
-        "INNER_FOCUS",
-        "ICE_BODY"
+        "INNER_FOCUS"
       ],
       "bodyColor": "BODY_COLOR_GRAY",
       "catchRate": 75,
@@ -47408,8 +47269,7 @@
     ],
     "natDexNum": 363,
     "abilities": [
-      "THICK_FAT",
-      "ICE_BODY"
+      "THICK_FAT"
     ],
     "bodyColor": "BODY_COLOR_BLUE",
     "catchRate": 255,
@@ -47456,8 +47316,7 @@
       ],
       "natDexNum": 363,
       "abilities": [
-        "THICK_FAT",
-        "ICE_BODY"
+        "THICK_FAT"
       ],
       "bodyColor": "BODY_COLOR_BLUE",
       "catchRate": 255,
@@ -47506,8 +47365,7 @@
     ],
     "natDexNum": 364,
     "abilities": [
-      "THICK_FAT",
-      "ICE_BODY"
+      "THICK_FAT"
     ],
     "bodyColor": "BODY_COLOR_BLUE",
     "catchRate": 120,
@@ -47554,8 +47412,7 @@
       ],
       "natDexNum": 364,
       "abilities": [
-        "THICK_FAT",
-        "ICE_BODY"
+        "THICK_FAT"
       ],
       "bodyColor": "BODY_COLOR_BLUE",
       "catchRate": 120,
@@ -47604,8 +47461,7 @@
     ],
     "natDexNum": 365,
     "abilities": [
-      "THICK_FAT",
-      "ICE_BODY"
+      "THICK_FAT"
     ],
     "bodyColor": "BODY_COLOR_BLUE",
     "catchRate": 45,
@@ -47652,8 +47508,7 @@
       ],
       "natDexNum": 365,
       "abilities": [
-        "THICK_FAT",
-        "ICE_BODY"
+        "THICK_FAT"
       ],
       "bodyColor": "BODY_COLOR_BLUE",
       "catchRate": 45,
@@ -56656,9 +56511,9 @@
     "species": "CARNIVINE",
     "stats": [
       84,
-      100,
-      82,
       90,
+      82,
+      100,
       72,
       46
     ],
@@ -56666,7 +56521,7 @@
     "generation": 4,
     "types": [
       "GRASS",
-      "POISON"
+      "DARK"
     ],
     "natDexNum": 455,
     "abilities": [
@@ -60014,7 +59869,8 @@
     "bst": 413,
     "generation": 5,
     "types": [
-      "GRASS"
+      "GRASS",
+      "DRAGON"
     ],
     "natDexNum": 496,
     "abilities": [
@@ -60109,7 +59965,8 @@
     "bst": 528,
     "generation": 5,
     "types": [
-      "GRASS"
+      "GRASS",
+      "DRAGON"
     ],
     "natDexNum": 497,
     "abilities": [
@@ -60298,7 +60155,7 @@
     "generation": 5,
     "types": [
       "FIRE",
-      "FIGHTING"
+      "GROUND"
     ],
     "natDexNum": 499,
     "abilities": [
@@ -60393,7 +60250,7 @@
     "generation": 5,
     "types": [
       "FIRE",
-      "FIGHTING"
+      "GROUND"
     ],
     "natDexNum": 500,
     "abilities": [
@@ -60580,7 +60437,8 @@
     "bst": 413,
     "generation": 5,
     "types": [
-      "WATER"
+      "WATER",
+      "FIGHTING"
     ],
     "natDexNum": 502,
     "abilities": [
@@ -60673,7 +60531,8 @@
     "bst": 528,
     "generation": 5,
     "types": [
-      "WATER"
+      "WATER",
+      "FIGHTING"
     ],
     "natDexNum": 503,
     "abilities": [
@@ -62752,8 +62611,7 @@
     ],
     "natDexNum": 524,
     "abilities": [
-      "STURDY",
-      "WEAK_ARMOR"
+      "STURDY"
     ],
     "bodyColor": "BODY_COLOR_BLUE",
     "catchRate": 255,
@@ -62800,8 +62658,7 @@
       ],
       "natDexNum": 524,
       "abilities": [
-        "STURDY",
-        "WEAK_ARMOR"
+        "STURDY"
       ],
       "bodyColor": "BODY_COLOR_BLUE",
       "catchRate": 255,
@@ -62850,8 +62707,7 @@
     ],
     "natDexNum": 525,
     "abilities": [
-      "STURDY",
-      "WEAK_ARMOR"
+      "STURDY"
     ],
     "bodyColor": "BODY_COLOR_BLUE",
     "catchRate": 120,
@@ -62898,8 +62754,7 @@
       ],
       "natDexNum": 525,
       "abilities": [
-        "STURDY",
-        "WEAK_ARMOR"
+        "STURDY"
       ],
       "bodyColor": "BODY_COLOR_BLUE",
       "catchRate": 120,
@@ -62948,8 +62803,7 @@
     ],
     "natDexNum": 526,
     "abilities": [
-      "STURDY",
-      "SAND_STREAM"
+      "STURDY"
     ],
     "bodyColor": "BODY_COLOR_BLUE",
     "catchRate": 45,
@@ -62996,8 +62850,7 @@
       ],
       "natDexNum": 526,
       "abilities": [
-        "STURDY",
-        "SAND_STREAM"
+        "STURDY"
       ],
       "bodyColor": "BODY_COLOR_BLUE",
       "catchRate": 45,
@@ -63033,13 +62886,13 @@
     "species": "WOOBAT",
     "stats": [
       55,
-      45,
+      55,
       43,
       55,
       43,
       72
     ],
-    "bst": 313,
+    "bst": 323,
     "generation": 5,
     "types": [
       "PSYCHIC",
@@ -63131,13 +62984,13 @@
     "species": "SWOOBAT",
     "stats": [
       67,
-      57,
-      55,
-      77,
-      55,
+      70,
+      60,
+      80,
+      60,
       114
     ],
-    "bst": 425,
+    "bst": 451,
     "generation": 5,
     "types": [
       "PSYCHIC",
@@ -63146,7 +62999,7 @@
     "natDexNum": 528,
     "abilities": [
       "UNAWARE",
-      "KLUTZ"
+      "SIMPLE"
     ],
     "bodyColor": "BODY_COLOR_BLUE",
     "catchRate": 45,
@@ -64017,7 +63870,7 @@
     "natDexNum": 537,
     "abilities": [
       "SWIFT_SWIM",
-      "WATER_ABSORB"
+      "POISON_HEAL"
     ],
     "bodyColor": "BODY_COLOR_BLUE",
     "catchRate": 45,
@@ -64779,14 +64632,14 @@
   {
     "species": "SCOLIPEDE",
     "stats": [
-      60,
-      100,
+      70,
+      110,
       89,
       55,
       69,
       112
     ],
-    "bst": 485,
+    "bst": 505,
     "generation": 5,
     "types": [
       "BUG",
@@ -64877,14 +64730,14 @@
   {
     "species": "COTTONEE",
     "stats": [
-      40,
+      60,
       27,
       60,
       37,
-      50,
-      66
+      60,
+      76
     ],
-    "bst": 280,
+    "bst": 320,
     "generation": 5,
     "types": [
       "GRASS",
@@ -64893,7 +64746,7 @@
     "natDexNum": 546,
     "abilities": [
       "PRANKSTER",
-      "INFILTRATOR"
+      "FLUFFY"
     ],
     "bodyColor": "BODY_COLOR_GREEN",
     "catchRate": 190,
@@ -64992,7 +64845,7 @@
     "natDexNum": 547,
     "abilities": [
       "PRANKSTER",
-      "INFILTRATOR"
+      "FLUFFY"
     ],
     "bodyColor": "BODY_COLOR_GREEN",
     "catchRate": 75,
@@ -65075,14 +64928,14 @@
   {
     "species": "PETILIL",
     "stats": [
-      45,
-      35,
-      50,
-      70,
-      50,
+      65,
+      38,
+      55,
+      77,
+      55,
       30
     ],
-    "bst": 280,
+    "bst": 320,
     "generation": 5,
     "types": [
       "GRASS"
@@ -65171,14 +65024,14 @@
   {
     "species": "LILLIGANT",
     "stats": [
-      80,
+      83,
       60,
       75,
       110,
       75,
       90
     ],
-    "bst": 490,
+    "bst": 493,
     "generation": 5,
     "types": [
       "GRASS"
@@ -65267,14 +65120,14 @@
   {
     "species": "LILLIGANT_HISUIAN",
     "stats": [
-      70,
-      105,
+      69,
+      112,
       75,
       50,
       75,
-      105
+      112
     ],
-    "bst": 480,
+    "bst": 493,
     "generation": 5,
     "types": [
       "GRASS",
@@ -65849,14 +65702,14 @@
   {
     "species": "SANDILE",
     "stats": [
-      50,
-      72,
+      58,
+      82,
+      45,
       35,
-      35,
-      35,
+      45,
       65
     ],
-    "bst": 292,
+    "bst": 330,
     "generation": 5,
     "types": [
       "GROUND",
@@ -65947,14 +65800,14 @@
   {
     "species": "KROKOROK",
     "stats": [
-      60,
-      82,
-      45,
-      45,
-      45,
+      70,
+      92,
+      65,
+      55,
+      65,
       74
     ],
-    "bst": 351,
+    "bst": 421,
     "generation": 5,
     "types": [
       "GROUND",
@@ -66146,11 +65999,11 @@
       70,
       90,
       45,
-      15,
+      55,
       45,
-      50
+      70
     ],
-    "bst": 315,
+    "bst": 375,
     "generation": 5,
     "types": [
       "FIRE"
@@ -66239,14 +66092,15 @@
       105,
       140,
       55,
-      30,
+      60,
       55,
       95
     ],
-    "bst": 480,
+    "bst": 510,
     "generation": 5,
     "types": [
-      "FIRE"
+      "FIRE",
+      "FIGHTING"
     ],
     "natDexNum": 555,
     "abilities": [
@@ -66342,13 +66196,13 @@
     "species": "DARMANITAN_ZEN_MODE",
     "stats": [
       105,
-      30,
-      105,
+      60,
+      125,
       140,
-      105,
-      55
+      125,
+      45
     ],
-    "bst": 540,
+    "bst": 600,
     "generation": 5,
     "types": [
       "FIRE",
@@ -66467,11 +66321,11 @@
       70,
       90,
       45,
-      15,
+      65,
       45,
-      50
+      70
     ],
-    "bst": 315,
+    "bst": 385,
     "generation": 5,
     "types": [
       "ICE"
@@ -66571,7 +66425,8 @@
     "bst": 480,
     "generation": 5,
     "types": [
-      "ICE"
+      "ICE",
+      "FIGHTING"
     ],
     "natDexNum": 555,
     "abilities": [
@@ -66671,13 +66526,13 @@
     "species": "DARMANITAN_ZEN_MODE_GALARIAN",
     "stats": [
       105,
-      30,
+      90,
       55,
       160,
       55,
       135
     ],
-    "bst": 540,
+    "bst": 600,
     "generation": 5,
     "types": [
       "ICE",
@@ -66799,12 +66654,12 @@
     "stats": [
       75,
       86,
-      67,
+      87,
       106,
-      67,
+      87,
       60
     ],
-    "bst": 461,
+    "bst": 501,
     "generation": 5,
     "types": [
       "GRASS"
@@ -66893,14 +66748,14 @@
   {
     "species": "DWEBBLE",
     "stats": [
-      55,
+      60,
       65,
-      85,
+      90,
       35,
       35,
       55
     ],
-    "bst": 330,
+    "bst": 340,
     "generation": 5,
     "types": [
       "BUG",
@@ -66993,14 +66848,14 @@
   {
     "species": "CRUSTLE",
     "stats": [
-      70,
+      75,
       115,
-      125,
+      130,
       65,
       75,
       55
     ],
-    "bst": 505,
+    "bst": 515,
     "generation": 5,
     "types": [
       "BUG",
@@ -67389,14 +67244,14 @@
   {
     "species": "YAMASK",
     "stats": [
-      38,
-      30,
+      45,
+      40,
       85,
       55,
-      65,
+      70,
       30
     ],
-    "bst": 303,
+    "bst": 325,
     "generation": 5,
     "types": [
       "GHOST"
@@ -67485,14 +67340,14 @@
   {
     "species": "COFAGRIGUS",
     "stats": [
-      58,
-      50,
+      65,
+      60,
       145,
       95,
       105,
       30
     ],
-    "bst": 483,
+    "bst": 500,
     "generation": 5,
     "types": [
       "GHOST"
@@ -67581,14 +67436,14 @@
   {
     "species": "YAMASK_GALARIAN",
     "stats": [
-      38,
+      45,
       55,
       85,
-      30,
-      65,
+      40,
+      70,
       30
     ],
-    "bst": 303,
+    "bst": 325,
     "generation": 5,
     "types": [
       "GROUND",
@@ -67681,14 +67536,14 @@
   {
     "species": "RUNERIGUS",
     "stats": [
-      58,
+      65,
       95,
       145,
-      50,
+      60,
       105,
       30
     ],
-    "bst": 483,
+    "bst": 500,
     "generation": 8,
     "types": [
       "GROUND",
@@ -68070,13 +67925,13 @@
     "species": "ARCHEOPS",
     "stats": [
       75,
-      140,
+      135,
       65,
-      112,
+      70,
       65,
       110
     ],
-    "bst": 567,
+    "bst": 520,
     "generation": 5,
     "types": [
       "ROCK",
@@ -68084,7 +67939,7 @@
     ],
     "natDexNum": 567,
     "abilities": [
-      "DEFEATIST"
+      "EARLY_BIRD"
     ],
     "bodyColor": "BODY_COLOR_YELLOW",
     "catchRate": 45,
@@ -68750,13 +68605,13 @@
     "species": "MINCCINO",
     "stats": [
       55,
+      60,
+      40,
       50,
-      40,
-      40,
       40,
       75
     ],
-    "bst": 300,
+    "bst": 320,
     "generation": 5,
     "types": [
       "NORMAL"
@@ -68845,9 +68700,9 @@
     "stats": [
       80,
       95,
-      70,
-      70,
-      70,
+      65,
+      80,
+      65,
       115
     ],
     "bst": 500,
@@ -68937,17 +68792,18 @@
   {
     "species": "GOTHITA",
     "stats": [
-      45,
+      50,
       30,
       50,
-      55,
+      60,
       65,
       45
     ],
-    "bst": 290,
+    "bst": 300,
     "generation": 5,
     "types": [
-      "PSYCHIC"
+      "PSYCHIC",
+      "DARK"
     ],
     "natDexNum": 574,
     "abilities": [
@@ -68997,8 +68853,7 @@
       ],
       "natDexNum": 574,
       "abilities": [
-        "FRISK",
-        "COMPETITIVE"
+        "FRISK"
       ],
       "bodyColor": "BODY_COLOR_PURPLE",
       "catchRate": 200,
@@ -69041,7 +68896,8 @@
     "bst": 390,
     "generation": 5,
     "types": [
-      "PSYCHIC"
+      "PSYCHIC",
+      "DARK"
     ],
     "natDexNum": 575,
     "abilities": [
@@ -69091,8 +68947,7 @@
       ],
       "natDexNum": 575,
       "abilities": [
-        "FRISK",
-        "COMPETITIVE"
+        "FRISK"
       ],
       "bodyColor": "BODY_COLOR_PURPLE",
       "catchRate": 100,
@@ -69135,7 +68990,8 @@
     "bst": 490,
     "generation": 5,
     "types": [
-      "PSYCHIC"
+      "PSYCHIC",
+      "DARK"
     ],
     "natDexNum": 576,
     "abilities": [
@@ -69185,8 +69041,7 @@
       ],
       "natDexNum": 576,
       "abilities": [
-        "FRISK",
-        "COMPETITIVE"
+        "FRISK"
       ],
       "bodyColor": "BODY_COLOR_PURPLE",
       "catchRate": 50,
@@ -69219,14 +69074,14 @@
   {
     "species": "SOLOSIS",
     "stats": [
-      45,
+      50,
       30,
       40,
       105,
-      50,
+      55,
       20
     ],
-    "bst": 290,
+    "bst": 300,
     "generation": 5,
     "types": [
       "PSYCHIC"
@@ -69504,11 +69359,11 @@
       62,
       44,
       50,
-      44,
+      54,
       50,
       55
     ],
-    "bst": 305,
+    "bst": 315,
     "generation": 5,
     "types": [
       "FLYING",
@@ -69615,7 +69470,7 @@
     "natDexNum": 581,
     "abilities": [
       "DAZZLING",
-      "RAIN_DISH"
+      "SERENE_GRACE"
     ],
     "bodyColor": "BODY_COLOR_WHITE",
     "catchRate": 45,
@@ -69758,8 +69613,7 @@
       ],
       "natDexNum": 582,
       "abilities": [
-        "ICE_BODY",
-        "SNOW_CLOAK"
+        "ICE_BODY"
       ],
       "bodyColor": "BODY_COLOR_WHITE",
       "catchRate": 255,
@@ -69854,8 +69708,7 @@
       ],
       "natDexNum": 583,
       "abilities": [
-        "ICE_BODY",
-        "SNOW_CLOAK"
+        "ICE_BODY"
       ],
       "bodyColor": "BODY_COLOR_WHITE",
       "catchRate": 120,
@@ -69950,8 +69803,7 @@
       ],
       "natDexNum": 584,
       "abilities": [
-        "ICE_BODY",
-        "SNOW_WARNING"
+        "ICE_BODY"
       ],
       "bodyColor": "BODY_COLOR_WHITE",
       "catchRate": 45,
@@ -71627,11 +71479,11 @@
       40,
       55,
       70,
-      45,
+      50,
       60,
       30
     ],
-    "bst": 300,
+    "bst": 305,
     "generation": 5,
     "types": [
       "STEEL"
@@ -71815,11 +71667,11 @@
       60,
       100,
       115,
-      70,
+      80,
       85,
       90
     ],
-    "bst": 520,
+    "bst": 530,
     "generation": 5,
     "types": [
       "STEEL"
@@ -72373,11 +72225,11 @@
       50,
       30,
       55,
-      65,
+      90,
       55,
       20
     ],
-    "bst": 275,
+    "bst": 300,
     "generation": 5,
     "types": [
       "GHOST",
@@ -72467,13 +72319,13 @@
     "species": "LAMPENT",
     "stats": [
       60,
-      40,
+      45,
       60,
-      95,
+      110,
       60,
-      55
+      65
     ],
-    "bst": 370,
+    "bst": 400,
     "generation": 5,
     "types": [
       "GHOST",
@@ -72565,11 +72417,11 @@
       60,
       55,
       90,
-      145,
+      150,
       90,
       90
     ],
-    "bst": 530,
+    "bst": 535,
     "generation": 5,
     "types": [
       "GHOST",
@@ -72851,16 +72703,17 @@
     "species": "HAXORUS",
     "stats": [
       76,
-      147,
+      151,
       90,
       60,
       70,
-      97
+      103
     ],
-    "bst": 540,
+    "bst": 550,
     "generation": 5,
     "types": [
-      "DRAGON"
+      "DRAGON",
+      "STEEL"
     ],
     "natDexNum": 612,
     "abilities": [
@@ -72946,22 +72799,21 @@
   {
     "species": "CUBCHOO",
     "stats": [
-      55,
+      60,
       70,
       40,
       60,
       40,
       40
     ],
-    "bst": 305,
+    "bst": 310,
     "generation": 5,
     "types": [
       "ICE"
     ],
     "natDexNum": 613,
     "abilities": [
-      "SNOW_CLOAK",
-      "SLUSH_RUSH"
+      "SNOW_CLOAK"
     ],
     "bodyColor": "BODY_COLOR_WHITE",
     "catchRate": 120,
@@ -73006,8 +72858,7 @@
       ],
       "natDexNum": 613,
       "abilities": [
-        "SNOW_CLOAK",
-        "SLUSH_RUSH"
+        "SNOW_CLOAK"
       ],
       "bodyColor": "BODY_COLOR_WHITE",
       "catchRate": 120,
@@ -73040,14 +72891,14 @@
   {
     "species": "BEARTIC",
     "stats": [
-      95,
-      130,
+      100,
+      135,
       80,
       70,
       80,
       50
     ],
-    "bst": 505,
+    "bst": 515,
     "generation": 5,
     "types": [
       "ICE",
@@ -73101,8 +72952,7 @@
       ],
       "natDexNum": 614,
       "abilities": [
-        "SNOW_CLOAK",
-        "SLUSH_RUSH"
+        "SNOW_CLOAK"
       ],
       "bodyColor": "BODY_COLOR_WHITE",
       "catchRate": 60,
@@ -73149,7 +72999,8 @@
     ],
     "natDexNum": 615,
     "abilities": [
-      "LEVITATE"
+      "LEVITATE",
+      "HEATPROOF"
     ],
     "bodyColor": "BODY_COLOR_BLUE",
     "catchRate": 25,
@@ -73324,16 +73175,17 @@
     "species": "ACCELGOR",
     "stats": [
       80,
-      100,
-      40,
       70,
+      40,
+      100,
       60,
       145
     ],
     "bst": 495,
     "generation": 5,
     "types": [
-      "BUG"
+      "BUG",
+      "DARK"
     ],
     "natDexNum": 617,
     "abilities": [
@@ -73909,14 +73761,14 @@
   {
     "species": "GOLETT",
     "stats": [
-      59,
-      74,
-      50,
+      69,
+      84,
+      65,
       35,
-      50,
+      65,
       35
     ],
-    "bst": 303,
+    "bst": 353,
     "generation": 5,
     "types": [
       "GROUND",
@@ -74009,12 +73861,12 @@
     "stats": [
       99,
       124,
-      80,
+      85,
       55,
-      80,
+      85,
       55
     ],
-    "bst": 493,
+    "bst": 503,
     "generation": 5,
     "types": [
       "GROUND",
@@ -74244,6 +74096,7 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 16,
     "weight": 700,
+    "itemRare": "ITEM_LEADERS_CREST",
     "flags": [],
     "old": {
       "species": "BISHARP",
@@ -74291,6 +74144,7 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 16,
       "weight": 700,
+      "itemRare": "ITEM_LEADERS_CREST",
       "flags": []
     }
   },
@@ -74394,13 +74248,13 @@
     "species": "BOUFFALANT",
     "stats": [
       95,
-      110,
+      115,
       95,
       40,
       95,
       55
     ],
-    "bst": 490,
+    "bst": 495,
     "generation": 5,
     "types": [
       "NORMAL",
@@ -76996,7 +76850,7 @@
     ],
     "natDexNum": 646,
     "abilities": [
-      "TERAVOLT"
+      "HADRON_ENGINE"
     ],
     "bodyColor": "BODY_COLOR_GRAY",
     "catchRate": 3,
@@ -86842,13 +86696,13 @@
     "species": "GOURGEIST_SMALL",
     "stats": [
       55,
-      85,
-      122,
-      58,
-      75,
-      99
+      65,
+      110,
+      100,
+      80,
+      100
     ],
-    "bst": 494,
+    "bst": 510,
     "generation": 6,
     "types": [
       "GHOST",
@@ -90674,7 +90528,7 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 6,
     "weight": 34,
-    "itemRare": "ITEM_HONEY",
+    "itemRare": "ITEM_RED_NECTAR",
     "flags": [],
     "old": {
       "species": "ORICORIO",
@@ -90737,7 +90591,7 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 6,
       "weight": 34,
-      "itemRare": "ITEM_HONEY",
+      "itemRare": "ITEM_RED_NECTAR",
       "flags": []
     }
   },
@@ -90802,7 +90656,7 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 6,
     "weight": 34,
-    "itemRare": "ITEM_HONEY",
+    "itemRare": "ITEM_YELLOW_NECTAR",
     "flags": [],
     "old": {
       "species": "ORICORIO_POM_POM",
@@ -90865,7 +90719,7 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 6,
       "weight": 34,
-      "itemRare": "ITEM_HONEY",
+      "itemRare": "ITEM_YELLOW_NECTAR",
       "flags": []
     }
   },
@@ -90930,7 +90784,7 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 6,
     "weight": 34,
-    "itemRare": "ITEM_HONEY",
+    "itemRare": "ITEM_PINK_NECTAR",
     "flags": [],
     "old": {
       "species": "ORICORIO_PAU",
@@ -90993,7 +90847,7 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 6,
       "weight": 34,
-      "itemRare": "ITEM_HONEY",
+      "itemRare": "ITEM_PINK_NECTAR",
       "flags": []
     }
   },
@@ -91058,7 +90912,7 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 6,
     "weight": 34,
-    "itemRare": "ITEM_HONEY",
+    "itemRare": "ITEM_PURPLE_NECTAR",
     "flags": [],
     "old": {
       "species": "ORICORIO_SENSU",
@@ -91121,7 +90975,7 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 6,
       "weight": 34,
-      "itemRare": "ITEM_HONEY",
+      "itemRare": "ITEM_PURPLE_NECTAR",
       "flags": []
     }
   },
@@ -108081,9 +107935,9 @@
     "species": "CALYREX_SHADOW_RIDER",
     "stats": [
       100,
-      85,
-      80,
       165,
+      80,
+      85,
       100,
       150
     ],
@@ -112588,6 +112442,8 @@
     "growthRate": "GROWTH_MEDIUM_SLOW",
     "height": 9,
     "weight": 330,
+    "itemCommon": "ITEM_TINY_MUSHROOM",
+    "itemRare": "ITEM_BIG_MUSHROOM",
     "flags": [],
     "old": {
       "species": "TOEDSCOOL",
@@ -112634,6 +112490,8 @@
       "growthRate": "GROWTH_MEDIUM_SLOW",
       "height": 9,
       "weight": 330,
+      "itemCommon": "ITEM_TINY_MUSHROOM",
+      "itemRare": "ITEM_BIG_MUSHROOM",
       "flags": []
     }
   },
@@ -112683,6 +112541,8 @@
     "growthRate": "GROWTH_MEDIUM_SLOW",
     "height": 19,
     "weight": 580,
+    "itemCommon": "ITEM_TINY_MUSHROOM",
+    "itemRare": "ITEM_BIG_MUSHROOM",
     "flags": [],
     "old": {
       "species": "TOEDSCRUEL",
@@ -112729,6 +112589,8 @@
       "growthRate": "GROWTH_MEDIUM_SLOW",
       "height": 19,
       "weight": 580,
+      "itemCommon": "ITEM_TINY_MUSHROOM",
+      "itemRare": "ITEM_BIG_MUSHROOM",
       "flags": []
     }
   },
@@ -115813,9 +115675,8 @@
     "growthRate": "GROWTH_SLOW",
     "height": 22,
     "weight": 3200,
-    "flags": [
-      "PARADOX"
-    ],
+    "itemRare": "ITEM_BOOSTER_ENERGY",
+    "flags": [],
     "old": {
       "species": "GREAT_TUSK",
       "stats": [
@@ -115861,6 +115722,7 @@
       "growthRate": "GROWTH_SLOW",
       "height": 22,
       "weight": 3200,
+      "itemRare": "ITEM_BOOSTER_ENERGY",
       "flags": []
     }
   },
@@ -115909,9 +115771,8 @@
     "growthRate": "GROWTH_SLOW",
     "height": 12,
     "weight": 80,
-    "flags": [
-      "PARADOX"
-    ],
+    "itemRare": "ITEM_BOOSTER_ENERGY",
+    "flags": [],
     "old": {
       "species": "SCREAM_TAIL",
       "stats": [
@@ -115957,6 +115818,7 @@
       "growthRate": "GROWTH_SLOW",
       "height": 12,
       "weight": 80,
+      "itemRare": "ITEM_BOOSTER_ENERGY",
       "flags": []
     }
   },
@@ -116005,9 +115867,8 @@
     "growthRate": "GROWTH_SLOW",
     "height": 12,
     "weight": 210,
-    "flags": [
-      "PARADOX"
-    ],
+    "itemRare": "ITEM_BOOSTER_ENERGY",
+    "flags": [],
     "old": {
       "species": "BRUTE_BONNET",
       "stats": [
@@ -116053,6 +115914,7 @@
       "growthRate": "GROWTH_SLOW",
       "height": 12,
       "weight": 210,
+      "itemRare": "ITEM_BOOSTER_ENERGY",
       "flags": []
     }
   },
@@ -116101,9 +115963,8 @@
     "growthRate": "GROWTH_SLOW",
     "height": 14,
     "weight": 40,
-    "flags": [
-      "PARADOX"
-    ],
+    "itemRare": "ITEM_BOOSTER_ENERGY",
+    "flags": [],
     "old": {
       "species": "FLUTTER_MANE",
       "stats": [
@@ -116149,6 +116010,7 @@
       "growthRate": "GROWTH_SLOW",
       "height": 14,
       "weight": 40,
+      "itemRare": "ITEM_BOOSTER_ENERGY",
       "flags": []
     }
   },
@@ -116197,9 +116059,8 @@
     "growthRate": "GROWTH_SLOW",
     "height": 32,
     "weight": 920,
-    "flags": [
-      "PARADOX"
-    ],
+    "itemRare": "ITEM_BOOSTER_ENERGY",
+    "flags": [],
     "old": {
       "species": "SLITHER_WING",
       "stats": [
@@ -116245,6 +116106,7 @@
       "growthRate": "GROWTH_SLOW",
       "height": 32,
       "weight": 920,
+      "itemRare": "ITEM_BOOSTER_ENERGY",
       "flags": []
     }
   },
@@ -116293,9 +116155,8 @@
     "growthRate": "GROWTH_SLOW",
     "height": 23,
     "weight": 600,
-    "flags": [
-      "PARADOX"
-    ],
+    "itemRare": "ITEM_BOOSTER_ENERGY",
+    "flags": [],
     "old": {
       "species": "SANDY_SHOCKS",
       "stats": [
@@ -116341,6 +116202,7 @@
       "growthRate": "GROWTH_SLOW",
       "height": 23,
       "weight": 600,
+      "itemRare": "ITEM_BOOSTER_ENERGY",
       "flags": []
     }
   },
@@ -116389,9 +116251,8 @@
     "growthRate": "GROWTH_SLOW",
     "height": 9,
     "weight": 2400,
-    "flags": [
-      "PARADOX"
-    ],
+    "itemRare": "ITEM_BOOSTER_ENERGY",
+    "flags": [],
     "old": {
       "species": "IRON_TREADS",
       "stats": [
@@ -116437,6 +116298,7 @@
       "growthRate": "GROWTH_SLOW",
       "height": 9,
       "weight": 2400,
+      "itemRare": "ITEM_BOOSTER_ENERGY",
       "flags": []
     }
   },
@@ -116485,9 +116347,8 @@
     "growthRate": "GROWTH_SLOW",
     "height": 6,
     "weight": 110,
-    "flags": [
-      "PARADOX"
-    ],
+    "itemRare": "ITEM_BOOSTER_ENERGY",
+    "flags": [],
     "old": {
       "species": "IRON_BUNDLE",
       "stats": [
@@ -116533,6 +116394,7 @@
       "growthRate": "GROWTH_SLOW",
       "height": 6,
       "weight": 110,
+      "itemRare": "ITEM_BOOSTER_ENERGY",
       "flags": []
     }
   },
@@ -116581,9 +116443,8 @@
     "growthRate": "GROWTH_SLOW",
     "height": 18,
     "weight": 3807,
-    "flags": [
-      "PARADOX"
-    ],
+    "itemRare": "ITEM_BOOSTER_ENERGY",
+    "flags": [],
     "old": {
       "species": "IRON_HANDS",
       "stats": [
@@ -116629,6 +116490,7 @@
       "growthRate": "GROWTH_SLOW",
       "height": 18,
       "weight": 3807,
+      "itemRare": "ITEM_BOOSTER_ENERGY",
       "flags": []
     }
   },
@@ -116677,9 +116539,8 @@
     "growthRate": "GROWTH_SLOW",
     "height": 13,
     "weight": 1110,
-    "flags": [
-      "PARADOX"
-    ],
+    "itemRare": "ITEM_BOOSTER_ENERGY",
+    "flags": [],
     "old": {
       "species": "IRON_JUGULIS",
       "stats": [
@@ -116725,6 +116586,7 @@
       "growthRate": "GROWTH_SLOW",
       "height": 13,
       "weight": 1110,
+      "itemRare": "ITEM_BOOSTER_ENERGY",
       "flags": []
     }
   },
@@ -116773,9 +116635,8 @@
     "growthRate": "GROWTH_SLOW",
     "height": 12,
     "weight": 360,
-    "flags": [
-      "PARADOX"
-    ],
+    "itemRare": "ITEM_BOOSTER_ENERGY",
+    "flags": [],
     "old": {
       "species": "IRON_MOTH",
       "stats": [
@@ -116821,6 +116682,7 @@
       "growthRate": "GROWTH_SLOW",
       "height": 12,
       "weight": 360,
+      "itemRare": "ITEM_BOOSTER_ENERGY",
       "flags": []
     }
   },
@@ -116869,9 +116731,8 @@
     "growthRate": "GROWTH_SLOW",
     "height": 16,
     "weight": 3030,
-    "flags": [
-      "PARADOX"
-    ],
+    "itemRare": "ITEM_BOOSTER_ENERGY",
+    "flags": [],
     "old": {
       "species": "IRON_THORNS",
       "stats": [
@@ -116917,6 +116778,7 @@
       "growthRate": "GROWTH_SLOW",
       "height": 16,
       "weight": 3030,
+      "itemRare": "ITEM_BOOSTER_ENERGY",
       "flags": []
     }
   },
@@ -117926,9 +117788,8 @@
     "growthRate": "GROWTH_SLOW",
     "height": 20,
     "weight": 3800,
-    "flags": [
-      "PARADOX"
-    ],
+    "itemRare": "ITEM_BOOSTER_ENERGY",
+    "flags": [],
     "old": {
       "species": "ROARING_MOON",
       "stats": [
@@ -117974,6 +117835,7 @@
       "growthRate": "GROWTH_SLOW",
       "height": 20,
       "weight": 3800,
+      "itemRare": "ITEM_BOOSTER_ENERGY",
       "flags": []
     }
   },
@@ -118022,9 +117884,8 @@
     "growthRate": "GROWTH_SLOW",
     "height": 14,
     "weight": 350,
-    "flags": [
-      "PARADOX"
-    ],
+    "itemRare": "ITEM_BOOSTER_ENERGY",
+    "flags": [],
     "old": {
       "species": "IRON_VALIANT",
       "stats": [
@@ -118070,6 +117931,7 @@
       "growthRate": "GROWTH_SLOW",
       "height": 14,
       "weight": 350,
+      "itemRare": "ITEM_BOOSTER_ENERGY",
       "flags": []
     }
   },
@@ -118314,9 +118176,8 @@
     "growthRate": "GROWTH_SLOW",
     "height": 35,
     "weight": 2800,
-    "flags": [
-      "PARADOX"
-    ],
+    "itemRare": "ITEM_BOOSTER_ENERGY",
+    "flags": [],
     "old": {
       "species": "WALKING_WAKE",
       "stats": [
@@ -118362,6 +118223,7 @@
       "growthRate": "GROWTH_SLOW",
       "height": 35,
       "weight": 2800,
+      "itemRare": "ITEM_BOOSTER_ENERGY",
       "flags": []
     }
   },
@@ -118410,9 +118272,8 @@
     "growthRate": "GROWTH_SLOW",
     "height": 15,
     "weight": 1250,
-    "flags": [
-      "PARADOX"
-    ],
+    "itemRare": "ITEM_BOOSTER_ENERGY",
+    "flags": [],
     "old": {
       "species": "IRON_LEAVES",
       "stats": [
@@ -118458,6 +118319,7 @@
       "growthRate": "GROWTH_SLOW",
       "height": 15,
       "weight": 1250,
+      "itemRare": "ITEM_BOOSTER_ENERGY",
       "flags": []
     }
   },
@@ -119517,9 +119379,8 @@
     "growthRate": "GROWTH_SLOW",
     "height": 35,
     "weight": 5900,
-    "flags": [
-      "PARADOX"
-    ],
+    "itemRare": "ITEM_BOOSTER_ENERGY",
+    "flags": [],
     "old": {
       "species": "GOUGING_FIRE",
       "stats": [
@@ -119565,6 +119426,7 @@
       "growthRate": "GROWTH_SLOW",
       "height": 35,
       "weight": 5900,
+      "itemRare": "ITEM_BOOSTER_ENERGY",
       "flags": []
     }
   },
@@ -119613,9 +119475,8 @@
     "growthRate": "GROWTH_SLOW",
     "height": 52,
     "weight": 4800,
-    "flags": [
-      "PARADOX"
-    ],
+    "itemRare": "ITEM_BOOSTER_ENERGY",
+    "flags": [],
     "old": {
       "species": "RAGING_BOLT",
       "stats": [
@@ -119661,6 +119522,7 @@
       "growthRate": "GROWTH_SLOW",
       "height": 52,
       "weight": 4800,
+      "itemRare": "ITEM_BOOSTER_ENERGY",
       "flags": []
     }
   },
@@ -119709,9 +119571,8 @@
     "growthRate": "GROWTH_SLOW",
     "height": 15,
     "weight": 1625,
-    "flags": [
-      "PARADOX"
-    ],
+    "itemRare": "ITEM_BOOSTER_ENERGY",
+    "flags": [],
     "old": {
       "species": "IRON_BOULDER",
       "stats": [
@@ -119757,6 +119618,7 @@
       "growthRate": "GROWTH_SLOW",
       "height": 15,
       "weight": 1625,
+      "itemRare": "ITEM_BOOSTER_ENERGY",
       "flags": []
     }
   },
@@ -119805,9 +119667,8 @@
     "growthRate": "GROWTH_SLOW",
     "height": 16,
     "weight": 1560,
-    "flags": [
-      "PARADOX"
-    ],
+    "itemRare": "ITEM_BOOSTER_ENERGY",
+    "flags": [],
     "old": {
       "species": "IRON_CROWN",
       "stats": [
@@ -119853,6 +119714,7 @@
       "growthRate": "GROWTH_SLOW",
       "height": 16,
       "weight": 1560,
+      "itemRare": "ITEM_BOOSTER_ENERGY",
       "flags": []
     }
   },
