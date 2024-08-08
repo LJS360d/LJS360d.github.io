@@ -1537,7 +1537,8 @@
     ],
     "natDexNum": 16,
     "abilities": [
-      "KEEN_EYE"
+      "KEEN_EYE",
+      "TANGLED_FEET"
     ],
     "bodyColor": "BODY_COLOR_BROWN",
     "catchRate": 255,
@@ -1583,7 +1584,8 @@
       ],
       "natDexNum": 16,
       "abilities": [
-        "KEEN_EYE"
+        "KEEN_EYE",
+        "TANGLED_FEET"
       ],
       "bodyColor": "BODY_COLOR_BROWN",
       "catchRate": 255,
@@ -1630,7 +1632,8 @@
     ],
     "natDexNum": 17,
     "abilities": [
-      "KEEN_EYE"
+      "KEEN_EYE",
+      "TANGLED_FEET"
     ],
     "bodyColor": "BODY_COLOR_BROWN",
     "catchRate": 120,
@@ -1676,7 +1679,8 @@
       ],
       "natDexNum": 17,
       "abilities": [
-        "KEEN_EYE"
+        "KEEN_EYE",
+        "TANGLED_FEET"
       ],
       "bodyColor": "BODY_COLOR_BROWN",
       "catchRate": 120,
@@ -1775,7 +1779,8 @@
       ],
       "natDexNum": 18,
       "abilities": [
-        "KEEN_EYE"
+        "KEEN_EYE",
+        "TANGLED_FEET"
       ],
       "bodyColor": "BODY_COLOR_BROWN",
       "catchRate": 45,
@@ -3530,7 +3535,8 @@
       ],
       "natDexNum": 29,
       "abilities": [
-        "POISON_POINT"
+        "POISON_POINT",
+        "RIVALRY"
       ],
       "bodyColor": "BODY_COLOR_BLUE",
       "catchRate": 235,
@@ -3624,7 +3630,8 @@
       ],
       "natDexNum": 30,
       "abilities": [
-        "POISON_POINT"
+        "POISON_POINT",
+        "RIVALRY"
       ],
       "bodyColor": "BODY_COLOR_BLUE",
       "catchRate": 120,
@@ -3719,7 +3726,8 @@
       ],
       "natDexNum": 31,
       "abilities": [
-        "POISON_POINT"
+        "POISON_POINT",
+        "RIVALRY"
       ],
       "bodyColor": "BODY_COLOR_BLUE",
       "catchRate": 45,
@@ -3766,7 +3774,8 @@
     ],
     "natDexNum": 32,
     "abilities": [
-      "POISON_POINT"
+      "POISON_POINT",
+      "RIVALRY"
     ],
     "bodyColor": "BODY_COLOR_PURPLE",
     "catchRate": 235,
@@ -3812,7 +3821,8 @@
       ],
       "natDexNum": 32,
       "abilities": [
-        "POISON_POINT"
+        "POISON_POINT",
+        "RIVALRY"
       ],
       "bodyColor": "BODY_COLOR_PURPLE",
       "catchRate": 235,
@@ -3907,7 +3917,8 @@
       ],
       "natDexNum": 33,
       "abilities": [
-        "POISON_POINT"
+        "POISON_POINT",
+        "RIVALRY"
       ],
       "bodyColor": "BODY_COLOR_PURPLE",
       "catchRate": 120,
@@ -4004,7 +4015,8 @@
       ],
       "natDexNum": 34,
       "abilities": [
-        "POISON_POINT"
+        "POISON_POINT",
+        "RIVALRY"
       ],
       "bodyColor": "BODY_COLOR_PURPLE",
       "catchRate": 45,
@@ -4052,7 +4064,8 @@
     ],
     "natDexNum": 173,
     "abilities": [
-      "CUTE_CHARM"
+      "CUTE_CHARM",
+      "MAGIC_GUARD"
     ],
     "bodyColor": "BODY_COLOR_PINK",
     "catchRate": 150,
@@ -4098,7 +4111,8 @@
       ],
       "natDexNum": 173,
       "abilities": [
-        "CUTE_CHARM"
+        "CUTE_CHARM",
+        "MAGIC_GUARD"
       ],
       "bodyColor": "BODY_COLOR_PINK",
       "catchRate": 150,
@@ -4146,7 +4160,8 @@
     ],
     "natDexNum": 35,
     "abilities": [
-      "CUTE_CHARM"
+      "CUTE_CHARM",
+      "MAGIC_GUARD"
     ],
     "bodyColor": "BODY_COLOR_PINK",
     "catchRate": 150,
@@ -4192,7 +4207,8 @@
       ],
       "natDexNum": 35,
       "abilities": [
-        "CUTE_CHARM"
+        "CUTE_CHARM",
+        "MAGIC_GUARD"
       ],
       "bodyColor": "BODY_COLOR_PINK",
       "catchRate": 150,
@@ -4240,7 +4256,8 @@
     ],
     "natDexNum": 36,
     "abilities": [
-      "CUTE_CHARM"
+      "CUTE_CHARM",
+      "MAGIC_GUARD"
     ],
     "bodyColor": "BODY_COLOR_PINK",
     "catchRate": 25,
@@ -4286,7 +4303,8 @@
       ],
       "natDexNum": 36,
       "abilities": [
-        "CUTE_CHARM"
+        "CUTE_CHARM",
+        "MAGIC_GUARD"
       ],
       "bodyColor": "BODY_COLOR_PINK",
       "catchRate": 25,
@@ -4723,7 +4741,8 @@
     ],
     "natDexNum": 174,
     "abilities": [
-      "CUTE_CHARM"
+      "CUTE_CHARM",
+      "COMPETITIVE"
     ],
     "bodyColor": "BODY_COLOR_PINK",
     "catchRate": 170,
@@ -4768,7 +4787,8 @@
       ],
       "natDexNum": 174,
       "abilities": [
-        "CUTE_CHARM"
+        "CUTE_CHARM",
+        "COMPETITIVE"
       ],
       "bodyColor": "BODY_COLOR_PINK",
       "catchRate": 170,
@@ -4863,7 +4883,8 @@
       ],
       "natDexNum": 39,
       "abilities": [
-        "CUTE_CHARM"
+        "CUTE_CHARM",
+        "COMPETITIVE"
       ],
       "bodyColor": "BODY_COLOR_PINK",
       "catchRate": 170,
@@ -4959,7 +4980,8 @@
       ],
       "natDexNum": 40,
       "abilities": [
-        "CUTE_CHARM"
+        "CUTE_CHARM",
+        "COMPETITIVE"
       ],
       "bodyColor": "BODY_COLOR_PINK",
       "catchRate": 50,
@@ -5728,7 +5750,8 @@
       ],
       "natDexNum": 46,
       "abilities": [
-        "EFFECT_SPORE"
+        "EFFECT_SPORE",
+        "DRY_SKIN"
       ],
       "bodyColor": "BODY_COLOR_RED",
       "catchRate": 190,
@@ -5829,7 +5852,8 @@
       ],
       "natDexNum": 47,
       "abilities": [
-        "EFFECT_SPORE"
+        "EFFECT_SPORE",
+        "DRY_SKIN"
       ],
       "bodyColor": "BODY_COLOR_RED",
       "catchRate": 75,
@@ -5880,7 +5904,8 @@
     ],
     "natDexNum": 48,
     "abilities": [
-      "COMPOUND_EYES"
+      "COMPOUND_EYES",
+      "TINTED_LENS"
     ],
     "bodyColor": "BODY_COLOR_PURPLE",
     "catchRate": 190,
@@ -5926,7 +5951,8 @@
       ],
       "natDexNum": 48,
       "abilities": [
-        "COMPOUND_EYES"
+        "COMPOUND_EYES",
+        "TINTED_LENS"
       ],
       "bodyColor": "BODY_COLOR_PURPLE",
       "catchRate": 190,
@@ -5974,7 +6000,8 @@
     ],
     "natDexNum": 49,
     "abilities": [
-      "SHIELD_DUST"
+      "SHIELD_DUST",
+      "TINTED_LENS"
     ],
     "bodyColor": "BODY_COLOR_PURPLE",
     "catchRate": 75,
@@ -6021,7 +6048,8 @@
       ],
       "natDexNum": 49,
       "abilities": [
-        "SHIELD_DUST"
+        "SHIELD_DUST",
+        "TINTED_LENS"
       ],
       "bodyColor": "BODY_COLOR_PURPLE",
       "catchRate": 75,
@@ -6517,7 +6545,8 @@
       ],
       "natDexNum": 52,
       "abilities": [
-        "PICKUP"
+        "PICKUP",
+        "TECHNICIAN"
       ],
       "bodyColor": "BODY_COLOR_YELLOW",
       "catchRate": 255,
@@ -6617,7 +6646,8 @@
       ],
       "natDexNum": 53,
       "abilities": [
-        "LIMBER"
+        "LIMBER",
+        "TECHNICIAN"
       ],
       "bodyColor": "BODY_COLOR_YELLOW",
       "catchRate": 90,
@@ -7297,7 +7327,8 @@
       ],
       "natDexNum": 56,
       "abilities": [
-        "VITAL_SPIRIT"
+        "VITAL_SPIRIT",
+        "ANGER_POINT"
       ],
       "bodyColor": "BODY_COLOR_BROWN",
       "catchRate": 190,
@@ -7390,7 +7421,8 @@
       ],
       "natDexNum": 57,
       "abilities": [
-        "VITAL_SPIRIT"
+        "VITAL_SPIRIT",
+        "ANGER_POINT"
       ],
       "bodyColor": "BODY_COLOR_BROWN",
       "catchRate": 75,
@@ -8605,7 +8637,8 @@
     ],
     "natDexNum": 66,
     "abilities": [
-      "GUTS"
+      "GUTS",
+      "NO_GUARD"
     ],
     "bodyColor": "BODY_COLOR_GRAY",
     "catchRate": 180,
@@ -8651,7 +8684,8 @@
       ],
       "natDexNum": 66,
       "abilities": [
-        "GUTS"
+        "GUTS",
+        "NO_GUARD"
       ],
       "bodyColor": "BODY_COLOR_GRAY",
       "catchRate": 180,
@@ -8699,7 +8733,8 @@
     ],
     "natDexNum": 67,
     "abilities": [
-      "GUTS"
+      "GUTS",
+      "NO_GUARD"
     ],
     "bodyColor": "BODY_COLOR_GRAY",
     "catchRate": 90,
@@ -8745,7 +8780,8 @@
       ],
       "natDexNum": 67,
       "abilities": [
-        "GUTS"
+        "GUTS",
+        "NO_GUARD"
       ],
       "bodyColor": "BODY_COLOR_GRAY",
       "catchRate": 90,
@@ -8793,7 +8829,8 @@
     ],
     "natDexNum": 68,
     "abilities": [
-      "GUTS"
+      "GUTS",
+      "NO_GUARD"
     ],
     "bodyColor": "BODY_COLOR_GRAY",
     "catchRate": 45,
@@ -8844,7 +8881,8 @@
       ],
       "natDexNum": 68,
       "abilities": [
-        "GUTS"
+        "GUTS",
+        "NO_GUARD"
       ],
       "bodyColor": "BODY_COLOR_GRAY",
       "catchRate": 45,
@@ -11817,7 +11855,8 @@
       ],
       "natDexNum": 86,
       "abilities": [
-        "THICK_FAT"
+        "THICK_FAT",
+        "HYDRATION"
       ],
       "bodyColor": "BODY_COLOR_WHITE",
       "catchRate": 190,
@@ -11914,7 +11953,8 @@
       ],
       "natDexNum": 87,
       "abilities": [
-        "THICK_FAT"
+        "THICK_FAT",
+        "HYDRATION"
       ],
       "bodyColor": "BODY_COLOR_WHITE",
       "catchRate": 75,
@@ -12358,7 +12398,8 @@
     ],
     "natDexNum": 90,
     "abilities": [
-      "SHELL_ARMOR"
+      "SHELL_ARMOR",
+      "SKILL_LINK"
     ],
     "bodyColor": "BODY_COLOR_PURPLE",
     "catchRate": 190,
@@ -12405,7 +12446,8 @@
       ],
       "natDexNum": 90,
       "abilities": [
-        "SHELL_ARMOR"
+        "SHELL_ARMOR",
+        "SKILL_LINK"
       ],
       "bodyColor": "BODY_COLOR_PURPLE",
       "catchRate": 190,
@@ -12455,7 +12497,8 @@
     ],
     "natDexNum": 91,
     "abilities": [
-      "SHELL_ARMOR"
+      "SHELL_ARMOR",
+      "SKILL_LINK"
     ],
     "bodyColor": "BODY_COLOR_PURPLE",
     "catchRate": 60,
@@ -12503,7 +12546,8 @@
       ],
       "natDexNum": 91,
       "abilities": [
-        "SHELL_ARMOR"
+        "SHELL_ARMOR",
+        "SKILL_LINK"
       ],
       "bodyColor": "BODY_COLOR_PURPLE",
       "catchRate": 60,
@@ -13106,7 +13150,8 @@
       ],
       "natDexNum": 96,
       "abilities": [
-        "INSOMNIA"
+        "INSOMNIA",
+        "FOREWARN"
       ],
       "bodyColor": "BODY_COLOR_YELLOW",
       "catchRate": 190,
@@ -13199,7 +13244,8 @@
       ],
       "natDexNum": 97,
       "abilities": [
-        "INSOMNIA"
+        "INSOMNIA",
+        "FOREWARN"
       ],
       "bodyColor": "BODY_COLOR_YELLOW",
       "catchRate": 75,
@@ -14418,7 +14464,8 @@
     ],
     "natDexNum": 236,
     "abilities": [
-      "GUTS"
+      "GUTS",
+      "STEADFAST"
     ],
     "bodyColor": "BODY_COLOR_PURPLE",
     "catchRate": 75,
@@ -14463,7 +14510,8 @@
       ],
       "natDexNum": 236,
       "abilities": [
-        "GUTS"
+        "GUTS",
+        "STEADFAST"
       ],
       "bodyColor": "BODY_COLOR_PURPLE",
       "catchRate": 75,
@@ -14556,7 +14604,8 @@
       ],
       "natDexNum": 106,
       "abilities": [
-        "LIMBER"
+        "LIMBER",
+        "RECKLESS"
       ],
       "bodyColor": "BODY_COLOR_BROWN",
       "catchRate": 45,
@@ -14603,7 +14652,8 @@
     ],
     "natDexNum": 107,
     "abilities": [
-      "KEEN_EYE"
+      "KEEN_EYE",
+      "IRON_FIST"
     ],
     "bodyColor": "BODY_COLOR_BROWN",
     "catchRate": 45,
@@ -14648,7 +14698,8 @@
       ],
       "natDexNum": 107,
       "abilities": [
-        "KEEN_EYE"
+        "KEEN_EYE",
+        "IRON_FIST"
       ],
       "bodyColor": "BODY_COLOR_BROWN",
       "catchRate": 45,
@@ -14695,7 +14746,8 @@
     ],
     "natDexNum": 237,
     "abilities": [
-      "INTIMIDATE"
+      "INTIMIDATE",
+      "TECHNICIAN"
     ],
     "bodyColor": "BODY_COLOR_BROWN",
     "catchRate": 45,
@@ -14740,7 +14792,8 @@
       ],
       "natDexNum": 237,
       "abilities": [
-        "INTIMIDATE"
+        "INTIMIDATE",
+        "TECHNICIAN"
       ],
       "bodyColor": "BODY_COLOR_BROWN",
       "catchRate": 45,
@@ -15026,7 +15079,8 @@
       ],
       "natDexNum": 109,
       "abilities": [
-        "LEVITATE"
+        "LEVITATE",
+        "NEUTRALIZING_GAS"
       ],
       "bodyColor": "BODY_COLOR_PURPLE",
       "catchRate": 190,
@@ -15121,7 +15175,8 @@
       ],
       "natDexNum": 110,
       "abilities": [
-        "LEVITATE"
+        "LEVITATE",
+        "NEUTRALIZING_GAS"
       ],
       "bodyColor": "BODY_COLOR_PURPLE",
       "catchRate": 60,
@@ -15899,7 +15954,8 @@
       ],
       "natDexNum": 114,
       "abilities": [
-        "CHLOROPHYLL"
+        "CHLOROPHYLL",
+        "LEAF_GUARD"
       ],
       "bodyColor": "BODY_COLOR_BLUE",
       "catchRate": 45,
@@ -16146,7 +16202,8 @@
     ],
     "natDexNum": 116,
     "abilities": [
-      "SWIFT_SWIM"
+      "SWIFT_SWIM",
+      "SNIPER"
     ],
     "bodyColor": "BODY_COLOR_BLUE",
     "catchRate": 225,
@@ -16193,7 +16250,8 @@
       ],
       "natDexNum": 116,
       "abilities": [
-        "SWIFT_SWIM"
+        "SWIFT_SWIM",
+        "SNIPER"
       ],
       "bodyColor": "BODY_COLOR_BLUE",
       "catchRate": 225,
@@ -16242,7 +16300,8 @@
     ],
     "natDexNum": 117,
     "abilities": [
-      "POISON_POINT"
+      "POISON_POINT",
+      "SNIPER"
     ],
     "bodyColor": "BODY_COLOR_BLUE",
     "catchRate": 75,
@@ -16289,7 +16348,8 @@
       ],
       "natDexNum": 117,
       "abilities": [
-        "POISON_POINT"
+        "POISON_POINT",
+        "SNIPER"
       ],
       "bodyColor": "BODY_COLOR_BLUE",
       "catchRate": 75,
@@ -16339,7 +16399,8 @@
     ],
     "natDexNum": 230,
     "abilities": [
-      "SWIFT_SWIM"
+      "SWIFT_SWIM",
+      "SNIPER"
     ],
     "bodyColor": "BODY_COLOR_BLUE",
     "catchRate": 45,
@@ -16387,7 +16448,8 @@
       ],
       "natDexNum": 230,
       "abilities": [
-        "SWIFT_SWIM"
+        "SWIFT_SWIM",
+        "SNIPER"
       ],
       "bodyColor": "BODY_COLOR_BLUE",
       "catchRate": 45,
@@ -16828,7 +16890,8 @@
     ],
     "natDexNum": 439,
     "abilities": [
-      "SOUNDPROOF"
+      "SOUNDPROOF",
+      "FILTER"
     ],
     "bodyColor": "BODY_COLOR_PINK",
     "catchRate": 145,
@@ -16873,7 +16936,8 @@
       ],
       "natDexNum": 439,
       "abilities": [
-        "SOUNDPROOF"
+        "SOUNDPROOF",
+        "FILTER"
       ],
       "bodyColor": "BODY_COLOR_PINK",
       "catchRate": 145,
@@ -17211,7 +17275,8 @@
     ],
     "natDexNum": 123,
     "abilities": [
-      "SWARM"
+      "SWARM",
+      "TECHNICIAN"
     ],
     "bodyColor": "BODY_COLOR_GREEN",
     "catchRate": 45,
@@ -17257,7 +17322,8 @@
       ],
       "natDexNum": 123,
       "abilities": [
-        "SWARM"
+        "SWARM",
+        "TECHNICIAN"
       ],
       "bodyColor": "BODY_COLOR_GREEN",
       "catchRate": 45,
@@ -17305,7 +17371,8 @@
     ],
     "natDexNum": 212,
     "abilities": [
-      "SWARM"
+      "SWARM",
+      "TECHNICIAN"
     ],
     "bodyColor": "BODY_COLOR_RED",
     "catchRate": 25,
@@ -17357,7 +17424,8 @@
       ],
       "natDexNum": 212,
       "abilities": [
-        "SWARM"
+        "SWARM",
+        "TECHNICIAN"
       ],
       "bodyColor": "BODY_COLOR_RED",
       "catchRate": 25,
@@ -17507,7 +17575,8 @@
     ],
     "natDexNum": 238,
     "abilities": [
-      "OBLIVIOUS"
+      "OBLIVIOUS",
+      "FOREWARN"
     ],
     "bodyColor": "BODY_COLOR_PINK",
     "catchRate": 45,
@@ -17553,7 +17622,8 @@
       ],
       "natDexNum": 238,
       "abilities": [
-        "OBLIVIOUS"
+        "OBLIVIOUS",
+        "FOREWARN"
       ],
       "bodyColor": "BODY_COLOR_PINK",
       "catchRate": 45,
@@ -17648,7 +17718,8 @@
       ],
       "natDexNum": 124,
       "abilities": [
-        "OBLIVIOUS"
+        "OBLIVIOUS",
+        "FOREWARN"
       ],
       "bodyColor": "BODY_COLOR_RED",
       "catchRate": 45,
@@ -18319,7 +18390,8 @@
       ],
       "natDexNum": 127,
       "abilities": [
-        "HYPER_CUTTER"
+        "HYPER_CUTTER",
+        "MOLD_BREAKER"
       ],
       "bodyColor": "BODY_COLOR_BROWN",
       "catchRate": 45,
@@ -18419,7 +18491,8 @@
       ],
       "natDexNum": 128,
       "abilities": [
-        "INTIMIDATE"
+        "INTIMIDATE",
+        "ANGER_POINT"
       ],
       "bodyColor": "BODY_COLOR_BROWN",
       "catchRate": 45,
@@ -19175,7 +19248,8 @@
     ],
     "natDexNum": 133,
     "abilities": [
-      "RUN_AWAY"
+      "RUN_AWAY",
+      "ADAPTABILITY"
     ],
     "bodyColor": "BODY_COLOR_BROWN",
     "catchRate": 45,
@@ -19225,7 +19299,8 @@
       ],
       "natDexNum": 133,
       "abilities": [
-        "RUN_AWAY"
+        "RUN_AWAY",
+        "ADAPTABILITY"
       ],
       "bodyColor": "BODY_COLOR_BROWN",
       "catchRate": 45,
@@ -20018,7 +20093,8 @@
     ],
     "natDexNum": 137,
     "abilities": [
-      "TRACE"
+      "TRACE",
+      "DOWNLOAD"
     ],
     "bodyColor": "BODY_COLOR_PINK",
     "catchRate": 45,
@@ -20063,7 +20139,8 @@
       ],
       "natDexNum": 137,
       "abilities": [
-        "TRACE"
+        "TRACE",
+        "DOWNLOAD"
       ],
       "bodyColor": "BODY_COLOR_PINK",
       "catchRate": 45,
@@ -20110,7 +20187,8 @@
     ],
     "natDexNum": 233,
     "abilities": [
-      "TRACE"
+      "TRACE",
+      "DOWNLOAD"
     ],
     "bodyColor": "BODY_COLOR_RED",
     "catchRate": 45,
@@ -20155,7 +20233,8 @@
       ],
       "natDexNum": 233,
       "abilities": [
-        "TRACE"
+        "TRACE",
+        "DOWNLOAD"
       ],
       "bodyColor": "BODY_COLOR_RED",
       "catchRate": 45,
@@ -25276,7 +25355,8 @@
     ],
     "natDexNum": 187,
     "abilities": [
-      "CHLOROPHYLL"
+      "CHLOROPHYLL",
+      "LEAF_GUARD"
     ],
     "bodyColor": "BODY_COLOR_PINK",
     "catchRate": 255,
@@ -25323,7 +25403,8 @@
       ],
       "natDexNum": 187,
       "abilities": [
-        "CHLOROPHYLL"
+        "CHLOROPHYLL",
+        "LEAF_GUARD"
       ],
       "bodyColor": "BODY_COLOR_PINK",
       "catchRate": 255,
@@ -25372,7 +25453,8 @@
     ],
     "natDexNum": 188,
     "abilities": [
-      "CHLOROPHYLL"
+      "CHLOROPHYLL",
+      "LEAF_GUARD"
     ],
     "bodyColor": "BODY_COLOR_GREEN",
     "catchRate": 120,
@@ -25419,7 +25501,8 @@
       ],
       "natDexNum": 188,
       "abilities": [
-        "CHLOROPHYLL"
+        "CHLOROPHYLL",
+        "LEAF_GUARD"
       ],
       "bodyColor": "BODY_COLOR_GREEN",
       "catchRate": 120,
@@ -25516,7 +25599,8 @@
       ],
       "natDexNum": 189,
       "abilities": [
-        "CHLOROPHYLL"
+        "CHLOROPHYLL",
+        "LEAF_GUARD"
       ],
       "bodyColor": "BODY_COLOR_BLUE",
       "catchRate": 45,
@@ -25752,7 +25836,8 @@
     ],
     "natDexNum": 191,
     "abilities": [
-      "CHLOROPHYLL"
+      "CHLOROPHYLL",
+      "SOLAR_POWER"
     ],
     "bodyColor": "BODY_COLOR_YELLOW",
     "catchRate": 235,
@@ -25797,7 +25882,8 @@
       ],
       "natDexNum": 191,
       "abilities": [
-        "CHLOROPHYLL"
+        "CHLOROPHYLL",
+        "SOLAR_POWER"
       ],
       "bodyColor": "BODY_COLOR_YELLOW",
       "catchRate": 235,
@@ -25845,7 +25931,8 @@
     ],
     "natDexNum": 192,
     "abilities": [
-      "CHLOROPHYLL"
+      "CHLOROPHYLL",
+      "SOLAR_POWER"
     ],
     "bodyColor": "BODY_COLOR_YELLOW",
     "catchRate": 120,
@@ -25890,7 +25977,8 @@
       ],
       "natDexNum": 192,
       "abilities": [
-        "CHLOROPHYLL"
+        "CHLOROPHYLL",
+        "SOLAR_POWER"
       ],
       "bodyColor": "BODY_COLOR_YELLOW",
       "catchRate": 120,
@@ -26577,7 +26665,8 @@
       ],
       "natDexNum": 198,
       "abilities": [
-        "INSOMNIA"
+        "INSOMNIA",
+        "SUPER_LUCK"
       ],
       "bodyColor": "BODY_COLOR_BLACK",
       "catchRate": 30,
@@ -30664,7 +30753,8 @@
       ],
       "natDexNum": 210,
       "abilities": [
-        "INTIMIDATE"
+        "INTIMIDATE",
+        "QUICK_FEET"
       ],
       "bodyColor": "BODY_COLOR_PURPLE",
       "catchRate": 75,
@@ -31058,7 +31148,8 @@
       ],
       "natDexNum": 213,
       "abilities": [
-        "STURDY"
+        "STURDY",
+        "GLUTTONY"
       ],
       "bodyColor": "BODY_COLOR_YELLOW",
       "catchRate": 190,
@@ -31606,7 +31697,8 @@
     ],
     "natDexNum": 216,
     "abilities": [
-      "PICKUP"
+      "PICKUP",
+      "QUICK_FEET"
     ],
     "bodyColor": "BODY_COLOR_BROWN",
     "catchRate": 120,
@@ -31652,7 +31744,8 @@
       ],
       "natDexNum": 216,
       "abilities": [
-        "PICKUP"
+        "PICKUP",
+        "QUICK_FEET"
       ],
       "bodyColor": "BODY_COLOR_BROWN",
       "catchRate": 120,
@@ -31701,7 +31794,8 @@
     ],
     "natDexNum": 217,
     "abilities": [
-      "GUTS"
+      "GUTS",
+      "QUICK_FEET"
     ],
     "bodyColor": "BODY_COLOR_BROWN",
     "catchRate": 60,
@@ -31746,7 +31840,8 @@
       ],
       "natDexNum": 217,
       "abilities": [
-        "GUTS"
+        "GUTS",
+        "QUICK_FEET"
       ],
       "bodyColor": "BODY_COLOR_BROWN",
       "catchRate": 60,
@@ -32221,7 +32316,8 @@
       ],
       "natDexNum": 220,
       "abilities": [
-        "OBLIVIOUS"
+        "OBLIVIOUS",
+        "SNOW_CLOAK"
       ],
       "bodyColor": "BODY_COLOR_BROWN",
       "catchRate": 225,
@@ -32269,7 +32365,8 @@
     ],
     "natDexNum": 221,
     "abilities": [
-      "OBLIVIOUS"
+      "OBLIVIOUS",
+      "SNOW_CLOAK"
     ],
     "bodyColor": "BODY_COLOR_BROWN",
     "catchRate": 75,
@@ -32315,7 +32412,8 @@
       ],
       "natDexNum": 221,
       "abilities": [
-        "OBLIVIOUS"
+        "OBLIVIOUS",
+        "SNOW_CLOAK"
       ],
       "bodyColor": "BODY_COLOR_BROWN",
       "catchRate": 75,
@@ -32752,7 +32850,8 @@
     ],
     "natDexNum": 223,
     "abilities": [
-      "HUSTLE"
+      "HUSTLE",
+      "SNIPER"
     ],
     "bodyColor": "BODY_COLOR_GRAY",
     "catchRate": 190,
@@ -32798,7 +32897,8 @@
       ],
       "natDexNum": 223,
       "abilities": [
-        "HUSTLE"
+        "HUSTLE",
+        "SNIPER"
       ],
       "bodyColor": "BODY_COLOR_GRAY",
       "catchRate": 190,
@@ -32893,7 +32993,8 @@
       ],
       "natDexNum": 224,
       "abilities": [
-        "SUCTION_CUPS"
+        "SUCTION_CUPS",
+        "SNIPER"
       ],
       "bodyColor": "BODY_COLOR_RED",
       "catchRate": 75,
@@ -33720,7 +33821,8 @@
     ],
     "natDexNum": 234,
     "abilities": [
-      "INTIMIDATE"
+      "INTIMIDATE",
+      "FRISK"
     ],
     "bodyColor": "BODY_COLOR_BROWN",
     "catchRate": 45,
@@ -33765,7 +33867,8 @@
       ],
       "natDexNum": 234,
       "abilities": [
-        "INTIMIDATE"
+        "INTIMIDATE",
+        "FRISK"
       ],
       "bodyColor": "BODY_COLOR_BROWN",
       "catchRate": 45,
@@ -33954,7 +34057,8 @@
       ],
       "natDexNum": 235,
       "abilities": [
-        "OWN_TEMPO"
+        "OWN_TEMPO",
+        "TECHNICIAN"
       ],
       "bodyColor": "BODY_COLOR_WHITE",
       "catchRate": 45,
@@ -34001,7 +34105,8 @@
     ],
     "natDexNum": 241,
     "abilities": [
-      "THICK_FAT"
+      "THICK_FAT",
+      "SCRAPPY"
     ],
     "bodyColor": "BODY_COLOR_PINK",
     "catchRate": 45,
@@ -34048,7 +34153,8 @@
       ],
       "natDexNum": 241,
       "abilities": [
-        "THICK_FAT"
+        "THICK_FAT",
+        "SCRAPPY"
       ],
       "bodyColor": "BODY_COLOR_PINK",
       "catchRate": 45,
@@ -35875,7 +35981,8 @@
     ],
     "natDexNum": 261,
     "abilities": [
-      "RUN_AWAY"
+      "RUN_AWAY",
+      "QUICK_FEET"
     ],
     "bodyColor": "BODY_COLOR_GRAY",
     "catchRate": 255,
@@ -35920,7 +36027,8 @@
       ],
       "natDexNum": 261,
       "abilities": [
-        "RUN_AWAY"
+        "RUN_AWAY",
+        "QUICK_FEET"
       ],
       "bodyColor": "BODY_COLOR_GRAY",
       "catchRate": 255,
@@ -35967,7 +36075,8 @@
     ],
     "natDexNum": 262,
     "abilities": [
-      "INTIMIDATE"
+      "INTIMIDATE",
+      "QUICK_FEET"
     ],
     "bodyColor": "BODY_COLOR_GRAY",
     "catchRate": 127,
@@ -36012,7 +36121,8 @@
       ],
       "natDexNum": 262,
       "abilities": [
-        "INTIMIDATE"
+        "INTIMIDATE",
+        "QUICK_FEET"
       ],
       "bodyColor": "BODY_COLOR_GRAY",
       "catchRate": 127,
@@ -36059,7 +36169,8 @@
     ],
     "natDexNum": 263,
     "abilities": [
-      "PICKUP"
+      "PICKUP",
+      "GLUTTONY"
     ],
     "bodyColor": "BODY_COLOR_BROWN",
     "catchRate": 255,
@@ -36106,7 +36217,8 @@
       ],
       "natDexNum": 263,
       "abilities": [
-        "PICKUP"
+        "PICKUP",
+        "GLUTTONY"
       ],
       "bodyColor": "BODY_COLOR_BROWN",
       "catchRate": 255,
@@ -36203,7 +36315,8 @@
       ],
       "natDexNum": 264,
       "abilities": [
-        "PICKUP"
+        "PICKUP",
+        "GLUTTONY"
       ],
       "bodyColor": "BODY_COLOR_WHITE",
       "catchRate": 90,
@@ -37569,7 +37682,7 @@
       "natDexNum": 275,
       "abilities": [
         "CHLOROPHYLL",
-        "EARLY_BIRD"
+        "WIND_RIDER"
       ],
       "bodyColor": "BODY_COLOR_BROWN",
       "catchRate": 45,
@@ -37809,7 +37922,8 @@
     ],
     "natDexNum": 278,
     "abilities": [
-      "KEEN_EYE"
+      "KEEN_EYE",
+      "HYDRATION"
     ],
     "bodyColor": "BODY_COLOR_WHITE",
     "catchRate": 190,
@@ -37857,7 +37971,8 @@
       ],
       "natDexNum": 278,
       "abilities": [
-        "KEEN_EYE"
+        "KEEN_EYE",
+        "HYDRATION"
       ],
       "bodyColor": "BODY_COLOR_WHITE",
       "catchRate": 190,
@@ -37956,7 +38071,8 @@
       ],
       "natDexNum": 279,
       "abilities": [
-        "KEEN_EYE"
+        "KEEN_EYE",
+        "DRIZZLE"
       ],
       "bodyColor": "BODY_COLOR_YELLOW",
       "catchRate": 45,
@@ -38355,7 +38471,8 @@
       ],
       "natDexNum": 475,
       "abilities": [
-        "STEADFAST"
+        "STEADFAST",
+        "SHARPNESS"
       ],
       "bodyColor": "BODY_COLOR_WHITE",
       "catchRate": 45,
@@ -38606,7 +38723,8 @@
     ],
     "natDexNum": 285,
     "abilities": [
-      "EFFECT_SPORE"
+      "EFFECT_SPORE",
+      "POISON_HEAL"
     ],
     "bodyColor": "BODY_COLOR_BROWN",
     "catchRate": 255,
@@ -38654,7 +38772,8 @@
       ],
       "natDexNum": 285,
       "abilities": [
-        "EFFECT_SPORE"
+        "EFFECT_SPORE",
+        "POISON_HEAL"
       ],
       "bodyColor": "BODY_COLOR_BROWN",
       "catchRate": 255,
@@ -38755,7 +38874,8 @@
       ],
       "natDexNum": 286,
       "abilities": [
-        "EFFECT_SPORE"
+        "EFFECT_SPORE",
+        "POISON_HEAL"
       ],
       "bodyColor": "BODY_COLOR_GREEN",
       "catchRate": 90,
@@ -40082,7 +40202,8 @@
       ],
       "natDexNum": 300,
       "abilities": [
-        "CUTE_CHARM"
+        "CUTE_CHARM",
+        "NORMALIZE"
       ],
       "bodyColor": "BODY_COLOR_PINK",
       "catchRate": 255,
@@ -40178,7 +40299,8 @@
       ],
       "natDexNum": 301,
       "abilities": [
-        "CUTE_CHARM"
+        "CUTE_CHARM",
+        "NORMALIZE"
       ],
       "bodyColor": "BODY_COLOR_PURPLE",
       "catchRate": 60,
@@ -40280,7 +40402,8 @@
       ],
       "natDexNum": 302,
       "abilities": [
-        "KEEN_EYE"
+        "KEEN_EYE",
+        "STALL"
       ],
       "bodyColor": "BODY_COLOR_PURPLE",
       "catchRate": 45,
@@ -41439,7 +41562,8 @@
     ],
     "natDexNum": 314,
     "abilities": [
-      "OBLIVIOUS"
+      "OBLIVIOUS",
+      "TINTED_LENS"
     ],
     "bodyColor": "BODY_COLOR_PURPLE",
     "catchRate": 150,
@@ -41486,7 +41610,8 @@
       ],
       "natDexNum": 314,
       "abilities": [
-        "OBLIVIOUS"
+        "OBLIVIOUS",
+        "TINTED_LENS"
       ],
       "bodyColor": "BODY_COLOR_PURPLE",
       "catchRate": 150,
@@ -42428,7 +42553,8 @@
     ],
     "natDexNum": 322,
     "abilities": [
-      "OBLIVIOUS"
+      "OBLIVIOUS",
+      "SIMPLE"
     ],
     "bodyColor": "BODY_COLOR_YELLOW",
     "catchRate": 255,
@@ -42474,7 +42600,8 @@
       ],
       "natDexNum": 322,
       "abilities": [
-        "OBLIVIOUS"
+        "OBLIVIOUS",
+        "SIMPLE"
       ],
       "bodyColor": "BODY_COLOR_YELLOW",
       "catchRate": 255,
@@ -42575,7 +42702,8 @@
       ],
       "natDexNum": 323,
       "abilities": [
-        "MAGMA_ARMOR"
+        "MAGMA_ARMOR",
+        "SOLID_ROCK"
       ],
       "bodyColor": "BODY_COLOR_RED",
       "catchRate": 150,
@@ -42674,7 +42802,8 @@
       ],
       "natDexNum": 324,
       "abilities": [
-        "WHITE_SMOKE"
+        "WHITE_SMOKE",
+        "DROUGHT"
       ],
       "bodyColor": "BODY_COLOR_BROWN",
       "catchRate": 90,
@@ -42958,7 +43087,8 @@
       ],
       "natDexNum": 327,
       "abilities": [
-        "OWN_TEMPO"
+        "OWN_TEMPO",
+        "TANGLED_FEET"
       ],
       "bodyColor": "BODY_COLOR_BROWN",
       "catchRate": 255,
@@ -44128,7 +44258,8 @@
       ],
       "natDexNum": 339,
       "abilities": [
-        "OBLIVIOUS"
+        "OBLIVIOUS",
+        "ANTICIPATION"
       ],
       "bodyColor": "BODY_COLOR_GRAY",
       "catchRate": 190,
@@ -44223,7 +44354,8 @@
       ],
       "natDexNum": 340,
       "abilities": [
-        "OBLIVIOUS"
+        "OBLIVIOUS",
+        "ANTICIPATION"
       ],
       "bodyColor": "BODY_COLOR_BLUE",
       "catchRate": 75,
@@ -45040,7 +45172,8 @@
     ],
     "natDexNum": 349,
     "abilities": [
-      "SWIFT_SWIM"
+      "SWIFT_SWIM",
+      "OBLIVIOUS"
     ],
     "bodyColor": "BODY_COLOR_BROWN",
     "catchRate": 255,
@@ -45086,7 +45219,8 @@
       ],
       "natDexNum": 349,
       "abilities": [
-        "SWIFT_SWIM"
+        "SWIFT_SWIM",
+        "OBLIVIOUS"
       ],
       "bodyColor": "BODY_COLOR_BROWN",
       "catchRate": 255,
@@ -45135,7 +45269,8 @@
     ],
     "natDexNum": 350,
     "abilities": [
-      "MARVEL_SCALE"
+      "MARVEL_SCALE",
+      "COMPETITIVE"
     ],
     "bodyColor": "BODY_COLOR_PINK",
     "catchRate": 60,
@@ -45181,7 +45316,8 @@
       ],
       "natDexNum": 350,
       "abilities": [
-        "MARVEL_SCALE"
+        "MARVEL_SCALE",
+        "COMPETITIVE"
       ],
       "bodyColor": "BODY_COLOR_PINK",
       "catchRate": 60,
@@ -46141,7 +46277,8 @@
       ],
       "natDexNum": 353,
       "abilities": [
-        "INSOMNIA"
+        "INSOMNIA",
+        "FRISK"
       ],
       "bodyColor": "BODY_COLOR_BLACK",
       "catchRate": 225,
@@ -46242,7 +46379,8 @@
       ],
       "natDexNum": 354,
       "abilities": [
-        "INSOMNIA"
+        "INSOMNIA",
+        "FRISK"
       ],
       "bodyColor": "BODY_COLOR_BLACK",
       "catchRate": 45,
@@ -46627,7 +46765,8 @@
       ],
       "natDexNum": 357,
       "abilities": [
-        "CHLOROPHYLL"
+        "CHLOROPHYLL",
+        "SOLAR_POWER"
       ],
       "bodyColor": "BODY_COLOR_GREEN",
       "catchRate": 200,
@@ -46863,7 +47002,8 @@
     ],
     "natDexNum": 359,
     "abilities": [
-      "PRESSURE"
+      "PRESSURE",
+      "SUPER_LUCK"
     ],
     "bodyColor": "BODY_COLOR_WHITE",
     "catchRate": 30,
@@ -46914,7 +47054,8 @@
       ],
       "natDexNum": 359,
       "abilities": [
-        "PRESSURE"
+        "PRESSURE",
+        "SUPER_LUCK"
       ],
       "bodyColor": "BODY_COLOR_WHITE",
       "catchRate": 30,
@@ -47015,7 +47156,8 @@
       ],
       "natDexNum": 361,
       "abilities": [
-        "INNER_FOCUS"
+        "INNER_FOCUS",
+        "ICE_BODY"
       ],
       "bodyColor": "BODY_COLOR_GRAY",
       "catchRate": 190,
@@ -47117,7 +47259,8 @@
       ],
       "natDexNum": 362,
       "abilities": [
-        "INNER_FOCUS"
+        "INNER_FOCUS",
+        "ICE_BODY"
       ],
       "bodyColor": "BODY_COLOR_GRAY",
       "catchRate": 75,
@@ -47269,7 +47412,8 @@
     ],
     "natDexNum": 363,
     "abilities": [
-      "THICK_FAT"
+      "THICK_FAT",
+      "ICE_BODY"
     ],
     "bodyColor": "BODY_COLOR_BLUE",
     "catchRate": 255,
@@ -47316,7 +47460,8 @@
       ],
       "natDexNum": 363,
       "abilities": [
-        "THICK_FAT"
+        "THICK_FAT",
+        "ICE_BODY"
       ],
       "bodyColor": "BODY_COLOR_BLUE",
       "catchRate": 255,
@@ -47365,7 +47510,8 @@
     ],
     "natDexNum": 364,
     "abilities": [
-      "THICK_FAT"
+      "THICK_FAT",
+      "ICE_BODY"
     ],
     "bodyColor": "BODY_COLOR_BLUE",
     "catchRate": 120,
@@ -47412,7 +47558,8 @@
       ],
       "natDexNum": 364,
       "abilities": [
-        "THICK_FAT"
+        "THICK_FAT",
+        "ICE_BODY"
       ],
       "bodyColor": "BODY_COLOR_BLUE",
       "catchRate": 120,
@@ -47461,7 +47608,8 @@
     ],
     "natDexNum": 365,
     "abilities": [
-      "THICK_FAT"
+      "THICK_FAT",
+      "ICE_BODY"
     ],
     "bodyColor": "BODY_COLOR_BLUE",
     "catchRate": 45,
@@ -47508,7 +47656,8 @@
       ],
       "natDexNum": 365,
       "abilities": [
-        "THICK_FAT"
+        "THICK_FAT",
+        "ICE_BODY"
       ],
       "bodyColor": "BODY_COLOR_BLUE",
       "catchRate": 45,
@@ -62611,7 +62760,8 @@
     ],
     "natDexNum": 524,
     "abilities": [
-      "STURDY"
+      "STURDY",
+      "WEAK_ARMOR"
     ],
     "bodyColor": "BODY_COLOR_BLUE",
     "catchRate": 255,
@@ -62658,7 +62808,8 @@
       ],
       "natDexNum": 524,
       "abilities": [
-        "STURDY"
+        "STURDY",
+        "WEAK_ARMOR"
       ],
       "bodyColor": "BODY_COLOR_BLUE",
       "catchRate": 255,
@@ -62707,7 +62858,8 @@
     ],
     "natDexNum": 525,
     "abilities": [
-      "STURDY"
+      "STURDY",
+      "WEAK_ARMOR"
     ],
     "bodyColor": "BODY_COLOR_BLUE",
     "catchRate": 120,
@@ -62754,7 +62906,8 @@
       ],
       "natDexNum": 525,
       "abilities": [
-        "STURDY"
+        "STURDY",
+        "WEAK_ARMOR"
       ],
       "bodyColor": "BODY_COLOR_BLUE",
       "catchRate": 120,
@@ -62803,7 +62956,8 @@
     ],
     "natDexNum": 526,
     "abilities": [
-      "STURDY"
+      "STURDY",
+      "SAND_STREAM"
     ],
     "bodyColor": "BODY_COLOR_BLUE",
     "catchRate": 45,
@@ -62850,7 +63004,8 @@
       ],
       "natDexNum": 526,
       "abilities": [
-        "STURDY"
+        "STURDY",
+        "SAND_STREAM"
       ],
       "bodyColor": "BODY_COLOR_BLUE",
       "catchRate": 45,
@@ -64647,7 +64802,7 @@
     ],
     "natDexNum": 545,
     "abilities": [
-      "SWARM",
+      "MERCILESS",
       "SPEED_BOOST"
     ],
     "bodyColor": "BODY_COLOR_RED",
@@ -68853,7 +69008,8 @@
       ],
       "natDexNum": 574,
       "abilities": [
-        "FRISK"
+        "FRISK",
+        "COMPETITIVE"
       ],
       "bodyColor": "BODY_COLOR_PURPLE",
       "catchRate": 200,
@@ -68947,7 +69103,8 @@
       ],
       "natDexNum": 575,
       "abilities": [
-        "FRISK"
+        "FRISK",
+        "COMPETITIVE"
       ],
       "bodyColor": "BODY_COLOR_PURPLE",
       "catchRate": 100,
@@ -69041,7 +69198,8 @@
       ],
       "natDexNum": 576,
       "abilities": [
-        "FRISK"
+        "FRISK",
+        "COMPETITIVE"
       ],
       "bodyColor": "BODY_COLOR_PURPLE",
       "catchRate": 50,
@@ -69613,7 +69771,8 @@
       ],
       "natDexNum": 582,
       "abilities": [
-        "ICE_BODY"
+        "ICE_BODY",
+        "SNOW_CLOAK"
       ],
       "bodyColor": "BODY_COLOR_WHITE",
       "catchRate": 255,
@@ -69708,7 +69867,8 @@
       ],
       "natDexNum": 583,
       "abilities": [
-        "ICE_BODY"
+        "ICE_BODY",
+        "SNOW_CLOAK"
       ],
       "bodyColor": "BODY_COLOR_WHITE",
       "catchRate": 120,
@@ -69803,7 +69963,8 @@
       ],
       "natDexNum": 584,
       "abilities": [
-        "ICE_BODY"
+        "ICE_BODY",
+        "SNOW_WARNING"
       ],
       "bodyColor": "BODY_COLOR_WHITE",
       "catchRate": 45,
@@ -72813,7 +72974,8 @@
     ],
     "natDexNum": 613,
     "abilities": [
-      "SNOW_CLOAK"
+      "SNOW_CLOAK",
+      "SLUSH_RUSH"
     ],
     "bodyColor": "BODY_COLOR_WHITE",
     "catchRate": 120,
@@ -72858,7 +73020,8 @@
       ],
       "natDexNum": 613,
       "abilities": [
-        "SNOW_CLOAK"
+        "SNOW_CLOAK",
+        "SLUSH_RUSH"
       ],
       "bodyColor": "BODY_COLOR_WHITE",
       "catchRate": 120,
@@ -72952,7 +73115,8 @@
       ],
       "natDexNum": 614,
       "abilities": [
-        "SNOW_CLOAK"
+        "SNOW_CLOAK",
+        "SLUSH_RUSH"
       ],
       "bodyColor": "BODY_COLOR_WHITE",
       "catchRate": 60,
@@ -74826,14 +74990,14 @@
   {
     "species": "HEATMOR",
     "stats": [
-      85,
+      95,
       97,
       66,
-      105,
+      115,
       66,
       65
     ],
-    "bst": 484,
+    "bst": 504,
     "generation": 5,
     "types": [
       "FIRE"
@@ -74921,13 +75085,13 @@
     "species": "DURANT",
     "stats": [
       58,
-      109,
-      112,
+      119,
+      122,
       48,
       48,
       109
     ],
-    "bst": 484,
+    "bst": 504,
     "generation": 5,
     "types": [
       "BUG",
@@ -74935,7 +75099,7 @@
     ],
     "natDexNum": 632,
     "abilities": [
-      "STRONG_JAW",
+      "HEATPROOF",
       "HUSTLE"
     ],
     "bodyColor": "BODY_COLOR_GRAY",
