@@ -94553,6 +94553,1434 @@
     }
   },
   {
+    "species": "MINIOR",
+    "stats": [
+      60,
+      60,
+      100,
+      60,
+      100,
+      60
+    ],
+    "bst": 440,
+    "generation": 7,
+    "types": [
+      "ROCK",
+      "FLYING"
+    ],
+    "natDexNum": 774,
+    "abilities": [
+      "SHIELDS_DOWN"
+    ],
+    "bodyColor": "BODY_COLOR_BROWN",
+    "catchRate": 30,
+    "categoryName": "Meteor",
+    "speciesName": "Minior",
+    "description": "",
+    "eggCycles": 25,
+    "eggGroups": [
+      "MINERAL"
+    ],
+    "evolutions": [],
+    "formChangeTable": [],
+    "evYield": [
+      null,
+      null,
+      1,
+      null,
+      1,
+      null
+    ],
+    "expYield": 154,
+    "friendship": "STANDARD_FRIENDSHIP",
+    "genderRatio": "MON_GENDERLESS",
+    "growthRate": "GROWTH_MEDIUM_SLOW",
+    "height": 3,
+    "weight": 400,
+    "itemRare": "ITEM_STAR_PIECE",
+    "flags": [],
+    "old": {
+      "species": "MINIOR",
+      "stats": [
+        60,
+        60,
+        100,
+        60,
+        100,
+        60
+      ],
+      "bst": 440,
+      "generation": 7,
+      "types": [
+        "ROCK",
+        "FLYING"
+      ],
+      "natDexNum": 774,
+      "abilities": [
+        "SHIELDS_DOWN"
+      ],
+      "bodyColor": "BODY_COLOR_BROWN",
+      "catchRate": 30,
+      "categoryName": "Meteor",
+      "speciesName": "Minior",
+      "description": "",
+      "eggCycles": 25,
+      "eggGroups": [
+        "MINERAL"
+      ],
+      "evolutions": [],
+      "formChangeTable": [],
+      "evYield": [
+        null,
+        null,
+        1,
+        null,
+        1,
+        null
+      ],
+      "expYield": 154,
+      "friendship": "STANDARD_FRIENDSHIP",
+      "genderRatio": "MON_GENDERLESS",
+      "growthRate": "GROWTH_MEDIUM_SLOW",
+      "height": 3,
+      "weight": 400,
+      "itemRare": "ITEM_STAR_PIECE",
+      "flags": []
+    }
+  },
+  {
+    "species": "MINIOR_METEOR_ORANGE",
+    "stats": [
+      60,
+      60,
+      100,
+      60,
+      100,
+      60
+    ],
+    "bst": 440,
+    "generation": 7,
+    "types": [
+      "ROCK",
+      "FLYING"
+    ],
+    "natDexNum": 774,
+    "abilities": [
+      "SHIELDS_DOWN"
+    ],
+    "bodyColor": "BODY_COLOR_BROWN",
+    "catchRate": 30,
+    "categoryName": "Meteor",
+    "speciesName": "Minior",
+    "description": "",
+    "eggCycles": 25,
+    "eggGroups": [
+      "MINERAL"
+    ],
+    "evolutions": [],
+    "formChangeTable": [],
+    "evYield": [
+      null,
+      null,
+      1,
+      null,
+      1,
+      null
+    ],
+    "expYield": 154,
+    "friendship": "STANDARD_FRIENDSHIP",
+    "genderRatio": "MON_GENDERLESS",
+    "growthRate": "GROWTH_MEDIUM_SLOW",
+    "height": 3,
+    "weight": 400,
+    "itemRare": "ITEM_STAR_PIECE",
+    "flags": [],
+    "old": {
+      "species": "MINIOR_METEOR_ORANGE",
+      "stats": [
+        60,
+        60,
+        100,
+        60,
+        100,
+        60
+      ],
+      "bst": 440,
+      "generation": 7,
+      "types": [
+        "ROCK",
+        "FLYING"
+      ],
+      "natDexNum": 774,
+      "abilities": [
+        "SHIELDS_DOWN"
+      ],
+      "bodyColor": "BODY_COLOR_BROWN",
+      "catchRate": 30,
+      "categoryName": "Meteor",
+      "speciesName": "Minior",
+      "description": "",
+      "eggCycles": 25,
+      "eggGroups": [
+        "MINERAL"
+      ],
+      "evolutions": [],
+      "formChangeTable": [],
+      "evYield": [
+        null,
+        null,
+        1,
+        null,
+        1,
+        null
+      ],
+      "expYield": 154,
+      "friendship": "STANDARD_FRIENDSHIP",
+      "genderRatio": "MON_GENDERLESS",
+      "growthRate": "GROWTH_MEDIUM_SLOW",
+      "height": 3,
+      "weight": 400,
+      "itemRare": "ITEM_STAR_PIECE",
+      "flags": []
+    }
+  },
+  {
+    "species": "MINIOR_METEOR_YELLOW",
+    "stats": [
+      60,
+      60,
+      100,
+      60,
+      100,
+      60
+    ],
+    "bst": 440,
+    "generation": 7,
+    "types": [
+      "ROCK",
+      "FLYING"
+    ],
+    "natDexNum": 774,
+    "abilities": [
+      "SHIELDS_DOWN"
+    ],
+    "bodyColor": "BODY_COLOR_BROWN",
+    "catchRate": 30,
+    "categoryName": "Meteor",
+    "speciesName": "Minior",
+    "description": "",
+    "eggCycles": 25,
+    "eggGroups": [
+      "MINERAL"
+    ],
+    "evolutions": [],
+    "formChangeTable": [],
+    "evYield": [
+      null,
+      null,
+      1,
+      null,
+      1,
+      null
+    ],
+    "expYield": 154,
+    "friendship": "STANDARD_FRIENDSHIP",
+    "genderRatio": "MON_GENDERLESS",
+    "growthRate": "GROWTH_MEDIUM_SLOW",
+    "height": 3,
+    "weight": 400,
+    "itemRare": "ITEM_STAR_PIECE",
+    "flags": [],
+    "old": {
+      "species": "MINIOR_METEOR_YELLOW",
+      "stats": [
+        60,
+        60,
+        100,
+        60,
+        100,
+        60
+      ],
+      "bst": 440,
+      "generation": 7,
+      "types": [
+        "ROCK",
+        "FLYING"
+      ],
+      "natDexNum": 774,
+      "abilities": [
+        "SHIELDS_DOWN"
+      ],
+      "bodyColor": "BODY_COLOR_BROWN",
+      "catchRate": 30,
+      "categoryName": "Meteor",
+      "speciesName": "Minior",
+      "description": "",
+      "eggCycles": 25,
+      "eggGroups": [
+        "MINERAL"
+      ],
+      "evolutions": [],
+      "formChangeTable": [],
+      "evYield": [
+        null,
+        null,
+        1,
+        null,
+        1,
+        null
+      ],
+      "expYield": 154,
+      "friendship": "STANDARD_FRIENDSHIP",
+      "genderRatio": "MON_GENDERLESS",
+      "growthRate": "GROWTH_MEDIUM_SLOW",
+      "height": 3,
+      "weight": 400,
+      "itemRare": "ITEM_STAR_PIECE",
+      "flags": []
+    }
+  },
+  {
+    "species": "MINIOR_METEOR_GREEN",
+    "stats": [
+      60,
+      60,
+      100,
+      60,
+      100,
+      60
+    ],
+    "bst": 440,
+    "generation": 7,
+    "types": [
+      "ROCK",
+      "FLYING"
+    ],
+    "natDexNum": 774,
+    "abilities": [
+      "SHIELDS_DOWN"
+    ],
+    "bodyColor": "BODY_COLOR_BROWN",
+    "catchRate": 30,
+    "categoryName": "Meteor",
+    "speciesName": "Minior",
+    "description": "",
+    "eggCycles": 25,
+    "eggGroups": [
+      "MINERAL"
+    ],
+    "evolutions": [],
+    "formChangeTable": [],
+    "evYield": [
+      null,
+      null,
+      1,
+      null,
+      1,
+      null
+    ],
+    "expYield": 154,
+    "friendship": "STANDARD_FRIENDSHIP",
+    "genderRatio": "MON_GENDERLESS",
+    "growthRate": "GROWTH_MEDIUM_SLOW",
+    "height": 3,
+    "weight": 400,
+    "itemRare": "ITEM_STAR_PIECE",
+    "flags": [],
+    "old": {
+      "species": "MINIOR_METEOR_GREEN",
+      "stats": [
+        60,
+        60,
+        100,
+        60,
+        100,
+        60
+      ],
+      "bst": 440,
+      "generation": 7,
+      "types": [
+        "ROCK",
+        "FLYING"
+      ],
+      "natDexNum": 774,
+      "abilities": [
+        "SHIELDS_DOWN"
+      ],
+      "bodyColor": "BODY_COLOR_BROWN",
+      "catchRate": 30,
+      "categoryName": "Meteor",
+      "speciesName": "Minior",
+      "description": "",
+      "eggCycles": 25,
+      "eggGroups": [
+        "MINERAL"
+      ],
+      "evolutions": [],
+      "formChangeTable": [],
+      "evYield": [
+        null,
+        null,
+        1,
+        null,
+        1,
+        null
+      ],
+      "expYield": 154,
+      "friendship": "STANDARD_FRIENDSHIP",
+      "genderRatio": "MON_GENDERLESS",
+      "growthRate": "GROWTH_MEDIUM_SLOW",
+      "height": 3,
+      "weight": 400,
+      "itemRare": "ITEM_STAR_PIECE",
+      "flags": []
+    }
+  },
+  {
+    "species": "MINIOR_METEOR_BLUE",
+    "stats": [
+      60,
+      60,
+      100,
+      60,
+      100,
+      60
+    ],
+    "bst": 440,
+    "generation": 7,
+    "types": [
+      "ROCK",
+      "FLYING"
+    ],
+    "natDexNum": 774,
+    "abilities": [
+      "SHIELDS_DOWN"
+    ],
+    "bodyColor": "BODY_COLOR_BROWN",
+    "catchRate": 30,
+    "categoryName": "Meteor",
+    "speciesName": "Minior",
+    "description": "",
+    "eggCycles": 25,
+    "eggGroups": [
+      "MINERAL"
+    ],
+    "evolutions": [],
+    "formChangeTable": [],
+    "evYield": [
+      null,
+      null,
+      1,
+      null,
+      1,
+      null
+    ],
+    "expYield": 154,
+    "friendship": "STANDARD_FRIENDSHIP",
+    "genderRatio": "MON_GENDERLESS",
+    "growthRate": "GROWTH_MEDIUM_SLOW",
+    "height": 3,
+    "weight": 400,
+    "itemRare": "ITEM_STAR_PIECE",
+    "flags": [],
+    "old": {
+      "species": "MINIOR_METEOR_BLUE",
+      "stats": [
+        60,
+        60,
+        100,
+        60,
+        100,
+        60
+      ],
+      "bst": 440,
+      "generation": 7,
+      "types": [
+        "ROCK",
+        "FLYING"
+      ],
+      "natDexNum": 774,
+      "abilities": [
+        "SHIELDS_DOWN"
+      ],
+      "bodyColor": "BODY_COLOR_BROWN",
+      "catchRate": 30,
+      "categoryName": "Meteor",
+      "speciesName": "Minior",
+      "description": "",
+      "eggCycles": 25,
+      "eggGroups": [
+        "MINERAL"
+      ],
+      "evolutions": [],
+      "formChangeTable": [],
+      "evYield": [
+        null,
+        null,
+        1,
+        null,
+        1,
+        null
+      ],
+      "expYield": 154,
+      "friendship": "STANDARD_FRIENDSHIP",
+      "genderRatio": "MON_GENDERLESS",
+      "growthRate": "GROWTH_MEDIUM_SLOW",
+      "height": 3,
+      "weight": 400,
+      "itemRare": "ITEM_STAR_PIECE",
+      "flags": []
+    }
+  },
+  {
+    "species": "MINIOR_METEOR_INDIGO",
+    "stats": [
+      60,
+      60,
+      100,
+      60,
+      100,
+      60
+    ],
+    "bst": 440,
+    "generation": 7,
+    "types": [
+      "ROCK",
+      "FLYING"
+    ],
+    "natDexNum": 774,
+    "abilities": [
+      "SHIELDS_DOWN"
+    ],
+    "bodyColor": "BODY_COLOR_BROWN",
+    "catchRate": 30,
+    "categoryName": "Meteor",
+    "speciesName": "Minior",
+    "description": "",
+    "eggCycles": 25,
+    "eggGroups": [
+      "MINERAL"
+    ],
+    "evolutions": [],
+    "formChangeTable": [],
+    "evYield": [
+      null,
+      null,
+      1,
+      null,
+      1,
+      null
+    ],
+    "expYield": 154,
+    "friendship": "STANDARD_FRIENDSHIP",
+    "genderRatio": "MON_GENDERLESS",
+    "growthRate": "GROWTH_MEDIUM_SLOW",
+    "height": 3,
+    "weight": 400,
+    "itemRare": "ITEM_STAR_PIECE",
+    "flags": [],
+    "old": {
+      "species": "MINIOR_METEOR_INDIGO",
+      "stats": [
+        60,
+        60,
+        100,
+        60,
+        100,
+        60
+      ],
+      "bst": 440,
+      "generation": 7,
+      "types": [
+        "ROCK",
+        "FLYING"
+      ],
+      "natDexNum": 774,
+      "abilities": [
+        "SHIELDS_DOWN"
+      ],
+      "bodyColor": "BODY_COLOR_BROWN",
+      "catchRate": 30,
+      "categoryName": "Meteor",
+      "speciesName": "Minior",
+      "description": "",
+      "eggCycles": 25,
+      "eggGroups": [
+        "MINERAL"
+      ],
+      "evolutions": [],
+      "formChangeTable": [],
+      "evYield": [
+        null,
+        null,
+        1,
+        null,
+        1,
+        null
+      ],
+      "expYield": 154,
+      "friendship": "STANDARD_FRIENDSHIP",
+      "genderRatio": "MON_GENDERLESS",
+      "growthRate": "GROWTH_MEDIUM_SLOW",
+      "height": 3,
+      "weight": 400,
+      "itemRare": "ITEM_STAR_PIECE",
+      "flags": []
+    }
+  },
+  {
+    "species": "MINIOR_METEOR_VIOLET",
+    "stats": [
+      60,
+      60,
+      100,
+      60,
+      100,
+      60
+    ],
+    "bst": 440,
+    "generation": 7,
+    "types": [
+      "ROCK",
+      "FLYING"
+    ],
+    "natDexNum": 774,
+    "abilities": [
+      "SHIELDS_DOWN"
+    ],
+    "bodyColor": "BODY_COLOR_BROWN",
+    "catchRate": 30,
+    "categoryName": "Meteor",
+    "speciesName": "Minior",
+    "description": "",
+    "eggCycles": 25,
+    "eggGroups": [
+      "MINERAL"
+    ],
+    "evolutions": [],
+    "formChangeTable": [],
+    "evYield": [
+      null,
+      null,
+      1,
+      null,
+      1,
+      null
+    ],
+    "expYield": 154,
+    "friendship": "STANDARD_FRIENDSHIP",
+    "genderRatio": "MON_GENDERLESS",
+    "growthRate": "GROWTH_MEDIUM_SLOW",
+    "height": 3,
+    "weight": 400,
+    "itemRare": "ITEM_STAR_PIECE",
+    "flags": [],
+    "old": {
+      "species": "MINIOR_METEOR_VIOLET",
+      "stats": [
+        60,
+        60,
+        100,
+        60,
+        100,
+        60
+      ],
+      "bst": 440,
+      "generation": 7,
+      "types": [
+        "ROCK",
+        "FLYING"
+      ],
+      "natDexNum": 774,
+      "abilities": [
+        "SHIELDS_DOWN"
+      ],
+      "bodyColor": "BODY_COLOR_BROWN",
+      "catchRate": 30,
+      "categoryName": "Meteor",
+      "speciesName": "Minior",
+      "description": "",
+      "eggCycles": 25,
+      "eggGroups": [
+        "MINERAL"
+      ],
+      "evolutions": [],
+      "formChangeTable": [],
+      "evYield": [
+        null,
+        null,
+        1,
+        null,
+        1,
+        null
+      ],
+      "expYield": 154,
+      "friendship": "STANDARD_FRIENDSHIP",
+      "genderRatio": "MON_GENDERLESS",
+      "growthRate": "GROWTH_MEDIUM_SLOW",
+      "height": 3,
+      "weight": 400,
+      "itemRare": "ITEM_STAR_PIECE",
+      "flags": []
+    }
+  },
+  {
+    "species": "MINIOR_CORE",
+    "stats": [
+      60,
+      100,
+      60,
+      100,
+      60,
+      120
+    ],
+    "bst": 500,
+    "generation": 7,
+    "types": [
+      "ROCK",
+      "FLYING"
+    ],
+    "natDexNum": 774,
+    "abilities": [
+      "SHIELDS_DOWN"
+    ],
+    "bodyColor": "color",
+    "catchRate": 30,
+    "categoryName": "Meteor",
+    "speciesName": "Minior",
+    "description": "",
+    "eggCycles": 25,
+    "eggGroups": [
+      "MINERAL"
+    ],
+    "evolutions": [],
+    "formChangeTable": [
+      {
+        "form": "MINIOR_METEOR_RED",
+        "clause": "FORM_CHANGE_BATTLE_HP_PERCENT",
+        "method": "ABILITY_SHIELDS_DOWN"
+      }
+    ],
+    "evYield": [
+      null,
+      null,
+      1,
+      null,
+      1,
+      null
+    ],
+    "expYield": 154,
+    "friendship": "STANDARD_FRIENDSHIP",
+    "genderRatio": "MON_GENDERLESS",
+    "growthRate": "GROWTH_MEDIUM_SLOW",
+    "height": 3,
+    "weight": 3,
+    "itemRare": "ITEM_STAR_PIECE",
+    "flags": [],
+    "old": {
+      "species": "MINIOR_CORE",
+      "stats": [
+        60,
+        100,
+        60,
+        100,
+        60,
+        120
+      ],
+      "bst": 500,
+      "generation": 7,
+      "types": [
+        "ROCK",
+        "FLYING"
+      ],
+      "natDexNum": 774,
+      "abilities": [
+        "SHIELDS_DOWN"
+      ],
+      "bodyColor": "color",
+      "catchRate": 30,
+      "categoryName": "Meteor",
+      "speciesName": "Minior",
+      "description": "",
+      "eggCycles": 25,
+      "eggGroups": [
+        "MINERAL"
+      ],
+      "evolutions": [],
+      "formChangeTable": [
+        {
+          "form": "MINIOR_METEOR_RED",
+          "clause": "FORM_CHANGE_BATTLE_HP_PERCENT",
+          "method": "ABILITY_SHIELDS_DOWN"
+        }
+      ],
+      "evYield": [
+        null,
+        null,
+        1,
+        null,
+        1,
+        null
+      ],
+      "expYield": 154,
+      "friendship": "STANDARD_FRIENDSHIP",
+      "genderRatio": "MON_GENDERLESS",
+      "growthRate": "GROWTH_MEDIUM_SLOW",
+      "height": 3,
+      "weight": 3,
+      "itemRare": "ITEM_STAR_PIECE",
+      "flags": []
+    }
+  },
+  {
+    "species": "MINIOR_CORE_ORANGE",
+    "stats": [
+      60,
+      100,
+      60,
+      100,
+      60,
+      120
+    ],
+    "bst": 500,
+    "generation": 7,
+    "types": [
+      "ROCK",
+      "FLYING"
+    ],
+    "natDexNum": 774,
+    "abilities": [
+      "SHIELDS_DOWN"
+    ],
+    "bodyColor": "color",
+    "catchRate": 30,
+    "categoryName": "Meteor",
+    "speciesName": "Minior",
+    "description": "",
+    "eggCycles": 25,
+    "eggGroups": [
+      "MINERAL"
+    ],
+    "evolutions": [],
+    "formChangeTable": [
+      {
+        "form": "MINIOR_METEOR_ORANGE",
+        "clause": "FORM_CHANGE_BATTLE_HP_PERCENT",
+        "method": "ABILITY_SHIELDS_DOWN"
+      }
+    ],
+    "evYield": [
+      null,
+      null,
+      1,
+      null,
+      1,
+      null
+    ],
+    "expYield": 154,
+    "friendship": "STANDARD_FRIENDSHIP",
+    "genderRatio": "MON_GENDERLESS",
+    "growthRate": "GROWTH_MEDIUM_SLOW",
+    "height": 3,
+    "weight": 3,
+    "itemRare": "ITEM_STAR_PIECE",
+    "flags": [],
+    "old": {
+      "species": "MINIOR_CORE_ORANGE",
+      "stats": [
+        60,
+        100,
+        60,
+        100,
+        60,
+        120
+      ],
+      "bst": 500,
+      "generation": 7,
+      "types": [
+        "ROCK",
+        "FLYING"
+      ],
+      "natDexNum": 774,
+      "abilities": [
+        "SHIELDS_DOWN"
+      ],
+      "bodyColor": "color",
+      "catchRate": 30,
+      "categoryName": "Meteor",
+      "speciesName": "Minior",
+      "description": "",
+      "eggCycles": 25,
+      "eggGroups": [
+        "MINERAL"
+      ],
+      "evolutions": [],
+      "formChangeTable": [
+        {
+          "form": "MINIOR_METEOR_ORANGE",
+          "clause": "FORM_CHANGE_BATTLE_HP_PERCENT",
+          "method": "ABILITY_SHIELDS_DOWN"
+        }
+      ],
+      "evYield": [
+        null,
+        null,
+        1,
+        null,
+        1,
+        null
+      ],
+      "expYield": 154,
+      "friendship": "STANDARD_FRIENDSHIP",
+      "genderRatio": "MON_GENDERLESS",
+      "growthRate": "GROWTH_MEDIUM_SLOW",
+      "height": 3,
+      "weight": 3,
+      "itemRare": "ITEM_STAR_PIECE",
+      "flags": []
+    }
+  },
+  {
+    "species": "MINIOR_CORE_YELLOW",
+    "stats": [
+      60,
+      100,
+      60,
+      100,
+      60,
+      120
+    ],
+    "bst": 500,
+    "generation": 7,
+    "types": [
+      "ROCK",
+      "FLYING"
+    ],
+    "natDexNum": 774,
+    "abilities": [
+      "SHIELDS_DOWN"
+    ],
+    "bodyColor": "color",
+    "catchRate": 30,
+    "categoryName": "Meteor",
+    "speciesName": "Minior",
+    "description": "",
+    "eggCycles": 25,
+    "eggGroups": [
+      "MINERAL"
+    ],
+    "evolutions": [],
+    "formChangeTable": [
+      {
+        "form": "MINIOR_METEOR_YELLOW",
+        "clause": "FORM_CHANGE_BATTLE_HP_PERCENT",
+        "method": "ABILITY_SHIELDS_DOWN"
+      }
+    ],
+    "evYield": [
+      null,
+      null,
+      1,
+      null,
+      1,
+      null
+    ],
+    "expYield": 154,
+    "friendship": "STANDARD_FRIENDSHIP",
+    "genderRatio": "MON_GENDERLESS",
+    "growthRate": "GROWTH_MEDIUM_SLOW",
+    "height": 3,
+    "weight": 3,
+    "itemRare": "ITEM_STAR_PIECE",
+    "flags": [],
+    "old": {
+      "species": "MINIOR_CORE_YELLOW",
+      "stats": [
+        60,
+        100,
+        60,
+        100,
+        60,
+        120
+      ],
+      "bst": 500,
+      "generation": 7,
+      "types": [
+        "ROCK",
+        "FLYING"
+      ],
+      "natDexNum": 774,
+      "abilities": [
+        "SHIELDS_DOWN"
+      ],
+      "bodyColor": "color",
+      "catchRate": 30,
+      "categoryName": "Meteor",
+      "speciesName": "Minior",
+      "description": "",
+      "eggCycles": 25,
+      "eggGroups": [
+        "MINERAL"
+      ],
+      "evolutions": [],
+      "formChangeTable": [
+        {
+          "form": "MINIOR_METEOR_YELLOW",
+          "clause": "FORM_CHANGE_BATTLE_HP_PERCENT",
+          "method": "ABILITY_SHIELDS_DOWN"
+        }
+      ],
+      "evYield": [
+        null,
+        null,
+        1,
+        null,
+        1,
+        null
+      ],
+      "expYield": 154,
+      "friendship": "STANDARD_FRIENDSHIP",
+      "genderRatio": "MON_GENDERLESS",
+      "growthRate": "GROWTH_MEDIUM_SLOW",
+      "height": 3,
+      "weight": 3,
+      "itemRare": "ITEM_STAR_PIECE",
+      "flags": []
+    }
+  },
+  {
+    "species": "MINIOR_CORE_GREEN",
+    "stats": [
+      60,
+      100,
+      60,
+      100,
+      60,
+      120
+    ],
+    "bst": 500,
+    "generation": 7,
+    "types": [
+      "ROCK",
+      "FLYING"
+    ],
+    "natDexNum": 774,
+    "abilities": [
+      "SHIELDS_DOWN"
+    ],
+    "bodyColor": "color",
+    "catchRate": 30,
+    "categoryName": "Meteor",
+    "speciesName": "Minior",
+    "description": "",
+    "eggCycles": 25,
+    "eggGroups": [
+      "MINERAL"
+    ],
+    "evolutions": [],
+    "formChangeTable": [
+      {
+        "form": "MINIOR_METEOR_GREEN",
+        "clause": "FORM_CHANGE_BATTLE_HP_PERCENT",
+        "method": "ABILITY_SHIELDS_DOWN"
+      }
+    ],
+    "evYield": [
+      null,
+      null,
+      1,
+      null,
+      1,
+      null
+    ],
+    "expYield": 154,
+    "friendship": "STANDARD_FRIENDSHIP",
+    "genderRatio": "MON_GENDERLESS",
+    "growthRate": "GROWTH_MEDIUM_SLOW",
+    "height": 3,
+    "weight": 3,
+    "itemRare": "ITEM_STAR_PIECE",
+    "flags": [],
+    "old": {
+      "species": "MINIOR_CORE_GREEN",
+      "stats": [
+        60,
+        100,
+        60,
+        100,
+        60,
+        120
+      ],
+      "bst": 500,
+      "generation": 7,
+      "types": [
+        "ROCK",
+        "FLYING"
+      ],
+      "natDexNum": 774,
+      "abilities": [
+        "SHIELDS_DOWN"
+      ],
+      "bodyColor": "color",
+      "catchRate": 30,
+      "categoryName": "Meteor",
+      "speciesName": "Minior",
+      "description": "",
+      "eggCycles": 25,
+      "eggGroups": [
+        "MINERAL"
+      ],
+      "evolutions": [],
+      "formChangeTable": [
+        {
+          "form": "MINIOR_METEOR_GREEN",
+          "clause": "FORM_CHANGE_BATTLE_HP_PERCENT",
+          "method": "ABILITY_SHIELDS_DOWN"
+        }
+      ],
+      "evYield": [
+        null,
+        null,
+        1,
+        null,
+        1,
+        null
+      ],
+      "expYield": 154,
+      "friendship": "STANDARD_FRIENDSHIP",
+      "genderRatio": "MON_GENDERLESS",
+      "growthRate": "GROWTH_MEDIUM_SLOW",
+      "height": 3,
+      "weight": 3,
+      "itemRare": "ITEM_STAR_PIECE",
+      "flags": []
+    }
+  },
+  {
+    "species": "MINIOR_CORE_BLUE",
+    "stats": [
+      60,
+      100,
+      60,
+      100,
+      60,
+      120
+    ],
+    "bst": 500,
+    "generation": 7,
+    "types": [
+      "ROCK",
+      "FLYING"
+    ],
+    "natDexNum": 774,
+    "abilities": [
+      "SHIELDS_DOWN"
+    ],
+    "bodyColor": "color",
+    "catchRate": 30,
+    "categoryName": "Meteor",
+    "speciesName": "Minior",
+    "description": "",
+    "eggCycles": 25,
+    "eggGroups": [
+      "MINERAL"
+    ],
+    "evolutions": [],
+    "formChangeTable": [
+      {
+        "form": "MINIOR_METEOR_BLUE",
+        "clause": "FORM_CHANGE_BATTLE_HP_PERCENT",
+        "method": "ABILITY_SHIELDS_DOWN"
+      }
+    ],
+    "evYield": [
+      null,
+      null,
+      1,
+      null,
+      1,
+      null
+    ],
+    "expYield": 154,
+    "friendship": "STANDARD_FRIENDSHIP",
+    "genderRatio": "MON_GENDERLESS",
+    "growthRate": "GROWTH_MEDIUM_SLOW",
+    "height": 3,
+    "weight": 3,
+    "itemRare": "ITEM_STAR_PIECE",
+    "flags": [],
+    "old": {
+      "species": "MINIOR_CORE_BLUE",
+      "stats": [
+        60,
+        100,
+        60,
+        100,
+        60,
+        120
+      ],
+      "bst": 500,
+      "generation": 7,
+      "types": [
+        "ROCK",
+        "FLYING"
+      ],
+      "natDexNum": 774,
+      "abilities": [
+        "SHIELDS_DOWN"
+      ],
+      "bodyColor": "color",
+      "catchRate": 30,
+      "categoryName": "Meteor",
+      "speciesName": "Minior",
+      "description": "",
+      "eggCycles": 25,
+      "eggGroups": [
+        "MINERAL"
+      ],
+      "evolutions": [],
+      "formChangeTable": [
+        {
+          "form": "MINIOR_METEOR_BLUE",
+          "clause": "FORM_CHANGE_BATTLE_HP_PERCENT",
+          "method": "ABILITY_SHIELDS_DOWN"
+        }
+      ],
+      "evYield": [
+        null,
+        null,
+        1,
+        null,
+        1,
+        null
+      ],
+      "expYield": 154,
+      "friendship": "STANDARD_FRIENDSHIP",
+      "genderRatio": "MON_GENDERLESS",
+      "growthRate": "GROWTH_MEDIUM_SLOW",
+      "height": 3,
+      "weight": 3,
+      "itemRare": "ITEM_STAR_PIECE",
+      "flags": []
+    }
+  },
+  {
+    "species": "MINIOR_CORE_INDIGO",
+    "stats": [
+      60,
+      100,
+      60,
+      100,
+      60,
+      120
+    ],
+    "bst": 500,
+    "generation": 7,
+    "types": [
+      "ROCK",
+      "FLYING"
+    ],
+    "natDexNum": 774,
+    "abilities": [
+      "SHIELDS_DOWN"
+    ],
+    "bodyColor": "color",
+    "catchRate": 30,
+    "categoryName": "Meteor",
+    "speciesName": "Minior",
+    "description": "",
+    "eggCycles": 25,
+    "eggGroups": [
+      "MINERAL"
+    ],
+    "evolutions": [],
+    "formChangeTable": [
+      {
+        "form": "MINIOR_METEOR_INDIGO",
+        "clause": "FORM_CHANGE_BATTLE_HP_PERCENT",
+        "method": "ABILITY_SHIELDS_DOWN"
+      }
+    ],
+    "evYield": [
+      null,
+      null,
+      1,
+      null,
+      1,
+      null
+    ],
+    "expYield": 154,
+    "friendship": "STANDARD_FRIENDSHIP",
+    "genderRatio": "MON_GENDERLESS",
+    "growthRate": "GROWTH_MEDIUM_SLOW",
+    "height": 3,
+    "weight": 3,
+    "itemRare": "ITEM_STAR_PIECE",
+    "flags": [],
+    "old": {
+      "species": "MINIOR_CORE_INDIGO",
+      "stats": [
+        60,
+        100,
+        60,
+        100,
+        60,
+        120
+      ],
+      "bst": 500,
+      "generation": 7,
+      "types": [
+        "ROCK",
+        "FLYING"
+      ],
+      "natDexNum": 774,
+      "abilities": [
+        "SHIELDS_DOWN"
+      ],
+      "bodyColor": "color",
+      "catchRate": 30,
+      "categoryName": "Meteor",
+      "speciesName": "Minior",
+      "description": "",
+      "eggCycles": 25,
+      "eggGroups": [
+        "MINERAL"
+      ],
+      "evolutions": [],
+      "formChangeTable": [
+        {
+          "form": "MINIOR_METEOR_INDIGO",
+          "clause": "FORM_CHANGE_BATTLE_HP_PERCENT",
+          "method": "ABILITY_SHIELDS_DOWN"
+        }
+      ],
+      "evYield": [
+        null,
+        null,
+        1,
+        null,
+        1,
+        null
+      ],
+      "expYield": 154,
+      "friendship": "STANDARD_FRIENDSHIP",
+      "genderRatio": "MON_GENDERLESS",
+      "growthRate": "GROWTH_MEDIUM_SLOW",
+      "height": 3,
+      "weight": 3,
+      "itemRare": "ITEM_STAR_PIECE",
+      "flags": []
+    }
+  },
+  {
+    "species": "MINIOR_CORE_VIOLET",
+    "stats": [
+      60,
+      100,
+      60,
+      100,
+      60,
+      120
+    ],
+    "bst": 500,
+    "generation": 7,
+    "types": [
+      "ROCK",
+      "FLYING"
+    ],
+    "natDexNum": 774,
+    "abilities": [
+      "SHIELDS_DOWN"
+    ],
+    "bodyColor": "color",
+    "catchRate": 30,
+    "categoryName": "Meteor",
+    "speciesName": "Minior",
+    "description": "",
+    "eggCycles": 25,
+    "eggGroups": [
+      "MINERAL"
+    ],
+    "evolutions": [],
+    "formChangeTable": [
+      {
+        "form": "MINIOR_METEOR_VIOLET",
+        "clause": "FORM_CHANGE_BATTLE_HP_PERCENT",
+        "method": "ABILITY_SHIELDS_DOWN"
+      }
+    ],
+    "evYield": [
+      null,
+      null,
+      1,
+      null,
+      1,
+      null
+    ],
+    "expYield": 154,
+    "friendship": "STANDARD_FRIENDSHIP",
+    "genderRatio": "MON_GENDERLESS",
+    "growthRate": "GROWTH_MEDIUM_SLOW",
+    "height": 3,
+    "weight": 3,
+    "itemRare": "ITEM_STAR_PIECE",
+    "flags": [],
+    "old": {
+      "species": "MINIOR_CORE_VIOLET",
+      "stats": [
+        60,
+        100,
+        60,
+        100,
+        60,
+        120
+      ],
+      "bst": 500,
+      "generation": 7,
+      "types": [
+        "ROCK",
+        "FLYING"
+      ],
+      "natDexNum": 774,
+      "abilities": [
+        "SHIELDS_DOWN"
+      ],
+      "bodyColor": "color",
+      "catchRate": 30,
+      "categoryName": "Meteor",
+      "speciesName": "Minior",
+      "description": "",
+      "eggCycles": 25,
+      "eggGroups": [
+        "MINERAL"
+      ],
+      "evolutions": [],
+      "formChangeTable": [
+        {
+          "form": "MINIOR_METEOR_VIOLET",
+          "clause": "FORM_CHANGE_BATTLE_HP_PERCENT",
+          "method": "ABILITY_SHIELDS_DOWN"
+        }
+      ],
+      "evYield": [
+        null,
+        null,
+        1,
+        null,
+        1,
+        null
+      ],
+      "expYield": 154,
+      "friendship": "STANDARD_FRIENDSHIP",
+      "genderRatio": "MON_GENDERLESS",
+      "growthRate": "GROWTH_MEDIUM_SLOW",
+      "height": 3,
+      "weight": 3,
+      "itemRare": "ITEM_STAR_PIECE",
+      "flags": []
+    }
+  },
+  {
     "species": "KOMALA",
     "stats": [
       65,
