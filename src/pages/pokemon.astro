@@ -4,19 +4,46 @@ import learnsetsDiff from "../data/learnsets_diff.json";
 import mons from "../data/pokemon.json";
 import Layout from "../layouts/Layout.astro";
 import type { LearnsetData } from "../models/types/learnset.data";
-import type { PokemonInfo } from "../models/types/pokemon.info";
-const monsData = mons as PokemonInfo[];
+import { PokemonFlags, type PokemonInfo } from "../models/types/pokemon.info";
 const learnsetsData = learnsetsDiff as LearnsetData[];
 function getLearnset(pokemon: string) {
   return learnsetsData.find((ls) => ls.pokemon === pokemon);
+}
+const monsData = mons as PokemonInfo[];
+function getMonsData() {
+  const speciesSet = new Set(
+    monsData.flatMap((p) => p.formChangeTable.map((fc) => fc.form)),
+  );
+  return monsData.filter(({ species, flags }) => {
+    return !(
+      speciesSet.has(species) ||
+      flags.some((flag) =>
+        [
+          PokemonFlags.alolanForm,
+          PokemonFlags.galarianForm,
+          PokemonFlags.hisuianForm,
+          PokemonFlags.paldeanForm,
+        ].includes(flag),
+      )
+    );
+  });
 }
 ---
 
 <Layout title="Pokèmon">
   <ul id="pokemon-list" class="list-base">
     {
-      monsData.map((mon) => (
-        <PokemonComponent pokemon={mon} learnset={getLearnset(mon.species)} />
+      getMonsData().map((mon) => (
+        <PokemonComponent
+          client:visible
+          pokemon={mon}
+          forms={monsData.filter(
+            (m) =>
+              m.species !== mon.species &&
+              m.species.startsWith(`${mon.species}_`),
+          )}
+          learnset={getLearnset(mon.species)}
+        />
       ))
     }
   </ul>
@@ -24,10 +51,22 @@ function getLearnset(pokemon: string) {
 
 <script>
   import { updateList } from "../utils/search.utils";
-  const pokemonList = document.getElementById(
-    "pokemon-list",
-  ) as HTMLUListElement;
-  const pokemonArr = Array.from(pokemonList.children) as HTMLLIElement[];
+  let pokemonArr: HTMLLIElement[] = [];
+  document.addEventListener("DOMContentLoaded", () => {
+    // Wait for React components to mount and render
+    setTimeout(() => {
+      const parent = document.getElementById("pokemon-list")!;
+      const islands = Array.from(parent.querySelectorAll("astro-island")!);
+
+      pokemonArr = islands.map((island) => {
+        // Access the rendered content of each astro-island
+        const content = island.shadowRoot
+          ? island.shadowRoot.querySelector("*")
+          : island.querySelector("*");
+        return content as HTMLLIElement;
+      });
+    }, 0);
+  });
   document.addEventListener("search", (ev) =>
     updateList(ev, pokemonArr, "data-name"),
   );
