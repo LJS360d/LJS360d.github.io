@@ -1469,13 +1469,13 @@
       "species": "BEEDRILL",
       "stats": [
         65,
-        null,
+        80,
         40,
         45,
         80,
         75
       ],
-      "bst": null,
+      "bst": 385,
       "generation": 1,
       "types": [
         "BUG",
@@ -8480,10 +8480,10 @@
         50,
         45,
         135,
-        null,
+        85,
         120
       ],
-      "bst": null,
+      "bst": 490,
       "generation": 1,
       "types": [
         "PSYCHIC"
