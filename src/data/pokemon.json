@@ -57246,6 +57246,444 @@
     }
   },
   {
+    "species": "ARCEUS",
+    "stats": [
+      120,
+      120,
+      120,
+      120,
+      120,
+      120
+    ],
+    "bst": 720,
+    "generation": 4,
+    "types": [
+      "NORMAL"
+    ],
+    "natDexNum": 493,
+    "abilities": [
+      "MULTITYPE"
+    ],
+    "bodyColor": "BODY_COLOR_WHITE",
+    "catchRate": 3,
+    "categoryName": "Alpha",
+    "speciesName": "Arceus",
+    "description": "",
+    "eggCycles": 120,
+    "eggGroups": [
+      "NO_EGGS_DISCOVERED"
+    ],
+    "evolutions": [],
+    "formChangeTable": [
+      {
+        "form": "ARCEUS_FIGHTING",
+        "clause": "FORM_CHANGE_ITEM_HOLD",
+        "method": "ITEM_FIST_PLATE"
+      },
+      {
+        "form": "ARCEUS_FIGHTING",
+        "clause": "FORM_CHANGE_ITEM_HOLD",
+        "method": "ITEM_FIGHTINIUM_Z"
+      },
+      {
+        "form": "ARCEUS_FLYING",
+        "clause": "FORM_CHANGE_ITEM_HOLD",
+        "method": "ITEM_SKY_PLATE"
+      },
+      {
+        "form": "ARCEUS_FLYING",
+        "clause": "FORM_CHANGE_ITEM_HOLD",
+        "method": "ITEM_FLYINIUM_Z"
+      },
+      {
+        "form": "ARCEUS_POISON",
+        "clause": "FORM_CHANGE_ITEM_HOLD",
+        "method": "ITEM_TOXIC_PLATE"
+      },
+      {
+        "form": "ARCEUS_POISON",
+        "clause": "FORM_CHANGE_ITEM_HOLD",
+        "method": "ITEM_POISONIUM_Z"
+      },
+      {
+        "form": "ARCEUS_ROCK",
+        "clause": "FORM_CHANGE_ITEM_HOLD",
+        "method": "ITEM_STONE_PLATE"
+      },
+      {
+        "form": "ARCEUS_ROCK",
+        "clause": "FORM_CHANGE_ITEM_HOLD",
+        "method": "ITEM_ROCKIUM_Z"
+      },
+      {
+        "form": "ARCEUS_GROUND",
+        "clause": "FORM_CHANGE_ITEM_HOLD",
+        "method": "ITEM_EARTH_PLATE"
+      },
+      {
+        "form": "ARCEUS_GROUND",
+        "clause": "FORM_CHANGE_ITEM_HOLD",
+        "method": "ITEM_GROUNDIUM_Z"
+      },
+      {
+        "form": "ARCEUS_BUG",
+        "clause": "FORM_CHANGE_ITEM_HOLD",
+        "method": "ITEM_INSECT_PLATE"
+      },
+      {
+        "form": "ARCEUS_BUG",
+        "clause": "FORM_CHANGE_ITEM_HOLD",
+        "method": "ITEM_BUGINIUM_Z"
+      },
+      {
+        "form": "ARCEUS_GHOST",
+        "clause": "FORM_CHANGE_ITEM_HOLD",
+        "method": "ITEM_SPOOKY_PLATE"
+      },
+      {
+        "form": "ARCEUS_GHOST",
+        "clause": "FORM_CHANGE_ITEM_HOLD",
+        "method": "ITEM_GHOSTIUM_Z"
+      },
+      {
+        "form": "ARCEUS_STEEL",
+        "clause": "FORM_CHANGE_ITEM_HOLD",
+        "method": "ITEM_IRON_PLATE"
+      },
+      {
+        "form": "ARCEUS_STEEL",
+        "clause": "FORM_CHANGE_ITEM_HOLD",
+        "method": "ITEM_STEELIUM_Z"
+      },
+      {
+        "form": "ARCEUS_FIRE",
+        "clause": "FORM_CHANGE_ITEM_HOLD",
+        "method": "ITEM_FLAME_PLATE"
+      },
+      {
+        "form": "ARCEUS_FIRE",
+        "clause": "FORM_CHANGE_ITEM_HOLD",
+        "method": "ITEM_FIRIUM_Z"
+      },
+      {
+        "form": "ARCEUS_WATER",
+        "clause": "FORM_CHANGE_ITEM_HOLD",
+        "method": "ITEM_SPLASH_PLATE"
+      },
+      {
+        "form": "ARCEUS_WATER",
+        "clause": "FORM_CHANGE_ITEM_HOLD",
+        "method": "ITEM_WATERIUM_Z"
+      },
+      {
+        "form": "ARCEUS_GRASS",
+        "clause": "FORM_CHANGE_ITEM_HOLD",
+        "method": "ITEM_MEADOW_PLATE"
+      },
+      {
+        "form": "ARCEUS_GRASS",
+        "clause": "FORM_CHANGE_ITEM_HOLD",
+        "method": "ITEM_GRASSIUM_Z"
+      },
+      {
+        "form": "ARCEUS_ELECTRIC",
+        "clause": "FORM_CHANGE_ITEM_HOLD",
+        "method": "ITEM_ZAP_PLATE"
+      },
+      {
+        "form": "ARCEUS_ELECTRIC",
+        "clause": "FORM_CHANGE_ITEM_HOLD",
+        "method": "ITEM_ELECTRIUM_Z"
+      },
+      {
+        "form": "ARCEUS_PSYCHIC",
+        "clause": "FORM_CHANGE_ITEM_HOLD",
+        "method": "ITEM_MIND_PLATE"
+      },
+      {
+        "form": "ARCEUS_PSYCHIC",
+        "clause": "FORM_CHANGE_ITEM_HOLD",
+        "method": "ITEM_PSYCHIUM_Z"
+      },
+      {
+        "form": "ARCEUS_ICE",
+        "clause": "FORM_CHANGE_ITEM_HOLD",
+        "method": "ITEM_ICICLE_PLATE"
+      },
+      {
+        "form": "ARCEUS_ICE",
+        "clause": "FORM_CHANGE_ITEM_HOLD",
+        "method": "ITEM_ICIUM_Z"
+      },
+      {
+        "form": "ARCEUS_DRAGON",
+        "clause": "FORM_CHANGE_ITEM_HOLD",
+        "method": "ITEM_DRACO_PLATE"
+      },
+      {
+        "form": "ARCEUS_DRAGON",
+        "clause": "FORM_CHANGE_ITEM_HOLD",
+        "method": "ITEM_DRAGONIUM_Z"
+      },
+      {
+        "form": "ARCEUS_DARK",
+        "clause": "FORM_CHANGE_ITEM_HOLD",
+        "method": "ITEM_DREAD_PLATE"
+      },
+      {
+        "form": "ARCEUS_DARK",
+        "clause": "FORM_CHANGE_ITEM_HOLD",
+        "method": "ITEM_DARKINIUM_Z"
+      },
+      {
+        "form": "ARCEUS_FAIRY",
+        "clause": "FORM_CHANGE_ITEM_HOLD",
+        "method": "ITEM_PIXIE_PLATE"
+      },
+      {
+        "form": "ARCEUS_FAIRY",
+        "clause": "FORM_CHANGE_ITEM_HOLD",
+        "method": "ITEM_FAIRIUM_Z"
+      }
+    ],
+    "evYield": [
+      3,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "expYield": null,
+    "friendship": "0",
+    "genderRatio": "MON_GENDERLESS",
+    "growthRate": "GROWTH_SLOW",
+    "height": 32,
+    "weight": 3200,
+    "flags": [
+      "MYTHICAL"
+    ],
+    "old": {
+      "species": "ARCEUS",
+      "stats": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        120
+      ],
+      "bst": 720,
+      "generation": 4,
+      "types": [
+        "NORMAL"
+      ],
+      "natDexNum": 493,
+      "abilities": [
+        "MULTITYPE"
+      ],
+      "bodyColor": "BODY_COLOR_WHITE",
+      "catchRate": 3,
+      "categoryName": "Alpha",
+      "speciesName": "Arceus",
+      "description": "",
+      "eggCycles": 120,
+      "eggGroups": [
+        "NO_EGGS_DISCOVERED"
+      ],
+      "evolutions": [],
+      "formChangeTable": [
+        {
+          "form": "ARCEUS_FIGHTING",
+          "clause": "FORM_CHANGE_ITEM_HOLD",
+          "method": "ITEM_FIST_PLATE"
+        },
+        {
+          "form": "ARCEUS_FIGHTING",
+          "clause": "FORM_CHANGE_ITEM_HOLD",
+          "method": "ITEM_FIGHTINIUM_Z"
+        },
+        {
+          "form": "ARCEUS_FLYING",
+          "clause": "FORM_CHANGE_ITEM_HOLD",
+          "method": "ITEM_SKY_PLATE"
+        },
+        {
+          "form": "ARCEUS_FLYING",
+          "clause": "FORM_CHANGE_ITEM_HOLD",
+          "method": "ITEM_FLYINIUM_Z"
+        },
+        {
+          "form": "ARCEUS_POISON",
+          "clause": "FORM_CHANGE_ITEM_HOLD",
+          "method": "ITEM_TOXIC_PLATE"
+        },
+        {
+          "form": "ARCEUS_POISON",
+          "clause": "FORM_CHANGE_ITEM_HOLD",
+          "method": "ITEM_POISONIUM_Z"
+        },
+        {
+          "form": "ARCEUS_ROCK",
+          "clause": "FORM_CHANGE_ITEM_HOLD",
+          "method": "ITEM_STONE_PLATE"
+        },
+        {
+          "form": "ARCEUS_ROCK",
+          "clause": "FORM_CHANGE_ITEM_HOLD",
+          "method": "ITEM_ROCKIUM_Z"
+        },
+        {
+          "form": "ARCEUS_GROUND",
+          "clause": "FORM_CHANGE_ITEM_HOLD",
+          "method": "ITEM_EARTH_PLATE"
+        },
+        {
+          "form": "ARCEUS_GROUND",
+          "clause": "FORM_CHANGE_ITEM_HOLD",
+          "method": "ITEM_GROUNDIUM_Z"
+        },
+        {
+          "form": "ARCEUS_BUG",
+          "clause": "FORM_CHANGE_ITEM_HOLD",
+          "method": "ITEM_INSECT_PLATE"
+        },
+        {
+          "form": "ARCEUS_BUG",
+          "clause": "FORM_CHANGE_ITEM_HOLD",
+          "method": "ITEM_BUGINIUM_Z"
+        },
+        {
+          "form": "ARCEUS_GHOST",
+          "clause": "FORM_CHANGE_ITEM_HOLD",
+          "method": "ITEM_SPOOKY_PLATE"
+        },
+        {
+          "form": "ARCEUS_GHOST",
+          "clause": "FORM_CHANGE_ITEM_HOLD",
+          "method": "ITEM_GHOSTIUM_Z"
+        },
+        {
+          "form": "ARCEUS_STEEL",
+          "clause": "FORM_CHANGE_ITEM_HOLD",
+          "method": "ITEM_IRON_PLATE"
+        },
+        {
+          "form": "ARCEUS_STEEL",
+          "clause": "FORM_CHANGE_ITEM_HOLD",
+          "method": "ITEM_STEELIUM_Z"
+        },
+        {
+          "form": "ARCEUS_FIRE",
+          "clause": "FORM_CHANGE_ITEM_HOLD",
+          "method": "ITEM_FLAME_PLATE"
+        },
+        {
+          "form": "ARCEUS_FIRE",
+          "clause": "FORM_CHANGE_ITEM_HOLD",
+          "method": "ITEM_FIRIUM_Z"
+        },
+        {
+          "form": "ARCEUS_WATER",
+          "clause": "FORM_CHANGE_ITEM_HOLD",
+          "method": "ITEM_SPLASH_PLATE"
+        },
+        {
+          "form": "ARCEUS_WATER",
+          "clause": "FORM_CHANGE_ITEM_HOLD",
+          "method": "ITEM_WATERIUM_Z"
+        },
+        {
+          "form": "ARCEUS_GRASS",
+          "clause": "FORM_CHANGE_ITEM_HOLD",
+          "method": "ITEM_MEADOW_PLATE"
+        },
+        {
+          "form": "ARCEUS_GRASS",
+          "clause": "FORM_CHANGE_ITEM_HOLD",
+          "method": "ITEM_GRASSIUM_Z"
+        },
+        {
+          "form": "ARCEUS_ELECTRIC",
+          "clause": "FORM_CHANGE_ITEM_HOLD",
+          "method": "ITEM_ZAP_PLATE"
+        },
+        {
+          "form": "ARCEUS_ELECTRIC",
+          "clause": "FORM_CHANGE_ITEM_HOLD",
+          "method": "ITEM_ELECTRIUM_Z"
+        },
+        {
+          "form": "ARCEUS_PSYCHIC",
+          "clause": "FORM_CHANGE_ITEM_HOLD",
+          "method": "ITEM_MIND_PLATE"
+        },
+        {
+          "form": "ARCEUS_PSYCHIC",
+          "clause": "FORM_CHANGE_ITEM_HOLD",
+          "method": "ITEM_PSYCHIUM_Z"
+        },
+        {
+          "form": "ARCEUS_ICE",
+          "clause": "FORM_CHANGE_ITEM_HOLD",
+          "method": "ITEM_ICICLE_PLATE"
+        },
+        {
+          "form": "ARCEUS_ICE",
+          "clause": "FORM_CHANGE_ITEM_HOLD",
+          "method": "ITEM_ICIUM_Z"
+        },
+        {
+          "form": "ARCEUS_DRAGON",
+          "clause": "FORM_CHANGE_ITEM_HOLD",
+          "method": "ITEM_DRACO_PLATE"
+        },
+        {
+          "form": "ARCEUS_DRAGON",
+          "clause": "FORM_CHANGE_ITEM_HOLD",
+          "method": "ITEM_DRAGONIUM_Z"
+        },
+        {
+          "form": "ARCEUS_DARK",
+          "clause": "FORM_CHANGE_ITEM_HOLD",
+          "method": "ITEM_DREAD_PLATE"
+        },
+        {
+          "form": "ARCEUS_DARK",
+          "clause": "FORM_CHANGE_ITEM_HOLD",
+          "method": "ITEM_DARKINIUM_Z"
+        },
+        {
+          "form": "ARCEUS_FAIRY",
+          "clause": "FORM_CHANGE_ITEM_HOLD",
+          "method": "ITEM_PIXIE_PLATE"
+        },
+        {
+          "form": "ARCEUS_FAIRY",
+          "clause": "FORM_CHANGE_ITEM_HOLD",
+          "method": "ITEM_FAIRIUM_Z"
+        }
+      ],
+      "evYield": [
+        3,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "expYield": null,
+      "friendship": "0",
+      "genderRatio": "MON_GENDERLESS",
+      "growthRate": "GROWTH_SLOW",
+      "height": 32,
+      "weight": 3200,
+      "flags": [
+        "MYTHICAL"
+      ]
+    }
+  },
+  {
     "species": "VICTINI",
     "stats": [
       100,
@@ -91990,6 +92428,272 @@
     }
   },
   {
+    "species": "SILVALLY",
+    "stats": [
+      95,
+      95,
+      95,
+      95,
+      95,
+      95
+    ],
+    "bst": 570,
+    "generation": 7,
+    "types": [
+      "NORMAL"
+    ],
+    "natDexNum": 773,
+    "abilities": [
+      "RKS_SYSTEM"
+    ],
+    "bodyColor": "BODY_COLOR_GRAY",
+    "catchRate": 3,
+    "categoryName": "Synthetic",
+    "speciesName": "Silvally",
+    "description": "",
+    "eggCycles": 120,
+    "eggGroups": [
+      "NO_EGGS_DISCOVERED"
+    ],
+    "evolutions": [],
+    "formChangeTable": [
+      {
+        "form": "SILVALLY_FIGHTING",
+        "clause": "FORM_CHANGE_ITEM_HOLD",
+        "method": "ITEM_FIGHTING_MEMORY"
+      },
+      {
+        "form": "SILVALLY_FLYING",
+        "clause": "FORM_CHANGE_ITEM_HOLD",
+        "method": "ITEM_FLYING_MEMORY"
+      },
+      {
+        "form": "SILVALLY_POISON",
+        "clause": "FORM_CHANGE_ITEM_HOLD",
+        "method": "ITEM_POISON_MEMORY"
+      },
+      {
+        "form": "SILVALLY_GROUND",
+        "clause": "FORM_CHANGE_ITEM_HOLD",
+        "method": "ITEM_GROUND_MEMORY"
+      },
+      {
+        "form": "SILVALLY_ROCK",
+        "clause": "FORM_CHANGE_ITEM_HOLD",
+        "method": "ITEM_ROCK_MEMORY"
+      },
+      {
+        "form": "SILVALLY_BUG",
+        "clause": "FORM_CHANGE_ITEM_HOLD",
+        "method": "ITEM_BUG_MEMORY"
+      },
+      {
+        "form": "SILVALLY_GHOST",
+        "clause": "FORM_CHANGE_ITEM_HOLD",
+        "method": "ITEM_GHOST_MEMORY"
+      },
+      {
+        "form": "SILVALLY_STEEL",
+        "clause": "FORM_CHANGE_ITEM_HOLD",
+        "method": "ITEM_STEEL_MEMORY"
+      },
+      {
+        "form": "SILVALLY_FIRE",
+        "clause": "FORM_CHANGE_ITEM_HOLD",
+        "method": "ITEM_FIRE_MEMORY"
+      },
+      {
+        "form": "SILVALLY_WATER",
+        "clause": "FORM_CHANGE_ITEM_HOLD",
+        "method": "ITEM_WATER_MEMORY"
+      },
+      {
+        "form": "SILVALLY_GRASS",
+        "clause": "FORM_CHANGE_ITEM_HOLD",
+        "method": "ITEM_GRASS_MEMORY"
+      },
+      {
+        "form": "SILVALLY_ELECTRIC",
+        "clause": "FORM_CHANGE_ITEM_HOLD",
+        "method": "ITEM_ELECTRIC_MEMORY"
+      },
+      {
+        "form": "SILVALLY_PSYCHIC",
+        "clause": "FORM_CHANGE_ITEM_HOLD",
+        "method": "ITEM_PSYCHIC_MEMORY"
+      },
+      {
+        "form": "SILVALLY_ICE",
+        "clause": "FORM_CHANGE_ITEM_HOLD",
+        "method": "ITEM_ICE_MEMORY"
+      },
+      {
+        "form": "SILVALLY_DRAGON",
+        "clause": "FORM_CHANGE_ITEM_HOLD",
+        "method": "ITEM_DRAGON_MEMORY"
+      },
+      {
+        "form": "SILVALLY_DARK",
+        "clause": "FORM_CHANGE_ITEM_HOLD",
+        "method": "ITEM_DARK_MEMORY"
+      },
+      {
+        "form": "SILVALLY_FAIRY",
+        "clause": "FORM_CHANGE_ITEM_HOLD",
+        "method": "ITEM_FAIRY_MEMORY"
+      }
+    ],
+    "evYield": [
+      3,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "expYield": 257,
+    "friendship": "0",
+    "genderRatio": "MON_GENDERLESS",
+    "growthRate": "GROWTH_SLOW",
+    "height": 23,
+    "weight": 1005,
+    "flags": [
+      "LEGENDARY"
+    ],
+    "old": {
+      "species": "SILVALLY",
+      "stats": [
+        95,
+        95,
+        95,
+        95,
+        95,
+        95
+      ],
+      "bst": 570,
+      "generation": 7,
+      "types": [
+        "NORMAL"
+      ],
+      "natDexNum": 773,
+      "abilities": [
+        "RKS_SYSTEM"
+      ],
+      "bodyColor": "BODY_COLOR_GRAY",
+      "catchRate": 3,
+      "categoryName": "Synthetic",
+      "speciesName": "Silvally",
+      "description": "",
+      "eggCycles": 120,
+      "eggGroups": [
+        "NO_EGGS_DISCOVERED"
+      ],
+      "evolutions": [],
+      "formChangeTable": [
+        {
+          "form": "SILVALLY_FIGHTING",
+          "clause": "FORM_CHANGE_ITEM_HOLD",
+          "method": "ITEM_FIGHTING_MEMORY"
+        },
+        {
+          "form": "SILVALLY_FLYING",
+          "clause": "FORM_CHANGE_ITEM_HOLD",
+          "method": "ITEM_FLYING_MEMORY"
+        },
+        {
+          "form": "SILVALLY_POISON",
+          "clause": "FORM_CHANGE_ITEM_HOLD",
+          "method": "ITEM_POISON_MEMORY"
+        },
+        {
+          "form": "SILVALLY_GROUND",
+          "clause": "FORM_CHANGE_ITEM_HOLD",
+          "method": "ITEM_GROUND_MEMORY"
+        },
+        {
+          "form": "SILVALLY_ROCK",
+          "clause": "FORM_CHANGE_ITEM_HOLD",
+          "method": "ITEM_ROCK_MEMORY"
+        },
+        {
+          "form": "SILVALLY_BUG",
+          "clause": "FORM_CHANGE_ITEM_HOLD",
+          "method": "ITEM_BUG_MEMORY"
+        },
+        {
+          "form": "SILVALLY_GHOST",
+          "clause": "FORM_CHANGE_ITEM_HOLD",
+          "method": "ITEM_GHOST_MEMORY"
+        },
+        {
+          "form": "SILVALLY_STEEL",
+          "clause": "FORM_CHANGE_ITEM_HOLD",
+          "method": "ITEM_STEEL_MEMORY"
+        },
+        {
+          "form": "SILVALLY_FIRE",
+          "clause": "FORM_CHANGE_ITEM_HOLD",
+          "method": "ITEM_FIRE_MEMORY"
+        },
+        {
+          "form": "SILVALLY_WATER",
+          "clause": "FORM_CHANGE_ITEM_HOLD",
+          "method": "ITEM_WATER_MEMORY"
+        },
+        {
+          "form": "SILVALLY_GRASS",
+          "clause": "FORM_CHANGE_ITEM_HOLD",
+          "method": "ITEM_GRASS_MEMORY"
+        },
+        {
+          "form": "SILVALLY_ELECTRIC",
+          "clause": "FORM_CHANGE_ITEM_HOLD",
+          "method": "ITEM_ELECTRIC_MEMORY"
+        },
+        {
+          "form": "SILVALLY_PSYCHIC",
+          "clause": "FORM_CHANGE_ITEM_HOLD",
+          "method": "ITEM_PSYCHIC_MEMORY"
+        },
+        {
+          "form": "SILVALLY_ICE",
+          "clause": "FORM_CHANGE_ITEM_HOLD",
+          "method": "ITEM_ICE_MEMORY"
+        },
+        {
+          "form": "SILVALLY_DRAGON",
+          "clause": "FORM_CHANGE_ITEM_HOLD",
+          "method": "ITEM_DRAGON_MEMORY"
+        },
+        {
+          "form": "SILVALLY_DARK",
+          "clause": "FORM_CHANGE_ITEM_HOLD",
+          "method": "ITEM_DARK_MEMORY"
+        },
+        {
+          "form": "SILVALLY_FAIRY",
+          "clause": "FORM_CHANGE_ITEM_HOLD",
+          "method": "ITEM_FAIRY_MEMORY"
+        }
+      ],
+      "evYield": [
+        3,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "expYield": 257,
+      "friendship": "0",
+      "genderRatio": "MON_GENDERLESS",
+      "growthRate": "GROWTH_SLOW",
+      "height": 23,
+      "weight": 1005,
+      "flags": []
+    }
+  },
+  {
     "species": "MINIOR",
     "stats": [
       60,
@@ -103038,6 +103742,110 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 2,
       "weight": 3,
+      "flags": []
+    }
+  },
+  {
+    "species": "ALCREMIE",
+    "stats": [
+      65,
+      60,
+      75,
+      110,
+      121,
+      64
+    ],
+    "bst": 495,
+    "generation": 8,
+    "types": [
+      "FAIRY"
+    ],
+    "natDexNum": 869,
+    "abilities": [
+      "SWEET_VEIL"
+    ],
+    "bodyColor": "color",
+    "catchRate": 100,
+    "categoryName": "Cream",
+    "speciesName": "Alcremie",
+    "description": "",
+    "eggCycles": 20,
+    "eggGroups": [
+      "FAIRY",
+      "AMORPHOUS"
+    ],
+    "evolutions": [],
+    "formChangeTable": [
+      {
+        "form": "ALCREMIE_GIGANTAMAX",
+        "clause": "FORM_CHANGE_BATTLE_GIGANTAMAX"
+      }
+    ],
+    "evYield": [
+      null,
+      null,
+      null,
+      null,
+      2,
+      null
+    ],
+    "expYield": 173,
+    "friendship": "STANDARD_FRIENDSHIP",
+    "genderRatio": "MON_FEMALE",
+    "growthRate": "GROWTH_MEDIUM_FAST",
+    "height": 3,
+    "weight": 5,
+    "flags": [],
+    "old": {
+      "species": "ALCREMIE",
+      "stats": [
+        65,
+        60,
+        75,
+        110,
+        121,
+        64
+      ],
+      "bst": 495,
+      "generation": 8,
+      "types": [
+        "FAIRY"
+      ],
+      "natDexNum": 869,
+      "abilities": [
+        "SWEET_VEIL"
+      ],
+      "bodyColor": "color",
+      "catchRate": 100,
+      "categoryName": "Cream",
+      "speciesName": "Alcremie",
+      "description": "",
+      "eggCycles": 20,
+      "eggGroups": [
+        "FAIRY",
+        "AMORPHOUS"
+      ],
+      "evolutions": [],
+      "formChangeTable": [
+        {
+          "form": "ALCREMIE_GIGANTAMAX",
+          "clause": "FORM_CHANGE_BATTLE_GIGANTAMAX"
+        }
+      ],
+      "evYield": [
+        null,
+        null,
+        null,
+        null,
+        2,
+        null
+      ],
+      "expYield": 173,
+      "friendship": "STANDARD_FRIENDSHIP",
+      "genderRatio": "MON_FEMALE",
+      "growthRate": "GROWTH_MEDIUM_FAST",
+      "height": 3,
+      "weight": 5,
       "flags": []
     }
   },
