@@ -25,18 +25,18 @@ function PokemonComponent({ pokemon, learnset, forms }: PokemonComponentProps) {
       {forms.length > 0 && (
         <div
           role='tablist'
-          className='tabs tabs-bordered w-fit max-w-full hover:bg-base-100 p-0 overflow-x-auto'>
+          className='tabs w-fit max-w-full tabs-bordered hover:bg-base-100 p-0 inline-block overflow-x-auto'>
           {[pokemon, ...forms].map((form, i) => (
             <button
               key={i}
               role='tab'
               type='button'
-              className={`tab hover:bg-base-200 w-fit tab-lg tab-bordered ${usedForm.species === form.species ? 'tab-active' : ''}`}
+              className={`tab hover:bg-base-200 tab-bordered text-nowrap min-w-fit ${usedForm.species === form.species ? 'tab-active' : ''}`}
               onClick={() => setUsedForm(form)}>
-              <div className='flex gap-2 items-center justify-start'>
-                <PokemonIcon pokemon={form.species} />
-                <span className='capitalize w-fit'>{form.species.toLowerCase().replace(/_/g, ' ')}</span>
-              </div>
+              <PokemonIcon pokemon={form.species} />
+              <span className='capitalize w-fit'>
+                {form.species.toLowerCase().replace(/_/g, ' ')}
+              </span>
             </button>
           ))}
         </div>
