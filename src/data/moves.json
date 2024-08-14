@@ -127,7 +127,7 @@
     "id": "MEGA_PUNCH",
     "name": "Mega Punch",
     "description": "A strong punch thrown with\nincredible power.",
-    "accuracy": 85,
+    "accuracy": 100,
     "type": "NORMAL",
     "category": "PHYSICAL",
     "pp": 20,
@@ -397,7 +397,7 @@
     "type": "NORMAL",
     "category": "PHYSICAL",
     "pp": 10,
-    "effect": "EFFECT_TWO_TURNS_ATTACK",
+    "effect": "EFFECT_RAZOR_WIND",
     "target": "FOES",
     "flags": [
       "SLEEP_TALK_BANNED",
@@ -430,7 +430,7 @@
     "accuracy": null,
     "type": "NORMAL",
     "category": "STATUS",
-    "pp": 20,
+    "pp": 30,
     "effect": "EFFECT_ATTACK_UP_2",
     "target": "SELF",
     "flags": [
@@ -443,7 +443,7 @@
       "accuracy": null,
       "type": "NORMAL",
       "category": "STATUS",
-      "pp": 20,
+      "pp": 30,
       "effect": "EFFECT_ATTACK_UP_2",
       "target": "SELF",
       "flags": [
@@ -549,7 +549,7 @@
     "id": "WHIRLWIND",
     "name": "Whirlwind",
     "description": "Blows away the foe with\nwind and ends the battle.",
-    "accuracy": 0,
+    "accuracy": 100,
     "type": "NORMAL",
     "category": "STATUS",
     "pp": 20,
@@ -567,7 +567,7 @@
       "id": "WHIRLWIND",
       "name": "Whirlwind",
       "description": "Blows away the foe with\nwind and ends the battle.",
-      "accuracy": 0,
+      "accuracy": 100,
       "type": "NORMAL",
       "category": "STATUS",
       "pp": 20,
@@ -587,7 +587,7 @@
     "id": "FLY",
     "name": "Fly",
     "description": "Flies up on the first turn,\nthen strikes the next turn.",
-    "accuracy": 95,
+    "accuracy": 100,
     "type": "FLYING",
     "category": "PHYSICAL",
     "pp": 15,
@@ -600,7 +600,7 @@
       "ASSIST_BANNED",
       "GRAVITY_BANNED"
     ],
-    "power": 90,
+    "power": 95,
     "old": {
       "id": "FLY",
       "name": "Fly",
@@ -618,14 +618,14 @@
         "ASSIST_BANNED",
         "GRAVITY_BANNED"
       ],
-      "power": 90
+      "power": 70
     }
   },
   {
     "id": "BIND",
     "name": "Bind",
     "description": "Binds and squeezes the foe\nfor  turns.",
-    "accuracy": 85,
+    "accuracy": 75,
     "type": "NORMAL",
     "category": "PHYSICAL",
     "pp": 20,
@@ -643,7 +643,7 @@
       "id": "BIND",
       "name": "Bind",
       "description": "Binds and squeezes the foe\nfor  turns.",
-      "accuracy": 85,
+      "accuracy": 75,
       "type": "NORMAL",
       "category": "PHYSICAL",
       "pp": 20,
@@ -704,7 +704,7 @@
     "flags": [
       "CONTACT"
     ],
-    "power": 45,
+    "power": 35,
     "old": {
       "id": "VINE_WHIP",
       "name": "Vine Whip",
@@ -718,7 +718,7 @@
       "flags": [
         "CONTACT"
       ],
-      "power": 45
+      "power": 35
     }
   },
   {
@@ -797,7 +797,7 @@
     "id": "MEGA_KICK",
     "name": "Mega Kick",
     "description": "An extremely powerful kick\nwith intense force.",
-    "accuracy": 75,
+    "accuracy": 90,
     "type": "NORMAL",
     "category": "PHYSICAL",
     "pp": 5,
@@ -830,7 +830,7 @@
     "accuracy": 95,
     "type": "FIGHTING",
     "category": "PHYSICAL",
-    "pp": 10,
+    "pp": 25,
     "effect": "EFFECT_RECOIL_IF_MISS",
     "target": "SINGLE",
     "flags": [
@@ -845,7 +845,7 @@
       "accuracy": 95,
       "type": "FIGHTING",
       "category": "PHYSICAL",
-      "pp": 10,
+      "pp": 25,
       "effect": "EFFECT_RECOIL_IF_MISS",
       "target": "SINGLE",
       "flags": [
@@ -1069,7 +1069,7 @@
       "id": "TACKLE",
       "name": "Tackle",
       "description": "Charges the foe with a full-\nbody tackle.",
-      "accuracy": 100,
+      "accuracy": 95,
       "type": "NORMAL",
       "category": "PHYSICAL",
       "pp": 35,
@@ -1127,7 +1127,7 @@
     "id": "WRAP",
     "name": "Wrap",
     "description": "Wraps and squeezes the foe\n times with vines, etc.",
-    "accuracy": 90,
+    "accuracy": 85,
     "type": "NORMAL",
     "category": "PHYSICAL",
     "pp": 20,
@@ -1144,7 +1144,7 @@
       "id": "WRAP",
       "name": "Wrap",
       "description": "Wraps and squeezes the foe\n times with vines, etc.",
-      "accuracy": 90,
+      "accuracy": 85,
       "type": "NORMAL",
       "category": "PHYSICAL",
       "pp": 20,
@@ -1198,7 +1198,7 @@
     "accuracy": 100,
     "type": "NORMAL",
     "category": "PHYSICAL",
-    "pp": 10,
+    "pp": 20,
     "effect": "EFFECT_HIT",
     "target": "RANDOM",
     "additionalEffects": {
@@ -1209,7 +1209,7 @@
       "CONTACT",
       "INSTRUCT_BANNED"
     ],
-    "power": 120,
+    "power": 90,
     "old": {
       "id": "THRASH",
       "name": "Thrash",
@@ -1217,7 +1217,7 @@
       "accuracy": 100,
       "type": "NORMAL",
       "category": "PHYSICAL",
-      "pp": 10,
+      "pp": 20,
       "effect": "EFFECT_HIT",
       "target": "RANDOM",
       "additionalEffects": {
@@ -1228,7 +1228,7 @@
         "CONTACT",
         "INSTRUCT_BANNED"
       ],
-      "power": 120
+      "power": 90
     }
   },
   {
@@ -1379,14 +1379,14 @@
       "id": "PIN_MISSILE",
       "name": "Pin Missile",
       "description": "Sharp pins are fired to\nstrike 2 to 5 times.",
-      "accuracy": 95,
+      "accuracy": 85,
       "type": "BUG",
       "category": "PHYSICAL",
       "pp": 20,
       "effect": "EFFECT_MULTI_HIT",
       "target": "SINGLE",
       "flags": [],
-      "power": 25
+      "power": 14
     }
   },
   {
@@ -1493,7 +1493,7 @@
     "id": "ROAR",
     "name": "Roar",
     "description": "Makes the foe flee to end\nthe battle.",
-    "accuracy": 0,
+    "accuracy": 100,
     "type": "NORMAL",
     "category": "STATUS",
     "pp": 20,
@@ -1512,7 +1512,7 @@
       "id": "ROAR",
       "name": "Roar",
       "description": "Makes the foe flee to end\nthe battle.",
-      "accuracy": 0,
+      "accuracy": 100,
       "type": "NORMAL",
       "category": "STATUS",
       "pp": 20,
@@ -1660,7 +1660,7 @@
     "effect": "EFFECT_HIT",
     "target": "FOES",
     "additionalEffects": {
-      "moveEffect": "MOVE_EFFECT_SP_DEF_MINUS_1",
+      "moveEffect": "MOVE_EFFECT_DEF_MINUS_1",
       "chance": 10
     },
     "flags": [],
@@ -1676,7 +1676,7 @@
       "effect": "EFFECT_HIT",
       "target": "FOES",
       "additionalEffects": {
-        "moveEffect": "MOVE_EFFECT_SP_DEF_MINUS_1",
+        "moveEffect": "MOVE_EFFECT_DEF_MINUS_1",
         "chance": 10
       },
       "flags": [],
@@ -1732,7 +1732,7 @@
       "chance": 10
     },
     "flags": [],
-    "power": 90,
+    "power": 95,
     "old": {
       "id": "FLAMETHROWER",
       "name": "Flamethrower",
@@ -1748,7 +1748,7 @@
         "chance": 10
       },
       "flags": [],
-      "power": 90
+      "power": 95
     }
   },
   {
@@ -1820,7 +1820,7 @@
     "effect": "EFFECT_HIT",
     "target": "SINGLE",
     "flags": [],
-    "power": 110,
+    "power": 120,
     "old": {
       "id": "HYDRO_PUMP",
       "name": "Hydro Pump",
@@ -1832,7 +1832,7 @@
       "effect": "EFFECT_HIT",
       "target": "SINGLE",
       "flags": [],
-      "power": 110
+      "power": 120
     }
   },
   {
@@ -1844,12 +1844,12 @@
     "category": "SPECIAL",
     "pp": 15,
     "effect": "EFFECT_HIT",
-    "target": "ALL",
+    "target": "FOES",
     "flags": [
       "DAMAGES_UNDERWATER",
       "SKY_BATTLE_BANNED"
     ],
-    "power": 90,
+    "power": 95,
     "old": {
       "id": "SURF",
       "name": "Surf",
@@ -1859,12 +1859,12 @@
       "category": "SPECIAL",
       "pp": 15,
       "effect": "EFFECT_HIT",
-      "target": "ALL",
+      "target": "FOES",
       "flags": [
         "DAMAGES_UNDERWATER",
         "SKY_BATTLE_BANNED"
       ],
-      "power": 90
+      "power": 95
     }
   },
   {
@@ -1882,7 +1882,7 @@
       "chance": 10
     },
     "flags": [],
-    "power": 90,
+    "power": 95,
     "old": {
       "id": "ICE_BEAM",
       "name": "Ice Beam",
@@ -1898,7 +1898,7 @@
         "chance": 10
       },
       "flags": [],
-      "power": 90
+      "power": 95
     }
   },
   {
@@ -1909,14 +1909,14 @@
     "type": "ICE",
     "category": "SPECIAL",
     "pp": 5,
-    "effect": "EFFECT_BLIZZARD",
+    "effect": "EFFECT_HIT",
     "target": "FOES",
     "additionalEffects": {
       "moveEffect": "MOVE_EFFECT_FREEZE_OR_FROSTBITE",
       "chance": 10
     },
     "flags": [],
-    "power": 110,
+    "power": 120,
     "old": {
       "id": "BLIZZARD",
       "name": "Blizzard",
@@ -1925,14 +1925,14 @@
       "type": "ICE",
       "category": "SPECIAL",
       "pp": 5,
-      "effect": "EFFECT_BLIZZARD",
+      "effect": "EFFECT_HIT",
       "target": "FOES",
       "additionalEffects": {
         "moveEffect": "MOVE_EFFECT_FREEZE_OR_FROSTBITE",
         "chance": 10
       },
       "flags": [],
-      "power": 110
+      "power": 120
     }
   },
   {
@@ -2142,7 +2142,7 @@
     "accuracy": 80,
     "type": "FIGHTING",
     "category": "PHYSICAL",
-    "pp": 20,
+    "pp": 25,
     "effect": "EFFECT_HIT",
     "target": "SINGLE",
     "flags": [
@@ -2157,7 +2157,7 @@
       "accuracy": 80,
       "type": "FIGHTING",
       "category": "PHYSICAL",
-      "pp": 20,
+      "pp": 25,
       "effect": "EFFECT_HIT",
       "target": "SINGLE",
       "flags": [
@@ -2313,7 +2313,7 @@
     "accuracy": 100,
     "type": "GRASS",
     "category": "SPECIAL",
-    "pp": 25,
+    "pp": 20,
     "effect": "EFFECT_ABSORB",
     "target": "SINGLE",
     "flags": [
@@ -2328,7 +2328,7 @@
       "accuracy": 100,
       "type": "GRASS",
       "category": "SPECIAL",
-      "pp": 25,
+      "pp": 20,
       "effect": "EFFECT_ABSORB",
       "target": "SINGLE",
       "flags": [
@@ -2345,7 +2345,7 @@
     "accuracy": 100,
     "type": "GRASS",
     "category": "SPECIAL",
-    "pp": 15,
+    "pp": 10,
     "effect": "EFFECT_ABSORB",
     "target": "SINGLE",
     "flags": [
@@ -2360,7 +2360,7 @@
       "accuracy": 100,
       "type": "GRASS",
       "category": "SPECIAL",
-      "pp": 15,
+      "pp": 10,
       "effect": "EFFECT_ABSORB",
       "target": "SINGLE",
       "flags": [
@@ -2405,8 +2405,8 @@
     "accuracy": null,
     "type": "NORMAL",
     "category": "STATUS",
-    "pp": 20,
-    "effect": "EFFECT_GROWTH",
+    "pp": 40,
+    "effect": "EFFECT_SPECIAL_ATTACK_UP",
     "target": "SELF",
     "flags": [
       "SNATCH_AFFECTED",
@@ -2420,8 +2420,8 @@
       "accuracy": null,
       "type": "NORMAL",
       "category": "STATUS",
-      "pp": 20,
-      "effect": "EFFECT_GROWTH",
+      "pp": 40,
+      "effect": "EFFECT_SPECIAL_ATTACK_UP",
       "target": "SELF",
       "flags": [
         "SNATCH_AFFECTED",
@@ -2591,7 +2591,7 @@
     "accuracy": 100,
     "type": "GRASS",
     "category": "SPECIAL",
-    "pp": 10,
+    "pp": 20,
     "effect": "EFFECT_HIT",
     "target": "RANDOM",
     "additionalEffects": {
@@ -2610,7 +2610,7 @@
       "accuracy": 100,
       "type": "GRASS",
       "category": "SPECIAL",
-      "pp": 10,
+      "pp": 20,
       "effect": "EFFECT_HIT",
       "target": "RANDOM",
       "additionalEffects": {
@@ -2632,7 +2632,7 @@
     "type": "BUG",
     "category": "STATUS",
     "pp": 40,
-    "effect": "EFFECT_SPEED_DOWN_2",
+    "effect": "EFFECT_SPEED_DOWN",
     "target": "FOES",
     "flags": [
       "MAGIC_COAT_AFFECTED"
@@ -2645,7 +2645,7 @@
       "type": "BUG",
       "category": "STATUS",
       "pp": 40,
-      "effect": "EFFECT_SPEED_DOWN_2",
+      "effect": "EFFECT_SPEED_DOWN",
       "target": "FOES",
       "flags": [
         "MAGIC_COAT_AFFECTED"
@@ -2686,7 +2686,7 @@
     "id": "FIRE_SPIN",
     "name": "Fire Spin",
     "description": "Traps the foe in a ring of\nfire for  turns.",
-    "accuracy": 85,
+    "accuracy": 70,
     "type": "FIRE",
     "category": "SPECIAL",
     "pp": 15,
@@ -2698,12 +2698,12 @@
     "flags": [
       "IGNORES_KINGS_ROCK"
     ],
-    "power": 35,
+    "power": 15,
     "old": {
       "id": "FIRE_SPIN",
       "name": "Fire Spin",
       "description": "Traps the foe in a ring of\nfire for  turns.",
-      "accuracy": 85,
+      "accuracy": 70,
       "type": "FIRE",
       "category": "SPECIAL",
       "pp": 15,
@@ -2715,7 +2715,7 @@
       "flags": [
         "IGNORES_KINGS_ROCK"
       ],
-      "power": 35
+      "power": 15
     }
   },
   {
@@ -2767,7 +2767,7 @@
       "chance": 10
     },
     "flags": [],
-    "power": 90,
+    "power": 95,
     "old": {
       "id": "THUNDERBOLT",
       "name": "Thunderbolt",
@@ -2783,14 +2783,14 @@
         "chance": 10
       },
       "flags": [],
-      "power": 90
+      "power": 95
     }
   },
   {
     "id": "THUNDER_WAVE",
     "name": "Thunder Wave",
     "description": "A weak jolt of electricity\nthat paralyzes the foe.",
-    "accuracy": 90,
+    "accuracy": 100,
     "type": "ELECTRIC",
     "category": "STATUS",
     "pp": 20,
@@ -2803,7 +2803,7 @@
       "id": "THUNDER_WAVE",
       "name": "Thunder Wave",
       "description": "A weak jolt of electricity\nthat paralyzes the foe.",
-      "accuracy": 90,
+      "accuracy": 100,
       "type": "ELECTRIC",
       "category": "STATUS",
       "pp": 20,
@@ -2831,7 +2831,7 @@
     "flags": [
       "DAMAGES_AIRBORNE"
     ],
-    "power": 110,
+    "power": 120,
     "old": {
       "id": "THUNDER",
       "name": "Thunder",
@@ -2849,7 +2849,7 @@
       "flags": [
         "DAMAGES_AIRBORNE"
       ],
-      "power": 110
+      "power": 120
     }
   },
   {
@@ -2979,14 +2979,14 @@
         "ASSIST_BANNED",
         "SKY_BATTLE_BANNED"
       ],
-      "power": 80
+      "power": 60
     }
   },
   {
     "id": "TOXIC",
     "name": "Toxic",
     "description": "Poisons the foe with an\nintensifying toxin.",
-    "accuracy": 90,
+    "accuracy": 85,
     "type": "POISON",
     "category": "STATUS",
     "pp": 10,
@@ -2999,7 +2999,7 @@
       "id": "TOXIC",
       "name": "Toxic",
       "description": "Poisons the foe with an\nintensifying toxin.",
-      "accuracy": 90,
+      "accuracy": 85,
       "type": "POISON",
       "category": "STATUS",
       "pp": 10,
@@ -3469,7 +3469,7 @@
     "accuracy": null,
     "type": "NORMAL",
     "category": "STATUS",
-    "pp": 10,
+    "pp": 20,
     "effect": "EFFECT_MINIMIZE",
     "target": "SELF",
     "flags": [
@@ -3484,7 +3484,7 @@
       "accuracy": null,
       "type": "NORMAL",
       "category": "STATUS",
-      "pp": 10,
+      "pp": 20,
       "effect": "EFFECT_MINIMIZE",
       "target": "SELF",
       "flags": [
@@ -3621,7 +3621,7 @@
     "accuracy": null,
     "type": "PSYCHIC",
     "category": "STATUS",
-    "pp": 20,
+    "pp": 30,
     "effect": "EFFECT_DEFENSE_UP_2",
     "target": "SELF",
     "flags": [
@@ -3636,7 +3636,7 @@
       "accuracy": null,
       "type": "PSYCHIC",
       "category": "STATUS",
-      "pp": 20,
+      "pp": 30,
       "effect": "EFFECT_DEFENSE_UP_2",
       "target": "SELF",
       "flags": [
@@ -3778,7 +3778,7 @@
     "id": "BIDE",
     "name": "Bide",
     "description": "Endures attack for 2\nturns to retaliate double.",
-    "accuracy": 0,
+    "accuracy": 100,
     "type": "NORMAL",
     "category": "PHYSICAL",
     "pp": 10,
@@ -3791,12 +3791,11 @@
       "MIRROR_MOVE_BANNED"
     ],
     "power": 1,
-    "priority": 1,
     "old": {
       "id": "BIDE",
       "name": "Bide",
       "description": "Endures attack for 2\nturns to retaliate double.",
-      "accuracy": 0,
+      "accuracy": 100,
       "type": "NORMAL",
       "category": "PHYSICAL",
       "pp": 10,
@@ -3808,8 +3807,7 @@
         "INSTRUCT_BANNED",
         "MIRROR_MOVE_BANNED"
       ],
-      "power": 1,
-      "priority": 1
+      "power": 1
     }
   },
   {
@@ -3973,7 +3971,7 @@
     "flags": [
       "CONTACT"
     ],
-    "power": 30,
+    "power": 20,
     "old": {
       "id": "LICK",
       "name": "Lick",
@@ -3991,7 +3989,7 @@
       "flags": [
         "CONTACT"
       ],
-      "power": 30
+      "power": 20
     }
   },
   {
@@ -4025,7 +4023,7 @@
         "chance": 40
       },
       "flags": [],
-      "power": 30
+      "power": 20
     }
   },
   {
@@ -4111,7 +4109,7 @@
       "chance": 10
     },
     "flags": [],
-    "power": 110,
+    "power": 120,
     "old": {
       "id": "FIRE_BLAST",
       "name": "Fire Blast",
@@ -4127,7 +4125,7 @@
         "chance": 10
       },
       "flags": [],
-      "power": 110
+      "power": 120
     }
   },
   {
@@ -4172,10 +4170,10 @@
     "id": "CLAMP",
     "name": "Clamp",
     "description": "Traps and squeezes the\nfoe for  turns.",
-    "accuracy": 85,
+    "accuracy": 75,
     "type": "WATER",
     "category": "SPECIAL",
-    "pp": 15,
+    "pp": 10,
     "effect": "EFFECT_HIT",
     "target": "SINGLE",
     "additionalEffects": {
@@ -4190,10 +4188,10 @@
       "id": "CLAMP",
       "name": "Clamp",
       "description": "Traps and squeezes the\nfoe for  turns.",
-      "accuracy": 85,
+      "accuracy": 75,
       "type": "WATER",
       "category": "SPECIAL",
-      "pp": 15,
+      "pp": 10,
       "effect": "EFFECT_HIT",
       "target": "SINGLE",
       "additionalEffects": {
@@ -4239,7 +4237,7 @@
     "accuracy": 100,
     "type": "NORMAL",
     "category": "PHYSICAL",
-    "pp": 10,
+    "pp": 15,
     "effect": "EFFECT_TWO_TURNS_ATTACK",
     "target": "SINGLE",
     "additionalEffects": {
@@ -4253,7 +4251,7 @@
       "SLEEP_TALK_BANNED",
       "INSTRUCT_BANNED"
     ],
-    "power": 130,
+    "power": 100,
     "old": {
       "id": "SKULL_BASH",
       "name": "Skull Bash",
@@ -4261,7 +4259,7 @@
       "accuracy": 100,
       "type": "NORMAL",
       "category": "PHYSICAL",
-      "pp": 10,
+      "pp": 15,
       "effect": "EFFECT_TWO_TURNS_ATTACK",
       "target": "SINGLE",
       "additionalEffects": {
@@ -4275,7 +4273,7 @@
         "SLEEP_TALK_BANNED",
         "INSTRUCT_BANNED"
       ],
-      "power": 130
+      "power": 100
     }
   },
   {
@@ -4409,7 +4407,7 @@
     "accuracy": 100,
     "type": "NORMAL",
     "category": "STATUS",
-    "pp": 5,
+    "pp": 10,
     "effect": "EFFECT_SOFTBOILED",
     "target": "SELF",
     "flags": [
@@ -4425,7 +4423,7 @@
       "accuracy": 100,
       "type": "NORMAL",
       "category": "STATUS",
-      "pp": 5,
+      "pp": 10,
       "effect": "EFFECT_SOFTBOILED",
       "target": "SELF",
       "flags": [
@@ -4458,7 +4456,7 @@
       "accuracy": 90,
       "type": "FIGHTING",
       "category": "PHYSICAL",
-      "pp": 10,
+      "pp": 20,
       "effect": "EFFECT_RECOIL_IF_MISS",
       "target": "SINGLE",
       "flags": [
@@ -4548,7 +4546,7 @@
       "category": "STATUS",
       "pp": 40,
       "effect": "EFFECT_POISON",
-      "target": "FOES",
+      "target": "SINGLE",
       "flags": [
         "MAGIC_COAT_AFFECTED"
       ]
@@ -4607,7 +4605,7 @@
       "accuracy": 100,
       "type": "BUG",
       "category": "PHYSICAL",
-      "pp": 10,
+      "pp": 15,
       "effect": "EFFECT_ABSORB",
       "target": "SINGLE",
       "flags": [
@@ -4615,7 +4613,7 @@
         "IGNORES_KINGS_ROCK",
         "HEALING"
       ],
-      "power": 80
+      "power": 20
     }
   },
   {
@@ -4745,7 +4743,7 @@
       "chance": 10
     },
     "flags": [],
-    "power": 40,
+    "power": 20,
     "old": {
       "id": "BUBBLE",
       "name": "Bubble",
@@ -4761,7 +4759,7 @@
         "chance": 10
       },
       "flags": [],
-      "power": 40
+      "power": 20
     }
   },
   {
@@ -4836,7 +4834,7 @@
     "id": "FLASH",
     "name": "Flash",
     "description": "Looses a powerful blast of\nlight that cuts accuracy.",
-    "accuracy": 100,
+    "accuracy": 70,
     "type": "NORMAL",
     "category": "STATUS",
     "pp": 20,
@@ -4849,7 +4847,7 @@
       "id": "FLASH",
       "name": "Flash",
       "description": "Looses a powerful blast of\nlight that cuts accuracy.",
-      "accuracy": 100,
+      "accuracy": 70,
       "type": "NORMAL",
       "category": "STATUS",
       "pp": 20,
@@ -4864,7 +4862,7 @@
     "id": "PSYWAVE",
     "name": "Psywave",
     "description": "Attacks with a psychic\nwave of varying intensity.",
-    "accuracy": 100,
+    "accuracy": 80,
     "type": "PSYCHIC",
     "category": "SPECIAL",
     "pp": 15,
@@ -4876,7 +4874,7 @@
       "id": "PSYWAVE",
       "name": "Psywave",
       "description": "Attacks with a psychic\nwave of varying intensity.",
-      "accuracy": 100,
+      "accuracy": 80,
       "type": "PSYCHIC",
       "category": "SPECIAL",
       "pp": 15,
@@ -4925,7 +4923,7 @@
     "accuracy": null,
     "type": "POISON",
     "category": "STATUS",
-    "pp": 20,
+    "pp": 40,
     "effect": "EFFECT_DEFENSE_UP_2",
     "target": "SELF",
     "flags": [
@@ -4940,7 +4938,7 @@
       "accuracy": null,
       "type": "POISON",
       "category": "STATUS",
-      "pp": 20,
+      "pp": 40,
       "effect": "EFFECT_DEFENSE_UP_2",
       "target": "SELF",
       "flags": [
@@ -4969,7 +4967,7 @@
       "id": "CRABHAMMER",
       "name": "Crabhammer",
       "description": "Hammers with a pincer. Has a\nhigh critical-hit ratio.",
-      "accuracy": 90,
+      "accuracy": 85,
       "type": "WATER",
       "category": "SPECIAL",
       "pp": 10,
@@ -4979,7 +4977,7 @@
         "CONTACT"
       ],
       "criticalHitStage": 1,
-      "power": 100
+      "power": 90
     }
   },
   {
@@ -5075,7 +5073,7 @@
     "accuracy": null,
     "type": "PSYCHIC",
     "category": "STATUS",
-    "pp": 5,
+    "pp": 10,
     "effect": "EFFECT_REST",
     "target": "SELF",
     "flags": [
@@ -5091,7 +5089,7 @@
       "accuracy": null,
       "type": "PSYCHIC",
       "category": "STATUS",
-      "pp": 5,
+      "pp": 10,
       "effect": "EFFECT_REST",
       "target": "SELF",
       "flags": [
@@ -5519,7 +5517,7 @@
     "accuracy": 100,
     "type": "DARK",
     "category": "SPECIAL",
-    "pp": 25,
+    "pp": 10,
     "effect": "EFFECT_HIT",
     "target": "SINGLE",
     "additionalEffects": {
@@ -5533,7 +5531,7 @@
       "ME_FIRST_BANNED",
       "METRONOME_BANNED"
     ],
-    "power": 60,
+    "power": 40,
     "old": {
       "id": "THIEF",
       "name": "Thief",
@@ -5541,7 +5539,7 @@
       "accuracy": 100,
       "type": "DARK",
       "category": "SPECIAL",
-      "pp": 25,
+      "pp": 10,
       "effect": "EFFECT_HIT",
       "target": "SINGLE",
       "additionalEffects": {
@@ -5555,7 +5553,7 @@
         "ME_FIRST_BANNED",
         "METRONOME_BANNED"
       ],
-      "power": 60
+      "power": 40
     }
   },
   {
@@ -5592,7 +5590,7 @@
     "id": "MIND_READER",
     "name": "Mind Reader",
     "description": "Senses the foe's action to\nensure the next move's hit.",
-    "accuracy": 0,
+    "accuracy": 100,
     "type": "NORMAL",
     "category": "STATUS",
     "pp": 5,
@@ -5603,7 +5601,7 @@
       "id": "MIND_READER",
       "name": "Mind Reader",
       "description": "Senses the foe's action to\nensure the next move's hit.",
-      "accuracy": 0,
+      "accuracy": 100,
       "type": "NORMAL",
       "category": "STATUS",
       "pp": 5,
@@ -5616,7 +5614,7 @@
     "id": "NIGHTMARE",
     "name": "Nightmare",
     "description": "Inflicts 1/4 damage on a\nsleeping foe every turn.",
-    "accuracy": 100,
+    "accuracy": 0,
     "type": "GHOST",
     "category": "STATUS",
     "pp": 15,
@@ -5629,7 +5627,7 @@
       "id": "NIGHTMARE",
       "name": "Nightmare",
       "description": "Inflicts 1/4 damage on a\nsleeping foe every turn.",
-      "accuracy": 100,
+      "accuracy": 0,
       "type": "GHOST",
       "category": "STATUS",
       "pp": 15,
@@ -5719,7 +5717,7 @@
         "SOUND",
         "METRONOME_BANNED"
       ],
-      "power": 50
+      "power": 40
     }
   },
   {
@@ -5848,12 +5846,12 @@
     "id": "COTTON_SPORE",
     "name": "Cotton Spore",
     "description": "Spores cling to the foe,\nsharply reducing Speed.",
-    "accuracy": 100,
+    "accuracy": 85,
     "type": "GRASS",
     "category": "STATUS",
     "pp": 40,
     "effect": "EFFECT_SPEED_DOWN_2",
-    "target": "FOES",
+    "target": "SINGLE",
     "flags": [
       "MAGIC_COAT_AFFECTED",
       "POWDER"
@@ -5862,12 +5860,12 @@
       "id": "COTTON_SPORE",
       "name": "Cotton Spore",
       "description": "Spores cling to the foe,\nsharply reducing Speed.",
-      "accuracy": 100,
+      "accuracy": 85,
       "type": "GRASS",
       "category": "STATUS",
       "pp": 40,
       "effect": "EFFECT_SPEED_DOWN_2",
-      "target": "FOES",
+      "target": "SINGLE",
       "flags": [
         "MAGIC_COAT_AFFECTED",
         "POWDER"
@@ -5999,7 +5997,7 @@
         "ASSIST_BANNED",
         "METRONOME_BANNED"
       ],
-      "priority": 4
+      "priority": 3
     }
   },
   {
@@ -6038,7 +6036,7 @@
     "id": "SCARY_FACE",
     "name": "Scary Face",
     "description": "Frightens with a scary face\nto sharply reduce Speed.",
-    "accuracy": 100,
+    "accuracy": 90,
     "type": "NORMAL",
     "category": "STATUS",
     "pp": 10,
@@ -6051,7 +6049,7 @@
       "id": "SCARY_FACE",
       "name": "Scary Face",
       "description": "Frightens with a scary face\nto sharply reduce Speed.",
-      "accuracy": 100,
+      "accuracy": 90,
       "type": "NORMAL",
       "category": "STATUS",
       "pp": 10,
@@ -6065,7 +6063,7 @@
   {
     "id": "FEINT_ATTACK",
     "name": "Feint Attack",
-    "description": "",
+    "description": "Draws the foe close, then\nstrikes without fail.",
     "accuracy": null,
     "type": "DARK",
     "category": "SPECIAL",
@@ -6079,7 +6077,7 @@
     "old": {
       "id": "FEINT_ATTACK",
       "name": "Feint Attack",
-      "description": "",
+      "description": "Draws the foe close, then\nstrikes without fail.",
       "accuracy": null,
       "type": "DARK",
       "category": "SPECIAL",
@@ -6315,7 +6313,7 @@
     "flags": [
       "BALLISTIC"
     ],
-    "power": 120,
+    "power": 100,
     "old": {
       "id": "ZAP_CANNON",
       "name": "Zap Cannon",
@@ -6333,14 +6331,14 @@
       "flags": [
         "BALLISTIC"
       ],
-      "power": 120
+      "power": 100
     }
   },
   {
     "id": "FORESIGHT",
     "name": "Foresight",
     "description": "Negates the foe's efforts\nto heighten evasiveness.",
-    "accuracy": 0,
+    "accuracy": 100,
     "type": "NORMAL",
     "category": "STATUS",
     "pp": 40,
@@ -6354,7 +6352,7 @@
       "id": "FORESIGHT",
       "name": "Foresight",
       "description": "Negates the foe's efforts\nto heighten evasiveness.",
-      "accuracy": 0,
+      "accuracy": 100,
       "type": "NORMAL",
       "category": "STATUS",
       "pp": 40,
@@ -6507,14 +6505,14 @@
         "MIRROR_MOVE_BANNED",
         "METRONOME_BANNED"
       ],
-      "priority": 4
+      "priority": 3
     }
   },
   {
     "id": "BONE_RUSH",
     "name": "Bone Rush",
     "description": "Strikes the foe with a bone\nin hand 2 to 5 times.",
-    "accuracy": 90,
+    "accuracy": 80,
     "type": "GROUND",
     "category": "PHYSICAL",
     "pp": 10,
@@ -6526,7 +6524,7 @@
       "id": "BONE_RUSH",
       "name": "Bone Rush",
       "description": "Strikes the foe with a bone\nin hand 2 to 5 times.",
-      "accuracy": 90,
+      "accuracy": 80,
       "type": "GROUND",
       "category": "PHYSICAL",
       "pp": 10,
@@ -6540,7 +6538,7 @@
     "id": "LOCK_ON",
     "name": "Lock-On",
     "description": "Locks on to the foe to\nensure the next move hits.",
-    "accuracy": 0,
+    "accuracy": 100,
     "type": "NORMAL",
     "category": "STATUS",
     "pp": 5,
@@ -6551,7 +6549,7 @@
       "id": "LOCK_ON",
       "name": "Lock-On",
       "description": "Locks on to the foe to\nensure the next move hits.",
-      "accuracy": 0,
+      "accuracy": 100,
       "type": "NORMAL",
       "category": "STATUS",
       "pp": 5,
@@ -6567,7 +6565,7 @@
     "accuracy": 100,
     "type": "DRAGON",
     "category": "SPECIAL",
-    "pp": 10,
+    "pp": 15,
     "effect": "EFFECT_HIT",
     "target": "RANDOM",
     "additionalEffects": {
@@ -6578,7 +6576,7 @@
       "CONTACT",
       "INSTRUCT_BANNED"
     ],
-    "power": 120,
+    "power": 90,
     "old": {
       "id": "OUTRAGE",
       "name": "Outrage",
@@ -6586,7 +6584,7 @@
       "accuracy": 100,
       "type": "DRAGON",
       "category": "SPECIAL",
-      "pp": 10,
+      "pp": 15,
       "effect": "EFFECT_HIT",
       "target": "RANDOM",
       "additionalEffects": {
@@ -6597,7 +6595,7 @@
         "CONTACT",
         "INSTRUCT_BANNED"
       ],
-      "power": 120
+      "power": 90
     }
   },
   {
@@ -6637,14 +6635,14 @@
     "accuracy": 100,
     "type": "GRASS",
     "category": "SPECIAL",
-    "pp": 10,
+    "pp": 5,
     "effect": "EFFECT_ABSORB",
     "target": "SINGLE",
     "flags": [
       "IGNORES_KINGS_ROCK",
       "HEALING"
     ],
-    "power": 75,
+    "power": 60,
     "old": {
       "id": "GIGA_DRAIN",
       "name": "Giga Drain",
@@ -6652,14 +6650,14 @@
       "accuracy": 100,
       "type": "GRASS",
       "category": "SPECIAL",
-      "pp": 10,
+      "pp": 5,
       "effect": "EFFECT_ABSORB",
       "target": "SINGLE",
       "flags": [
         "IGNORES_KINGS_ROCK",
         "HEALING"
       ],
-      "power": 75
+      "power": 60
     }
   },
   {
@@ -6679,7 +6677,7 @@
       "MIRROR_MOVE_BANNED",
       "METRONOME_BANNED"
     ],
-    "priority": 4,
+    "priority": 3,
     "old": {
       "id": "ENDURE",
       "name": "Endure",
@@ -6697,7 +6695,7 @@
         "MIRROR_MOVE_BANNED",
         "METRONOME_BANNED"
       ],
-      "priority": 4
+      "priority": 3
     }
   },
   {
@@ -6796,7 +6794,7 @@
     "id": "SWAGGER",
     "name": "Swagger",
     "description": "Confuses the foe, but also\nsharply raises Attack.",
-    "accuracy": 85,
+    "accuracy": 90,
     "type": "NORMAL",
     "category": "STATUS",
     "pp": 15,
@@ -6809,7 +6807,7 @@
       "id": "SWAGGER",
       "name": "Swagger",
       "description": "Confuses the foe, but also\nsharply raises Attack.",
-      "accuracy": 85,
+      "accuracy": 90,
       "type": "NORMAL",
       "category": "STATUS",
       "pp": 15,
@@ -6827,7 +6825,7 @@
     "accuracy": null,
     "type": "NORMAL",
     "category": "STATUS",
-    "pp": 5,
+    "pp": 10,
     "effect": "EFFECT_SOFTBOILED",
     "target": "SELF",
     "flags": [
@@ -6843,7 +6841,7 @@
       "accuracy": null,
       "type": "NORMAL",
       "category": "STATUS",
-      "pp": 5,
+      "pp": 10,
       "effect": "EFFECT_SOFTBOILED",
       "target": "SELF",
       "flags": [
@@ -7077,7 +7075,7 @@
     "category": "STATUS",
     "pp": 5,
     "effect": "EFFECT_HEAL_BELL",
-    "target": "SELF_OR_ALLY",
+    "target": "SELF",
     "flags": [
       "SNATCH_AFFECTED",
       "IGNORES_PROTECT",
@@ -7094,7 +7092,7 @@
       "category": "STATUS",
       "pp": 5,
       "effect": "EFFECT_HEAL_BELL",
-      "target": "SELF_OR_ALLY",
+      "target": "SELF",
       "flags": [
         "SNATCH_AFFECTED",
         "IGNORES_PROTECT",
@@ -7547,7 +7545,7 @@
       "flags": [
         "CONTACT"
       ],
-      "power": 50
+      "power": 20
     }
   },
   {
@@ -7558,7 +7556,7 @@
     "type": "NORMAL",
     "category": "STATUS",
     "pp": 20,
-    "effect": "EFFECT_EVASION_DOWN_2",
+    "effect": "EFFECT_EVASION_DOWN",
     "target": "FOES",
     "flags": [
       "MAGIC_COAT_AFFECTED"
@@ -7571,7 +7569,7 @@
       "type": "NORMAL",
       "category": "STATUS",
       "pp": 20,
-      "effect": "EFFECT_EVASION_DOWN_2",
+      "effect": "EFFECT_EVASION_DOWN",
       "target": "FOES",
       "flags": [
         "MAGIC_COAT_AFFECTED"
@@ -7582,7 +7580,7 @@
     "id": "IRON_TAIL",
     "name": "Iron Tail",
     "description": "Attacks with a rock-hard\ntail. May lower Defense.",
-    "accuracy": 75,
+    "accuracy": 90,
     "type": "STEEL",
     "category": "PHYSICAL",
     "pp": 15,
@@ -8087,7 +8085,7 @@
         "CONTACT"
       ],
       "power": 80,
-      "priority": 2
+      "priority": 1
     }
   },
   {
@@ -8175,7 +8173,7 @@
     "accuracy": 100,
     "type": "PSYCHIC",
     "category": "SPECIAL",
-    "pp": 10,
+    "pp": 15,
     "effect": "EFFECT_FUTURE_SIGHT",
     "target": "SINGLE",
     "flags": [
@@ -8187,10 +8185,10 @@
       "id": "FUTURE_SIGHT",
       "name": "Future Sight",
       "description": "Heightens inner power to\nstrike 2 turns later.",
-      "accuracy": 100,
+      "accuracy": 90,
       "type": "PSYCHIC",
       "category": "SPECIAL",
-      "pp": 10,
+      "pp": 15,
       "effect": "EFFECT_FUTURE_SIGHT",
       "target": "SINGLE",
       "flags": [
@@ -8217,7 +8215,7 @@
     "flags": [
       "CONTACT"
     ],
-    "power": 40,
+    "power": 20,
     "old": {
       "id": "ROCK_SMASH",
       "name": "Rock Smash",
@@ -8235,14 +8233,14 @@
       "flags": [
         "CONTACT"
       ],
-      "power": 40
+      "power": 20
     }
   },
   {
     "id": "WHIRLPOOL",
     "name": "Whirlpool",
     "description": "Traps and hurts the foe in\na whirlpool for  turns.",
-    "accuracy": 85,
+    "accuracy": 70,
     "type": "WATER",
     "category": "SPECIAL",
     "pp": 15,
@@ -8254,12 +8252,12 @@
     "flags": [
       "DAMAGES_UNDERWATER"
     ],
-    "power": 35,
+    "power": 15,
     "old": {
       "id": "WHIRLPOOL",
       "name": "Whirlpool",
       "description": "Traps and hurts the foe in\na whirlpool for  turns.",
-      "accuracy": 85,
+      "accuracy": 70,
       "type": "WATER",
       "category": "SPECIAL",
       "pp": 15,
@@ -8271,7 +8269,7 @@
       "flags": [
         "DAMAGES_UNDERWATER"
       ],
-      "power": 35
+      "power": 15
     }
   },
   {
@@ -8285,7 +8283,7 @@
     "effect": "EFFECT_BEAT_UP",
     "target": "SINGLE",
     "flags": [],
-    "power": 1,
+    "power": 10,
     "old": {
       "id": "BEAT_UP",
       "name": "Beat Up",
@@ -8297,7 +8295,7 @@
       "effect": "EFFECT_BEAT_UP",
       "target": "SINGLE",
       "flags": [],
-      "power": 1
+      "power": 10
     }
   },
   {
@@ -8337,7 +8335,7 @@
         "CONTACT"
       ],
       "power": 40,
-      "priority": 3
+      "priority": 1
     }
   },
   {
@@ -8360,7 +8358,7 @@
       "SLEEP_TALK_BANNED",
       "INSTRUCT_BANNED"
     ],
-    "power": 90,
+    "power": 50,
     "old": {
       "id": "UPROAR",
       "name": "Uproar",
@@ -8381,7 +8379,7 @@
         "SLEEP_TALK_BANNED",
         "INSTRUCT_BANNED"
       ],
-      "power": 90
+      "power": 50
     }
   },
   {
@@ -8391,7 +8389,7 @@
     "accuracy": null,
     "type": "NORMAL",
     "category": "STATUS",
-    "pp": 20,
+    "pp": 10,
     "effect": "EFFECT_STOCKPILE",
     "target": "SELF",
     "flags": [
@@ -8406,7 +8404,7 @@
       "accuracy": null,
       "type": "NORMAL",
       "category": "STATUS",
-      "pp": 20,
+      "pp": 10,
       "effect": "EFFECT_STOCKPILE",
       "target": "SELF",
       "flags": [
@@ -8429,7 +8427,7 @@
     "flags": [
       "MIRROR_MOVE_BANNED"
     ],
-    "power": 1,
+    "power": 100,
     "old": {
       "id": "SPIT_UP",
       "name": "Spit Up",
@@ -8443,7 +8441,7 @@
       "flags": [
         "MIRROR_MOVE_BANNED"
       ],
-      "power": 1
+      "power": 100
     }
   },
   {
@@ -8495,7 +8493,7 @@
       "chance": 10
     },
     "flags": [],
-    "power": 95,
+    "power": 100,
     "old": {
       "id": "HEAT_WAVE",
       "name": "Heat Wave",
@@ -8511,7 +8509,7 @@
         "chance": 10
       },
       "flags": [],
-      "power": 95
+      "power": 100
     }
   },
   {
@@ -8604,7 +8602,7 @@
     "id": "WILL_O_WISP",
     "name": "Will-o-Wisp",
     "description": "Inflicts a burn on the foe\nwith intense fire.",
-    "accuracy": 85,
+    "accuracy": 75,
     "type": "FIRE",
     "category": "STATUS",
     "pp": 15,
@@ -8617,7 +8615,7 @@
       "id": "WILL_O_WISP",
       "name": "Will-O-Wisp",
       "description": "Inflicts a burn on the foe\nwith intense fire.",
-      "accuracy": 85,
+      "accuracy": 75,
       "type": "FIRE",
       "category": "STATUS",
       "pp": 15,
@@ -8744,7 +8742,7 @@
     "flags": [
       "CONTACT"
     ],
-    "power": 70,
+    "power": 60,
     "old": {
       "id": "SMELLING_SALTS",
       "name": "Smelling Salts",
@@ -8761,7 +8759,7 @@
       "flags": [
         "CONTACT"
       ],
-      "power": 70
+      "power": 60
     }
   },
   {
@@ -8781,7 +8779,7 @@
       "MIRROR_MOVE_BANNED",
       "METRONOME_BANNED"
     ],
-    "priority": 2,
+    "priority": 3,
     "old": {
       "id": "FOLLOW_ME",
       "name": "Follow Me",
@@ -8799,7 +8797,7 @@
         "MIRROR_MOVE_BANNED",
         "METRONOME_BANNED"
       ],
-      "priority": 2
+      "priority": 3
     }
   },
   {
@@ -8915,7 +8913,7 @@
     "category": "STATUS",
     "pp": 20,
     "effect": "EFFECT_HELPING_HAND",
-    "target": "ALLY",
+    "target": "SELF",
     "flags": [
       "IGNORES_PROTECT",
       "IGNORES_SUBSTITUTE",
@@ -8934,7 +8932,7 @@
       "category": "STATUS",
       "pp": 20,
       "effect": "EFFECT_HELPING_HAND",
-      "target": "ALLY",
+      "target": "SELF",
       "flags": [
         "IGNORES_PROTECT",
         "IGNORES_SUBSTITUTE",
@@ -9347,7 +9345,7 @@
       "flags": [
         "CONTACT"
       ],
-      "power": 65
+      "power": 20
     }
   },
   {
@@ -9643,7 +9641,7 @@
         "ASSIST_BANNED",
         "SKY_BATTLE_BANNED"
       ],
-      "power": 80
+      "power": 60
     }
   },
   {
@@ -9716,7 +9714,7 @@
     "type": "BUG",
     "category": "STATUS",
     "pp": 20,
-    "effect": "EFFECT_SPECIAL_ATTACK_UP_3",
+    "effect": "EFFECT_SPECIAL_ATTACK_UP_2",
     "target": "SELF",
     "flags": [
       "SNATCH_AFFECTED",
@@ -9731,7 +9729,7 @@
       "type": "BUG",
       "category": "STATUS",
       "pp": 20,
-      "effect": "EFFECT_SPECIAL_ATTACK_UP_3",
+      "effect": "EFFECT_SPECIAL_ATTACK_UP_2",
       "target": "SELF",
       "flags": [
         "SNATCH_AFFECTED",
@@ -9755,7 +9753,7 @@
       "chance": 50
     },
     "flags": [],
-    "power": 95,
+    "power": 70,
     "old": {
       "id": "LUSTER_PURGE",
       "name": "Luster Purge",
@@ -9771,7 +9769,7 @@
         "chance": 50
       },
       "flags": [],
-      "power": 95
+      "power": 70
     }
   },
   {
@@ -9791,7 +9789,7 @@
     "flags": [
       "BALLISTIC"
     ],
-    "power": 95,
+    "power": 70,
     "old": {
       "id": "MIST_BALL",
       "name": "Mist Ball",
@@ -9809,7 +9807,7 @@
       "flags": [
         "BALLISTIC"
       ],
-      "power": 95
+      "power": 70
     }
   },
   {
@@ -10023,7 +10021,7 @@
     "accuracy": 100,
     "type": "NORMAL",
     "category": "STATUS",
-    "pp": 5,
+    "pp": 10,
     "effect": "EFFECT_RESTORE_HP",
     "target": "SELF",
     "flags": [
@@ -10039,7 +10037,7 @@
       "accuracy": 100,
       "type": "NORMAL",
       "category": "STATUS",
-      "pp": 5,
+      "pp": 10,
       "effect": "EFFECT_RESTORE_HP",
       "target": "SELF",
       "flags": [
@@ -10100,7 +10098,7 @@
       "BITING",
       "CONTACT"
     ],
-    "power": 50,
+    "power": 70,
     "old": {
       "id": "POISON_FANG",
       "name": "Poison Fang",
@@ -10113,7 +10111,7 @@
       "target": "SINGLE",
       "additionalEffects": {
         "moveEffect": "MOVE_EFFECT_TOXIC",
-        "chance": 50
+        "chance": 30
       },
       "flags": [
         "BITING",
@@ -10232,7 +10230,7 @@
     "id": "METEOR_MASH",
     "name": "Meteor Mash",
     "description": "Fires a meteor-like punch.\nMay raise Attack.",
-    "accuracy": 90,
+    "accuracy": 85,
     "type": "STEEL",
     "category": "PHYSICAL",
     "pp": 10,
@@ -10246,12 +10244,12 @@
     "flags": [
       "CONTACT"
     ],
-    "power": 90,
+    "power": 100,
     "old": {
       "id": "METEOR_MASH",
       "name": "Meteor Mash",
       "description": "Fires a meteor-like punch.\nMay raise Attack.",
-      "accuracy": 90,
+      "accuracy": 85,
       "type": "STEEL",
       "category": "PHYSICAL",
       "pp": 10,
@@ -10265,7 +10263,7 @@
       "flags": [
         "CONTACT"
       ],
-      "power": 90
+      "power": 100
     }
   },
   {
@@ -10347,7 +10345,7 @@
     "category": "STATUS",
     "pp": 5,
     "effect": "EFFECT_HEAL_BELL",
-    "target": "SELF_OR_ALLY",
+    "target": "SELF",
     "flags": [
       "SNATCH_AFFECTED",
       "IGNORES_PROTECT",
@@ -10362,7 +10360,7 @@
       "category": "STATUS",
       "pp": 5,
       "effect": "EFFECT_HEAL_BELL",
-      "target": "SELF_OR_ALLY",
+      "target": "SELF",
       "flags": [
         "SNATCH_AFFECTED",
         "IGNORES_PROTECT",
@@ -10412,7 +10410,7 @@
       "SLICING"
     ],
     "criticalHitStage": 1,
-    "power": 60,
+    "power": 55,
     "old": {
       "id": "AIR_CUTTER",
       "name": "Air Cutter",
@@ -10427,7 +10425,7 @@
         "SLICING"
       ],
       "criticalHitStage": 1,
-      "power": 60
+      "power": 55
     }
   },
   {
@@ -10441,13 +10439,13 @@
     "effect": "EFFECT_HIT",
     "target": "SINGLE",
     "additionalEffects": {
-      "moveEffect": "MOVE_EFFECT_SP_ATK_TWO_DOWN",
+      "moveEffect": "MOVE_EFFECT_SP_ATK_MINUS_2",
       "self": true
     },
     "flags": [
       "CONTACT"
     ],
-    "power": 130,
+    "power": 140,
     "old": {
       "id": "OVERHEAT",
       "name": "Overheat",
@@ -10459,20 +10457,20 @@
       "effect": "EFFECT_HIT",
       "target": "SINGLE",
       "additionalEffects": {
-        "moveEffect": "MOVE_EFFECT_SP_ATK_TWO_DOWN",
+        "moveEffect": "MOVE_EFFECT_SP_ATK_MINUS_2",
         "self": true
       },
       "flags": [
         "CONTACT"
       ],
-      "power": 130
+      "power": 140
     }
   },
   {
     "id": "ODOR_SLEUTH",
     "name": "Odor Sleuth",
     "description": "Negates the foe's efforts\nto heighten evasiveness.",
-    "accuracy": 0,
+    "accuracy": 100,
     "type": "NORMAL",
     "category": "STATUS",
     "pp": 40,
@@ -10486,7 +10484,7 @@
       "id": "ODOR_SLEUTH",
       "name": "Odor Sleuth",
       "description": "Negates the foe's efforts\nto heighten evasiveness.",
-      "accuracy": 0,
+      "accuracy": 100,
       "type": "NORMAL",
       "category": "STATUS",
       "pp": 40,
@@ -10502,10 +10500,10 @@
     "id": "ROCK_TOMB",
     "name": "Rock Tomb",
     "description": "Stops the foe from moving\nwith rocks and cuts Speed.",
-    "accuracy": 95,
+    "accuracy": 80,
     "type": "ROCK",
     "category": "PHYSICAL",
-    "pp": 15,
+    "pp": 10,
     "effect": "EFFECT_HIT",
     "target": "SINGLE",
     "additionalEffects": {
@@ -10513,15 +10511,15 @@
       "chance": 100
     },
     "flags": [],
-    "power": 60,
+    "power": 50,
     "old": {
       "id": "ROCK_TOMB",
       "name": "Rock Tomb",
       "description": "Stops the foe from moving\nwith rocks and cuts Speed.",
-      "accuracy": 95,
+      "accuracy": 80,
       "type": "ROCK",
       "category": "PHYSICAL",
-      "pp": 15,
+      "pp": 10,
       "effect": "EFFECT_HIT",
       "target": "SINGLE",
       "additionalEffects": {
@@ -10529,7 +10527,7 @@
         "chance": 100
       },
       "flags": [],
-      "power": 60
+      "power": 50
     }
   },
   {
@@ -10765,7 +10763,7 @@
     "flags": [
       "CONTACT"
     ],
-    "power": 60,
+    "power": 75,
     "old": {
       "id": "SHADOW_PUNCH",
       "name": "Shadow Punch",
@@ -10789,7 +10787,7 @@
     "accuracy": 100,
     "type": "PSYCHIC",
     "category": "SPECIAL",
-    "pp": 20,
+    "pp": 30,
     "effect": "EFFECT_HIT",
     "target": "SINGLE",
     "additionalEffects": {
@@ -10807,7 +10805,7 @@
       "accuracy": 100,
       "type": "PSYCHIC",
       "category": "SPECIAL",
-      "pp": 20,
+      "pp": 30,
       "effect": "EFFECT_HIT",
       "target": "SINGLE",
       "additionalEffects": {
@@ -10856,7 +10854,7 @@
     "id": "SAND_TOMB",
     "name": "Sand Tomb",
     "description": "Traps and hurts the foe in\nquicksand for  turns.",
-    "accuracy": 85,
+    "accuracy": 70,
     "type": "GROUND",
     "category": "PHYSICAL",
     "pp": 15,
@@ -10866,12 +10864,12 @@
       "moveEffect": "MOVE_EFFECT_WRAP"
     },
     "flags": [],
-    "power": 35,
+    "power": 15,
     "old": {
       "id": "SAND_TOMB",
       "name": "Sand Tomb",
       "description": "Traps and hurts the foe in\nquicksand for  turns.",
-      "accuracy": 85,
+      "accuracy": 70,
       "type": "GROUND",
       "category": "PHYSICAL",
       "pp": 15,
@@ -10881,7 +10879,7 @@
         "moveEffect": "MOVE_EFFECT_WRAP"
       },
       "flags": [],
-      "power": 35
+      "power": 15
     }
   },
   {
@@ -10927,7 +10925,7 @@
     "flags": [
       "SKY_BATTLE_BANNED"
     ],
-    "power": 90,
+    "power": 95,
     "old": {
       "id": "MUDDY_WATER",
       "name": "Muddy Water",
@@ -10945,7 +10943,7 @@
       "flags": [
         "SKY_BATTLE_BANNED"
       ],
-      "power": 90
+      "power": 95
     }
   },
   {
@@ -10975,7 +10973,7 @@
       "flags": [
         "BALLISTIC"
       ],
-      "power": 25
+      "power": 10
     }
   },
   {
@@ -11033,7 +11031,7 @@
       "effect": "EFFECT_MULTI_HIT",
       "target": "SINGLE",
       "flags": [],
-      "power": 25
+      "power": 10
     }
   },
   {
@@ -11106,7 +11104,7 @@
     "type": "NORMAL",
     "category": "STATUS",
     "pp": 40,
-    "effect": "EFFECT_ATTACK_UP_USER_ALLY",
+    "effect": "EFFECT_ATTACK_UP",
     "target": "SELF",
     "flags": [
       "SNATCH_AFFECTED",
@@ -11122,7 +11120,7 @@
       "type": "NORMAL",
       "category": "STATUS",
       "pp": 40,
-      "effect": "EFFECT_ATTACK_UP_USER_ALLY",
+      "effect": "EFFECT_ATTACK_UP",
       "target": "SELF",
       "flags": [
         "SNATCH_AFFECTED",
@@ -11236,7 +11234,7 @@
     "id": "BOUNCE",
     "name": "Bounce",
     "description": "Bounces up, then down the\nnext turn. May paralyze.",
-    "accuracy": 85,
+    "accuracy": 100,
     "type": "FLYING",
     "category": "PHYSICAL",
     "pp": 5,
@@ -11359,7 +11357,7 @@
     "accuracy": 100,
     "type": "NORMAL",
     "category": "PHYSICAL",
-    "pp": 25,
+    "pp": 40,
     "effect": "EFFECT_HIT",
     "target": "SINGLE",
     "additionalEffects": {
@@ -11372,7 +11370,7 @@
       "ME_FIRST_BANNED",
       "METRONOME_BANNED"
     ],
-    "power": 60,
+    "power": 40,
     "old": {
       "id": "COVET",
       "name": "Covet",
@@ -11380,7 +11378,7 @@
       "accuracy": 100,
       "type": "NORMAL",
       "category": "PHYSICAL",
-      "pp": 25,
+      "pp": 40,
       "effect": "EFFECT_HIT",
       "target": "SINGLE",
       "additionalEffects": {
@@ -11393,7 +11391,7 @@
         "ME_FIRST_BANNED",
         "METRONOME_BANNED"
       ],
-      "power": 60
+      "power": 40
     }
   },
   {
@@ -11557,7 +11555,7 @@
         "SLICING"
       ],
       "criticalHitStage": 1,
-      "power": 90
+      "power": 70
     }
   },
   {
@@ -11610,7 +11608,7 @@
       "id": "ROCK_BLAST",
       "name": "Rock Blast",
       "description": "Hurls boulders at the foe\n2 to 5 times in a row.",
-      "accuracy": 90,
+      "accuracy": 80,
       "type": "ROCK",
       "category": "PHYSICAL",
       "pp": 10,
@@ -11705,7 +11703,7 @@
       "id": "DOOM_DESIRE",
       "name": "Doom Desire",
       "description": "Summons strong sunlight to\nattack 2 turns later.",
-      "accuracy": 100,
+      "accuracy": 85,
       "type": "STEEL",
       "category": "PHYSICAL",
       "pp": 5,
@@ -11715,7 +11713,7 @@
         "IGNORES_PROTECT",
         "MIRROR_MOVE_BANNED"
       ],
-      "power": 140
+      "power": 120
     }
   },
   {
@@ -11729,7 +11727,7 @@
     "effect": "EFFECT_HIT",
     "target": "SINGLE",
     "additionalEffects": {
-      "moveEffect": "MOVE_EFFECT_SP_ATK_TWO_DOWN",
+      "moveEffect": "MOVE_EFFECT_SP_ATK_MINUS_2",
       "self": true
     },
     "flags": [],
@@ -11745,7 +11743,7 @@
       "effect": "EFFECT_HIT",
       "target": "SINGLE",
       "additionalEffects": {
-        "moveEffect": "MOVE_EFFECT_SP_ATK_TWO_DOWN",
+        "moveEffect": "MOVE_EFFECT_SP_ATK_MINUS_2",
         "self": true
       },
       "flags": [],
@@ -11759,7 +11757,7 @@
     "accuracy": null,
     "type": "FLYING",
     "category": "STATUS",
-    "pp": 5,
+    "pp": 10,
     "effect": "EFFECT_ROOST",
     "target": "SELF",
     "flags": [
@@ -11775,7 +11773,7 @@
       "accuracy": null,
       "type": "FLYING",
       "category": "STATUS",
-      "pp": 5,
+      "pp": 10,
       "effect": "EFFECT_ROOST",
       "target": "SELF",
       "flags": [
@@ -11864,7 +11862,7 @@
     "flags": [
       "CONTACT"
     ],
-    "power": 70,
+    "power": 60,
     "old": {
       "id": "WAKE_UP_SLAP",
       "name": "Wake-Up Slap",
@@ -11881,7 +11879,7 @@
       "flags": [
         "CONTACT"
       ],
-      "power": 70
+      "power": 60
     }
   },
   {
@@ -12043,7 +12041,7 @@
   {
     "id": "FEINT",
     "name": "Feint",
-    "description": "An attack that hits foes\nusing moves like Protect.",
+    "description": "",
     "accuracy": 100,
     "type": "NORMAL",
     "category": "PHYSICAL",
@@ -12060,12 +12058,12 @@
       "MIRROR_MOVE_BANNED",
       "METRONOME_BANNED"
     ],
-    "power": 30,
+    "power": 50,
     "priority": 2,
     "old": {
       "id": "FEINT",
       "name": "Feint",
-      "description": "An attack that hits foes\nusing moves like Protect.",
+      "description": "",
       "accuracy": 100,
       "type": "NORMAL",
       "category": "PHYSICAL",
@@ -12082,7 +12080,7 @@
         "MIRROR_MOVE_BANNED",
         "METRONOME_BANNED"
       ],
-      "power": 30,
+      "power": 50,
       "priority": 2
     }
   },
@@ -12129,7 +12127,7 @@
     "accuracy": null,
     "type": "FLYING",
     "category": "STATUS",
-    "pp": 15,
+    "pp": 30,
     "effect": "EFFECT_TAILWIND",
     "target": "SELF",
     "flags": [
@@ -12144,7 +12142,7 @@
       "accuracy": null,
       "type": "FLYING",
       "category": "STATUS",
-      "pp": 15,
+      "pp": 30,
       "effect": "EFFECT_TAILWIND",
       "target": "SELF",
       "flags": [
@@ -12327,7 +12325,7 @@
     "flags": [
       "CONTACT"
     ],
-    "power": 60,
+    "power": 50,
     "old": {
       "id": "ASSURANCE",
       "name": "Assurance",
@@ -12341,7 +12339,7 @@
       "flags": [
         "CONTACT"
       ],
-      "power": 60
+      "power": 50
     }
   },
   {
@@ -12406,7 +12404,7 @@
     "id": "PSYCHO_SHIFT",
     "name": "Psycho Shift",
     "description": "Transfers status problems\nto the foe.",
-    "accuracy": 100,
+    "accuracy": 90,
     "type": "PSYCHIC",
     "category": "STATUS",
     "pp": 10,
@@ -12417,7 +12415,7 @@
       "id": "PSYCHO_SHIFT",
       "name": "Psycho Shift",
       "description": "Transfers status problems\nto the foe.",
-      "accuracy": 100,
+      "accuracy": 90,
       "type": "PSYCHIC",
       "category": "STATUS",
       "pp": 10,
@@ -12795,7 +12793,7 @@
     "flags": [
       "CONTACT"
     ],
-    "power": 140,
+    "power": 130,
     "old": {
       "id": "LAST_RESORT",
       "name": "Last Resort",
@@ -12809,7 +12807,7 @@
       "flags": [
         "CONTACT"
       ],
-      "power": 140
+      "power": 130
     }
   },
   {
@@ -12853,7 +12851,7 @@
     "flags": [
       "CONTACT"
     ],
-    "power": 70,
+    "power": 80,
     "priority": 1,
     "old": {
       "id": "SUCKER_PUNCH",
@@ -12868,7 +12866,7 @@
       "flags": [
         "CONTACT"
       ],
-      "power": 70,
+      "power": 80,
       "priority": 1
     }
   },
@@ -13096,7 +13094,7 @@
       "BALLISTIC",
       "PULSE"
     ],
-    "power": 80,
+    "power": 90,
     "old": {
       "id": "AURA_SPHERE",
       "name": "Aura Sphere",
@@ -13111,7 +13109,7 @@
         "BALLISTIC",
         "PULSE"
       ],
-      "power": 80
+      "power": 90
     }
   },
   {
@@ -13323,7 +13321,7 @@
     "accuracy": 95,
     "type": "FLYING",
     "category": "PHYSICAL",
-    "pp": 15,
+    "pp": 20,
     "effect": "EFFECT_HIT",
     "target": "SINGLE",
     "additionalEffects": {
@@ -13341,7 +13339,7 @@
       "accuracy": 95,
       "type": "FLYING",
       "category": "PHYSICAL",
-      "pp": 15,
+      "pp": 20,
       "effect": "EFFECT_HIT",
       "target": "SINGLE",
       "additionalEffects": {
@@ -13439,7 +13437,7 @@
     "flags": [
       "PULSE"
     ],
-    "power": 85,
+    "power": 90,
     "old": {
       "id": "DRAGON_PULSE",
       "name": "Dragon Pulse",
@@ -13453,7 +13451,7 @@
       "flags": [
         "PULSE"
       ],
-      "power": 85
+      "power": 90
     }
   },
   {
@@ -13507,7 +13505,7 @@
     "effect": "EFFECT_HIT",
     "target": "SINGLE",
     "flags": [],
-    "power": 80,
+    "power": 70,
     "old": {
       "id": "POWER_GEM",
       "name": "Power Gem",
@@ -13519,7 +13517,7 @@
       "effect": "EFFECT_HIT",
       "target": "SINGLE",
       "flags": [],
-      "power": 80
+      "power": 70
     }
   },
   {
@@ -13529,14 +13527,14 @@
     "accuracy": 100,
     "type": "FIGHTING",
     "category": "PHYSICAL",
-    "pp": 10,
+    "pp": 5,
     "effect": "EFFECT_ABSORB",
     "target": "SINGLE",
     "flags": [
       "CONTACT",
       "HEALING"
     ],
-    "power": 75,
+    "power": 60,
     "old": {
       "id": "DRAIN_PUNCH",
       "name": "Drain Punch",
@@ -13544,14 +13542,14 @@
       "accuracy": 100,
       "type": "FIGHTING",
       "category": "PHYSICAL",
-      "pp": 10,
+      "pp": 5,
       "effect": "EFFECT_ABSORB",
       "target": "SINGLE",
       "flags": [
         "CONTACT",
         "HEALING"
       ],
-      "power": 75
+      "power": 60
     }
   },
   {
@@ -13637,7 +13635,7 @@
     "flags": [
       "BALLISTIC"
     ],
-    "power": 90,
+    "power": 80,
     "old": {
       "id": "ENERGY_BALL",
       "name": "Energy Ball",
@@ -13655,7 +13653,7 @@
       "flags": [
         "BALLISTIC"
       ],
-      "power": 90
+      "power": 80
     }
   },
   {
@@ -13701,7 +13699,7 @@
     "effect": "EFFECT_HIT",
     "target": "SINGLE",
     "additionalEffects": {
-      "moveEffect": "MOVE_EFFECT_SP_DEF_MINUS_1",
+      "moveEffect": "MOVE_EFFECT_DEF_MINUS_1",
       "chance": 10
     },
     "flags": [
@@ -13871,7 +13869,7 @@
     "category": "SPECIAL",
     "pp": 10,
     "effect": "EFFECT_REVENGE",
-    "target": "FOES",
+    "target": "SINGLE",
     "flags": [
       "CONTACT"
     ],
@@ -13886,7 +13884,7 @@
       "category": "SPECIAL",
       "pp": 10,
       "effect": "EFFECT_REVENGE",
-      "target": "FOES",
+      "target": "SINGLE",
       "flags": [
         "CONTACT"
       ],
@@ -13958,7 +13956,7 @@
     "id": "THUNDER_FANG",
     "name": "Thunder Fang",
     "description": "May cause flinching or\nleave the foe paralyzed.",
-    "accuracy": 95,
+    "accuracy": 100,
     "type": "ELECTRIC",
     "category": "SPECIAL",
     "pp": 15,
@@ -13972,7 +13970,7 @@
       "BITING",
       "CONTACT"
     ],
-    "power": 65,
+    "power": 70,
     "old": {
       "id": "THUNDER_FANG",
       "name": "Thunder Fang",
@@ -13998,7 +13996,7 @@
     "id": "ICE_FANG",
     "name": "Ice Fang",
     "description": "May cause flinching or\nleave the foe frozen.",
-    "accuracy": 95,
+    "accuracy": 100,
     "type": "ICE",
     "category": "SPECIAL",
     "pp": 15,
@@ -14012,7 +14010,7 @@
       "BITING",
       "CONTACT"
     ],
-    "power": 65,
+    "power": 70,
     "old": {
       "id": "ICE_FANG",
       "name": "Ice Fang",
@@ -14038,7 +14036,7 @@
     "id": "FIRE_FANG",
     "name": "Fire Fang",
     "description": "May cause flinching or\nleave the foe with a burn.",
-    "accuracy": 95,
+    "accuracy": 100,
     "type": "FIRE",
     "category": "SPECIAL",
     "pp": 15,
@@ -14052,7 +14050,7 @@
       "BITING",
       "CONTACT"
     ],
-    "power": 65,
+    "power": 70,
     "old": {
       "id": "FIRE_FANG",
       "name": "Fire Fang",
@@ -14389,11 +14387,11 @@
     "effect": "EFFECT_HIT",
     "target": "SINGLE",
     "additionalEffects": {
-      "moveEffect": "MOVE_EFFECT_SP_ATK_TWO_DOWN",
+      "moveEffect": "MOVE_EFFECT_SP_ATK_MINUS_2",
       "self": true
     },
     "flags": [],
-    "power": 130,
+    "power": 140,
     "old": {
       "id": "DRACO_METEOR",
       "name": "Draco Meteor",
@@ -14405,11 +14403,11 @@
       "effect": "EFFECT_HIT",
       "target": "SINGLE",
       "additionalEffects": {
-        "moveEffect": "MOVE_EFFECT_SP_ATK_TWO_DOWN",
+        "moveEffect": "MOVE_EFFECT_SP_ATK_MINUS_2",
         "self": true
       },
       "flags": [],
-      "power": 130
+      "power": 140
     }
   },
   {
@@ -14491,11 +14489,11 @@
     "effect": "EFFECT_HIT",
     "target": "SINGLE",
     "additionalEffects": {
-      "moveEffect": "MOVE_EFFECT_SP_ATK_TWO_DOWN",
+      "moveEffect": "MOVE_EFFECT_SP_ATK_MINUS_2",
       "self": true
     },
     "flags": [],
-    "power": 130,
+    "power": 140,
     "old": {
       "id": "LEAF_STORM",
       "name": "Leaf Storm",
@@ -14507,11 +14505,11 @@
       "effect": "EFFECT_HIT",
       "target": "SINGLE",
       "additionalEffects": {
-        "moveEffect": "MOVE_EFFECT_SP_ATK_TWO_DOWN",
+        "moveEffect": "MOVE_EFFECT_SP_ATK_MINUS_2",
         "self": true
       },
       "flags": [],
-      "power": 130
+      "power": 140
     }
   },
   {
@@ -14628,7 +14626,7 @@
     "id": "GUNK_SHOT",
     "name": "Gunk Shot",
     "description": "Shoots filthy garbage at\nthe foe. May also poison.",
-    "accuracy": 80,
+    "accuracy": 70,
     "type": "POISON",
     "category": "PHYSICAL",
     "pp": 5,
@@ -14644,7 +14642,7 @@
       "id": "GUNK_SHOT",
       "name": "Gunk Shot",
       "description": "Shoots filthy garbage at\nthe foe. May also poison.",
-      "accuracy": 80,
+      "accuracy": 70,
       "type": "POISON",
       "category": "PHYSICAL",
       "pp": 5,
@@ -14899,7 +14897,7 @@
         "MIRROR_MOVE_BANNED",
         "METRONOME_BANNED"
       ],
-      "power": 65
+      "power": 60
     }
   },
   {
@@ -15231,7 +15229,7 @@
     "effect": "EFFECT_HIT",
     "target": "SINGLE",
     "additionalEffects": {
-      "moveEffect": "MOVE_EFFECT_SP_ATK_TWO_DOWN",
+      "moveEffect": "MOVE_EFFECT_SP_ATK_MINUS_2",
       "self": true
     },
     "flags": [],
@@ -15350,7 +15348,7 @@
     "id": "MAGMA_STORM",
     "name": "Magma Storm",
     "description": "Traps the foe in a vortex\nof fire for  turns.",
-    "accuracy": 75,
+    "accuracy": 70,
     "type": "FIRE",
     "category": "SPECIAL",
     "pp": 5,
@@ -15360,12 +15358,12 @@
       "moveEffect": "MOVE_EFFECT_WRAP"
     },
     "flags": [],
-    "power": 100,
+    "power": 120,
     "old": {
       "id": "MAGMA_STORM",
       "name": "Magma Storm",
       "description": "Traps the foe in a vortex\nof fire for  turns.",
-      "accuracy": 75,
+      "accuracy": 70,
       "type": "FIRE",
       "category": "SPECIAL",
       "pp": 5,
@@ -15375,14 +15373,14 @@
         "moveEffect": "MOVE_EFFECT_WRAP"
       },
       "flags": [],
-      "power": 100
+      "power": 120
     }
   },
   {
     "id": "DARK_VOID",
     "name": "Dark Void",
     "description": "Drags the foe into total\ndarkness, inducing Sleep.",
-    "accuracy": 50,
+    "accuracy": 80,
     "type": "DARK",
     "category": "STATUS",
     "pp": 10,
@@ -15396,7 +15394,7 @@
       "id": "DARK_VOID",
       "name": "Dark Void",
       "description": "Drags the foe into total\ndarkness, inducing Sleep.",
-      "accuracy": 50,
+      "accuracy": 80,
       "type": "DARK",
       "category": "STATUS",
       "pp": 10,
@@ -15661,6 +15659,7 @@
     "flags": [
       "IGNORES_PROTECT"
     ],
+    "priority": -7,
     "old": {
       "id": "WONDER_ROOM",
       "name": "Wonder Room",
@@ -15673,7 +15672,8 @@
       "target": "FIELD",
       "flags": [
         "IGNORES_PROTECT"
-      ]
+      ],
+      "priority": -7
     }
   },
   {
@@ -15778,7 +15778,7 @@
       "MIRROR_MOVE_BANNED",
       "METRONOME_BANNED"
     ],
-    "priority": 2,
+    "priority": 3,
     "old": {
       "id": "RAGE_POWDER",
       "name": "Rage Powder",
@@ -15797,7 +15797,7 @@
         "MIRROR_MOVE_BANNED",
         "METRONOME_BANNED"
       ],
-      "priority": 2
+      "priority": 3
     }
   },
   {
@@ -15843,6 +15843,7 @@
     "flags": [
       "IGNORES_PROTECT"
     ],
+    "priority": -7,
     "old": {
       "id": "MAGIC_ROOM",
       "name": "Magic Room",
@@ -15855,7 +15856,8 @@
       "target": "FIELD",
       "flags": [
         "IGNORES_PROTECT"
-      ]
+      ],
+      "priority": -7
     }
   },
   {
@@ -15910,7 +15912,7 @@
       "CONTACT",
       "ALWAYS_CRITICAL"
     ],
-    "power": 60,
+    "power": 40,
     "old": {
       "id": "STORM_THROW",
       "name": "Storm Throw",
@@ -15925,7 +15927,7 @@
         "CONTACT",
         "ALWAYS_CRITICAL"
       ],
-      "power": 60
+      "power": 40
     }
   },
   {
@@ -16069,11 +16071,11 @@
     "accuracy": 100,
     "type": "PSYCHIC",
     "category": "SPECIAL",
-    "pp": 10,
+    "pp": 15,
     "effect": "EFFECT_SYNCHRONOISE",
     "target": "ALL",
     "flags": [],
-    "power": 120,
+    "power": 70,
     "old": {
       "id": "SYNCHRONOISE",
       "name": "Synchronoise",
@@ -16081,11 +16083,11 @@
       "accuracy": 100,
       "type": "PSYCHIC",
       "category": "SPECIAL",
-      "pp": 10,
+      "pp": 15,
       "effect": "EFFECT_SYNCHRONOISE",
       "target": "ALL",
       "flags": [],
-      "power": 120
+      "power": 70
     }
   },
   {
@@ -16235,7 +16237,7 @@
     "flags": [
       "CONTACT"
     ],
-    "power": 65,
+    "power": 60,
     "old": {
       "id": "LOW_SWEEP",
       "name": "Low Sweep",
@@ -16253,7 +16255,7 @@
       "flags": [
         "CONTACT"
       ],
-      "power": 65
+      "power": 60
     }
   },
   {
@@ -16624,7 +16626,7 @@
       "IGNORES_PROTECT",
       "MIRROR_MOVE_BANNED"
     ],
-    "priority": 2,
+    "priority": 1,
     "old": {
       "id": "ALLY_SWITCH",
       "name": "Ally Switch",
@@ -16639,7 +16641,7 @@
         "IGNORES_PROTECT",
         "MIRROR_MOVE_BANNED"
       ],
-      "priority": 2
+      "priority": 1
     }
   },
   {
@@ -16757,7 +16759,7 @@
     "effect": "EFFECT_DOUBLE_POWER_ON_ARG_STATUS",
     "target": "SINGLE",
     "flags": [],
-    "power": 65,
+    "power": 50,
     "old": {
       "id": "HEX",
       "name": "Hex",
@@ -16769,7 +16771,7 @@
       "effect": "EFFECT_DOUBLE_POWER_ON_ARG_STATUS",
       "target": "SINGLE",
       "flags": [],
-      "power": 65
+      "power": 50
     }
   },
   {
@@ -16907,7 +16909,7 @@
         "moveEffect": "MOVE_EFFECT_INCINERATE"
       },
       "flags": [],
-      "power": 60
+      "power": 30
     }
   },
   {
@@ -17143,7 +17145,7 @@
     "flags": [
       "SKY_BATTLE_BANNED"
     ],
-    "power": 80,
+    "power": 50,
     "old": {
       "id": "WATER_PLEDGE",
       "name": "Water Pledge",
@@ -17157,7 +17159,7 @@
       "flags": [
         "SKY_BATTLE_BANNED"
       ],
-      "power": 80
+      "power": 50
     }
   },
   {
@@ -17173,7 +17175,7 @@
     "flags": [
       "SKY_BATTLE_BANNED"
     ],
-    "power": 80,
+    "power": 50,
     "old": {
       "id": "FIRE_PLEDGE",
       "name": "Fire Pledge",
@@ -17187,7 +17189,7 @@
       "flags": [
         "SKY_BATTLE_BANNED"
       ],
-      "power": 80
+      "power": 50
     }
   },
   {
@@ -17203,7 +17205,7 @@
     "flags": [
       "SKY_BATTLE_BANNED"
     ],
-    "power": 80,
+    "power": 50,
     "old": {
       "id": "GRASS_PLEDGE",
       "name": "Grass Pledge",
@@ -17217,7 +17219,7 @@
       "flags": [
         "SKY_BATTLE_BANNED"
       ],
-      "power": 80
+      "power": 50
     }
   },
   {
@@ -17277,7 +17279,7 @@
         "chance": 100
       },
       "flags": [],
-      "power": 50
+      "power": 30
     }
   },
   {
@@ -17288,7 +17290,7 @@
     "type": "GROUND",
     "category": "PHYSICAL",
     "pp": 20,
-    "effect": "EFFECT_BULLDOZE",
+    "effect": "EFFECT_EARTHQUAKE",
     "target": "ALL",
     "additionalEffects": {
       "moveEffect": "MOVE_EFFECT_SPD_MINUS_1",
@@ -17306,7 +17308,7 @@
       "type": "GROUND",
       "category": "PHYSICAL",
       "pp": 20,
-      "effect": "EFFECT_BULLDOZE",
+      "effect": "EFFECT_EARTHQUAKE",
       "target": "ALL",
       "additionalEffects": {
         "moveEffect": "MOVE_EFFECT_SPD_MINUS_1",
@@ -17345,7 +17347,7 @@
       "flags": [
         "ALWAYS_CRITICAL"
       ],
-      "power": 60
+      "power": 40
     }
   },
   {
@@ -17621,7 +17623,7 @@
     "accuracy": 100,
     "type": "FIGHTING",
     "category": "PHYSICAL",
-    "pp": 15,
+    "pp": 20,
     "effect": "EFFECT_HIT",
     "target": "SINGLE",
     "flags": [
@@ -17637,7 +17639,7 @@
       "accuracy": 100,
       "type": "FIGHTING",
       "category": "PHYSICAL",
-      "pp": 15,
+      "pp": 20,
       "effect": "EFFECT_HIT",
       "target": "SINGLE",
       "flags": [
@@ -17933,7 +17935,7 @@
     "flags": [
       "DAMAGES_AIRBORNE"
     ],
-    "power": 110,
+    "power": 120,
     "old": {
       "id": "HURRICANE",
       "name": "Hurricane",
@@ -17951,7 +17953,7 @@
       "flags": [
         "DAMAGES_AIRBORNE"
       ],
-      "power": 110
+      "power": 120
     }
   },
   {
@@ -18067,7 +18069,7 @@
     "flags": [
       "METRONOME_BANNED"
     ],
-    "power": 120,
+    "power": 85,
     "old": {
       "id": "TECHNO_BLAST",
       "name": "Techno Blast",
@@ -18081,7 +18083,7 @@
       "flags": [
         "METRONOME_BANNED"
       ],
-      "power": 120
+      "power": 85
     }
   },
   {
@@ -18134,7 +18136,7 @@
     "type": "FIGHTING",
     "category": "PHYSICAL",
     "pp": 10,
-    "effect": "EFFECT_PSYSHOCK",
+    "effect": "EFFECT_SECRET_SWORD",
     "target": "SINGLE",
     "flags": [
       "SLICING",
@@ -18572,7 +18574,7 @@
       "GRAVITY_BANNED",
       "SKY_BATTLE_BANNED"
     ],
-    "power": 100,
+    "power": 80,
     "old": {
       "id": "FLYING_PRESS",
       "name": "Flying Press",
@@ -18589,7 +18591,7 @@
         "GRAVITY_BANNED",
         "SKY_BATTLE_BANNED"
       ],
-      "power": 100
+      "power": 80
     }
   },
   {
@@ -18755,7 +18757,7 @@
     "flags": [
       "CONTACT"
     ],
-    "power": 50,
+    "power": 30,
     "old": {
       "id": "FELL_STINGER",
       "name": "Fell Stinger",
@@ -18769,7 +18771,7 @@
       "flags": [
         "CONTACT"
       ],
-      "power": 50
+      "power": 30
     }
   },
   {
@@ -18923,7 +18925,7 @@
     "flags": [
       "HEALING"
     ],
-    "power": 65,
+    "power": 50,
     "old": {
       "id": "PARABOLIC_CHARGE",
       "name": "Parabolic Charge",
@@ -18937,7 +18939,7 @@
       "flags": [
         "HEALING"
       ],
-      "power": 65
+      "power": 50
     }
   },
   {
@@ -19096,7 +19098,7 @@
     "id": "TOPSY_TURVY",
     "name": "Topsy-Turvy",
     "description": "Swaps all stat changes that\naffect the target.",
-    "accuracy": 0,
+    "accuracy": 100,
     "type": "DARK",
     "category": "STATUS",
     "pp": 20,
@@ -19109,7 +19111,7 @@
       "id": "TOPSY_TURVY",
       "name": "Topsy-Turvy",
       "description": "Swaps all stat changes that\naffect the target.",
-      "accuracy": 0,
+      "accuracy": 100,
       "type": "DARK",
       "category": "STATUS",
       "pp": 20,
@@ -19582,9 +19584,11 @@
     "type": "ROCK",
     "category": "PHYSICAL",
     "pp": 5,
+    "effect": "EFFECT_HIT",
     "target": "FOES",
     "additionalEffects": {
-      "moveEffect": "MOVE_EFFECT_DEF_PLUS_2",
+      "moveEffect": "MOVE_EFFECT_DEF_PLUS_1",
+      "self": true,
       "chance": 50
     },
     "flags": [
@@ -19599,9 +19603,11 @@
       "type": "ROCK",
       "category": "PHYSICAL",
       "pp": 5,
+      "effect": "EFFECT_HIT",
       "target": "FOES",
       "additionalEffects": {
-        "moveEffect": "MOVE_EFFECT_DEF_PLUS_2",
+        "moveEffect": "MOVE_EFFECT_DEF_PLUS_1",
+        "self": true,
         "chance": 50
       },
       "flags": [
@@ -19733,7 +19739,7 @@
       "chance": 100
     },
     "flags": [],
-    "power": 75,
+    "power": 65,
     "old": {
       "id": "MYSTICAL_FIRE",
       "name": "Mystical Fire",
@@ -19749,7 +19755,7 @@
         "chance": 100
       },
       "flags": [],
-      "power": 75
+      "power": 65
     }
   },
   {
@@ -20647,7 +20653,7 @@
     "accuracy": null,
     "type": "GROUND",
     "category": "STATUS",
-    "pp": 5,
+    "pp": 10,
     "effect": "EFFECT_SHORE_UP",
     "target": "SELF",
     "flags": [
@@ -20663,7 +20669,7 @@
       "accuracy": null,
       "type": "GROUND",
       "category": "STATUS",
-      "pp": 5,
+      "pp": 10,
       "effect": "EFFECT_SHORE_UP",
       "target": "SELF",
       "flags": [
@@ -20890,7 +20896,7 @@
   },
   {
     "id": "FLORAL_HEALING",
-    "name": "Floral Healng",
+    "name": "Floral Healing",
     "description": "Restores an ally's HP.\nHeals more on grass.",
     "accuracy": null,
     "type": "FAIRY",
@@ -20905,7 +20911,7 @@
     ],
     "old": {
       "id": "FLORAL_HEALING",
-      "name": "Floral Healng",
+      "name": "Floral Healing",
       "description": "Restores an ally's HP.\nHeals more on grass.",
       "accuracy": null,
       "type": "FAIRY",
@@ -21907,7 +21913,7 @@
     "effect": "EFFECT_HIT",
     "target": "SINGLE",
     "additionalEffects": {
-      "moveEffect": "MOVE_EFFECT_SP_ATK_TWO_DOWN",
+      "moveEffect": "MOVE_EFFECT_SP_ATK_MINUS_2",
       "self": true
     },
     "flags": [
@@ -21925,7 +21931,7 @@
       "effect": "EFFECT_HIT",
       "target": "SINGLE",
       "additionalEffects": {
-        "moveEffect": "MOVE_EFFECT_SP_ATK_TWO_DOWN",
+        "moveEffect": "MOVE_EFFECT_SP_ATK_MINUS_2",
         "self": true
       },
       "flags": [
@@ -22353,7 +22359,7 @@
     "flags": [
       "CONTACT"
     ],
-    "power": 120,
+    "power": 90,
     "old": {
       "id": "MULTI_ATTACK",
       "name": "Multi-Attack",
@@ -22367,7 +22373,7 @@
       "flags": [
         "CONTACT"
       ],
-      "power": 120
+      "power": 90
     }
   },
   {
@@ -22471,7 +22477,7 @@
     "accuracy": 100,
     "type": "ELECTRIC",
     "category": "SPECIAL",
-    "pp": 10,
+    "pp": 15,
     "effect": "EFFECT_HIT",
     "target": "SINGLE",
     "additionalEffects": {
@@ -22484,7 +22490,7 @@
       "MIRROR_MOVE_BANNED",
       "METRONOME_BANNED"
     ],
-    "power": 80,
+    "power": 50,
     "priority": 2,
     "old": {
       "id": "ZIPPY_ZAP",
@@ -22493,7 +22499,7 @@
       "accuracy": 100,
       "type": "ELECTRIC",
       "category": "SPECIAL",
-      "pp": 10,
+      "pp": 15,
       "effect": "EFFECT_HIT",
       "target": "SINGLE",
       "additionalEffects": {
@@ -22506,7 +22512,7 @@
         "MIRROR_MOVE_BANNED",
         "METRONOME_BANNED"
       ],
-      "power": 80,
+      "power": 50,
       "priority": 2
     }
   },
@@ -22633,7 +22639,7 @@
     "accuracy": 100,
     "type": "WATER",
     "category": "SPECIAL",
-    "pp": 20,
+    "pp": 15,
     "effect": "EFFECT_ABSORB",
     "target": "SINGLE",
     "flags": [
@@ -22641,7 +22647,7 @@
       "MIRROR_MOVE_BANNED",
       "METRONOME_BANNED"
     ],
-    "power": 60,
+    "power": 90,
     "old": {
       "id": "BOUNCY_BUBBLE",
       "name": "Bouncy Bubble",
@@ -22649,7 +22655,7 @@
       "accuracy": 100,
       "type": "WATER",
       "category": "SPECIAL",
-      "pp": 20,
+      "pp": 15,
       "effect": "EFFECT_ABSORB",
       "target": "SINGLE",
       "flags": [
@@ -22657,7 +22663,7 @@
         "MIRROR_MOVE_BANNED",
         "METRONOME_BANNED"
       ],
-      "power": 60
+      "power": 90
     }
   },
   {
@@ -22667,7 +22673,7 @@
     "accuracy": 100,
     "type": "ELECTRIC",
     "category": "SPECIAL",
-    "pp": 20,
+    "pp": 15,
     "effect": "EFFECT_HIT",
     "target": "SINGLE",
     "additionalEffects": {
@@ -22678,7 +22684,7 @@
       "MIRROR_MOVE_BANNED",
       "METRONOME_BANNED"
     ],
-    "power": 60,
+    "power": 90,
     "old": {
       "id": "BUZZY_BUZZ",
       "name": "Buzzy Buzz",
@@ -22686,7 +22692,7 @@
       "accuracy": 100,
       "type": "ELECTRIC",
       "category": "SPECIAL",
-      "pp": 20,
+      "pp": 15,
       "effect": "EFFECT_HIT",
       "target": "SINGLE",
       "additionalEffects": {
@@ -22697,7 +22703,7 @@
         "MIRROR_MOVE_BANNED",
         "METRONOME_BANNED"
       ],
-      "power": 60
+      "power": 90
     }
   },
   {
@@ -22707,7 +22713,7 @@
     "accuracy": 100,
     "type": "FIRE",
     "category": "SPECIAL",
-    "pp": 20,
+    "pp": 15,
     "effect": "EFFECT_HIT",
     "target": "SINGLE",
     "additionalEffects": {
@@ -22720,7 +22726,7 @@
       "MIRROR_MOVE_BANNED",
       "METRONOME_BANNED"
     ],
-    "power": 60,
+    "power": 90,
     "old": {
       "id": "SIZZLY_SLIDE",
       "name": "Sizzly Slide",
@@ -22728,7 +22734,7 @@
       "accuracy": 100,
       "type": "FIRE",
       "category": "SPECIAL",
-      "pp": 20,
+      "pp": 15,
       "effect": "EFFECT_HIT",
       "target": "SINGLE",
       "additionalEffects": {
@@ -22741,14 +22747,14 @@
         "MIRROR_MOVE_BANNED",
         "METRONOME_BANNED"
       ],
-      "power": 60
+      "power": 90
     }
   },
   {
     "id": "GLITZY_GLOW",
     "name": "Glitzy Glow",
     "description": "Telekinetic force that sets\nwall, lowering Sp. Atk damage.",
-    "accuracy": 95,
+    "accuracy": 100,
     "type": "PSYCHIC",
     "category": "SPECIAL",
     "pp": 15,
@@ -22758,12 +22764,12 @@
       "MIRROR_MOVE_BANNED",
       "METRONOME_BANNED"
     ],
-    "power": 80,
+    "power": 90,
     "old": {
       "id": "GLITZY_GLOW",
       "name": "Glitzy Glow",
       "description": "Telekinetic force that sets\nwall, lowering Sp. Atk damage.",
-      "accuracy": 95,
+      "accuracy": 100,
       "type": "PSYCHIC",
       "category": "SPECIAL",
       "pp": 15,
@@ -22773,14 +22779,14 @@
         "MIRROR_MOVE_BANNED",
         "METRONOME_BANNED"
       ],
-      "power": 80
+      "power": 90
     }
   },
   {
     "id": "BADDY_BAD",
     "name": "Baddy Bad",
     "description": "Acting badly, attacks. Sets\nwall, lowering Attack damage.",
-    "accuracy": 95,
+    "accuracy": 100,
     "type": "DARK",
     "category": "SPECIAL",
     "pp": 15,
@@ -22790,12 +22796,12 @@
       "MIRROR_MOVE_BANNED",
       "METRONOME_BANNED"
     ],
-    "power": 80,
+    "power": 90,
     "old": {
       "id": "BADDY_BAD",
       "name": "Baddy Bad",
       "description": "Acting badly, attacks. Sets\nwall, lowering Attack damage.",
-      "accuracy": 95,
+      "accuracy": 100,
       "type": "DARK",
       "category": "SPECIAL",
       "pp": 15,
@@ -22805,17 +22811,17 @@
         "MIRROR_MOVE_BANNED",
         "METRONOME_BANNED"
       ],
-      "power": 80
+      "power": 90
     }
   },
   {
     "id": "SAPPY_SEED",
     "name": "Sappy Seed",
     "description": "Giant stalk scatters seeds\nthat drain HP every turn.",
-    "accuracy": 90,
+    "accuracy": 100,
     "type": "GRASS",
     "category": "SPECIAL",
-    "pp": 10,
+    "pp": 15,
     "effect": "EFFECT_SAPPY_SEED",
     "target": "SINGLE",
     "flags": [
@@ -22823,15 +22829,15 @@
       "MIRROR_MOVE_BANNED",
       "METRONOME_BANNED"
     ],
-    "power": 100,
+    "power": 90,
     "old": {
       "id": "SAPPY_SEED",
       "name": "Sappy Seed",
       "description": "Giant stalk scatters seeds\nthat drain HP every turn.",
-      "accuracy": 90,
+      "accuracy": 100,
       "type": "GRASS",
       "category": "SPECIAL",
-      "pp": 10,
+      "pp": 15,
       "effect": "EFFECT_SAPPY_SEED",
       "target": "SINGLE",
       "flags": [
@@ -22839,71 +22845,71 @@
         "MIRROR_MOVE_BANNED",
         "METRONOME_BANNED"
       ],
-      "power": 100
+      "power": 90
     }
   },
   {
     "id": "FREEZY_FROST",
     "name": "Freezy Frost",
     "description": "Crystal from cold haze hits.\nEliminates all stat changes.",
-    "accuracy": 90,
+    "accuracy": 100,
     "type": "ICE",
     "category": "SPECIAL",
-    "pp": 10,
+    "pp": 15,
     "effect": "EFFECT_FREEZY_FROST",
     "target": "SINGLE",
     "flags": [
       "MIRROR_MOVE_BANNED",
       "METRONOME_BANNED"
     ],
-    "power": 100,
+    "power": 90,
     "old": {
       "id": "FREEZY_FROST",
       "name": "Freezy Frost",
       "description": "Crystal from cold haze hits.\nEliminates all stat changes.",
-      "accuracy": 90,
+      "accuracy": 100,
       "type": "ICE",
       "category": "SPECIAL",
-      "pp": 10,
+      "pp": 15,
       "effect": "EFFECT_FREEZY_FROST",
       "target": "SINGLE",
       "flags": [
         "MIRROR_MOVE_BANNED",
         "METRONOME_BANNED"
       ],
-      "power": 100
+      "power": 90
     }
   },
   {
     "id": "SPARKLY_SWIRL",
     "name": "Sparkly Swirl",
     "description": "Wrap foe with whirlwind of\nscent. Heals party's status.",
-    "accuracy": 85,
+    "accuracy": 100,
     "type": "FAIRY",
     "category": "SPECIAL",
-    "pp": 5,
+    "pp": 15,
     "effect": "EFFECT_SPARKLY_SWIRL",
     "target": "SINGLE",
     "flags": [
       "MIRROR_MOVE_BANNED",
       "METRONOME_BANNED"
     ],
-    "power": 120,
+    "power": 90,
     "old": {
       "id": "SPARKLY_SWIRL",
       "name": "Sparkly Swirl",
       "description": "Wrap foe with whirlwind of\nscent. Heals party's status.",
-      "accuracy": 85,
+      "accuracy": 100,
       "type": "FAIRY",
       "category": "SPECIAL",
-      "pp": 5,
+      "pp": 15,
       "effect": "EFFECT_SPARKLY_SWIRL",
       "target": "SINGLE",
       "flags": [
         "MIRROR_MOVE_BANNED",
         "METRONOME_BANNED"
       ],
-      "power": 120
+      "power": 90
     }
   },
   {
@@ -23224,7 +23230,7 @@
     "type": "DRAGON",
     "category": "SPECIAL",
     "pp": 10,
-    "effect": "EFFECT_HIT",
+    "effect": "EFFECT_DRAGON_DARTS",
     "target": "SINGLE",
     "flags": [
       "PARENTAL_BOND_BANNED"
@@ -23238,7 +23244,7 @@
       "type": "DRAGON",
       "category": "SPECIAL",
       "pp": 10,
-      "effect": "EFFECT_HIT",
+      "effect": "EFFECT_DRAGON_DARTS",
       "target": "SINGLE",
       "flags": [
         "PARENTAL_BOND_BANNED"
@@ -23879,7 +23885,7 @@
   {
     "id": "GRAV_APPLE",
     "name": "Grav Apple",
-    "description": "Drops an apple from above.\nLowers the foe's Defense.",
+    "description": "Drops an apple from above.\nLowers the foe's Sp. Def.",
     "accuracy": 100,
     "type": "GRASS",
     "category": "SPECIAL",
@@ -23887,7 +23893,7 @@
     "effect": "EFFECT_GRAV_APPLE",
     "target": "SINGLE",
     "additionalEffects": {
-      "moveEffect": "MOVE_EFFECT_DEF_MINUS_1",
+      "moveEffect": "MOVE_EFFECT_SP_DEF_MINUS_1",
       "chance": 100
     },
     "flags": [
@@ -24406,7 +24412,7 @@
       "CONTACT",
       "SKY_BATTLE_BANNED"
     ],
-    "power": 55,
+    "power": 70,
     "old": {
       "id": "GRASSY_GLIDE",
       "name": "Grassy Glide",
@@ -24421,7 +24427,7 @@
         "CONTACT",
         "SKY_BATTLE_BANNED"
       ],
-      "power": 55
+      "power": 70
     }
   },
   {
@@ -24804,7 +24810,7 @@
   },
   {
     "id": "JUNGLE_HEALING",
-    "name": "Jungle Healng",
+    "name": "Jungle Healing",
     "description": "Heals HP and status of\nitself and allies in battle.",
     "accuracy": null,
     "type": "GRASS",
@@ -24821,7 +24827,7 @@
     ],
     "old": {
       "id": "JUNGLE_HEALING",
-      "name": "Jungle Healng",
+      "name": "Jungle Healing",
       "description": "Heals HP and status of\nitself and allies in battle.",
       "accuracy": null,
       "type": "GRASS",
@@ -24853,7 +24859,7 @@
       "ALWAYS_CRITICAL",
       "METRONOME_BANNED"
     ],
-    "power": 75,
+    "power": 80,
     "old": {
       "id": "WICKED_BLOW",
       "name": "Wicked Blow",
@@ -24869,7 +24875,7 @@
         "ALWAYS_CRITICAL",
         "METRONOME_BANNED"
       ],
-      "power": 75
+      "power": 80
     }
   },
   {
@@ -25101,7 +25107,7 @@
     "flags": [
       "METRONOME_BANNED"
     ],
-    "power": 120,
+    "power": 130,
     "old": {
       "id": "GLACIAL_LANCE",
       "name": "Glacial Lance",
@@ -25115,7 +25121,7 @@
       "flags": [
         "METRONOME_BANNED"
       ],
-      "power": 120
+      "power": 130
     }
   },
   {
@@ -25197,7 +25203,7 @@
     "flags": [
       "CONTACT"
     ],
-    "power": 80,
+    "power": 60,
     "old": {
       "id": "DIRE_CLAW",
       "name": "Dire Claw",
@@ -25215,7 +25221,7 @@
       "flags": [
         "CONTACT"
       ],
-      "power": 80
+      "power": 60
     }
   },
   {
@@ -25349,7 +25355,7 @@
     "flags": [
       "METRONOME_BANNED"
     ],
-    "power": 100,
+    "power": 95,
     "old": {
       "id": "SPRINGTIDE_STORM",
       "name": "Springtide Storm",
@@ -25367,7 +25373,7 @@
       "flags": [
         "METRONOME_BANNED"
       ],
-      "power": 100
+      "power": 95
     }
   },
   {
@@ -25423,7 +25429,7 @@
     "flags": [
       "METRONOME_BANNED"
     ],
-    "power": 120,
+    "power": 90,
     "old": {
       "id": "RAGING_FURY",
       "name": "Raging Fury",
@@ -25441,7 +25447,7 @@
       "flags": [
         "METRONOME_BANNED"
       ],
-      "power": 120
+      "power": 90
     }
   },
   {
@@ -25458,7 +25464,7 @@
       "CONTACT",
       "SKY_BATTLE_BANNED"
     ],
-    "power": 120,
+    "power": 75,
     "recoil": 33,
     "old": {
       "id": "WAVE_CRASH",
@@ -25474,7 +25480,7 @@
         "CONTACT",
         "SKY_BATTLE_BANNED"
       ],
-      "power": 120,
+      "power": 75,
       "recoil": 33
     }
   },
@@ -25489,7 +25495,7 @@
     "effect": "EFFECT_MAX_HP_50_RECOIL",
     "target": "SINGLE",
     "flags": [],
-    "power": 150,
+    "power": 120,
     "old": {
       "id": "CHLOROBLAST",
       "name": "Chloroblast",
@@ -25501,7 +25507,7 @@
       "effect": "EFFECT_MAX_HP_50_RECOIL",
       "target": "SINGLE",
       "flags": [],
-      "power": 150
+      "power": 120
     }
   },
   {
@@ -25587,7 +25593,7 @@
     "flags": [
       "CONTACT"
     ],
-    "power": 120,
+    "power": 100,
     "old": {
       "id": "HEADLONG_RUSH",
       "name": "Headlong Rush",
@@ -25605,7 +25611,7 @@
       "flags": [
         "CONTACT"
       ],
-      "power": 120
+      "power": 100
     }
   },
   {
@@ -25615,7 +25621,7 @@
     "accuracy": 100,
     "type": "POISON",
     "category": "PHYSICAL",
-    "pp": 10,
+    "pp": 15,
     "effect": "EFFECT_DOUBLE_POWER_ON_ARG_STATUS",
     "target": "SINGLE",
     "additionalEffects": {
@@ -25631,7 +25637,7 @@
       "accuracy": 100,
       "type": "POISON",
       "category": "PHYSICAL",
-      "pp": 10,
+      "pp": 15,
       "effect": "EFFECT_DOUBLE_POWER_ON_ARG_STATUS",
       "target": "SINGLE",
       "additionalEffects": {
@@ -25646,7 +25652,7 @@
     "id": "ESPER_WING",
     "name": "Esper Wing",
     "description": "High critical hit ratio.\nUps the user's Speed.",
-    "accuracy": 100,
+    "accuracy": 90,
     "type": "PSYCHIC",
     "category": "SPECIAL",
     "pp": 10,
@@ -25659,12 +25665,12 @@
     },
     "flags": [],
     "criticalHitStage": 1,
-    "power": 80,
+    "power": 75,
     "old": {
       "id": "ESPER_WING",
       "name": "Esper Wing",
       "description": "High critical hit ratio.\nUps the user's Speed.",
-      "accuracy": 100,
+      "accuracy": 90,
       "type": "PSYCHIC",
       "category": "SPECIAL",
       "pp": 10,
@@ -25677,13 +25683,13 @@
       },
       "flags": [],
       "criticalHitStage": 1,
-      "power": 80
+      "power": 75
     }
   },
   {
     "id": "BITTER_MALICE",
     "name": "Bitter Malice",
-    "description": "A spine-chilling resentment.\nMay lower the foe's Attack.",
+    "description": "A spine-chilling resentment.\nLowers the foe's Attack.",
     "accuracy": 100,
     "type": "GHOST",
     "category": "PHYSICAL",
@@ -25695,11 +25701,11 @@
       "chance": 100
     },
     "flags": [],
-    "power": 75,
+    "power": 60,
     "old": {
       "id": "BITTER_MALICE",
       "name": "Bitter Malice",
-      "description": "A spine-chilling resentment.\nMay lower the foe's Attack.",
+      "description": "A spine-chilling resentment.\nLowers the foe's Attack.",
       "accuracy": 100,
       "type": "GHOST",
       "category": "PHYSICAL",
@@ -25711,7 +25717,7 @@
         "chance": 100
       },
       "flags": [],
-      "power": 75
+      "power": 60
     }
   },
   {
@@ -25753,7 +25759,7 @@
     "accuracy": 100,
     "type": "FIGHTING",
     "category": "PHYSICAL",
-    "pp": 10,
+    "pp": 15,
     "effect": "EFFECT_HIT",
     "target": "SINGLE",
     "additionalEffects": {
@@ -25762,7 +25768,7 @@
     },
     "flags": [],
     "criticalHitStage": 1,
-    "power": 90,
+    "power": 50,
     "old": {
       "id": "TRIPLE_ARROWS",
       "name": "Triple Arrows",
@@ -25770,7 +25776,7 @@
       "accuracy": 100,
       "type": "FIGHTING",
       "category": "PHYSICAL",
-      "pp": 10,
+      "pp": 15,
       "effect": "EFFECT_HIT",
       "target": "SINGLE",
       "additionalEffects": {
@@ -25779,7 +25785,7 @@
       },
       "flags": [],
       "criticalHitStage": 1,
-      "power": 90
+      "power": 50
     }
   },
   {
@@ -25863,7 +25869,7 @@
     "accuracy": 80,
     "type": "FLYING",
     "category": "PHYSICAL",
-    "pp": 10,
+    "pp": 5,
     "effect": "EFFECT_RAIN_ALWAYS_HIT",
     "target": "FOES",
     "additionalEffects": {
@@ -25871,7 +25877,7 @@
       "chance": 30
     },
     "flags": [],
-    "power": 100,
+    "power": 95,
     "old": {
       "id": "BLEAKWIND_STORM",
       "name": "Bleakwind Storm",
@@ -25879,7 +25885,7 @@
       "accuracy": 80,
       "type": "FLYING",
       "category": "PHYSICAL",
-      "pp": 10,
+      "pp": 5,
       "effect": "EFFECT_RAIN_ALWAYS_HIT",
       "target": "FOES",
       "additionalEffects": {
@@ -25887,7 +25893,7 @@
         "chance": 30
       },
       "flags": [],
-      "power": 100
+      "power": 95
     }
   },
   {
@@ -25897,7 +25903,7 @@
     "accuracy": 80,
     "type": "ELECTRIC",
     "category": "SPECIAL",
-    "pp": 10,
+    "pp": 5,
     "effect": "EFFECT_RAIN_ALWAYS_HIT",
     "target": "FOES",
     "additionalEffects": {
@@ -25905,7 +25911,7 @@
       "chance": 20
     },
     "flags": [],
-    "power": 100,
+    "power": 95,
     "old": {
       "id": "WILDBOLT_STORM",
       "name": "Wildbolt Storm",
@@ -25913,7 +25919,7 @@
       "accuracy": 80,
       "type": "ELECTRIC",
       "category": "SPECIAL",
-      "pp": 10,
+      "pp": 5,
       "effect": "EFFECT_RAIN_ALWAYS_HIT",
       "target": "FOES",
       "additionalEffects": {
@@ -25921,7 +25927,7 @@
         "chance": 20
       },
       "flags": [],
-      "power": 100
+      "power": 95
     }
   },
   {
@@ -25931,7 +25937,7 @@
     "accuracy": 80,
     "type": "GROUND",
     "category": "PHYSICAL",
-    "pp": 10,
+    "pp": 5,
     "effect": "EFFECT_RAIN_ALWAYS_HIT",
     "target": "FOES",
     "additionalEffects": {
@@ -25939,7 +25945,7 @@
       "chance": 20
     },
     "flags": [],
-    "power": 100,
+    "power": 95,
     "old": {
       "id": "SANDSEAR_STORM",
       "name": "Sandsear Storm",
@@ -25947,7 +25953,7 @@
       "accuracy": 80,
       "type": "GROUND",
       "category": "PHYSICAL",
-      "pp": 10,
+      "pp": 5,
       "effect": "EFFECT_RAIN_ALWAYS_HIT",
       "target": "FOES",
       "additionalEffects": {
@@ -25955,7 +25961,7 @@
         "chance": 20
       },
       "flags": [],
-      "power": 100
+      "power": 95
     }
   },
   {
@@ -26034,6 +26040,10 @@
     "pp": 10,
     "effect": "EFFECT_PLACEHOLDER",
     "target": "SINGLE",
+    "additionalEffects": {
+      "moveEffect": "MOVE_EFFECT_TERA_BLAST",
+      "self": true
+    },
     "flags": [
       "FORCE_PRESSURE"
     ],
@@ -26268,7 +26278,7 @@
     "type": "GRASS",
     "category": "STATUS",
     "pp": 15,
-    "effect": "EFFECT_PLACEHOLDER",
+    "effect": "EFFECT_SPICY_EXTRACT",
     "target": "SINGLE",
     "flags": [
       "MAGIC_COAT_AFFECTED",
@@ -26282,7 +26292,7 @@
       "type": "GRASS",
       "category": "STATUS",
       "pp": 15,
-      "effect": "EFFECT_PLACEHOLDER",
+      "effect": "EFFECT_SPICY_EXTRACT",
       "target": "SINGLE",
       "flags": [
         "MAGIC_COAT_AFFECTED",
@@ -26525,7 +26535,7 @@
   {
     "id": "MORTAL_SPIN",
     "name": "Mortal Spin",
-    "description": "Erases trap moves and Leech\nSeed. Poisons adjecent foes.",
+    "description": "Erases trap moves and Leech\nSeed. Poisons adjacent foes.",
     "accuracy": 100,
     "type": "POISON",
     "category": "PHYSICAL",
@@ -26544,7 +26554,7 @@
     "old": {
       "id": "MORTAL_SPIN",
       "name": "Mortal Spin",
-      "description": "Erases trap moves and Leech\nSeed. Poisons adjecent foes.",
+      "description": "Erases trap moves and Leech\nSeed. Poisons adjacent foes.",
       "accuracy": 100,
       "type": "POISON",
       "category": "PHYSICAL",
@@ -27835,8 +27845,8 @@
     "name": "Blood Moon",
     "description": "Unleashes the blood moon.\nCan't be used twice in a row.",
     "accuracy": 100,
-    "type": "NORMAL",
-    "category": "PHYSICAL",
+    "type": "DARK",
+    "category": "SPECIAL",
     "pp": 5,
     "effect": "EFFECT_HIT",
     "target": "SINGLE",
@@ -28055,7 +28065,7 @@
     "old": {
       "id": "FICKLE_BEAM",
       "name": "Fickle Beam",
-      "description": "Shoots a beam of light. Sometimes\ntwice as strong.",
+      "description": "Shoots a beam of light.\nSometimes twice as strong.",
       "accuracy": 100,
       "type": "DRAGON",
       "category": "SPECIAL",
@@ -29162,7 +29172,7 @@
   },
   {
     "id": "OCEANIC_OPERETTA",
-    "name": "Oceaning Operetta",
+    "name": "Oceanic Operetta",
     "description": "",
     "accuracy": null,
     "type": "WATER",
@@ -29174,7 +29184,7 @@
     "power": 195,
     "old": {
       "id": "OCEANIC_OPERETTA",
-      "name": "Oceaning Operetta",
+      "name": "Oceanic Operetta",
       "description": "",
       "accuracy": null,
       "type": "WATER",
@@ -29282,25 +29292,25 @@
   },
   {
     "id": "GUARDIAN_OF_ALOLA",
-    "name": "Guardian Of Alola",
+    "name": "Guardian of Alola",
     "description": "",
     "accuracy": null,
     "type": "FAIRY",
     "category": "SPECIAL",
     "pp": 1,
-    "effect": "EFFECT_SUPER_FANG",
+    "effect": "EFFECT_GUARDIAN_OF_ALOLA",
     "target": "SINGLE",
     "flags": [],
     "power": 1,
     "old": {
       "id": "GUARDIAN_OF_ALOLA",
-      "name": "Guardian Of Alola",
+      "name": "Guardian of Alola",
       "description": "",
       "accuracy": null,
       "type": "FAIRY",
       "category": "SPECIAL",
       "pp": 1,
-      "effect": "EFFECT_SUPER_FANG",
+      "effect": "EFFECT_GUARDIAN_OF_ALOLA",
       "target": "SINGLE",
       "flags": [],
       "power": 1
@@ -29316,7 +29326,9 @@
     "pp": 1,
     "effect": "EFFECT_HIT",
     "target": "SINGLE",
-    "flags": [],
+    "flags": [
+      "IGNORES_TARGET_ABILITY"
+    ],
     "power": 200,
     "old": {
       "id": "SEARING_SUNRAZE_SMASH",
@@ -29344,7 +29356,9 @@
     "pp": 1,
     "effect": "EFFECT_HIT",
     "target": "SINGLE",
-    "flags": [],
+    "flags": [
+      "IGNORES_TARGET_ABILITY"
+    ],
     "power": 200,
     "old": {
       "id": "MENACING_MOONRAZE_MAELSTROM",
@@ -29370,9 +29384,11 @@
     "type": "PSYCHIC",
     "category": "SPECIAL",
     "pp": 1,
-    "effect": "EFFECT_HIT",
+    "effect": "EFFECT_PHOTON_GEYSER",
     "target": "SINGLE",
-    "flags": [],
+    "flags": [
+      "IGNORES_TARGET_ABILITY"
+    ],
     "power": 200,
     "old": {
       "id": "LIGHT_THAT_BURNS_THE_SKY",
@@ -29382,7 +29398,7 @@
       "type": "PSYCHIC",
       "category": "SPECIAL",
       "pp": 1,
-      "effect": "EFFECT_HIT",
+      "effect": "EFFECT_PHOTON_GEYSER",
       "target": "SINGLE",
       "flags": [
         "IGNORES_TARGET_ABILITY"

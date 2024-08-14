@@ -9,14 +9,137 @@ const learnsetsData = learnsetsDiff as LearnsetData[];
 function getLearnset(pokemon: string) {
   return learnsetsData.find((ls) => ls.pokemon === pokemon);
 }
+
+const monsBlacklist = [
+  "DUDUNSPARCE_THREE_SEGMENT",
+  "WORMADAM_SANDY_CLOAK",
+  "WORMADAM_TRASH_CLOAK",
+  "BURMY_SANDY_CLOAK",
+  "BURMY_TRASH_CLOAK",
+  "SHELLOS_EAST_SEA",
+  "GASTRODON_EAST_SEA",
+  "DEOXYS_ATTACK",
+  "DEOXYS_DEFENSE",
+  "DEOXYS_SPEED",
+  "ROTOM_MOW",
+  "ROTOM_FAN",
+  "ROTOM_HEAT",
+  "ROTOM_WASH",
+  "ROTOM_FROST",
+  "DIALGA_ORIGIN",
+  "PALKIA_ORIGIN",
+  "GIRATINA_ORIGIN",
+  "SHAYMIN_SKY",
+  "BASCULIN_BLUE_STRIPED",
+  "BASCULIN_WHITE_STRIPED",
+  "DARMANITAN_ZEN_MODE",
+  "SAWSBUCK_SUMMER",
+  "SAWSBUCK_WINTER",
+  "SAWSBUCK_AUTUMN",
+  "TORNADUS_THERIAN",
+  "THUNDURUS_THERIAN",
+  "LANDORUS_THERIAN",
+  "KYUREM_WHITE",
+  "KYUREM_BLACK",
+  "KELDEO_RESOLUTE",
+  "MELOETTA_PIROUETTE",
+  "VIVILLON_POLAR",
+  "VIVILLON_TUNDRA",
+  "VIVILLON_CONTINENTAL",
+  "VIVILLON_GARDEN",
+  "VIVILLON_ELEGANT",
+  "VIVILLON_MEADOW",
+  "VIVILLON_MODERN",
+  "VIVILLON_MARINE",
+  "VIVILLON_ARCHIPELAGO",
+  "VIVILLON_HIGH_PLAINS",
+  "VIVILLON_SANDSTORM",
+  "VIVILLON_RIVER",
+  "VIVILLON_MONSOON",
+  "VIVILLON_SAVANNA",
+  "VIVILLON_SUN",
+  "VIVILLON_OCEAN",
+  "VIVILLON_JUNGLE",
+  "VIVILLON_FANCY",
+  "VIVILLON_POKE_BALL",
+  "FURFROU_HEART_TRIM",
+  "FURFROU_STAR_TRIM",
+  "FURFROU_DIAMOND_TRIM",
+  "FURFROU_DEBUTANTE_TRIM",
+  "FURFROU_MATRON_TRIM",
+  "FURFROU_DANDY_TRIM",
+  "FURFROU_LA_REINE_TRIM",
+  "FURFROU_KABUKI_TRIM",
+  "FURFROU_PHARAOH_TRIM",
+  "AEGISLASH_BLADE",
+  "PUMPKABOO_SMALL",
+  "PUMPKABOO_LARGE",
+  "PUMPKABOO_SUPER",
+  "GOURGEIST_SMALL",
+  "GOURGEIST_LARGE",
+  "GOURGEIST_SUPER",
+  "XERNEAS_ACTIVE",
+  "ZYGARDE_10_PERCENT",
+  "ZYGARDE_COMPLETE",
+  "HOOPA_UNBOUND",
+  "MINIOR_METEOR_ORANGE",
+  "MINIOR_METEOR_YELLOW",
+  "MINIOR_METEOR_GREEN",
+  "MINIOR_METEOR_BLUE",
+  "MINIOR_METEOR_INDIGO",
+  "MINIOR_METEOR_VIOLET",
+  "MINIOR_CORE",
+  "MINIOR_CORE_ORANGE",
+  "MINIOR_CORE_YELLOW",
+  "MINIOR_CORE_GREEN",
+  "MINIOR_CORE_BLUE",
+  "MINIOR_CORE_INDIGO",
+  "MINIOR_CORE_VIOLET",
+  "ORICORIO_POM_POM",
+  "ORICORIO_PAU",
+  "ORICORIO_SENSU",
+  "LYCANROC_MIDNIGHT",
+  "LYCANROC_DUSK",
+  "MIMIKYU_BUSTED",
+  "NECROZMA_DUSK_MANE",
+  "NECROZMA_DAWN_WINGS",
+  "MAGEARNA_ORIGINAL_COLOR",
+  "CRAMORANT_GORGING",
+  "CRAMORANT_GULPING",
+  "TOXTRICITY_LOW_KEY",
+  "EISCUE_NOICE_FACE",
+  "MORPEKO_HANGRY",
+  "ZACIAN_CROWNED_SWORD",
+  "ZAMAZENTA_CROWNED_SHIELD",
+  "ETERNATUS_ETERNAMAX",
+  "URSHIFU_RAPID_STRIKE_STYLE",
+  "ZARUDE_DADA",
+  "CALYREX_ICE_RIDER",
+  "CALYREX_SHADOW_RIDER",
+  "ENAMORUS_THERIAN",
+  "MAUSHOLD_FOUR",
+  "PALAFIN_HERO",
+  "TATSUGIRI_DROOPY",
+  "TATSUGIRI_STRETCHY",
+  "GIMMIGHOUL_ROAMING",
+  "OGERPON_WELLSPRING",
+  "OGERPON_HEARTHFLAME",
+  "OGERPON_CORNERSTONE",
+];
+
+const formsBlacklist = ["PORYGON_Z"];
+
 const monsData = mons as PokemonInfo[];
+console.log(
+  monsData
+    .filter((m) => m.species.startsWith("CALYREX_"))
+    .map(({ species }) => species),
+);
 function getMonsData() {
-  const speciesSet = new Set(
-    monsData.flatMap((p) => p.formChangeTable.map((fc) => fc.form)),
-  );
   return monsData.filter(({ species, flags }) => {
     return !(
-      speciesSet.has(species) ||
+      monsBlacklist.includes(species) ||
+      species.endsWith("_FEMALE") ||
       flags.some((flag) =>
         [
           PokemonFlags.alolanForm,
@@ -40,7 +163,8 @@ function getMonsData() {
           forms={monsData.filter(
             (m) =>
               m.species !== mon.species &&
-              m.species.startsWith(`${mon.species}_`),
+              m.species.startsWith(`${mon.species}_`) &&
+              !formsBlacklist.includes(m.species),
           )}
           learnset={getLearnset(mon.species)}
         />

@@ -2692,10 +2692,10 @@
       55,
       40,
       50,
-      40,
+      50,
       90
     ],
-    "bst": 310,
+    "bst": 320,
     "generation": 1,
     "types": [
       "ELECTRIC"
@@ -3683,7 +3683,7 @@
     "natDexNum": 32,
     "abilities": [
       "POISON_POINT",
-      "RIVALRY"
+      "HUSTLE"
     ],
     "bodyColor": "BODY_COLOR_PURPLE",
     "catchRate": 235,
@@ -5509,11 +5509,13 @@
     "bst": 490,
     "generation": 2,
     "types": [
-      "GRASS"
+      "GRASS",
+      "FAIRY"
     ],
     "natDexNum": 182,
     "abilities": [
-      "CHLOROPHYLL"
+      "CHLOROPHYLL",
+      "DANCER"
     ],
     "bodyColor": "BODY_COLOR_GREEN",
     "catchRate": 45,
@@ -11318,11 +11320,13 @@
     "bst": 377,
     "generation": 1,
     "types": [
-      "FIGHTING"
+      "FIGHTING",
+      "FLYING"
     ],
     "natDexNum": 83,
     "abilities": [
-      "STEADFAST"
+      "SHARPNESS",
+      "SCRAPPY"
     ],
     "bodyColor": "BODY_COLOR_BROWN",
     "catchRate": 45,
@@ -13589,7 +13593,7 @@
     "natDexNum": 100,
     "abilities": [
       "SOUNDPROOF",
-      "STATIC"
+      "RECKLESS"
     ],
     "bodyColor": "BODY_COLOR_RED",
     "catchRate": 190,
@@ -13689,7 +13693,7 @@
     "natDexNum": 101,
     "abilities": [
       "SOUNDPROOF",
-      "STATIC"
+      "RECKLESS"
     ],
     "bodyColor": "BODY_COLOR_RED",
     "catchRate": 60,
@@ -14546,21 +14550,21 @@
   {
     "species": "HITMONCHAN",
     "stats": [
-      50,
-      105,
-      79,
+      70,
+      100,
+      90,
       35,
       110,
-      76
+      75
     ],
-    "bst": 455,
+    "bst": 480,
     "generation": 1,
     "types": [
       "FIGHTING"
     ],
     "natDexNum": 107,
     "abilities": [
-      "KEEN_EYE",
+      "INNER_FOCUS",
       "IRON_FIST"
     ],
     "bodyColor": "BODY_COLOR_BROWN",
@@ -22553,13 +22557,13 @@
     "species": "TYPHLOSION",
     "stats": [
       78,
-      84,
+      90,
       78,
       100,
       85,
       109
     ],
-    "bst": 534,
+    "bst": 540,
     "generation": 2,
     "types": [
       "FIRE"
@@ -22646,13 +22650,13 @@
     "species": "TYPHLOSION_HISUIAN",
     "stats": [
       73,
-      84,
+      90,
       78,
       119,
       85,
       95
     ],
-    "bst": 534,
+    "bst": 540,
     "generation": 2,
     "types": [
       "FIRE",
@@ -22660,7 +22664,8 @@
     ],
     "natDexNum": 157,
     "abilities": [
-      "BLAZE"
+      "BLAZE",
+      "BERSERK"
     ],
     "bodyColor": "BODY_COLOR_YELLOW",
     "catchRate": 45,
@@ -23124,21 +23129,21 @@
     "species": "FURRET",
     "stats": [
       85,
-      76,
-      64,
-      45,
+      90,
+      65,
+      65,
       55,
       90
     ],
-    "bst": 415,
+    "bst": 450,
     "generation": 2,
     "types": [
       "NORMAL"
     ],
     "natDexNum": 162,
     "abilities": [
-      "RUN_AWAY",
-      "KEEN_EYE"
+      "SCRAPPY",
+      "SPEED_BOOST"
     ],
     "bodyColor": "BODY_COLOR_BROWN",
     "catchRate": 90,
@@ -23506,22 +23511,22 @@
     "species": "LEDIAN",
     "stats": [
       55,
-      35,
+      90,
       50,
       55,
       110,
-      85
+      90
     ],
-    "bst": 390,
+    "bst": 450,
     "generation": 2,
     "types": [
       "BUG",
-      "FLYING"
+      "FIGHTING"
     ],
     "natDexNum": 166,
     "abilities": [
       "SWARM",
-      "EARLY_BIRD"
+      "IRON_FIST"
     ],
     "bodyColor": "BODY_COLOR_RED",
     "catchRate": 90,
@@ -24003,7 +24008,7 @@
     ],
     "natDexNum": 175,
     "abilities": [
-      "HUSTLE",
+      "SUPER_LUCK",
       "SERENE_GRACE"
     ],
     "bodyColor": "BODY_COLOR_WHITE",
@@ -24093,12 +24098,12 @@
     "bst": 405,
     "generation": 2,
     "types": [
-      "NORMAL",
+      "FAIRY",
       "FLYING"
     ],
     "natDexNum": 176,
     "abilities": [
-      "HUSTLE",
+      "SUPER_LUCK",
       "SERENE_GRACE"
     ],
     "bodyColor": "BODY_COLOR_WHITE",
@@ -24196,7 +24201,7 @@
     ],
     "natDexNum": 468,
     "abilities": [
-      "HUSTLE",
+      "SUPER_LUCK",
       "SERENE_GRACE"
     ],
     "bodyColor": "BODY_COLOR_WHITE",
@@ -26312,13 +26317,13 @@
     "species": "WOOPER_PALDEAN",
     "stats": [
       55,
+      50,
       45,
       45,
-      25,
       25,
       15
     ],
-    "bst": 210,
+    "bst": 235,
     "generation": 2,
     "types": [
       "POISON",
@@ -26414,13 +26419,13 @@
     "species": "CLODSIRE",
     "stats": [
       130,
-      75,
+      80,
       60,
-      45,
+      65,
       100,
       20
     ],
-    "bst": 430,
+    "bst": 455,
     "generation": 9,
     "types": [
       "POISON",
@@ -27264,11 +27269,11 @@
       120,
       90,
       70,
-      110,
+      120,
       70,
       60
     ],
-    "bst": 520,
+    "bst": 530,
     "generation": 9,
     "types": [
       "NORMAL",
@@ -27545,22 +27550,21 @@
   {
     "species": "DUNSPARCE",
     "stats": [
-      125,
       100,
-      80,
-      85,
-      75,
-      55
+      70,
+      70,
+      65,
+      65,
+      45
     ],
-    "bst": 520,
+    "bst": 415,
     "generation": 2,
     "types": [
       "NORMAL"
     ],
     "natDexNum": 206,
     "abilities": [
-      "SERENE_GRACE",
-      "RUN_AWAY"
+      "SERENE_GRACE"
     ],
     "bodyColor": "BODY_COLOR_YELLOW",
     "catchRate": 190,
@@ -27653,8 +27657,7 @@
     ],
     "natDexNum": 982,
     "abilities": [
-      "SERENE_GRACE",
-      "RUN_AWAY"
+      "SERENE_GRACE"
     ],
     "bodyColor": "BODY_COLOR_YELLOW",
     "catchRate": 45,
@@ -27747,8 +27750,7 @@
     ],
     "natDexNum": 982,
     "abilities": [
-      "SERENE_GRACE",
-      "RUN_AWAY"
+      "SERENE_GRACE"
     ],
     "bodyColor": "BODY_COLOR_YELLOW",
     "catchRate": 45,
@@ -29405,7 +29407,7 @@
     "generation": 8,
     "types": [
       "GROUND",
-      "NORMAL"
+      "DARK"
     ],
     "natDexNum": 901,
     "abilities": [
@@ -29582,14 +29584,14 @@
   {
     "species": "MAGCARGO",
     "stats": [
-      60,
+      80,
       50,
       120,
-      90,
+      100,
       80,
       30
     ],
-    "bst": 430,
+    "bst": 460,
     "generation": 2,
     "types": [
       "FIRE",
@@ -29597,8 +29599,8 @@
     ],
     "natDexNum": 219,
     "abilities": [
-      "MAGMA_ARMOR",
-      "FLAME_BODY"
+      "SIMPLE",
+      "WATER_ABSORB"
     ],
     "bodyColor": "BODY_COLOR_RED",
     "catchRate": 75,
@@ -29789,7 +29791,7 @@
     ],
     "natDexNum": 221,
     "abilities": [
-      "OBLIVIOUS",
+      "THICK_FAT",
       "SNOW_CLOAK"
     ],
     "bodyColor": "BODY_COLOR_BROWN",
@@ -30066,21 +30068,22 @@
   {
     "species": "CORSOLA_GALARIAN",
     "stats": [
-      50,
+      60,
       55,
-      90,
+      100,
       65,
-      90,
+      100,
       30
     ],
-    "bst": 380,
+    "bst": 410,
     "generation": 2,
     "types": [
       "GHOST"
     ],
     "natDexNum": 222,
     "abilities": [
-      "WEAK_ARMOR"
+      "WEAK_ARMOR",
+      "CURSED_BODY"
     ],
     "bodyColor": "BODY_COLOR_WHITE",
     "catchRate": 60,
@@ -34261,16 +34264,16 @@
     "stats": [
       60,
       70,
-      50,
+      55,
       100,
-      50,
-      65
+      55,
+      75
     ],
-    "bst": 395,
+    "bst": 415,
     "generation": 3,
     "types": [
       "BUG",
-      "FLYING"
+      "FAIRY"
     ],
     "natDexNum": 267,
     "abilities": [
@@ -34447,14 +34450,14 @@
   {
     "species": "DUSTOX",
     "stats": [
-      60,
+      95,
       50,
       70,
       50,
       90,
       65
     ],
-    "bst": 385,
+    "bst": 420,
     "generation": 3,
     "types": [
       "BUG",
@@ -35531,14 +35534,14 @@
   {
     "species": "RALTS",
     "stats": [
-      28,
+      30,
       25,
-      25,
-      45,
       35,
+      55,
+      45,
       40
     ],
-    "bst": 198,
+    "bst": 230,
     "generation": 3,
     "types": [
       "PSYCHIC",
@@ -35626,17 +35629,18 @@
   {
     "species": "KIRLIA",
     "stats": [
-      38,
+      50,
       35,
-      35,
-      65,
       55,
+      70,
+      65,
       50
     ],
-    "bst": 278,
+    "bst": 325,
     "generation": 3,
     "types": [
-      "PSYCHIC"
+      "PSYCHIC",
+      "FAIRY"
     ],
     "natDexNum": 281,
     "abilities": [
@@ -35830,11 +35834,11 @@
       68,
       125,
       65,
-      65,
+      85,
       115,
       80
     ],
-    "bst": 518,
+    "bst": 538,
     "generation": 4,
     "types": [
       "PSYCHIC",
@@ -36427,14 +36431,14 @@
   {
     "species": "VIGOROTH",
     "stats": [
-      80,
+      90,
       80,
       80,
       55,
-      55,
+      65,
       90
     ],
-    "bst": 440,
+    "bst": 460,
     "generation": 3,
     "types": [
       "NORMAL"
@@ -36533,7 +36537,8 @@
     ],
     "natDexNum": 289,
     "abilities": [
-      "TRUANT"
+      "TRUANT",
+      "SLOW_START"
     ],
     "bodyColor": "BODY_COLOR_BROWN",
     "catchRate": 45,
@@ -36990,21 +36995,22 @@
   {
     "species": "LOUDRED",
     "stats": [
-      84,
-      71,
-      43,
-      71,
-      43,
-      48
+      85,
+      75,
+      60,
+      75,
+      45,
+      60
     ],
-    "bst": 360,
+    "bst": 400,
     "generation": 3,
     "types": [
       "NORMAL"
     ],
     "natDexNum": 294,
     "abilities": [
-      "SOUNDPROOF"
+      "SOUNDPROOF",
+      "SCRAPPY"
     ],
     "bodyColor": "BODY_COLOR_BLUE",
     "catchRate": 120,
@@ -38973,20 +38979,20 @@
     "species": "ILLUMISE",
     "stats": [
       65,
-      47,
+      70,
       75,
-      73,
+      76,
       85,
       85
     ],
-    "bst": 430,
+    "bst": 456,
     "generation": 3,
     "types": [
       "BUG"
     ],
     "natDexNum": 314,
     "abilities": [
-      "OBLIVIOUS",
+      "PRANKSTER",
       "TINTED_LENS"
     ],
     "bodyColor": "BODY_COLOR_PURPLE",
@@ -42103,13 +42109,13 @@
     "species": "CLAYDOL",
     "stats": [
       60,
-      70,
+      100,
       105,
       70,
-      120,
+      105,
       75
     ],
-    "bst": 500,
+    "bst": 515,
     "generation": 3,
     "types": [
       "GROUND",
@@ -42938,11 +42944,11 @@
       70,
       70,
       70,
+      100,
       70,
-      70,
-      70
+      100
     ],
-    "bst": 420,
+    "bst": 480,
     "generation": 3,
     "types": [
       "FIRE"
@@ -43346,11 +43352,11 @@
       70,
       70,
       70,
+      100,
       70,
-      70,
-      70
+      100
     ],
-    "bst": 420,
+    "bst": 480,
     "generation": 3,
     "types": [
       "ICE"
@@ -44413,20 +44419,20 @@
     "species": "ABSOL",
     "stats": [
       65,
-      130,
+      100,
       60,
-      75,
+      115,
       60,
-      75
+      115
     ],
-    "bst": 465,
+    "bst": 515,
     "generation": 3,
     "types": [
       "DARK"
     ],
     "natDexNum": 359,
     "abilities": [
-      "PRESSURE",
+      "SHARPNESS",
       "SUPER_LUCK"
     ],
     "bodyColor": "BODY_COLOR_WHITE",
@@ -45216,12 +45222,13 @@
       105,
       94,
       75,
-      52
+      72
     ],
-    "bst": 485,
+    "bst": 505,
     "generation": 3,
     "types": [
-      "WATER"
+      "WATER",
+      "DARK"
     ],
     "natDexNum": 367,
     "abilities": [
@@ -50497,9 +50504,9 @@
       70,
       94,
       50,
-      94,
+      66,
       50,
-      66
+      94
     ],
     "bst": 424,
     "generation": 4,
@@ -50509,7 +50516,8 @@
     ],
     "natDexNum": 414,
     "abilities": [
-      "SWARM"
+      "SWARM",
+      "TINTED_LENS"
     ],
     "bodyColor": "BODY_COLOR_YELLOW",
     "catchRate": 45,
@@ -51164,11 +51172,11 @@
     "species": "CHERRIM",
     "stats": [
       70,
-      60,
+      40,
       70,
-      87,
+      97,
       78,
-      85
+      95
     ],
     "bst": 450,
     "generation": 4,
@@ -56712,7 +56720,8 @@
     "bst": 480,
     "generation": 4,
     "types": [
-      "WATER"
+      "WATER",
+      "FAIRY"
     ],
     "natDexNum": 489,
     "abilities": [
@@ -63578,11 +63587,11 @@
       70,
       90,
       45,
-      55,
+      65,
       45,
       70
     ],
-    "bst": 375,
+    "bst": 385,
     "generation": 5,
     "types": [
       "FIRE"
@@ -65896,13 +65905,13 @@
     "species": "ZOROARK",
     "stats": [
       60,
-      105,
+      95,
       60,
-      120,
+      130,
       60,
-      105
+      115
     ],
-    "bst": 510,
+    "bst": 520,
     "generation": 5,
     "types": [
       "DARK"
@@ -65988,9 +65997,9 @@
     "species": "ZORUA_HISUIAN",
     "stats": [
       35,
-      60,
+      80,
       40,
-      85,
+      65,
       40,
       70
     ],
@@ -66086,13 +66095,13 @@
     "species": "ZOROARK_HISUIAN",
     "stats": [
       55,
-      100,
+      130,
       60,
-      125,
+      95,
       60,
-      110
+      115
     ],
-    "bst": 510,
+    "bst": 515,
     "generation": 5,
     "types": [
       "NORMAL",
@@ -69436,13 +69445,13 @@
     "species": "EELEKTRIK",
     "stats": [
       65,
-      85,
-      70,
+      65,
       75,
-      70,
+      85,
+      80,
       40
     ],
-    "bst": 405,
+    "bst": 410,
     "generation": 5,
     "types": [
       "ELECTRIC"
@@ -70682,8 +70691,8 @@
     ],
     "natDexNum": 616,
     "abilities": [
-      "HYDRATION",
-      "SHELL_ARMOR"
+      "SHELL_ARMOR",
+      "HEATPROOF"
     ],
     "bodyColor": "BODY_COLOR_RED",
     "catchRate": 200,
@@ -71657,7 +71666,7 @@
     "natDexNum": 625,
     "abilities": [
       "DEFIANT",
-      "SUPREME_OVERLORD"
+      "INNER_FOCUS"
     ],
     "bodyColor": "BODY_COLOR_RED",
     "catchRate": 45,
@@ -76814,13 +76823,13 @@
     "species": "VIVILLON",
     "stats": [
       80,
-      52,
+      50,
       50,
       90,
       50,
-      89
+      100
     ],
-    "bst": 411,
+    "bst": 420,
     "generation": 6,
     "types": [
       "BUG",
@@ -76910,13 +76919,13 @@
     "species": "VIVILLON_POLAR",
     "stats": [
       80,
-      52,
+      50,
       50,
       90,
       50,
-      89
+      100
     ],
-    "bst": 411,
+    "bst": 420,
     "generation": 6,
     "types": [
       "BUG",
@@ -77006,13 +77015,13 @@
     "species": "VIVILLON_TUNDRA",
     "stats": [
       80,
-      52,
+      50,
       50,
       90,
       50,
-      89
+      100
     ],
-    "bst": 411,
+    "bst": 420,
     "generation": 6,
     "types": [
       "BUG",
@@ -77102,13 +77111,13 @@
     "species": "VIVILLON_CONTINENTAL",
     "stats": [
       80,
-      52,
+      50,
       50,
       90,
       50,
-      89
+      100
     ],
-    "bst": 411,
+    "bst": 420,
     "generation": 6,
     "types": [
       "BUG",
@@ -77198,13 +77207,13 @@
     "species": "VIVILLON_GARDEN",
     "stats": [
       80,
-      52,
+      50,
       50,
       90,
       50,
-      89
+      100
     ],
-    "bst": 411,
+    "bst": 420,
     "generation": 6,
     "types": [
       "BUG",
@@ -77294,13 +77303,13 @@
     "species": "VIVILLON_ELEGANT",
     "stats": [
       80,
-      52,
+      50,
       50,
       90,
       50,
-      89
+      100
     ],
-    "bst": 411,
+    "bst": 420,
     "generation": 6,
     "types": [
       "BUG",
@@ -77390,13 +77399,13 @@
     "species": "VIVILLON_MEADOW",
     "stats": [
       80,
-      52,
+      50,
       50,
       90,
       50,
-      89
+      100
     ],
-    "bst": 411,
+    "bst": 420,
     "generation": 6,
     "types": [
       "BUG",
@@ -77486,13 +77495,13 @@
     "species": "VIVILLON_MODERN",
     "stats": [
       80,
-      52,
+      50,
       50,
       90,
       50,
-      89
+      100
     ],
-    "bst": 411,
+    "bst": 420,
     "generation": 6,
     "types": [
       "BUG",
@@ -77582,13 +77591,13 @@
     "species": "VIVILLON_MARINE",
     "stats": [
       80,
-      52,
+      50,
       50,
       90,
       50,
-      89
+      100
     ],
-    "bst": 411,
+    "bst": 420,
     "generation": 6,
     "types": [
       "BUG",
@@ -77678,13 +77687,13 @@
     "species": "VIVILLON_ARCHIPELAGO",
     "stats": [
       80,
-      52,
+      50,
       50,
       90,
       50,
-      89
+      100
     ],
-    "bst": 411,
+    "bst": 420,
     "generation": 6,
     "types": [
       "BUG",
@@ -77774,13 +77783,13 @@
     "species": "VIVILLON_HIGH_PLAINS",
     "stats": [
       80,
-      52,
+      50,
       50,
       90,
       50,
-      89
+      100
     ],
-    "bst": 411,
+    "bst": 420,
     "generation": 6,
     "types": [
       "BUG",
@@ -77870,13 +77879,13 @@
     "species": "VIVILLON_SANDSTORM",
     "stats": [
       80,
-      52,
+      50,
       50,
       90,
       50,
-      89
+      100
     ],
-    "bst": 411,
+    "bst": 420,
     "generation": 6,
     "types": [
       "BUG",
@@ -77966,13 +77975,13 @@
     "species": "VIVILLON_RIVER",
     "stats": [
       80,
-      52,
+      50,
       50,
       90,
       50,
-      89
+      100
     ],
-    "bst": 411,
+    "bst": 420,
     "generation": 6,
     "types": [
       "BUG",
@@ -78062,13 +78071,13 @@
     "species": "VIVILLON_MONSOON",
     "stats": [
       80,
-      52,
+      50,
       50,
       90,
       50,
-      89
+      100
     ],
-    "bst": 411,
+    "bst": 420,
     "generation": 6,
     "types": [
       "BUG",
@@ -78158,13 +78167,13 @@
     "species": "VIVILLON_SAVANNA",
     "stats": [
       80,
-      52,
+      50,
       50,
       90,
       50,
-      89
+      100
     ],
-    "bst": 411,
+    "bst": 420,
     "generation": 6,
     "types": [
       "BUG",
@@ -78254,13 +78263,13 @@
     "species": "VIVILLON_SUN",
     "stats": [
       80,
-      52,
+      50,
       50,
       90,
       50,
-      89
+      100
     ],
-    "bst": 411,
+    "bst": 420,
     "generation": 6,
     "types": [
       "BUG",
@@ -78350,13 +78359,13 @@
     "species": "VIVILLON_OCEAN",
     "stats": [
       80,
-      52,
+      50,
       50,
       90,
       50,
-      89
+      100
     ],
-    "bst": 411,
+    "bst": 420,
     "generation": 6,
     "types": [
       "BUG",
@@ -78446,13 +78455,13 @@
     "species": "VIVILLON_JUNGLE",
     "stats": [
       80,
-      52,
+      50,
       50,
       90,
       50,
-      89
+      100
     ],
-    "bst": 411,
+    "bst": 420,
     "generation": 6,
     "types": [
       "BUG",
@@ -78542,13 +78551,13 @@
     "species": "VIVILLON_FANCY",
     "stats": [
       80,
-      52,
+      50,
       50,
       90,
       50,
-      89
+      100
     ],
-    "bst": 411,
+    "bst": 420,
     "generation": 6,
     "types": [
       "BUG",
@@ -78638,13 +78647,13 @@
     "species": "VIVILLON_POKE_BALL",
     "stats": [
       80,
-      52,
+      50,
       50,
       90,
       50,
-      89
+      100
     ],
-    "bst": 411,
+    "bst": 420,
     "generation": 6,
     "types": [
       "BUG",
@@ -79403,12 +79412,12 @@
     "stats": [
       75,
       80,
-      60,
+      65,
       65,
       90,
       102
     ],
-    "bst": 472,
+    "bst": 477,
     "generation": 6,
     "types": [
       "NORMAL"
@@ -79495,12 +79504,12 @@
     "stats": [
       75,
       80,
-      60,
+      65,
       65,
       90,
       102
     ],
-    "bst": 472,
+    "bst": 477,
     "generation": 6,
     "types": [
       "NORMAL"
@@ -79587,12 +79596,12 @@
     "stats": [
       75,
       80,
-      60,
+      65,
       65,
       90,
       102
     ],
-    "bst": 472,
+    "bst": 477,
     "generation": 6,
     "types": [
       "NORMAL"
@@ -79679,12 +79688,12 @@
     "stats": [
       75,
       80,
-      60,
+      65,
       65,
       90,
       102
     ],
-    "bst": 472,
+    "bst": 477,
     "generation": 6,
     "types": [
       "NORMAL"
@@ -79771,12 +79780,12 @@
     "stats": [
       75,
       80,
-      60,
+      65,
       65,
       90,
       102
     ],
-    "bst": 472,
+    "bst": 477,
     "generation": 6,
     "types": [
       "NORMAL"
@@ -79863,12 +79872,12 @@
     "stats": [
       75,
       80,
-      60,
+      65,
       65,
       90,
       102
     ],
-    "bst": 472,
+    "bst": 477,
     "generation": 6,
     "types": [
       "NORMAL"
@@ -79955,12 +79964,12 @@
     "stats": [
       75,
       80,
-      60,
+      65,
       65,
       90,
       102
     ],
-    "bst": 472,
+    "bst": 477,
     "generation": 6,
     "types": [
       "NORMAL"
@@ -80047,12 +80056,12 @@
     "stats": [
       75,
       80,
-      60,
+      65,
       65,
       90,
       102
     ],
-    "bst": 472,
+    "bst": 477,
     "generation": 6,
     "types": [
       "NORMAL"
@@ -80139,12 +80148,12 @@
     "stats": [
       75,
       80,
-      60,
+      65,
       65,
       90,
       102
     ],
-    "bst": 472,
+    "bst": 477,
     "generation": 6,
     "types": [
       "NORMAL"
@@ -80231,12 +80240,12 @@
     "stats": [
       75,
       80,
-      60,
+      65,
       65,
       90,
       102
     ],
-    "bst": 472,
+    "bst": 477,
     "generation": 6,
     "types": [
       "NORMAL"
@@ -80509,21 +80518,21 @@
   {
     "species": "MEOWSTIC_FEMALE",
     "stats": [
-      74,
-      48,
-      76,
-      83,
-      81,
-      104
+      75,
+      45,
+      75,
+      105,
+      80,
+      105
     ],
-    "bst": 466,
+    "bst": 485,
     "generation": 6,
     "types": [
       "PSYCHIC"
     ],
     "natDexNum": 678,
     "abilities": [
-      "KEEN_EYE",
+      "COMPETITIVE",
       "INFILTRATOR"
     ],
     "bodyColor": "BODY_COLOR_WHITE",
@@ -81477,14 +81486,14 @@
   {
     "species": "MALAMAR",
     "stats": [
-      86,
+      96,
       92,
       88,
       68,
       75,
       73
     ],
-    "bst": 482,
+    "bst": 492,
     "generation": 6,
     "types": [
       "DARK",
@@ -81493,7 +81502,7 @@
     "natDexNum": 687,
     "abilities": [
       "CONTRARY",
-      "SUCTION_CUPS"
+      "NONE "
     ],
     "bodyColor": "BODY_COLOR_BLUE",
     "catchRate": 80,
@@ -82057,12 +82066,12 @@
   {
     "species": "CLAWITZER",
     "stats": [
-      71,
-      73,
-      88,
+      80,
+      55,
+      100,
       120,
-      89,
-      59
+      90,
+      55
     ],
     "bst": 500,
     "generation": 6,
@@ -82249,23 +82258,23 @@
   {
     "species": "HELIOLISK",
     "stats": [
-      62,
+      60,
       55,
-      52,
-      109,
-      94,
-      109
+      55,
+      110,
+      95,
+      110
     ],
-    "bst": 481,
+    "bst": 485,
     "generation": 6,
     "types": [
       "ELECTRIC",
-      "NORMAL"
+      "DRAGON"
     ],
     "natDexNum": 695,
     "abilities": [
       "DRY_SKIN",
-      "SAND_VEIL"
+      "SOLAR_POWER"
     ],
     "bodyColor": "BODY_COLOR_YELLOW",
     "catchRate": 75,
@@ -82446,20 +82455,21 @@
     "stats": [
       82,
       121,
-      119,
+      110,
       69,
       59,
-      71
+      80
     ],
     "bst": 521,
     "generation": 6,
     "types": [
-      "ROCK",
-      "DRAGON"
+      "DRAGON",
+      "ROCK"
     ],
     "natDexNum": 697,
     "abilities": [
-      "STRONG_JAW"
+      "SAND_STREAM",
+      "ROCK_HEAD"
     ],
     "bodyColor": "BODY_COLOR_RED",
     "catchRate": 45,
@@ -82550,8 +82560,8 @@
     "bst": 380,
     "generation": 6,
     "types": [
-      "ROCK",
-      "ICE"
+      "ICE",
+      "ROCK"
     ],
     "natDexNum": 698,
     "abilities": [
@@ -82636,21 +82646,22 @@
     "species": "AURORUS",
     "stats": [
       123,
-      77,
-      72,
-      99,
+      50,
+      80,
+      126,
       92,
-      58
+      50
     ],
     "bst": 521,
     "generation": 6,
     "types": [
-      "ROCK",
-      "ICE"
+      "ICE",
+      "ROCK"
     ],
     "natDexNum": 699,
     "abilities": [
-      "REFRIGERATE"
+      "REFRIGERATE",
+      "SNOW_WARNING"
     ],
     "bodyColor": "BODY_COLOR_BLUE",
     "catchRate": 45,
@@ -83117,22 +83128,22 @@
   {
     "species": "SLIGGOO",
     "stats": [
-      68,
-      75,
-      53,
-      83,
-      113,
+      70,
+      70,
+      60,
+      90,
+      115,
       60
     ],
-    "bst": 452,
+    "bst": 465,
     "generation": 6,
     "types": [
       "DRAGON"
     ],
     "natDexNum": 705,
     "abilities": [
-      "SAP_SIPPER",
-      "HYDRATION"
+      "WATER_ABSORB",
+      "GOOEY"
     ],
     "bodyColor": "BODY_COLOR_PURPLE",
     "catchRate": 45,
@@ -83701,14 +83712,14 @@
   {
     "species": "TREVENANT",
     "stats": [
-      85,
-      110,
-      76,
+      90,
+      130,
+      80,
       65,
-      82,
-      56
+      80,
+      55
     ],
-    "bst": 474,
+    "bst": 500,
     "generation": 6,
     "types": [
       "GHOST",
@@ -83717,7 +83728,7 @@
     "natDexNum": 709,
     "abilities": [
       "NATURAL_CURE",
-      "FRISK"
+      "CURSED_BODY"
     ],
     "bodyColor": "BODY_COLOR_BROWN",
     "catchRate": 60,
@@ -83895,14 +83906,14 @@
   {
     "species": "PUMPKABOO_SMALL",
     "stats": [
-      44,
-      66,
-      70,
-      44,
+      45,
       55,
-      56
+      60,
+      70,
+      70,
+      70
     ],
-    "bst": 335,
+    "bst": 370,
     "generation": 6,
     "types": [
       "GHOST",
@@ -84087,14 +84098,14 @@
   {
     "species": "PUMPKABOO_SUPER",
     "stats": [
-      59,
-      66,
+      60,
       70,
-      44,
+      75,
       55,
-      41
+      55,
+      55
     ],
-    "bst": 335,
+    "bst": 370,
     "generation": 6,
     "types": [
       "GHOST",
@@ -84202,7 +84213,7 @@
     ],
     "natDexNum": 711,
     "abilities": [
-      "PICKUP",
+      "RIPEN",
       "FRISK"
     ],
     "bodyColor": "BODY_COLOR_BROWN",
@@ -84298,7 +84309,7 @@
     ],
     "natDexNum": 711,
     "abilities": [
-      "PICKUP",
+      "RIPEN",
       "FRISK"
     ],
     "bodyColor": "BODY_COLOR_BROWN",
@@ -84394,7 +84405,7 @@
     ],
     "natDexNum": 711,
     "abilities": [
-      "PICKUP",
+      "RIPEN",
       "FRISK"
     ],
     "bodyColor": "BODY_COLOR_BROWN",
@@ -84490,7 +84501,7 @@
     ],
     "natDexNum": 711,
     "abilities": [
-      "PICKUP",
+      "RIPEN",
       "FRISK"
     ],
     "bodyColor": "BODY_COLOR_BROWN",
@@ -85953,7 +85964,8 @@
     ],
     "natDexNum": 720,
     "abilities": [
-      "MAGICIAN"
+      "MAGICIAN",
+      "SHADOW_TAG"
     ],
     "bodyColor": "BODY_COLOR_PURPLE",
     "catchRate": 3,
@@ -86445,7 +86457,8 @@
     ],
     "natDexNum": 724,
     "abilities": [
-      "OVERGROW"
+      "OVERGROW",
+      "LONG_REACH"
     ],
     "bodyColor": "BODY_COLOR_BROWN",
     "catchRate": 45,
@@ -87674,14 +87687,14 @@
   {
     "species": "CHARJABUG",
     "stats": [
-      57,
+      60,
       82,
       95,
       55,
       75,
       36
     ],
-    "bst": 400,
+    "bst": 403,
     "generation": 7,
     "types": [
       "BUG",
@@ -88189,11 +88202,11 @@
       75,
       70,
       70,
-      98,
+      100,
       70,
-      93
+      100
     ],
-    "bst": 476,
+    "bst": 485,
     "generation": 7,
     "types": [
       "ELECTRIC",
@@ -88443,13 +88456,13 @@
     "species": "ORICORIO_SENSU",
     "stats": [
       75,
+      100,
       70,
       70,
-      98,
       70,
-      93
+      100
     ],
-    "bst": 476,
+    "bst": 485,
     "generation": 7,
     "types": [
       "GHOST",
@@ -89955,14 +89968,14 @@
   {
     "species": "ARAQUANID",
     "stats": [
-      68,
+      65,
       70,
       92,
-      50,
+      81,
       132,
       42
     ],
-    "bst": 454,
+    "bst": 482,
     "generation": 7,
     "types": [
       "WATER",
@@ -90544,13 +90557,13 @@
     "species": "SALAZZLE",
     "stats": [
       68,
-      64,
+      80,
       60,
       111,
       60,
       117
     ],
-    "bst": 480,
+    "bst": 496,
     "generation": 7,
     "types": [
       "POISON",
@@ -90927,14 +90940,14 @@
   {
     "species": "STEENEE",
     "stats": [
-      52,
+      60,
       40,
-      48,
-      40,
-      48,
-      62
+      50,
+      50,
+      50,
+      65
     ],
-    "bst": 290,
+    "bst": 315,
     "generation": 7,
     "types": [
       "GRASS"
@@ -91981,12 +91994,12 @@
     "stats": [
       60,
       60,
-      100,
+      110,
       60,
-      100,
+      110,
       60
     ],
-    "bst": 440,
+    "bst": 460,
     "generation": 7,
     "types": [
       "ROCK",
@@ -92077,12 +92090,12 @@
     "stats": [
       60,
       60,
-      100,
+      110,
       60,
-      100,
+      110,
       60
     ],
-    "bst": 440,
+    "bst": 460,
     "generation": 7,
     "types": [
       "ROCK",
@@ -92173,12 +92186,12 @@
     "stats": [
       60,
       60,
-      100,
+      110,
       60,
-      100,
+      110,
       60
     ],
-    "bst": 440,
+    "bst": 460,
     "generation": 7,
     "types": [
       "ROCK",
@@ -92269,12 +92282,12 @@
     "stats": [
       60,
       60,
-      100,
+      110,
       60,
-      100,
+      110,
       60
     ],
-    "bst": 440,
+    "bst": 460,
     "generation": 7,
     "types": [
       "ROCK",
@@ -92365,12 +92378,12 @@
     "stats": [
       60,
       60,
-      100,
+      110,
       60,
-      100,
+      110,
       60
     ],
-    "bst": 440,
+    "bst": 460,
     "generation": 7,
     "types": [
       "ROCK",
@@ -92461,12 +92474,12 @@
     "stats": [
       60,
       60,
-      100,
+      110,
       60,
-      100,
+      110,
       60
     ],
-    "bst": 440,
+    "bst": 460,
     "generation": 7,
     "types": [
       "ROCK",
@@ -92557,12 +92570,12 @@
     "stats": [
       60,
       60,
-      100,
+      110,
       60,
-      100,
+      110,
       60
     ],
-    "bst": 440,
+    "bst": 460,
     "generation": 7,
     "types": [
       "ROCK",
@@ -92652,13 +92665,13 @@
     "species": "MINIOR_CORE",
     "stats": [
       60,
-      100,
+      110,
       60,
-      100,
+      110,
       60,
       120
     ],
-    "bst": 500,
+    "bst": 520,
     "generation": 7,
     "types": [
       "ROCK",
@@ -92760,13 +92773,13 @@
     "species": "MINIOR_CORE_ORANGE",
     "stats": [
       60,
-      100,
+      110,
       60,
-      100,
+      110,
       60,
       120
     ],
-    "bst": 500,
+    "bst": 520,
     "generation": 7,
     "types": [
       "ROCK",
@@ -92868,13 +92881,13 @@
     "species": "MINIOR_CORE_YELLOW",
     "stats": [
       60,
-      100,
+      110,
       60,
-      100,
+      110,
       60,
       120
     ],
-    "bst": 500,
+    "bst": 520,
     "generation": 7,
     "types": [
       "ROCK",
@@ -92976,13 +92989,13 @@
     "species": "MINIOR_CORE_GREEN",
     "stats": [
       60,
-      100,
+      110,
       60,
-      100,
+      110,
       60,
       120
     ],
-    "bst": 500,
+    "bst": 520,
     "generation": 7,
     "types": [
       "ROCK",
@@ -93084,13 +93097,13 @@
     "species": "MINIOR_CORE_BLUE",
     "stats": [
       60,
-      100,
+      110,
       60,
-      100,
+      110,
       60,
       120
     ],
-    "bst": 500,
+    "bst": 520,
     "generation": 7,
     "types": [
       "ROCK",
@@ -93192,13 +93205,13 @@
     "species": "MINIOR_CORE_INDIGO",
     "stats": [
       60,
-      100,
+      110,
       60,
-      100,
+      110,
       60,
       120
     ],
-    "bst": 500,
+    "bst": 520,
     "generation": 7,
     "types": [
       "ROCK",
@@ -93300,13 +93313,13 @@
     "species": "MINIOR_CORE_VIOLET",
     "stats": [
       60,
-      100,
+      110,
       60,
-      100,
+      110,
       60,
       120
     ],
-    "bst": 500,
+    "bst": 520,
     "generation": 7,
     "types": [
       "ROCK",
@@ -93796,11 +93809,11 @@
       55,
       90,
       80,
-      50,
+      75,
       105,
       96
     ],
-    "bst": 476,
+    "bst": 501,
     "generation": 7,
     "types": [
       "GHOST",
@@ -96662,13 +96675,13 @@
     "species": "NAGANADEL",
     "stats": [
       73,
-      73,
+      103,
       73,
       127,
       73,
       121
     ],
-    "bst": 540,
+    "bst": 570,
     "generation": 7,
     "types": [
       "POISON",
@@ -101000,14 +101013,14 @@
   {
     "species": "CRAMORANT_GULPING",
     "stats": [
+      100,
       70,
-      85,
-      55,
+      80,
       85,
       95,
-      85
+      80
     ],
-    "bst": 475,
+    "bst": 510,
     "generation": 8,
     "types": [
       "FLYING",
@@ -104012,13 +104025,13 @@
     "species": "MORPEKO_HANGRY",
     "stats": [
       58,
-      95,
-      58,
       70,
       58,
-      97
+      95,
+      58,
+      107
     ],
-    "bst": 436,
+    "bst": 446,
     "generation": 8,
     "types": [
       "ELECTRIC",
@@ -105960,11 +105973,11 @@
       100,
       130,
       100,
-      63,
+      93,
       60,
       97
     ],
-    "bst": 550,
+    "bst": 580,
     "generation": 8,
     "types": [
       "FIGHTING",
@@ -108474,21 +108487,23 @@
   {
     "species": "SPIDOPS",
     "stats": [
-      60,
-      79,
-      92,
+      65,
+      85,
+      95,
       52,
-      86,
+      90,
       35
     ],
-    "bst": 404,
+    "bst": 422,
     "generation": 9,
     "types": [
-      "BUG"
+      "BUG",
+      "GHOST"
     ],
     "natDexNum": 918,
     "abilities": [
-      "INSOMNIA"
+      "INSOMNIA",
+      "STAKEOUT"
     ],
     "bodyColor": "BODY_COLOR_GREEN",
     "catchRate": 120,
@@ -109801,13 +109816,13 @@
     "species": "SQUAWKABILLY",
     "stats": [
       82,
-      96,
-      51,
+      106,
+      60,
       45,
-      51,
+      60,
       92
     ],
-    "bst": 417,
+    "bst": 445,
     "generation": 9,
     "types": [
       "NORMAL",
@@ -110939,14 +110954,14 @@
   {
     "species": "MABOSSTIFF",
     "stats": [
-      80,
+      90,
       120,
       90,
       60,
       70,
       85
     ],
-    "bst": 505,
+    "bst": 515,
     "generation": 9,
     "types": [
       "DARK"
@@ -118354,9 +118369,9 @@
     "species": "GOUGING_FIRE",
     "stats": [
       105,
-      115,
-      121,
       65,
+      121,
+      115,
       93,
       91
     ],
@@ -118642,9 +118657,9 @@
     "species": "IRON_CROWN",
     "stats": [
       90,
-      72,
-      100,
       122,
+      100,
+      72,
       108,
       98
     ],
