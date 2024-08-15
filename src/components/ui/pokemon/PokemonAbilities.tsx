@@ -1,7 +1,8 @@
 import lodash from 'lodash';
 import type { PokemonInfo } from '../../../models/types/pokemon.info';
 import { toCapitalized } from '../../../utils/formatting.utils';
-const { isEqual } = lodash;
+
+const { difference, intersection } = lodash;
 
 interface AbilitiesBarProps {
   pokemon: PokemonInfo;
@@ -9,31 +10,33 @@ interface AbilitiesBarProps {
 
 export default function PokemonAbilities({ pokemon }: AbilitiesBarProps) {
   const newAbilities = pokemon.abilities;
-  const oldAbilities = pokemon.old?.abilities ?? newAbilities;
+  const oldAbilities = pokemon.old?.abilities ?? [];
   const label = newAbilities.length > 1 ? 'Abilities' : 'Ability';
+
+  const commonAbilities = intersection(newAbilities, oldAbilities);
+  const removedAbilities = difference(oldAbilities, newAbilities);
+  const addedAbilities = difference(newAbilities, oldAbilities);
+
   return (
     <div>
       <span>{label}:</span>
-      {!isEqual(newAbilities, oldAbilities) ? (
-        <div className='grid grid-flow-row'>
-          {oldAbilities.map((ability, i) => (
-            <span className='old' key={i}>
-              {toCapitalized(ability)}
-            </span>
-          ))}{' '}
-          {newAbilities.map((ability, i) => (
-            <span className='new' key={i}>
-              {toCapitalized(ability)}
-            </span>
-          ))}
-        </div>
-      ) : (
-        <div className='flex flex-col'>
-          {newAbilities.map((ability) => (
-            <span key={ability}>{toCapitalized(ability)}</span>
-          ))}
-        </div>
-      )}
+      <div className='grid grid-flow-row'>
+        {commonAbilities.map((ability, i) => (
+          <span className='common' key={`common-${i}`}>
+            {toCapitalized(ability)}
+          </span>
+        ))}
+        {removedAbilities.map((ability, i) => (
+          <span className='old' key={`old-${i}`}>
+            {toCapitalized(ability)}
+          </span>
+        ))}
+        {addedAbilities.map((ability, i) => (
+          <span className='new' key={`new-${i}`}>
+            {toCapitalized(ability)}
+          </span>
+        ))}
+      </div>
     </div>
   );
 }
