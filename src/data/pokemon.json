@@ -87326,7 +87326,7 @@
       "SHIELD_DUST",
       "COMPOUND_EYES"
     ],
-    "bodyColor": "color",
+    "bodyColor": "BODY_COLOR_WHITE",
     "catchRate": 45,
     "categoryName": "Scale",
     "speciesName": "Vivillon",
@@ -87373,7 +87373,7 @@
         "SHIELD_DUST",
         "COMPOUND_EYES"
       ],
-      "bodyColor": "color",
+      "bodyColor": "BODY_COLOR_WHITE",
       "catchRate": 45,
       "categoryName": "Scale",
       "speciesName": "Vivillon",
@@ -87422,7 +87422,7 @@
       "SHIELD_DUST",
       "COMPOUND_EYES"
     ],
-    "bodyColor": "color",
+    "bodyColor": "BODY_COLOR_BLUE",
     "catchRate": 45,
     "categoryName": "Scale",
     "speciesName": "Vivillon",
@@ -87469,7 +87469,7 @@
         "SHIELD_DUST",
         "COMPOUND_EYES"
       ],
-      "bodyColor": "color",
+      "bodyColor": "BODY_COLOR_BLUE",
       "catchRate": 45,
       "categoryName": "Scale",
       "speciesName": "Vivillon",
@@ -87518,7 +87518,7 @@
       "SHIELD_DUST",
       "COMPOUND_EYES"
     ],
-    "bodyColor": "color",
+    "bodyColor": "BODY_COLOR_BLUE",
     "catchRate": 45,
     "categoryName": "Scale",
     "speciesName": "Vivillon",
@@ -87565,7 +87565,7 @@
         "SHIELD_DUST",
         "COMPOUND_EYES"
       ],
-      "bodyColor": "color",
+      "bodyColor": "BODY_COLOR_BLUE",
       "catchRate": 45,
       "categoryName": "Scale",
       "speciesName": "Vivillon",
@@ -87614,7 +87614,7 @@
       "SHIELD_DUST",
       "COMPOUND_EYES"
     ],
-    "bodyColor": "color",
+    "bodyColor": "BODY_COLOR_YELLOW",
     "catchRate": 45,
     "categoryName": "Scale",
     "speciesName": "Vivillon",
@@ -87661,7 +87661,7 @@
         "SHIELD_DUST",
         "COMPOUND_EYES"
       ],
-      "bodyColor": "color",
+      "bodyColor": "BODY_COLOR_YELLOW",
       "catchRate": 45,
       "categoryName": "Scale",
       "speciesName": "Vivillon",
@@ -87710,7 +87710,7 @@
       "SHIELD_DUST",
       "COMPOUND_EYES"
     ],
-    "bodyColor": "color",
+    "bodyColor": "BODY_COLOR_GREEN",
     "catchRate": 45,
     "categoryName": "Scale",
     "speciesName": "Vivillon",
@@ -87757,7 +87757,7 @@
         "SHIELD_DUST",
         "COMPOUND_EYES"
       ],
-      "bodyColor": "color",
+      "bodyColor": "BODY_COLOR_GREEN",
       "catchRate": 45,
       "categoryName": "Scale",
       "speciesName": "Vivillon",
@@ -87806,7 +87806,7 @@
       "SHIELD_DUST",
       "COMPOUND_EYES"
     ],
-    "bodyColor": "color",
+    "bodyColor": "BODY_COLOR_PURPLE",
     "catchRate": 45,
     "categoryName": "Scale",
     "speciesName": "Vivillon",
@@ -87853,7 +87853,7 @@
         "SHIELD_DUST",
         "COMPOUND_EYES"
       ],
-      "bodyColor": "color",
+      "bodyColor": "BODY_COLOR_PURPLE",
       "catchRate": 45,
       "categoryName": "Scale",
       "speciesName": "Vivillon",
@@ -87902,7 +87902,7 @@
       "SHIELD_DUST",
       "COMPOUND_EYES"
     ],
-    "bodyColor": "color",
+    "bodyColor": "BODY_COLOR_PINK",
     "catchRate": 45,
     "categoryName": "Scale",
     "speciesName": "Vivillon",
@@ -87949,7 +87949,7 @@
         "SHIELD_DUST",
         "COMPOUND_EYES"
       ],
-      "bodyColor": "color",
+      "bodyColor": "BODY_COLOR_PINK",
       "catchRate": 45,
       "categoryName": "Scale",
       "speciesName": "Vivillon",
@@ -87998,7 +87998,7 @@
       "SHIELD_DUST",
       "COMPOUND_EYES"
     ],
-    "bodyColor": "color",
+    "bodyColor": "BODY_COLOR_RED",
     "catchRate": 45,
     "categoryName": "Scale",
     "speciesName": "Vivillon",
@@ -88045,7 +88045,7 @@
         "SHIELD_DUST",
         "COMPOUND_EYES"
       ],
-      "bodyColor": "color",
+      "bodyColor": "BODY_COLOR_RED",
       "catchRate": 45,
       "categoryName": "Scale",
       "speciesName": "Vivillon",
@@ -88094,7 +88094,7 @@
       "SHIELD_DUST",
       "COMPOUND_EYES"
     ],
-    "bodyColor": "color",
+    "bodyColor": "BODY_COLOR_BLUE",
     "catchRate": 45,
     "categoryName": "Scale",
     "speciesName": "Vivillon",
@@ -88141,7 +88141,7 @@
         "SHIELD_DUST",
         "COMPOUND_EYES"
       ],
-      "bodyColor": "color",
+      "bodyColor": "BODY_COLOR_BLUE",
       "catchRate": 45,
       "categoryName": "Scale",
       "speciesName": "Vivillon",
@@ -88190,7 +88190,7 @@
       "SHIELD_DUST",
       "COMPOUND_EYES"
     ],
-    "bodyColor": "color",
+    "bodyColor": "BODY_COLOR_BROWN",
     "catchRate": 45,
     "categoryName": "Scale",
     "speciesName": "Vivillon",
@@ -88237,7 +88237,7 @@
         "SHIELD_DUST",
         "COMPOUND_EYES"
       ],
-      "bodyColor": "color",
+      "bodyColor": "BODY_COLOR_BROWN",
       "catchRate": 45,
       "categoryName": "Scale",
       "speciesName": "Vivillon",
@@ -88286,7 +88286,7 @@
       "SHIELD_DUST",
       "COMPOUND_EYES"
     ],
-    "bodyColor": "color",
+    "bodyColor": "BODY_COLOR_BROWN",
     "catchRate": 45,
     "categoryName": "Scale",
     "speciesName": "Vivillon",
@@ -88333,7 +88333,7 @@
         "SHIELD_DUST",
         "COMPOUND_EYES"
       ],
-      "bodyColor": "color",
+      "bodyColor": "BODY_COLOR_BROWN",
       "catchRate": 45,
       "categoryName": "Scale",
       "speciesName": "Vivillon",
@@ -88382,7 +88382,7 @@
       "SHIELD_DUST",
       "COMPOUND_EYES"
     ],
-    "bodyColor": "color",
+    "bodyColor": "BODY_COLOR_BROWN",
     "catchRate": 45,
     "categoryName": "Scale",
     "speciesName": "Vivillon",
@@ -88429,7 +88429,7 @@
         "SHIELD_DUST",
         "COMPOUND_EYES"
       ],
-      "bodyColor": "color",
+      "bodyColor": "BODY_COLOR_BROWN",
       "catchRate": 45,
       "categoryName": "Scale",
       "speciesName": "Vivillon",
@@ -88478,7 +88478,7 @@
       "SHIELD_DUST",
       "COMPOUND_EYES"
     ],
-    "bodyColor": "color",
+    "bodyColor": "BODY_COLOR_BROWN",
     "catchRate": 45,
     "categoryName": "Scale",
     "speciesName": "Vivillon",
@@ -88525,7 +88525,7 @@
         "SHIELD_DUST",
         "COMPOUND_EYES"
       ],
-      "bodyColor": "color",
+      "bodyColor": "BODY_COLOR_BROWN",
       "catchRate": 45,
       "categoryName": "Scale",
       "speciesName": "Vivillon",
@@ -88574,7 +88574,7 @@
       "SHIELD_DUST",
       "COMPOUND_EYES"
     ],
-    "bodyColor": "color",
+    "bodyColor": "BODY_COLOR_GRAY",
     "catchRate": 45,
     "categoryName": "Scale",
     "speciesName": "Vivillon",
@@ -88621,7 +88621,7 @@
         "SHIELD_DUST",
         "COMPOUND_EYES"
       ],
-      "bodyColor": "color",
+      "bodyColor": "BODY_COLOR_GRAY",
       "catchRate": 45,
       "categoryName": "Scale",
       "speciesName": "Vivillon",
@@ -88670,7 +88670,7 @@
       "SHIELD_DUST",
       "COMPOUND_EYES"
     ],
-    "bodyColor": "color",
+    "bodyColor": "BODY_COLOR_GREEN",
     "catchRate": 45,
     "categoryName": "Scale",
     "speciesName": "Vivillon",
@@ -88717,7 +88717,7 @@
         "SHIELD_DUST",
         "COMPOUND_EYES"
       ],
-      "bodyColor": "color",
+      "bodyColor": "BODY_COLOR_GREEN",
       "catchRate": 45,
       "categoryName": "Scale",
       "speciesName": "Vivillon",
@@ -88766,7 +88766,7 @@
       "SHIELD_DUST",
       "COMPOUND_EYES"
     ],
-    "bodyColor": "color",
+    "bodyColor": "BODY_COLOR_RED",
     "catchRate": 45,
     "categoryName": "Scale",
     "speciesName": "Vivillon",
@@ -88813,7 +88813,7 @@
         "SHIELD_DUST",
         "COMPOUND_EYES"
       ],
-      "bodyColor": "color",
+      "bodyColor": "BODY_COLOR_RED",
       "catchRate": 45,
       "categoryName": "Scale",
       "speciesName": "Vivillon",
@@ -88862,7 +88862,7 @@
       "SHIELD_DUST",
       "COMPOUND_EYES"
     ],
-    "bodyColor": "color",
+    "bodyColor": "BODY_COLOR_RED",
     "catchRate": 45,
     "categoryName": "Scale",
     "speciesName": "Vivillon",
@@ -88909,7 +88909,7 @@
         "SHIELD_DUST",
         "COMPOUND_EYES"
       ],
-      "bodyColor": "color",
+      "bodyColor": "BODY_COLOR_RED",
       "catchRate": 45,
       "categoryName": "Scale",
       "speciesName": "Vivillon",
@@ -88958,7 +88958,7 @@
       "SHIELD_DUST",
       "COMPOUND_EYES"
     ],
-    "bodyColor": "color",
+    "bodyColor": "BODY_COLOR_GREEN",
     "catchRate": 45,
     "categoryName": "Scale",
     "speciesName": "Vivillon",
@@ -89005,7 +89005,7 @@
         "SHIELD_DUST",
         "COMPOUND_EYES"
       ],
-      "bodyColor": "color",
+      "bodyColor": "BODY_COLOR_GREEN",
       "catchRate": 45,
       "categoryName": "Scale",
       "speciesName": "Vivillon",
@@ -89054,7 +89054,7 @@
       "SHIELD_DUST",
       "COMPOUND_EYES"
     ],
-    "bodyColor": "color",
+    "bodyColor": "BODY_COLOR_PINK",
     "catchRate": 45,
     "categoryName": "Scale",
     "speciesName": "Vivillon",
@@ -89101,7 +89101,7 @@
         "SHIELD_DUST",
         "COMPOUND_EYES"
       ],
-      "bodyColor": "color",
+      "bodyColor": "BODY_COLOR_PINK",
       "catchRate": 45,
       "categoryName": "Scale",
       "speciesName": "Vivillon",
@@ -89150,7 +89150,7 @@
       "SHIELD_DUST",
       "COMPOUND_EYES"
     ],
-    "bodyColor": "color",
+    "bodyColor": "BODY_COLOR_RED",
     "catchRate": 45,
     "categoryName": "Scale",
     "speciesName": "Vivillon",
@@ -89197,7 +89197,7 @@
         "SHIELD_DUST",
         "COMPOUND_EYES"
       ],
-      "bodyColor": "color",
+      "bodyColor": "BODY_COLOR_RED",
       "catchRate": 45,
       "categoryName": "Scale",
       "speciesName": "Vivillon",
@@ -109335,7 +109335,7 @@
     "abilities": [
       "SHIELDS_DOWN"
     ],
-    "bodyColor": "color",
+    "bodyColor": "BODY_COLOR_RED",
     "catchRate": 30,
     "categoryName": "Meteor",
     "speciesName": "Minior",
@@ -109388,7 +109388,7 @@
       "abilities": [
         "SHIELDS_DOWN"
       ],
-      "bodyColor": "color",
+      "bodyColor": "BODY_COLOR_RED",
       "catchRate": 30,
       "categoryName": "Meteor",
       "speciesName": "Minior",
@@ -109443,7 +109443,7 @@
     "abilities": [
       "SHIELDS_DOWN"
     ],
-    "bodyColor": "color",
+    "bodyColor": "BODY_COLOR_RED",
     "catchRate": 30,
     "categoryName": "Meteor",
     "speciesName": "Minior",
@@ -109496,7 +109496,7 @@
       "abilities": [
         "SHIELDS_DOWN"
       ],
-      "bodyColor": "color",
+      "bodyColor": "BODY_COLOR_RED",
       "catchRate": 30,
       "categoryName": "Meteor",
       "speciesName": "Minior",
@@ -109551,7 +109551,7 @@
     "abilities": [
       "SHIELDS_DOWN"
     ],
-    "bodyColor": "color",
+    "bodyColor": "BODY_COLOR_YELLOW",
     "catchRate": 30,
     "categoryName": "Meteor",
     "speciesName": "Minior",
@@ -109604,7 +109604,7 @@
       "abilities": [
         "SHIELDS_DOWN"
       ],
-      "bodyColor": "color",
+      "bodyColor": "BODY_COLOR_YELLOW",
       "catchRate": 30,
       "categoryName": "Meteor",
       "speciesName": "Minior",
@@ -109659,7 +109659,7 @@
     "abilities": [
       "SHIELDS_DOWN"
     ],
-    "bodyColor": "color",
+    "bodyColor": "BODY_COLOR_GREEN",
     "catchRate": 30,
     "categoryName": "Meteor",
     "speciesName": "Minior",
@@ -109712,7 +109712,7 @@
       "abilities": [
         "SHIELDS_DOWN"
       ],
-      "bodyColor": "color",
+      "bodyColor": "BODY_COLOR_GREEN",
       "catchRate": 30,
       "categoryName": "Meteor",
       "speciesName": "Minior",
@@ -109767,7 +109767,7 @@
     "abilities": [
       "SHIELDS_DOWN"
     ],
-    "bodyColor": "color",
+    "bodyColor": "BODY_COLOR_BLUE",
     "catchRate": 30,
     "categoryName": "Meteor",
     "speciesName": "Minior",
@@ -109820,7 +109820,7 @@
       "abilities": [
         "SHIELDS_DOWN"
       ],
-      "bodyColor": "color",
+      "bodyColor": "BODY_COLOR_BLUE",
       "catchRate": 30,
       "categoryName": "Meteor",
       "speciesName": "Minior",
@@ -109875,7 +109875,7 @@
     "abilities": [
       "SHIELDS_DOWN"
     ],
-    "bodyColor": "color",
+    "bodyColor": "BODY_COLOR_BLUE",
     "catchRate": 30,
     "categoryName": "Meteor",
     "speciesName": "Minior",
@@ -109928,7 +109928,7 @@
       "abilities": [
         "SHIELDS_DOWN"
       ],
-      "bodyColor": "color",
+      "bodyColor": "BODY_COLOR_BLUE",
       "catchRate": 30,
       "categoryName": "Meteor",
       "speciesName": "Minior",
@@ -109983,7 +109983,7 @@
     "abilities": [
       "SHIELDS_DOWN"
     ],
-    "bodyColor": "color",
+    "bodyColor": "BODY_COLOR_PURPLE",
     "catchRate": 30,
     "categoryName": "Meteor",
     "speciesName": "Minior",
@@ -110036,7 +110036,7 @@
       "abilities": [
         "SHIELDS_DOWN"
       ],
-      "bodyColor": "color",
+      "bodyColor": "BODY_COLOR_PURPLE",
       "catchRate": 30,
       "categoryName": "Meteor",
       "speciesName": "Minior",
@@ -119714,7 +119714,7 @@
     "abilities": [
       "SWEET_VEIL"
     ],
-    "bodyColor": "color",
+    "bodyColor": "BODY_COLOR_WHITE",
     "catchRate": 100,
     "categoryName": "Cream",
     "speciesName": "Alcremie",
@@ -119765,7 +119765,7 @@
       "abilities": [
         "SWEET_VEIL"
       ],
-      "bodyColor": "color",
+      "bodyColor": "BODY_COLOR_WHITE",
       "catchRate": 100,
       "categoryName": "Cream",
       "speciesName": "Alcremie",
@@ -119818,7 +119818,7 @@
     "abilities": [
       "SWEET_VEIL"
     ],
-    "bodyColor": "color",
+    "bodyColor": "BODY_COLOR_PINK",
     "catchRate": 100,
     "categoryName": "Cream",
     "speciesName": "Alcremie",
@@ -119869,7 +119869,7 @@
       "abilities": [
         "SWEET_VEIL"
       ],
-      "bodyColor": "color",
+      "bodyColor": "BODY_COLOR_PINK",
       "catchRate": 100,
       "categoryName": "Cream",
       "speciesName": "Alcremie",
@@ -119922,7 +119922,7 @@
     "abilities": [
       "SWEET_VEIL"
     ],
-    "bodyColor": "color",
+    "bodyColor": "BODY_COLOR_GREEN",
     "catchRate": 100,
     "categoryName": "Cream",
     "speciesName": "Alcremie",
@@ -119973,7 +119973,7 @@
       "abilities": [
         "SWEET_VEIL"
       ],
-      "bodyColor": "color",
+      "bodyColor": "BODY_COLOR_GREEN",
       "catchRate": 100,
       "categoryName": "Cream",
       "speciesName": "Alcremie",
@@ -120026,7 +120026,7 @@
     "abilities": [
       "SWEET_VEIL"
     ],
-    "bodyColor": "color",
+    "bodyColor": "BODY_COLOR_BLUE",
     "catchRate": 100,
     "categoryName": "Cream",
     "speciesName": "Alcremie",
@@ -120077,7 +120077,7 @@
       "abilities": [
         "SWEET_VEIL"
       ],
-      "bodyColor": "color",
+      "bodyColor": "BODY_COLOR_BLUE",
       "catchRate": 100,
       "categoryName": "Cream",
       "speciesName": "Alcremie",
@@ -120130,7 +120130,7 @@
     "abilities": [
       "SWEET_VEIL"
     ],
-    "bodyColor": "color",
+    "bodyColor": "BODY_COLOR_YELLOW",
     "catchRate": 100,
     "categoryName": "Cream",
     "speciesName": "Alcremie",
@@ -120181,7 +120181,7 @@
       "abilities": [
         "SWEET_VEIL"
       ],
-      "bodyColor": "color",
+      "bodyColor": "BODY_COLOR_YELLOW",
       "catchRate": 100,
       "categoryName": "Cream",
       "speciesName": "Alcremie",
@@ -120234,7 +120234,7 @@
     "abilities": [
       "SWEET_VEIL"
     ],
-    "bodyColor": "color",
+    "bodyColor": "BODY_COLOR_WHITE",
     "catchRate": 100,
     "categoryName": "Cream",
     "speciesName": "Alcremie",
@@ -120285,7 +120285,7 @@
       "abilities": [
         "SWEET_VEIL"
       ],
-      "bodyColor": "color",
+      "bodyColor": "BODY_COLOR_WHITE",
       "catchRate": 100,
       "categoryName": "Cream",
       "speciesName": "Alcremie",
@@ -120338,7 +120338,7 @@
     "abilities": [
       "SWEET_VEIL"
     ],
-    "bodyColor": "color",
+    "bodyColor": "BODY_COLOR_YELLOW",
     "catchRate": 100,
     "categoryName": "Cream",
     "speciesName": "Alcremie",
@@ -120389,7 +120389,7 @@
       "abilities": [
         "SWEET_VEIL"
       ],
-      "bodyColor": "color",
+      "bodyColor": "BODY_COLOR_YELLOW",
       "catchRate": 100,
       "categoryName": "Cream",
       "speciesName": "Alcremie",
@@ -120442,7 +120442,7 @@
     "abilities": [
       "SWEET_VEIL"
     ],
-    "bodyColor": "color",
+    "bodyColor": "BODY_COLOR_BROWN",
     "catchRate": 100,
     "categoryName": "Cream",
     "speciesName": "Alcremie",
@@ -120493,7 +120493,7 @@
       "abilities": [
         "SWEET_VEIL"
       ],
-      "bodyColor": "color",
+      "bodyColor": "BODY_COLOR_BROWN",
       "catchRate": 100,
       "categoryName": "Cream",
       "speciesName": "Alcremie",
@@ -120546,7 +120546,7 @@
     "abilities": [
       "SWEET_VEIL"
     ],
-    "bodyColor": "color",
+    "bodyColor": "BODY_COLOR_YELLOW",
     "catchRate": 100,
     "categoryName": "Cream",
     "speciesName": "Alcremie",
@@ -120597,7 +120597,7 @@
       "abilities": [
         "SWEET_VEIL"
       ],
-      "bodyColor": "color",
+      "bodyColor": "BODY_COLOR_YELLOW",
       "catchRate": 100,
       "categoryName": "Cream",
       "speciesName": "Alcremie",
@@ -120650,7 +120650,7 @@
     "abilities": [
       "SWEET_VEIL"
     ],
-    "bodyColor": "color",
+    "bodyColor": "BODY_COLOR_WHITE",
     "catchRate": 100,
     "categoryName": "Cream",
     "speciesName": "Alcremie",
@@ -120701,7 +120701,7 @@
       "abilities": [
         "SWEET_VEIL"
       ],
-      "bodyColor": "color",
+      "bodyColor": "BODY_COLOR_WHITE",
       "catchRate": 100,
       "categoryName": "Cream",
       "speciesName": "Alcremie",
@@ -120754,7 +120754,7 @@
     "abilities": [
       "SWEET_VEIL"
     ],
-    "bodyColor": "color",
+    "bodyColor": "BODY_COLOR_PINK",
     "catchRate": 100,
     "categoryName": "Cream",
     "speciesName": "Alcremie",
@@ -120805,7 +120805,7 @@
       "abilities": [
         "SWEET_VEIL"
       ],
-      "bodyColor": "color",
+      "bodyColor": "BODY_COLOR_PINK",
       "catchRate": 100,
       "categoryName": "Cream",
       "speciesName": "Alcremie",
@@ -120858,7 +120858,7 @@
     "abilities": [
       "SWEET_VEIL"
     ],
-    "bodyColor": "color",
+    "bodyColor": "BODY_COLOR_GREEN",
     "catchRate": 100,
     "categoryName": "Cream",
     "speciesName": "Alcremie",
@@ -120909,7 +120909,7 @@
       "abilities": [
         "SWEET_VEIL"
       ],
-      "bodyColor": "color",
+      "bodyColor": "BODY_COLOR_GREEN",
       "catchRate": 100,
       "categoryName": "Cream",
       "speciesName": "Alcremie",
@@ -120962,7 +120962,7 @@
     "abilities": [
       "SWEET_VEIL"
     ],
-    "bodyColor": "color",
+    "bodyColor": "BODY_COLOR_BLUE",
     "catchRate": 100,
     "categoryName": "Cream",
     "speciesName": "Alcremie",
@@ -121013,7 +121013,7 @@
       "abilities": [
         "SWEET_VEIL"
       ],
-      "bodyColor": "color",
+      "bodyColor": "BODY_COLOR_BLUE",
       "catchRate": 100,
       "categoryName": "Cream",
       "speciesName": "Alcremie",
@@ -121066,7 +121066,7 @@
     "abilities": [
       "SWEET_VEIL"
     ],
-    "bodyColor": "color",
+    "bodyColor": "BODY_COLOR_YELLOW",
     "catchRate": 100,
     "categoryName": "Cream",
     "speciesName": "Alcremie",
@@ -121117,7 +121117,7 @@
       "abilities": [
         "SWEET_VEIL"
       ],
-      "bodyColor": "color",
+      "bodyColor": "BODY_COLOR_YELLOW",
       "catchRate": 100,
       "categoryName": "Cream",
       "speciesName": "Alcremie",
@@ -121170,7 +121170,7 @@
     "abilities": [
       "SWEET_VEIL"
     ],
-    "bodyColor": "color",
+    "bodyColor": "BODY_COLOR_WHITE",
     "catchRate": 100,
     "categoryName": "Cream",
     "speciesName": "Alcremie",
@@ -121221,7 +121221,7 @@
       "abilities": [
         "SWEET_VEIL"
       ],
-      "bodyColor": "color",
+      "bodyColor": "BODY_COLOR_WHITE",
       "catchRate": 100,
       "categoryName": "Cream",
       "speciesName": "Alcremie",
@@ -121274,7 +121274,7 @@
     "abilities": [
       "SWEET_VEIL"
     ],
-    "bodyColor": "color",
+    "bodyColor": "BODY_COLOR_YELLOW",
     "catchRate": 100,
     "categoryName": "Cream",
     "speciesName": "Alcremie",
@@ -121325,7 +121325,7 @@
       "abilities": [
         "SWEET_VEIL"
       ],
-      "bodyColor": "color",
+      "bodyColor": "BODY_COLOR_YELLOW",
       "catchRate": 100,
       "categoryName": "Cream",
       "speciesName": "Alcremie",
@@ -121378,7 +121378,7 @@
     "abilities": [
       "SWEET_VEIL"
     ],
-    "bodyColor": "color",
+    "bodyColor": "BODY_COLOR_BROWN",
     "catchRate": 100,
     "categoryName": "Cream",
     "speciesName": "Alcremie",
@@ -121429,7 +121429,7 @@
       "abilities": [
         "SWEET_VEIL"
       ],
-      "bodyColor": "color",
+      "bodyColor": "BODY_COLOR_BROWN",
       "catchRate": 100,
       "categoryName": "Cream",
       "speciesName": "Alcremie",
@@ -121482,7 +121482,7 @@
     "abilities": [
       "SWEET_VEIL"
     ],
-    "bodyColor": "color",
+    "bodyColor": "BODY_COLOR_YELLOW",
     "catchRate": 100,
     "categoryName": "Cream",
     "speciesName": "Alcremie",
@@ -121533,7 +121533,7 @@
       "abilities": [
         "SWEET_VEIL"
       ],
-      "bodyColor": "color",
+      "bodyColor": "BODY_COLOR_YELLOW",
       "catchRate": 100,
       "categoryName": "Cream",
       "speciesName": "Alcremie",
@@ -121586,7 +121586,7 @@
     "abilities": [
       "SWEET_VEIL"
     ],
-    "bodyColor": "color",
+    "bodyColor": "BODY_COLOR_WHITE",
     "catchRate": 100,
     "categoryName": "Cream",
     "speciesName": "Alcremie",
@@ -121637,7 +121637,7 @@
       "abilities": [
         "SWEET_VEIL"
       ],
-      "bodyColor": "color",
+      "bodyColor": "BODY_COLOR_WHITE",
       "catchRate": 100,
       "categoryName": "Cream",
       "speciesName": "Alcremie",
@@ -121690,7 +121690,7 @@
     "abilities": [
       "SWEET_VEIL"
     ],
-    "bodyColor": "color",
+    "bodyColor": "BODY_COLOR_PINK",
     "catchRate": 100,
     "categoryName": "Cream",
     "speciesName": "Alcremie",
@@ -121741,7 +121741,7 @@
       "abilities": [
         "SWEET_VEIL"
       ],
-      "bodyColor": "color",
+      "bodyColor": "BODY_COLOR_PINK",
       "catchRate": 100,
       "categoryName": "Cream",
       "speciesName": "Alcremie",
@@ -121794,7 +121794,7 @@
     "abilities": [
       "SWEET_VEIL"
     ],
-    "bodyColor": "color",
+    "bodyColor": "BODY_COLOR_GREEN",
     "catchRate": 100,
     "categoryName": "Cream",
     "speciesName": "Alcremie",
@@ -121845,7 +121845,7 @@
       "abilities": [
         "SWEET_VEIL"
       ],
-      "bodyColor": "color",
+      "bodyColor": "BODY_COLOR_GREEN",
       "catchRate": 100,
       "categoryName": "Cream",
       "speciesName": "Alcremie",
@@ -121898,7 +121898,7 @@
     "abilities": [
       "SWEET_VEIL"
     ],
-    "bodyColor": "color",
+    "bodyColor": "BODY_COLOR_BLUE",
     "catchRate": 100,
     "categoryName": "Cream",
     "speciesName": "Alcremie",
@@ -121949,7 +121949,7 @@
       "abilities": [
         "SWEET_VEIL"
       ],
-      "bodyColor": "color",
+      "bodyColor": "BODY_COLOR_BLUE",
       "catchRate": 100,
       "categoryName": "Cream",
       "speciesName": "Alcremie",
@@ -122002,7 +122002,7 @@
     "abilities": [
       "SWEET_VEIL"
     ],
-    "bodyColor": "color",
+    "bodyColor": "BODY_COLOR_YELLOW",
     "catchRate": 100,
     "categoryName": "Cream",
     "speciesName": "Alcremie",
@@ -122053,7 +122053,7 @@
       "abilities": [
         "SWEET_VEIL"
       ],
-      "bodyColor": "color",
+      "bodyColor": "BODY_COLOR_YELLOW",
       "catchRate": 100,
       "categoryName": "Cream",
       "speciesName": "Alcremie",
@@ -122106,7 +122106,7 @@
     "abilities": [
       "SWEET_VEIL"
     ],
-    "bodyColor": "color",
+    "bodyColor": "BODY_COLOR_WHITE",
     "catchRate": 100,
     "categoryName": "Cream",
     "speciesName": "Alcremie",
@@ -122157,7 +122157,7 @@
       "abilities": [
         "SWEET_VEIL"
       ],
-      "bodyColor": "color",
+      "bodyColor": "BODY_COLOR_WHITE",
       "catchRate": 100,
       "categoryName": "Cream",
       "speciesName": "Alcremie",
@@ -122210,7 +122210,7 @@
     "abilities": [
       "SWEET_VEIL"
     ],
-    "bodyColor": "color",
+    "bodyColor": "BODY_COLOR_YELLOW",
     "catchRate": 100,
     "categoryName": "Cream",
     "speciesName": "Alcremie",
@@ -122261,7 +122261,7 @@
       "abilities": [
         "SWEET_VEIL"
       ],
-      "bodyColor": "color",
+      "bodyColor": "BODY_COLOR_YELLOW",
       "catchRate": 100,
       "categoryName": "Cream",
       "speciesName": "Alcremie",
@@ -122314,7 +122314,7 @@
     "abilities": [
       "SWEET_VEIL"
     ],
-    "bodyColor": "color",
+    "bodyColor": "BODY_COLOR_BROWN",
     "catchRate": 100,
     "categoryName": "Cream",
     "speciesName": "Alcremie",
@@ -122365,7 +122365,7 @@
       "abilities": [
         "SWEET_VEIL"
       ],
-      "bodyColor": "color",
+      "bodyColor": "BODY_COLOR_BROWN",
       "catchRate": 100,
       "categoryName": "Cream",
       "speciesName": "Alcremie",
@@ -122418,7 +122418,7 @@
     "abilities": [
       "SWEET_VEIL"
     ],
-    "bodyColor": "color",
+    "bodyColor": "BODY_COLOR_YELLOW",
     "catchRate": 100,
     "categoryName": "Cream",
     "speciesName": "Alcremie",
@@ -122469,7 +122469,7 @@
       "abilities": [
         "SWEET_VEIL"
       ],
-      "bodyColor": "color",
+      "bodyColor": "BODY_COLOR_YELLOW",
       "catchRate": 100,
       "categoryName": "Cream",
       "speciesName": "Alcremie",
@@ -122522,7 +122522,7 @@
     "abilities": [
       "SWEET_VEIL"
     ],
-    "bodyColor": "color",
+    "bodyColor": "BODY_COLOR_WHITE",
     "catchRate": 100,
     "categoryName": "Cream",
     "speciesName": "Alcremie",
@@ -122573,7 +122573,7 @@
       "abilities": [
         "SWEET_VEIL"
       ],
-      "bodyColor": "color",
+      "bodyColor": "BODY_COLOR_WHITE",
       "catchRate": 100,
       "categoryName": "Cream",
       "speciesName": "Alcremie",
@@ -122626,7 +122626,7 @@
     "abilities": [
       "SWEET_VEIL"
     ],
-    "bodyColor": "color",
+    "bodyColor": "BODY_COLOR_PINK",
     "catchRate": 100,
     "categoryName": "Cream",
     "speciesName": "Alcremie",
@@ -122677,7 +122677,7 @@
       "abilities": [
         "SWEET_VEIL"
       ],
-      "bodyColor": "color",
+      "bodyColor": "BODY_COLOR_PINK",
       "catchRate": 100,
       "categoryName": "Cream",
       "speciesName": "Alcremie",
@@ -122730,7 +122730,7 @@
     "abilities": [
       "SWEET_VEIL"
     ],
-    "bodyColor": "color",
+    "bodyColor": "BODY_COLOR_GREEN",
     "catchRate": 100,
     "categoryName": "Cream",
     "speciesName": "Alcremie",
@@ -122781,7 +122781,7 @@
       "abilities": [
         "SWEET_VEIL"
       ],
-      "bodyColor": "color",
+      "bodyColor": "BODY_COLOR_GREEN",
       "catchRate": 100,
       "categoryName": "Cream",
       "speciesName": "Alcremie",
@@ -122834,7 +122834,7 @@
     "abilities": [
       "SWEET_VEIL"
     ],
-    "bodyColor": "color",
+    "bodyColor": "BODY_COLOR_BLUE",
     "catchRate": 100,
     "categoryName": "Cream",
     "speciesName": "Alcremie",
@@ -122885,7 +122885,7 @@
       "abilities": [
         "SWEET_VEIL"
       ],
-      "bodyColor": "color",
+      "bodyColor": "BODY_COLOR_BLUE",
       "catchRate": 100,
       "categoryName": "Cream",
       "speciesName": "Alcremie",
@@ -122938,7 +122938,7 @@
     "abilities": [
       "SWEET_VEIL"
     ],
-    "bodyColor": "color",
+    "bodyColor": "BODY_COLOR_YELLOW",
     "catchRate": 100,
     "categoryName": "Cream",
     "speciesName": "Alcremie",
@@ -122989,7 +122989,7 @@
       "abilities": [
         "SWEET_VEIL"
       ],
-      "bodyColor": "color",
+      "bodyColor": "BODY_COLOR_YELLOW",
       "catchRate": 100,
       "categoryName": "Cream",
       "speciesName": "Alcremie",
@@ -123042,7 +123042,7 @@
     "abilities": [
       "SWEET_VEIL"
     ],
-    "bodyColor": "color",
+    "bodyColor": "BODY_COLOR_WHITE",
     "catchRate": 100,
     "categoryName": "Cream",
     "speciesName": "Alcremie",
@@ -123093,7 +123093,7 @@
       "abilities": [
         "SWEET_VEIL"
       ],
-      "bodyColor": "color",
+      "bodyColor": "BODY_COLOR_WHITE",
       "catchRate": 100,
       "categoryName": "Cream",
       "speciesName": "Alcremie",
@@ -123146,7 +123146,7 @@
     "abilities": [
       "SWEET_VEIL"
     ],
-    "bodyColor": "color",
+    "bodyColor": "BODY_COLOR_YELLOW",
     "catchRate": 100,
     "categoryName": "Cream",
     "speciesName": "Alcremie",
@@ -123197,7 +123197,7 @@
       "abilities": [
         "SWEET_VEIL"
       ],
-      "bodyColor": "color",
+      "bodyColor": "BODY_COLOR_YELLOW",
       "catchRate": 100,
       "categoryName": "Cream",
       "speciesName": "Alcremie",
@@ -123250,7 +123250,7 @@
     "abilities": [
       "SWEET_VEIL"
     ],
-    "bodyColor": "color",
+    "bodyColor": "BODY_COLOR_BROWN",
     "catchRate": 100,
     "categoryName": "Cream",
     "speciesName": "Alcremie",
@@ -123301,7 +123301,7 @@
       "abilities": [
         "SWEET_VEIL"
       ],
-      "bodyColor": "color",
+      "bodyColor": "BODY_COLOR_BROWN",
       "catchRate": 100,
       "categoryName": "Cream",
       "speciesName": "Alcremie",
@@ -123354,7 +123354,7 @@
     "abilities": [
       "SWEET_VEIL"
     ],
-    "bodyColor": "color",
+    "bodyColor": "BODY_COLOR_YELLOW",
     "catchRate": 100,
     "categoryName": "Cream",
     "speciesName": "Alcremie",
@@ -123405,7 +123405,7 @@
       "abilities": [
         "SWEET_VEIL"
       ],
-      "bodyColor": "color",
+      "bodyColor": "BODY_COLOR_YELLOW",
       "catchRate": 100,
       "categoryName": "Cream",
       "speciesName": "Alcremie",
@@ -123458,7 +123458,7 @@
     "abilities": [
       "SWEET_VEIL"
     ],
-    "bodyColor": "color",
+    "bodyColor": "BODY_COLOR_WHITE",
     "catchRate": 100,
     "categoryName": "Cream",
     "speciesName": "Alcremie",
@@ -123509,7 +123509,7 @@
       "abilities": [
         "SWEET_VEIL"
       ],
-      "bodyColor": "color",
+      "bodyColor": "BODY_COLOR_WHITE",
       "catchRate": 100,
       "categoryName": "Cream",
       "speciesName": "Alcremie",
@@ -123562,7 +123562,7 @@
     "abilities": [
       "SWEET_VEIL"
     ],
-    "bodyColor": "color",
+    "bodyColor": "BODY_COLOR_PINK",
     "catchRate": 100,
     "categoryName": "Cream",
     "speciesName": "Alcremie",
@@ -123613,7 +123613,7 @@
       "abilities": [
         "SWEET_VEIL"
       ],
-      "bodyColor": "color",
+      "bodyColor": "BODY_COLOR_PINK",
       "catchRate": 100,
       "categoryName": "Cream",
       "speciesName": "Alcremie",
@@ -123666,7 +123666,7 @@
     "abilities": [
       "SWEET_VEIL"
     ],
-    "bodyColor": "color",
+    "bodyColor": "BODY_COLOR_GREEN",
     "catchRate": 100,
     "categoryName": "Cream",
     "speciesName": "Alcremie",
@@ -123717,7 +123717,7 @@
       "abilities": [
         "SWEET_VEIL"
       ],
-      "bodyColor": "color",
+      "bodyColor": "BODY_COLOR_GREEN",
       "catchRate": 100,
       "categoryName": "Cream",
       "speciesName": "Alcremie",
@@ -123770,7 +123770,7 @@
     "abilities": [
       "SWEET_VEIL"
     ],
-    "bodyColor": "color",
+    "bodyColor": "BODY_COLOR_BLUE",
     "catchRate": 100,
     "categoryName": "Cream",
     "speciesName": "Alcremie",
@@ -123821,7 +123821,7 @@
       "abilities": [
         "SWEET_VEIL"
       ],
-      "bodyColor": "color",
+      "bodyColor": "BODY_COLOR_BLUE",
       "catchRate": 100,
       "categoryName": "Cream",
       "speciesName": "Alcremie",
@@ -123874,7 +123874,7 @@
     "abilities": [
       "SWEET_VEIL"
     ],
-    "bodyColor": "color",
+    "bodyColor": "BODY_COLOR_YELLOW",
     "catchRate": 100,
     "categoryName": "Cream",
     "speciesName": "Alcremie",
@@ -123925,7 +123925,7 @@
       "abilities": [
         "SWEET_VEIL"
       ],
-      "bodyColor": "color",
+      "bodyColor": "BODY_COLOR_YELLOW",
       "catchRate": 100,
       "categoryName": "Cream",
       "speciesName": "Alcremie",
@@ -123978,7 +123978,7 @@
     "abilities": [
       "SWEET_VEIL"
     ],
-    "bodyColor": "color",
+    "bodyColor": "BODY_COLOR_WHITE",
     "catchRate": 100,
     "categoryName": "Cream",
     "speciesName": "Alcremie",
@@ -124029,7 +124029,7 @@
       "abilities": [
         "SWEET_VEIL"
       ],
-      "bodyColor": "color",
+      "bodyColor": "BODY_COLOR_WHITE",
       "catchRate": 100,
       "categoryName": "Cream",
       "speciesName": "Alcremie",
@@ -124082,7 +124082,7 @@
     "abilities": [
       "SWEET_VEIL"
     ],
-    "bodyColor": "color",
+    "bodyColor": "BODY_COLOR_YELLOW",
     "catchRate": 100,
     "categoryName": "Cream",
     "speciesName": "Alcremie",
@@ -124133,7 +124133,7 @@
       "abilities": [
         "SWEET_VEIL"
       ],
-      "bodyColor": "color",
+      "bodyColor": "BODY_COLOR_YELLOW",
       "catchRate": 100,
       "categoryName": "Cream",
       "speciesName": "Alcremie",
@@ -124186,7 +124186,7 @@
     "abilities": [
       "SWEET_VEIL"
     ],
-    "bodyColor": "color",
+    "bodyColor": "BODY_COLOR_BROWN",
     "catchRate": 100,
     "categoryName": "Cream",
     "speciesName": "Alcremie",
@@ -124237,7 +124237,7 @@
       "abilities": [
         "SWEET_VEIL"
       ],
-      "bodyColor": "color",
+      "bodyColor": "BODY_COLOR_BROWN",
       "catchRate": 100,
       "categoryName": "Cream",
       "speciesName": "Alcremie",
@@ -124290,7 +124290,7 @@
     "abilities": [
       "SWEET_VEIL"
     ],
-    "bodyColor": "color",
+    "bodyColor": "BODY_COLOR_YELLOW",
     "catchRate": 100,
     "categoryName": "Cream",
     "speciesName": "Alcremie",
@@ -124341,7 +124341,7 @@
       "abilities": [
         "SWEET_VEIL"
       ],
-      "bodyColor": "color",
+      "bodyColor": "BODY_COLOR_YELLOW",
       "catchRate": 100,
       "categoryName": "Cream",
       "speciesName": "Alcremie",
@@ -124394,7 +124394,7 @@
     "abilities": [
       "SWEET_VEIL"
     ],
-    "bodyColor": "color",
+    "bodyColor": "BODY_COLOR_WHITE",
     "catchRate": 100,
     "categoryName": "Cream",
     "speciesName": "Alcremie",
@@ -124445,7 +124445,7 @@
       "abilities": [
         "SWEET_VEIL"
       ],
-      "bodyColor": "color",
+      "bodyColor": "BODY_COLOR_WHITE",
       "catchRate": 100,
       "categoryName": "Cream",
       "speciesName": "Alcremie",
@@ -124498,7 +124498,7 @@
     "abilities": [
       "SWEET_VEIL"
     ],
-    "bodyColor": "color",
+    "bodyColor": "BODY_COLOR_PINK",
     "catchRate": 100,
     "categoryName": "Cream",
     "speciesName": "Alcremie",
@@ -124549,7 +124549,7 @@
       "abilities": [
         "SWEET_VEIL"
       ],
-      "bodyColor": "color",
+      "bodyColor": "BODY_COLOR_PINK",
       "catchRate": 100,
       "categoryName": "Cream",
       "speciesName": "Alcremie",
@@ -124602,7 +124602,7 @@
     "abilities": [
       "SWEET_VEIL"
     ],
-    "bodyColor": "color",
+    "bodyColor": "BODY_COLOR_GREEN",
     "catchRate": 100,
     "categoryName": "Cream",
     "speciesName": "Alcremie",
@@ -124653,7 +124653,7 @@
       "abilities": [
         "SWEET_VEIL"
       ],
-      "bodyColor": "color",
+      "bodyColor": "BODY_COLOR_GREEN",
       "catchRate": 100,
       "categoryName": "Cream",
       "speciesName": "Alcremie",
@@ -124706,7 +124706,7 @@
     "abilities": [
       "SWEET_VEIL"
     ],
-    "bodyColor": "color",
+    "bodyColor": "BODY_COLOR_BLUE",
     "catchRate": 100,
     "categoryName": "Cream",
     "speciesName": "Alcremie",
@@ -124757,7 +124757,7 @@
       "abilities": [
         "SWEET_VEIL"
       ],
-      "bodyColor": "color",
+      "bodyColor": "BODY_COLOR_BLUE",
       "catchRate": 100,
       "categoryName": "Cream",
       "speciesName": "Alcremie",
@@ -124810,7 +124810,7 @@
     "abilities": [
       "SWEET_VEIL"
     ],
-    "bodyColor": "color",
+    "bodyColor": "BODY_COLOR_YELLOW",
     "catchRate": 100,
     "categoryName": "Cream",
     "speciesName": "Alcremie",
@@ -124861,7 +124861,7 @@
       "abilities": [
         "SWEET_VEIL"
       ],
-      "bodyColor": "color",
+      "bodyColor": "BODY_COLOR_YELLOW",
       "catchRate": 100,
       "categoryName": "Cream",
       "speciesName": "Alcremie",
@@ -124914,7 +124914,7 @@
     "abilities": [
       "SWEET_VEIL"
     ],
-    "bodyColor": "color",
+    "bodyColor": "BODY_COLOR_WHITE",
     "catchRate": 100,
     "categoryName": "Cream",
     "speciesName": "Alcremie",
@@ -124965,7 +124965,7 @@
       "abilities": [
         "SWEET_VEIL"
       ],
-      "bodyColor": "color",
+      "bodyColor": "BODY_COLOR_WHITE",
       "catchRate": 100,
       "categoryName": "Cream",
       "speciesName": "Alcremie",
@@ -125018,7 +125018,7 @@
     "abilities": [
       "SWEET_VEIL"
     ],
-    "bodyColor": "color",
+    "bodyColor": "BODY_COLOR_YELLOW",
     "catchRate": 100,
     "categoryName": "Cream",
     "speciesName": "Alcremie",
@@ -125069,7 +125069,7 @@
       "abilities": [
         "SWEET_VEIL"
       ],
-      "bodyColor": "color",
+      "bodyColor": "BODY_COLOR_YELLOW",
       "catchRate": 100,
       "categoryName": "Cream",
       "speciesName": "Alcremie",
@@ -125122,7 +125122,7 @@
     "abilities": [
       "SWEET_VEIL"
     ],
-    "bodyColor": "color",
+    "bodyColor": "BODY_COLOR_BROWN",
     "catchRate": 100,
     "categoryName": "Cream",
     "speciesName": "Alcremie",
@@ -125173,7 +125173,7 @@
       "abilities": [
         "SWEET_VEIL"
       ],
-      "bodyColor": "color",
+      "bodyColor": "BODY_COLOR_BROWN",
       "catchRate": 100,
       "categoryName": "Cream",
       "speciesName": "Alcremie",
@@ -125226,7 +125226,7 @@
     "abilities": [
       "SWEET_VEIL"
     ],
-    "bodyColor": "color",
+    "bodyColor": "BODY_COLOR_YELLOW",
     "catchRate": 100,
     "categoryName": "Cream",
     "speciesName": "Alcremie",
@@ -125277,7 +125277,7 @@
       "abilities": [
         "SWEET_VEIL"
       ],
-      "bodyColor": "color",
+      "bodyColor": "BODY_COLOR_YELLOW",
       "catchRate": 100,
       "categoryName": "Cream",
       "speciesName": "Alcremie",
@@ -125330,7 +125330,7 @@
     "abilities": [
       "SWEET_VEIL"
     ],
-    "bodyColor": "color",
+    "bodyColor": "BODY_COLOR_WHITE",
     "catchRate": 100,
     "categoryName": "Cream",
     "speciesName": "Alcremie",
@@ -125381,7 +125381,7 @@
       "abilities": [
         "SWEET_VEIL"
       ],
-      "bodyColor": "color",
+      "bodyColor": "BODY_COLOR_WHITE",
       "catchRate": 100,
       "categoryName": "Cream",
       "speciesName": "Alcremie",
@@ -125434,7 +125434,7 @@
     "abilities": [
       "SWEET_VEIL"
     ],
-    "bodyColor": "color",
+    "bodyColor": "BODY_COLOR_PINK",
     "catchRate": 100,
     "categoryName": "Cream",
     "speciesName": "Alcremie",
@@ -125485,7 +125485,7 @@
       "abilities": [
         "SWEET_VEIL"
       ],
-      "bodyColor": "color",
+      "bodyColor": "BODY_COLOR_PINK",
       "catchRate": 100,
       "categoryName": "Cream",
       "speciesName": "Alcremie",
@@ -125538,7 +125538,7 @@
     "abilities": [
       "SWEET_VEIL"
     ],
-    "bodyColor": "color",
+    "bodyColor": "BODY_COLOR_GREEN",
     "catchRate": 100,
     "categoryName": "Cream",
     "speciesName": "Alcremie",
@@ -125589,7 +125589,7 @@
       "abilities": [
         "SWEET_VEIL"
       ],
-      "bodyColor": "color",
+      "bodyColor": "BODY_COLOR_GREEN",
       "catchRate": 100,
       "categoryName": "Cream",
       "speciesName": "Alcremie",
@@ -125642,7 +125642,7 @@
     "abilities": [
       "SWEET_VEIL"
     ],
-    "bodyColor": "color",
+    "bodyColor": "BODY_COLOR_BLUE",
     "catchRate": 100,
     "categoryName": "Cream",
     "speciesName": "Alcremie",
@@ -125693,7 +125693,7 @@
       "abilities": [
         "SWEET_VEIL"
       ],
-      "bodyColor": "color",
+      "bodyColor": "BODY_COLOR_BLUE",
       "catchRate": 100,
       "categoryName": "Cream",
       "speciesName": "Alcremie",
@@ -125746,7 +125746,7 @@
     "abilities": [
       "SWEET_VEIL"
     ],
-    "bodyColor": "color",
+    "bodyColor": "BODY_COLOR_YELLOW",
     "catchRate": 100,
     "categoryName": "Cream",
     "speciesName": "Alcremie",
@@ -125797,7 +125797,7 @@
       "abilities": [
         "SWEET_VEIL"
       ],
-      "bodyColor": "color",
+      "bodyColor": "BODY_COLOR_YELLOW",
       "catchRate": 100,
       "categoryName": "Cream",
       "speciesName": "Alcremie",
@@ -125850,7 +125850,7 @@
     "abilities": [
       "SWEET_VEIL"
     ],
-    "bodyColor": "color",
+    "bodyColor": "BODY_COLOR_WHITE",
     "catchRate": 100,
     "categoryName": "Cream",
     "speciesName": "Alcremie",
@@ -125901,7 +125901,7 @@
       "abilities": [
         "SWEET_VEIL"
       ],
-      "bodyColor": "color",
+      "bodyColor": "BODY_COLOR_WHITE",
       "catchRate": 100,
       "categoryName": "Cream",
       "speciesName": "Alcremie",
@@ -125954,7 +125954,7 @@
     "abilities": [
       "SWEET_VEIL"
     ],
-    "bodyColor": "color",
+    "bodyColor": "BODY_COLOR_YELLOW",
     "catchRate": 100,
     "categoryName": "Cream",
     "speciesName": "Alcremie",
@@ -126005,7 +126005,7 @@
       "abilities": [
         "SWEET_VEIL"
       ],
-      "bodyColor": "color",
+      "bodyColor": "BODY_COLOR_YELLOW",
       "catchRate": 100,
       "categoryName": "Cream",
       "speciesName": "Alcremie",
@@ -126058,7 +126058,7 @@
     "abilities": [
       "SWEET_VEIL"
     ],
-    "bodyColor": "color",
+    "bodyColor": "BODY_COLOR_BROWN",
     "catchRate": 100,
     "categoryName": "Cream",
     "speciesName": "Alcremie",
@@ -126109,7 +126109,7 @@
       "abilities": [
         "SWEET_VEIL"
       ],
-      "bodyColor": "color",
+      "bodyColor": "BODY_COLOR_BROWN",
       "catchRate": 100,
       "categoryName": "Cream",
       "speciesName": "Alcremie",
@@ -126162,7 +126162,7 @@
     "abilities": [
       "SWEET_VEIL"
     ],
-    "bodyColor": "color",
+    "bodyColor": "BODY_COLOR_YELLOW",
     "catchRate": 100,
     "categoryName": "Cream",
     "speciesName": "Alcremie",
@@ -126213,7 +126213,7 @@
       "abilities": [
         "SWEET_VEIL"
       ],
-      "bodyColor": "color",
+      "bodyColor": "BODY_COLOR_YELLOW",
       "catchRate": 100,
       "categoryName": "Cream",
       "speciesName": "Alcremie",
@@ -141064,14 +141064,13 @@
     "bst": 550,
     "generation": 9,
     "types": [
-      "GRASS",
-      "type"
+      "GRASS"
     ],
     "natDexNum": 1017,
     "abilities": [
-      "ability"
+      "DEFIANT"
     ],
-    "bodyColor": "color",
+    "bodyColor": "BODY_COLOR_GREEN",
     "catchRate": 5,
     "categoryName": "Mask",
     "speciesName": "Ogerpon",
@@ -141128,14 +141127,13 @@
       "bst": 550,
       "generation": 9,
       "types": [
-        "GRASS",
-        "type"
+        "GRASS"
       ],
       "natDexNum": 1017,
       "abilities": [
-        "ability"
+        "DEFIANT"
       ],
-      "bodyColor": "color",
+      "bodyColor": "BODY_COLOR_GREEN",
       "catchRate": 5,
       "categoryName": "Mask",
       "speciesName": "Ogerpon",
@@ -141195,13 +141193,13 @@
     "generation": 9,
     "types": [
       "GRASS",
-      "type"
+      "WATER"
     ],
     "natDexNum": 1017,
     "abilities": [
-      "ability"
+      "WATER_ABSORB"
     ],
-    "bodyColor": "color",
+    "bodyColor": "BODY_COLOR_BLUE",
     "catchRate": 5,
     "categoryName": "Mask",
     "speciesName": "Ogerpon",
@@ -141259,13 +141257,13 @@
       "generation": 9,
       "types": [
         "GRASS",
-        "type"
+        "WATER"
       ],
       "natDexNum": 1017,
       "abilities": [
-        "ability"
+        "WATER_ABSORB"
       ],
-      "bodyColor": "color",
+      "bodyColor": "BODY_COLOR_BLUE",
       "catchRate": 5,
       "categoryName": "Mask",
       "speciesName": "Ogerpon",
@@ -141325,13 +141323,13 @@
     "generation": 9,
     "types": [
       "GRASS",
-      "type"
+      "FIRE"
     ],
     "natDexNum": 1017,
     "abilities": [
-      "ability"
+      "MOLD_BREAKER"
     ],
-    "bodyColor": "color",
+    "bodyColor": "BODY_COLOR_RED",
     "catchRate": 5,
     "categoryName": "Mask",
     "speciesName": "Ogerpon",
@@ -141389,13 +141387,13 @@
       "generation": 9,
       "types": [
         "GRASS",
-        "type"
+        "FIRE"
       ],
       "natDexNum": 1017,
       "abilities": [
-        "ability"
+        "MOLD_BREAKER"
       ],
-      "bodyColor": "color",
+      "bodyColor": "BODY_COLOR_RED",
       "catchRate": 5,
       "categoryName": "Mask",
       "speciesName": "Ogerpon",
@@ -141455,13 +141453,13 @@
     "generation": 9,
     "types": [
       "GRASS",
-      "type"
+      "ROCK"
     ],
     "natDexNum": 1017,
     "abilities": [
-      "ability"
+      "STURDY"
     ],
-    "bodyColor": "color",
+    "bodyColor": "BODY_COLOR_GRAY",
     "catchRate": 5,
     "categoryName": "Mask",
     "speciesName": "Ogerpon",
@@ -141519,13 +141517,13 @@
       "generation": 9,
       "types": [
         "GRASS",
-        "type"
+        "ROCK"
       ],
       "natDexNum": 1017,
       "abilities": [
-        "ability"
+        "STURDY"
       ],
-      "bodyColor": "color",
+      "bodyColor": "BODY_COLOR_GRAY",
       "catchRate": 5,
       "categoryName": "Mask",
       "speciesName": "Ogerpon",
