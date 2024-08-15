@@ -14520,20 +14520,6 @@
             ]
           }
         ]
-      },
-      {
-        "from": "ROCKRUFF",
-        "to": [
-          {
-            "species": "LYCANROC_DUSK",
-            "methods": [
-              {
-                "method": "EVO_LEVEL_DUSK",
-                "clause": "25"
-              }
-            ]
-          }
-        ]
       }
     ],
     "old": {
@@ -14561,9 +14547,33 @@
               ]
             }
           ]
-        },
+        }
+      ]
+    }
+  },
+  {
+    "family": "ROCKRUFF_OWN_TEMPO",
+    "evolutions": [
+      {
+        "from": "ROCKRUFF_OWN_TEMPO",
+        "to": [
+          {
+            "species": "LYCANROC_DUSK",
+            "methods": [
+              {
+                "method": "EVO_LEVEL_DUSK",
+                "clause": "25"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "old": {
+      "family": "ROCKRUFF_OWN_TEMPO",
+      "evolutions": [
         {
-          "from": "ROCKRUFF",
+          "from": "ROCKRUFF_OWN_TEMPO",
           "to": [
             {
               "species": "LYCANROC_DUSK",
@@ -16461,7 +16471,7 @@
               ]
             },
             {
-              "species": "ALCREMIE_RUBY_CREAM",
+              "species": "ALCREMIE_STRAWBERRY_RUBY_CREAM",
               "methods": [
                 {
                   "method": "EVO_LEVEL",
@@ -16470,7 +16480,7 @@
               ]
             },
             {
-              "species": "ALCREMIE_MATCHA_CREAM",
+              "species": "ALCREMIE_STRAWBERRY_MATCHA_CREAM",
               "methods": [
                 {
                   "method": "EVO_LEVEL",
@@ -16479,7 +16489,7 @@
               ]
             },
             {
-              "species": "ALCREMIE_MINT_CREAM",
+              "species": "ALCREMIE_STRAWBERRY_MINT_CREAM",
               "methods": [
                 {
                   "method": "EVO_LEVEL",
@@ -16488,7 +16498,7 @@
               ]
             },
             {
-              "species": "ALCREMIE_LEMON_CREAM",
+              "species": "ALCREMIE_STRAWBERRY_LEMON_CREAM",
               "methods": [
                 {
                   "method": "EVO_LEVEL",
@@ -16497,7 +16507,7 @@
               ]
             },
             {
-              "species": "ALCREMIE_SALTED_CREAM",
+              "species": "ALCREMIE_STRAWBERRY_SALTED_CREAM",
               "methods": [
                 {
                   "method": "EVO_LEVEL",
@@ -16506,7 +16516,7 @@
               ]
             },
             {
-              "species": "ALCREMIE_RUBY_SWIRL",
+              "species": "ALCREMIE_STRAWBERRY_RUBY_SWIRL",
               "methods": [
                 {
                   "method": "EVO_LEVEL",
@@ -16515,7 +16525,7 @@
               ]
             },
             {
-              "species": "ALCREMIE_CARAMEL_SWIRL",
+              "species": "ALCREMIE_STRAWBERRY_CARAMEL_SWIRL",
               "methods": [
                 {
                   "method": "EVO_LEVEL",
@@ -16524,7 +16534,7 @@
               ]
             },
             {
-              "species": "ALCREMIE_RAINBOW_SWIRL",
+              "species": "ALCREMIE_STRAWBERRY_RAINBOW_SWIRL",
               "methods": [
                 {
                   "method": "EVO_LEVEL",

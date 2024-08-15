@@ -1469,13 +1469,13 @@
       "species": "BEEDRILL",
       "stats": [
         65,
-        80,
+        90,
         40,
         45,
         80,
         75
       ],
-      "bst": 385,
+      "bst": 395,
       "generation": 1,
       "types": [
         "BUG",
@@ -6137,13 +6137,13 @@
       "species": "DUGTRIO",
       "stats": [
         35,
-        null,
+        100,
         50,
         50,
         70,
         120
       ],
-      "bst": null,
+      "bst": 425,
       "generation": 1,
       "types": [
         "GROUND"
@@ -6338,13 +6338,13 @@
       "species": "DUGTRIO_ALOLAN",
       "stats": [
         35,
-        null,
+        100,
         60,
         50,
         70,
         110
       ],
-      "bst": null,
+      "bst": 425,
       "generation": 1,
       "types": [
         "GROUND",
@@ -8482,10 +8482,10 @@
         50,
         45,
         135,
-        85,
+        95,
         120
       ],
-      "bst": 490,
+      "bst": 500,
       "generation": 1,
       "types": [
         "PSYCHIC"
@@ -9557,13 +9557,13 @@
       "species": "GOLEM",
       "stats": [
         80,
-        null,
+        120,
         130,
         55,
         65,
         45
       ],
-      "bst": null,
+      "bst": 495,
       "generation": 1,
       "types": [
         "ROCK",
@@ -9861,13 +9861,13 @@
       "species": "GOLEM_ALOLAN",
       "stats": [
         80,
-        null,
+        120,
         130,
         55,
         65,
         45
       ],
-      "bst": null,
+      "bst": 495,
       "generation": 1,
       "types": [
         "ROCK",
@@ -11260,13 +11260,13 @@
       "species": "FARFETCHD",
       "stats": [
         52,
-        90,
+        null,
         55,
         58,
         62,
         60
       ],
-      "bst": 377,
+      "bst": null,
       "generation": 1,
       "types": [
         "NORMAL",
@@ -24724,12 +24724,12 @@
       "stats": [
         90,
         75,
-        null,
+        85,
         115,
         90,
         55
       ],
-      "bst": null,
+      "bst": 510,
       "generation": 2,
       "types": [
         "ELECTRIC"
@@ -27027,7 +27027,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 5,
     "weight": 50,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "UNOWN_B",
       "stats": [
@@ -27072,7 +27074,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 5,
       "weight": 50,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -27119,7 +27123,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 5,
     "weight": 50,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "UNOWN_C",
       "stats": [
@@ -27164,7 +27170,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 5,
       "weight": 50,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -27211,7 +27219,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 5,
     "weight": 50,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "UNOWN_D",
       "stats": [
@@ -27256,7 +27266,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 5,
       "weight": 50,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -27303,7 +27315,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 5,
     "weight": 50,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "UNOWN_E",
       "stats": [
@@ -27348,7 +27362,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 5,
       "weight": 50,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -27395,7 +27411,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 5,
     "weight": 50,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "UNOWN_F",
       "stats": [
@@ -27440,7 +27458,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 5,
       "weight": 50,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -27487,7 +27507,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 5,
     "weight": 50,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "UNOWN_G",
       "stats": [
@@ -27532,7 +27554,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 5,
       "weight": 50,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -27579,7 +27603,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 5,
     "weight": 50,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "UNOWN_H",
       "stats": [
@@ -27624,7 +27650,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 5,
       "weight": 50,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -27671,7 +27699,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 5,
     "weight": 50,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "UNOWN_I",
       "stats": [
@@ -27716,7 +27746,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 5,
       "weight": 50,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -27763,7 +27795,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 5,
     "weight": 50,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "UNOWN_J",
       "stats": [
@@ -27808,7 +27842,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 5,
       "weight": 50,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -27855,7 +27891,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 5,
     "weight": 50,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "UNOWN_K",
       "stats": [
@@ -27900,7 +27938,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 5,
       "weight": 50,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -27947,7 +27987,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 5,
     "weight": 50,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "UNOWN_L",
       "stats": [
@@ -27992,7 +28034,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 5,
       "weight": 50,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -28039,7 +28083,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 5,
     "weight": 50,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "UNOWN_M",
       "stats": [
@@ -28084,7 +28130,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 5,
       "weight": 50,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -28131,7 +28179,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 5,
     "weight": 50,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "UNOWN_N",
       "stats": [
@@ -28176,7 +28226,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 5,
       "weight": 50,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -28223,7 +28275,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 5,
     "weight": 50,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "UNOWN_O",
       "stats": [
@@ -28268,7 +28322,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 5,
       "weight": 50,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -28315,7 +28371,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 5,
     "weight": 50,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "UNOWN_P",
       "stats": [
@@ -28360,7 +28418,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 5,
       "weight": 50,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -28407,7 +28467,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 5,
     "weight": 50,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "UNOWN_Q",
       "stats": [
@@ -28452,7 +28514,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 5,
       "weight": 50,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -28499,7 +28563,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 5,
     "weight": 50,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "UNOWN_R",
       "stats": [
@@ -28544,7 +28610,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 5,
       "weight": 50,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -28591,7 +28659,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 5,
     "weight": 50,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "UNOWN_S",
       "stats": [
@@ -28636,7 +28706,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 5,
       "weight": 50,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -28683,7 +28755,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 5,
     "weight": 50,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "UNOWN_T",
       "stats": [
@@ -28728,7 +28802,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 5,
       "weight": 50,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -28775,7 +28851,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 5,
     "weight": 50,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "UNOWN_U",
       "stats": [
@@ -28820,7 +28898,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 5,
       "weight": 50,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -28867,7 +28947,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 5,
     "weight": 50,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "UNOWN_V",
       "stats": [
@@ -28912,7 +28994,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 5,
       "weight": 50,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -28959,7 +29043,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 5,
     "weight": 50,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "UNOWN_W",
       "stats": [
@@ -29004,7 +29090,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 5,
       "weight": 50,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -29051,7 +29139,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 5,
     "weight": 50,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "UNOWN_X",
       "stats": [
@@ -29096,7 +29186,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 5,
       "weight": 50,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -29143,7 +29235,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 5,
     "weight": 50,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "UNOWN_Y",
       "stats": [
@@ -29188,7 +29282,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 5,
       "weight": 50,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -29235,7 +29331,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 5,
     "weight": 50,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "UNOWN_Z",
       "stats": [
@@ -29280,7 +29378,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 5,
       "weight": 50,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -29327,7 +29427,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 5,
     "weight": 50,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "UNOWN_EMARK",
       "stats": [
@@ -29372,7 +29474,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 5,
       "weight": 50,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -29419,7 +29523,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 5,
     "weight": 50,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "UNOWN_QMARK",
       "stats": [
@@ -29464,7 +29570,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 5,
       "weight": 50,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -30261,7 +30369,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 45,
     "weight": 474,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "DUDUNSPARCE_THREE_SEGMENT",
       "stats": [
@@ -30307,7 +30417,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 45,
       "weight": 474,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -31922,7 +32034,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 27,
     "weight": 3330,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "URSALUNA_BLOODMOON",
       "stats": [
@@ -31968,7 +32082,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 27,
       "weight": 3330,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -32501,14 +32617,14 @@
     "old": {
       "species": "CORSOLA",
       "stats": [
-        50,
+        null,
         55,
-        85,
+        null,
         65,
-        85,
+        null,
         35
       ],
-      "bst": 375,
+      "bst": null,
       "generation": 2,
       "types": [
         "WATER",
@@ -49303,6 +49419,106 @@
     }
   },
   {
+    "species": "KYOGRE_PRIMAL",
+    "stats": [
+      100,
+      150,
+      90,
+      180,
+      160,
+      90
+    ],
+    "bst": 770,
+    "generation": 3,
+    "types": [
+      "WATER"
+    ],
+    "natDexNum": 382,
+    "abilities": [
+      "PRIMORDIAL_SEA"
+    ],
+    "bodyColor": "BODY_COLOR_BLUE",
+    "catchRate": 3,
+    "categoryName": "Sea Basin",
+    "speciesName": "Kyogre",
+    "description": "When Kyogre roared, water poured forth\nand the seas spread outward.\nDark clouds enshrouded the world,\nand the deluge fell upon all…",
+    "eggCycles": 120,
+    "eggGroups": [
+      "NO_EGGS_DISCOVERED"
+    ],
+    "evolutions": [],
+    "formChangeTable": [],
+    "evYield": [
+      null,
+      null,
+      null,
+      3,
+      null,
+      null
+    ],
+    "expYield": 385,
+    "friendship": "0",
+    "genderRatio": "MON_GENDERLESS",
+    "growthRate": "GROWTH_SLOW",
+    "height": 98,
+    "weight": 4300,
+    "flags": [
+      "LEGENDARY",
+      "PRIMAL",
+      "ALTERNATE_FORM"
+    ],
+    "old": {
+      "species": "KYOGRE_PRIMAL",
+      "stats": [
+        100,
+        150,
+        90,
+        180,
+        160,
+        90
+      ],
+      "bst": 770,
+      "generation": 3,
+      "types": [
+        "WATER"
+      ],
+      "natDexNum": 382,
+      "abilities": [
+        "PRIMORDIAL_SEA"
+      ],
+      "bodyColor": "BODY_COLOR_BLUE",
+      "catchRate": 3,
+      "categoryName": "Sea Basin",
+      "speciesName": "Kyogre",
+      "description": "When Kyogre roared, water poured forth\nand the seas spread outward.\nDark clouds enshrouded the world,\nand the deluge fell upon all…",
+      "eggCycles": 120,
+      "eggGroups": [
+        "NO_EGGS_DISCOVERED"
+      ],
+      "evolutions": [],
+      "formChangeTable": [],
+      "evYield": [
+        null,
+        null,
+        null,
+        3,
+        null,
+        null
+      ],
+      "expYield": 385,
+      "friendship": "0",
+      "genderRatio": "MON_GENDERLESS",
+      "growthRate": "GROWTH_SLOW",
+      "height": 98,
+      "weight": 4300,
+      "flags": [
+        "LEGENDARY",
+        "PRIMAL",
+        "ALTERNATE_FORM"
+      ]
+    }
+  },
+  {
     "species": "GROUDON",
     "stats": [
       100,
@@ -49407,6 +49623,108 @@
       "weight": 9500,
       "flags": [
         "LEGENDARY"
+      ]
+    }
+  },
+  {
+    "species": "GROUDON_PRIMAL",
+    "stats": [
+      100,
+      180,
+      160,
+      150,
+      90,
+      90
+    ],
+    "bst": 770,
+    "generation": 3,
+    "types": [
+      "GROUND",
+      "FIRE"
+    ],
+    "natDexNum": 383,
+    "abilities": [
+      "DESOLATE_LAND"
+    ],
+    "bodyColor": "BODY_COLOR_RED",
+    "catchRate": 3,
+    "categoryName": "Continent",
+    "speciesName": "Groudon",
+    "description": "When Groudon howled, the earth swelled and\nthe land grew wide. The sun blazed atop\nand all the world around the creature\nwas enveloped in incandescent heat.",
+    "eggCycles": 120,
+    "eggGroups": [
+      "NO_EGGS_DISCOVERED"
+    ],
+    "evolutions": [],
+    "formChangeTable": [],
+    "evYield": [
+      null,
+      3,
+      null,
+      null,
+      null,
+      null
+    ],
+    "expYield": 385,
+    "friendship": "0",
+    "genderRatio": "MON_GENDERLESS",
+    "growthRate": "GROWTH_SLOW",
+    "height": 50,
+    "weight": 9997,
+    "flags": [
+      "LEGENDARY",
+      "PRIMAL",
+      "ALTERNATE_FORM"
+    ],
+    "old": {
+      "species": "GROUDON_PRIMAL",
+      "stats": [
+        100,
+        180,
+        160,
+        150,
+        90,
+        90
+      ],
+      "bst": 770,
+      "generation": 3,
+      "types": [
+        "GROUND",
+        "FIRE"
+      ],
+      "natDexNum": 383,
+      "abilities": [
+        "DESOLATE_LAND"
+      ],
+      "bodyColor": "BODY_COLOR_RED",
+      "catchRate": 3,
+      "categoryName": "Continent",
+      "speciesName": "Groudon",
+      "description": "When Groudon howled, the earth swelled and\nthe land grew wide. The sun blazed atop\nand all the world around the creature\nwas enveloped in incandescent heat.",
+      "eggCycles": 120,
+      "eggGroups": [
+        "NO_EGGS_DISCOVERED"
+      ],
+      "evolutions": [],
+      "formChangeTable": [],
+      "evYield": [
+        null,
+        3,
+        null,
+        null,
+        null,
+        null
+      ],
+      "expYield": 385,
+      "friendship": "0",
+      "genderRatio": "MON_GENDERLESS",
+      "growthRate": "GROWTH_SLOW",
+      "height": 50,
+      "weight": 9997,
+      "flags": [
+        "LEGENDARY",
+        "PRIMAL",
+        "ALTERNATE_FORM"
       ]
     }
   },
@@ -49781,7 +50099,8 @@
     "height": 17,
     "weight": 608,
     "flags": [
-      "MYTHICAL"
+      "MYTHICAL",
+      "ALTERNATE_FORM"
     ],
     "old": {
       "species": "DEOXYS_ATTACK",
@@ -49834,7 +50153,8 @@
       "height": 17,
       "weight": 608,
       "flags": [
-        "MYTHICAL"
+        "MYTHICAL",
+        "ALTERNATE_FORM"
       ]
     }
   },
@@ -49889,7 +50209,8 @@
     "height": 17,
     "weight": 608,
     "flags": [
-      "MYTHICAL"
+      "MYTHICAL",
+      "ALTERNATE_FORM"
     ],
     "old": {
       "species": "DEOXYS_DEFENSE",
@@ -49942,7 +50263,8 @@
       "height": 17,
       "weight": 608,
       "flags": [
-        "MYTHICAL"
+        "MYTHICAL",
+        "ALTERNATE_FORM"
       ]
     }
   },
@@ -49997,7 +50319,8 @@
     "height": 17,
     "weight": 608,
     "flags": [
-      "MYTHICAL"
+      "MYTHICAL",
+      "ALTERNATE_FORM"
     ],
     "old": {
       "species": "DEOXYS_SPEED",
@@ -50050,7 +50373,8 @@
       "height": 17,
       "weight": 608,
       "flags": [
-        "MYTHICAL"
+        "MYTHICAL",
+        "ALTERNATE_FORM"
       ]
     }
   },
@@ -52447,7 +52771,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 2,
     "weight": 34,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "BURMY_SANDY_CLOAK",
       "stats": [
@@ -52523,7 +52849,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 2,
       "weight": 34,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -52607,7 +52935,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 2,
     "weight": 34,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "BURMY_TRASH_CLOAK",
       "stats": [
@@ -52688,7 +53018,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 2,
       "weight": 34,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -52835,7 +53167,9 @@
     "height": 5,
     "weight": 65,
     "itemRare": "ITEM_SILVER_POWDER",
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "WORMADAM_SANDY_CLOAK",
       "stats": [
@@ -52882,7 +53216,9 @@
       "height": 5,
       "weight": 65,
       "itemRare": "ITEM_SILVER_POWDER",
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -52932,7 +53268,9 @@
     "height": 5,
     "weight": 65,
     "itemRare": "ITEM_SILVER_POWDER",
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "WORMADAM_TRASH_CLOAK",
       "stats": [
@@ -52979,7 +53317,9 @@
       "height": 5,
       "weight": 65,
       "itemRare": "ITEM_SILVER_POWDER",
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -54074,7 +54414,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 3,
     "weight": 63,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "SHELLOS_EAST_SEA",
       "stats": [
@@ -54121,7 +54463,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 3,
       "weight": 63,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -54269,7 +54613,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 9,
     "weight": 299,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "GASTRODON_EAST_SEA",
       "stats": [
@@ -54317,7 +54663,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 9,
       "weight": 299,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -57279,7 +57627,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 3,
     "weight": 3,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "ROTOM_HEAT",
       "stats": [
@@ -57351,7 +57701,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 3,
       "weight": 3,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -57425,7 +57777,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 3,
     "weight": 3,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "ROTOM_WASH",
       "stats": [
@@ -57497,7 +57851,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 3,
       "weight": 3,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -57571,7 +57927,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 3,
     "weight": 3,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "ROTOM_FROST",
       "stats": [
@@ -57643,7 +58001,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 3,
       "weight": 3,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -57717,7 +58077,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 3,
     "weight": 3,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "ROTOM_FAN",
       "stats": [
@@ -57789,7 +58151,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 3,
       "weight": 3,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -57863,7 +58227,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 3,
     "weight": 3,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "ROTOM_MOW",
       "stats": [
@@ -57935,7 +58301,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 3,
       "weight": 3,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -58389,7 +58757,8 @@
     "height": 70,
     "weight": 8500,
     "flags": [
-      "LEGENDARY"
+      "LEGENDARY",
+      "ALTERNATE_FORM"
     ],
     "old": {
       "species": "DIALGA_ORIGIN",
@@ -58443,7 +58812,8 @@
       "height": 70,
       "weight": 8500,
       "flags": [
-        "LEGENDARY"
+        "LEGENDARY",
+        "ALTERNATE_FORM"
       ]
     }
   },
@@ -58610,7 +58980,8 @@
     "height": 63,
     "weight": 6600,
     "flags": [
-      "LEGENDARY"
+      "LEGENDARY",
+      "ALTERNATE_FORM"
     ],
     "old": {
       "species": "PALKIA_ORIGIN",
@@ -58664,7 +59035,8 @@
       "height": 63,
       "weight": 6600,
       "flags": [
-        "LEGENDARY"
+        "LEGENDARY",
+        "ALTERNATE_FORM"
       ]
     }
   },
@@ -59037,7 +59409,8 @@
     "height": 69,
     "weight": 6500,
     "flags": [
-      "LEGENDARY"
+      "LEGENDARY",
+      "ALTERNATE_FORM"
     ],
     "old": {
       "species": "GIRATINA_ORIGIN",
@@ -59091,7 +59464,8 @@
       "height": 69,
       "weight": 6500,
       "flags": [
-        "LEGENDARY"
+        "LEGENDARY",
+        "ALTERNATE_FORM"
       ]
     }
   },
@@ -59660,7 +60034,8 @@
     "itemCommon": "ITEM_LUM_BERRY",
     "itemRare": "ITEM_LUM_BERRY",
     "flags": [
-      "MYTHICAL"
+      "MYTHICAL",
+      "ALTERNATE_FORM"
     ],
     "old": {
       "species": "SHAYMIN_SKY",
@@ -59725,7 +60100,8 @@
       "itemCommon": "ITEM_LUM_BERRY",
       "itemRare": "ITEM_LUM_BERRY",
       "flags": [
-        "MYTHICAL"
+        "MYTHICAL",
+        "ALTERNATE_FORM"
       ]
     }
   },
@@ -60378,7 +60754,8 @@
     "height": 32,
     "weight": 3200,
     "flags": [
-      "MYTHICAL"
+      "MYTHICAL",
+      "ALTERNATE_FORM"
     ],
     "old": {
       "species": "ARCEUS_FIGHTING",
@@ -60591,7 +60968,8 @@
       "height": 32,
       "weight": 3200,
       "flags": [
-        "MYTHICAL"
+        "MYTHICAL",
+        "ALTERNATE_FORM"
       ]
     }
   },
@@ -60806,7 +61184,8 @@
     "height": 32,
     "weight": 3200,
     "flags": [
-      "MYTHICAL"
+      "MYTHICAL",
+      "ALTERNATE_FORM"
     ],
     "old": {
       "species": "ARCEUS_FLYING",
@@ -61019,7 +61398,8 @@
       "height": 32,
       "weight": 3200,
       "flags": [
-        "MYTHICAL"
+        "MYTHICAL",
+        "ALTERNATE_FORM"
       ]
     }
   },
@@ -61234,7 +61614,8 @@
     "height": 32,
     "weight": 3200,
     "flags": [
-      "MYTHICAL"
+      "MYTHICAL",
+      "ALTERNATE_FORM"
     ],
     "old": {
       "species": "ARCEUS_POISON",
@@ -61447,7 +61828,8 @@
       "height": 32,
       "weight": 3200,
       "flags": [
-        "MYTHICAL"
+        "MYTHICAL",
+        "ALTERNATE_FORM"
       ]
     }
   },
@@ -61662,7 +62044,8 @@
     "height": 32,
     "weight": 3200,
     "flags": [
-      "MYTHICAL"
+      "MYTHICAL",
+      "ALTERNATE_FORM"
     ],
     "old": {
       "species": "ARCEUS_GROUND",
@@ -61875,7 +62258,8 @@
       "height": 32,
       "weight": 3200,
       "flags": [
-        "MYTHICAL"
+        "MYTHICAL",
+        "ALTERNATE_FORM"
       ]
     }
   },
@@ -62090,7 +62474,8 @@
     "height": 32,
     "weight": 3200,
     "flags": [
-      "MYTHICAL"
+      "MYTHICAL",
+      "ALTERNATE_FORM"
     ],
     "old": {
       "species": "ARCEUS_ROCK",
@@ -62303,7 +62688,8 @@
       "height": 32,
       "weight": 3200,
       "flags": [
-        "MYTHICAL"
+        "MYTHICAL",
+        "ALTERNATE_FORM"
       ]
     }
   },
@@ -62518,7 +62904,8 @@
     "height": 32,
     "weight": 3200,
     "flags": [
-      "MYTHICAL"
+      "MYTHICAL",
+      "ALTERNATE_FORM"
     ],
     "old": {
       "species": "ARCEUS_BUG",
@@ -62731,7 +63118,8 @@
       "height": 32,
       "weight": 3200,
       "flags": [
-        "MYTHICAL"
+        "MYTHICAL",
+        "ALTERNATE_FORM"
       ]
     }
   },
@@ -62946,7 +63334,8 @@
     "height": 32,
     "weight": 3200,
     "flags": [
-      "MYTHICAL"
+      "MYTHICAL",
+      "ALTERNATE_FORM"
     ],
     "old": {
       "species": "ARCEUS_GHOST",
@@ -63159,7 +63548,8 @@
       "height": 32,
       "weight": 3200,
       "flags": [
-        "MYTHICAL"
+        "MYTHICAL",
+        "ALTERNATE_FORM"
       ]
     }
   },
@@ -63374,7 +63764,8 @@
     "height": 32,
     "weight": 3200,
     "flags": [
-      "MYTHICAL"
+      "MYTHICAL",
+      "ALTERNATE_FORM"
     ],
     "old": {
       "species": "ARCEUS_STEEL",
@@ -63587,7 +63978,8 @@
       "height": 32,
       "weight": 3200,
       "flags": [
-        "MYTHICAL"
+        "MYTHICAL",
+        "ALTERNATE_FORM"
       ]
     }
   },
@@ -63802,7 +64194,8 @@
     "height": 32,
     "weight": 3200,
     "flags": [
-      "MYTHICAL"
+      "MYTHICAL",
+      "ALTERNATE_FORM"
     ],
     "old": {
       "species": "ARCEUS_FIRE",
@@ -64015,7 +64408,8 @@
       "height": 32,
       "weight": 3200,
       "flags": [
-        "MYTHICAL"
+        "MYTHICAL",
+        "ALTERNATE_FORM"
       ]
     }
   },
@@ -64230,7 +64624,8 @@
     "height": 32,
     "weight": 3200,
     "flags": [
-      "MYTHICAL"
+      "MYTHICAL",
+      "ALTERNATE_FORM"
     ],
     "old": {
       "species": "ARCEUS_WATER",
@@ -64443,7 +64838,8 @@
       "height": 32,
       "weight": 3200,
       "flags": [
-        "MYTHICAL"
+        "MYTHICAL",
+        "ALTERNATE_FORM"
       ]
     }
   },
@@ -64658,7 +65054,8 @@
     "height": 32,
     "weight": 3200,
     "flags": [
-      "MYTHICAL"
+      "MYTHICAL",
+      "ALTERNATE_FORM"
     ],
     "old": {
       "species": "ARCEUS_GRASS",
@@ -64871,7 +65268,8 @@
       "height": 32,
       "weight": 3200,
       "flags": [
-        "MYTHICAL"
+        "MYTHICAL",
+        "ALTERNATE_FORM"
       ]
     }
   },
@@ -65086,7 +65484,8 @@
     "height": 32,
     "weight": 3200,
     "flags": [
-      "MYTHICAL"
+      "MYTHICAL",
+      "ALTERNATE_FORM"
     ],
     "old": {
       "species": "ARCEUS_ELECTRIC",
@@ -65299,7 +65698,8 @@
       "height": 32,
       "weight": 3200,
       "flags": [
-        "MYTHICAL"
+        "MYTHICAL",
+        "ALTERNATE_FORM"
       ]
     }
   },
@@ -65514,7 +65914,8 @@
     "height": 32,
     "weight": 3200,
     "flags": [
-      "MYTHICAL"
+      "MYTHICAL",
+      "ALTERNATE_FORM"
     ],
     "old": {
       "species": "ARCEUS_PSYCHIC",
@@ -65727,7 +66128,8 @@
       "height": 32,
       "weight": 3200,
       "flags": [
-        "MYTHICAL"
+        "MYTHICAL",
+        "ALTERNATE_FORM"
       ]
     }
   },
@@ -65942,7 +66344,8 @@
     "height": 32,
     "weight": 3200,
     "flags": [
-      "MYTHICAL"
+      "MYTHICAL",
+      "ALTERNATE_FORM"
     ],
     "old": {
       "species": "ARCEUS_ICE",
@@ -66155,7 +66558,8 @@
       "height": 32,
       "weight": 3200,
       "flags": [
-        "MYTHICAL"
+        "MYTHICAL",
+        "ALTERNATE_FORM"
       ]
     }
   },
@@ -66370,7 +66774,8 @@
     "height": 32,
     "weight": 3200,
     "flags": [
-      "MYTHICAL"
+      "MYTHICAL",
+      "ALTERNATE_FORM"
     ],
     "old": {
       "species": "ARCEUS_DRAGON",
@@ -66583,7 +66988,8 @@
       "height": 32,
       "weight": 3200,
       "flags": [
-        "MYTHICAL"
+        "MYTHICAL",
+        "ALTERNATE_FORM"
       ]
     }
   },
@@ -66798,7 +67204,8 @@
     "height": 32,
     "weight": 3200,
     "flags": [
-      "MYTHICAL"
+      "MYTHICAL",
+      "ALTERNATE_FORM"
     ],
     "old": {
       "species": "ARCEUS_DARK",
@@ -67011,7 +67418,8 @@
       "height": 32,
       "weight": 3200,
       "flags": [
-        "MYTHICAL"
+        "MYTHICAL",
+        "ALTERNATE_FORM"
       ]
     }
   },
@@ -67226,7 +67634,8 @@
     "height": 32,
     "weight": 3200,
     "flags": [
-      "MYTHICAL"
+      "MYTHICAL",
+      "ALTERNATE_FORM"
     ],
     "old": {
       "species": "ARCEUS_FAIRY",
@@ -67439,7 +67848,8 @@
       "height": 32,
       "weight": 3200,
       "flags": [
-        "MYTHICAL"
+        "MYTHICAL",
+        "ALTERNATE_FORM"
       ]
     }
   },
@@ -73147,7 +73557,9 @@
     "height": 10,
     "weight": 180,
     "itemRare": "ITEM_DEEP_SEA_SCALE",
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "BASCULIN_BLUE_STRIPED",
       "stats": [
@@ -73194,7 +73606,9 @@
       "height": 10,
       "weight": 180,
       "itemRare": "ITEM_DEEP_SEA_SCALE",
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -73243,7 +73657,9 @@
     "height": 10,
     "weight": 180,
     "itemRare": "ITEM_DEEP_SEA_SCALE",
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "BASCULIN_WHITE_STRIPED",
       "stats": [
@@ -73290,7 +73706,9 @@
       "height": 10,
       "weight": 180,
       "itemRare": "ITEM_DEEP_SEA_SCALE",
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -74038,7 +74456,9 @@
     "growthRate": "GROWTH_MEDIUM_SLOW",
     "height": 13,
     "weight": 929,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "DARMANITAN_ZEN_MODE",
       "stats": [
@@ -74098,7 +74518,9 @@
       "growthRate": "GROWTH_MEDIUM_SLOW",
       "height": 13,
       "weight": 929,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -77768,7 +78190,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 6,
     "weight": 195,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "DEERLING_SUMMER",
       "stats": [
@@ -77815,7 +78239,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 6,
       "weight": 195,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -77864,7 +78290,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 6,
     "weight": 195,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "DEERLING_AUTUMN",
       "stats": [
@@ -77911,7 +78339,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 6,
       "weight": 195,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -77960,7 +78390,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 6,
     "weight": 195,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "DEERLING_WINTER",
       "stats": [
@@ -78007,7 +78439,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 6,
       "weight": 195,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -78152,7 +78586,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 19,
     "weight": 925,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "SAWSBUCK_SUMMER",
       "stats": [
@@ -78199,7 +78635,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 19,
       "weight": 925,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -78248,7 +78686,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 19,
     "weight": 925,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "SAWSBUCK_AUTUMN",
       "stats": [
@@ -78295,7 +78735,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 19,
       "weight": 925,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -78344,7 +78786,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 19,
     "weight": 925,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "SAWSBUCK_WINTER",
       "stats": [
@@ -78391,7 +78835,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 19,
       "weight": 925,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -84026,7 +84472,8 @@
     "height": 14,
     "weight": 630,
     "flags": [
-      "LEGENDARY"
+      "LEGENDARY",
+      "ALTERNATE_FORM"
     ],
     "old": {
       "species": "TORNADUS_THERIAN",
@@ -84079,7 +84526,8 @@
       "height": 14,
       "weight": 630,
       "flags": [
-        "LEGENDARY"
+        "LEGENDARY",
+        "ALTERNATE_FORM"
       ]
     }
   },
@@ -84245,7 +84693,8 @@
     "height": 30,
     "weight": 610,
     "flags": [
-      "LEGENDARY"
+      "LEGENDARY",
+      "ALTERNATE_FORM"
     ],
     "old": {
       "species": "THUNDURUS_THERIAN",
@@ -84299,7 +84748,8 @@
       "height": 30,
       "weight": 610,
       "flags": [
-        "LEGENDARY"
+        "LEGENDARY",
+        "ALTERNATE_FORM"
       ]
     }
   },
@@ -84661,7 +85111,8 @@
     "height": 13,
     "weight": 680,
     "flags": [
-      "LEGENDARY"
+      "LEGENDARY",
+      "ALTERNATE_FORM"
     ],
     "old": {
       "species": "LANDORUS_THERIAN",
@@ -84715,7 +85166,8 @@
       "height": 13,
       "weight": 680,
       "flags": [
-        "LEGENDARY"
+        "LEGENDARY",
+        "ALTERNATE_FORM"
       ]
     }
   },
@@ -84863,7 +85315,8 @@
     "height": 36,
     "weight": 3250,
     "flags": [
-      "LEGENDARY"
+      "LEGENDARY",
+      "ALTERNATE_FORM"
     ],
     "old": {
       "species": "KYUREM_WHITE",
@@ -84911,7 +85364,8 @@
       "height": 36,
       "weight": 3250,
       "flags": [
-        "LEGENDARY"
+        "LEGENDARY",
+        "ALTERNATE_FORM"
       ]
     }
   },
@@ -84961,7 +85415,8 @@
     "height": 33,
     "weight": 3250,
     "flags": [
-      "LEGENDARY"
+      "LEGENDARY",
+      "ALTERNATE_FORM"
     ],
     "old": {
       "species": "KYUREM_BLACK",
@@ -85009,7 +85464,8 @@
       "height": 33,
       "weight": 3250,
       "flags": [
-        "LEGENDARY"
+        "LEGENDARY",
+        "ALTERNATE_FORM"
       ]
     }
   },
@@ -85175,7 +85631,8 @@
     "height": 14,
     "weight": 485,
     "flags": [
-      "MYTHICAL"
+      "MYTHICAL",
+      "ALTERNATE_FORM"
     ],
     "old": {
       "species": "KELDEO_RESOLUTE",
@@ -85229,7 +85686,8 @@
       "height": 14,
       "weight": 485,
       "flags": [
-        "MYTHICAL"
+        "MYTHICAL",
+        "ALTERNATE_FORM"
       ]
     }
   },
@@ -85392,7 +85850,8 @@
     "itemCommon": "ITEM_STAR_PIECE",
     "itemRare": "ITEM_STAR_PIECE",
     "flags": [
-      "MYTHICAL"
+      "MYTHICAL",
+      "ALTERNATE_FORM"
     ],
     "old": {
       "species": "MELOETTA_PIROUETTE",
@@ -85451,7 +85910,8 @@
       "itemCommon": "ITEM_STAR_PIECE",
       "itemRare": "ITEM_STAR_PIECE",
       "flags": [
-        "MYTHICAL"
+        "MYTHICAL",
+        "ALTERNATE_FORM"
       ]
     }
   },
@@ -86483,7 +86943,9 @@
     "growthRate": "GROWTH_MEDIUM_SLOW",
     "height": 15,
     "weight": 400,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "GRENINJA_BATTLE_BOND",
       "stats": [
@@ -86529,7 +86991,9 @@
       "growthRate": "GROWTH_MEDIUM_SLOW",
       "height": 15,
       "weight": 400,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -86586,7 +87050,9 @@
     "growthRate": "GROWTH_MEDIUM_SLOW",
     "height": 15,
     "weight": 400,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "GRENINJA_ASH",
       "stats": [
@@ -86641,7 +87107,9 @@
       "growthRate": "GROWTH_MEDIUM_SLOW",
       "height": 15,
       "weight": 400,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -87447,7 +87915,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 12,
     "weight": 170,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "VIVILLON_POLAR",
       "stats": [
@@ -87494,7 +87964,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 12,
       "weight": 170,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -87543,7 +88015,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 12,
     "weight": 170,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "VIVILLON_TUNDRA",
       "stats": [
@@ -87590,7 +88064,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 12,
       "weight": 170,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -87639,7 +88115,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 12,
     "weight": 170,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "VIVILLON_CONTINENTAL",
       "stats": [
@@ -87686,7 +88164,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 12,
       "weight": 170,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -87735,7 +88215,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 12,
     "weight": 170,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "VIVILLON_GARDEN",
       "stats": [
@@ -87782,7 +88264,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 12,
       "weight": 170,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -87831,7 +88315,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 12,
     "weight": 170,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "VIVILLON_ELEGANT",
       "stats": [
@@ -87878,7 +88364,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 12,
       "weight": 170,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -87927,7 +88415,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 12,
     "weight": 170,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "VIVILLON_MEADOW",
       "stats": [
@@ -87974,7 +88464,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 12,
       "weight": 170,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -88023,7 +88515,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 12,
     "weight": 170,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "VIVILLON_MODERN",
       "stats": [
@@ -88070,7 +88564,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 12,
       "weight": 170,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -88119,7 +88615,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 12,
     "weight": 170,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "VIVILLON_MARINE",
       "stats": [
@@ -88166,7 +88664,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 12,
       "weight": 170,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -88215,7 +88715,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 12,
     "weight": 170,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "VIVILLON_ARCHIPELAGO",
       "stats": [
@@ -88262,7 +88764,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 12,
       "weight": 170,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -88311,7 +88815,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 12,
     "weight": 170,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "VIVILLON_HIGH_PLAINS",
       "stats": [
@@ -88358,7 +88864,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 12,
       "weight": 170,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -88407,7 +88915,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 12,
     "weight": 170,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "VIVILLON_SANDSTORM",
       "stats": [
@@ -88454,7 +88964,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 12,
       "weight": 170,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -88503,7 +89015,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 12,
     "weight": 170,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "VIVILLON_RIVER",
       "stats": [
@@ -88550,7 +89064,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 12,
       "weight": 170,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -88599,7 +89115,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 12,
     "weight": 170,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "VIVILLON_MONSOON",
       "stats": [
@@ -88646,7 +89164,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 12,
       "weight": 170,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -88695,7 +89215,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 12,
     "weight": 170,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "VIVILLON_SAVANNA",
       "stats": [
@@ -88742,7 +89264,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 12,
       "weight": 170,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -88791,7 +89315,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 12,
     "weight": 170,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "VIVILLON_SUN",
       "stats": [
@@ -88838,7 +89364,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 12,
       "weight": 170,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -88887,7 +89415,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 12,
     "weight": 170,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "VIVILLON_OCEAN",
       "stats": [
@@ -88934,7 +89464,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 12,
       "weight": 170,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -88983,7 +89515,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 12,
     "weight": 170,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "VIVILLON_JUNGLE",
       "stats": [
@@ -89030,7 +89564,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 12,
       "weight": 170,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -89079,7 +89615,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 12,
     "weight": 170,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "VIVILLON_FANCY",
       "stats": [
@@ -89126,7 +89664,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 12,
       "weight": 170,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -89175,7 +89715,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 12,
     "weight": 170,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "VIVILLON_POKE_BALL",
       "stats": [
@@ -89222,7 +89764,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 12,
       "weight": 170,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -89418,7 +89962,7 @@
     }
   },
   {
-    "species": "FLABEBE_RED_FLOWER",
+    "species": "FLABEBE",
     "stats": [
       44,
       38,
@@ -89463,7 +90007,7 @@
     "weight": 1,
     "flags": [],
     "old": {
-      "species": "FLABEBE_RED_FLOWER",
+      "species": "FLABEBE",
       "stats": [
         44,
         38,
@@ -89553,7 +90097,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 1,
     "weight": 1,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "FLABEBE_YELLOW_FLOWER",
       "stats": [
@@ -89598,7 +90144,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 1,
       "weight": 1,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -89645,7 +90193,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 1,
     "weight": 1,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "FLABEBE_ORANGE_FLOWER",
       "stats": [
@@ -89690,7 +90240,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 1,
       "weight": 1,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -89737,7 +90289,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 1,
     "weight": 1,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "FLABEBE_BLUE_FLOWER",
       "stats": [
@@ -89782,11 +90336,13 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 1,
       "weight": 1,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
-    "species": "FLABEBE",
+    "species": "FLABEBE_WHITE_FLOWER",
     "stats": [
       44,
       38,
@@ -89829,9 +90385,11 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 1,
     "weight": 1,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
-      "species": "FLABEBE",
+      "species": "FLABEBE_WHITE_FLOWER",
       "stats": [
         44,
         38,
@@ -89874,11 +90432,13 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 1,
       "weight": 1,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
-    "species": "FLOETTE_RED_FLOWER",
+    "species": "FLOETTE",
     "stats": [
       54,
       45,
@@ -89923,7 +90483,7 @@
     "weight": 9,
     "flags": [],
     "old": {
-      "species": "FLOETTE_RED_FLOWER",
+      "species": "FLOETTE",
       "stats": [
         54,
         45,
@@ -90013,7 +90573,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 2,
     "weight": 9,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "FLOETTE_YELLOW_FLOWER",
       "stats": [
@@ -90058,7 +90620,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 2,
       "weight": 9,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -90105,7 +90669,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 2,
     "weight": 9,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "FLOETTE_ORANGE_FLOWER",
       "stats": [
@@ -90150,7 +90716,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 2,
       "weight": 9,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -90197,7 +90765,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 2,
     "weight": 9,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "FLOETTE_BLUE_FLOWER",
       "stats": [
@@ -90242,11 +90812,13 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 2,
       "weight": 9,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
-    "species": "FLOETTE",
+    "species": "FLOETTE_WHITE_FLOWER",
     "stats": [
       54,
       45,
@@ -90289,9 +90861,11 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 2,
     "weight": 9,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
-      "species": "FLOETTE",
+      "species": "FLOETTE_WHITE_FLOWER",
       "stats": [
         54,
         45,
@@ -90334,103 +90908,13 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 2,
       "weight": 9,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
-    "species": "FLOETTE_ETERNAL_FLOWER",
-    "stats": [
-      74,
-      65,
-      67,
-      125,
-      128,
-      92
-    ],
-    "bst": 551,
-    "generation": 6,
-    "types": [
-      "FAIRY"
-    ],
-    "natDexNum": 670,
-    "abilities": [
-      "FLOWER_VEIL"
-    ],
-    "bodyColor": "BODY_COLOR_WHITE",
-    "catchRate": 120,
-    "categoryName": "Single Bloom",
-    "speciesName": "Floette",
-    "description": "The flower it's holding can no\nlonger be found blooming anywhere. It's\nalso thought to contain terrifying\npower.",
-    "eggCycles": 20,
-    "eggGroups": [
-      "NO_EGGS_DISCOVERED"
-    ],
-    "evolutions": [],
-    "formChangeTable": [],
-    "evYield": [
-      null,
-      null,
-      null,
-      null,
-      2,
-      null
-    ],
-    "expYield": 243,
-    "friendship": "STANDARD_FRIENDSHIP",
-    "genderRatio": "MON_FEMALE",
-    "growthRate": "GROWTH_MEDIUM_FAST",
-    "height": 2,
-    "weight": 9,
-    "flags": [],
-    "old": {
-      "species": "FLOETTE_ETERNAL_FLOWER",
-      "stats": [
-        74,
-        65,
-        67,
-        125,
-        128,
-        92
-      ],
-      "bst": 551,
-      "generation": 6,
-      "types": [
-        "FAIRY"
-      ],
-      "natDexNum": 670,
-      "abilities": [
-        "FLOWER_VEIL"
-      ],
-      "bodyColor": "BODY_COLOR_WHITE",
-      "catchRate": 120,
-      "categoryName": "Single Bloom",
-      "speciesName": "Floette",
-      "description": "The flower it's holding can no\nlonger be found blooming anywhere. It's\nalso thought to contain terrifying\npower.",
-      "eggCycles": 20,
-      "eggGroups": [
-        "NO_EGGS_DISCOVERED"
-      ],
-      "evolutions": [],
-      "formChangeTable": [],
-      "evYield": [
-        null,
-        null,
-        null,
-        null,
-        2,
-        null
-      ],
-      "expYield": 243,
-      "friendship": "STANDARD_FRIENDSHIP",
-      "genderRatio": "MON_FEMALE",
-      "growthRate": "GROWTH_MEDIUM_FAST",
-      "height": 2,
-      "weight": 9,
-      "flags": []
-    }
-  },
-  {
-    "species": "FLORGES_RED_FLOWER",
+    "species": "FLORGES",
     "stats": [
       78,
       65,
@@ -90475,7 +90959,7 @@
     "weight": 100,
     "flags": [],
     "old": {
-      "species": "FLORGES_RED_FLOWER",
+      "species": "FLORGES",
       "stats": [
         78,
         65,
@@ -90565,7 +91049,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 11,
     "weight": 100,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "FLORGES_YELLOW_FLOWER",
       "stats": [
@@ -90610,7 +91096,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 11,
       "weight": 100,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -90657,7 +91145,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 11,
     "weight": 100,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "FLORGES_ORANGE_FLOWER",
       "stats": [
@@ -90702,7 +91192,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 11,
       "weight": 100,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -90749,7 +91241,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 11,
     "weight": 100,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "FLORGES_BLUE_FLOWER",
       "stats": [
@@ -90794,11 +91288,13 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 11,
       "weight": 100,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
-    "species": "FLORGES",
+    "species": "FLORGES_WHITE_FLOWER",
     "stats": [
       78,
       65,
@@ -90841,9 +91337,11 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 11,
     "weight": 100,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
-      "species": "FLORGES",
+      "species": "FLORGES_WHITE_FLOWER",
       "stats": [
         78,
         65,
@@ -90886,7 +91384,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 11,
       "weight": 100,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -91409,7 +91909,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 12,
     "weight": 280,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "FURFROU_HEART_TRIM",
       "stats": [
@@ -91454,7 +91956,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 12,
       "weight": 280,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -91501,7 +92005,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 12,
     "weight": 280,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "FURFROU_STAR_TRIM",
       "stats": [
@@ -91546,7 +92052,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 12,
       "weight": 280,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -91593,7 +92101,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 12,
     "weight": 280,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "FURFROU_DIAMOND_TRIM",
       "stats": [
@@ -91638,7 +92148,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 12,
       "weight": 280,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -91685,7 +92197,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 12,
     "weight": 280,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "FURFROU_DEBUTANTE_TRIM",
       "stats": [
@@ -91730,7 +92244,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 12,
       "weight": 280,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -91777,7 +92293,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 12,
     "weight": 280,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "FURFROU_MATRON_TRIM",
       "stats": [
@@ -91822,7 +92340,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 12,
       "weight": 280,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -91869,7 +92389,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 12,
     "weight": 280,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "FURFROU_DANDY_TRIM",
       "stats": [
@@ -91914,7 +92436,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 12,
       "weight": 280,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -91961,7 +92485,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 12,
     "weight": 280,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "FURFROU_LA_REINE_TRIM",
       "stats": [
@@ -92006,7 +92532,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 12,
       "weight": 280,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -92053,7 +92581,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 12,
     "weight": 280,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "FURFROU_KABUKI_TRIM",
       "stats": [
@@ -92098,7 +92628,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 12,
       "weight": 280,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -92145,7 +92677,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 12,
     "weight": 280,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "FURFROU_PHARAOH_TRIM",
       "stats": [
@@ -92190,7 +92724,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 12,
       "weight": 280,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -92714,12 +93250,12 @@
       "stats": [
         60,
         50,
-        150,
+        140,
         50,
-        150,
+        140,
         60
       ],
-      "bst": 520,
+      "bst": 500,
       "generation": 6,
       "types": [
         "STEEL",
@@ -92761,13 +93297,13 @@
     "species": "AEGISLASH_BLADE",
     "stats": [
       60,
-      150,
+      140,
       50,
-      150,
+      140,
       50,
       60
     ],
-    "bst": 520,
+    "bst": 500,
     "generation": 6,
     "types": [
       "STEEL",
@@ -92815,18 +93351,20 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 17,
     "weight": 530,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "AEGISLASH_BLADE",
       "stats": [
         60,
-        150,
+        140,
         50,
-        150,
+        140,
         50,
         60
       ],
-      "bst": 520,
+      "bst": 500,
       "generation": 6,
       "types": [
         "STEEL",
@@ -92874,7 +93412,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 17,
       "weight": 530,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -93367,8 +93907,7 @@
     ],
     "natDexNum": 687,
     "abilities": [
-      "CONTRARY",
-      "NONE "
+      "CONTRARY"
     ],
     "bodyColor": "BODY_COLOR_BLUE",
     "catchRate": 80,
@@ -95815,7 +96354,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 3,
     "weight": 35,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "PUMPKABOO_SMALL",
       "stats": [
@@ -95862,7 +96403,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 3,
       "weight": 35,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -95911,7 +96454,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 5,
     "weight": 75,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "PUMPKABOO_LARGE",
       "stats": [
@@ -95958,7 +96503,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 5,
       "weight": 75,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -96009,7 +96556,9 @@
     "weight": 150,
     "itemCommon": "ITEM_MIRACLE_SEED",
     "itemRare": "ITEM_MIRACLE_SEED",
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "PUMPKABOO_SUPER",
       "stats": [
@@ -96058,7 +96607,9 @@
       "weight": 150,
       "itemCommon": "ITEM_MIRACLE_SEED",
       "itemRare": "ITEM_MIRACLE_SEED",
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -96203,7 +96754,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 7,
     "weight": 95,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "GOURGEIST_SMALL",
       "stats": [
@@ -96250,7 +96803,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 7,
       "weight": 95,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -96299,7 +96854,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 11,
     "weight": 140,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "GOURGEIST_LARGE",
       "stats": [
@@ -96346,7 +96903,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 11,
       "weight": 140,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -96397,7 +96956,9 @@
     "weight": 390,
     "itemCommon": "ITEM_MIRACLE_SEED",
     "itemRare": "ITEM_MIRACLE_SEED",
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "GOURGEIST_SUPER",
       "stats": [
@@ -96446,7 +97007,9 @@
       "weight": 390,
       "itemCommon": "ITEM_MIRACLE_SEED",
       "itemRare": "ITEM_MIRACLE_SEED",
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -97085,7 +97648,8 @@
     "height": 30,
     "weight": 2150,
     "flags": [
-      "LEGENDARY"
+      "LEGENDARY",
+      "ALTERNATE_FORM"
     ],
     "old": {
       "species": "XERNEAS_ACTIVE",
@@ -97137,7 +97701,8 @@
       "height": 30,
       "weight": 2150,
       "flags": [
-        "LEGENDARY"
+        "LEGENDARY",
+        "ALTERNATE_FORM"
       ]
     }
   },
@@ -97360,6 +97925,138 @@
     }
   },
   {
+    "species": "ZYGARDE_50_POWER_CONSTRUCT",
+    "stats": [
+      108,
+      100,
+      121,
+      81,
+      95,
+      95
+    ],
+    "bst": 600,
+    "generation": 6,
+    "types": [
+      "DRAGON",
+      "GROUND"
+    ],
+    "natDexNum": 718,
+    "abilities": [
+      "POWER_CONSTRUCT"
+    ],
+    "bodyColor": "BODY_COLOR_GREEN",
+    "catchRate": 3,
+    "categoryName": "Order",
+    "speciesName": "Zygarde",
+    "description": "",
+    "eggCycles": 120,
+    "eggGroups": [
+      "NO_EGGS_DISCOVERED"
+    ],
+    "evolutions": [],
+    "formChangeTable": [
+      {
+        "form": "ZYGARDE_10_POWER_CONSTRUCT",
+        "clause": "FORM_CHANGE_ITEM_USE_MULTICHOICE",
+        "method": "ITEM_ZYGARDE_CUBE"
+      },
+      {
+        "form": "ZYGARDE_50_AURA_BREAK",
+        "clause": "FORM_CHANGE_ITEM_USE_MULTICHOICE",
+        "method": "ITEM_ZYGARDE_CUBE"
+      },
+      {
+        "form": "ZYGARDE_COMPLETE",
+        "clause": "FORM_CHANGE_BATTLE_HP_PERCENT",
+        "method": "ABILITY_POWER_CONSTRUCT"
+      }
+    ],
+    "evYield": [
+      3,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "expYield": 300,
+    "friendship": "0",
+    "genderRatio": "MON_GENDERLESS",
+    "growthRate": "GROWTH_SLOW",
+    "height": 50,
+    "weight": 3050,
+    "flags": [
+      "LEGENDARY",
+      "ALTERNATE_FORM"
+    ],
+    "old": {
+      "species": "ZYGARDE_50_POWER_CONSTRUCT",
+      "stats": [
+        108,
+        100,
+        121,
+        81,
+        95,
+        95
+      ],
+      "bst": 600,
+      "generation": 6,
+      "types": [
+        "DRAGON",
+        "GROUND"
+      ],
+      "natDexNum": 718,
+      "abilities": [
+        "POWER_CONSTRUCT"
+      ],
+      "bodyColor": "BODY_COLOR_GREEN",
+      "catchRate": 3,
+      "categoryName": "Order",
+      "speciesName": "Zygarde",
+      "description": "",
+      "eggCycles": 120,
+      "eggGroups": [
+        "NO_EGGS_DISCOVERED"
+      ],
+      "evolutions": [],
+      "formChangeTable": [
+        {
+          "form": "ZYGARDE_10_POWER_CONSTRUCT",
+          "clause": "FORM_CHANGE_ITEM_USE_MULTICHOICE",
+          "method": "ITEM_ZYGARDE_CUBE"
+        },
+        {
+          "form": "ZYGARDE_50_AURA_BREAK",
+          "clause": "FORM_CHANGE_ITEM_USE_MULTICHOICE",
+          "method": "ITEM_ZYGARDE_CUBE"
+        },
+        {
+          "form": "ZYGARDE_COMPLETE",
+          "clause": "FORM_CHANGE_BATTLE_HP_PERCENT",
+          "method": "ABILITY_POWER_CONSTRUCT"
+        }
+      ],
+      "evYield": [
+        3,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "expYield": 300,
+      "friendship": "0",
+      "genderRatio": "MON_GENDERLESS",
+      "growthRate": "GROWTH_SLOW",
+      "height": 50,
+      "weight": 3050,
+      "flags": [
+        "LEGENDARY",
+        "ALTERNATE_FORM"
+      ]
+    }
+  },
+  {
     "species": "ZYGARDE_10_PERCENT",
     "stats": [
       54,
@@ -97416,7 +98113,8 @@
     "height": 12,
     "weight": 335,
     "flags": [
-      "LEGENDARY"
+      "LEGENDARY",
+      "ALTERNATE_FORM"
     ],
     "old": {
       "species": "ZYGARDE_10_PERCENT",
@@ -97475,7 +98173,140 @@
       "height": 12,
       "weight": 335,
       "flags": [
-        "LEGENDARY"
+        "LEGENDARY",
+        "ALTERNATE_FORM"
+      ]
+    }
+  },
+  {
+    "species": "ZYGARDE_10_POWER_CONSTRUCT",
+    "stats": [
+      54,
+      100,
+      71,
+      75,
+      85,
+      115
+    ],
+    "bst": 500,
+    "generation": 6,
+    "types": [
+      "DRAGON",
+      "GROUND"
+    ],
+    "natDexNum": 718,
+    "abilities": [
+      "POWER_CONSTRUCT"
+    ],
+    "bodyColor": "BODY_COLOR_BLACK",
+    "catchRate": 3,
+    "categoryName": "Order",
+    "speciesName": "Zygarde",
+    "description": "",
+    "eggCycles": 120,
+    "eggGroups": [
+      "NO_EGGS_DISCOVERED"
+    ],
+    "evolutions": [],
+    "formChangeTable": [
+      {
+        "form": "ZYGARDE_50_POWER_CONSTRUCT",
+        "clause": "FORM_CHANGE_ITEM_USE_MULTICHOICE",
+        "method": "ITEM_ZYGARDE_CUBE"
+      },
+      {
+        "form": "ZYGARDE_10_AURA_BREAK",
+        "clause": "FORM_CHANGE_ITEM_USE_MULTICHOICE",
+        "method": "ITEM_ZYGARDE_CUBE"
+      },
+      {
+        "form": "ZYGARDE_COMPLETE",
+        "clause": "FORM_CHANGE_BATTLE_HP_PERCENT",
+        "method": "ABILITY_POWER_CONSTRUCT"
+      }
+    ],
+    "evYield": [
+      3,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "expYield": 243,
+    "friendship": "0",
+    "genderRatio": "MON_GENDERLESS",
+    "growthRate": "GROWTH_SLOW",
+    "height": 12,
+    "weight": 335,
+    "flags": [
+      "LEGENDARY",
+      "ALTERNATE_FORM"
+    ],
+    "old": {
+      "species": "ZYGARDE_10_POWER_CONSTRUCT",
+      "stats": [
+        54,
+        100,
+        71,
+        61,
+        85,
+        115
+      ],
+      "bst": 486,
+      "generation": 6,
+      "types": [
+        "DRAGON",
+        "GROUND"
+      ],
+      "natDexNum": 718,
+      "abilities": [
+        "POWER_CONSTRUCT"
+      ],
+      "bodyColor": "BODY_COLOR_BLACK",
+      "catchRate": 3,
+      "categoryName": "Order",
+      "speciesName": "Zygarde",
+      "description": "",
+      "eggCycles": 120,
+      "eggGroups": [
+        "NO_EGGS_DISCOVERED"
+      ],
+      "evolutions": [],
+      "formChangeTable": [
+        {
+          "form": "ZYGARDE_50_POWER_CONSTRUCT",
+          "clause": "FORM_CHANGE_ITEM_USE_MULTICHOICE",
+          "method": "ITEM_ZYGARDE_CUBE"
+        },
+        {
+          "form": "ZYGARDE_10_AURA_BREAK",
+          "clause": "FORM_CHANGE_ITEM_USE_MULTICHOICE",
+          "method": "ITEM_ZYGARDE_CUBE"
+        },
+        {
+          "form": "ZYGARDE_COMPLETE",
+          "clause": "FORM_CHANGE_BATTLE_HP_PERCENT",
+          "method": "ABILITY_POWER_CONSTRUCT"
+        }
+      ],
+      "evYield": [
+        3,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "expYield": 243,
+      "friendship": "0",
+      "genderRatio": "MON_GENDERLESS",
+      "growthRate": "GROWTH_SLOW",
+      "height": 12,
+      "weight": 335,
+      "flags": [
+        "LEGENDARY",
+        "ALTERNATE_FORM"
       ]
     }
   },
@@ -97532,7 +98363,8 @@
     "height": 45,
     "weight": 6100,
     "flags": [
-      "LEGENDARY"
+      "LEGENDARY",
+      "ALTERNATE_FORM"
     ],
     "old": {
       "species": "ZYGARDE_COMPLETE",
@@ -97587,7 +98419,8 @@
       "height": 45,
       "weight": 6100,
       "flags": [
-        "LEGENDARY"
+        "LEGENDARY",
+        "ALTERNATE_FORM"
       ]
     }
   },
@@ -97864,7 +98697,8 @@
     "height": 65,
     "weight": 490,
     "flags": [
-      "MYTHICAL"
+      "MYTHICAL",
+      "ALTERNATE_FORM"
     ],
     "old": {
       "species": "HOOPA_UNBOUND",
@@ -97917,7 +98751,8 @@
       "height": 65,
       "weight": 490,
       "flags": [
-        "MYTHICAL"
+        "MYTHICAL",
+        "ALTERNATE_FORM"
       ]
     }
   },
@@ -100124,7 +100959,9 @@
     "height": 6,
     "weight": 34,
     "itemRare": "ITEM_YELLOW_NECTAR",
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "ORICORIO_POM_POM",
       "stats": [
@@ -100187,7 +101024,9 @@
       "height": 6,
       "weight": 34,
       "itemRare": "ITEM_YELLOW_NECTAR",
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -100252,7 +101091,9 @@
     "height": 6,
     "weight": 34,
     "itemRare": "ITEM_PINK_NECTAR",
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "ORICORIO_PAU",
       "stats": [
@@ -100315,7 +101156,9 @@
       "height": 6,
       "weight": 34,
       "itemRare": "ITEM_PINK_NECTAR",
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -100380,7 +101223,9 @@
     "height": 6,
     "weight": 34,
     "itemRare": "ITEM_PURPLE_NECTAR",
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "ORICORIO_SENSU",
       "stats": [
@@ -100443,7 +101288,9 @@
       "height": 6,
       "weight": 34,
       "itemRare": "ITEM_PURPLE_NECTAR",
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -100741,7 +101588,7 @@
     }
   },
   {
-    "species": "ROCKRUFF",
+    "species": "ROCKRUFF_OWN_TEMPO",
     "stats": [
       45,
       65,
@@ -100784,9 +101631,11 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 5,
     "weight": 92,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
-      "species": "ROCKRUFF",
+      "species": "ROCKRUFF_OWN_TEMPO",
       "stats": [
         45,
         65,
@@ -100802,8 +101651,7 @@
       ],
       "natDexNum": 744,
       "abilities": [
-        "KEEN_EYE",
-        "VITAL_SPIRIT"
+        "OWN_TEMPO"
       ],
       "bodyColor": "BODY_COLOR_BROWN",
       "catchRate": 190,
@@ -100830,7 +101678,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 5,
       "weight": 92,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -100972,7 +101822,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 11,
     "weight": 250,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "LYCANROC_MIDNIGHT",
       "stats": [
@@ -101018,7 +101870,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 11,
       "weight": 250,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -101065,7 +101919,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 8,
     "weight": 250,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "LYCANROC_DUSK",
       "stats": [
@@ -101110,7 +101966,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 8,
       "weight": 250,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -104252,7 +105110,8 @@
     "height": 23,
     "weight": 1005,
     "flags": [
-      "LEGENDARY"
+      "LEGENDARY",
+      "ALTERNATE_FORM"
     ],
     "old": {
       "species": "SILVALLY_FIGHTING",
@@ -104384,7 +105243,9 @@
       "growthRate": "GROWTH_SLOW",
       "height": 23,
       "weight": 1005,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -104518,7 +105379,8 @@
     "height": 23,
     "weight": 1005,
     "flags": [
-      "LEGENDARY"
+      "LEGENDARY",
+      "ALTERNATE_FORM"
     ],
     "old": {
       "species": "SILVALLY_FLYING",
@@ -104650,7 +105512,9 @@
       "growthRate": "GROWTH_SLOW",
       "height": 23,
       "weight": 1005,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -104784,7 +105648,8 @@
     "height": 23,
     "weight": 1005,
     "flags": [
-      "LEGENDARY"
+      "LEGENDARY",
+      "ALTERNATE_FORM"
     ],
     "old": {
       "species": "SILVALLY_POISON",
@@ -104916,7 +105781,9 @@
       "growthRate": "GROWTH_SLOW",
       "height": 23,
       "weight": 1005,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -105050,7 +105917,8 @@
     "height": 23,
     "weight": 1005,
     "flags": [
-      "LEGENDARY"
+      "LEGENDARY",
+      "ALTERNATE_FORM"
     ],
     "old": {
       "species": "SILVALLY_GROUND",
@@ -105182,7 +106050,9 @@
       "growthRate": "GROWTH_SLOW",
       "height": 23,
       "weight": 1005,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -105316,7 +106186,8 @@
     "height": 23,
     "weight": 1005,
     "flags": [
-      "LEGENDARY"
+      "LEGENDARY",
+      "ALTERNATE_FORM"
     ],
     "old": {
       "species": "SILVALLY_ROCK",
@@ -105448,7 +106319,9 @@
       "growthRate": "GROWTH_SLOW",
       "height": 23,
       "weight": 1005,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -105582,7 +106455,8 @@
     "height": 23,
     "weight": 1005,
     "flags": [
-      "LEGENDARY"
+      "LEGENDARY",
+      "ALTERNATE_FORM"
     ],
     "old": {
       "species": "SILVALLY_BUG",
@@ -105714,7 +106588,9 @@
       "growthRate": "GROWTH_SLOW",
       "height": 23,
       "weight": 1005,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -105848,7 +106724,8 @@
     "height": 23,
     "weight": 1005,
     "flags": [
-      "LEGENDARY"
+      "LEGENDARY",
+      "ALTERNATE_FORM"
     ],
     "old": {
       "species": "SILVALLY_GHOST",
@@ -105980,7 +106857,9 @@
       "growthRate": "GROWTH_SLOW",
       "height": 23,
       "weight": 1005,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -106114,7 +106993,8 @@
     "height": 23,
     "weight": 1005,
     "flags": [
-      "LEGENDARY"
+      "LEGENDARY",
+      "ALTERNATE_FORM"
     ],
     "old": {
       "species": "SILVALLY_STEEL",
@@ -106246,7 +107126,9 @@
       "growthRate": "GROWTH_SLOW",
       "height": 23,
       "weight": 1005,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -106380,7 +107262,8 @@
     "height": 23,
     "weight": 1005,
     "flags": [
-      "LEGENDARY"
+      "LEGENDARY",
+      "ALTERNATE_FORM"
     ],
     "old": {
       "species": "SILVALLY_FIRE",
@@ -106512,7 +107395,9 @@
       "growthRate": "GROWTH_SLOW",
       "height": 23,
       "weight": 1005,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -106646,7 +107531,8 @@
     "height": 23,
     "weight": 1005,
     "flags": [
-      "LEGENDARY"
+      "LEGENDARY",
+      "ALTERNATE_FORM"
     ],
     "old": {
       "species": "SILVALLY_WATER",
@@ -106778,7 +107664,9 @@
       "growthRate": "GROWTH_SLOW",
       "height": 23,
       "weight": 1005,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -106912,7 +107800,8 @@
     "height": 23,
     "weight": 1005,
     "flags": [
-      "LEGENDARY"
+      "LEGENDARY",
+      "ALTERNATE_FORM"
     ],
     "old": {
       "species": "SILVALLY_GRASS",
@@ -107044,7 +107933,9 @@
       "growthRate": "GROWTH_SLOW",
       "height": 23,
       "weight": 1005,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -107178,7 +108069,8 @@
     "height": 23,
     "weight": 1005,
     "flags": [
-      "LEGENDARY"
+      "LEGENDARY",
+      "ALTERNATE_FORM"
     ],
     "old": {
       "species": "SILVALLY_ELECTRIC",
@@ -107310,7 +108202,9 @@
       "growthRate": "GROWTH_SLOW",
       "height": 23,
       "weight": 1005,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -107444,7 +108338,8 @@
     "height": 23,
     "weight": 1005,
     "flags": [
-      "LEGENDARY"
+      "LEGENDARY",
+      "ALTERNATE_FORM"
     ],
     "old": {
       "species": "SILVALLY_PSYCHIC",
@@ -107576,7 +108471,9 @@
       "growthRate": "GROWTH_SLOW",
       "height": 23,
       "weight": 1005,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -107710,7 +108607,8 @@
     "height": 23,
     "weight": 1005,
     "flags": [
-      "LEGENDARY"
+      "LEGENDARY",
+      "ALTERNATE_FORM"
     ],
     "old": {
       "species": "SILVALLY_ICE",
@@ -107842,7 +108740,9 @@
       "growthRate": "GROWTH_SLOW",
       "height": 23,
       "weight": 1005,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -107976,7 +108876,8 @@
     "height": 23,
     "weight": 1005,
     "flags": [
-      "LEGENDARY"
+      "LEGENDARY",
+      "ALTERNATE_FORM"
     ],
     "old": {
       "species": "SILVALLY_DRAGON",
@@ -108108,7 +109009,9 @@
       "growthRate": "GROWTH_SLOW",
       "height": 23,
       "weight": 1005,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -108242,7 +109145,8 @@
     "height": 23,
     "weight": 1005,
     "flags": [
-      "LEGENDARY"
+      "LEGENDARY",
+      "ALTERNATE_FORM"
     ],
     "old": {
       "species": "SILVALLY_DARK",
@@ -108374,7 +109278,9 @@
       "growthRate": "GROWTH_SLOW",
       "height": 23,
       "weight": 1005,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -108508,7 +109414,8 @@
     "height": 23,
     "weight": 1005,
     "flags": [
-      "LEGENDARY"
+      "LEGENDARY",
+      "ALTERNATE_FORM"
     ],
     "old": {
       "species": "SILVALLY_FAIRY",
@@ -108640,7 +109547,9 @@
       "growthRate": "GROWTH_SLOW",
       "height": 23,
       "weight": 1005,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -108740,582 +109649,6 @@
     }
   },
   {
-    "species": "MINIOR_METEOR_ORANGE",
-    "stats": [
-      60,
-      60,
-      110,
-      60,
-      110,
-      60
-    ],
-    "bst": 460,
-    "generation": 7,
-    "types": [
-      "ROCK",
-      "FLYING"
-    ],
-    "natDexNum": 774,
-    "abilities": [
-      "SHIELDS_DOWN"
-    ],
-    "bodyColor": "BODY_COLOR_BROWN",
-    "catchRate": 30,
-    "categoryName": "Meteor",
-    "speciesName": "Minior",
-    "description": "",
-    "eggCycles": 25,
-    "eggGroups": [
-      "MINERAL"
-    ],
-    "evolutions": [],
-    "formChangeTable": [],
-    "evYield": [
-      null,
-      null,
-      1,
-      null,
-      1,
-      null
-    ],
-    "expYield": 154,
-    "friendship": "STANDARD_FRIENDSHIP",
-    "genderRatio": "MON_GENDERLESS",
-    "growthRate": "GROWTH_MEDIUM_SLOW",
-    "height": 3,
-    "weight": 400,
-    "itemRare": "ITEM_STAR_PIECE",
-    "flags": [],
-    "old": {
-      "species": "MINIOR_METEOR_ORANGE",
-      "stats": [
-        60,
-        60,
-        100,
-        60,
-        100,
-        60
-      ],
-      "bst": 440,
-      "generation": 7,
-      "types": [
-        "ROCK",
-        "FLYING"
-      ],
-      "natDexNum": 774,
-      "abilities": [
-        "SHIELDS_DOWN"
-      ],
-      "bodyColor": "BODY_COLOR_BROWN",
-      "catchRate": 30,
-      "categoryName": "Meteor",
-      "speciesName": "Minior",
-      "description": "",
-      "eggCycles": 25,
-      "eggGroups": [
-        "MINERAL"
-      ],
-      "evolutions": [],
-      "formChangeTable": [],
-      "evYield": [
-        null,
-        null,
-        1,
-        null,
-        1,
-        null
-      ],
-      "expYield": 154,
-      "friendship": "STANDARD_FRIENDSHIP",
-      "genderRatio": "MON_GENDERLESS",
-      "growthRate": "GROWTH_MEDIUM_SLOW",
-      "height": 3,
-      "weight": 400,
-      "itemRare": "ITEM_STAR_PIECE",
-      "flags": []
-    }
-  },
-  {
-    "species": "MINIOR_METEOR_YELLOW",
-    "stats": [
-      60,
-      60,
-      110,
-      60,
-      110,
-      60
-    ],
-    "bst": 460,
-    "generation": 7,
-    "types": [
-      "ROCK",
-      "FLYING"
-    ],
-    "natDexNum": 774,
-    "abilities": [
-      "SHIELDS_DOWN"
-    ],
-    "bodyColor": "BODY_COLOR_BROWN",
-    "catchRate": 30,
-    "categoryName": "Meteor",
-    "speciesName": "Minior",
-    "description": "",
-    "eggCycles": 25,
-    "eggGroups": [
-      "MINERAL"
-    ],
-    "evolutions": [],
-    "formChangeTable": [],
-    "evYield": [
-      null,
-      null,
-      1,
-      null,
-      1,
-      null
-    ],
-    "expYield": 154,
-    "friendship": "STANDARD_FRIENDSHIP",
-    "genderRatio": "MON_GENDERLESS",
-    "growthRate": "GROWTH_MEDIUM_SLOW",
-    "height": 3,
-    "weight": 400,
-    "itemRare": "ITEM_STAR_PIECE",
-    "flags": [],
-    "old": {
-      "species": "MINIOR_METEOR_YELLOW",
-      "stats": [
-        60,
-        60,
-        100,
-        60,
-        100,
-        60
-      ],
-      "bst": 440,
-      "generation": 7,
-      "types": [
-        "ROCK",
-        "FLYING"
-      ],
-      "natDexNum": 774,
-      "abilities": [
-        "SHIELDS_DOWN"
-      ],
-      "bodyColor": "BODY_COLOR_BROWN",
-      "catchRate": 30,
-      "categoryName": "Meteor",
-      "speciesName": "Minior",
-      "description": "",
-      "eggCycles": 25,
-      "eggGroups": [
-        "MINERAL"
-      ],
-      "evolutions": [],
-      "formChangeTable": [],
-      "evYield": [
-        null,
-        null,
-        1,
-        null,
-        1,
-        null
-      ],
-      "expYield": 154,
-      "friendship": "STANDARD_FRIENDSHIP",
-      "genderRatio": "MON_GENDERLESS",
-      "growthRate": "GROWTH_MEDIUM_SLOW",
-      "height": 3,
-      "weight": 400,
-      "itemRare": "ITEM_STAR_PIECE",
-      "flags": []
-    }
-  },
-  {
-    "species": "MINIOR_METEOR_GREEN",
-    "stats": [
-      60,
-      60,
-      110,
-      60,
-      110,
-      60
-    ],
-    "bst": 460,
-    "generation": 7,
-    "types": [
-      "ROCK",
-      "FLYING"
-    ],
-    "natDexNum": 774,
-    "abilities": [
-      "SHIELDS_DOWN"
-    ],
-    "bodyColor": "BODY_COLOR_BROWN",
-    "catchRate": 30,
-    "categoryName": "Meteor",
-    "speciesName": "Minior",
-    "description": "",
-    "eggCycles": 25,
-    "eggGroups": [
-      "MINERAL"
-    ],
-    "evolutions": [],
-    "formChangeTable": [],
-    "evYield": [
-      null,
-      null,
-      1,
-      null,
-      1,
-      null
-    ],
-    "expYield": 154,
-    "friendship": "STANDARD_FRIENDSHIP",
-    "genderRatio": "MON_GENDERLESS",
-    "growthRate": "GROWTH_MEDIUM_SLOW",
-    "height": 3,
-    "weight": 400,
-    "itemRare": "ITEM_STAR_PIECE",
-    "flags": [],
-    "old": {
-      "species": "MINIOR_METEOR_GREEN",
-      "stats": [
-        60,
-        60,
-        100,
-        60,
-        100,
-        60
-      ],
-      "bst": 440,
-      "generation": 7,
-      "types": [
-        "ROCK",
-        "FLYING"
-      ],
-      "natDexNum": 774,
-      "abilities": [
-        "SHIELDS_DOWN"
-      ],
-      "bodyColor": "BODY_COLOR_BROWN",
-      "catchRate": 30,
-      "categoryName": "Meteor",
-      "speciesName": "Minior",
-      "description": "",
-      "eggCycles": 25,
-      "eggGroups": [
-        "MINERAL"
-      ],
-      "evolutions": [],
-      "formChangeTable": [],
-      "evYield": [
-        null,
-        null,
-        1,
-        null,
-        1,
-        null
-      ],
-      "expYield": 154,
-      "friendship": "STANDARD_FRIENDSHIP",
-      "genderRatio": "MON_GENDERLESS",
-      "growthRate": "GROWTH_MEDIUM_SLOW",
-      "height": 3,
-      "weight": 400,
-      "itemRare": "ITEM_STAR_PIECE",
-      "flags": []
-    }
-  },
-  {
-    "species": "MINIOR_METEOR_BLUE",
-    "stats": [
-      60,
-      60,
-      110,
-      60,
-      110,
-      60
-    ],
-    "bst": 460,
-    "generation": 7,
-    "types": [
-      "ROCK",
-      "FLYING"
-    ],
-    "natDexNum": 774,
-    "abilities": [
-      "SHIELDS_DOWN"
-    ],
-    "bodyColor": "BODY_COLOR_BROWN",
-    "catchRate": 30,
-    "categoryName": "Meteor",
-    "speciesName": "Minior",
-    "description": "",
-    "eggCycles": 25,
-    "eggGroups": [
-      "MINERAL"
-    ],
-    "evolutions": [],
-    "formChangeTable": [],
-    "evYield": [
-      null,
-      null,
-      1,
-      null,
-      1,
-      null
-    ],
-    "expYield": 154,
-    "friendship": "STANDARD_FRIENDSHIP",
-    "genderRatio": "MON_GENDERLESS",
-    "growthRate": "GROWTH_MEDIUM_SLOW",
-    "height": 3,
-    "weight": 400,
-    "itemRare": "ITEM_STAR_PIECE",
-    "flags": [],
-    "old": {
-      "species": "MINIOR_METEOR_BLUE",
-      "stats": [
-        60,
-        60,
-        100,
-        60,
-        100,
-        60
-      ],
-      "bst": 440,
-      "generation": 7,
-      "types": [
-        "ROCK",
-        "FLYING"
-      ],
-      "natDexNum": 774,
-      "abilities": [
-        "SHIELDS_DOWN"
-      ],
-      "bodyColor": "BODY_COLOR_BROWN",
-      "catchRate": 30,
-      "categoryName": "Meteor",
-      "speciesName": "Minior",
-      "description": "",
-      "eggCycles": 25,
-      "eggGroups": [
-        "MINERAL"
-      ],
-      "evolutions": [],
-      "formChangeTable": [],
-      "evYield": [
-        null,
-        null,
-        1,
-        null,
-        1,
-        null
-      ],
-      "expYield": 154,
-      "friendship": "STANDARD_FRIENDSHIP",
-      "genderRatio": "MON_GENDERLESS",
-      "growthRate": "GROWTH_MEDIUM_SLOW",
-      "height": 3,
-      "weight": 400,
-      "itemRare": "ITEM_STAR_PIECE",
-      "flags": []
-    }
-  },
-  {
-    "species": "MINIOR_METEOR_INDIGO",
-    "stats": [
-      60,
-      60,
-      110,
-      60,
-      110,
-      60
-    ],
-    "bst": 460,
-    "generation": 7,
-    "types": [
-      "ROCK",
-      "FLYING"
-    ],
-    "natDexNum": 774,
-    "abilities": [
-      "SHIELDS_DOWN"
-    ],
-    "bodyColor": "BODY_COLOR_BROWN",
-    "catchRate": 30,
-    "categoryName": "Meteor",
-    "speciesName": "Minior",
-    "description": "",
-    "eggCycles": 25,
-    "eggGroups": [
-      "MINERAL"
-    ],
-    "evolutions": [],
-    "formChangeTable": [],
-    "evYield": [
-      null,
-      null,
-      1,
-      null,
-      1,
-      null
-    ],
-    "expYield": 154,
-    "friendship": "STANDARD_FRIENDSHIP",
-    "genderRatio": "MON_GENDERLESS",
-    "growthRate": "GROWTH_MEDIUM_SLOW",
-    "height": 3,
-    "weight": 400,
-    "itemRare": "ITEM_STAR_PIECE",
-    "flags": [],
-    "old": {
-      "species": "MINIOR_METEOR_INDIGO",
-      "stats": [
-        60,
-        60,
-        100,
-        60,
-        100,
-        60
-      ],
-      "bst": 440,
-      "generation": 7,
-      "types": [
-        "ROCK",
-        "FLYING"
-      ],
-      "natDexNum": 774,
-      "abilities": [
-        "SHIELDS_DOWN"
-      ],
-      "bodyColor": "BODY_COLOR_BROWN",
-      "catchRate": 30,
-      "categoryName": "Meteor",
-      "speciesName": "Minior",
-      "description": "",
-      "eggCycles": 25,
-      "eggGroups": [
-        "MINERAL"
-      ],
-      "evolutions": [],
-      "formChangeTable": [],
-      "evYield": [
-        null,
-        null,
-        1,
-        null,
-        1,
-        null
-      ],
-      "expYield": 154,
-      "friendship": "STANDARD_FRIENDSHIP",
-      "genderRatio": "MON_GENDERLESS",
-      "growthRate": "GROWTH_MEDIUM_SLOW",
-      "height": 3,
-      "weight": 400,
-      "itemRare": "ITEM_STAR_PIECE",
-      "flags": []
-    }
-  },
-  {
-    "species": "MINIOR_METEOR_VIOLET",
-    "stats": [
-      60,
-      60,
-      110,
-      60,
-      110,
-      60
-    ],
-    "bst": 460,
-    "generation": 7,
-    "types": [
-      "ROCK",
-      "FLYING"
-    ],
-    "natDexNum": 774,
-    "abilities": [
-      "SHIELDS_DOWN"
-    ],
-    "bodyColor": "BODY_COLOR_BROWN",
-    "catchRate": 30,
-    "categoryName": "Meteor",
-    "speciesName": "Minior",
-    "description": "",
-    "eggCycles": 25,
-    "eggGroups": [
-      "MINERAL"
-    ],
-    "evolutions": [],
-    "formChangeTable": [],
-    "evYield": [
-      null,
-      null,
-      1,
-      null,
-      1,
-      null
-    ],
-    "expYield": 154,
-    "friendship": "STANDARD_FRIENDSHIP",
-    "genderRatio": "MON_GENDERLESS",
-    "growthRate": "GROWTH_MEDIUM_SLOW",
-    "height": 3,
-    "weight": 400,
-    "itemRare": "ITEM_STAR_PIECE",
-    "flags": [],
-    "old": {
-      "species": "MINIOR_METEOR_VIOLET",
-      "stats": [
-        60,
-        60,
-        100,
-        60,
-        100,
-        60
-      ],
-      "bst": 440,
-      "generation": 7,
-      "types": [
-        "ROCK",
-        "FLYING"
-      ],
-      "natDexNum": 774,
-      "abilities": [
-        "SHIELDS_DOWN"
-      ],
-      "bodyColor": "BODY_COLOR_BROWN",
-      "catchRate": 30,
-      "categoryName": "Meteor",
-      "speciesName": "Minior",
-      "description": "",
-      "eggCycles": 25,
-      "eggGroups": [
-        "MINERAL"
-      ],
-      "evolutions": [],
-      "formChangeTable": [],
-      "evYield": [
-        null,
-        null,
-        1,
-        null,
-        1,
-        null
-      ],
-      "expYield": 154,
-      "friendship": "STANDARD_FRIENDSHIP",
-      "genderRatio": "MON_GENDERLESS",
-      "growthRate": "GROWTH_MEDIUM_SLOW",
-      "height": 3,
-      "weight": 400,
-      "itemRare": "ITEM_STAR_PIECE",
-      "flags": []
-    }
-  },
-  {
     "species": "MINIOR_CORE",
     "stats": [
       60,
@@ -109367,7 +109700,9 @@
     "height": 3,
     "weight": 3,
     "itemRare": "ITEM_STAR_PIECE",
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "MINIOR_CORE",
       "stats": [
@@ -109420,7 +109755,9 @@
       "height": 3,
       "weight": 3,
       "itemRare": "ITEM_STAR_PIECE",
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -109475,7 +109812,9 @@
     "height": 3,
     "weight": 3,
     "itemRare": "ITEM_STAR_PIECE",
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "MINIOR_CORE_ORANGE",
       "stats": [
@@ -109528,7 +109867,9 @@
       "height": 3,
       "weight": 3,
       "itemRare": "ITEM_STAR_PIECE",
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -109583,7 +109924,9 @@
     "height": 3,
     "weight": 3,
     "itemRare": "ITEM_STAR_PIECE",
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "MINIOR_CORE_YELLOW",
       "stats": [
@@ -109636,7 +109979,9 @@
       "height": 3,
       "weight": 3,
       "itemRare": "ITEM_STAR_PIECE",
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -109691,7 +110036,9 @@
     "height": 3,
     "weight": 3,
     "itemRare": "ITEM_STAR_PIECE",
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "MINIOR_CORE_GREEN",
       "stats": [
@@ -109744,7 +110091,9 @@
       "height": 3,
       "weight": 3,
       "itemRare": "ITEM_STAR_PIECE",
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -109799,7 +110148,9 @@
     "height": 3,
     "weight": 3,
     "itemRare": "ITEM_STAR_PIECE",
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "MINIOR_CORE_BLUE",
       "stats": [
@@ -109852,7 +110203,9 @@
       "height": 3,
       "weight": 3,
       "itemRare": "ITEM_STAR_PIECE",
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -109907,7 +110260,9 @@
     "height": 3,
     "weight": 3,
     "itemRare": "ITEM_STAR_PIECE",
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "MINIOR_CORE_INDIGO",
       "stats": [
@@ -109960,7 +110315,9 @@
       "height": 3,
       "weight": 3,
       "itemRare": "ITEM_STAR_PIECE",
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -110015,7 +110372,9 @@
     "height": 3,
     "weight": 3,
     "itemRare": "ITEM_STAR_PIECE",
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "MINIOR_CORE_VIOLET",
       "stats": [
@@ -110068,7 +110427,9 @@
       "height": 3,
       "weight": 3,
       "itemRare": "ITEM_STAR_PIECE",
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -110512,7 +110873,9 @@
     "height": 2,
     "weight": 7,
     "itemRare": "ITEM_CHESTO_BERRY",
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "MIMIKYU_BUSTED",
       "stats": [
@@ -110568,7 +110931,9 @@
       "height": 2,
       "weight": 7,
       "itemRare": "ITEM_CHESTO_BERRY",
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -112767,7 +113132,8 @@
     "height": 38,
     "weight": 4600,
     "flags": [
-      "LEGENDARY"
+      "LEGENDARY",
+      "ALTERNATE_FORM"
     ],
     "old": {
       "species": "NECROZMA_DUSK_MANE",
@@ -112821,7 +113187,8 @@
       "height": 38,
       "weight": 4600,
       "flags": [
-        "LEGENDARY"
+        "LEGENDARY",
+        "ALTERNATE_FORM"
       ]
     }
   },
@@ -112877,7 +113244,8 @@
     "height": 42,
     "weight": 3500,
     "flags": [
-      "LEGENDARY"
+      "LEGENDARY",
+      "ALTERNATE_FORM"
     ],
     "old": {
       "species": "NECROZMA_DAWN_WINGS",
@@ -112931,7 +113299,110 @@
       "height": 42,
       "weight": 3500,
       "flags": [
-        "LEGENDARY"
+        "LEGENDARY",
+        "ALTERNATE_FORM"
+      ]
+    }
+  },
+  {
+    "species": "NECROZMA_ULTRA",
+    "stats": [
+      97,
+      167,
+      97,
+      167,
+      97,
+      129
+    ],
+    "bst": 754,
+    "generation": 7,
+    "types": [
+      "PSYCHIC",
+      "DRAGON"
+    ],
+    "natDexNum": 800,
+    "abilities": [
+      "NEUROFORCE"
+    ],
+    "bodyColor": "BODY_COLOR_YELLOW",
+    "catchRate": 255,
+    "categoryName": "Prism",
+    "speciesName": "Necrozma",
+    "description": "The light pouring out from all over\nits body affects living things and\nnature, impacting them in various\nways.",
+    "eggCycles": 120,
+    "eggGroups": [
+      "NO_EGGS_DISCOVERED"
+    ],
+    "evolutions": [],
+    "formChangeTable": [],
+    "evYield": [
+      null,
+      1,
+      null,
+      1,
+      null,
+      1
+    ],
+    "expYield": 377,
+    "friendship": "0",
+    "genderRatio": "MON_GENDERLESS",
+    "growthRate": "GROWTH_SLOW",
+    "height": 75,
+    "weight": 2300,
+    "flags": [
+      "LEGENDARY",
+      "ULTRABURST",
+      "ALTERNATE_FORM"
+    ],
+    "old": {
+      "species": "NECROZMA_ULTRA",
+      "stats": [
+        97,
+        167,
+        97,
+        167,
+        97,
+        129
+      ],
+      "bst": 754,
+      "generation": 7,
+      "types": [
+        "PSYCHIC",
+        "DRAGON"
+      ],
+      "natDexNum": 800,
+      "abilities": [
+        "NEUROFORCE"
+      ],
+      "bodyColor": "BODY_COLOR_YELLOW",
+      "catchRate": 255,
+      "categoryName": "Prism",
+      "speciesName": "Necrozma",
+      "description": "The light pouring out from all over\nits body affects living things and\nnature, impacting them in various\nways.",
+      "eggCycles": 120,
+      "eggGroups": [
+        "NO_EGGS_DISCOVERED"
+      ],
+      "evolutions": [],
+      "formChangeTable": [],
+      "evYield": [
+        null,
+        1,
+        null,
+        1,
+        null,
+        1
+      ],
+      "expYield": 377,
+      "friendship": "0",
+      "genderRatio": "MON_GENDERLESS",
+      "growthRate": "GROWTH_SLOW",
+      "height": 75,
+      "weight": 2300,
+      "flags": [
+        "LEGENDARY",
+        "ULTRABURST",
+        "ALTERNATE_FORM"
       ]
     }
   },
@@ -113079,7 +113550,8 @@
     "height": 10,
     "weight": 805,
     "flags": [
-      "MYTHICAL"
+      "MYTHICAL",
+      "ALTERNATE_FORM"
     ],
     "old": {
       "species": "MAGEARNA_ORIGINAL_COLOR",
@@ -113127,7 +113599,8 @@
       "height": 10,
       "weight": 805,
       "flags": [
-        "MYTHICAL"
+        "MYTHICAL",
+        "ALTERNATE_FORM"
       ]
     }
   },
@@ -117728,7 +118201,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 8,
     "weight": 180,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "CRAMORANT_GULPING",
       "stats": [
@@ -117793,7 +118268,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 8,
       "weight": 180,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -117860,7 +118337,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 8,
     "weight": 180,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "CRAMORANT_GORGING",
       "stats": [
@@ -117925,7 +118404,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 8,
       "weight": 180,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -118363,7 +118844,9 @@
     "growthRate": "GROWTH_MEDIUM_SLOW",
     "height": 16,
     "weight": 400,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "TOXTRICITY_LOW_KEY",
       "stats": [
@@ -118415,7 +118898,9 @@
       "growthRate": "GROWTH_MEDIUM_SLOW",
       "height": 16,
       "weight": 400,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -119800,7 +120285,7 @@
     }
   },
   {
-    "species": "ALCREMIE_RUBY_CREAM",
+    "species": "ALCREMIE_STRAWBERRY_RUBY_CREAM",
     "stats": [
       65,
       60,
@@ -119849,9 +120334,11 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 3,
     "weight": 5,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
-      "species": "ALCREMIE_RUBY_CREAM",
+      "species": "ALCREMIE_STRAWBERRY_RUBY_CREAM",
       "stats": [
         65,
         60,
@@ -119900,11 +120387,13 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 3,
       "weight": 5,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
-    "species": "ALCREMIE_MATCHA_CREAM",
+    "species": "ALCREMIE_STRAWBERRY_MATCHA_CREAM",
     "stats": [
       65,
       60,
@@ -119953,9 +120442,11 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 3,
     "weight": 5,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
-      "species": "ALCREMIE_MATCHA_CREAM",
+      "species": "ALCREMIE_STRAWBERRY_MATCHA_CREAM",
       "stats": [
         65,
         60,
@@ -120004,11 +120495,13 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 3,
       "weight": 5,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
-    "species": "ALCREMIE_MINT_CREAM",
+    "species": "ALCREMIE_STRAWBERRY_MINT_CREAM",
     "stats": [
       65,
       60,
@@ -120057,9 +120550,11 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 3,
     "weight": 5,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
-      "species": "ALCREMIE_MINT_CREAM",
+      "species": "ALCREMIE_STRAWBERRY_MINT_CREAM",
       "stats": [
         65,
         60,
@@ -120108,11 +120603,13 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 3,
       "weight": 5,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
-    "species": "ALCREMIE_LEMON_CREAM",
+    "species": "ALCREMIE_STRAWBERRY_LEMON_CREAM",
     "stats": [
       65,
       60,
@@ -120161,9 +120658,11 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 3,
     "weight": 5,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
-      "species": "ALCREMIE_LEMON_CREAM",
+      "species": "ALCREMIE_STRAWBERRY_LEMON_CREAM",
       "stats": [
         65,
         60,
@@ -120212,11 +120711,13 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 3,
       "weight": 5,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
-    "species": "ALCREMIE_SALTED_CREAM",
+    "species": "ALCREMIE_STRAWBERRY_SALTED_CREAM",
     "stats": [
       65,
       60,
@@ -120265,9 +120766,11 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 3,
     "weight": 5,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
-      "species": "ALCREMIE_SALTED_CREAM",
+      "species": "ALCREMIE_STRAWBERRY_SALTED_CREAM",
       "stats": [
         65,
         60,
@@ -120316,11 +120819,13 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 3,
       "weight": 5,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
-    "species": "ALCREMIE_RUBY_SWIRL",
+    "species": "ALCREMIE_STRAWBERRY_RUBY_SWIRL",
     "stats": [
       65,
       60,
@@ -120369,9 +120874,11 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 3,
     "weight": 5,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
-      "species": "ALCREMIE_RUBY_SWIRL",
+      "species": "ALCREMIE_STRAWBERRY_RUBY_SWIRL",
       "stats": [
         65,
         60,
@@ -120420,11 +120927,13 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 3,
       "weight": 5,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
-    "species": "ALCREMIE_CARAMEL_SWIRL",
+    "species": "ALCREMIE_STRAWBERRY_CARAMEL_SWIRL",
     "stats": [
       65,
       60,
@@ -120473,9 +120982,11 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 3,
     "weight": 5,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
-      "species": "ALCREMIE_CARAMEL_SWIRL",
+      "species": "ALCREMIE_STRAWBERRY_CARAMEL_SWIRL",
       "stats": [
         65,
         60,
@@ -120524,11 +121035,13 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 3,
       "weight": 5,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
-    "species": "ALCREMIE_RAINBOW_SWIRL",
+    "species": "ALCREMIE_STRAWBERRY_RAINBOW_SWIRL",
     "stats": [
       65,
       60,
@@ -120577,9 +121090,11 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 3,
     "weight": 5,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
-      "species": "ALCREMIE_RAINBOW_SWIRL",
+      "species": "ALCREMIE_STRAWBERRY_RAINBOW_SWIRL",
       "stats": [
         65,
         60,
@@ -120628,7 +121143,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 3,
       "weight": 5,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -120681,7 +121198,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 3,
     "weight": 5,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "ALCREMIE_BERRY_VANILLA_CREAM",
       "stats": [
@@ -120732,7 +121251,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 3,
       "weight": 5,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -120785,7 +121306,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 3,
     "weight": 5,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "ALCREMIE_BERRY_RUBY_CREAM",
       "stats": [
@@ -120836,7 +121359,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 3,
       "weight": 5,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -120889,7 +121414,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 3,
     "weight": 5,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "ALCREMIE_BERRY_MATCHA_CREAM",
       "stats": [
@@ -120940,7 +121467,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 3,
       "weight": 5,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -120993,7 +121522,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 3,
     "weight": 5,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "ALCREMIE_BERRY_MINT_CREAM",
       "stats": [
@@ -121044,7 +121575,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 3,
       "weight": 5,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -121097,7 +121630,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 3,
     "weight": 5,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "ALCREMIE_BERRY_LEMON_CREAM",
       "stats": [
@@ -121148,7 +121683,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 3,
       "weight": 5,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -121201,7 +121738,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 3,
     "weight": 5,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "ALCREMIE_BERRY_SALTED_CREAM",
       "stats": [
@@ -121252,7 +121791,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 3,
       "weight": 5,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -121305,7 +121846,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 3,
     "weight": 5,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "ALCREMIE_BERRY_RUBY_SWIRL",
       "stats": [
@@ -121356,7 +121899,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 3,
       "weight": 5,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -121409,7 +121954,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 3,
     "weight": 5,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "ALCREMIE_BERRY_CARAMEL_SWIRL",
       "stats": [
@@ -121460,7 +122007,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 3,
       "weight": 5,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -121513,7 +122062,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 3,
     "weight": 5,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "ALCREMIE_BERRY_RAINBOW_SWIRL",
       "stats": [
@@ -121564,7 +122115,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 3,
       "weight": 5,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -121617,7 +122170,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 3,
     "weight": 5,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "ALCREMIE_LOVE_VANILLA_CREAM",
       "stats": [
@@ -121668,7 +122223,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 3,
       "weight": 5,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -121721,7 +122278,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 3,
     "weight": 5,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "ALCREMIE_LOVE_RUBY_CREAM",
       "stats": [
@@ -121772,7 +122331,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 3,
       "weight": 5,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -121825,7 +122386,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 3,
     "weight": 5,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "ALCREMIE_LOVE_MATCHA_CREAM",
       "stats": [
@@ -121876,7 +122439,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 3,
       "weight": 5,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -121929,7 +122494,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 3,
     "weight": 5,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "ALCREMIE_LOVE_MINT_CREAM",
       "stats": [
@@ -121980,7 +122547,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 3,
       "weight": 5,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -122033,7 +122602,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 3,
     "weight": 5,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "ALCREMIE_LOVE_LEMON_CREAM",
       "stats": [
@@ -122084,7 +122655,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 3,
       "weight": 5,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -122137,7 +122710,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 3,
     "weight": 5,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "ALCREMIE_LOVE_SALTED_CREAM",
       "stats": [
@@ -122188,7 +122763,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 3,
       "weight": 5,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -122241,7 +122818,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 3,
     "weight": 5,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "ALCREMIE_LOVE_RUBY_SWIRL",
       "stats": [
@@ -122292,7 +122871,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 3,
       "weight": 5,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -122345,7 +122926,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 3,
     "weight": 5,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "ALCREMIE_LOVE_CARAMEL_SWIRL",
       "stats": [
@@ -122396,7 +122979,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 3,
       "weight": 5,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -122449,7 +123034,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 3,
     "weight": 5,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "ALCREMIE_LOVE_RAINBOW_SWIRL",
       "stats": [
@@ -122500,7 +123087,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 3,
       "weight": 5,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -122553,7 +123142,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 3,
     "weight": 5,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "ALCREMIE_STAR_VANILLA_CREAM",
       "stats": [
@@ -122604,7 +123195,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 3,
       "weight": 5,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -122657,7 +123250,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 3,
     "weight": 5,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "ALCREMIE_STAR_RUBY_CREAM",
       "stats": [
@@ -122708,7 +123303,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 3,
       "weight": 5,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -122761,7 +123358,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 3,
     "weight": 5,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "ALCREMIE_STAR_MATCHA_CREAM",
       "stats": [
@@ -122812,7 +123411,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 3,
       "weight": 5,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -122865,7 +123466,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 3,
     "weight": 5,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "ALCREMIE_STAR_MINT_CREAM",
       "stats": [
@@ -122916,7 +123519,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 3,
       "weight": 5,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -122969,7 +123574,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 3,
     "weight": 5,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "ALCREMIE_STAR_LEMON_CREAM",
       "stats": [
@@ -123020,7 +123627,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 3,
       "weight": 5,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -123073,7 +123682,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 3,
     "weight": 5,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "ALCREMIE_STAR_SALTED_CREAM",
       "stats": [
@@ -123124,7 +123735,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 3,
       "weight": 5,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -123177,7 +123790,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 3,
     "weight": 5,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "ALCREMIE_STAR_RUBY_SWIRL",
       "stats": [
@@ -123228,7 +123843,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 3,
       "weight": 5,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -123281,7 +123898,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 3,
     "weight": 5,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "ALCREMIE_STAR_CARAMEL_SWIRL",
       "stats": [
@@ -123332,7 +123951,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 3,
       "weight": 5,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -123385,7 +124006,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 3,
     "weight": 5,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "ALCREMIE_STAR_RAINBOW_SWIRL",
       "stats": [
@@ -123436,7 +124059,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 3,
       "weight": 5,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -123489,7 +124114,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 3,
     "weight": 5,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "ALCREMIE_CLOVER_VANILLA_CREAM",
       "stats": [
@@ -123540,7 +124167,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 3,
       "weight": 5,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -123593,7 +124222,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 3,
     "weight": 5,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "ALCREMIE_CLOVER_RUBY_CREAM",
       "stats": [
@@ -123644,7 +124275,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 3,
       "weight": 5,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -123697,7 +124330,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 3,
     "weight": 5,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "ALCREMIE_CLOVER_MATCHA_CREAM",
       "stats": [
@@ -123748,7 +124383,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 3,
       "weight": 5,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -123801,7 +124438,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 3,
     "weight": 5,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "ALCREMIE_CLOVER_MINT_CREAM",
       "stats": [
@@ -123852,7 +124491,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 3,
       "weight": 5,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -123905,7 +124546,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 3,
     "weight": 5,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "ALCREMIE_CLOVER_LEMON_CREAM",
       "stats": [
@@ -123956,7 +124599,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 3,
       "weight": 5,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -124009,7 +124654,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 3,
     "weight": 5,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "ALCREMIE_CLOVER_SALTED_CREAM",
       "stats": [
@@ -124060,7 +124707,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 3,
       "weight": 5,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -124113,7 +124762,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 3,
     "weight": 5,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "ALCREMIE_CLOVER_RUBY_SWIRL",
       "stats": [
@@ -124164,7 +124815,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 3,
       "weight": 5,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -124217,7 +124870,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 3,
     "weight": 5,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "ALCREMIE_CLOVER_CARAMEL_SWIRL",
       "stats": [
@@ -124268,7 +124923,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 3,
       "weight": 5,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -124321,7 +124978,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 3,
     "weight": 5,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "ALCREMIE_CLOVER_RAINBOW_SWIRL",
       "stats": [
@@ -124372,7 +125031,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 3,
       "weight": 5,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -124425,7 +125086,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 3,
     "weight": 5,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "ALCREMIE_FLOWER_VANILLA_CREAM",
       "stats": [
@@ -124476,7 +125139,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 3,
       "weight": 5,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -124529,7 +125194,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 3,
     "weight": 5,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "ALCREMIE_FLOWER_RUBY_CREAM",
       "stats": [
@@ -124580,7 +125247,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 3,
       "weight": 5,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -124633,7 +125302,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 3,
     "weight": 5,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "ALCREMIE_FLOWER_MATCHA_CREAM",
       "stats": [
@@ -124684,7 +125355,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 3,
       "weight": 5,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -124737,7 +125410,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 3,
     "weight": 5,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "ALCREMIE_FLOWER_MINT_CREAM",
       "stats": [
@@ -124788,7 +125463,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 3,
       "weight": 5,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -124841,7 +125518,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 3,
     "weight": 5,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "ALCREMIE_FLOWER_LEMON_CREAM",
       "stats": [
@@ -124892,7 +125571,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 3,
       "weight": 5,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -124945,7 +125626,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 3,
     "weight": 5,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "ALCREMIE_FLOWER_SALTED_CREAM",
       "stats": [
@@ -124996,7 +125679,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 3,
       "weight": 5,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -125049,7 +125734,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 3,
     "weight": 5,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "ALCREMIE_FLOWER_RUBY_SWIRL",
       "stats": [
@@ -125100,7 +125787,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 3,
       "weight": 5,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -125153,7 +125842,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 3,
     "weight": 5,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "ALCREMIE_FLOWER_CARAMEL_SWIRL",
       "stats": [
@@ -125204,7 +125895,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 3,
       "weight": 5,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -125257,7 +125950,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 3,
     "weight": 5,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "ALCREMIE_FLOWER_RAINBOW_SWIRL",
       "stats": [
@@ -125308,7 +126003,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 3,
       "weight": 5,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -125361,7 +126058,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 3,
     "weight": 5,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "ALCREMIE_RIBBON_VANILLA_CREAM",
       "stats": [
@@ -125412,7 +126111,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 3,
       "weight": 5,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -125465,7 +126166,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 3,
     "weight": 5,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "ALCREMIE_RIBBON_RUBY_CREAM",
       "stats": [
@@ -125516,7 +126219,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 3,
       "weight": 5,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -125569,7 +126274,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 3,
     "weight": 5,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "ALCREMIE_RIBBON_MATCHA_CREAM",
       "stats": [
@@ -125620,7 +126327,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 3,
       "weight": 5,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -125673,7 +126382,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 3,
     "weight": 5,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "ALCREMIE_RIBBON_MINT_CREAM",
       "stats": [
@@ -125724,7 +126435,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 3,
       "weight": 5,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -125777,7 +126490,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 3,
     "weight": 5,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "ALCREMIE_RIBBON_LEMON_CREAM",
       "stats": [
@@ -125828,7 +126543,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 3,
       "weight": 5,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -125881,7 +126598,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 3,
     "weight": 5,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "ALCREMIE_RIBBON_SALTED_CREAM",
       "stats": [
@@ -125932,7 +126651,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 3,
       "weight": 5,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -125985,7 +126706,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 3,
     "weight": 5,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "ALCREMIE_RIBBON_RUBY_SWIRL",
       "stats": [
@@ -126036,7 +126759,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 3,
       "weight": 5,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -126089,7 +126814,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 3,
     "weight": 5,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "ALCREMIE_RIBBON_CARAMEL_SWIRL",
       "stats": [
@@ -126140,7 +126867,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 3,
       "weight": 5,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -126193,7 +126922,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 3,
     "weight": 5,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "ALCREMIE_RIBBON_RAINBOW_SWIRL",
       "stats": [
@@ -126244,7 +126975,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 3,
       "weight": 5,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -126869,7 +127602,9 @@
     "growthRate": "GROWTH_SLOW",
     "height": 14,
     "weight": 890,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "EISCUE_NOICE_FACE",
       "stats": [
@@ -126924,7 +127659,9 @@
       "growthRate": "GROWTH_SLOW",
       "height": 14,
       "weight": 890,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -127291,7 +128028,9 @@
     "growthRate": "GROWTH_MEDIUM_FAST",
     "height": 3,
     "weight": 30,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "MORPEKO_HANGRY",
       "stats": [
@@ -127356,7 +128095,9 @@
       "growthRate": "GROWTH_MEDIUM_FAST",
       "height": 3,
       "weight": 30,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -128605,7 +129346,8 @@
     "height": 28,
     "weight": 3550,
     "flags": [
-      "LEGENDARY"
+      "LEGENDARY",
+      "ALTERNATE_FORM"
     ],
     "old": {
       "species": "ZACIAN_CROWNED_SWORD",
@@ -128659,7 +129401,8 @@
       "height": 28,
       "weight": 3550,
       "flags": [
-        "LEGENDARY"
+        "LEGENDARY",
+        "ALTERNATE_FORM"
       ]
     }
   },
@@ -128823,7 +129566,8 @@
     "height": 29,
     "weight": 7850,
     "flags": [
-      "LEGENDARY"
+      "LEGENDARY",
+      "ALTERNATE_FORM"
     ],
     "old": {
       "species": "ZAMAZENTA_CROWNED_SHIELD",
@@ -128877,7 +129621,8 @@
       "height": 29,
       "weight": 7850,
       "flags": [
-        "LEGENDARY"
+        "LEGENDARY",
+        "ALTERNATE_FORM"
       ]
     }
   },
@@ -129025,7 +129770,8 @@
     "height": 1000,
     "weight": 0,
     "flags": [
-      "LEGENDARY"
+      "LEGENDARY",
+      "ALTERNATE_FORM"
     ],
     "old": {
       "species": "ETERNATUS_ETERNAMAX",
@@ -129073,7 +129819,8 @@
       "height": 1000,
       "weight": 0,
       "flags": [
-        "LEGENDARY"
+        "LEGENDARY",
+        "ALTERNATE_FORM"
       ]
     }
   },
@@ -129332,7 +130079,8 @@
     "height": 19,
     "weight": 1050,
     "flags": [
-      "LEGENDARY"
+      "LEGENDARY",
+      "ALTERNATE_FORM"
     ],
     "old": {
       "species": "URSHIFU_RAPID_STRIKE_STYLE",
@@ -129385,7 +130133,8 @@
       "height": 19,
       "weight": 1050,
       "flags": [
-        "LEGENDARY"
+        "LEGENDARY",
+        "ALTERNATE_FORM"
       ]
     }
   },
@@ -129533,7 +130282,8 @@
     "height": 18,
     "weight": 700,
     "flags": [
-      "MYTHICAL"
+      "MYTHICAL",
+      "ALTERNATE_FORM"
     ],
     "old": {
       "species": "ZARUDE_DADA",
@@ -129581,7 +130331,8 @@
       "height": 18,
       "weight": 700,
       "flags": [
-        "MYTHICAL"
+        "MYTHICAL",
+        "ALTERNATE_FORM"
       ]
     }
   },
@@ -130114,7 +130865,8 @@
     "height": 24,
     "weight": 8091,
     "flags": [
-      "LEGENDARY"
+      "LEGENDARY",
+      "ALTERNATE_FORM"
     ],
     "old": {
       "species": "CALYREX_ICE_RIDER",
@@ -130162,7 +130914,8 @@
       "height": 24,
       "weight": 8091,
       "flags": [
-        "LEGENDARY"
+        "LEGENDARY",
+        "ALTERNATE_FORM"
       ]
     }
   },
@@ -130212,7 +130965,8 @@
     "height": 24,
     "weight": 536,
     "flags": [
-      "LEGENDARY"
+      "LEGENDARY",
+      "ALTERNATE_FORM"
     ],
     "old": {
       "species": "CALYREX_SHADOW_RIDER",
@@ -130260,7 +131014,8 @@
       "height": 24,
       "weight": 536,
       "flags": [
-        "LEGENDARY"
+        "LEGENDARY",
+        "ALTERNATE_FORM"
       ]
     }
   },
@@ -130408,7 +131163,8 @@
     "height": 16,
     "weight": 480,
     "flags": [
-      "LEGENDARY"
+      "LEGENDARY",
+      "ALTERNATE_FORM"
     ],
     "old": {
       "species": "ENAMORUS_THERIAN",
@@ -130456,7 +131212,8 @@
       "height": 16,
       "weight": 480,
       "flags": [
-        "LEGENDARY"
+        "LEGENDARY",
+        "ALTERNATE_FORM"
       ]
     }
   },
@@ -132496,7 +133253,9 @@
     "growthRate": "GROWTH_FAST",
     "height": 3,
     "weight": 28,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "MAUSHOLD_FOUR",
       "stats": [
@@ -132543,7 +133302,9 @@
       "growthRate": "GROWTH_FAST",
       "height": 3,
       "weight": 28,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -136307,7 +137068,9 @@
     "growthRate": "GROWTH_SLOW",
     "height": 18,
     "weight": 974,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "PALAFIN_HERO",
       "stats": [
@@ -136353,7 +137116,9 @@
       "growthRate": "GROWTH_SLOW",
       "height": 18,
       "weight": 974,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -137723,7 +138488,9 @@
     "growthRate": "GROWTH_MEDIUM_SLOW",
     "height": 3,
     "weight": 80,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "TATSUGIRI_DROOPY",
       "stats": [
@@ -137769,7 +138536,9 @@
       "growthRate": "GROWTH_MEDIUM_SLOW",
       "height": 3,
       "weight": 80,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -137818,7 +138587,9 @@
     "growthRate": "GROWTH_MEDIUM_SLOW",
     "height": 3,
     "weight": 80,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "TATSUGIRI_STRETCHY",
       "stats": [
@@ -137864,7 +138635,9 @@
       "growthRate": "GROWTH_MEDIUM_SLOW",
       "height": 3,
       "weight": 80,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -139446,7 +140219,9 @@
     "growthRate": "GROWTH_SLOW",
     "height": 1,
     "weight": 1,
-    "flags": [],
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
     "old": {
       "species": "GIMMIGHOUL_ROAMING",
       "stats": [
@@ -139491,7 +140266,9 @@
       "growthRate": "GROWTH_SLOW",
       "height": 1,
       "weight": 1,
-      "flags": []
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -141241,7 +142018,8 @@
     "height": 12,
     "weight": 398,
     "flags": [
-      "LEGENDARY"
+      "LEGENDARY",
+      "ALTERNATE_FORM"
     ],
     "old": {
       "species": "OGERPON_WELLSPRING",
@@ -141305,7 +142083,8 @@
       "height": 12,
       "weight": 398,
       "flags": [
-        "LEGENDARY"
+        "LEGENDARY",
+        "ALTERNATE_FORM"
       ]
     }
   },
@@ -141371,7 +142150,8 @@
     "height": 12,
     "weight": 398,
     "flags": [
-      "LEGENDARY"
+      "LEGENDARY",
+      "ALTERNATE_FORM"
     ],
     "old": {
       "species": "OGERPON_HEARTHFLAME",
@@ -141435,7 +142215,8 @@
       "height": 12,
       "weight": 398,
       "flags": [
-        "LEGENDARY"
+        "LEGENDARY",
+        "ALTERNATE_FORM"
       ]
     }
   },
@@ -141501,7 +142282,8 @@
     "height": 12,
     "weight": 398,
     "flags": [
-      "LEGENDARY"
+      "LEGENDARY",
+      "ALTERNATE_FORM"
     ],
     "old": {
       "species": "OGERPON_CORNERSTONE",
@@ -141565,7 +142347,582 @@
       "height": 12,
       "weight": 398,
       "flags": [
-        "LEGENDARY"
+        "LEGENDARY",
+        "ALTERNATE_FORM"
+      ]
+    }
+  },
+  {
+    "species": "OGERPON_TEAL_MASK_TERA",
+    "stats": [
+      80,
+      120,
+      84,
+      60,
+      96,
+      110
+    ],
+    "bst": 550,
+    "generation": 9,
+    "types": [
+      "GRASS"
+    ],
+    "natDexNum": 1017,
+    "abilities": [
+      "EMBODY_ASPECT_TEAL_MASK"
+    ],
+    "bodyColor": "BODY_COLOR_GREEN",
+    "catchRate": 5,
+    "categoryName": "Mask",
+    "speciesName": "Ogerpon",
+    "description": "",
+    "eggCycles": 10,
+    "eggGroups": [
+      "NO_EGGS_DISCOVERED"
+    ],
+    "evolutions": [],
+    "formChangeTable": [
+      {
+        "form": "OGERPON_TEAL_MASK",
+        "clause": "FORM_CHANGE_ITEM_HOLD",
+        "method": "ITEM_NONE"
+      },
+      {
+        "form": "OGERPON_WELLSPRING_MASK",
+        "clause": "FORM_CHANGE_ITEM_HOLD",
+        "method": "ITEM_WELLSPRING_MASK"
+      },
+      {
+        "form": "OGERPON_HEARTHFLAME_MASK",
+        "clause": "FORM_CHANGE_ITEM_HOLD",
+        "method": "ITEM_HEARTHFLAME_MASK"
+      },
+      {
+        "form": "OGERPON_CORNERSTONE_MASK",
+        "clause": "FORM_CHANGE_ITEM_HOLD",
+        "method": "ITEM_CORNERSTONE_MASK"
+      }
+    ],
+    "evYield": [
+      null,
+      3,
+      null,
+      null,
+      null,
+      null
+    ],
+    "expYield": 275,
+    "friendship": "STANDARD_FRIENDSHIP",
+    "genderRatio": "MON_FEMALE",
+    "growthRate": "GROWTH_SLOW",
+    "height": 12,
+    "weight": 398,
+    "flags": [
+      "LEGENDARY",
+      "TERAFORM",
+      "ALTERNATE_FORM"
+    ],
+    "old": {
+      "species": "OGERPON_TEAL_MASK_TERA",
+      "stats": [
+        80,
+        120,
+        84,
+        60,
+        96,
+        110
+      ],
+      "bst": 550,
+      "generation": 9,
+      "types": [
+        "GRASS"
+      ],
+      "natDexNum": 1017,
+      "abilities": [
+        "EMBODY_ASPECT_TEAL_MASK"
+      ],
+      "bodyColor": "BODY_COLOR_GREEN",
+      "catchRate": 5,
+      "categoryName": "Mask",
+      "speciesName": "Ogerpon",
+      "description": "",
+      "eggCycles": 10,
+      "eggGroups": [
+        "NO_EGGS_DISCOVERED"
+      ],
+      "evolutions": [],
+      "formChangeTable": [
+        {
+          "form": "OGERPON_TEAL_MASK",
+          "clause": "FORM_CHANGE_ITEM_HOLD",
+          "method": "ITEM_NONE"
+        },
+        {
+          "form": "OGERPON_WELLSPRING_MASK",
+          "clause": "FORM_CHANGE_ITEM_HOLD",
+          "method": "ITEM_WELLSPRING_MASK"
+        },
+        {
+          "form": "OGERPON_HEARTHFLAME_MASK",
+          "clause": "FORM_CHANGE_ITEM_HOLD",
+          "method": "ITEM_HEARTHFLAME_MASK"
+        },
+        {
+          "form": "OGERPON_CORNERSTONE_MASK",
+          "clause": "FORM_CHANGE_ITEM_HOLD",
+          "method": "ITEM_CORNERSTONE_MASK"
+        }
+      ],
+      "evYield": [
+        null,
+        3,
+        null,
+        null,
+        null,
+        null
+      ],
+      "expYield": 275,
+      "friendship": "STANDARD_FRIENDSHIP",
+      "genderRatio": "MON_FEMALE",
+      "growthRate": "GROWTH_SLOW",
+      "height": 12,
+      "weight": 398,
+      "flags": [
+        "LEGENDARY",
+        "TERAFORM",
+        "ALTERNATE_FORM"
+      ]
+    }
+  },
+  {
+    "species": "OGERPON_WELLSPRING_MASK_TERA",
+    "stats": [
+      80,
+      120,
+      84,
+      60,
+      96,
+      110
+    ],
+    "bst": 550,
+    "generation": 9,
+    "types": [
+      "GRASS",
+      "WATER"
+    ],
+    "natDexNum": 1017,
+    "abilities": [
+      "EMBODY_ASPECT_WELLSPRING_MASK"
+    ],
+    "bodyColor": "BODY_COLOR_BLUE",
+    "catchRate": 5,
+    "categoryName": "Mask",
+    "speciesName": "Ogerpon",
+    "description": "",
+    "eggCycles": 10,
+    "eggGroups": [
+      "NO_EGGS_DISCOVERED"
+    ],
+    "evolutions": [],
+    "formChangeTable": [
+      {
+        "form": "OGERPON_TEAL_MASK",
+        "clause": "FORM_CHANGE_ITEM_HOLD",
+        "method": "ITEM_NONE"
+      },
+      {
+        "form": "OGERPON_WELLSPRING_MASK",
+        "clause": "FORM_CHANGE_ITEM_HOLD",
+        "method": "ITEM_WELLSPRING_MASK"
+      },
+      {
+        "form": "OGERPON_HEARTHFLAME_MASK",
+        "clause": "FORM_CHANGE_ITEM_HOLD",
+        "method": "ITEM_HEARTHFLAME_MASK"
+      },
+      {
+        "form": "OGERPON_CORNERSTONE_MASK",
+        "clause": "FORM_CHANGE_ITEM_HOLD",
+        "method": "ITEM_CORNERSTONE_MASK"
+      }
+    ],
+    "evYield": [
+      null,
+      3,
+      null,
+      null,
+      null,
+      null
+    ],
+    "expYield": 275,
+    "friendship": "STANDARD_FRIENDSHIP",
+    "genderRatio": "MON_FEMALE",
+    "growthRate": "GROWTH_SLOW",
+    "height": 12,
+    "weight": 398,
+    "flags": [
+      "LEGENDARY",
+      "TERAFORM",
+      "ALTERNATE_FORM"
+    ],
+    "old": {
+      "species": "OGERPON_WELLSPRING_MASK_TERA",
+      "stats": [
+        80,
+        120,
+        84,
+        60,
+        96,
+        110
+      ],
+      "bst": 550,
+      "generation": 9,
+      "types": [
+        "GRASS",
+        "WATER"
+      ],
+      "natDexNum": 1017,
+      "abilities": [
+        "EMBODY_ASPECT_WELLSPRING_MASK"
+      ],
+      "bodyColor": "BODY_COLOR_BLUE",
+      "catchRate": 5,
+      "categoryName": "Mask",
+      "speciesName": "Ogerpon",
+      "description": "",
+      "eggCycles": 10,
+      "eggGroups": [
+        "NO_EGGS_DISCOVERED"
+      ],
+      "evolutions": [],
+      "formChangeTable": [
+        {
+          "form": "OGERPON_TEAL_MASK",
+          "clause": "FORM_CHANGE_ITEM_HOLD",
+          "method": "ITEM_NONE"
+        },
+        {
+          "form": "OGERPON_WELLSPRING_MASK",
+          "clause": "FORM_CHANGE_ITEM_HOLD",
+          "method": "ITEM_WELLSPRING_MASK"
+        },
+        {
+          "form": "OGERPON_HEARTHFLAME_MASK",
+          "clause": "FORM_CHANGE_ITEM_HOLD",
+          "method": "ITEM_HEARTHFLAME_MASK"
+        },
+        {
+          "form": "OGERPON_CORNERSTONE_MASK",
+          "clause": "FORM_CHANGE_ITEM_HOLD",
+          "method": "ITEM_CORNERSTONE_MASK"
+        }
+      ],
+      "evYield": [
+        null,
+        3,
+        null,
+        null,
+        null,
+        null
+      ],
+      "expYield": 275,
+      "friendship": "STANDARD_FRIENDSHIP",
+      "genderRatio": "MON_FEMALE",
+      "growthRate": "GROWTH_SLOW",
+      "height": 12,
+      "weight": 398,
+      "flags": [
+        "LEGENDARY",
+        "TERAFORM",
+        "ALTERNATE_FORM"
+      ]
+    }
+  },
+  {
+    "species": "OGERPON_HEARTHFLAME_MASK_TERA",
+    "stats": [
+      80,
+      120,
+      84,
+      60,
+      96,
+      110
+    ],
+    "bst": 550,
+    "generation": 9,
+    "types": [
+      "GRASS",
+      "FIRE"
+    ],
+    "natDexNum": 1017,
+    "abilities": [
+      "EMBODY_ASPECT_HEARTHFLAME_MASK"
+    ],
+    "bodyColor": "BODY_COLOR_RED",
+    "catchRate": 5,
+    "categoryName": "Mask",
+    "speciesName": "Ogerpon",
+    "description": "",
+    "eggCycles": 10,
+    "eggGroups": [
+      "NO_EGGS_DISCOVERED"
+    ],
+    "evolutions": [],
+    "formChangeTable": [
+      {
+        "form": "OGERPON_TEAL_MASK",
+        "clause": "FORM_CHANGE_ITEM_HOLD",
+        "method": "ITEM_NONE"
+      },
+      {
+        "form": "OGERPON_WELLSPRING_MASK",
+        "clause": "FORM_CHANGE_ITEM_HOLD",
+        "method": "ITEM_WELLSPRING_MASK"
+      },
+      {
+        "form": "OGERPON_HEARTHFLAME_MASK",
+        "clause": "FORM_CHANGE_ITEM_HOLD",
+        "method": "ITEM_HEARTHFLAME_MASK"
+      },
+      {
+        "form": "OGERPON_CORNERSTONE_MASK",
+        "clause": "FORM_CHANGE_ITEM_HOLD",
+        "method": "ITEM_CORNERSTONE_MASK"
+      }
+    ],
+    "evYield": [
+      null,
+      3,
+      null,
+      null,
+      null,
+      null
+    ],
+    "expYield": 275,
+    "friendship": "STANDARD_FRIENDSHIP",
+    "genderRatio": "MON_FEMALE",
+    "growthRate": "GROWTH_SLOW",
+    "height": 12,
+    "weight": 398,
+    "flags": [
+      "LEGENDARY",
+      "TERAFORM",
+      "ALTERNATE_FORM"
+    ],
+    "old": {
+      "species": "OGERPON_HEARTHFLAME_MASK_TERA",
+      "stats": [
+        80,
+        120,
+        84,
+        60,
+        96,
+        110
+      ],
+      "bst": 550,
+      "generation": 9,
+      "types": [
+        "GRASS",
+        "FIRE"
+      ],
+      "natDexNum": 1017,
+      "abilities": [
+        "EMBODY_ASPECT_HEARTHFLAME_MASK"
+      ],
+      "bodyColor": "BODY_COLOR_RED",
+      "catchRate": 5,
+      "categoryName": "Mask",
+      "speciesName": "Ogerpon",
+      "description": "",
+      "eggCycles": 10,
+      "eggGroups": [
+        "NO_EGGS_DISCOVERED"
+      ],
+      "evolutions": [],
+      "formChangeTable": [
+        {
+          "form": "OGERPON_TEAL_MASK",
+          "clause": "FORM_CHANGE_ITEM_HOLD",
+          "method": "ITEM_NONE"
+        },
+        {
+          "form": "OGERPON_WELLSPRING_MASK",
+          "clause": "FORM_CHANGE_ITEM_HOLD",
+          "method": "ITEM_WELLSPRING_MASK"
+        },
+        {
+          "form": "OGERPON_HEARTHFLAME_MASK",
+          "clause": "FORM_CHANGE_ITEM_HOLD",
+          "method": "ITEM_HEARTHFLAME_MASK"
+        },
+        {
+          "form": "OGERPON_CORNERSTONE_MASK",
+          "clause": "FORM_CHANGE_ITEM_HOLD",
+          "method": "ITEM_CORNERSTONE_MASK"
+        }
+      ],
+      "evYield": [
+        null,
+        3,
+        null,
+        null,
+        null,
+        null
+      ],
+      "expYield": 275,
+      "friendship": "STANDARD_FRIENDSHIP",
+      "genderRatio": "MON_FEMALE",
+      "growthRate": "GROWTH_SLOW",
+      "height": 12,
+      "weight": 398,
+      "flags": [
+        "LEGENDARY",
+        "TERAFORM",
+        "ALTERNATE_FORM"
+      ]
+    }
+  },
+  {
+    "species": "OGERPON_CORNERSTONE_MASK_TERA",
+    "stats": [
+      80,
+      120,
+      84,
+      60,
+      96,
+      110
+    ],
+    "bst": 550,
+    "generation": 9,
+    "types": [
+      "GRASS",
+      "ROCK"
+    ],
+    "natDexNum": 1017,
+    "abilities": [
+      "EMBODY_ASPECT_CORNERSTONE_MASK"
+    ],
+    "bodyColor": "BODY_COLOR_GRAY",
+    "catchRate": 5,
+    "categoryName": "Mask",
+    "speciesName": "Ogerpon",
+    "description": "",
+    "eggCycles": 10,
+    "eggGroups": [
+      "NO_EGGS_DISCOVERED"
+    ],
+    "evolutions": [],
+    "formChangeTable": [
+      {
+        "form": "OGERPON_TEAL_MASK",
+        "clause": "FORM_CHANGE_ITEM_HOLD",
+        "method": "ITEM_NONE"
+      },
+      {
+        "form": "OGERPON_WELLSPRING_MASK",
+        "clause": "FORM_CHANGE_ITEM_HOLD",
+        "method": "ITEM_WELLSPRING_MASK"
+      },
+      {
+        "form": "OGERPON_HEARTHFLAME_MASK",
+        "clause": "FORM_CHANGE_ITEM_HOLD",
+        "method": "ITEM_HEARTHFLAME_MASK"
+      },
+      {
+        "form": "OGERPON_CORNERSTONE_MASK",
+        "clause": "FORM_CHANGE_ITEM_HOLD",
+        "method": "ITEM_CORNERSTONE_MASK"
+      }
+    ],
+    "evYield": [
+      null,
+      3,
+      null,
+      null,
+      null,
+      null
+    ],
+    "expYield": 275,
+    "friendship": "STANDARD_FRIENDSHIP",
+    "genderRatio": "MON_FEMALE",
+    "growthRate": "GROWTH_SLOW",
+    "height": 12,
+    "weight": 398,
+    "flags": [
+      "LEGENDARY",
+      "TERAFORM",
+      "ALTERNATE_FORM"
+    ],
+    "old": {
+      "species": "OGERPON_CORNERSTONE_MASK_TERA",
+      "stats": [
+        80,
+        120,
+        84,
+        60,
+        96,
+        110
+      ],
+      "bst": 550,
+      "generation": 9,
+      "types": [
+        "GRASS",
+        "ROCK"
+      ],
+      "natDexNum": 1017,
+      "abilities": [
+        "EMBODY_ASPECT_CORNERSTONE_MASK"
+      ],
+      "bodyColor": "BODY_COLOR_GRAY",
+      "catchRate": 5,
+      "categoryName": "Mask",
+      "speciesName": "Ogerpon",
+      "description": "",
+      "eggCycles": 10,
+      "eggGroups": [
+        "NO_EGGS_DISCOVERED"
+      ],
+      "evolutions": [],
+      "formChangeTable": [
+        {
+          "form": "OGERPON_TEAL_MASK",
+          "clause": "FORM_CHANGE_ITEM_HOLD",
+          "method": "ITEM_NONE"
+        },
+        {
+          "form": "OGERPON_WELLSPRING_MASK",
+          "clause": "FORM_CHANGE_ITEM_HOLD",
+          "method": "ITEM_WELLSPRING_MASK"
+        },
+        {
+          "form": "OGERPON_HEARTHFLAME_MASK",
+          "clause": "FORM_CHANGE_ITEM_HOLD",
+          "method": "ITEM_HEARTHFLAME_MASK"
+        },
+        {
+          "form": "OGERPON_CORNERSTONE_MASK",
+          "clause": "FORM_CHANGE_ITEM_HOLD",
+          "method": "ITEM_CORNERSTONE_MASK"
+        }
+      ],
+      "evYield": [
+        null,
+        3,
+        null,
+        null,
+        null,
+        null
+      ],
+      "expYield": 275,
+      "friendship": "STANDARD_FRIENDSHIP",
+      "genderRatio": "MON_FEMALE",
+      "growthRate": "GROWTH_SLOW",
+      "height": 12,
+      "weight": 398,
+      "flags": [
+        "LEGENDARY",
+        "TERAFORM",
+        "ALTERNATE_FORM"
       ]
     }
   },
@@ -141954,7 +143311,7 @@
     }
   },
   {
-    "species": "TERAPAGOS_NORMAL",
+    "species": "TERAPAGOS",
     "stats": [
       90,
       65,
@@ -142010,7 +143367,7 @@
       "LEGENDARY"
     ],
     "old": {
-      "species": "TERAPAGOS_NORMAL",
+      "species": "TERAPAGOS",
       "stats": [
         90,
         65,
@@ -142121,7 +143478,8 @@
     "height": 3,
     "weight": 160,
     "flags": [
-      "LEGENDARY"
+      "LEGENDARY",
+      "ALTERNATE_FORM"
     ],
     "old": {
       "species": "TERAPAGOS_TERASTAL",
@@ -142177,7 +143535,8 @@
       "height": 3,
       "weight": 160,
       "flags": [
-        "LEGENDARY"
+        "LEGENDARY",
+        "ALTERNATE_FORM"
       ]
     }
   },
@@ -142235,7 +143594,9 @@
     "height": 17,
     "weight": 770,
     "flags": [
-      "LEGENDARY"
+      "LEGENDARY",
+      "TERAFORM",
+      "ALTERNATE_FORM"
     ],
     "old": {
       "species": "TERAPAGOS_STELLAR",
@@ -142291,7 +143652,9 @@
       "height": 17,
       "weight": 770,
       "flags": [
-        "LEGENDARY"
+        "LEGENDARY",
+        "TERAFORM",
+        "ALTERNATE_FORM"
       ]
     }
   },
