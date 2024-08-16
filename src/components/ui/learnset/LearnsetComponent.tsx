@@ -1,8 +1,8 @@
-import type { LearnsetData } from '../../../models/types/learnset.data';
+import type { LearnsetInfo } from '../../../models/types/learnset.info';
 import { toCapitalized } from '../../../utils/formatting.utils';
 
 interface LearnsetInfoProps {
-  learnset: LearnsetData;
+  learnset: LearnsetInfo;
 }
 
 export default function LearnsetComponent({ learnset }: LearnsetInfoProps) {

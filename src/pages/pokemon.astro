@@ -1,13 +1,14 @@
 ---
 import PokemonComponent from "../components/ui/pokemon/PokemonComponent";
-import learnsetsDiff from "../data/learnsets_diff.json";
+import learnsets from "../data/learnsets.json";
 import mons from "../data/pokemon.json";
 import Layout from "../layouts/Layout.astro";
-import type { LearnsetData } from "../models/types/learnset.data";
+import type { LearnsetInfo } from "../models/types/learnset.info";
 import { PokemonFlags, type PokemonInfo } from "../models/types/pokemon.info";
-const learnsetsData = learnsetsDiff as LearnsetData[];
+const learnsetsData = learnsets as LearnsetInfo[];
+
 function getLearnset(pokemon: string) {
-  return learnsetsData.find((ls) => ls.pokemon === pokemon);
+  return learnsetsData.find((ls) => ls.species === pokemon);
 }
 
 const formsBlacklist = ["PORYGON_Z"];
