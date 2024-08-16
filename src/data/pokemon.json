@@ -119393,6 +119393,105 @@
     }
   },
   {
+    "species": "SINISTEA_ANTIQUE",
+    "stats": [
+      40,
+      45,
+      45,
+      74,
+      54,
+      50
+    ],
+    "bst": 308,
+    "generation": 8,
+    "types": [
+      "GHOST"
+    ],
+    "natDexNum": 854,
+    "abilities": [
+      "WEAK_ARMOR",
+      "MOODY"
+    ],
+    "bodyColor": "BODY_COLOR_PURPLE",
+    "catchRate": 120,
+    "categoryName": "Black Tea",
+    "speciesName": "Sinistea",
+    "description": "The swirl pattern in this Pokémon's\nbody is its weakness. If it gets\nstirred, the swirl loses its shape, and\nSinistea gets dizzy.",
+    "eggCycles": 20,
+    "eggGroups": [
+      "MINERAL",
+      "AMORPHOUS"
+    ],
+    "evolutions": [],
+    "formChangeTable": [],
+    "evYield": [
+      null,
+      null,
+      null,
+      1,
+      null,
+      null
+    ],
+    "expYield": 62,
+    "friendship": "STANDARD_FRIENDSHIP",
+    "genderRatio": "MON_GENDERLESS",
+    "growthRate": "GROWTH_MEDIUM_FAST",
+    "height": 1,
+    "weight": 2,
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
+    "old": {
+      "species": "SINISTEA_ANTIQUE",
+      "stats": [
+        40,
+        45,
+        45,
+        74,
+        54,
+        50
+      ],
+      "bst": 308,
+      "generation": 8,
+      "types": [
+        "GHOST"
+      ],
+      "natDexNum": 854,
+      "abilities": [
+        "WEAK_ARMOR"
+      ],
+      "bodyColor": "BODY_COLOR_PURPLE",
+      "catchRate": 120,
+      "categoryName": "Black Tea",
+      "speciesName": "Sinistea",
+      "description": "The swirl pattern in this Pokémon's\nbody is its weakness. If it gets\nstirred, the swirl loses its shape, and\nSinistea gets dizzy.",
+      "eggCycles": 20,
+      "eggGroups": [
+        "MINERAL",
+        "AMORPHOUS"
+      ],
+      "evolutions": [],
+      "formChangeTable": [],
+      "evYield": [
+        null,
+        null,
+        null,
+        1,
+        null,
+        null
+      ],
+      "expYield": 62,
+      "friendship": "STANDARD_FRIENDSHIP",
+      "genderRatio": "MON_GENDERLESS",
+      "growthRate": "GROWTH_MEDIUM_FAST",
+      "height": 1,
+      "weight": 2,
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
+    }
+  },
+  {
     "species": "POLTEAGEIST",
     "stats": [
       60,
@@ -119485,6 +119584,105 @@
       "height": 2,
       "weight": 4,
       "flags": []
+    }
+  },
+  {
+    "species": "POLTEAGEIST_ANTIQUE",
+    "stats": [
+      60,
+      80,
+      65,
+      134,
+      114,
+      70
+    ],
+    "bst": 523,
+    "generation": 8,
+    "types": [
+      "GHOST"
+    ],
+    "natDexNum": 855,
+    "abilities": [
+      "WEAK_ARMOR",
+      "MOODY"
+    ],
+    "bodyColor": "BODY_COLOR_PURPLE",
+    "catchRate": 60,
+    "categoryName": "Black Tea",
+    "speciesName": "Polteageis",
+    "description": "Trainers Polteageist trusts will be\nallowed to experience its\ndistinctive flavor and aroma firsthand by\nsampling just a tiny bit of its tea.",
+    "eggCycles": 20,
+    "eggGroups": [
+      "MINERAL",
+      "AMORPHOUS"
+    ],
+    "evolutions": [],
+    "formChangeTable": [],
+    "evYield": [
+      null,
+      null,
+      null,
+      2,
+      null,
+      null
+    ],
+    "expYield": 178,
+    "friendship": "STANDARD_FRIENDSHIP",
+    "genderRatio": "MON_GENDERLESS",
+    "growthRate": "GROWTH_MEDIUM_FAST",
+    "height": 2,
+    "weight": 4,
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
+    "old": {
+      "species": "POLTEAGEIST_ANTIQUE",
+      "stats": [
+        60,
+        65,
+        65,
+        134,
+        114,
+        70
+      ],
+      "bst": 508,
+      "generation": 8,
+      "types": [
+        "GHOST"
+      ],
+      "natDexNum": 855,
+      "abilities": [
+        "WEAK_ARMOR"
+      ],
+      "bodyColor": "BODY_COLOR_PURPLE",
+      "catchRate": 60,
+      "categoryName": "Black Tea",
+      "speciesName": "Polteageis",
+      "description": "Trainers Polteageist trusts will be\nallowed to experience its\ndistinctive flavor and aroma firsthand by\nsampling just a tiny bit of its tea.",
+      "eggCycles": 20,
+      "eggGroups": [
+        "MINERAL",
+        "AMORPHOUS"
+      ],
+      "evolutions": [],
+      "formChangeTable": [],
+      "evYield": [
+        null,
+        null,
+        null,
+        2,
+        null,
+        null
+      ],
+      "expYield": 178,
+      "friendship": "STANDARD_FRIENDSHIP",
+      "genderRatio": "MON_GENDERLESS",
+      "growthRate": "GROWTH_MEDIUM_FAST",
+      "height": 2,
+      "weight": 4,
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -133876,6 +134074,306 @@
     }
   },
   {
+    "species": "SQUAWKABILLY_BLUE_PLUMAGE",
+    "stats": [
+      82,
+      106,
+      60,
+      45,
+      60,
+      92
+    ],
+    "bst": 445,
+    "generation": 9,
+    "types": [
+      "NORMAL",
+      "FLYING"
+    ],
+    "natDexNum": 931,
+    "abilities": [
+      "INTIMIDATE",
+      "HUSTLE"
+    ],
+    "bodyColor": "BODY_COLOR_BLUE",
+    "catchRate": 190,
+    "categoryName": "Parrot",
+    "speciesName": "Sqawkabily",
+    "description": "The largest of their flocks can\ncontain more than 50 individuals. They\nfly around towns and forests,\nsearching for food and making a racket.",
+    "eggCycles": 15,
+    "eggGroups": [
+      "FLYING"
+    ],
+    "evolutions": [],
+    "formChangeTable": [],
+    "evYield": [
+      null,
+      1,
+      null,
+      null,
+      null,
+      null
+    ],
+    "expYield": 146,
+    "friendship": "STANDARD_FRIENDSHIP",
+    "genderRatio": "PERCENT_FEMALE(50)",
+    "growthRate": "GROWTH_ERRATIC",
+    "height": 6,
+    "weight": 24,
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
+    "old": {
+      "species": "SQUAWKABILLY_BLUE_PLUMAGE",
+      "stats": [
+        82,
+        96,
+        51,
+        45,
+        51,
+        92
+      ],
+      "bst": 417,
+      "generation": 9,
+      "types": [
+        "NORMAL",
+        "FLYING"
+      ],
+      "natDexNum": 931,
+      "abilities": [
+        "INTIMIDATE",
+        "HUSTLE"
+      ],
+      "bodyColor": "BODY_COLOR_BLUE",
+      "catchRate": 190,
+      "categoryName": "Parrot",
+      "speciesName": "Sqawkabily",
+      "description": "The largest of their flocks can\ncontain more than 50 individuals. They\nfly around towns and forests,\nsearching for food and making a racket.",
+      "eggCycles": 15,
+      "eggGroups": [
+        "FLYING"
+      ],
+      "evolutions": [],
+      "formChangeTable": [],
+      "evYield": [
+        null,
+        1,
+        null,
+        null,
+        null,
+        null
+      ],
+      "expYield": 146,
+      "friendship": "STANDARD_FRIENDSHIP",
+      "genderRatio": "PERCENT_FEMALE(50)",
+      "growthRate": "GROWTH_ERRATIC",
+      "height": 6,
+      "weight": 24,
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
+    }
+  },
+  {
+    "species": "SQUAWKABILLY_YELLOW_PLUMAGE",
+    "stats": [
+      82,
+      106,
+      60,
+      45,
+      60,
+      92
+    ],
+    "bst": 445,
+    "generation": 9,
+    "types": [
+      "NORMAL",
+      "FLYING"
+    ],
+    "natDexNum": 931,
+    "abilities": [
+      "INTIMIDATE",
+      "HUSTLE"
+    ],
+    "bodyColor": "BODY_COLOR_YELLOW",
+    "catchRate": 190,
+    "categoryName": "Parrot",
+    "speciesName": "Sqawkabily",
+    "description": "These Squawkabilly are hotheaded,\nand their fighting style is vicious.\nThey'll leap within reach of their\nfoes to engage in close combat.",
+    "eggCycles": 15,
+    "eggGroups": [
+      "FLYING"
+    ],
+    "evolutions": [],
+    "formChangeTable": [],
+    "evYield": [
+      null,
+      1,
+      null,
+      null,
+      null,
+      null
+    ],
+    "expYield": 146,
+    "friendship": "STANDARD_FRIENDSHIP",
+    "genderRatio": "PERCENT_FEMALE(50)",
+    "growthRate": "GROWTH_ERRATIC",
+    "height": 6,
+    "weight": 24,
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
+    "old": {
+      "species": "SQUAWKABILLY_YELLOW_PLUMAGE",
+      "stats": [
+        82,
+        96,
+        51,
+        45,
+        51,
+        92
+      ],
+      "bst": 417,
+      "generation": 9,
+      "types": [
+        "NORMAL",
+        "FLYING"
+      ],
+      "natDexNum": 931,
+      "abilities": [
+        "INTIMIDATE",
+        "HUSTLE"
+      ],
+      "bodyColor": "BODY_COLOR_YELLOW",
+      "catchRate": 190,
+      "categoryName": "Parrot",
+      "speciesName": "Sqawkabily",
+      "description": "These Squawkabilly are hotheaded,\nand their fighting style is vicious.\nThey'll leap within reach of their\nfoes to engage in close combat.",
+      "eggCycles": 15,
+      "eggGroups": [
+        "FLYING"
+      ],
+      "evolutions": [],
+      "formChangeTable": [],
+      "evYield": [
+        null,
+        1,
+        null,
+        null,
+        null,
+        null
+      ],
+      "expYield": 146,
+      "friendship": "STANDARD_FRIENDSHIP",
+      "genderRatio": "PERCENT_FEMALE(50)",
+      "growthRate": "GROWTH_ERRATIC",
+      "height": 6,
+      "weight": 24,
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
+    }
+  },
+  {
+    "species": "SQUAWKABILLY_WHITE_PLUMAGE",
+    "stats": [
+      82,
+      106,
+      60,
+      45,
+      60,
+      92
+    ],
+    "bst": 445,
+    "generation": 9,
+    "types": [
+      "NORMAL",
+      "FLYING"
+    ],
+    "natDexNum": 931,
+    "abilities": [
+      "INTIMIDATE",
+      "HUSTLE"
+    ],
+    "bodyColor": "BODY_COLOR_WHITE",
+    "catchRate": 190,
+    "categoryName": "Parrot",
+    "speciesName": "Sqawkabily",
+    "description": "Though these Squawkabilly are the\nfewest in number, they have no\ntrouble living in towns since they blend\nin with the white buildings.",
+    "eggCycles": 15,
+    "eggGroups": [
+      "FLYING"
+    ],
+    "evolutions": [],
+    "formChangeTable": [],
+    "evYield": [
+      null,
+      1,
+      null,
+      null,
+      null,
+      null
+    ],
+    "expYield": 146,
+    "friendship": "STANDARD_FRIENDSHIP",
+    "genderRatio": "PERCENT_FEMALE(50)",
+    "growthRate": "GROWTH_ERRATIC",
+    "height": 6,
+    "weight": 24,
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
+    "old": {
+      "species": "SQUAWKABILLY_WHITE_PLUMAGE",
+      "stats": [
+        82,
+        96,
+        51,
+        45,
+        51,
+        92
+      ],
+      "bst": 417,
+      "generation": 9,
+      "types": [
+        "NORMAL",
+        "FLYING"
+      ],
+      "natDexNum": 931,
+      "abilities": [
+        "INTIMIDATE",
+        "HUSTLE"
+      ],
+      "bodyColor": "BODY_COLOR_WHITE",
+      "catchRate": 190,
+      "categoryName": "Parrot",
+      "speciesName": "Sqawkabily",
+      "description": "Though these Squawkabilly are the\nfewest in number, they have no\ntrouble living in towns since they blend\nin with the white buildings.",
+      "eggCycles": 15,
+      "eggGroups": [
+        "FLYING"
+      ],
+      "evolutions": [],
+      "formChangeTable": [],
+      "evYield": [
+        null,
+        1,
+        null,
+        null,
+        null,
+        null
+      ],
+      "expYield": 146,
+      "friendship": "STANDARD_FRIENDSHIP",
+      "genderRatio": "PERCENT_FEMALE(50)",
+      "growthRate": "GROWTH_ERRATIC",
+      "height": 6,
+      "weight": 24,
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
+    }
+  },
+  {
     "species": "NACLI",
     "stats": [
       55,
@@ -141435,6 +141933,107 @@
     }
   },
   {
+    "species": "POLTCHAGEIST_ARTISAN",
+    "stats": [
+      40,
+      45,
+      45,
+      74,
+      54,
+      50
+    ],
+    "bst": 308,
+    "generation": 9,
+    "types": [
+      "GRASS",
+      "GHOST"
+    ],
+    "natDexNum": 1012,
+    "abilities": [
+      "HOSPITALITY",
+      "HEATPROOF"
+    ],
+    "bodyColor": "BODY_COLOR_GREEN",
+    "catchRate": 120,
+    "categoryName": "Matcha",
+    "speciesName": "Ptchageist",
+    "description": "It has taken up residence in a very\nexpensive tea caddy. It takes an\nexpert to distinguish the expensive\ntea caddies from the cheap ones.",
+    "eggCycles": 20,
+    "eggGroups": [
+      "MINERAL",
+      "AMORPHOUS"
+    ],
+    "evolutions": [],
+    "formChangeTable": [],
+    "evYield": [
+      null,
+      null,
+      null,
+      1,
+      null,
+      null
+    ],
+    "expYield": 62,
+    "friendship": "STANDARD_FRIENDSHIP",
+    "genderRatio": "MON_GENDERLESS",
+    "growthRate": "GROWTH_MEDIUM_FAST",
+    "height": 1,
+    "weight": 11,
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
+    "old": {
+      "species": "POLTCHAGEIST_ARTISAN",
+      "stats": [
+        40,
+        45,
+        45,
+        74,
+        54,
+        50
+      ],
+      "bst": 308,
+      "generation": 9,
+      "types": [
+        "GRASS",
+        "GHOST"
+      ],
+      "natDexNum": 1012,
+      "abilities": [
+        "HOSPITALITY"
+      ],
+      "bodyColor": "BODY_COLOR_GREEN",
+      "catchRate": 120,
+      "categoryName": "Matcha",
+      "speciesName": "Ptchageist",
+      "description": "It has taken up residence in a very\nexpensive tea caddy. It takes an\nexpert to distinguish the expensive\ntea caddies from the cheap ones.",
+      "eggCycles": 20,
+      "eggGroups": [
+        "MINERAL",
+        "AMORPHOUS"
+      ],
+      "evolutions": [],
+      "formChangeTable": [],
+      "evYield": [
+        null,
+        null,
+        null,
+        1,
+        null,
+        null
+      ],
+      "expYield": 62,
+      "friendship": "STANDARD_FRIENDSHIP",
+      "genderRatio": "MON_GENDERLESS",
+      "growthRate": "GROWTH_MEDIUM_FAST",
+      "height": 1,
+      "weight": 11,
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
+    }
+  },
+  {
     "species": "SINISTCHA",
     "stats": [
       71,
@@ -141529,6 +142128,107 @@
       "height": 2,
       "weight": 22,
       "flags": []
+    }
+  },
+  {
+    "species": "SINISTCHA_MASTERPIECE",
+    "stats": [
+      71,
+      60,
+      106,
+      121,
+      80,
+      70
+    ],
+    "bst": 508,
+    "generation": 9,
+    "types": [
+      "GRASS",
+      "GHOST"
+    ],
+    "natDexNum": 1013,
+    "abilities": [
+      "HOSPITALITY",
+      "HEATPROOF"
+    ],
+    "bodyColor": "BODY_COLOR_GREEN",
+    "catchRate": 60,
+    "categoryName": "Matcha",
+    "speciesName": "Sinistcha",
+    "description": "The more stirring it does with the\ntea whisk on its head, the more\nenergy it builds up. It does this to\nprepare for battle.",
+    "eggCycles": 20,
+    "eggGroups": [
+      "MINERAL",
+      "AMORPHOUS"
+    ],
+    "evolutions": [],
+    "formChangeTable": [],
+    "evYield": [
+      null,
+      null,
+      null,
+      2,
+      null,
+      null
+    ],
+    "expYield": 178,
+    "friendship": "STANDARD_FRIENDSHIP",
+    "genderRatio": "MON_GENDERLESS",
+    "growthRate": "GROWTH_MEDIUM_FAST",
+    "height": 2,
+    "weight": 22,
+    "flags": [
+      "ALTERNATE_FORM"
+    ],
+    "old": {
+      "species": "SINISTCHA_MASTERPIECE",
+      "stats": [
+        71,
+        60,
+        106,
+        121,
+        80,
+        70
+      ],
+      "bst": 508,
+      "generation": 9,
+      "types": [
+        "GRASS",
+        "GHOST"
+      ],
+      "natDexNum": 1013,
+      "abilities": [
+        "HOSPITALITY"
+      ],
+      "bodyColor": "BODY_COLOR_GREEN",
+      "catchRate": 60,
+      "categoryName": "Matcha",
+      "speciesName": "Sinistcha",
+      "description": "The more stirring it does with the\ntea whisk on its head, the more\nenergy it builds up. It does this to\nprepare for battle.",
+      "eggCycles": 20,
+      "eggGroups": [
+        "MINERAL",
+        "AMORPHOUS"
+      ],
+      "evolutions": [],
+      "formChangeTable": [],
+      "evYield": [
+        null,
+        null,
+        null,
+        2,
+        null,
+        null
+      ],
+      "expYield": 178,
+      "friendship": "STANDARD_FRIENDSHIP",
+      "genderRatio": "MON_GENDERLESS",
+      "growthRate": "GROWTH_MEDIUM_FAST",
+      "height": 2,
+      "weight": 22,
+      "flags": [
+        "ALTERNATE_FORM"
+      ]
     }
   },
   {
@@ -142353,7 +143053,7 @@
     }
   },
   {
-    "species": "OGERPON_TEAL_MASK_TERA",
+    "species": "OGERPON_TERA",
     "stats": [
       80,
       120,
@@ -142423,7 +143123,7 @@
       "ALTERNATE_FORM"
     ],
     "old": {
-      "species": "OGERPON_TEAL_MASK_TERA",
+      "species": "OGERPON_TERA",
       "stats": [
         80,
         120,
@@ -142495,7 +143195,7 @@
     }
   },
   {
-    "species": "OGERPON_WELLSPRING_MASK_TERA",
+    "species": "OGERPON_WELLSPRING_TERA",
     "stats": [
       80,
       120,
@@ -142566,7 +143266,7 @@
       "ALTERNATE_FORM"
     ],
     "old": {
-      "species": "OGERPON_WELLSPRING_MASK_TERA",
+      "species": "OGERPON_WELLSPRING_TERA",
       "stats": [
         80,
         120,
@@ -142639,7 +143339,7 @@
     }
   },
   {
-    "species": "OGERPON_HEARTHFLAME_MASK_TERA",
+    "species": "OGERPON_HEARTHFLAME_TERA",
     "stats": [
       80,
       120,
@@ -142710,7 +143410,7 @@
       "ALTERNATE_FORM"
     ],
     "old": {
-      "species": "OGERPON_HEARTHFLAME_MASK_TERA",
+      "species": "OGERPON_HEARTHFLAME_TERA",
       "stats": [
         80,
         120,
@@ -142783,7 +143483,7 @@
     }
   },
   {
-    "species": "OGERPON_CORNERSTONE_MASK_TERA",
+    "species": "OGERPON_CORNERSTONE_TERA",
     "stats": [
       80,
       120,
@@ -142854,7 +143554,7 @@
       "ALTERNATE_FORM"
     ],
     "old": {
-      "species": "OGERPON_CORNERSTONE_MASK_TERA",
+      "species": "OGERPON_CORNERSTONE_TERA",
       "stats": [
         80,
         120,

@@ -85,3 +85,13 @@ $borders: (
     @apply rounded-lg;
   }
 }
+
+span.new-type {
+  @apply relative;
+
+  &::after {
+    content: 'New!';
+    transform: translate(50%, -50%);
+    @apply absolute top-0 right-0 bg-green-500 text-white text-xs font-bold py-0.5 px-1 rounded-full z-10;
+  }
+}
