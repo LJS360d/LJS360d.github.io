@@ -103,8 +103,13 @@ export enum EffectsEnum {
   INCINERATE = "Destroys the target's held berry",
   SPECIAL_ATTACK_DOWN_HIT = "May decrease the target's SPATK",
   ACCURACY_DOWN = "Decreases the target's accuracy",
+  EVASION_DOWN = "Decreases the target's evasion",
+  DEFENSE_DOWN = "Decreases the target's DEF",
+  ATTACK_DOWN = "Decreases the target's ATK",
   OHKO = 'Defeats the target in ONE HIT',
   ALWAYS_CRIT = 'Always results in a critical hit',
   RELIC_SONG = "May put the target asleep, Changes Meloetta's form",
   ATTACK_DOWN_HIT = "May decrease the target's ATK",
+  ROAR = "Will force the target to switch out",
+  WRAP = "Deals damage for 2-5 turns while trapping the target on the field",
 }

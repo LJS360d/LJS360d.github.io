@@ -136,21 +136,23 @@ function MoveComponent({ move }: MoveComponentProps) {
               <span>{getEffectStr(move.additionalEffects.moveEffect)}</span>
             )}
           </div>
-          <div className='flex flex-col items-start'>
-            <span>Effect chance</span>
-            {move.old &&
-            move.old.additionalEffects?.chance !==
-              move.additionalEffects.chance ? (
-              <>
-                <span className='new'>{move.additionalEffects.chance}%</span>
-                <span className='old'>
-                  {move.old.additionalEffects?.chance}%
-                </span>
-              </>
-            ) : (
-              <span>{move.additionalEffects.chance}%</span>
-            )}
-          </div>
+          {move.additionalEffects.chance !== undefined && (
+            <div className='flex flex-col items-start'>
+              <span>Effect chance</span>
+              {move.old &&
+              move.old.additionalEffects?.chance !==
+                move.additionalEffects.chance ? (
+                <>
+                  <span className='new'>{move.additionalEffects.chance}%</span>
+                  <span className='old'>
+                    {move.old.additionalEffects?.chance}%
+                  </span>
+                </>
+              ) : (
+                <span>{move.additionalEffects.chance}%</span>
+              )}
+            </div>
+          )}
         </>
       )}
     </li>
