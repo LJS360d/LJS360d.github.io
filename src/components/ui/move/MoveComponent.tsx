@@ -18,9 +18,9 @@ function MoveComponent({ move }: MoveComponentProps) {
       className='cursor-default bg-base-200 rounded-lg flex flex-row justify-start flex-1'>
       <div className='flex flex-col items-start'>
         <h6 className='capitalize'>{toCapitalized(move.name)}</h6>
-        <div className='flex flex-row'>
+        <div className='flex flex-row gap-1'>
           {move.old && move.type !== move.old?.type ? (
-            <div className='flex flex-col'>
+            <div className='flex flex-col gap-1'>
               <TypeIcon type={move.type} />
               <TypeIcon type={move.old.type} strikeThrough />
             </div>
@@ -28,10 +28,10 @@ function MoveComponent({ move }: MoveComponentProps) {
             <TypeIcon type={move.type} />
           )}
           {move.old && move.category !== move.old.category ? (
-            <>
+            <div className='flex flex-col gap-1'>
               <MoveCategory category={move.category} />
               <MoveCategory category={move.old.category} strikeThrough />
-            </>
+            </div>
           ) : (
             <MoveCategory category={move.category} />
           )}
