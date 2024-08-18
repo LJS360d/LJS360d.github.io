@@ -1,51 +1,25 @@
 ---
 import PokemonComponent from "../components/ui/pokemon/PokemonComponent";
 import learnsets from "../data/learnsets.json";
-import mons from "../data/pokemon.json";
 import Layout from "../layouts/Layout.astro";
 import type { LearnsetInfo } from "../models/types/learnset.info";
-import { PokemonFlags, type PokemonInfo } from "../models/types/pokemon.info";
+import { getBaseMonsData, getMonAlternateForms } from "../utils/pokemon.data.utils";
 const learnsetsData = learnsets as LearnsetInfo[];
 
 function getLearnset(pokemon: string) {
   return learnsetsData.find((ls) => ls.species === pokemon);
 }
 
-const formsBlacklist = ["PORYGON_Z"];
-
-const monsData = mons as PokemonInfo[];
-
-function getMonsData() {
-  return monsData.filter(({ species, flags }) => {
-    return !(
-      species.endsWith("_FEMALE") ||
-      flags.some((flag) =>
-        [
-          PokemonFlags.alternateForm,
-          PokemonFlags.alolanForm,
-          PokemonFlags.galarianForm,
-          PokemonFlags.hisuianForm,
-          PokemonFlags.paldeanForm,
-        ].includes(flag),
-      )
-    );
-  });
-}
 ---
 
 <Layout title="Pokèmon">
   <ul id="pokemon-list" class="list-base">
     {
-      getMonsData().map((mon) => (
+      getBaseMonsData().map((mon) => (
         <PokemonComponent
           client:visible
           pokemon={mon}
-          forms={monsData.filter(
-            (m) =>
-              m.species !== mon.species &&
-              m.species.startsWith(`${mon.species}_`) &&
-              !formsBlacklist.includes(m.species),
-          )}
+          forms={getMonAlternateForms(mon.species)}
           learnset={getLearnset(mon.species)}
         />
       ))

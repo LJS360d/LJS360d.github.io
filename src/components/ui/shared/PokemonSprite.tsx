@@ -11,7 +11,7 @@ export default function PokemonSpriteComponent({
   // TODO use next router.push for redirects
   return (
     <div className='min-w-fit'>
-      <a href={`/pokemon/${species}`} className='capitalize'>
+      <a href={`/pokemon/${pokemon.toLowerCase()}`} className='capitalize'>
         {species}
       </a>
       <img

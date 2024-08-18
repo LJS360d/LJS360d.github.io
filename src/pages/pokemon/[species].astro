@@ -1,0 +1,42 @@
+---
+import { MdChevronLeft, MdChevronRight } from 'react-icons/md';
+import PokemonComponent from '../../components/ui/pokemon/PokemonComponent';
+import PokemonIconComponent from '../../components/ui/shared/PokemonIcon';
+import mons from '../../data/pokemon.json';
+import Layout from '../../layouts/Layout.astro';
+import type { PokemonInfo } from '../../models/types/pokemon.info';
+import {
+  getMonAlternateForms,
+  getMonPaginator,
+} from '../../utils/pokemon.data.utils';
+export async function getStaticPaths() {
+  const monsData = mons as PokemonInfo[];
+  return monsData.map((mon) => ({
+    params: { species: mon.species.toLowerCase() },
+    props: { mon },
+  }));
+}
+const { mon } = Astro.props;
+const [prev, next] = getMonPaginator(mon.species);
+---
+
+<Layout title="Pokèmon">
+  <div class="flex justify-between mx-4 my-2">
+    {prev && (
+      <a href={`/pokemon/${prev.species.toLowerCase()}`} class="flex items-end">
+        <MdChevronLeft size={20} />
+        <PokemonIconComponent pokemon={prev.species} />
+        <span class="ml-2">{prev.speciesName}</span>
+      </a>
+    )}
+    <PokemonIconComponent pokemon={mon.species} />
+    {next && (
+      <a href={`/pokemon/${next.species.toLowerCase()}`} class="flex items-end">
+        <span class="mr-2">{next.speciesName}</span>
+        <PokemonIconComponent pokemon={next.species} />
+        <MdChevronRight size={20} />
+      </a>
+    )}
+  </div>
+  <PokemonComponent client:visible pokemon={mon} forms={getMonAlternateForms(mon.species)} />
+</Layout>
