@@ -1,4 +1,4 @@
-import './wasm_exec.js'
+import './wasm_exec.js';
 declare class Go {
   run(instance: WebAssembly.Instance): void;
   importObject: WebAssembly.Imports;
@@ -23,7 +23,29 @@ export class SaveParser {
     return new SaveParser();
   }
 
-  async parse(buffer: Uint8Array): Promise<any> {
+  async parse(buffer: Uint8Array): Promise<SaveData> {
     return await DecodeSaveData(buffer);
   }
+}
+
+interface SaveData {
+  // "trainer": save.Trainer.toJS(),
+  // "pokedex":  save.Pokedex.toJS(),
+  team: Pokemon[];
+	// "bag":  save.Bag.toJS(),
+  pc: PC;
+}
+
+interface PC {
+  currentBox: number;
+  pokemon: Pokemon[];
+  boxNames: string;
+}
+
+interface Pokemon {
+  nickname: string;
+  species: string;
+  item: string;
+  level: string;
+  toSDExportFormat: () => string;
 }
