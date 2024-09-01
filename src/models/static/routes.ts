@@ -1,19 +1,21 @@
-import { GiAppleCore } from "react-icons/gi";
-import { MdCatchingPokemon, MdFlare, MdHome, MdTimeline } from "react-icons/md";
-import type { Route } from "../types/route.type";
+import { GiAppleCore } from 'react-icons/gi';
+import { GoFileBinary } from 'react-icons/go';
+import { MdCatchingPokemon, MdFlare, MdHome, MdTimeline } from 'react-icons/md';
+import type { Route } from '../types/route.type';
 
 export const RoutesIterator: Route[] = [
-  { label: "Home", route: "/", icon: MdHome },
+  { label: 'Home', route: '/', icon: MdHome },
   {
-    label: "Pokémon",
-    route: "/pokemon",
+    label: 'Pokémon',
+    route: '/pokemon',
     icon: MdCatchingPokemon,
   },
-  { label: "Moves", route: "/moves", icon: MdFlare },
-  { label: "Items", route: "/items", icon: GiAppleCore },
+  { label: 'Moves', route: '/moves', icon: MdFlare },
+  { label: 'Items', route: '/items', icon: GiAppleCore },
   {
-    label: "Evolutions",
-    route: "/evolutions",
+    label: 'Evolutions',
+    route: '/evolutions',
     icon: MdTimeline,
   },
+  { label: 'Savefile Parser', route: '/savefile', icon: GoFileBinary },
 ];

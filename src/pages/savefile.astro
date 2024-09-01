@@ -1,0 +1,48 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Parse savefile">
+  <div class="grid grid-flow-col justify-around items-start mt-8">
+
+    <label for="file-input" 
+    class="flex flex-col mt-6 items-center justify-center p-6 bg-primary/10 rounded-lg shadow-md cursor-pointer 
+    h-64 w-64 border-2 border-dashed border-primary hover:bg-primary/20
+    ">
+    <span class="text-lg font-semibold">Drop your .sav file here or click to browse</span>
+    <input id="file-input" type="file" accept=".sav" class="hidden">
+    </label>
+    <div>
+      <span>Team</span>
+      <textarea id="team-mons" class="w-full min-h-64 h-full p-4 bg-primary/10 rounded-lg shadow-md" readonly
+        rows="15"
+        cols="50"
+      ></textarea>
+    </div>
+    <div>
+      <span>PC</span>
+      <textarea id="pc-mons" class="w-full min-h-64 h-full p-4 bg-primary/10 rounded-lg shadow-md" readonly
+        rows="25"
+        cols="50"
+      ></textarea>
+    </div>
+  </div>
+</Layout>
+
+<script>
+  import { SaveParser } from "../utils/wasm.utils";
+  const parser = await SaveParser.init();
+  const fileInput = document.getElementById("file-input")!;
+    fileInput.addEventListener("change", async (event) => {
+      const file = (event.target as HTMLInputElement).files![0];
+      const buffer = new Uint8Array(await file.arrayBuffer());
+      const result = await parser.parse(buffer);
+      console.log(result);
+      const pcMons = result.pc.pokemon.filter(Boolean).map((mon: any) => mon.toSDExportFormat()).join("\n\n");
+      const teamMons = result.team.map((mon: any) => mon.toSDExportFormat()).join("\n\n");
+      const pcTextarea = document.getElementById("pc-mons") as HTMLTextAreaElement;
+      pcTextarea.value = pcMons;
+      const teamTextarea = document.getElementById("team-mons")  as HTMLTextAreaElement;
+      teamTextarea.value = teamMons;
+    });
+</script>

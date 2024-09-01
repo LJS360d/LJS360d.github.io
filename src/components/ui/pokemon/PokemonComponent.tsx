@@ -44,14 +44,18 @@ function PokemonComponent({ pokemon, learnset, forms }: PokemonComponentProps) {
       )}
       <div className='cursor-default bg-base-200 rounded-lg flex flex-row justify-start flex-1 p-2'>
         <div className='cursor-default flex flex-row flex-1 gap-4 items-center pl-2'>
-          <PokemonSprite pokemon={usedForm.species} />
+          <a
+            href={`/pokemon/${usedForm.species.toLowerCase()}`}
+            className='capitalize'>
+            {usedForm.speciesName}
+            <PokemonSprite pokemon={usedForm.species} />
+          </a>
           <StatBar pokemon={usedForm} />
-          <div className='flex gap-4'>
+          <div className='grid grid-flow-col gap-4'>
             <AbilitiesBar pokemon={usedForm} />
             <TypeBar pokemon={usedForm} />
           </div>
         </div>
-        {learnset && <LearnsetComponent learnset={learnset} />}
       </div>
     </li>
   );

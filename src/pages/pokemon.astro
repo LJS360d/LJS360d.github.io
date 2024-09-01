@@ -17,7 +17,7 @@ function getLearnset(pokemon: string) {
     {
       getBaseMonsData().map((mon) => (
         <PokemonComponent
-          client:visible
+          client:load
           pokemon={mon}
           forms={getMonAlternateForms(mon.species)}
           learnset={getLearnset(mon.species)}
