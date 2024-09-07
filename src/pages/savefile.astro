@@ -7,7 +7,8 @@ import Layout from '../layouts/Layout.astro';
     <div class="grid grid-flow-row">
       <!-- .sav input -->
       <label for="sav-file-input" class="flex flex-col mt-6 items-center justify-center p-6 bg-accent/10 rounded-lg shadow-md cursor-pointer 
-    h-64 border-2 border-dashed border-accent hover:bg-accent/20">
+    h-64 border-2 border-dashed border-accent hover:bg-accent/20"
+    >
         <span class="text-lg font-semibold">Drop your .sav file here or click to browse</span>
         <input id="sav-file-input" type="file" accept=".sav" class="hidden">
       </label>
@@ -40,9 +41,39 @@ import Layout from '../layouts/Layout.astro';
 <script>
   import { SaveParser, DEFAULT_ROM_FILENAME } from "../save-parser/save-parser";
   const parser = await SaveParser.init();
+
+  
   const savFileInput = document.getElementById("sav-file-input") as HTMLInputElement;
-  savFileInput.addEventListener("change", async function () {
-    const file = this.files![0];
+  savFileInput.addEventListener("change", async function (e) {
+    e.preventDefault();
+    const file = savFileInput.files![0];
+    await updateSav(file);
+    savFileInput.value = '';
+    savFileInput.files = null;
+  });
+  savFileInput.labels![0].ondrop = function (e) {
+    e.preventDefault();
+    const file = e.dataTransfer!.files[0];
+    updateSav(file);
+  };
+  savFileInput.labels![0].ondragover = e => e.preventDefault();
+  const gbaFileInput = document.getElementById("gba-file-input") as HTMLInputElement;
+  gbaFileInput.addEventListener("change", async function (e) {
+    e.preventDefault();
+    const file = gbaFileInput.files![0];
+    await updateGba(file);
+    gbaFileInput.value = '';
+    gbaFileInput.files = null;
+  });
+  gbaFileInput.addEventListener("drop", async function (e) {
+    e.preventDefault();
+    const file = e.dataTransfer!.files[0];
+    await updateGba(file);
+  });
+  gbaFileInput.ondragover = e => e.preventDefault();
+  
+  
+  async function updateSav(file: File) {
     const buffer = new Uint8Array(await file.arrayBuffer());
     const result = await parser.parseSav(buffer);
     const pcMons = result.pc.pokemon.filter(Boolean).map((mon) => mon.toSDExportFormat()).join("\n\n");
@@ -51,14 +82,11 @@ import Layout from '../layouts/Layout.astro';
     pcTextarea.value = pcMons;
     const teamTextarea = document.getElementById("team-mons") as HTMLTextAreaElement;
     teamTextarea.value = teamMons;
-    this.value = '';
-    this.files = null;
-  });
+  }
+  
   const romSelect = document.getElementById("loaded-rom") as HTMLInputElement;
   romSelect.value = DEFAULT_ROM_FILENAME;
-  const gbaFileInput = document.getElementById("gba-file-input") as HTMLInputElement;
-  gbaFileInput.addEventListener("change", async function () {
-    const file = this.files![0];
+  async function updateGba(file: File) {
     const fileName = file.name.split(".")[0];
     const buffer = new Uint8Array(await file.arrayBuffer());
     try {
@@ -66,9 +94,6 @@ import Layout from '../layouts/Layout.astro';
       romSelect.value = fileName;
     } catch {
       alert("Unsupported ROM file");
-    } finally {
-      this.value = '';
-      this.files = null;
     }
-  });
+  }
 </script>
