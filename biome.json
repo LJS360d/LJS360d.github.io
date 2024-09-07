@@ -3,6 +3,9 @@
   "organizeImports": {
     "enabled": false
   },
+  "files": {
+    "ignore": ["src/utils/wasm_exec.js"]
+  },
   "javascript": {
     "formatter": {
       "enabled": true,

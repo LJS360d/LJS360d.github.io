@@ -18,8 +18,8 @@ export default function EvolutionTreeComponent({ evolution }: EvolutionProps) {
     <>
       {prev && <PokemonSpriteComponent pokemon={path.from} />}
       <div className='flex flex-col'>
-        {path.to.map((to) => (
-          <div className='flex items-center gap-6'>
+        {path.to.map((to, i) => (
+          <div key={i} className='flex items-center gap-6'>
             <EvolutionClause evo={to.methods} />
             <PokemonSpriteComponent pokemon={to.species} />
             {renderBranches(to, path.from)}
