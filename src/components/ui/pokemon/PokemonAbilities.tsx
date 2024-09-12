@@ -9,9 +9,9 @@ interface AbilitiesBarProps {
 }
 
 export default function PokemonAbilities({ pokemon }: AbilitiesBarProps) {
-  const newAbilities = pokemon.abilities;
+  const newAbilities = pokemon?.abilities ?? [];
   const oldAbilities = pokemon.old?.abilities ?? [];
-  const label = newAbilities.length > 1 ? 'Abilities' : 'Ability';
+  const label = newAbilities?.length === 1 ? 'Ability' : 'Abilities';
 
   const commonAbilities = intersection(newAbilities, oldAbilities);
   const removedAbilities = difference(oldAbilities, newAbilities);

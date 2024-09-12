@@ -13,7 +13,7 @@ export interface PokemonInfoDefinition {
   generation: number;
   types: PokemonType[];
   natDexNum: number;
-  abilities: string[];
+  abilities: string[] | null;
   bodyColor: number;
   catchRate: number;
   categoryName: string;
