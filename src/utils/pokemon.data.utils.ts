@@ -7,7 +7,7 @@ export function getBaseMonsData(): PokemonInfo[] {
   return monsData.filter(({ species, flags }) => {
     return !(
       species.endsWith('_FEMALE') ||
-      flags.some((flag) =>
+      flags?.some((flag) =>
         [
           PokemonFlags.alternateForm,
           PokemonFlags.alolanForm,

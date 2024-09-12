@@ -1,7 +1,6 @@
 import { useCallback, useState } from 'react';
 import type { LearnsetInfo } from '../../../models/types/learnset.info';
 import type { PokemonInfo } from '../../../models/types/pokemon.info';
-import LearnsetComponent from '../learnset/LearnsetComponent';
 import PokemonIcon from '../shared/PokemonIcon';
 import PokemonSprite from '../shared/PokemonSprite';
 import AbilitiesBar from './PokemonAbilities';

@@ -5,6 +5,7 @@ export interface PokemonInfo extends PokemonInfoDefinition {
 }
 
 export interface PokemonInfoDefinition {
+  id: number;
   species: string;
   speciesName: string;
   stats: PokemonStatModel;
@@ -13,24 +14,23 @@ export interface PokemonInfoDefinition {
   types: PokemonType[];
   natDexNum: number;
   abilities: string[];
-  bodyColor: string;
+  bodyColor: number;
   catchRate: number;
   categoryName: string;
   description: string;
   eggCycles: number;
   eggGroups: string[];
   evolutions: [];
-  formChangeTable: PokemonFormChange[];
+  formChangeTable: PokemonFormChange[] | null;
   evYield: PokemonEvYieldModel;
   expYield: number;
-  friendship: string;
-  genderRatio: string;
-  growthRate: string;
+  genderRatio: number;
+  growthRate: number;
   height: number;
   weight: number;
-  flags: PokemonFlags[];
-  itemCommon?: string;
-  itemRare?: string;
+  flags: PokemonFlags[] | null;
+  itemCommon?: number;
+  itemRare?: number;
 }
 
 // ? HP, ATK, DEF, SpATK, SpDEF, SPE
@@ -45,9 +45,9 @@ type PokemonEvYieldModel = [
 ];
 
 export interface PokemonFormChange {
-  form: string;
-  clause: string;
-  method?: string;
+  form: number;
+  method: number;
+  params: number[];
 }
 
 export enum PokemonFlags {
