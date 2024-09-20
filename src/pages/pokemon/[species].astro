@@ -25,15 +25,15 @@ const [prev, next] = getMonPaginator(mon.species);
     {prev && (
       <a href={`/pokemon/${prev.species.toLowerCase()}`} class="flex items-end">
         <MdChevronLeft size={20} />
-        <PokemonIconComponent pokemon={prev.species} />
+        <PokemonIconComponent species={prev.id} />
         <span class="ml-2">{prev.speciesName}</span>
       </a>
     )}
-    <PokemonIconComponent pokemon={mon.species} />
+    <PokemonIconComponent species={mon.id} />
     {next && (
       <a href={`/pokemon/${next.species.toLowerCase()}`} class="flex items-end">
         <span class="mr-2">{next.speciesName}</span>
-        <PokemonIconComponent pokemon={next.species} />
+        <PokemonIconComponent species={next.id} />
         <MdChevronRight size={20} />
       </a>
     )}
