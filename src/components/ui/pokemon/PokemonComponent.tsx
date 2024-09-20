@@ -33,7 +33,7 @@ function PokemonComponent({ pokemon, learnset, forms }: PokemonComponentProps) {
               type='button'
               className={`tab hover:bg-base-200 tab-bordered text-nowrap min-w-fit ${usedForm.species === form.species ? 'tab-active' : ''}`}
               onClick={() => setUsedForm(form)}>
-              <PokemonIcon pokemon={form.species} />
+              <PokemonIcon species={form.id} />
               <span className='capitalize w-fit'>
                 {form.species.toLowerCase().replace(/_/g, ' ')}
               </span>
@@ -47,7 +47,7 @@ function PokemonComponent({ pokemon, learnset, forms }: PokemonComponentProps) {
             href={`/pokemon/${usedForm.species.toLowerCase()}`}
             className='capitalize'>
             {usedForm.speciesName}
-            <PokemonSprite pokemon={usedForm.species} />
+            <PokemonSprite species={usedForm.id} />
           </a>
           <StatBar pokemon={usedForm} />
           <div className='grid grid-flow-col gap-4'>

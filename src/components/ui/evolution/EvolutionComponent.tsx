@@ -16,12 +16,12 @@ export default function EvolutionTreeComponent({ evolution }: EvolutionProps) {
   const search = getEvolutionTreeSearchString(evolution);
   const renderEvolutionPath = (path: EvolutionPath, prev = true) => (
     <>
-      {prev && <PokemonSpriteComponent pokemon={path.from} />}
+      {prev && <PokemonSpriteComponent species={0} />}
       <div className='flex flex-col'>
         {path.to.map((to, i) => (
           <div key={i} className='flex items-center gap-6'>
             <EvolutionClause evo={to.methods} />
-            <PokemonSpriteComponent pokemon={to.species} />
+            <PokemonSpriteComponent species={0} />
             {renderBranches(to, path.from)}
           </div>
         ))}

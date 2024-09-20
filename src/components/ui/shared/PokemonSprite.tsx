@@ -1,23 +1,19 @@
-import { toLowerSnakeCase } from '../../../utils/formatting.utils';
-
 interface PokemonSpriteProps {
-  pokemon: string;
+  species: number;
   width?: number;
   height?: number;
 }
 
 export default function PokemonSpriteComponent({
-  pokemon,
+  species,
   width = 64,
   height = width,
 }: PokemonSpriteProps) {
-  const species = pokemon.toLowerCase().replace(/_/g, ' ');
-  // TODO use next router.push for redirects
   return (
     <div className='min-w-fit'>
       <img
         className='sprite'
-        src={`/assets/pokemon/${toLowerSnakeCase(pokemon)}.png`}
+        src={`/assets/pokemon/sprites/${species}.png`}
         alt={`${species}-sprite`}
         width={width}
         height={height}
