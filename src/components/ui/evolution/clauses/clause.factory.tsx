@@ -81,20 +81,25 @@ function getEvolutionMethodDescription(
     case EvolutionMethod.EVO_NONE:
       return 'No evolution method';
     case EvolutionMethod.EVO_FRIENDSHIP:
-      return 'Evolves by friendship';
+      return 'At High friendship';
     case EvolutionMethod.EVO_FRIENDSHIP_DAY:
-      return 'Evolves by friendship during the day';
+      return 'At High friendship during the day';
     case EvolutionMethod.EVO_FRIENDSHIP_NIGHT:
-      return 'Evolves by friendship during the night';
+      return 'At High friendship during the night';
     case EvolutionMethod.EVO_LEVEL_SILCOON:
     case EvolutionMethod.EVO_LEVEL_CASCOON:
     case EvolutionMethod.EVO_LEVEL_NINJASK:
     case EvolutionMethod.EVO_LEVEL:
       return `At level ${clause}`;
     case EvolutionMethod.EVO_TRADE:
-      return 'Evolves by trading';
+      return 'Trade';
     case EvolutionMethod.EVO_TRADE_ITEM:
-      return 'Evolves by trading while holding an item';
+      return (
+        <div className='flex gap-1 items-center'>
+          Trade while holding
+          <ItemIcon id={clause} />
+        </div>
+      );
     case EvolutionMethod.EVO_ITEM:
       return (
         <div className='flex gap-1 items-center'>
@@ -151,7 +156,7 @@ function getEvolutionMethodDescription(
     case EvolutionMethod.EVO_MOVE:
       return `Level up having learned ${clause}`;
     case EvolutionMethod.EVO_FRIENDSHIP_MOVE_TYPE:
-      return `By friendship when knowing a ${clause} type move`;
+      return `At high friendship when knowing a ${clause} type move`;
     case EvolutionMethod.EVO_MAPSEC:
       return `Level up in area ${clause}`;
     case EvolutionMethod.EVO_ITEM_MALE:
@@ -183,7 +188,12 @@ function getEvolutionMethodDescription(
     case EvolutionMethod.EVO_LEVEL_DARK_TYPE_MON_IN_PARTY:
       return `At level ${clause}, with a Dark-type Pokémon in the party`;
     case EvolutionMethod.EVO_TRADE_SPECIFIC_MON:
-      return `Evolves by trading with ${clause}`;
+      return (
+        <div className='flex gap-1 items-center'>
+          Trade with
+          <PokemonIconComponent species={clause - 1} />
+        </div>
+      );
     case EvolutionMethod.EVO_SPECIFIC_MAP:
       return `Evolves in the place ${clause}`;
     case EvolutionMethod.EVO_LEVEL_NATURE_AMPED:
@@ -234,13 +244,24 @@ function getEvolutionMethodDescription(
     case EvolutionMethod.EVO_USE_MOVE_TWENTY_TIMES:
       return `Evolves after using the move ${clause} twenty times`;
     case EvolutionMethod.EVO_RECOIL_DAMAGE_MALE:
-      return 'Evolves after taking recoil damage as a male';
+      return `Evolves after taking ${clause} recoil damage as a male`;
     case EvolutionMethod.EVO_RECOIL_DAMAGE_FEMALE:
-      return 'Evolves after taking recoil damage as a female';
+      return `Evolves after taking ${clause} recoil damage as a female`;
     case EvolutionMethod.EVO_ITEM_COUNT_999:
-      return `Have 999 of ${clause} in you bag`;
+      return (
+        <div className='flex gap-1 items-center'>
+          Have 999 of
+          <ItemIcon id={clause} />
+          in your bag
+        </div>
+      );
     case EvolutionMethod.EVO_DEFEAT_THREE_WITH_ITEM:
-      return `Evolves after defeating three Pokémon with item ${clause}`;
+      return (
+        <div className='flex gap-1 items-center'>
+          After defeating three Pokémon while holding
+          <ItemIcon id={clause} />
+        </div>
+      );
     case EvolutionMethod.EVO_OVERWORLD_STEPS:
       return `Evolves after taking ${clause} steps in the overworld`;
     default:
