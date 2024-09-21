@@ -1,12 +1,13 @@
 interface MoveCategoryProps {
-  category: string;
+  category: number;
   strikeThrough?: boolean;
 }
 
+const categoryStrings = ['physical', 'special', 'status'];
 function MoveCategory({ category, strikeThrough }: MoveCategoryProps) {
   return (
     <span
-      className={`category-${category.toLowerCase()} ${
+      className={`category-${categoryStrings[category]} ${
         strikeThrough ? 'obst' : ''
       }`}
     />

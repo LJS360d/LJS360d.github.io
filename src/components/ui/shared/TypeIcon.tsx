@@ -1,16 +1,27 @@
-import type { PokemonType } from "../../../models/types/pokemon.type";
+import {
+  PokemonTypeString,
+  type PokemonType,
+  type PokemonTypeEnum,
+} from '../../../models/types/pokemon.type';
 
 interface TypeIconProps {
-  type: PokemonType;
+  type: PokemonType | PokemonTypeEnum;
   strikeThrough?: boolean;
   new?: boolean;
 }
 
-export default function TypeIcon({ type, strikeThrough, new: isNew }: TypeIconProps) {
-  const formattedType = type.toLowerCase();
+export default function TypeIcon({
+  type,
+  strikeThrough,
+  new: isNew,
+}: TypeIconProps) {
+  const formattedType =
+    typeof type === 'number'
+      ? PokemonTypeString[type].toLowerCase()
+      : type.toLowerCase();
   const className = `type-${
-    formattedType === "???" ? "unknown" : formattedType
-  } ${strikeThrough ? "obst" : ""} ${isNew ? "new-type" : ""}`;
+    formattedType === '???' ? 'mystery' : formattedType
+  } ${strikeThrough ? 'obst' : ''} ${isNew ? 'new-type' : ''}`;
 
   return <span className={className}>{formattedType}</span>;
 }

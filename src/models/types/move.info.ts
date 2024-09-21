@@ -1,42 +1,38 @@
-import type { PokemonType } from './pokemon.type';
+import type { PokemonTypeEnum } from './pokemon.type';
 
 export interface MoveInfo extends MoveInfoDefinition {
   old: MoveInfoDefinition | null;
 }
 
 export interface MoveInfoDefinition {
-  id: string;
-  name: string;
-  description: string;
-  type: PokemonType;
+  accuracy: number;
+  additionalEffects: MoveAdditionalEffects[] | null;
   category: MoveCategory;
-  target: MoveTarget;
+  criticalHitStage: MoveCriticalHitStage;
+  description: string;
+  effect: number;
+  flags: string[] | null;
+  id: number;
+  name: string;
+  power: number;
   pp: number;
-  accuracy: number | null; // null -> skip accuracy check
-  power?: number; // power 0 -> status (unnecessary)
-  priority?: number;
-  recoil?: number;
-  criticalHitStage?: MoveCriticalHitStage;
-
-  flags: string[];
-
-  effect: string;
-  additionalEffects?: MoveAdditionalEffects;
-
-  // TODO contestData
+  priority: number;
+  recoil: number;
+  target: number;
+  type: PokemonTypeEnum;
 }
 
 export interface MoveAdditionalEffects {
-  moveEffect: string;
+  moveEffect: number;
   chance?: number;
   self?: boolean;
   onChargeTurnOnly?: boolean;
 }
 
 export enum MoveCategory {
-  PHYSICAL = 'PHYSICAL',
-  SPECIAL = 'SPECIAL',
-  STATUS = 'STATUS',
+  PHYSICAL = 0,
+  SPECIAL = 1,
+  STATUS = 2,
 }
 
 export enum MoveCriticalHitStage {
@@ -45,26 +41,20 @@ export enum MoveCriticalHitStage {
 }
 
 export enum MoveTarget {
-  SINGLE = 'SINGLE',
-  FOES = 'FOES',
-  SELF = 'SELF',
-  ALLY = 'ALLY',
-  DEPENDS = 'DEPENDS',
-  SELF_OR_ALLY = 'SELF_OR_ALLY',
-  ALL = 'ALL',
-  FIELD = 'FIELD',
-  OPPONENTS_FIELD = 'OPPONENTS_FIELD',
-  RANDOM = 'RANDOM',
+  SELECTED = 0,
+  DEPENDS = 1,
+  USER_OR_SELECTED = 2,
+  RANDOM = 4,
+  BOTH = 8,
+  USER = 16,
+  FOES_AND_ALLY = 32,
+  OPPONENTS_FIELD = 64,
+  ALLY = 128,
+  ALL_BATTLERS = 272,
 }
 
-export function getEffectStr(str?: string) {
-  return (
-    EffectsEnum[
-      str
-        ?.replace('EFFECT_', '')
-        .replace('MOVE_', '') as keyof typeof EffectsEnum
-    ] ?? str
-  );
+export function getEffectStr(effect?: number): string {
+  return `${effect ?? 'None'}`;
 }
 
 export enum EffectsEnum {
@@ -110,6 +100,6 @@ export enum EffectsEnum {
   ALWAYS_CRIT = 'Always results in a critical hit',
   RELIC_SONG = "May put the target asleep, Changes Meloetta's form",
   ATTACK_DOWN_HIT = "May decrease the target's ATK",
-  ROAR = "Will force the target to switch out",
-  WRAP = "Deals damage for 2-5 turns while trapping the target on the field",
+  ROAR = 'Will force the target to switch out',
+  WRAP = 'Deals damage for 2-5 turns while trapping the target on the field',
 }

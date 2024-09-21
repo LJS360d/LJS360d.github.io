@@ -1,6 +1,15 @@
 import type { ReactNode } from 'react';
 import ItemIcon from '../../item/ItemIcon';
 import PokemonIconComponent from '../../shared/PokemonIcon';
+import moves from '../../../../data/moves.json';
+import type { MoveInfo } from '../../../../models/types/move.info';
+import { PokemonTypeString } from '../../../../models/types/pokemon.type';
+
+const moveData = moves as MoveInfo[];
+
+function getMoveName(move: number) {
+  return moveData.find((m) => m.id === move - 1)?.name ?? `MOVE ID: ${move}`;
+}
 
 interface ClauseProps {
   method: number;
@@ -154,9 +163,19 @@ function getEvolutionMethodDescription(
         </div>
       );
     case EvolutionMethod.EVO_MOVE:
-      return `Level up having learned ${clause}`;
+      return (
+        <div className='flex gap-1 items-center'>
+          Level up having learned
+          <b>{getMoveName(clause)}</b>
+        </div>
+      );
     case EvolutionMethod.EVO_FRIENDSHIP_MOVE_TYPE:
-      return `At high friendship when knowing a ${clause} type move`;
+      return (
+        <div className='flex gap-1 items-center'>
+          At high friendship when knowing a<b>{PokemonTypeString[clause]}</b>
+          type move
+        </div>
+      );
     case EvolutionMethod.EVO_MAPSEC:
       return `Level up in area ${clause}`;
     case EvolutionMethod.EVO_ITEM_MALE:
@@ -201,7 +220,7 @@ function getEvolutionMethodDescription(
     case EvolutionMethod.EVO_LEVEL_NATURE_LOW_KEY:
       return `At level ${clause}, if nature is Low Key`;
     case EvolutionMethod.EVO_CRITICAL_HITS:
-      return `Evolves after landing ${clause} critical hits`;
+      return `Evolves after landing ${clause} critical hits in the same battle`;
     case EvolutionMethod.EVO_SCRIPT_TRIGGER_DMG:
       return `Evolves taking ${clause} damage`;
     case EvolutionMethod.EVO_DARK_SCROLL:
@@ -234,15 +253,31 @@ function getEvolutionMethodDescription(
     case EvolutionMethod.EVO_LEVEL_FOG:
       return `At level ${clause}, during fog`;
     case EvolutionMethod.EVO_MOVE_TWO_SEGMENT:
-      return `When knowing the move ${clause} if two segments`;
+      return (
+        <div className='flex gap-1 items-center'>
+          Level up having learned
+          <b>{getMoveName(clause)}</b>
+        </div>
+      );
     case EvolutionMethod.EVO_MOVE_THREE_SEGMENT:
-      return `When knowing the move ${clause} if three segments`;
+      return (
+        <div className='flex gap-1 items-center'>
+          Level up having learned
+          <b>{getMoveName(clause)}</b>, 1% chance
+        </div>
+      );
     case EvolutionMethod.EVO_LEVEL_FAMILY_OF_THREE:
       return `At level ${clause}, evolves if in a family of three`;
     case EvolutionMethod.EVO_LEVEL_FAMILY_OF_FOUR:
       return `At level ${clause}, evolves if in a family of four`;
     case EvolutionMethod.EVO_USE_MOVE_TWENTY_TIMES:
-      return `Evolves after using the move ${clause} twenty times`;
+      return (
+        <div className='flex gap-1 items-center'>
+          Evolves after using the move
+          <b>{getMoveName(clause)}</b>
+          twenty times
+        </div>
+      );
     case EvolutionMethod.EVO_RECOIL_DAMAGE_MALE:
       return `Evolves after taking ${clause} recoil damage as a male`;
     case EvolutionMethod.EVO_RECOIL_DAMAGE_FEMALE:

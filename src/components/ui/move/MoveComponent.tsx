@@ -1,7 +1,7 @@
 import {
-  EffectsEnum,
-  MoveTarget,
   getEffectStr,
+  MoveCategory as MoveCategoryEnum,
+  MoveTarget,
   type MoveInfo,
 } from '../../../models/types/move.info';
 import { toCapitalized } from '../../../utils/formatting.utils';
@@ -37,19 +37,21 @@ function MoveComponent({ move }: MoveComponentProps) {
           )}
         </div>
       </div>
-      {move.category !== 'STATUS' && move.power && move.power > 1 && (
-        <div className='flex flex-col items-start'>
-          <span>Power</span>
-          {move.old && move.power !== move.old.power ? (
-            <>
-              <span className='new'>{move.power}</span>
-              <span className='old'>{move.old.power}</span>
-            </>
-          ) : (
-            <span>{move.power}</span>
-          )}
-        </div>
-      )}
+      {move.category !== MoveCategoryEnum.STATUS &&
+        move.power &&
+        move.power > 1 && (
+          <div className='flex flex-col items-start'>
+            <span>Power</span>
+            {move.old && move.power !== move.old.power ? (
+              <>
+                <span className='new'>{move.power}</span>
+                <span className='old'>{move.old.power}</span>
+              </>
+            ) : (
+              <span>{move.power}</span>
+            )}
+          </div>
+        )}
       <div className='flex flex-col items-start'>
         <span>Accuracy</span>
         {move.old && move.accuracy !== move.old.accuracy ? (
@@ -61,7 +63,7 @@ function MoveComponent({ move }: MoveComponentProps) {
           <span>{move.accuracy ? `${move.accuracy}%` : '-'}</span>
         )}
       </div>
-      {move.target !== MoveTarget.SINGLE && (
+      {move.target !== MoveTarget.SELECTED && (
         <div className='flex flex-col items-start'>
           <span>Target</span>
           {move.old && move.target !== move.old.target ? (
@@ -104,7 +106,7 @@ function MoveComponent({ move }: MoveComponentProps) {
           )}
         </div>
       )}
-      {move.effect !== 'EFFECT_HIT' && (
+      {move.effect !== 1 && (
         <div className='flex flex-col items-start'>
           <span>Effect</span>
           {move.old && move.effect !== move.old.effect ? (
@@ -117,42 +119,47 @@ function MoveComponent({ move }: MoveComponentProps) {
           )}
         </div>
       )}
-      {move.additionalEffects && (
+      {move.additionalEffects?.length && (
         <>
-          <div className='flex flex-col items-start'>
-            <span>Effect</span>
-            {move.old &&
-            move.old.additionalEffects?.moveEffect !==
-              move.additionalEffects.moveEffect ? (
-              <>
-                <span className='new'>
-                  {getEffectStr(move.additionalEffects.moveEffect)}
-                </span>
-                <span className='old'>
-                  {getEffectStr(move.old.additionalEffects?.moveEffect)}
-                </span>
-              </>
-            ) : (
-              <span>{getEffectStr(move.additionalEffects.moveEffect)}</span>
-            )}
-          </div>
-          {move.additionalEffects.chance !== undefined && (
-            <div className='flex flex-col items-start'>
-              <span>Effect chance</span>
-              {move.old &&
-              move.old.additionalEffects?.chance !==
-                move.additionalEffects.chance ? (
-                <>
-                  <span className='new'>{move.additionalEffects.chance}%</span>
-                  <span className='old'>
-                    {move.old.additionalEffects?.chance}%
-                  </span>
-                </>
-              ) : (
-                <span>{move.additionalEffects.chance}%</span>
+          {move.additionalEffects.map((effect, index) => (
+            <div key={index}>
+              <div className='flex flex-col items-start'>
+                <span>Effect {index + 1}</span>
+                {move.old?.additionalEffects?.[index]?.moveEffect !==
+                effect.moveEffect ? (
+                  <>
+                    <span className='new'>
+                      {getEffectStr(effect.moveEffect)}
+                    </span>
+                    <span className='old'>
+                      {getEffectStr(
+                        move.old?.additionalEffects?.[index]?.moveEffect
+                      )}
+                    </span>
+                  </>
+                ) : (
+                  <span>{getEffectStr(effect.moveEffect)}</span>
+                )}
+              </div>
+
+              {effect.chance !== undefined && (
+                <div className='flex flex-col items-start'>
+                  <span>Effect chance</span>
+                  {move.old?.additionalEffects?.[index]?.chance !==
+                  effect.chance ? (
+                    <>
+                      <span className='new'>{effect.chance}%</span>
+                      <span className='old'>
+                        {move.old?.additionalEffects?.[index]?.chance}%
+                      </span>
+                    </>
+                  ) : (
+                    <span>{effect.chance}%</span>
+                  )}
+                </div>
               )}
             </div>
-          )}
+          ))}
         </>
       )}
     </li>
