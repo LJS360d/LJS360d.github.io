@@ -12,7 +12,7 @@ import {
 export async function getStaticPaths() {
   const monsData = mons as PokemonInfo[];
   return monsData.map((mon) => ({
-    params: { species: mon.species.toLowerCase() },
+    params: { species: mon.species.toLowerCase() || 'lugia_shadow' },
     props: { mon },
   }));
 }
