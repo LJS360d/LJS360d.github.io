@@ -6,6 +6,9 @@ import type {
 } from '../../../models/types/evolution.info';
 import PokemonSpriteComponent from '../shared/PokemonSprite';
 import EvolutionClause from './EvolutionClause';
+import pokemon from '../../../data/pokemon.json';
+import type { PokemonInfo } from '../../../models/types/pokemon.info';
+const pokemonData = pokemon as PokemonInfo[];
 
 interface EvolutionProps {
   evolution: EvolutionInfo;
@@ -16,20 +19,20 @@ export default function EvolutionTreeComponent({ evolution }: EvolutionProps) {
   const search = getEvolutionTreeSearchString(evolution);
   const renderEvolutionPath = (path: EvolutionPath, prev = true) => (
     <>
-      {prev && <PokemonSpriteComponent species={0} />}
+      {prev && <PokemonSpriteComponent species={path.from} />}
       <div className='flex flex-col'>
         {path.to.map((to, i) => (
           <div key={i} className='flex items-center gap-6'>
             <EvolutionClause evo={to.methods} />
-            <PokemonSpriteComponent species={0} />
-            {renderBranches(to, path.from)}
+            <PokemonSpriteComponent species={to.species} />
+            {renderBranches(to)}
           </div>
         ))}
       </div>
     </>
   );
 
-  const renderBranches = (outcome: EvolutionOutcome, _: string) => {
+  const renderBranches = (outcome: EvolutionOutcome) => {
     const branches = evolution.evolutions.filter(
       (e) => e.from === outcome.species
     );
@@ -68,6 +71,6 @@ function flattenEvolutions(evolutions: EvolutionPath[]) {
 
 function getEvolutionTreeSearchString(evolution: EvolutionTree) {
   return `${evolution.family} ${evolution.evolutions
-    .map((e) => `${e.to.map((t) => t.species).join(' ')}`)
+    .map((e) => `${e.to.map((t) => pokemonData.find((p) => p.id === t.species)?.speciesName).join(' ')}`)
     .join(' ')}`;
 }

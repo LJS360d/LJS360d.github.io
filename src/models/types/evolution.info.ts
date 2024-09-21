@@ -3,21 +3,21 @@ export interface EvolutionInfo extends EvolutionTree {
 }
 
 export interface EvolutionTree {
-  family: string;
+  family: number;
   evolutions: EvolutionPath[];
 }
 
 export interface EvolutionPath {
-  from: string;
+  from: number;
   to: EvolutionOutcome[];
 }
 
 export interface EvolutionOutcome {
-  species: string;
+  species: number;
   methods: EvolutionMethod[];
 }
 
 export interface EvolutionMethod {
-  method: string;
-  clause: string;
+  method: number;
+  clause: number;
 }

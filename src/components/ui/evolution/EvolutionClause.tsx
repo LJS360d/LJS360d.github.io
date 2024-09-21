@@ -16,7 +16,7 @@ function EvolutionClause({ evo }: EvolutionClauseProps) {
           {i > 0 && <span className='italic text-xs mt-1'>OR</span>}
           <div className='flex gap-2'>
             <span className='text-sm'>
-              {EvolutionMethods[e.method.replace('EVO_', '')] ?? e.method}
+              {e.method}
             </span>
             <Clause clause={e.clause} />
           </div>
