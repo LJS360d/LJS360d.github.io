@@ -19,12 +19,12 @@ export default function EvolutionTreeComponent({ evolution }: EvolutionProps) {
   const search = getEvolutionTreeSearchString(evolution);
   const renderEvolutionPath = (path: EvolutionPath, prev = true) => (
     <>
-      {prev && <PokemonSpriteComponent species={path.from} />}
+      {prev && <PokemonSpriteComponent species={path.from - 1} />}
       <div className='flex flex-col'>
         {path.to.map((to, i) => (
           <div key={i} className='flex items-center gap-6'>
             <EvolutionClause evo={to.methods} />
-            <PokemonSpriteComponent species={to.species} />
+            <PokemonSpriteComponent species={to.species - 1} />
             {renderBranches(to)}
           </div>
         ))}
@@ -70,7 +70,7 @@ function flattenEvolutions(evolutions: EvolutionPath[]) {
 }
 
 function getEvolutionTreeSearchString(evolution: EvolutionTree) {
-  return `${evolution.family} ${evolution.evolutions
-    .map((e) => `${e.to.map((t) => pokemonData.find((p) => p.id === t.species)?.speciesName).join(' ')}`)
+  return `${pokemonData.find((p) => p.id === (evolution.family - 1))?.speciesName.toUpperCase()}-${evolution.evolutions
+    .map((e) => `${e.to.map((t) => pokemonData.find((p) => p.id === (t.species - 1))?.speciesName.toUpperCase()).join(' ')}`)
     .join(' ')}`;
 }

@@ -8,6 +8,7 @@
     "start": "astro dev",
     "build": "astro check && astro build",
     "lint": "biome lint --apply ./src  && astro check",
+    "lint:fix": "biome lint --apply --unsafe ./src",
     "preview": "astro preview",
     "astro": "astro"
   },

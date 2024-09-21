@@ -1,8 +1,7 @@
 import { MdEast } from 'react-icons/md';
-import { EvolutionMethods } from '../../../models/static/records';
+import { Fragment } from 'react/jsx-runtime';
 import type { EvolutionMethod } from '../../../models/types/evolution.info';
 import Clause from './clauses/clause.factory';
-import { Fragment } from 'react/jsx-runtime';
 
 interface EvolutionClauseProps {
   evo: EvolutionMethod[];
@@ -14,12 +13,7 @@ function EvolutionClause({ evo }: EvolutionClauseProps) {
       {evo.map((e, i) => (
         <Fragment key={i}>
           {i > 0 && <span className='italic text-xs mt-1'>OR</span>}
-          <div className='flex gap-2'>
-            <span className='text-sm'>
-              {e.method}
-            </span>
-            <Clause clause={e.clause} />
-          </div>
+          <Clause method={e.method} clause={e.clause} />
         </Fragment>
       ))}
       <MdEast />
