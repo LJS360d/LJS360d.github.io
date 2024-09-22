@@ -1,9 +1,9 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import ItemComponent from "../components/ui/item/ItemComponent";
-import itemsDiff from "../data/items_diff.json";
+import items from "../data/items.json";
 import type { ItemData } from "../models/types/item.data";
-const itemsData = itemsDiff as ItemData[];
+const itemsData = items as ItemData[];
 ---
 
 <Layout title="Items">
