@@ -29,29 +29,27 @@ function MoveComponent({ move }: MoveComponentProps) {
           )}
           {move.old && move.category !== move.old.category ? (
             <div className='flex flex-col gap-1'>
-              <MoveCategory category={move.category} />
-              <MoveCategory category={move.old.category} strikeThrough />
+              <MoveCategory type={move.type} category={move.category} />
+              <MoveCategory type={move.old.type} category={move.old.category} strikeThrough />
             </div>
           ) : (
-            <MoveCategory category={move.category} />
+            <MoveCategory type={move.type} category={move.category} />
           )}
         </div>
       </div>
-      {move.category !== MoveCategoryEnum.STATUS &&
-        move.power &&
-        move.power > 1 && (
-          <div className='flex flex-col items-start'>
-            <span>Power</span>
-            {move.old && move.power !== move.old.power ? (
-              <>
-                <span className='new'>{move.power}</span>
-                <span className='old'>{move.old.power}</span>
-              </>
-            ) : (
-              <span>{move.power}</span>
-            )}
-          </div>
-        )}
+      {move.category !== MoveCategoryEnum.STATUS && move.power > 1 && (
+        <div className='flex flex-col items-start'>
+          <span>Power</span>
+          {move.old && move.power !== move.old.power ? (
+            <>
+              <span className='new'>{move.power}</span>
+              <span className='old'>{move.old.power}</span>
+            </>
+          ) : (
+            <span>{move.power}</span>
+          )}
+        </div>
+      )}
       <div className='flex flex-col items-start'>
         <span>Accuracy</span>
         {move.old && move.accuracy !== move.old.accuracy ? (
@@ -80,7 +78,7 @@ function MoveComponent({ move }: MoveComponentProps) {
           )}
         </div>
       )}
-      {move.priority && move?.priority > 0 && (
+      {move.priority > 0 && (
         <div className='flex flex-col items-start'>
           <span>Priority</span>
           {move.old && move.priority !== move.old.priority ? (
@@ -93,7 +91,7 @@ function MoveComponent({ move }: MoveComponentProps) {
           )}
         </div>
       )}
-      {move.recoil && move.recoil > 0 && (
+      {move.recoil > 0 && (
         <div className='flex flex-col items-start'>
           <span>Recoil</span>
           {move.old && move.recoil !== move.old.recoil ? (
@@ -119,12 +117,12 @@ function MoveComponent({ move }: MoveComponentProps) {
           )}
         </div>
       )}
-      {move.additionalEffects?.length && (
+      {!!move.additionalEffects?.length && (
         <>
           {move.additionalEffects.map((effect, index) => (
             <div key={index}>
               <div className='flex flex-col items-start'>
-                <span>Effect {index + 1}</span>
+                <span>Secondary Effect</span>
                 {move.old?.additionalEffects?.[index]?.moveEffect !==
                 effect.moveEffect ? (
                   <>
@@ -142,7 +140,7 @@ function MoveComponent({ move }: MoveComponentProps) {
                 )}
               </div>
 
-              {effect.chance !== undefined && (
+              {!!effect.chance && (
                 <div className='flex flex-col items-start'>
                   <span>Effect chance</span>
                   {move.old?.additionalEffects?.[index]?.chance !==
