@@ -19,7 +19,7 @@ export interface PokemonInfoDefinition {
   categoryName: string;
   description: string;
   eggCycles: number;
-  eggGroups: string[];
+  eggGroups: number[];
   evolutions: [];
   formChangeTable: PokemonFormChange[] | null;
   evYield: PokemonEvYieldModel;
