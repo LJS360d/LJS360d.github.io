@@ -6,8 +6,8 @@ import type { LearnsetInfo } from "../models/types/learnset.info";
 import { getBaseMonsData, getMonAlternateForms } from "../utils/pokemon.data.utils";
 const learnsetsData = learnsets as LearnsetInfo[];
 
-function getLearnset(pokemon: string) {
-  return learnsetsData.find((ls) => ls.species === pokemon);
+function getLearnset(pokemonId: number) {
+  return learnsetsData.find((ls) => ls.species === pokemonId);
 }
 
 ---
@@ -20,7 +20,7 @@ function getLearnset(pokemon: string) {
           client:load
           pokemon={mon}
           forms={getMonAlternateForms(mon.species)}
-          learnset={getLearnset(mon.species)}
+          learnset={getLearnset(mon.id)}
         />
       ))
     }

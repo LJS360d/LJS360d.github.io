@@ -1,10 +1,12 @@
 export interface LearnsetInfo extends LearnsetInfoDefinition {
-  old: LearnsetInfoDefinition;
+  old?: LearnsetInfoDefinition;
 }
 
 export interface LearnsetInfoDefinition {
-  species: string;
-  moves: LevelUpMove[];
+  eggMoveLearnset:   number[] | null;
+  levelUpLearnset:   LevelUpMove[] | null;
+  species:           number;
+  teachableLearnset: number[] | null;
 }
 
 
@@ -12,3 +14,4 @@ export interface LevelUpMove {
   level: number;
   move: string;
 }
+
