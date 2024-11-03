@@ -6,7 +6,7 @@ interface LearnsetInfoProps {
 }
 
 export default function LearnsetComponent({ learnset }: LearnsetInfoProps) {
-  const moves = learnset.moves;
+  const moves = learnset.levelUpLearnset ?? [];
   return (
     <div className='overflow-auto max-h-44 sb-base'>
       <table className='table-zebra table-xs'>
