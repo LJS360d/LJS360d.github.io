@@ -14,7 +14,7 @@ interface MoveComponentProps {
 function MoveComponent({ move }: MoveComponentProps) {
   return (
     <li
-      data-move-name={move.name}
+      data-move-name={move.name.toUpperCase()}
       className='cursor-default bg-base-200 rounded-lg flex flex-row justify-start flex-1'>
       <div className='flex flex-col items-start'>
         <h6 className='capitalize'>{toCapitalized(move.name)}</h6>
