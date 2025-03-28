@@ -4,7 +4,7 @@ export interface ItemData extends ItemInfo {
 
 export interface ItemInfo {
   battleUsage:     number;
-  category:        number;
+  pocket:          number;
   description:     string;
   flingPower:      number;
   holdEffect:      number;
@@ -12,6 +12,7 @@ export interface ItemInfo {
   id:              number;
   importance:      number;
   name:            string;
+  pluralName:      string;
   price:           number;
   secondaryId:     number;
   type:            number;

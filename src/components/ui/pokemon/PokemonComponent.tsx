@@ -6,6 +6,7 @@ import PokemonSprite from '../shared/PokemonSprite';
 import AbilitiesBar from './PokemonAbilities';
 import StatBar from './PokemonStats';
 import TypeBar from './PokemonTyping';
+import LearnsetComponent from '../learnset/LearnsetComponent';
 
 interface PokemonComponentProps {
   pokemon: PokemonInfo;
@@ -55,6 +56,7 @@ function PokemonComponent({ pokemon, learnset, forms }: PokemonComponentProps) {
             <TypeBar pokemon={usedForm} />
           </div>
         </div>
+        {learnset && <LearnsetComponent learnset={learnset} />}
       </div>
     </li>
   );

@@ -1,12 +1,14 @@
 import type { LearnsetInfo } from '../../../models/types/learnset.info';
 import { toCapitalized } from '../../../utils/formatting.utils';
-
+import movesRaw from '../../../data/moves.json';
+import type { MoveInfo } from '../../../models/types/move.info';
 interface LearnsetInfoProps {
   learnset: LearnsetInfo;
 }
 
+const moves = movesRaw as MoveInfo[];
 export default function LearnsetComponent({ learnset }: LearnsetInfoProps) {
-  const moves = learnset.levelUpLearnset ?? [];
+  const levelUpLearnset = learnset.levelUpLearnset ?? [];
   return (
     <div className='overflow-auto max-h-44 sb-base'>
       <table className='table-zebra table-xs'>
@@ -17,10 +19,10 @@ export default function LearnsetComponent({ learnset }: LearnsetInfoProps) {
           </tr>
         </thead>
         <tbody>
-          {moves.map((move, i) => (
+          {levelUpLearnset.map((move, i) => (
             <tr key={i}>
               <td>{move.level}</td>
-              <td>{toCapitalized(move.move)}</td>
+              <td>{toCapitalized(moves.find((m) => m.id === move.move)?.name ?? "")}</td>
             </tr>
           ))}
         </tbody>

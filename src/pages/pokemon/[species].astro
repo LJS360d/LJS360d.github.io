@@ -2,9 +2,11 @@
 import { MdChevronLeft, MdChevronRight } from 'react-icons/md';
 import PokemonComponent from '../../components/ui/pokemon/PokemonComponent';
 import PokemonIconComponent from '../../components/ui/shared/PokemonIcon';
+import learnsets from "../../data/learnsets.json";
 import mons from '../../data/pokemon.json';
 import Layout from '../../layouts/Layout.astro';
 import type { PokemonInfo } from '../../models/types/pokemon.info';
+import type { LearnsetInfo } from "../../models/types/learnset.info";
 import {
   getMonAlternateForms,
   getMonPaginator,
@@ -16,6 +18,12 @@ export async function getStaticPaths() {
     props: { mon },
   }));
 }
+const learnsetsData = learnsets as LearnsetInfo[];
+
+function getLearnset(pokemonId: number) {
+  return learnsetsData.find((ls) => ls.species === pokemonId);
+}
+
 const { mon } = Astro.props;
 const [prev, next] = getMonPaginator(mon.species);
 ---
@@ -38,5 +46,5 @@ const [prev, next] = getMonPaginator(mon.species);
       </a>
     )}
   </div>
-  <PokemonComponent client:visible pokemon={mon} forms={getMonAlternateForms(mon.species)} />
+  <PokemonComponent client:visible pokemon={mon} forms={getMonAlternateForms(mon.species)} learnset={getLearnset(mon.id)} />
 </Layout>

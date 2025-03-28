@@ -12,6 +12,6 @@ export interface LearnsetInfoDefinition {
 
 export interface LevelUpMove {
   level: number;
-  move: string;
+  move: number;
 }
 
