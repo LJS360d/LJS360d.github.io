@@ -1,14 +1,12 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import ItemComponent from "../components/ui/item/ItemComponent";
-import items from "../data/items.json";
-import type { ItemData } from "../models/types/item.data";
-const itemsData = items as ItemData[];
+import { items } from "../data";
 ---
 
 <Layout title="Items">
   <ul id="item-list" class="list-base">
-    {itemsData.map((item) => <ItemComponent item={item} />)}
+    {items.map((item) => <ItemComponent item={item} />)}
   </ul>
 </Layout>
 

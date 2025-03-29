@@ -1,10 +1,6 @@
-import type { PokemonType } from './pokemon.type';
+import type { PokemonType } from './pokemon.types'; 
 
-export interface PokemonInfo extends PokemonInfoDefinition {
-  old: PokemonInfoDefinition | null;
-}
-
-export interface PokemonInfoDefinition {
+export interface PokemonInfo {
   id: number;
   species: string;
   speciesName: string;
@@ -31,6 +27,7 @@ export interface PokemonInfoDefinition {
   flags: PokemonFlags[] | null;
   itemCommon?: number;
   itemRare?: number;
+  old: Omit<PokemonInfo, "old"> | null;
 }
 
 // ? HP, ATK, DEF, SpATK, SpDEF, SPE

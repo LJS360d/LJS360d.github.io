@@ -1,33 +1,21 @@
-import { useCallback, useState } from 'react';
-import type { LearnsetInfo } from '../../../models/types/learnset.info';
-import type { PokemonInfo } from '../../../models/types/pokemon.info';
+import { useState } from 'react';
+import type { Learnset } from '../../../data/types/learnset';
+import type { PokemonInfo } from '../../../data/types/pokemon';
+import LearnsetComponent from '../learnset/LearnsetComponent';
 import PokemonIcon from '../shared/PokemonIcon';
 import PokemonSprite from '../shared/PokemonSprite';
 import AbilitiesBar from './PokemonAbilities';
+import PokemonHeldItems from './PokemonHeldItems';
 import StatBar from './PokemonStats';
 import TypeBar from './PokemonTyping';
-import LearnsetComponent from '../learnset/LearnsetComponent';
-import itemsRaw from '../../../data/items.json';
-import type { ItemInfo } from '../../../models/types/item.data';
-import ItemIcon from '../item/ItemIcon';
-import PokemonHeldItems from './PokemonHeldItems';
-const items = itemsRaw as ItemInfo[];
 
 interface PokemonComponentProps {
   pokemon: PokemonInfo;
   forms: PokemonInfo[];
-  learnset?: LearnsetInfo;
+  learnset?: Learnset;
 }
 function PokemonComponent({ pokemon, learnset, forms }: PokemonComponentProps) {
-  const [dialogOpen, setDialogOpen] = useState<boolean>(false);
   const [usedForm, setUsedForm] = useState<PokemonInfo>(pokemon);
-  const toggleDialog = useCallback(() => {
-    setDialogOpen(!dialogOpen);
-  }, [dialogOpen]);
-
-  const getItemData = (id: number) => {
-    return items.find((item) => item.id === id);
-  };
 
   return (
     <li data-name={pokemon.species} className='grid grid-flow-row'>

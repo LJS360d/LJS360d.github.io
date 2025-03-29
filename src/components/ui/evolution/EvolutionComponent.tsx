@@ -1,17 +1,14 @@
+import { pokemon } from '../../../data';
 import type {
-  EvolutionInfo,
   EvolutionOutcome,
   EvolutionPath,
-  EvolutionTree,
-} from '../../../models/types/evolution.info';
+  EvolutionTree
+} from '../../../data/types/evolution';
 import PokemonSpriteComponent from '../shared/PokemonSprite';
 import EvolutionClause from './EvolutionClause';
-import pokemon from '../../../data/pokemon.json';
-import type { PokemonInfo } from '../../../models/types/pokemon.info';
-const pokemonData = pokemon as PokemonInfo[];
 
 interface EvolutionProps {
-  evolution: EvolutionInfo;
+  evolution: EvolutionTree;
 }
 
 export default function EvolutionTreeComponent({ evolution }: EvolutionProps) {
@@ -70,7 +67,7 @@ function flattenEvolutions(evolutions: EvolutionPath[]) {
 }
 
 function getEvolutionTreeSearchString(evolution: EvolutionTree) {
-  return `${pokemonData.find((p) => p.id === (evolution.family))?.speciesName.toUpperCase()}-${evolution.evolutions
-    .map((e) => `${e.to.map((t) => pokemonData.find((p) => p.id === (t.species))?.speciesName.toUpperCase()).join(' ')}`)
+  return `${pokemon.find((p) => p.id === (evolution.family))?.speciesName.toUpperCase()}-${evolution.evolutions
+    .map((e) => `${e.to.map((t) => pokemon.find((p) => p.id === (t.species))?.speciesName.toUpperCase()).join(' ')}`)
     .join(' ')}`;
 }

@@ -1,10 +1,6 @@
-import type { PokemonTypeEnum } from './pokemon.type';
+import type { PokemonTypeEnum } from './pokemon.types';
 
-export interface MoveInfo extends MoveInfoDefinition {
-  old: MoveInfoDefinition | null;
-}
-
-export interface MoveInfoDefinition {
+export interface MoveInfo {
   accuracy: number;
   additionalEffects: MoveAdditionalEffects[] | null;
   category: MoveCategory;
@@ -20,6 +16,7 @@ export interface MoveInfoDefinition {
   recoil: number;
   target: number;
   type: PokemonTypeEnum;
+  old: Omit<MoveInfo, "old"> | null;
 }
 
 export interface MoveAdditionalEffects {

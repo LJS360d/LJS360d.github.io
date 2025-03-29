@@ -4,5 +4,14 @@
     "jsx": "react-jsx",
     "jsxImportSource": "react",
     "allowSyntheticDefaultImports": true
-  }
+  },
+  "include": [
+    "src/**/*",
+    "astro.config.mjs"
+  ],
+  "exclude": [
+    "public/wasm_exec.js",
+    "dist/**/*",
+    "node_modules/**/*"
+  ]
 }

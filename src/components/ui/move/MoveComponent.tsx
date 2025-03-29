@@ -3,7 +3,7 @@ import {
   MoveCategory as MoveCategoryEnum,
   MoveTarget,
   type MoveInfo,
-} from '../../../models/types/move.info';
+} from '../../../data/types/move';
 import { toCapitalized } from '../../../utils/formatting.utils';
 import TypeIcon from '../shared/TypeIcon';
 import MoveCategory from './MoveCategoryIcon';

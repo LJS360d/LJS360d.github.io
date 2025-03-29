@@ -1,14 +1,12 @@
 ---
-import evolutions from "../data/evolutions.json";
+import { evolutions } from "../data";
 import Layout from "../layouts/Layout.astro";
 import EvolutionComponent from "../components/ui/evolution/EvolutionComponent";
-import type { EvolutionInfo } from "../models/types/evolution.info";
-const evolutionsData = evolutions as EvolutionInfo[];
 ---
 
 <Layout title="Evolutions">
   <ul id="evolution-list" class="list-base">
-    {evolutionsData.map((evo) => <EvolutionComponent evolution={evo} />)}
+    {evolutions.map((evo) => <EvolutionComponent evolution={evo} />)}
   </ul>
 </Layout>
 

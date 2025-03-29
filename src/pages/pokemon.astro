@@ -1,21 +1,17 @@
 ---
 import PokemonComponent from "../components/ui/pokemon/PokemonComponent";
-import learnsets from "../data/learnsets.json";
+import {learnsets} from "../data";
 import Layout from "../layouts/Layout.astro";
-import type { LearnsetInfo } from "../models/types/learnset.info";
 import { getBaseMonsData, getMonAlternateForms } from "../utils/pokemon.data.utils";
-const learnsetsData = learnsets as LearnsetInfo[];
 
 function getLearnset(pokemonId: number) {
-  return learnsetsData.find((ls) => ls.species === pokemonId);
+  return learnsets.find((ls) => ls.species === pokemonId);
 }
-
 ---
 
 <Layout title="Pokèmon">
   <ul id="pokemon-list" class="list-base">
-    {
-      getBaseMonsData().map((mon) => (
+    {getBaseMonsData().map((mon) => (
         <PokemonComponent
           client:load
           pokemon={mon}

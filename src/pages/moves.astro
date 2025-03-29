@@ -1,14 +1,12 @@
 ---
 import MoveComponent from "../components/ui/move/MoveComponent";
-import moves from "../data/moves.json";
+import { moves } from "../data";
 import Layout from "../layouts/Layout.astro";
-import type { MoveInfo } from "../models/types/move.info";
-const movesData = moves as MoveInfo[];
 ---
 
 <Layout title="Moves">
   <ul id="move-list" class="list-base">
-    {movesData.map((move) => <MoveComponent move={move} />)}
+    {moves.map((move) => <MoveComponent move={move} />)}
   </ul>
 </Layout>
 

@@ -1,0 +1,55 @@
+import type {
+  MonsInfo,
+  WildEncounters,
+} from '../../../data/types/wild_encounters';
+import PokemonIconComponent from '../shared/PokemonIcon';
+
+interface WildEncountersProps {
+  encounters: WildEncounters;
+}
+// TODO diffing
+function WildEncountersComponent({ encounters }: WildEncountersProps) {
+  return (
+    <div className='bg-base-200'>
+      <section>
+        <h1 className='stat-title'>{encounters.mapNum}</h1>
+        <legend className='footer-title'>{encounters.mapGroup}</legend>
+      </section>
+      <div className='grid grid-flow-row'>
+        <EncountersGroup monsInfo={encounters.landMonsInfo} label='Land' />
+        <EncountersGroup
+          monsInfo={encounters.rockSmashMonsInfo}
+          label='Rock Smash'
+        />
+        <EncountersGroup monsInfo={encounters.waterMonsInfo} label='Water' />
+        <EncountersGroup
+          monsInfo={encounters.fishingMonsInfo}
+          label='Fishing'
+        />
+      </div>
+    </div>
+  );
+}
+
+interface EncountersGroupProps {
+  monsInfo: MonsInfo | null;
+  label: string;
+}
+
+function EncountersGroup({ monsInfo, label }: EncountersGroupProps) {
+  if (!monsInfo?.wildPokemon.length) {
+    return null;
+  }
+
+  return (
+    <section className='flex flex-wrap items-center'>
+      <h2 className='w-20'>{label}</h2>
+      <span className='w-24'>{monsInfo.encounterRate} %</span>
+      {monsInfo.wildPokemon.map((mon, i) => (
+        <PokemonIconComponent size={48} key={i} species={mon.species} />
+      ))}
+    </section>
+  );
+}
+
+export default WildEncountersComponent;

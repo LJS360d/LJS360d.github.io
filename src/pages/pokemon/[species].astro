@@ -1,27 +1,23 @@
 ---
-import { MdChevronLeft, MdChevronRight } from 'react-icons/md';
-import PokemonComponent from '../../components/ui/pokemon/PokemonComponent';
-import PokemonIconComponent from '../../components/ui/shared/PokemonIcon';
-import learnsets from "../../data/learnsets.json";
-import mons from '../../data/pokemon.json';
-import Layout from '../../layouts/Layout.astro';
-import type { PokemonInfo } from '../../models/types/pokemon.info';
-import type { LearnsetInfo } from "../../models/types/learnset.info";
+import { MdChevronLeft, MdChevronRight } from "react-icons/md";
+import PokemonComponent from "../../components/ui/pokemon/PokemonComponent";
+import PokemonIconComponent from "../../components/ui/shared/PokemonIcon";
+import { pokemon, learnsets } from "../../data";
+import Layout from "../../layouts/Layout.astro";
 import {
   getMonAlternateForms,
   getMonPaginator,
-} from '../../utils/pokemon.data.utils';
+} from "../../utils/pokemon.data.utils";
+
 export async function getStaticPaths() {
-  const monsData = mons as PokemonInfo[];
-  return monsData.map((mon) => ({
-    params: { species: mon.species.toLowerCase() || 'lugia_shadow' },
+  return pokemon.map((mon) => ({
+    params: { species: mon.species.toLowerCase() || "lugia_shadow" },
     props: { mon },
   }));
 }
-const learnsetsData = learnsets as LearnsetInfo[];
 
 function getLearnset(pokemonId: number) {
-  return learnsetsData.find((ls) => ls.species === pokemonId);
+  return learnsets.find((ls) => ls.species === pokemonId);
 }
 
 const { mon } = Astro.props;
@@ -30,21 +26,36 @@ const [prev, next] = getMonPaginator(mon.species);
 
 <Layout title="Pokèmon">
   <div class="flex justify-between mx-4 my-2">
-    {prev && (
-      <a href={`/pokemon/${prev.species.toLowerCase()}`} class="flex items-end">
-        <MdChevronLeft size={20} />
-        <PokemonIconComponent species={prev.id} />
-        <span class="ml-2">{prev.speciesName}</span>
-      </a>
-    )}
+    {
+      prev && (
+        <a
+          href={`/pokemon/${prev.species.toLowerCase()}`}
+          class="flex items-end"
+        >
+          <MdChevronLeft size={20} />
+          <PokemonIconComponent species={prev.id} />
+          <span class="ml-2">{prev.speciesName}</span>
+        </a>
+      )
+    }
     <PokemonIconComponent species={mon.id} />
-    {next && (
-      <a href={`/pokemon/${next.species.toLowerCase()}`} class="flex items-end">
-        <span class="mr-2">{next.speciesName}</span>
-        <PokemonIconComponent species={next.id} />
-        <MdChevronRight size={20} />
-      </a>
-    )}
+    {
+      next && (
+        <a
+          href={`/pokemon/${next.species.toLowerCase()}`}
+          class="flex items-end"
+        >
+          <span class="mr-2">{next.speciesName}</span>
+          <PokemonIconComponent species={next.id} />
+          <MdChevronRight size={20} />
+        </a>
+      )
+    }
   </div>
-  <PokemonComponent client:visible pokemon={mon} forms={getMonAlternateForms(mon.species)} learnset={getLearnset(mon.id)} />
+  <PokemonComponent
+    client:visible
+    pokemon={mon}
+    forms={getMonAlternateForms(mon.species)}
+    learnset={getLearnset(mon.id)}
+  />
 </Layout>

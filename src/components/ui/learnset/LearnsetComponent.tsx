@@ -1,12 +1,11 @@
-import type { LearnsetInfo } from '../../../models/types/learnset.info';
+import { moves } from '../../../data';
+import type { Learnset } from '../../../data/types/learnset';
 import { toCapitalized } from '../../../utils/formatting.utils';
-import movesRaw from '../../../data/moves.json';
-import type { MoveInfo } from '../../../models/types/move.info';
+
 interface LearnsetInfoProps {
-  learnset: LearnsetInfo;
+  learnset: Learnset;
 }
 
-const moves = movesRaw as MoveInfo[];
 export default function LearnsetComponent({ learnset }: LearnsetInfoProps) {
   const levelUpLearnset = learnset.levelUpLearnset ?? [];
   return (
@@ -22,7 +21,11 @@ export default function LearnsetComponent({ learnset }: LearnsetInfoProps) {
           {levelUpLearnset.map((move, i) => (
             <tr key={i}>
               <td>{move.level}</td>
-              <td>{toCapitalized(moves.find((m) => m.id === move.move)?.name ?? "")}</td>
+              <td>
+                {toCapitalized(
+                  moves.find((m) => m.id === move.move)?.name ?? ''
+                )}
+              </td>
             </tr>
           ))}
         </tbody>

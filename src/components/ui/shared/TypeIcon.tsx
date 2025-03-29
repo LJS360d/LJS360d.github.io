@@ -2,7 +2,7 @@ import {
   PokemonTypeString,
   type PokemonType,
   type PokemonTypeEnum,
-} from '../../../models/types/pokemon.type';
+} from '../../../data/types/pokemon.types';
 
 interface TypeIconProps {
   type: PokemonType | PokemonTypeEnum;

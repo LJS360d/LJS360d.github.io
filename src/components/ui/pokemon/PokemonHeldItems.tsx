@@ -1,4 +1,4 @@
-import type { PokemonInfo } from "../../../models/types/pokemon.info";
+import type { PokemonInfo } from "../../../data/types/pokemon";
 import ItemIcon from "../item/ItemIcon";
 
 interface PokemonHeldItemsProps {

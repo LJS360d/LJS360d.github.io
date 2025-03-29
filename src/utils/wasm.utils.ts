@@ -1,4 +1,4 @@
-import './wasm_exec.js';
+import '../../public/wasm_exec.js';
 declare class Go {
   run(instance: WebAssembly.Instance): void;
   importObject: WebAssembly.Imports;

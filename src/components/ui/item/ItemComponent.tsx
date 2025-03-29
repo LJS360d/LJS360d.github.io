@@ -1,8 +1,9 @@
-import type { ItemData } from '../../../models/types/item.data';
+import type { ItemInfo } from '../../../data/types/item';
 import { toCapitalized } from '../../../utils/formatting.utils';
 import ItemIcon from './ItemIcon';
+
 interface ItemComponentProps {
-  item: ItemData;
+  item: ItemInfo;
 }
 
 export default function ItemComponent({ item }: ItemComponentProps) {

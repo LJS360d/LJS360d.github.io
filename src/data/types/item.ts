@@ -1,7 +1,3 @@
-export interface ItemData extends ItemInfo {
-  old: ItemInfo | null;
-}
-
 export interface ItemInfo {
   battleUsage:     number;
   pocket:          number;
@@ -16,4 +12,5 @@ export interface ItemInfo {
   price:           number;
   secondaryId:     number;
   type:            number;
+  old:             Omit<ItemInfo, "old"> | null;
 }

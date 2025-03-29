@@ -1,5 +1,5 @@
 import lodash from 'lodash';
-import type { PokemonInfo } from '../../../models/types/pokemon.info';
+import type { PokemonInfo } from '../../../data/types/pokemon';
 import { toCapitalized } from '../../../utils/formatting.utils';
 
 const { difference, intersection } = lodash;

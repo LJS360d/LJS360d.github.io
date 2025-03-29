@@ -1,10 +1,7 @@
-export interface EvolutionInfo extends EvolutionTree {
-  old: EvolutionTree | null;
-}
-
 export interface EvolutionTree {
   family: number;
   evolutions: EvolutionPath[];
+  old: Omit <EvolutionTree, "old"> | null;
 }
 
 export interface EvolutionPath {

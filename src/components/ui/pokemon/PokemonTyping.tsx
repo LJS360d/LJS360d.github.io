@@ -1,5 +1,5 @@
 import lodash from 'lodash';
-import type { PokemonInfo } from '../../../models/types/pokemon.info';
+import type { PokemonInfo } from '../../../data/types/pokemon';
 import TypeIcon from '../shared/TypeIcon';
 
 const { difference, intersection } = lodash;

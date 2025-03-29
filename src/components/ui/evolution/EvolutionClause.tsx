@@ -1,6 +1,6 @@
 import { MdEast } from 'react-icons/md';
 import { Fragment } from 'react/jsx-runtime';
-import type { EvolutionMethod } from '../../../models/types/evolution.info';
+import type { EvolutionMethod } from '../../../data/types/evolution';
 import Clause from './ClauseFactory';
 
 interface EvolutionClauseProps {
