@@ -8,7 +8,7 @@ import { PokemonTypeString } from '../../../models/types/pokemon.type';
 const moveData = moves as MoveInfo[];
 
 function getMoveName(move: number) {
-  return moveData.find((m) => m.id === move - 1)?.name ?? `MOVE ID: ${move}`;
+  return moveData.find((m) => m.id === move)?.name ?? `MOVE ID: ${move}`;
 }
 
 interface ClauseProps {
@@ -200,7 +200,7 @@ function getEvolutionMethodDescription(
       return (
         <div className='flex gap-1 items-end mb-1'>
           Level up while
-          <PokemonIconComponent species={clause - 1} />
+          <PokemonIconComponent species={clause} />
           is in the party
         </div>
       );
@@ -210,7 +210,7 @@ function getEvolutionMethodDescription(
       return (
         <div className='flex gap-1 items-center'>
           Trade with
-          <PokemonIconComponent species={clause - 1} />
+          <PokemonIconComponent species={clause} />
         </div>
       );
     case EvolutionMethod.EVO_SPECIFIC_MAP:
