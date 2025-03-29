@@ -16,8 +16,8 @@ export default function ItemIcon({ id }: ItemIconProps) {
         src={`/assets/items/icons/${id}.png`}
         alt={`${id}-icon`}
         title={getItemName(id)}
-        width={24}
-        height={24}
+        width={32}
+        height={32}
         loading='lazy'
       />
     </div>

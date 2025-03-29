@@ -1,6 +1,7 @@
 ---
 import { MdMenu } from "react-icons/md";
 import SearchBar from "./SearchBar.astro";
+import SearchFilter from "./SearchFilter.astro";
 
 const { sidebarId, title } = Astro.props;
 ---
@@ -14,6 +15,7 @@ const { sidebarId, title } = Astro.props;
   </div>
   <div class="navbar-center"></div>
   <div class="navbar-end">
+    <SearchFilter />
     <SearchBar />
   </div>
 </header>

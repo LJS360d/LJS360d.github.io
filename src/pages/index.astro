@@ -5,130 +5,22 @@ import { RoutesIterator } from "../models/static/routes";
 
 <Layout title="Acering the pocemon">
   <main class="flex flex-col items-center justify-center w-full py-6">
-    <h3>To what location do you aspire to be conducted?</h3>
+    <h1 class="text-center text-4xl font-bold mb-6">
+      La doc di CHI?
+    </h1>
     <div class="flex flex-col pt-4 px-24 w-full gap-2 items-center">
       <div class="w-max flex flex-row">
         {/* for a big button for future stuff */}
       </div>
       <div class="grid grid-flow-row md:grid-cols-5 w-full gap-4">
         {
-          RoutesIterator.map((route) => (
+          RoutesIterator.slice(1).map((route) => (
             <a class="w-full btn btn-accent text-neutral" href={route.route}>
               <route.icon />
               <span>{route.label || route.route}</span>
             </a>
           ))
         }
-      </div>
-      {/* DUMMY TEXT */}
-      <div>
-        <h1>Ut nobis assumenda qui illum magnam qui nulla doloribus.</h1>
-        <p>
-          Lorem ipsum dolor sit amet. Et dolore excepturiNam dolor et rerum
-          internos est debitis optio sit labore dolorem. Ea quam omnis et
-          tempora consequaturUt ipsa qui minus quaerat qui odit tempora cum
-          nihil repellat ut atque repudiandae. Et earum impeditEt eius ut alias
-          consequatur quo quidem tempora 33 omnis error et consequatur sunt. Qui
-          aperiam nihil{" "}
-          <strong>
-            Et harum ut eaque harum et distinctio voluptatem ea laudantium
-            explicabo
-          </strong>
-          . Eum quia pariaturSed molestiae aut iure blanditiis. Ut iste natus eum
-          dicta deseruntab ducimus est explicabo Quis. Qui cupiditate quae qui sequi
-          voluptatibus{" "}
-          <em>Aut iusto et internos cupiditate sit omnis praesentium</em>?{" "}
-        </p>
-        <h2>Non nihil aperiam aut eius consequatur.</h2>
-        <p>
-          Est laborum aspernatur non laborum dignissimosEt ducimus ut dolores
-          dolores eos cupiditate vero. Sit enim aliasQui facilis eos quaerat
-          nobis sed delectus earum et repudiandae enim vel distinctio quod ut
-          fugit voluptatem. Qui rerum aspernatur et quaerat quaeratSed corporis
-          ut expedita autem et totam porro non reiciendis quasi. Sed molestiae
-          dignissimos aut nobis soluta{" "}
-          <strong>
-            Ex maxime eos libero laboriosam non quidem sunt sit molestiae nisi
-          </strong>{" "}
-          At culpa natus. Et maxime dolor et cupiditate galisumUt voluptatum. Aut
-          odit quia{" "}
-          <em>Est aliquam qui laboriosam sunt aut pariatur accusamus</em> qui accusantium
-          omnis. At excepturi asperiores qui iste assumendaNon quia ut aliquam expedita
-          nam quisquam dolores. Aut quos earum est voluptatem voluptateQui quam ex
-          commodi repudiandae aut nostrum sunt. Ut aspernatur pariatur et tempore
-          optioEos tempora qui corporis dolorum in adipisci expedita qui quibusdam
-          inventore et quia corrupti.{" "}
-        </p>
-        <dl>
-          <dt>
-            <dfn>Ut natus consectetur hic similique dolorem.</dfn>
-          </dt>
-          <dd>Sit nesciunt voluptates est laudantium debitis.</dd>
-          <dt>
-            <dfn>Et deserunt dolorem est similique quam.</dfn>
-          </dt>
-          <dd>
-            Aut dolorum consequatur et debitis fugiat eos temporibus veritatis
-            ea obcaecati quod?{" "}
-          </dd>
-          <dt>
-            <dfn>Non sunt libero a architecto voluptates.</dfn>
-          </dt>
-          <dd>
-            Et fugit quis a sint deserunt et unde dolores ad vero nihil?{" "}
-          </dd>
-        </dl>
-        <h3>
-          Cum internos modi sed consequatur praesentium eum accusantium
-          voluptas!{" "}
-        </h3>
-        <p>
-          Eum architecto labore est dolorem maioresUt labore id amet sequi At
-          dolorem aliquam in quibusdam recusandae aut aspernatur beatae. Ex fuga
-          nullaUt necessitatibus At velit fuga aut illum dolor et rerum
-          voluptatibus. Non eaque atque aut velit consequaturAt amet in tempora
-          error. Aut saepe blanditiis est suscipit accusantium{" "}
-          <em>Cum rerum eum explicabo quia qui commodi cupiditate</em>. Ut
-          similique aliquid ab adipisci nihilex eius sit fuga dolorem.{" "}
-        </p>
-        <ol>
-          <li>Ut illo culpa et enim laborum.</li>
-          <li>
-            Cum tenetur iusto ut perspiciatis internos ut exercitationem
-            exercitationem eum Quis nemo.{" "}
-          </li>
-          <li>
-            Et quia dolor est magnam provident et impedit distinctio non maxime
-            nostrum.{" "}
-          </li>
-          <li>
-            Vel quia laborum est vitae harum id internos delectus et quam fuga?{
-              " "
-            }
-          </li>
-          <li>Ut asperiores nihil ex perspiciatis laudantium!</li>
-          <li>
-            Et quia earum et natus voluptate est quia illo est totam culpa.{" "}
-          </li>
-        </ol>
-        <blockquote cite="https://www.loremipzum.com">
-          Et sequi ratione id velit quod vel tenetur beatae At dolorem dolores.{
-            " "
-          }
-        </blockquote>
-        <h4>At cupiditate consectetur ut facere commodi aut rerum minus.</h4>
-        <p>
-          Ea saepe nihil At accusamus blanditiis{" "}
-          <em>Vel tempora id iusto fuga aut maxime omnis et mollitia enim</em>
-          ? Ea illo harumVel similique et animi sint et rerum voluptatem in perspiciatis
-          veniam eum repudiandae repudiandae? Ut rerum repudiandae est autem quiaest
-          maiores ut labore eligendi. Ab reiciendis voluptatem sed saepe aliquidId
-          quaerat sit magni recusandae vel beatae fugiat rem provident quisquam est
-          Quis esse. Aut perferendis architecto rem fugiat corporiseum laborum quo
-          culpa nihil. Aut modi corruptiid accusantium sit quisquam sequi. Eos nihil
-          aliquid sit doloribus molestiaeIn impedit et magni enim sit sunt sunt in
-          ipsum nihil.{" "}
-        </p>
       </div>
     </div>
   </main>

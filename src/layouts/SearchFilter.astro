@@ -1,0 +1,24 @@
+---
+import { CiFilter } from "react-icons/ci";
+---
+
+<button
+  id="search-filter-btn"
+  class="btn btn-accent btn-outline bg-base-100 rounded-e-none h-12 m-0 px-2 focus:outline-none"
+>
+  <CiFilter className="text-lg font-extrabold " />
+</button>
+
+<!-- OnClick -->
+<script>
+  const searchFilterBtn = document.getElementById(
+    "search-filter-btn",
+  ) as HTMLButtonElement;
+  searchFilterBtn.addEventListener("click", () => {
+    // show seach filter dialog
+    const searchFilter = document.getElementById(
+      "search-filter",
+    ) as HTMLDivElement;
+    searchFilter.hidden = !searchFilter.hidden;
+  });
+</script>

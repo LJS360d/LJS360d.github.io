@@ -7,6 +7,11 @@ import AbilitiesBar from './PokemonAbilities';
 import StatBar from './PokemonStats';
 import TypeBar from './PokemonTyping';
 import LearnsetComponent from '../learnset/LearnsetComponent';
+import itemsRaw from '../../../data/items.json';
+import type { ItemInfo } from '../../../models/types/item.data';
+import ItemIcon from '../item/ItemIcon';
+import PokemonHeldItems from './PokemonHeldItems';
+const items = itemsRaw as ItemInfo[];
 
 interface PokemonComponentProps {
   pokemon: PokemonInfo;
@@ -19,6 +24,10 @@ function PokemonComponent({ pokemon, learnset, forms }: PokemonComponentProps) {
   const toggleDialog = useCallback(() => {
     setDialogOpen(!dialogOpen);
   }, [dialogOpen]);
+
+  const getItemData = (id: number) => {
+    return items.find((item) => item.id === id);
+  };
 
   return (
     <li data-name={pokemon.species} className='grid grid-flow-row'>
@@ -54,6 +63,9 @@ function PokemonComponent({ pokemon, learnset, forms }: PokemonComponentProps) {
           <div className='grid grid-flow-col gap-4'>
             <AbilitiesBar pokemon={usedForm} />
             <TypeBar pokemon={usedForm} />
+            {(!!usedForm.itemCommon || !!usedForm.itemRare) &&
+              <PokemonHeldItems pokemon={usedForm} />
+            }
           </div>
         </div>
         {learnset && <LearnsetComponent learnset={learnset} />}

@@ -1,0 +1,53 @@
+---
+import Layout from "../layouts/Layout.astro";
+
+
+---
+
+<Layout title="Wild Encounters">
+  <ul id="wild-encounters-list" class="list-base">
+    TODO
+  </ul>
+</Layout>
+
+<script>
+  import { updateList } from "../utils/search.utils";
+  let pokemonArr: HTMLLIElement[] = [];
+  document.addEventListener("DOMContentLoaded", () => {
+    // Wait for React components to mount and render
+    setTimeout(() => {
+      const parent = document.getElementById("wild-encounters-list")!;
+      const islands = Array.from(parent.querySelectorAll("astro-island")!);
+
+      pokemonArr = islands.map((island) => {
+        // Access the rendered content of each astro-island
+        const content = island.shadowRoot
+          ? island.shadowRoot.querySelector("*")
+          : island.querySelector("*");
+        return content as HTMLLIElement;
+      });
+    }, 0);
+  });
+  document.addEventListener("search", (ev) =>
+    updateList(ev, pokemonArr, "data-search"),
+  );
+</script>
+
+<!-- <script>
+  import autoAnimate from "@formkit/auto-animate";
+  const pokemonList = document.getElementById(
+    "pokemon-list",
+  ) as HTMLUListElement;
+  autoAnimate(pokemonList);
+  const pokemonArr = Array.from(pokemonList.children) as HTMLLIElement[];
+  document.addEventListener("search", (event: Event) => {
+    const searchText = (event as CustomEvent).detail.text.toUpperCase();
+    pokemonList.innerHTML = "";
+    pokemonArr.forEach((pokemonElement) => {
+      const pokemonName = pokemonElement.getAttribute("data-pokemon-name")!;
+      if (searchText !== "" && pokemonName.includes(searchText)) {
+        pokemonList.appendChild(pokemonElement);
+      }
+    });
+  });
+</script> -->
