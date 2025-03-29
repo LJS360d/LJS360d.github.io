@@ -1,3 +1,4 @@
+import { pokemon } from '../../../data';
 import type {
   MonsInfo,
   WildEncounters,
@@ -10,7 +11,7 @@ interface WildEncountersProps {
 // TODO diffing
 function WildEncountersComponent({ encounters }: WildEncountersProps) {
   return (
-    <div className='bg-base-200'>
+    <li data-search={getWildEncountersSearchString(encounters)} className='bg-base-200'>
       <section>
         <h1 className='stat-title'>{encounters.mapNum}</h1>
         <legend className='footer-title'>{encounters.mapGroup}</legend>
@@ -27,8 +28,26 @@ function WildEncountersComponent({ encounters }: WildEncountersProps) {
           label='Fishing'
         />
       </div>
-    </div>
+    </li>
   );
+}
+
+function getWildEncountersSearchString(encounters: WildEncounters) {
+  const monsSet = new Set<string>([
+    ...(encounters.landMonsInfo?.wildPokemon.map(
+      (mon) => pokemon[mon.species - 1].speciesName
+    ) ?? []),
+    ...(encounters.waterMonsInfo?.wildPokemon.map(
+      (mon) => pokemon[mon.species - 1].speciesName
+    ) ?? []),
+    ...(encounters.fishingMonsInfo?.wildPokemon.map(
+      (mon) => pokemon[mon.species - 1].speciesName
+    ) ?? []),
+    ...(encounters.rockSmashMonsInfo?.wildPokemon.map(
+      (mon) => pokemon[mon.species - 1].speciesName
+    ) ?? []),
+  ]);
+  return Array.from(monsSet).join(' ').toUpperCase();
 }
 
 interface EncountersGroupProps {
