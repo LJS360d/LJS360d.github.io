@@ -2,7 +2,7 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [ master ]
+    branches: [master]
   workflow_dispatch:
 
 permissions:
@@ -14,14 +14,29 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout your repository using git
+      - name: Checkout repository
         uses: actions/checkout@v3
-      - name: Install, build, and upload your site
-        uses: withastro/action@v1
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
         with:
-          path: .
           node-version: 20
-          package-manager: pnpm@latest
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: latest
+
+      - name: Install dependencies
+        run: pnpm install
+
+      - name: Build Astro site
+        run: pnpm run build
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v2
+        with:
+          path: ./dist
 
   deploy:
     needs: build
@@ -32,4 +47,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v1
+        uses: actions/deploy-pages@v2 # Updated to v2
