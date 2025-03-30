@@ -1,8 +1,12 @@
 ---
 import PokemonComponent from "../components/ui/pokemon/PokemonComponent";
-import {learnsets} from "../data";
+import PokemonSearchFilter from "../components/ui/pokemon/PokemonSearchFilter";
+import { learnsets } from "../data";
 import Layout from "../layouts/Layout.astro";
-import { getBaseMonsData, getMonAlternateForms } from "../utils/pokemon.data.utils";
+import {
+  getBaseMonsData,
+  getMonAlternateForms,
+} from "../utils/pokemon.data.utils";
 
 function getLearnset(pokemonId: number) {
   return learnsets.find((ls) => ls.species === pokemonId);
@@ -10,10 +14,12 @@ function getLearnset(pokemonId: number) {
 ---
 
 <Layout title="Pokèmon">
+  <PokemonSearchFilter client:load />
   <ul id="pokemon-list" class="list-base">
-    {getBaseMonsData().map((mon) => (
+    {
+      getBaseMonsData().map((mon) => (
         <PokemonComponent
-          client:load
+          client:visible
           pokemon={mon}
           forms={getMonAlternateForms(mon.species)}
           learnset={getLearnset(mon.id)}
@@ -24,6 +30,7 @@ function getLearnset(pokemonId: number) {
 </Layout>
 
 <script>
+  import { type PokemonFilters } from "../components/ui/pokemon/PokemonSearchFilter";
   import { updateList } from "../utils/search.utils";
   let pokemonArr: HTMLLIElement[] = [];
   document.addEventListener("DOMContentLoaded", () => {
@@ -41,9 +48,9 @@ function getLearnset(pokemonId: number) {
       });
     }, 0);
   });
-  document.addEventListener("search", (ev) =>
-    updateList(ev, pokemonArr, "data-name"),
-  );
+  document.addEventListener("search", (ev) => {
+    updateList<PokemonFilters>(ev, pokemonArr, "data-name");
+  });
 </script>
 
 <!-- <script>

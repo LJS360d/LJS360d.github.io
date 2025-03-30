@@ -18,7 +18,12 @@ function PokemonComponent({ pokemon, learnset, forms }: PokemonComponentProps) {
   const [usedForm, setUsedForm] = useState<PokemonInfo>(pokemon);
 
   return (
-    <li data-name={pokemon.species} className='grid grid-flow-row'>
+    <li
+      data-name={pokemon.species}
+      data-diffonly={!!pokemon.old}
+      data-types={JSON.stringify(pokemon.types)}
+      data-generations={JSON.stringify([pokemon.generation])}
+      className='grid grid-flow-row'>
       {/* left */}
       {forms.length > 0 && (
         <div
@@ -51,9 +56,9 @@ function PokemonComponent({ pokemon, learnset, forms }: PokemonComponentProps) {
           <div className='grid grid-flow-col gap-4'>
             <AbilitiesBar pokemon={usedForm} />
             <TypeBar pokemon={usedForm} />
-            {(!!usedForm.itemCommon || !!usedForm.itemRare) &&
+            {(!!usedForm.itemCommon || !!usedForm.itemRare) && (
               <PokemonHeldItems pokemon={usedForm} />
-            }
+            )}
           </div>
         </div>
         {learnset && <LearnsetComponent learnset={learnset} />}

@@ -88,3 +88,24 @@ export const PokemonTypeString: { [key: number]: string } = {
   [PokemonTypeEnum.TYPE_FAIRY]: 'Fairy',
   [PokemonTypeEnum.TYPE_STELLAR]: 'Stellar',
 };
+
+export const UsedPokemonTypes: { [key: number]: string } = {
+  [PokemonTypeEnum.TYPE_NORMAL]: 'Normal',
+  [PokemonTypeEnum.TYPE_FIGHTING]: 'Fighting',
+  [PokemonTypeEnum.TYPE_FLYING]: 'Flying',
+  [PokemonTypeEnum.TYPE_POISON]: 'Poison',
+  [PokemonTypeEnum.TYPE_GROUND]: 'Ground',
+  [PokemonTypeEnum.TYPE_ROCK]: 'Rock',
+  [PokemonTypeEnum.TYPE_BUG]: 'Bug',
+  [PokemonTypeEnum.TYPE_GHOST]: 'Ghost',
+  [PokemonTypeEnum.TYPE_STEEL]: 'Steel',
+  [PokemonTypeEnum.TYPE_FIRE]: 'Fire',
+  [PokemonTypeEnum.TYPE_WATER]: 'Water',
+  [PokemonTypeEnum.TYPE_GRASS]: 'Grass',
+  [PokemonTypeEnum.TYPE_ELECTRIC]: 'Electric',
+  [PokemonTypeEnum.TYPE_PSYCHIC]: 'Psychic',
+  [PokemonTypeEnum.TYPE_ICE]: 'Ice',
+  [PokemonTypeEnum.TYPE_DRAGON]: 'Dragon',
+  [PokemonTypeEnum.TYPE_DARK]: 'Dark',
+  [PokemonTypeEnum.TYPE_FAIRY]: 'Fairy',
+};
