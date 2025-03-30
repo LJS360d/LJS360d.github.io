@@ -20,7 +20,9 @@ function PokemonComponent({ pokemon, learnset, forms }: PokemonComponentProps) {
   return (
     <li
       data-name={pokemon.species}
-      data-diffonly={!!pokemon.old}
+      data-difftypes={
+        JSON.stringify(usedForm.types) !== JSON.stringify(usedForm.old?.types)
+      }
       data-types={JSON.stringify(pokemon.types)}
       data-generations={JSON.stringify([pokemon.generation])}
       className='grid grid-flow-row'>

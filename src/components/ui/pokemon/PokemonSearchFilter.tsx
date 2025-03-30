@@ -19,7 +19,7 @@ interface PokemonFiltersContext {
 }
 
 export interface PokemonFilters {
-  diffOnly: boolean;
+  diffTypes: boolean;
   types: string[];
   generations: number[];
 }
@@ -52,7 +52,7 @@ function PokemonSearchFilterContent() {
   return (
     <FiltersContext.Provider value={{ filters, setFilters }}>
       <div className='flex flex-col gap-6'>
-        {/* <PokemonDiffSelector /> */}
+        <PokemonTypesDiffSelector />
         <PokemonTypeSelector />
         {/* <PokemonGenerationSelector /> */}
       </div>
@@ -60,19 +60,19 @@ function PokemonSearchFilterContent() {
   );
 }
 
-function PokemonDiffSelector() {
+function PokemonTypesDiffSelector() {
   const { filters, setFilters } = useContext(FiltersContext);
   const toggleDiff = (diff: boolean) => {
-    setFilters((prevFilters) => ({ ...prevFilters, diffOnly: diff }));
+    setFilters((prevFilters) => ({ ...prevFilters, diffTypes: diff }));
   };
 
   return (
     <section>
       <label className='form-control gap-1'>
-        <span>Only show Pokémon with differences</span>
+        <span>Only show Pokémon with type differences</span>
         <input
           type='checkbox'
-          checked={filters.diffOnly}
+          checked={filters.diffTypes}
           className='toggle toggle-secondary'
           onChange={(e) => toggleDiff(e.target.checked)}
         />
