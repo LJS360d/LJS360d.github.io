@@ -4,7 +4,9 @@ export interface WildEncounters {
   fishingMonsInfo:   MonsInfo | null;
   landMonsInfo:      MonsInfo | null;
   rockSmashMonsInfo: MonsInfo | null;
+  hiddenMonsInfo:    MonsInfo | null;
   waterMonsInfo:     MonsInfo | null;
+  locationName:      string;
   old:              Omit<WildEncounters, "old"> | null;
 }
 

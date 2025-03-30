@@ -3,6 +3,7 @@ import type {
   MonsInfo,
   WildEncounters,
 } from '../../../data/types/wild_encounters';
+import { toCapitalized } from '../../../utils/formatting.utils';
 import PokemonIconComponent from '../shared/PokemonIcon';
 
 interface WildEncountersProps {
@@ -13,8 +14,7 @@ function WildEncountersComponent({ encounters }: WildEncountersProps) {
   return (
     <li data-search={getWildEncountersSearchString(encounters)} className='bg-base-200'>
       <section>
-        <h1 className='stat-title'>{encounters.mapNum}</h1>
-        <legend className='footer-title'>{encounters.mapGroup}</legend>
+        <h1 className='stat-title'>{toCapitalized(encounters.locationName)}</h1>
       </section>
       <div className='grid grid-flow-row'>
         <EncountersGroup monsInfo={encounters.landMonsInfo} label='Land' />
