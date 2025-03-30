@@ -38,7 +38,7 @@ export function updateList<T extends Record<string, any>>(
             if (dataArray.length === 0) {
               continue;
             }
-            shouldShow = !dataArray.some((value) => filterValue.includes(value));
+            shouldShow = !filterValue.some((v: any) => dataArray.includes(v))
 
             continue;
           }
