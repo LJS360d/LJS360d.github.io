@@ -521,7 +521,7 @@
     "category": 1,
     "criticalHitStage": 1,
     "description": "A 2-turn move that strikes the foe on the 2nd turn.",
-    "effect": 118,
+    "effect": 121,
     "flags": [
       "SLEEP_TALK_BANNED"
     ],
@@ -749,7 +749,7 @@
     "category": 0,
     "criticalHitStage": 0,
     "description": "Flies up on the first turn, then strikes the next turn.",
-    "effect": 122,
+    "effect": 125,
     "flags": [
       "SLEEP_TALK_BANNED"
     ],
@@ -1528,7 +1528,7 @@
     "additionalEffects": [
       {
         "chance": 0,
-        "moveEffect": 54,
+        "moveEffect": 53,
         "onChargeTurnOnly": false,
         "onlyIfTargetRaisedStats": false,
         "self": true
@@ -2071,7 +2071,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Psychically disables one of the foe's moves.",
-    "effect": 65,
+    "effect": 68,
     "flags": [
       "MAGIC_COAT_AFFECTED"
     ],
@@ -2461,7 +2461,7 @@
     "category": 1,
     "criticalHitStage": 0,
     "description": "Hits the foe with an icy storm that may freeze it.",
-    "effect": 341,
+    "effect": 336,
     "flags": null,
     "id": 59,
     "name": "Blizzard",
@@ -2817,7 +2817,7 @@
     "category": 0,
     "criticalHitStage": 0,
     "description": "A kick that inflicts more damage on heavier foes.",
-    "effect": 162,
+    "effect": 165,
     "flags": [
       "CONTACT"
     ],
@@ -2855,7 +2855,7 @@
     "category": 0,
     "criticalHitStage": 0,
     "description": "Retaliates any physical hit with double the power.",
-    "effect": 68,
+    "effect": 71,
     "flags": [
       "METRONOME_BANNED"
     ],
@@ -2893,7 +2893,7 @@
     "category": 0,
     "criticalHitStage": 0,
     "description": "Inflicts damage identical to the user's level.",
-    "effect": 66,
+    "effect": 69,
     "flags": [
       "SKY_BATTLE_BANNED"
     ],
@@ -3090,8 +3090,8 @@
     "additionalEffects": null,
     "category": 2,
     "criticalHitStage": 0,
-    "description": "Forces the body to grow and heightens Sp. Atk.",
-    "effect": 236,
+    "description": "Forces the body to grow, raising Attack and Sp. Atk.",
+    "effect": 239,
     "flags": [
       "SNATCH_AFFECTED"
     ],
@@ -3167,7 +3167,7 @@
     "category": 1,
     "criticalHitStage": 0,
     "description": "Absorbs light in one turn, then attacks next turn.",
-    "effect": 117,
+    "effect": 120,
     "flags": [
       "SLEEP_TALK_BANNED"
     ],
@@ -3318,7 +3318,7 @@
     "additionalEffects": [
       {
         "chance": 0,
-        "moveEffect": 54,
+        "moveEffect": 53,
         "onChargeTurnOnly": false,
         "onlyIfTargetRaisedStats": false,
         "self": true
@@ -3641,7 +3641,7 @@
     "category": 1,
     "criticalHitStage": 0,
     "description": "A lightning attack that may cause paralysis.",
-    "effect": 119,
+    "effect": 122,
     "flags": [
       "DAMAGES_AIRBORNE"
     ],
@@ -3721,7 +3721,7 @@
     "category": 0,
     "criticalHitStage": 0,
     "description": "A powerful quake, but has no effect on flying foes.",
-    "effect": 115,
+    "effect": 118,
     "flags": [
       "SKY_BATTLE_BANNED"
     ],
@@ -3797,7 +3797,7 @@
     "category": 0,
     "criticalHitStage": 0,
     "description": "Digs underground the first turn and strikes next turn.",
-    "effect": 122,
+    "effect": 125,
     "flags": [
       "SLEEP_TALK_BANNED"
     ],
@@ -4163,7 +4163,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "A psychic move for fleeing from battle instantly.",
-    "effect": 120,
+    "effect": 123,
     "flags": [
       "MIRROR_MOVE_BANNED"
     ],
@@ -4201,7 +4201,7 @@
     "category": 1,
     "criticalHitStage": 0,
     "description": "Inflicts damage identical to the user's level.",
-    "effect": 66,
+    "effect": 69,
     "flags": null,
     "id": 101,
     "name": "Night Shade",
@@ -4425,7 +4425,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Minimizes the user's size to raise evasiveness.",
-    "effect": 84,
+    "effect": 87,
     "flags": [
       "SNATCH_AFFECTED"
     ],
@@ -4577,7 +4577,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Curls up to conceal weak spots and raise Defense.",
-    "effect": 123,
+    "effect": 126,
     "flags": [
       "SNATCH_AFFECTED"
     ],
@@ -5136,7 +5136,7 @@
       "target": 0,
       "type": 4
     },
-    "power": 65,
+    "power": 60,
     "pp": 20,
     "priority": 0,
     "recoil": 0,
@@ -5609,7 +5609,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Recovers up to half the user's maximum HP.",
-    "effect": 124,
+    "effect": 127,
     "flags": [
       "SNATCH_AFFECTED"
     ],
@@ -5725,7 +5725,7 @@
     "description": "Takes one half the damage inflicted on a sleeping foe.",
     "effect": 5,
     "flags": [
-      "HEALING"
+      "IGNORES_SUBSTITUTE"
     ],
     "id": 138,
     "name": "Dream Eater",
@@ -6185,7 +6185,7 @@
     "category": 1,
     "criticalHitStage": 0,
     "description": "Attacks with a psychic wave of varying intensity.",
-    "effect": 67,
+    "effect": 70,
     "flags": null,
     "id": 149,
     "name": "Psywave",
@@ -6824,7 +6824,7 @@
     "additionalEffects": [
       {
         "chance": 0,
-        "moveEffect": 68,
+        "moveEffect": 66,
         "onChargeTurnOnly": false,
         "onlyIfTargetRaisedStats": false,
         "self": true
@@ -6833,7 +6833,7 @@
     "category": 0,
     "criticalHitStage": 0,
     "description": "Used only if all PP are gone. Also hurts the user a little.",
-    "effect": 290,
+    "effect": 292,
     "flags": [
       "SLEEP_TALK_BANNED"
     ],
@@ -6879,7 +6879,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Copies the foe's last move permanently.",
-    "effect": 74,
+    "effect": 77,
     "flags": [
       "SLEEP_TALK_BANNED"
     ],
@@ -6917,7 +6917,7 @@
     "category": 0,
     "criticalHitStage": 0,
     "description": "Kicks the foe 3 times in a row with rising intensity.",
-    "effect": 81,
+    "effect": 84,
     "flags": [
       "CONTACT"
     ],
@@ -7009,7 +7009,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Ensnares the foe to stop it from fleeing or switching.",
-    "effect": 82,
+    "effect": 85,
     "flags": [
       "MAGIC_COAT_AFFECTED"
     ],
@@ -7047,7 +7047,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Senses the foe's action to ensure the next move's hit.",
-    "effect": 73,
+    "effect": 76,
     "flags": null,
     "id": 170,
     "name": "Mind Reader",
@@ -7081,7 +7081,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Inflicts 1 4 damage on a sleeping foe every turn.",
-    "effect": 83,
+    "effect": 86,
     "flags": null,
     "id": 171,
     "name": "Nightmare",
@@ -7177,7 +7177,7 @@
     "category": 1,
     "criticalHitStage": 0,
     "description": "A loud attack that can be used only while asleep.",
-    "effect": 71,
+    "effect": 74,
     "flags": [
       "SOUND"
     ],
@@ -7223,7 +7223,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "A move that functions differently for GHOSTS.",
-    "effect": 85,
+    "effect": 88,
     "flags": [
       "MIRROR_MOVE_BANNED"
     ],
@@ -7261,7 +7261,7 @@
     "category": 0,
     "criticalHitStage": 0,
     "description": "Inflicts more damage when the user's HP is down.",
-    "effect": 77,
+    "effect": 80,
     "flags": [
       "CONTACT"
     ],
@@ -7299,7 +7299,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Makes the user resistant to the last attack's type.",
-    "effect": 72,
+    "effect": 75,
     "flags": [
       "MIRROR_MOVE_BANNED"
     ],
@@ -7328,7 +7328,7 @@
     "pp": 30,
     "priority": 0,
     "recoil": 0,
-    "target": 16,
+    "target": 0,
     "type": 1
   },
   {
@@ -7409,7 +7409,7 @@
     "category": 0,
     "criticalHitStage": 0,
     "description": "Inflicts more damage when the user's HP is down.",
-    "effect": 77,
+    "effect": 80,
     "flags": [
       "CONTACT"
     ],
@@ -7447,7 +7447,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Spitefully cuts the PP of the foe's last move.",
-    "effect": 78,
+    "effect": 81,
     "flags": [
       "MAGIC_COAT_AFFECTED"
     ],
@@ -7535,7 +7535,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Evades attack, but may fail if used in succession.",
-    "effect": 87,
+    "effect": 90,
     "flags": [
       "METRONOME_BANNED"
     ],
@@ -7725,7 +7725,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Maximizes Attack while sacrificing HP.",
-    "effect": 112,
+    "effect": 115,
     "flags": [
       "SNATCH_AFFECTED"
     ],
@@ -7921,7 +7921,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Sets spikes that hurt a  foe switching in.",
-    "effect": 88,
+    "effect": 91,
     "flags": [
       "SKY_BATTLE_BANNED"
     ],
@@ -8013,7 +8013,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Negates the foe's efforts to heighten evasiveness.",
-    "effect": 89,
+    "effect": 92,
     "flags": [
       "MAGIC_COAT_AFFECTED"
     ],
@@ -8051,7 +8051,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "If the user faints, the foe is also made to faint.",
-    "effect": 76,
+    "effect": 79,
     "flags": [
       "MIRROR_MOVE_BANNED"
     ],
@@ -8089,7 +8089,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Any Pokémon hearing this song faints in 3 turns.",
-    "effect": 90,
+    "effect": 93,
     "flags": [
       "SOUND"
     ],
@@ -8177,7 +8177,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Evades attack, but may fail if used in succession.",
-    "effect": 87,
+    "effect": 90,
     "flags": [
       "MIRROR_MOVE_BANNED"
     ],
@@ -8249,7 +8249,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Locks on to the foe to ensure the next move hits.",
-    "effect": 73,
+    "effect": 76,
     "flags": null,
     "id": 199,
     "name": "Lock-On",
@@ -8282,7 +8282,7 @@
     "additionalEffects": [
       {
         "chance": 0,
-        "moveEffect": 54,
+        "moveEffect": 53,
         "onChargeTurnOnly": false,
         "onlyIfTargetRaisedStats": false,
         "self": true
@@ -8337,7 +8337,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Causes a sandstorm that rages for several turns.",
-    "effect": 91,
+    "effect": 94,
     "flags": [
       "MIRROR_MOVE_BANNED"
     ],
@@ -8413,7 +8413,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Endures any attack for 1 turn, leaving at least 1HP.",
-    "effect": 92,
+    "effect": 95,
     "flags": [
       "MIRROR_MOVE_BANNED"
     ],
@@ -8489,7 +8489,7 @@
     "category": 0,
     "criticalHitStage": 0,
     "description": "An attack lasting 5 turns with rising intensity.",
-    "effect": 93,
+    "effect": 96,
     "flags": [
       "PARENTAL_BOND_BANNED"
     ],
@@ -8527,7 +8527,7 @@
     "category": 0,
     "criticalHitStage": 0,
     "description": "An attack that leaves the foe with at least 1 HP.",
-    "effect": 79,
+    "effect": 82,
     "flags": [
       "CONTACT"
     ],
@@ -8565,7 +8565,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Confuses the foe, but also sharply raises Attack.",
-    "effect": 94,
+    "effect": 97,
     "flags": [
       "MAGIC_COAT_AFFECTED"
     ],
@@ -8603,7 +8603,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Recovers up to half the user's maximum HP.",
-    "effect": 124,
+    "effect": 127,
     "flags": [
       "SNATCH_AFFECTED"
     ],
@@ -8695,7 +8695,7 @@
     "category": 0,
     "criticalHitStage": 0,
     "description": "An attack that intensifies on each successive hit.",
-    "effect": 95,
+    "effect": 98,
     "flags": [
       "SLICING"
     ],
@@ -8787,7 +8787,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Fixes the foe with a mean look that prevents escape.",
-    "effect": 82,
+    "effect": 85,
     "flags": [
       "MAGIC_COAT_AFFECTED"
     ],
@@ -8825,7 +8825,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Makes the opposite gender less likely to attack.",
-    "effect": 96,
+    "effect": 99,
     "flags": [
       "MAGIC_COAT_AFFECTED"
     ],
@@ -8863,7 +8863,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Uses an available move randomly while asleep.",
-    "effect": 75,
+    "effect": 78,
     "flags": [
       "SLEEP_TALK_BANNED"
     ],
@@ -8901,7 +8901,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Chimes soothingly to heal all status abnormalities.",
-    "effect": 80,
+    "effect": 83,
     "flags": [
       "SOUND"
     ],
@@ -8939,7 +8939,7 @@
     "category": 0,
     "criticalHitStage": 0,
     "description": "An attack that increases in power with friendship.",
-    "effect": 97,
+    "effect": 100,
     "flags": [
       "CONTACT"
     ],
@@ -8977,7 +8977,7 @@
     "category": 0,
     "criticalHitStage": 0,
     "description": "A gift in the form of a bomb. May restore HP.",
-    "effect": 98,
+    "effect": 101,
     "flags": null,
     "id": 217,
     "name": "Present",
@@ -9011,7 +9011,7 @@
     "category": 0,
     "criticalHitStage": 0,
     "description": "An attack that is stronger if the Trainer is disliked.",
-    "effect": 99,
+    "effect": 102,
     "flags": [
       "CONTACT"
     ],
@@ -9049,7 +9049,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "A mystical force prevents all status problems.",
-    "effect": 100,
+    "effect": 103,
     "flags": [
       "SNATCH_AFFECTED"
     ],
@@ -9087,7 +9087,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Adds the user and foe's HP, then shares them equally.",
-    "effect": 70,
+    "effect": 73,
     "flags": null,
     "id": 220,
     "name": "Pain Split",
@@ -9175,7 +9175,7 @@
     "category": 0,
     "criticalHitStage": 0,
     "description": "A ground-shaking attack of random intensity.",
-    "effect": 101,
+    "effect": 104,
     "flags": [
       "SKY_BATTLE_BANNED"
     ],
@@ -9355,7 +9355,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Switches out the user while keeping effects in play.",
-    "effect": 102,
+    "effect": 105,
     "flags": [
       "MIRROR_MOVE_BANNED"
     ],
@@ -9393,7 +9393,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Makes the foe repeat its last move over 2 to 6 turns.",
-    "effect": 69,
+    "effect": 72,
     "flags": [
       "MAGIC_COAT_AFFECTED"
     ],
@@ -9431,7 +9431,7 @@
     "category": 0,
     "criticalHitStage": 0,
     "description": "Inflicts bad damage if used on a foe switching out.",
-    "effect": 103,
+    "effect": 106,
     "flags": [
       "CONTACT"
     ],
@@ -9467,13 +9467,6 @@
     "accuracy": 100,
     "additionalEffects": [
       {
-        "chance": 0,
-        "moveEffect": 36,
-        "onChargeTurnOnly": false,
-        "onlyIfTargetRaisedStats": false,
-        "self": true
-      },
-      {
         "chance": 100,
         "moveEffect": 17,
         "onChargeTurnOnly": false,
@@ -9484,7 +9477,7 @@
     "category": 0,
     "criticalHitStage": 0,
     "description": "Spins the body at high speed to strike the foe.",
-    "effect": 1,
+    "effect": 350,
     "flags": [
       "CONTACT"
     ],
@@ -9714,7 +9707,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Restores HP. The amount varies with the weather.",
-    "effect": 105,
+    "effect": 108,
     "flags": [
       "SNATCH_AFFECTED"
     ],
@@ -9752,7 +9745,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Restores HP. The amount varies with the weather.",
-    "effect": 106,
+    "effect": 109,
     "flags": [
       "SNATCH_AFFECTED"
     ],
@@ -9790,7 +9783,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Restores HP. The amount varies with the weather.",
-    "effect": 107,
+    "effect": 110,
     "flags": [
       "SNATCH_AFFECTED"
     ],
@@ -9828,7 +9821,7 @@
     "category": 1,
     "criticalHitStage": 0,
     "description": "The effectiveness varies with the user.",
-    "effect": 108,
+    "effect": 111,
     "flags": null,
     "id": 237,
     "name": "Hidden Power",
@@ -9954,7 +9947,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Boosts the power of Water- type moves for 5 turns.",
-    "effect": 109,
+    "effect": 112,
     "flags": [
       "MIRROR_MOVE_BANNED"
     ],
@@ -9992,7 +9985,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Boosts the power of Fire- type moves for 5 turns.",
-    "effect": 110,
+    "effect": 113,
     "flags": [
       "MIRROR_MOVE_BANNED"
     ],
@@ -10084,7 +10077,7 @@
     "category": 1,
     "criticalHitStage": 0,
     "description": "Counters the foe's special attack at double the power.",
-    "effect": 114,
+    "effect": 117,
     "flags": [
       "MIRROR_MOVE_BANNED"
     ],
@@ -10122,7 +10115,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Copies the foe's effect s  and gives to the user.",
-    "effect": 113,
+    "effect": 116,
     "flags": [
       "MIRROR_MOVE_BANNED"
     ],
@@ -10302,7 +10295,7 @@
     "category": 1,
     "criticalHitStage": 0,
     "description": "Heightens inner power to strike 2 turns later.",
-    "effect": 116,
+    "effect": 119,
     "flags": [
       "MIRROR_MOVE_BANNED"
     ],
@@ -10448,7 +10441,7 @@
     "category": 0,
     "criticalHitStage": 0,
     "description": "Summons party Pokémon to join in the attack.",
-    "effect": 121,
+    "effect": 124,
     "flags": null,
     "id": 251,
     "name": "Beat Up",
@@ -10490,7 +10483,7 @@
     "category": 0,
     "criticalHitStage": 0,
     "description": "A 1st-turn, 1st-strike move that causes flinching.",
-    "effect": 125,
+    "effect": 128,
     "flags": [
       "CONTACT"
     ],
@@ -10544,7 +10537,7 @@
     "category": 1,
     "criticalHitStage": 0,
     "description": "Causes an uproar for 2 to 5 turns and prevents sleep.",
-    "effect": 126,
+    "effect": 129,
     "flags": [
       "SOUND"
     ],
@@ -10590,7 +10583,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Charges up power for up to 3 turns.",
-    "effect": 127,
+    "effect": 130,
     "flags": [
       "SNATCH_AFFECTED"
     ],
@@ -10628,7 +10621,7 @@
     "category": 1,
     "criticalHitStage": 0,
     "description": "Releases stockpiled power  the more the better .",
-    "effect": 128,
+    "effect": 131,
     "flags": [
       "MIRROR_MOVE_BANNED"
     ],
@@ -10666,7 +10659,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Absorbs stockpiled power and restores HP.",
-    "effect": 129,
+    "effect": 132,
     "flags": [
       "SNATCH_AFFECTED"
     ],
@@ -10754,7 +10747,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Summons a hailstorm that strikes every turn.",
-    "effect": 131,
+    "effect": 134,
     "flags": [
       "MIRROR_MOVE_BANNED"
     ],
@@ -10792,7 +10785,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Torments the foe and stops successive use of a move.",
-    "effect": 132,
+    "effect": 135,
     "flags": [
       "MAGIC_COAT_AFFECTED"
     ],
@@ -10830,7 +10823,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Confuses the foe, but raises its Sp. Atk.",
-    "effect": 133,
+    "effect": 136,
     "flags": [
       "MAGIC_COAT_AFFECTED"
     ],
@@ -10868,7 +10861,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Inflicts a burn on the foe with intense fire.",
-    "effect": 134,
+    "effect": 137,
     "flags": [
       "MAGIC_COAT_AFFECTED"
     ],
@@ -10906,7 +10899,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "The user faints and lowers the foe's abilities.",
-    "effect": 135,
+    "effect": 138,
     "flags": null,
     "id": 262,
     "name": "Memento",
@@ -10940,7 +10933,7 @@
     "category": 0,
     "criticalHitStage": 0,
     "description": "Boosts Attack when burned, paralyzed, or poisoned.",
-    "effect": 136,
+    "effect": 139,
     "flags": [
       "CONTACT"
     ],
@@ -10978,7 +10971,7 @@
     "category": 0,
     "criticalHitStage": 0,
     "description": "A powerful loyalty attack. The user flinches if hit.",
-    "effect": 137,
+    "effect": 140,
     "flags": [
       "SLEEP_TALK_BANNED"
     ],
@@ -11015,7 +11008,7 @@
     "additionalEffects": [
       {
         "chance": 0,
-        "moveEffect": 37,
+        "moveEffect": 36,
         "onChargeTurnOnly": false,
         "onlyIfTargetRaisedStats": false,
         "self": false
@@ -11024,7 +11017,7 @@
     "category": 0,
     "criticalHitStage": 0,
     "description": "Powerful against paralyzed foes, but also heals them.",
-    "effect": 138,
+    "effect": 141,
     "flags": [
       "CONTACT"
     ],
@@ -11070,7 +11063,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Draws attention to make foes attack only the user.",
-    "effect": 139,
+    "effect": 142,
     "flags": [
       "MIRROR_MOVE_BANNED"
     ],
@@ -11108,7 +11101,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "The type of attack varies depending on the location.",
-    "effect": 140,
+    "effect": 143,
     "flags": [
       "SLEEP_TALK_BANNED"
     ],
@@ -11146,7 +11139,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Charges power to boost the electric move used next.",
-    "effect": 141,
+    "effect": 144,
     "flags": [
       "SNATCH_AFFECTED"
     ],
@@ -11184,7 +11177,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Taunts the foe into only using attack moves.",
-    "effect": 142,
+    "effect": 145,
     "flags": [
       "MAGIC_COAT_AFFECTED"
     ],
@@ -11222,7 +11215,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Boosts the power of the recipient's moves.",
-    "effect": 143,
+    "effect": 146,
     "flags": [
       "MIRROR_MOVE_BANNED"
     ],
@@ -11260,7 +11253,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Tricks the foe into trading held items.",
-    "effect": 144,
+    "effect": 147,
     "flags": [
       "METRONOME_BANNED"
     ],
@@ -11298,7 +11291,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Mimics the target and copies its special ability.",
-    "effect": 145,
+    "effect": 148,
     "flags": [
       "MIRROR_MOVE_BANNED"
     ],
@@ -11336,7 +11329,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "A wish that restores HP. It takes time to work.",
-    "effect": 146,
+    "effect": 149,
     "flags": [
       "SNATCH_AFFECTED"
     ],
@@ -11374,7 +11367,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Attacks randomly with one of the partner's moves.",
-    "effect": 147,
+    "effect": 150,
     "flags": [
       "SLEEP_TALK_BANNED"
     ],
@@ -11412,7 +11405,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Lays roots that restore HP. The user can't switch out.",
-    "effect": 148,
+    "effect": 151,
     "flags": [
       "SNATCH_AFFECTED"
     ],
@@ -11449,7 +11442,7 @@
     "additionalEffects": [
       {
         "chance": 0,
-        "moveEffect": 38,
+        "moveEffect": 37,
         "onChargeTurnOnly": false,
         "onlyIfTargetRaisedStats": false,
         "self": true
@@ -11504,7 +11497,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Reflects special effects back to the attacker.",
-    "effect": 149,
+    "effect": 152,
     "flags": [
       "MIRROR_MOVE_BANNED"
     ],
@@ -11542,7 +11535,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Recycles a used item for one more use.",
-    "effect": 150,
+    "effect": 153,
     "flags": [
       "SNATCH_AFFECTED"
     ],
@@ -11580,7 +11573,7 @@
     "category": 0,
     "criticalHitStage": 0,
     "description": "An attack that gains power if injured by the foe.",
-    "effect": 151,
+    "effect": 154,
     "flags": [
       "CONTACT"
     ],
@@ -11618,7 +11611,7 @@
     "category": 0,
     "criticalHitStage": 0,
     "description": "Destroys barriers such as REFLECT and causes damage.",
-    "effect": 152,
+    "effect": 155,
     "flags": [
       "CONTACT"
     ],
@@ -11656,7 +11649,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Lulls the foe into yawning, then sleeping next turn.",
-    "effect": 153,
+    "effect": 156,
     "flags": [
       "MAGIC_COAT_AFFECTED"
     ],
@@ -11693,7 +11686,7 @@
     "additionalEffects": [
       {
         "chance": 0,
-        "moveEffect": 55,
+        "moveEffect": 54,
         "onChargeTurnOnly": false,
         "onlyIfTargetRaisedStats": false,
         "self": false
@@ -11702,7 +11695,7 @@
     "category": 0,
     "criticalHitStage": 0,
     "description": "Knocks down the foe's held item to prevent its use.",
-    "effect": 154,
+    "effect": 157,
     "flags": [
       "CONTACT"
     ],
@@ -11748,7 +11741,7 @@
     "category": 0,
     "criticalHitStage": 0,
     "description": "Gains power if the user's HP is lower than the foe's HP.",
-    "effect": 155,
+    "effect": 158,
     "flags": [
       "PARENTAL_BOND_BANNED"
     ],
@@ -11786,7 +11779,7 @@
     "category": 1,
     "criticalHitStage": 0,
     "description": "The higher the user's HP, the more damage caused.",
-    "effect": 156,
+    "effect": 159,
     "flags": null,
     "id": 284,
     "name": "Eruption",
@@ -11820,7 +11813,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "The user swaps special abilities with the target.",
-    "effect": 157,
+    "effect": 160,
     "flags": [
       "IGNORES_SUBSTITUTE"
     ],
@@ -11858,7 +11851,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Prevents foes from using moves known by the user.",
-    "effect": 158,
+    "effect": 161,
     "flags": [
       "SNATCH_AFFECTED"
     ],
@@ -11896,7 +11889,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Heals poisoning, paralysis, or a burn.",
-    "effect": 159,
+    "effect": 162,
     "flags": [
       "SNATCH_AFFECTED"
     ],
@@ -11934,7 +11927,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "If the user faints, deletes all PP of foe's last move.",
-    "effect": 160,
+    "effect": 163,
     "flags": [
       "MIRROR_MOVE_BANNED"
     ],
@@ -11972,7 +11965,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Steals the effects of the move the target uses next.",
-    "effect": 161,
+    "effect": 164,
     "flags": [
       "METRONOME_BANNED"
     ],
@@ -12009,7 +12002,7 @@
     "additionalEffects": [
       {
         "chance": 30,
-        "moveEffect": 77,
+        "moveEffect": 75,
         "onChargeTurnOnly": false,
         "onlyIfTargetRaisedStats": false,
         "self": false
@@ -12060,7 +12053,7 @@
     "category": 0,
     "criticalHitStage": 0,
     "description": "Dives underwater the first turn and strikes next turn.",
-    "effect": 122,
+    "effect": 125,
     "flags": [
       "SLEEP_TALK_BANNED"
     ],
@@ -12136,7 +12129,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Alters the Pokémon's type depending on the location.",
-    "effect": 172,
+    "effect": 175,
     "flags": [
       "SNATCH_AFFECTED"
     ],
@@ -12442,7 +12435,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Covers the user in mud to raise electrical resistance.",
-    "effect": 164,
+    "effect": 167,
     "flags": [
       "SKY_BATTLE_BANNED"
     ],
@@ -12480,7 +12473,7 @@
     "category": 0,
     "criticalHitStage": 0,
     "description": "A 5-turn attack that gains power on successive hits.",
-    "effect": 93,
+    "effect": 96,
     "flags": [
       "PARENTAL_BOND_BANNED"
     ],
@@ -12964,7 +12957,7 @@
     "category": 1,
     "criticalHitStage": 0,
     "description": "The move's type and power change with the weather.",
-    "effect": 165,
+    "effect": 168,
     "flags": [
       "BALLISTIC"
     ],
@@ -13002,7 +12995,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Heals all status problems with a soothing scent.",
-    "effect": 80,
+    "effect": 83,
     "flags": [
       "SNATCH_AFFECTED"
     ],
@@ -13115,7 +13108,7 @@
     "additionalEffects": [
       {
         "chance": 0,
-        "moveEffect": 49,
+        "moveEffect": 48,
         "onChargeTurnOnly": false,
         "onlyIfTargetRaisedStats": false,
         "self": true
@@ -13166,7 +13159,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Negates the foe's efforts to heighten evasiveness.",
-    "effect": 89,
+    "effect": 92,
     "flags": [
       "MAGIC_COAT_AFFECTED"
     ],
@@ -13380,7 +13373,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Makes the foe laugh to lower Attack and Defense.",
-    "effect": 166,
+    "effect": 169,
     "flags": [
       "MAGIC_COAT_AFFECTED"
     ],
@@ -13418,7 +13411,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Raises Defense and Sp. Def with a mystic power.",
-    "effect": 167,
+    "effect": 170,
     "flags": [
       "SNATCH_AFFECTED"
     ],
@@ -13456,7 +13449,7 @@
     "category": 1,
     "criticalHitStage": 0,
     "description": "Inflicts more damage if the user's HP is high.",
-    "effect": 156,
+    "effect": 159,
     "flags": null,
     "id": 323,
     "name": "Water Spout",
@@ -13954,7 +13947,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Blocks the foe's way to prevent escape.",
-    "effect": 82,
+    "effect": 85,
     "flags": [
       "MAGIC_COAT_AFFECTED"
     ],
@@ -13992,7 +13985,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Howls to raise the spirit and boosts Attack.",
-    "effect": 321,
+    "effect": 317,
     "flags": [
       "SOUND"
     ],
@@ -14030,7 +14023,7 @@
     "category": 0,
     "criticalHitStage": 0,
     "description": "Slashes the foe with sharp claws.",
-    "effect": 191,
+    "effect": 194,
     "flags": [
       "CONTACT"
     ],
@@ -14122,7 +14115,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Bulks up the body to boost both Attack and Defense.",
-    "effect": 168,
+    "effect": 171,
     "flags": [
       "SNATCH_AFFECTED"
     ],
@@ -14168,7 +14161,7 @@
     "category": 0,
     "criticalHitStage": 0,
     "description": "Bounces up, then down the next turn. May paralyze.",
-    "effect": 122,
+    "effect": 125,
     "flags": [
       "SLEEP_TALK_BANNED"
     ],
@@ -14460,7 +14453,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "The user becomes soaked to raise resistance to fire.",
-    "effect": 169,
+    "effect": 172,
     "flags": [
       "SKY_BATTLE_BANNED"
     ],
@@ -14498,7 +14491,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Raises Sp. Atk and Sp. Def by focusing the mind.",
-    "effect": 170,
+    "effect": 173,
     "flags": [
       "SNATCH_AFFECTED"
     ],
@@ -14574,7 +14567,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "A mystical dance that ups Attack and Speed.",
-    "effect": 171,
+    "effect": 174,
     "flags": [
       "SNATCH_AFFECTED"
     ],
@@ -14738,7 +14731,7 @@
     "category": 1,
     "criticalHitStage": 0,
     "description": "Summons strong sunlight to attack 2 turns later.",
-    "effect": 116,
+    "effect": 119,
     "flags": [
       "MIRROR_MOVE_BANNED"
     ],
@@ -14775,7 +14768,7 @@
     "additionalEffects": [
       {
         "chance": 0,
-        "moveEffect": 49,
+        "moveEffect": 48,
         "onChargeTurnOnly": false,
         "onlyIfTargetRaisedStats": false,
         "self": true
@@ -14826,7 +14819,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Restores the user's HP by half of its max HP.",
-    "effect": 193,
+    "effect": 196,
     "flags": [
       "SNATCH_AFFECTED"
     ],
@@ -14864,7 +14857,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Gravity is intensified negating levitation.",
-    "effect": 194,
+    "effect": 197,
     "flags": [
       "SKY_BATTLE_BANNED"
     ],
@@ -14902,7 +14895,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Negate evasiveness and Dark-type's immunities.",
-    "effect": 195,
+    "effect": 198,
     "flags": [
       "MAGIC_COAT_AFFECTED"
     ],
@@ -14939,7 +14932,7 @@
     "additionalEffects": [
       {
         "chance": 0,
-        "moveEffect": 37,
+        "moveEffect": 36,
         "onChargeTurnOnly": false,
         "onlyIfTargetRaisedStats": false,
         "self": false
@@ -14948,7 +14941,7 @@
     "category": 0,
     "criticalHitStage": 0,
     "description": "Powerful against sleeping foes, but also heals them.",
-    "effect": 138,
+    "effect": 141,
     "flags": [
       "CONTACT"
     ],
@@ -15048,7 +15041,7 @@
     "category": 0,
     "criticalHitStage": 0,
     "description": "A high-speed spin that does more damage to faster foes.",
-    "effect": 184,
+    "effect": 187,
     "flags": [
       "CONTACT"
     ],
@@ -15086,7 +15079,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "The user faints to heal up the recipient.",
-    "effect": 86,
+    "effect": 89,
     "flags": [
       "SNATCH_AFFECTED"
     ],
@@ -15124,7 +15117,7 @@
     "category": 1,
     "criticalHitStage": 0,
     "description": "Does double damage to foes with half HP.",
-    "effect": 188,
+    "effect": 191,
     "flags": null,
     "id": 362,
     "name": "Brine",
@@ -15158,7 +15151,7 @@
     "category": 0,
     "criticalHitStage": 0,
     "description": "The effectiveness varies with the held Berry.",
-    "effect": 175,
+    "effect": 178,
     "flags": null,
     "id": 363,
     "name": "Natural Gift",
@@ -15191,7 +15184,7 @@
     "additionalEffects": [
       {
         "chance": 0,
-        "moveEffect": 60,
+        "moveEffect": 59,
         "onChargeTurnOnly": false,
         "onlyIfTargetRaisedStats": false,
         "self": false
@@ -15245,7 +15238,7 @@
     "additionalEffects": [
       {
         "chance": 0,
-        "moveEffect": 67,
+        "moveEffect": 65,
         "onChargeTurnOnly": false,
         "onlyIfTargetRaisedStats": false,
         "self": false
@@ -15300,7 +15293,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Whips up a turbulent breeze that raises Speed.",
-    "effect": 196,
+    "effect": 199,
     "flags": [
       "SNATCH_AFFECTED"
     ],
@@ -15338,7 +15331,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "The user sharply raises one of its stats.",
-    "effect": 262,
+    "effect": 265,
     "flags": [
       "MIRROR_MOVE_BANNED"
     ],
@@ -15376,7 +15369,7 @@
     "category": 0,
     "criticalHitStage": 0,
     "description": "Retaliates any hit with greater power.",
-    "effect": 213,
+    "effect": 216,
     "flags": [
       "ME_FIRST_BANNED"
     ],
@@ -15414,7 +15407,7 @@
     "category": 0,
     "criticalHitStage": 0,
     "description": "Does damage then switches out the user.",
-    "effect": 163,
+    "effect": 166,
     "flags": [
       "CONTACT"
     ],
@@ -15451,7 +15444,7 @@
     "additionalEffects": [
       {
         "chance": 0,
-        "moveEffect": 56,
+        "moveEffect": 55,
         "onChargeTurnOnly": false,
         "onlyIfTargetRaisedStats": false,
         "self": true
@@ -15506,7 +15499,7 @@
     "category": 0,
     "criticalHitStage": 0,
     "description": "An attack that gains power if the user moves last.",
-    "effect": 186,
+    "effect": 189,
     "flags": [
       "CONTACT"
     ],
@@ -15544,7 +15537,7 @@
     "category": 0,
     "criticalHitStage": 0,
     "description": "An attack that gains power if the foe has been hurt.",
-    "effect": 177,
+    "effect": 180,
     "flags": [
       "CONTACT"
     ],
@@ -15582,7 +15575,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Prevents the foe from using any items.",
-    "effect": 197,
+    "effect": 200,
     "flags": [
       "MAGIC_COAT_AFFECTED"
     ],
@@ -15620,7 +15613,7 @@
     "category": 0,
     "criticalHitStage": 0,
     "description": "The effectiveness varies with the held item.",
-    "effect": 174,
+    "effect": 177,
     "flags": [
       "PARENTAL_BOND_BANNED"
     ],
@@ -15658,7 +15651,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Transfers status problems to the foe.",
-    "effect": 252,
+    "effect": 255,
     "flags": null,
     "id": 375,
     "name": "Psycho Shift",
@@ -15692,7 +15685,7 @@
     "category": 1,
     "criticalHitStage": 0,
     "description": "The less PP the move has the more damage it does.",
-    "effect": 178,
+    "effect": 181,
     "flags": [
       "CONTACT"
     ],
@@ -15768,7 +15761,7 @@
     "category": 1,
     "criticalHitStage": 0,
     "description": "The higher the foe's HP the more damage caused.",
-    "effect": 176,
+    "effect": 179,
     "flags": [
       "CONTACT"
     ],
@@ -15793,7 +15786,7 @@
       "target": 0,
       "type": 1
     },
-    "power": 1,
+    "power": 120,
     "pp": 5,
     "priority": 0,
     "recoil": 0,
@@ -15806,7 +15799,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "The user swaps its Attack and Defense stats.",
-    "effect": 253,
+    "effect": 256,
     "flags": [
       "SNATCH_AFFECTED"
     ],
@@ -15844,7 +15837,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Stomach acid suppresses the foe's ability.",
-    "effect": 204,
+    "effect": 207,
     "flags": [
       "MAGIC_COAT_AFFECTED"
     ],
@@ -15882,7 +15875,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Prevents the foe from landing critical hits.",
-    "effect": 214,
+    "effect": 217,
     "flags": [
       "SNATCH_AFFECTED"
     ],
@@ -15920,7 +15913,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Executes the foe's attack with greater power.",
-    "effect": 230,
+    "effect": 233,
     "flags": [
       "SLEEP_TALK_BANNED"
     ],
@@ -15949,7 +15942,7 @@
     "pp": 20,
     "priority": 0,
     "recoil": 0,
-    "target": 0,
+    "target": 2,
     "type": 1
   },
   {
@@ -15958,7 +15951,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "The user mimics the last move used by a foe.",
-    "effect": 248,
+    "effect": 251,
     "flags": [
       "SLEEP_TALK_BANNED"
     ],
@@ -15996,7 +15989,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Swaps changes to Attack and Sp. Atk with the foe.",
-    "effect": 207,
+    "effect": 210,
     "flags": [
       "IGNORES_SUBSTITUTE"
     ],
@@ -16034,7 +16027,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Swaps changes to Defense and Sp. Def with the foe.",
-    "effect": 208,
+    "effect": 211,
     "flags": [
       "IGNORES_SUBSTITUTE"
     ],
@@ -16072,7 +16065,7 @@
     "category": 0,
     "criticalHitStage": 0,
     "description": "Does more damage if the foe has powered up.",
-    "effect": 181,
+    "effect": 184,
     "flags": [
       "CONTACT"
     ],
@@ -16110,7 +16103,7 @@
     "category": 0,
     "criticalHitStage": 0,
     "description": "Can only be used if every other move has been used.",
-    "effect": 237,
+    "effect": 240,
     "flags": [
       "CONTACT"
     ],
@@ -16148,7 +16141,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Plants a seed on the foe giving it Insomnia.",
-    "effect": 130,
+    "effect": 133,
     "flags": [
       "MAGIC_COAT_AFFECTED"
     ],
@@ -16186,7 +16179,7 @@
     "category": 0,
     "criticalHitStage": 0,
     "description": "Strikes first if the foe is preparing an attack.",
-    "effect": 215,
+    "effect": 218,
     "flags": [
       "CONTACT"
     ],
@@ -16224,7 +16217,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Sets spikes that poison a foe switching in.",
-    "effect": 203,
+    "effect": 206,
     "flags": [
       "SKY_BATTLE_BANNED"
     ],
@@ -16262,7 +16255,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Swaps any stat changes with the foe.",
-    "effect": 209,
+    "effect": 212,
     "flags": [
       "IGNORES_SUBSTITUTE"
     ],
@@ -16300,7 +16293,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Forms a veil of water that restores HP.",
-    "effect": 198,
+    "effect": 201,
     "flags": [
       "SNATCH_AFFECTED"
     ],
@@ -16338,7 +16331,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "The user levitates with electromagnetism.",
-    "effect": 202,
+    "effect": 205,
     "flags": [
       "SNATCH_AFFECTED"
     ],
@@ -17326,7 +17319,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Swaps items with the foe faster than the eye can see.",
-    "effect": 144,
+    "effect": 147,
     "flags": [
       "METRONOME_BANNED"
     ],
@@ -17494,7 +17487,7 @@
     "category": 0,
     "criticalHitStage": 0,
     "description": "An attack that gains power if injured by the foe.",
-    "effect": 151,
+    "effect": 154,
     "flags": [
       "CONTACT"
     ],
@@ -18146,7 +18139,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Removes obstacles and lowers evasion.",
-    "effect": 249,
+    "effect": 252,
     "flags": [
       "MAGIC_COAT_AFFECTED"
     ],
@@ -18184,7 +18177,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Slower Pokémon get to move first for 5 turns.",
-    "effect": 199,
+    "effect": 202,
     "flags": [
       "IGNORES_PROTECT"
     ],
@@ -18221,7 +18214,7 @@
     "additionalEffects": [
       {
         "chance": 0,
-        "moveEffect": 49,
+        "moveEffect": 48,
         "onChargeTurnOnly": false,
         "onlyIfTargetRaisedStats": false,
         "self": true
@@ -18371,7 +18364,7 @@
     "additionalEffects": [
       {
         "chance": 0,
-        "moveEffect": 49,
+        "moveEffect": 48,
         "onChargeTurnOnly": false,
         "onlyIfTargetRaisedStats": false,
         "self": true
@@ -18744,7 +18737,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Makes the opposite gender sharply reduce its Sp. Atk.",
-    "effect": 104,
+    "effect": 107,
     "flags": [
       "MAGIC_COAT_AFFECTED"
     ],
@@ -18782,7 +18775,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Sets floating stones that hurt a foe switching in.",
-    "effect": 205,
+    "effect": 208,
     "flags": [
       "MIRROR_MOVE_BANNED"
     ],
@@ -18820,7 +18813,7 @@
     "category": 1,
     "criticalHitStage": 0,
     "description": "A snare attack that does more damage to heavier foes.",
-    "effect": 162,
+    "effect": 165,
     "flags": [
       "SKY_BATTLE_BANNED"
     ],
@@ -18912,7 +18905,7 @@
     "category": 1,
     "criticalHitStage": 0,
     "description": "The type varies with the kind of Plate held.",
-    "effect": 246,
+    "effect": 249,
     "flags": null,
     "id": 449,
     "name": "Judgment",
@@ -18945,7 +18938,7 @@
     "additionalEffects": [
       {
         "chance": 0,
-        "moveEffect": 67,
+        "moveEffect": 65,
         "onChargeTurnOnly": false,
         "onlyIfTargetRaisedStats": false,
         "self": false
@@ -19160,7 +19153,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Raises Defense and Sp. Def with a living shield.",
-    "effect": 167,
+    "effect": 170,
     "flags": [
       "SNATCH_AFFECTED"
     ],
@@ -19311,7 +19304,7 @@
     "additionalEffects": [
       {
         "chance": 0,
-        "moveEffect": 49,
+        "moveEffect": 48,
         "onChargeTurnOnly": false,
         "onlyIfTargetRaisedStats": false,
         "self": true
@@ -19396,7 +19389,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "The user faints to heal up the recipient.",
-    "effect": 86,
+    "effect": 89,
     "flags": [
       "SNATCH_AFFECTED"
     ],
@@ -19434,7 +19427,7 @@
     "category": 0,
     "criticalHitStage": 0,
     "description": "The higher the foe's HP the more damage caused.",
-    "effect": 176,
+    "effect": 179,
     "flags": [
       "CONTACT"
     ],
@@ -19459,7 +19452,7 @@
       "target": 0,
       "type": 1
     },
-    "power": 1,
+    "power": 120,
     "pp": 5,
     "priority": 0,
     "recoil": 0,
@@ -19522,7 +19515,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Drags the foe into total darkness, inducing Sleep.",
-    "effect": 318,
+    "effect": 314,
     "flags": [
       "MAGIC_COAT_AFFECTED"
     ],
@@ -19559,7 +19552,7 @@
     "additionalEffects": [
       {
         "chance": 40,
-        "moveEffect": 50,
+        "moveEffect": 49,
         "onChargeTurnOnly": false,
         "onlyIfTargetRaisedStats": false,
         "self": false
@@ -19659,7 +19652,7 @@
     "additionalEffects": [
       {
         "chance": 0,
-        "moveEffect": 60,
+        "moveEffect": 59,
         "onChargeTurnOnly": false,
         "onlyIfTargetRaisedStats": false,
         "self": false
@@ -19668,7 +19661,7 @@
     "category": 0,
     "criticalHitStage": 0,
     "description": "Vanishes on the first turn then strikes the next turn.",
-    "effect": 122,
+    "effect": 125,
     "flags": [
       "SLEEP_TALK_BANNED"
     ],
@@ -19714,7 +19707,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Sharpens its claws to raise Attack and Accuracy.",
-    "effect": 227,
+    "effect": 230,
     "flags": [
       "SNATCH_AFFECTED"
     ],
@@ -19752,7 +19745,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Evades wide-ranging attacks for one turn.",
-    "effect": 87,
+    "effect": 90,
     "flags": [
       "SNATCH_AFFECTED"
     ],
@@ -19790,7 +19783,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Averages changes to Defense and Sp. Def with the foe.",
-    "effect": 211,
+    "effect": 214,
     "flags": [
       "MIRROR_MOVE_BANNED"
     ],
@@ -19828,7 +19821,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Averages changes to Attack and Sp. Atk with the foe.",
-    "effect": 210,
+    "effect": 213,
     "flags": [
       "MIRROR_MOVE_BANNED"
     ],
@@ -19866,7 +19859,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Defense and Sp. Def stats are swapped for 5 turns.",
-    "effect": 200,
+    "effect": 203,
     "flags": [
       "IGNORES_PROTECT"
     ],
@@ -19904,7 +19897,7 @@
     "category": 1,
     "criticalHitStage": 0,
     "description": "Attacks with a psychic wave that does physical damage.",
-    "effect": 191,
+    "effect": 194,
     "flags": null,
     "id": 473,
     "name": "Psyshock",
@@ -19938,7 +19931,7 @@
     "category": 1,
     "criticalHitStage": 0,
     "description": "Does double damage if the foe is poisoned.",
-    "effect": 138,
+    "effect": 141,
     "flags": null,
     "id": 474,
     "name": "Venoshock",
@@ -19972,7 +19965,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Sheds additional weight to sharply boost Speed.",
-    "effect": 247,
+    "effect": 250,
     "flags": [
       "SNATCH_AFFECTED"
     ],
@@ -20010,7 +20003,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Scatters powder to make foes attack only the user.",
-    "effect": 139,
+    "effect": 142,
     "flags": [
       "POWDER"
     ],
@@ -20048,7 +20041,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Makes the foe float. It is easier to hit for 3 turns.",
-    "effect": 206,
+    "effect": 209,
     "flags": [
       "MAGIC_COAT_AFFECTED"
     ],
@@ -20086,7 +20079,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Hold items lose their effects for 5 turns.",
-    "effect": 201,
+    "effect": 204,
     "flags": [
       "IGNORES_PROTECT"
     ],
@@ -20123,7 +20116,7 @@
     "additionalEffects": [
       {
         "chance": 0,
-        "moveEffect": 58,
+        "moveEffect": 57,
         "onChargeTurnOnly": false,
         "onlyIfTargetRaisedStats": false,
         "self": false
@@ -20215,7 +20208,7 @@
     "additionalEffects": [
       {
         "chance": 0,
-        "moveEffect": 59,
+        "moveEffect": 58,
         "onChargeTurnOnly": false,
         "onlyIfTargetRaisedStats": false,
         "self": true
@@ -20316,7 +20309,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Dances to raise Sp. Atk Sp. Def and Speed.",
-    "effect": 231,
+    "effect": 234,
     "flags": [
       "SNATCH_AFFECTED"
     ],
@@ -20354,7 +20347,7 @@
     "category": 0,
     "criticalHitStage": 0,
     "description": "Does more damage if the user outweighs the foe.",
-    "effect": 180,
+    "effect": 183,
     "flags": [
       "SKY_BATTLE_BANNED"
     ],
@@ -20392,7 +20385,7 @@
     "category": 1,
     "criticalHitStage": 0,
     "description": "An odd shock wave that only damages same-type foes.",
-    "effect": 251,
+    "effect": 254,
     "flags": null,
     "id": 485,
     "name": "Synchronoise",
@@ -20426,7 +20419,7 @@
     "category": 1,
     "criticalHitStage": 0,
     "description": "Hurls an orb that does more damage to slower foes.",
-    "effect": 183,
+    "effect": 186,
     "flags": [
       "BALLISTIC"
     ],
@@ -20464,7 +20457,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Sprays water at the foe making it Water-type.",
-    "effect": 235,
+    "effect": 238,
     "flags": [
       "MAGIC_COAT_AFFECTED"
     ],
@@ -20555,8 +20548,8 @@
     "additionalEffects": null,
     "category": 2,
     "criticalHitStage": 0,
-    "description": "Coils up to raise Attack Defense and Accuracy.",
-    "effect": 232,
+    "description": "Coils up to raise Attack, Defense and Accuracy.",
+    "effect": 235,
     "flags": [
       "SNATCH_AFFECTED"
     ],
@@ -20647,7 +20640,7 @@
     "additionalEffects": [
       {
         "chance": 100,
-        "moveEffect": 47,
+        "moveEffect": 46,
         "onChargeTurnOnly": false,
         "onlyIfTargetRaisedStats": false,
         "self": false
@@ -20702,7 +20695,7 @@
     "category": 0,
     "criticalHitStage": 0,
     "description": "The higher the foe's Attack the more damage caused.",
-    "effect": 190,
+    "effect": 193,
     "flags": [
       "CONTACT"
     ],
@@ -20740,7 +20733,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "A beam that changes the foe's ability to Simple.",
-    "effect": 216,
+    "effect": 219,
     "flags": [
       "MAGIC_COAT_AFFECTED"
     ],
@@ -20778,7 +20771,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Makes the foe mimic the user, gaining its ability.",
-    "effect": 217,
+    "effect": 220,
     "flags": [
       "MAGIC_COAT_AFFECTED"
     ],
@@ -20816,7 +20809,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Helps out the foe, letting it move next.",
-    "effect": 254,
+    "effect": 257,
     "flags": [
       "MIRROR_MOVE_BANNED"
     ],
@@ -20853,7 +20846,7 @@
     "additionalEffects": [
       {
         "chance": 0,
-        "moveEffect": 70,
+        "moveEffect": 68,
         "onChargeTurnOnly": false,
         "onlyIfTargetRaisedStats": false,
         "self": false
@@ -20862,7 +20855,7 @@
     "category": 1,
     "criticalHitStage": 0,
     "description": "A song that inflicts damage. Others can join in too.",
-    "effect": 187,
+    "effect": 190,
     "flags": [
       "SOUND"
     ],
@@ -20908,7 +20901,7 @@
     "category": 1,
     "criticalHitStage": 0,
     "description": "Does more damage every turn it is used.",
-    "effect": 185,
+    "effect": 188,
     "flags": [
       "SOUND"
     ],
@@ -20983,7 +20976,7 @@
     "additionalEffects": [
       {
         "chance": 0,
-        "moveEffect": 57,
+        "moveEffect": 56,
         "onChargeTurnOnly": false,
         "onlyIfTargetRaisedStats": false,
         "self": false
@@ -21034,7 +21027,7 @@
     "category": 1,
     "criticalHitStage": 0,
     "description": "The higher the user's stats the more damage caused.",
-    "effect": 182,
+    "effect": 185,
     "flags": null,
     "id": 500,
     "name": "Stored Power",
@@ -21068,7 +21061,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Evades priority attacks for one turn.",
-    "effect": 87,
+    "effect": 90,
     "flags": [
       "SNATCH_AFFECTED"
     ],
@@ -21106,7 +21099,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "The user switches places with its partner.",
-    "effect": 279,
+    "effect": 282,
     "flags": [
       "MIRROR_MOVE_BANNED"
     ],
@@ -21198,7 +21191,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Raises offensive stats, but lowers defensive stats.",
-    "effect": 238,
+    "effect": 241,
     "flags": [
       "SNATCH_AFFECTED"
     ],
@@ -21236,7 +21229,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Recovers up to half the target's maximum HP.",
-    "effect": 218,
+    "effect": 221,
     "flags": [
       "PULSE"
     ],
@@ -21274,7 +21267,7 @@
     "category": 1,
     "criticalHitStage": 0,
     "description": "Does double damage if the foe has a status problem.",
-    "effect": 138,
+    "effect": 141,
     "flags": null,
     "id": 506,
     "name": "Hex",
@@ -21308,7 +21301,7 @@
     "category": 0,
     "criticalHitStage": 0,
     "description": "Takes the foe into the sky then drops it the next turn.",
-    "effect": 309,
+    "effect": 305,
     "flags": [
       "SLEEP_TALK_BANNED"
     ],
@@ -21346,7 +21339,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Rotates its gears to raise Attack and Speed.",
-    "effect": 239,
+    "effect": 242,
     "flags": [
       "SNATCH_AFFECTED"
     ],
@@ -21384,7 +21377,7 @@
     "category": 0,
     "criticalHitStage": 0,
     "description": "Knocks the foe away to end the battle.",
-    "effect": 244,
+    "effect": 247,
     "flags": [
       "COPYCAT_BANNED"
     ],
@@ -21421,7 +21414,7 @@
     "additionalEffects": [
       {
         "chance": 0,
-        "moveEffect": 66,
+        "moveEffect": 64,
         "onChargeTurnOnly": false,
         "onlyIfTargetRaisedStats": false,
         "self": false
@@ -21472,7 +21465,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Suppresses the foe, making it move last.",
-    "effect": 219,
+    "effect": 222,
     "flags": [
       "METRONOME_BANNED"
     ],
@@ -21510,7 +21503,7 @@
     "category": 0,
     "criticalHitStage": 0,
     "description": "Does double damage if the user has no item.",
-    "effect": 179,
+    "effect": 182,
     "flags": [
       "CONTACT"
     ],
@@ -21548,7 +21541,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "The user reflects the foe's type, copying it.",
-    "effect": 234,
+    "effect": 237,
     "flags": [
       "MIRROR_MOVE_BANNED"
     ],
@@ -21586,7 +21579,7 @@
     "category": 0,
     "criticalHitStage": 0,
     "description": "An attack that does more damage if an ally fainted.",
-    "effect": 189,
+    "effect": 192,
     "flags": [
       "CONTACT"
     ],
@@ -21624,7 +21617,7 @@
     "category": 1,
     "criticalHitStage": 0,
     "description": "The user faints to damage the foe equal to its HP.",
-    "effect": 245,
+    "effect": 248,
     "flags": [
       "PARENTAL_BOND_BANNED"
     ],
@@ -21662,7 +21655,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "The user gives its held item to the foe.",
-    "effect": 255,
+    "effect": 258,
     "flags": [
       "METRONOME_BANNED"
     ],
@@ -21750,7 +21743,7 @@
     "category": 1,
     "criticalHitStage": 0,
     "description": "Attacks with a column of water. May make a rainbow.",
-    "effect": 173,
+    "effect": 176,
     "flags": [
       "SKY_BATTLE_BANNED"
     ],
@@ -21788,7 +21781,7 @@
     "category": 1,
     "criticalHitStage": 0,
     "description": "Attacks with a column of fire. May burn the grass.",
-    "effect": 173,
+    "effect": 176,
     "flags": [
       "SKY_BATTLE_BANNED"
     ],
@@ -21826,7 +21819,7 @@
     "category": 1,
     "criticalHitStage": 0,
     "description": "Attacks with a column of grass. May create a swamp.",
-    "effect": 173,
+    "effect": 176,
     "flags": [
       "SKY_BATTLE_BANNED"
     ],
@@ -21864,7 +21857,7 @@
     "category": 1,
     "criticalHitStage": 0,
     "description": "Does damage then switches out the user.",
-    "effect": 163,
+    "effect": 166,
     "flags": null,
     "id": 521,
     "name": "Volt Switch",
@@ -21956,7 +21949,7 @@
     "category": 0,
     "criticalHitStage": 0,
     "description": "Stomps down on the ground. Lowers Speed.",
-    "effect": 115,
+    "effect": 118,
     "flags": [
       "SKY_BATTLE_BANNED"
     ],
@@ -22040,7 +22033,7 @@
     "category": 0,
     "criticalHitStage": 0,
     "description": "Knocks the foe away to end the battle.",
-    "effect": 244,
+    "effect": 247,
     "flags": [
       "COPYCAT_BANNED"
     ],
@@ -22078,7 +22071,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "The user is roused. Ups Attack and Sp. Atk.",
-    "effect": 228,
+    "effect": 231,
     "flags": [
       "SNATCH_AFFECTED"
     ],
@@ -22464,7 +22457,7 @@
     "category": 0,
     "criticalHitStage": 0,
     "description": "Does more damage if the user outweighs the foe.",
-    "effect": 180,
+    "effect": 183,
     "flags": [
       "MINIMIZE_DOUBLE_DAMAGE"
     ],
@@ -22606,7 +22599,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Wraps its body in cotton. Drastically raises Defense.",
-    "effect": 240,
+    "effect": 243,
     "flags": [
       "SNATCH_AFFECTED"
     ],
@@ -22694,7 +22687,7 @@
     "category": 1,
     "criticalHitStage": 0,
     "description": "Attacks with a psychic wave that does physical damage.",
-    "effect": 191,
+    "effect": 194,
     "flags": null,
     "id": 540,
     "name": "Psystrike",
@@ -22774,7 +22767,7 @@
     "category": 1,
     "criticalHitStage": 0,
     "description": "Traps the foe in a fierce wind. May cause confusion.",
-    "effect": 119,
+    "effect": 122,
     "flags": [
       "DAMAGES_AIRBORNE"
     ],
@@ -22950,7 +22943,7 @@
     "category": 1,
     "criticalHitStage": 0,
     "description": "The type varies with the kind of Drive held.",
-    "effect": 246,
+    "effect": 249,
     "flags": [
       "METRONOME_BANNED"
     ],
@@ -22996,7 +22989,7 @@
     "category": 1,
     "criticalHitStage": 0,
     "description": "Attacks with an ancient song. May induce sleep.",
-    "effect": 280,
+    "effect": 283,
     "flags": [
       "SOUND"
     ],
@@ -23042,7 +23035,7 @@
     "category": 1,
     "criticalHitStage": 0,
     "description": "Cuts with a long horn that does physical damage.",
-    "effect": 192,
+    "effect": 195,
     "flags": [
       "SLICING"
     ],
@@ -23495,7 +23488,7 @@
     "additionalEffects": [
       {
         "chance": 0,
-        "moveEffect": 62,
+        "moveEffect": 60,
         "onChargeTurnOnly": false,
         "onlyIfTargetRaisedStats": false,
         "self": true
@@ -23622,7 +23615,7 @@
     "category": 0,
     "criticalHitStage": 0,
     "description": "This attack does Fighting and Flying-type damage.",
-    "effect": 229,
+    "effect": 232,
     "flags": [
       "SKY_BATTLE_BANNED"
     ],
@@ -23660,7 +23653,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Evades damaging moves for one turn.",
-    "effect": 267,
+    "effect": 270,
     "flags": [
       "SNATCH_AFFECTED"
     ],
@@ -23698,7 +23691,7 @@
     "category": 1,
     "criticalHitStage": 0,
     "description": "Lets out a loud belch. Must eat a Berry to use it.",
-    "effect": 265,
+    "effect": 268,
     "flags": [
       "SLEEP_TALK_BANNED"
     ],
@@ -23736,7 +23729,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Ups the Attack and Sp. Atk of Grass-type Pokémon.",
-    "effect": 256,
+    "effect": 259,
     "flags": [
       "SKY_BATTLE_BANNED"
     ],
@@ -23774,7 +23767,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Weaves a sticky net that slows foes switching in.",
-    "effect": 212,
+    "effect": 215,
     "flags": [
       "SKY_BATTLE_BANNED"
     ],
@@ -23812,7 +23805,7 @@
     "category": 0,
     "criticalHitStage": 0,
     "description": "If it knocks out a foe the Attack stat is raised.",
-    "effect": 111,
+    "effect": 114,
     "flags": [
       "CONTACT"
     ],
@@ -23849,7 +23842,7 @@
     "additionalEffects": [
       {
         "chance": 0,
-        "moveEffect": 60,
+        "moveEffect": 59,
         "onChargeTurnOnly": false,
         "onlyIfTargetRaisedStats": false,
         "self": false
@@ -23858,7 +23851,7 @@
     "category": 0,
     "criticalHitStage": 0,
     "description": "Vanishes on the first turn then strikes the next turn.",
-    "effect": 122,
+    "effect": 125,
     "flags": [
       "SLEEP_TALK_BANNED"
     ],
@@ -23904,7 +23897,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Goes trick-or-treating making the foe Ghost-type.",
-    "effect": 261,
+    "effect": 264,
     "flags": [
       "MAGIC_COAT_AFFECTED"
     ],
@@ -23942,7 +23935,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Intimidates the foe, to cut Attack and Sp. Atk.",
-    "effect": 241,
+    "effect": 244,
     "flags": [
       "SOUND"
     ],
@@ -23980,7 +23973,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Electrifies Normal-type moves with charged atoms.",
-    "effect": 220,
+    "effect": 223,
     "flags": [
       "MIRROR_MOVE_BANNED"
     ],
@@ -24056,7 +24049,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Puts a curse on the foe making the foe Grass-type.",
-    "effect": 261,
+    "effect": 264,
     "flags": [
       "MAGIC_COAT_AFFECTED"
     ],
@@ -24136,7 +24129,7 @@
     "category": 1,
     "criticalHitStage": 0,
     "description": "Super effective on Water- types. May cause freezing.",
-    "effect": 221,
+    "effect": 224,
     "flags": null,
     "id": 573,
     "name": "Freeze-Dry",
@@ -24216,7 +24209,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Lowers the foe's Attack and Sp. Atk, then switches out.",
-    "effect": 266,
+    "effect": 269,
     "flags": [
       "SOUND"
     ],
@@ -24254,7 +24247,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Swaps all stat changes that affect the target.",
-    "effect": 222,
+    "effect": 225,
     "flags": [
       "MAGIC_COAT_AFFECTED"
     ],
@@ -24330,7 +24323,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Evades status moves for one turn.",
-    "effect": 87,
+    "effect": 90,
     "flags": [
       "MIRROR_MOVE_BANNED"
     ],
@@ -24368,7 +24361,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Raises the Defense of Grass-type Pokémon.",
-    "effect": 257,
+    "effect": 260,
     "flags": [
       "MIRROR_MOVE_BANNED"
     ],
@@ -24406,7 +24399,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "The ground turns to grass for 5 turns. Restores HP.",
-    "effect": 224,
+    "effect": 227,
     "flags": [
       "SKY_BATTLE_BANNED"
     ],
@@ -24444,7 +24437,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Covers the ground with mist for 5 turns. Blocks status.",
-    "effect": 223,
+    "effect": 226,
     "flags": [
       "SKY_BATTLE_BANNED"
     ],
@@ -24482,7 +24475,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Electrifies the foe, making its next move Electric-type.",
-    "effect": 233,
+    "effect": 236,
     "flags": null,
     "id": 582,
     "name": "Electrify",
@@ -24700,7 +24693,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Locks down the battlefield preventing escape next turn.",
-    "effect": 278,
+    "effect": 281,
     "flags": [
       "IGNORES_SUBSTITUTE"
     ],
@@ -24738,7 +24731,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Evades damage, and sharply reduces Attack if struck.",
-    "effect": 87,
+    "effect": 90,
     "flags": [
       "MIRROR_MOVE_BANNED"
     ],
@@ -24851,7 +24844,7 @@
     "additionalEffects": [
       {
         "chance": 50,
-        "moveEffect": 40,
+        "moveEffect": 39,
         "onChargeTurnOnly": false,
         "onlyIfTargetRaisedStats": false,
         "self": true
@@ -24959,7 +24952,7 @@
     "additionalEffects": [
       {
         "chance": 0,
-        "moveEffect": 60,
+        "moveEffect": 59,
         "onChargeTurnOnly": false,
         "onlyIfTargetRaisedStats": false,
         "self": false
@@ -24973,7 +24966,7 @@
       "METRONOME_BANNED"
     ],
     "id": 593,
-    "name": "Hyprspace Hole",
+    "name": "Hyperspace Hole",
     "old": {
       "accuracy": 0,
       "additionalEffects": [
@@ -25098,7 +25091,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Evades attack, and damages the foe if struck.",
-    "effect": 87,
+    "effect": 90,
     "flags": [
       "MIRROR_MOVE_BANNED"
     ],
@@ -25136,7 +25129,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Raises the Sp. Def of a partner Pokémon.",
-    "effect": 263,
+    "effect": 266,
     "flags": [
       "MIRROR_MOVE_BANNED"
     ],
@@ -25212,7 +25205,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Lowers the Attack, Sp. Atk and Speed of a poisoned foe.",
-    "effect": 242,
+    "effect": 245,
     "flags": [
       "MAGIC_COAT_AFFECTED"
     ],
@@ -25250,7 +25243,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Damages the foe if it uses a Fire-type move.",
-    "effect": 264,
+    "effect": 267,
     "flags": [
       "POWDER"
     ],
@@ -25288,7 +25281,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Raises Sp. Atk, Sp. Def and Speed on the 2nd turn.",
-    "effect": 277,
+    "effect": 280,
     "flags": [
       "SLEEP_TALK_BANNED"
     ],
@@ -25326,7 +25319,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Boosts the defenses of those with Plus or Minus.",
-    "effect": 271,
+    "effect": 274,
     "flags": [
       "SNATCH_AFFECTED"
     ],
@@ -25364,7 +25357,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Doubles the amount of Prize Money received.",
-    "effect": 64,
+    "effect": 67,
     "flags": [
       "MIRROR_MOVE_BANNED"
     ],
@@ -25402,7 +25395,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Electrifies the ground for 5 turns. Prevents sleep.",
-    "effect": 225,
+    "effect": 228,
     "flags": [
       "SKY_BATTLE_BANNED"
     ],
@@ -25474,7 +25467,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Congratulates you on your special day.",
-    "effect": 64,
+    "effect": 66,
     "flags": [
       "SLEEP_TALK_BANNED"
     ],
@@ -25512,7 +25505,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "The user and ally hold hands making them happy.",
-    "effect": 64,
+    "effect": 65,
     "flags": [
       "SLEEP_TALK_BANNED"
     ],
@@ -25595,7 +25588,7 @@
     ],
     "category": 0,
     "criticalHitStage": 0,
-    "description": "Rubs its cheecks against the foe, paralyzing it.",
+    "description": "Rubs its cheeks against the foe, paralyzing it.",
     "effect": 1,
     "flags": [
       "CONTACT"
@@ -25642,7 +25635,7 @@
     "category": 0,
     "criticalHitStage": 0,
     "description": "An attack that leaves the foe with at least 1 HP.",
-    "effect": 79,
+    "effect": 82,
     "flags": [
       "CONTACT"
     ],
@@ -25825,7 +25818,7 @@
     "additionalEffects": [
       {
         "chance": 0,
-        "moveEffect": 58,
+        "moveEffect": 57,
         "onChargeTurnOnly": false,
         "onlyIfTargetRaisedStats": false,
         "self": false
@@ -26085,7 +26078,7 @@
     "additionalEffects": [
       {
         "chance": 0,
-        "moveEffect": 56,
+        "moveEffect": 55,
         "onChargeTurnOnly": false,
         "onlyIfTargetRaisedStats": false,
         "self": true
@@ -26148,7 +26141,7 @@
     "category": 0,
     "criticalHitStage": 0,
     "description": "Uses a warp hole to attack. Can't be evaded.",
-    "effect": 299,
+    "effect": 295,
     "flags": [
       "METRONOME_BANNED"
     ],
@@ -26194,7 +26187,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Restores the user's HP. More HP in a sandstorm.",
-    "effect": 276,
+    "effect": 279,
     "flags": [
       "SNATCH_AFFECTED"
     ],
@@ -26232,7 +26225,7 @@
     "category": 0,
     "criticalHitStage": 0,
     "description": "Hits hard and first. Only works first turn.",
-    "effect": 125,
+    "effect": 128,
     "flags": [
       "CONTACT"
     ],
@@ -26270,7 +26263,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Protects user and poisons foes on contact.",
-    "effect": 87,
+    "effect": 90,
     "flags": [
       "MIRROR_MOVE_BANNED"
     ],
@@ -26395,7 +26388,7 @@
     "additionalEffects": [
       {
         "chance": 100,
-        "moveEffect": 37,
+        "moveEffect": 36,
         "onChargeTurnOnly": false,
         "onlyIfTargetRaisedStats": false,
         "self": false
@@ -26504,7 +26497,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Restores an ally's HP. Heals more on grass.",
-    "effect": 218,
+    "effect": 221,
     "flags": [
       "MIRROR_MOVE_BANNED"
     ],
@@ -26580,7 +26573,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Saps the foe's Attack to heal HP, then drops Attack.",
-    "effect": 273,
+    "effect": 276,
     "flags": [
       "MAGIC_COAT_AFFECTED"
     ],
@@ -26618,7 +26611,7 @@
     "category": 0,
     "criticalHitStage": 0,
     "description": "Charges first turn, then chops with a blade of light.",
-    "effect": 117,
+    "effect": 120,
     "flags": [
       "SLICING"
     ],
@@ -26690,7 +26683,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Makes the foe attack the spotlighted Pokémon.",
-    "effect": 139,
+    "effect": 142,
     "flags": [
       "MIRROR_MOVE_BANNED"
     ],
@@ -26728,7 +26721,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Attacks with a thread that poisons and drops Speed.",
-    "effect": 243,
+    "effect": 246,
     "flags": [
       "MAGIC_COAT_AFFECTED"
     ],
@@ -26766,7 +26759,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Guarantees the next move will be a critical hit.",
-    "effect": 270,
+    "effect": 273,
     "flags": [
       "SNATCH_AFFECTED"
     ],
@@ -26804,7 +26797,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Boosts the attacks of those with Plus or Minus.",
-    "effect": 272,
+    "effect": 275,
     "flags": [
       "SNATCH_AFFECTED"
     ],
@@ -26841,7 +26834,7 @@
     "additionalEffects": [
       {
         "chance": 100,
-        "moveEffect": 65,
+        "moveEffect": 63,
         "onChargeTurnOnly": false,
         "onlyIfTargetRaisedStats": false,
         "self": false
@@ -26896,7 +26889,7 @@
     "category": 1,
     "criticalHitStage": 0,
     "description": "Explodes on foes, but restores ally's HP.",
-    "effect": 250,
+    "effect": 253,
     "flags": [
       "BALLISTIC"
     ],
@@ -26988,7 +26981,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "The ground turns weird for 5 turns. Blocks priority.",
-    "effect": 226,
+    "effect": 229,
     "flags": [
       "MIRROR_MOVE_BANNED"
     ],
@@ -27134,7 +27127,7 @@
     "category": 0,
     "criticalHitStage": 0,
     "description": "It hits harder the more stat boosts the user has.",
-    "effect": 182,
+    "effect": 185,
     "flags": [
       "CONTACT"
     ],
@@ -27180,7 +27173,7 @@
     "category": 1,
     "criticalHitStage": 0,
     "description": "Burns out the user fully removing the Fire type.",
-    "effect": 275,
+    "effect": 278,
     "flags": [
       "THAWS_USER"
     ],
@@ -27226,7 +27219,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Swaps user's Speed with the target's.",
-    "effect": 258,
+    "effect": 261,
     "flags": [
       "IGNORES_SUBSTITUTE"
     ],
@@ -27302,7 +27295,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Cures the foe's status to restore HP.",
-    "effect": 274,
+    "effect": 277,
     "flags": [
       "MIRROR_MOVE_BANNED"
     ],
@@ -27340,7 +27333,7 @@
     "category": 1,
     "criticalHitStage": 0,
     "description": "Dances with mystical power. Matches user's first type.",
-    "effect": 259,
+    "effect": 262,
     "flags": null,
     "id": 649,
     "name": "Revelation Dance",
@@ -27373,7 +27366,7 @@
     "additionalEffects": [
       {
         "chance": 0,
-        "moveEffect": 64,
+        "moveEffect": 62,
         "onChargeTurnOnly": false,
         "onlyIfTargetRaisedStats": false,
         "self": false
@@ -27478,7 +27471,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Orders the target to use its last move again.",
-    "effect": 269,
+    "effect": 272,
     "flags": [
       "MIRROR_MOVE_BANNED"
     ],
@@ -27516,7 +27509,7 @@
     "category": 0,
     "criticalHitStage": 0,
     "description": "Heats up beak to attack. Burns foe on contact.",
-    "effect": 312,
+    "effect": 308,
     "flags": [
       "SLEEP_TALK_BANNED"
     ],
@@ -27684,7 +27677,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Weakens all attacks, but only usable with hail.",
-    "effect": 260,
+    "effect": 263,
     "flags": [
       "SNATCH_AFFECTED"
     ],
@@ -27722,7 +27715,7 @@
     "category": 1,
     "criticalHitStage": 0,
     "description": "Sets a shell trap that damages on contact.",
-    "effect": 322,
+    "effect": 318,
     "flags": [
       "SLEEP_TALK_BANNED"
     ],
@@ -27759,7 +27752,7 @@
     "additionalEffects": [
       {
         "chance": 0,
-        "moveEffect": 49,
+        "moveEffect": 48,
         "onChargeTurnOnly": false,
         "onlyIfTargetRaisedStats": false,
         "self": true
@@ -27814,7 +27807,7 @@
     "category": 0,
     "criticalHitStage": 0,
     "description": "Chomps with psychic fangs. Destroys any barriers.",
-    "effect": 152,
+    "effect": 155,
     "flags": [
       "CONTACT"
     ],
@@ -27852,7 +27845,7 @@
     "category": 0,
     "criticalHitStage": 0,
     "description": "Stomps around angrily. Stronger after a failure.",
-    "effect": 268,
+    "effect": 271,
     "flags": [
       "SKY_BATTLE_BANNED"
     ],
@@ -28078,19 +28071,11 @@
   },
   {
     "accuracy": 100,
-    "additionalEffects": [
-      {
-        "chance": 0,
-        "moveEffect": 61,
-        "onChargeTurnOnly": false,
-        "onlyIfTargetRaisedStats": false,
-        "self": false
-      }
-    ],
+    "additionalEffects": null,
     "category": 0,
     "criticalHitStage": 0,
     "description": "Steals the target's stat boosts, then attacks.",
-    "effect": 1,
+    "effect": 351,
     "flags": [
       "METRONOME_BANNED"
     ],
@@ -28204,7 +28189,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "The user tears up, dropping Attack and Sp. Attack.",
-    "effect": 241,
+    "effect": 244,
     "flags": [
       "MAGIC_COAT_AFFECTED"
     ],
@@ -28334,7 +28319,7 @@
     "category": 0,
     "criticalHitStage": 0,
     "description": "An attack that changes with Memories.",
-    "effect": 246,
+    "effect": 249,
     "flags": [
       "CONTACT"
     ],
@@ -28372,7 +28357,7 @@
     "category": 1,
     "criticalHitStage": 0,
     "description": "It explodes the user's head to damage everything around.",
-    "effect": 315,
+    "effect": 311,
     "flags": [
       "METRONOME_BANNED"
     ],
@@ -28406,11 +28391,19 @@
   },
   {
     "accuracy": 100,
-    "additionalEffects": null,
+    "additionalEffects": [
+      {
+        "chance": 100,
+        "moveEffect": 79,
+        "onChargeTurnOnly": false,
+        "onlyIfTargetRaisedStats": false,
+        "self": false
+      }
+    ],
     "category": 0,
     "criticalHitStage": 0,
-    "description": "Hits with electrical fists. Normal moves become Electric.",
-    "effect": 298,
+    "description": "Hits with electrical fists. Normal moves turn Electric.",
+    "effect": 1,
     "flags": [
       "METRONOME_BANNED"
     ],
@@ -28456,7 +28449,7 @@
     "category": 1,
     "criticalHitStage": 0,
     "description": "User's highest attack stat determines its category.",
-    "effect": 301,
+    "effect": 297,
     "flags": [
       "METRONOME_BANNED"
     ],
@@ -28656,7 +28649,7 @@
     "category": 1,
     "criticalHitStage": 0,
     "description": "Pikachu's love increases its power. It never misses.",
-    "effect": 97,
+    "effect": 100,
     "flags": [
       "METRONOME_BANNED"
     ],
@@ -28836,11 +28829,19 @@
   },
   {
     "accuracy": 95,
-    "additionalEffects": null,
+    "additionalEffects": [
+      {
+        "chance": 100,
+        "moveEffect": 83,
+        "onChargeTurnOnly": false,
+        "onlyIfTargetRaisedStats": false,
+        "self": false
+      }
+    ],
     "category": 1,
     "criticalHitStage": 0,
     "description": "Telekinetic force that sets wall, lowering Sp. Atk damage.",
-    "effect": 293,
+    "effect": 1,
     "flags": [
       "METRONOME_BANNED"
     ],
@@ -28882,11 +28883,19 @@
   },
   {
     "accuracy": 95,
-    "additionalEffects": null,
+    "additionalEffects": [
+      {
+        "chance": 100,
+        "moveEffect": 82,
+        "onChargeTurnOnly": false,
+        "onlyIfTargetRaisedStats": false,
+        "self": false
+      }
+    ],
     "category": 1,
     "criticalHitStage": 0,
     "description": "Acting badly, attacks. Sets wall, lowering Attack damage.",
-    "effect": 294,
+    "effect": 1,
     "flags": [
       "METRONOME_BANNED"
     ],
@@ -28928,11 +28937,19 @@
   },
   {
     "accuracy": 90,
-    "additionalEffects": null,
+    "additionalEffects": [
+      {
+        "chance": 100,
+        "moveEffect": 81,
+        "onChargeTurnOnly": false,
+        "onlyIfTargetRaisedStats": false,
+        "self": false
+      }
+    ],
     "category": 0,
     "criticalHitStage": 0,
     "description": "Giant stalk scatters seeds that drain HP every turn.",
-    "effect": 295,
+    "effect": 1,
     "flags": [
       "METRONOME_BANNED"
     ],
@@ -28974,11 +28991,19 @@
   },
   {
     "accuracy": 90,
-    "additionalEffects": null,
+    "additionalEffects": [
+      {
+        "chance": 100,
+        "moveEffect": 80,
+        "onChargeTurnOnly": false,
+        "onlyIfTargetRaisedStats": false,
+        "self": false
+      }
+    ],
     "category": 1,
     "criticalHitStage": 0,
     "description": "Crystal from cold haze hits. Eliminates all stat changes.",
-    "effect": 296,
+    "effect": 1,
     "flags": [
       "METRONOME_BANNED"
     ],
@@ -29020,11 +29045,19 @@
   },
   {
     "accuracy": 85,
-    "additionalEffects": null,
+    "additionalEffects": [
+      {
+        "chance": 100,
+        "moveEffect": 125,
+        "onChargeTurnOnly": false,
+        "onlyIfTargetRaisedStats": false,
+        "self": false
+      }
+    ],
     "category": 1,
     "criticalHitStage": 0,
     "description": "Wrap foe with whirlwind of scent. Heals party's status.",
-    "effect": 297,
+    "effect": 1,
     "flags": [
       "METRONOME_BANNED"
     ],
@@ -29070,7 +29103,7 @@
     "category": 0,
     "criticalHitStage": 0,
     "description": "Eevee's love increases its power. It never misses.",
-    "effect": 97,
+    "effect": 100,
     "flags": [
       "METRONOME_BANNED"
     ],
@@ -29161,8 +29194,8 @@
     "additionalEffects": null,
     "category": 1,
     "criticalHitStage": 0,
-    "description": "Fires a strong beam. Deals 2x damage to Dynamaxed foes.",
-    "effect": 287,
+    "description": "Unleashes core energy. 2x against Dynamaxed foes.",
+    "effect": 289,
     "flags": [
       "SLEEP_TALK_BANNED"
     ],
@@ -29200,7 +29233,7 @@
     "category": 1,
     "criticalHitStage": 1,
     "description": "The user ignores effects that draw in moves.",
-    "effect": 289,
+    "effect": 291,
     "flags": null,
     "id": 691,
     "name": "Snipe Shot",
@@ -29233,7 +29266,7 @@
     "additionalEffects": [
       {
         "chance": 0,
-        "moveEffect": 69,
+        "moveEffect": 67,
         "onChargeTurnOnly": false,
         "onlyIfTargetRaisedStats": false,
         "self": false
@@ -29288,7 +29321,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Consumes the user's Berry, then sharply raises Def.",
-    "effect": 291,
+    "effect": 293,
     "flags": [
       "SNATCH_AFFECTED"
     ],
@@ -29326,7 +29359,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Raises all of the user's stats but prevents escape.",
-    "effect": 303,
+    "effect": 299,
     "flags": [
       "SNATCH_AFFECTED"
     ],
@@ -29364,7 +29397,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Lowers the foe's Speed and makes it weak to Fire.",
-    "effect": 304,
+    "effect": 300,
     "flags": [
       "MAGIC_COAT_AFFECTED"
     ],
@@ -29402,7 +29435,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Magic powder changes the target into a Psychic-type.",
-    "effect": 235,
+    "effect": 238,
     "flags": [
       "POWDER"
     ],
@@ -29440,7 +29473,7 @@
     "category": 0,
     "criticalHitStage": 0,
     "description": "The user attacks twice. Two targets are hit once each.",
-    "effect": 351,
+    "effect": 346,
     "flags": [
       "PARENTAL_BOND_BANNED"
     ],
@@ -29478,7 +29511,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "All Pokémon have teatime and eat their Berries.",
-    "effect": 320,
+    "effect": 316,
     "flags": [
       "MIRROR_MOVE_BANNED"
     ],
@@ -29515,8 +29548,8 @@
     "additionalEffects": null,
     "category": 2,
     "criticalHitStage": 0,
-    "description": "Traps the foe to lower Def and Sp. Def fall each turn.",
-    "effect": 306,
+    "description": "Traps the foe to lower Def and Sp. Def each turn.",
+    "effect": 302,
     "flags": null,
     "id": 699,
     "name": "Octolock",
@@ -29550,7 +29583,7 @@
     "category": 0,
     "criticalHitStage": 0,
     "description": "Double power if the user moves before the target.",
-    "effect": 308,
+    "effect": 304,
     "flags": [
       "CONTACT"
     ],
@@ -29588,7 +29621,7 @@
     "category": 0,
     "criticalHitStage": 0,
     "description": "Double power if the user moves before the target.",
-    "effect": 308,
+    "effect": 304,
     "flags": [
       "CONTACT"
     ],
@@ -29626,7 +29659,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "The user swaps effects on either side of the field.",
-    "effect": 313,
+    "effect": 309,
     "flags": [
       "IGNORES_PROTECT"
     ],
@@ -29664,7 +29697,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "The user uses some of its HP to raise all its stats.",
-    "effect": 307,
+    "effect": 303,
     "flags": [
       "SOUND"
     ],
@@ -29702,7 +29735,7 @@
     "category": 0,
     "criticalHitStage": 0,
     "description": "Does more damage the higher the user's Def.",
-    "effect": 281,
+    "effect": 284,
     "flags": [
       "SKY_BATTLE_BANNED"
     ],
@@ -29739,8 +29772,8 @@
     "additionalEffects": null,
     "category": 2,
     "criticalHitStage": 0,
-    "description": "The user sharply raises the target's Atk and Sp.Atk",
-    "effect": 288,
+    "description": "The user sharply raises the target's Atk and Sp.Atk.",
+    "effect": 290,
     "flags": [
       "MIRROR_MOVE_BANNED"
     ],
@@ -29940,7 +29973,7 @@
     "category": 0,
     "criticalHitStage": 0,
     "description": "Strikes as a sword. Deals 2x damage to Dynamaxed foes.",
-    "effect": 287,
+    "effect": 289,
     "flags": [
       "SLICING"
     ],
@@ -29978,7 +30011,7 @@
     "category": 0,
     "criticalHitStage": 0,
     "description": "Attacks as a shield. Deals 2x damage to Dynamaxed foes.",
-    "effect": 287,
+    "effect": 289,
     "flags": [
       "MIMIC_BANNED"
     ],
@@ -30024,7 +30057,7 @@
     "category": 0,
     "criticalHitStage": 0,
     "description": "Raises Speed to attack. The Type is based on its form.",
-    "effect": 300,
+    "effect": 296,
     "flags": [
       "METRONOME_BANNED"
     ],
@@ -30262,7 +30295,7 @@
     "category": 0,
     "criticalHitStage": 0,
     "description": "Drops an apple from above. Lowers the foe's Sp. Def.",
-    "effect": 292,
+    "effect": 294,
     "flags": [
       "METRONOME_BANNED"
     ],
@@ -30416,7 +30449,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Scatters water to restore the HP of itself and allies.",
-    "effect": 283,
+    "effect": 285,
     "flags": [
       "SNATCH_AFFECTED"
     ],
@@ -30454,7 +30487,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Protects itself, harshly lowering Def on contact.",
-    "effect": 87,
+    "effect": 90,
     "flags": [
       "MIRROR_MOVE_BANNED"
     ],
@@ -30638,7 +30671,7 @@
     "category": 1,
     "criticalHitStage": 0,
     "description": "Fires a beam of steel from its body. It hurts the user.",
-    "effect": 314,
+    "effect": 310,
     "flags": [
       "METRONOME_BANNED"
     ],
@@ -30676,7 +30709,7 @@
     "category": 1,
     "criticalHitStage": 0,
     "description": "Power goes up and damages all foes on Psychic Terrain.",
-    "effect": 310,
+    "effect": 306,
     "flags": null,
     "id": 725,
     "name": "Expanding Force",
@@ -30710,7 +30743,7 @@
     "category": 0,
     "criticalHitStage": 0,
     "description": "Destroys terrain. Fails if ground isn't terrain.",
-    "effect": 317,
+    "effect": 313,
     "flags": [
       "SKY_BATTLE_BANNED"
     ],
@@ -30844,7 +30877,7 @@
     "category": 1,
     "criticalHitStage": 0,
     "description": "Deals better of physical and special damage. May poison.",
-    "effect": 353,
+    "effect": 348,
     "flags": null,
     "id": 729,
     "name": "Shell Side Arm",
@@ -30920,7 +30953,7 @@
     "category": 0,
     "criticalHitStage": 0,
     "description": "Gliding on ground, hits. Goes first on Grassy Terrain.",
-    "effect": 286,
+    "effect": 288,
     "flags": [
       "SKY_BATTLE_BANNED"
     ],
@@ -30958,7 +30991,7 @@
     "category": 1,
     "criticalHitStage": 0,
     "description": "This move's power doubles when on Electric Terrain.",
-    "effect": 311,
+    "effect": 307,
     "flags": null,
     "id": 732,
     "name": "Rising Voltage",
@@ -30992,7 +31025,7 @@
     "category": 1,
     "criticalHitStage": 0,
     "description": "Type and power changes depending on the terrain.",
-    "effect": 302,
+    "effect": 298,
     "flags": [
       "PULSE"
     ],
@@ -31134,7 +31167,7 @@
     "category": 0,
     "criticalHitStage": 0,
     "description": "If stats lowered during this turn, power is doubled.",
-    "effect": 285,
+    "effect": 287,
     "flags": [
       "CONTACT"
     ],
@@ -31172,7 +31205,7 @@
     "category": 0,
     "criticalHitStage": 0,
     "description": "Control foe's item to attack. Fails if foe has no item.",
-    "effect": 305,
+    "effect": 301,
     "flags": null,
     "id": 737,
     "name": "Poltergeist",
@@ -31206,7 +31239,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Highly acidic gas melts items held by surrounding Pokémon.",
-    "effect": 329,
+    "effect": 325,
     "flags": [
       "MAGIC_COAT_AFFECTED"
     ],
@@ -31244,7 +31277,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Properly coaches allies to up their Attack and Defense.",
-    "effect": 284,
+    "effect": 286,
     "flags": [
       "MIRROR_MOVE_BANNED"
     ],
@@ -31282,7 +31315,7 @@
     "category": 0,
     "criticalHitStage": 0,
     "description": "Attacks and rushes back to switch with a party Pokémon.",
-    "effect": 163,
+    "effect": 166,
     "flags": [
       "CONTACT"
     ],
@@ -31320,7 +31353,7 @@
     "category": 0,
     "criticalHitStage": 0,
     "description": "A 3-kick attack that gets more powerful with each hit.",
-    "effect": 81,
+    "effect": 84,
     "flags": [
       "CONTACT"
     ],
@@ -31450,7 +31483,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Heals HP and status of itself and allies in battle.",
-    "effect": 283,
+    "effect": 285,
     "flags": [
       "MIRROR_MOVE_BANNED"
     ],
@@ -31618,7 +31651,7 @@
     "category": 1,
     "criticalHitStage": 0,
     "description": "The higher the user's HP the more damage caused.",
-    "effect": 156,
+    "effect": 159,
     "flags": [
       "METRONOME_BANNED"
     ],
@@ -31817,7 +31850,7 @@
     "additionalEffects": null,
     "category": 0,
     "criticalHitStage": 0,
-    "description": "Strikes by hurling a blizzard- cloaked icicle lance at foes.",
+    "description": "Hurls a blizzard-cloaked icicle lance at foes.",
     "effect": 1,
     "flags": [
       "METRONOME_BANNED"
@@ -31855,7 +31888,7 @@
     "additionalEffects": null,
     "category": 1,
     "criticalHitStage": 0,
-    "description": "Strikes by sending a frightful amount of ghosts at foes.",
+    "description": "Sends a frightful amount of small ghosts at foes.",
     "effect": 1,
     "flags": [
       "METRONOME_BANNED"
@@ -31890,11 +31923,19 @@
   },
   {
     "accuracy": 100,
-    "additionalEffects": null,
+    "additionalEffects": [
+      {
+        "chance": 100,
+        "moveEffect": 85,
+        "onChargeTurnOnly": false,
+        "onlyIfTargetRaisedStats": false,
+        "self": false
+      }
+    ],
     "category": 1,
     "criticalHitStage": 0,
     "description": "Attacks with psychic power. Foe's last move has 3 PP cut.",
-    "effect": 282,
+    "effect": 1,
     "flags": [
       "SOUND"
     ],
@@ -31939,7 +31980,7 @@
     "additionalEffects": [
       {
         "chance": 50,
-        "moveEffect": 72,
+        "moveEffect": 70,
         "onChargeTurnOnly": false,
         "onlyIfTargetRaisedStats": false,
         "self": false
@@ -32048,7 +32089,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "The user swaps its Attack and Defense stats.",
-    "effect": 253,
+    "effect": 256,
     "flags": [
       "SNATCH_AFFECTED"
     ],
@@ -32085,7 +32126,7 @@
     "additionalEffects": [
       {
         "chance": 100,
-        "moveEffect": 73,
+        "moveEffect": 71,
         "onChargeTurnOnly": false,
         "onlyIfTargetRaisedStats": false,
         "self": false
@@ -32185,7 +32226,7 @@
     "pp": 5,
     "priority": 0,
     "recoil": 0,
-    "target": 0,
+    "target": 8,
     "type": 19
   },
   {
@@ -32243,7 +32284,7 @@
     "additionalEffects": [
       {
         "chance": 0,
-        "moveEffect": 54,
+        "moveEffect": 53,
         "onChargeTurnOnly": false,
         "onlyIfTargetRaisedStats": false,
         "self": true
@@ -32336,7 +32377,7 @@
     "category": 1,
     "criticalHitStage": 0,
     "description": "A user-hurting blast of amassed chlorophyll.",
-    "effect": 314,
+    "effect": 310,
     "flags": null,
     "id": 763,
     "name": "Chloroblast",
@@ -32420,7 +32461,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Dances to raise Attack, Defense and Speed.",
-    "effect": 319,
+    "effect": 315,
     "flags": [
       "SNATCH_AFFECTED"
     ],
@@ -32457,7 +32498,7 @@
     "additionalEffects": [
       {
         "chance": 0,
-        "moveEffect": 56,
+        "moveEffect": 55,
         "onChargeTurnOnly": false,
         "onlyIfTargetRaisedStats": false,
         "self": true
@@ -32520,7 +32561,7 @@
     "category": 0,
     "criticalHitStage": 0,
     "description": "Can poison on impact. Powers up against poisoned foes.",
-    "effect": 138,
+    "effect": 141,
     "flags": null,
     "id": 767,
     "name": "Barb Barrage",
@@ -32662,7 +32703,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "The user hardens their skin. Drastically raises Defense.",
-    "effect": 240,
+    "effect": 243,
     "flags": [
       "SNATCH_AFFECTED"
     ],
@@ -32772,7 +32813,7 @@
     "category": 1,
     "criticalHitStage": 0,
     "description": "Hurts a foe harder if it has an ailment. May leave a burn.",
-    "effect": 138,
+    "effect": 141,
     "flags": null,
     "id": 772,
     "name": "Infernal Parade",
@@ -32813,7 +32854,7 @@
     "additionalEffects": [
       {
         "chance": 100,
-        "moveEffect": 74,
+        "moveEffect": 72,
         "onChargeTurnOnly": false,
         "onlyIfTargetRaisedStats": false,
         "self": false
@@ -32876,7 +32917,7 @@
     "category": 1,
     "criticalHitStage": 0,
     "description": "Hits with brutal, cold winds. May lower the foe's Speed.",
-    "effect": 342,
+    "effect": 337,
     "flags": null,
     "id": 774,
     "name": "Bleakwind Storm",
@@ -32926,7 +32967,7 @@
     "category": 1,
     "criticalHitStage": 0,
     "description": "Hits with a brutal tempest. May inflict paralysis.",
-    "effect": 342,
+    "effect": 337,
     "flags": null,
     "id": 775,
     "name": "Wildbolt Storm",
@@ -32976,7 +33017,7 @@
     "category": 1,
     "criticalHitStage": 0,
     "description": "Hits with brutally hot sand. May inflict a burn.",
-    "effect": 342,
+    "effect": 337,
     "flags": null,
     "id": 776,
     "name": "Sandsear Storm",
@@ -33018,7 +33059,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "The user heals and cures itself and its ally.",
-    "effect": 283,
+    "effect": 285,
     "flags": [
       "SNATCH_AFFECTED"
     ],
@@ -33056,7 +33097,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "The user lifts its spirits to heal and strengthen itself.",
-    "effect": 327,
+    "effect": 323,
     "flags": [
       "SNATCH_AFFECTED"
     ],
@@ -33093,7 +33134,7 @@
     "additionalEffects": [
       {
         "chance": 0,
-        "moveEffect": 79,
+        "moveEffect": 77,
         "onChargeTurnOnly": false,
         "onlyIfTargetRaisedStats": false,
         "self": true
@@ -33148,7 +33189,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Protects itself, lowering Speed on contact.",
-    "effect": 87,
+    "effect": 90,
     "flags": [
       "MIRROR_MOVE_BANNED"
     ],
@@ -33240,7 +33281,7 @@
     "category": 0,
     "criticalHitStage": 0,
     "description": "This move deals more damage for each defeated ally.",
-    "effect": 346,
+    "effect": 341,
     "flags": [
       "METRONOME_BANNED"
     ],
@@ -33277,7 +33318,7 @@
     "additionalEffects": [
       {
         "chance": 100,
-        "moveEffect": 50,
+        "moveEffect": 49,
         "onChargeTurnOnly": false,
         "onlyIfTargetRaisedStats": false,
         "self": false
@@ -33324,11 +33365,19 @@
   },
   {
     "accuracy": 100,
-    "additionalEffects": null,
+    "additionalEffects": [
+      {
+        "chance": 100,
+        "moveEffect": 78,
+        "onChargeTurnOnly": false,
+        "onlyIfTargetRaisedStats": false,
+        "self": true
+      }
+    ],
     "category": 0,
     "criticalHitStage": 0,
     "description": "Boosts a user's stats depending on Tatsugiri.",
-    "effect": 0,
+    "effect": 349,
     "flags": [
       "MIRROR_MOVE_BANNED"
     ],
@@ -33412,7 +33461,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Sharply ups target's Attack, harshly lowers its Defense.",
-    "effect": 348,
+    "effect": 343,
     "flags": [
       "METRONOME_BANNED"
     ],
@@ -33449,7 +33498,7 @@
     "additionalEffects": [
       {
         "chance": 0,
-        "moveEffect": 48,
+        "moveEffect": 47,
         "onChargeTurnOnly": false,
         "onlyIfTargetRaisedStats": false,
         "self": true
@@ -33504,7 +33553,7 @@
     "category": 0,
     "criticalHitStage": 0,
     "description": "The user's fellows hit one to ten times in a row.",
-    "effect": 330,
+    "effect": 326,
     "flags": [
       "SLICING"
     ],
@@ -33542,7 +33591,7 @@
     "category": 0,
     "criticalHitStage": 0,
     "description": "Ice-covered feet hit a foe and destroy the terrain.",
-    "effect": 317,
+    "effect": 313,
     "flags": [
       "SKY_BATTLE_BANNED"
     ],
@@ -33580,7 +33629,7 @@
     "category": 0,
     "criticalHitStage": 0,
     "description": "Foe attacks next turn can't miss and do double damage.",
-    "effect": 334,
+    "effect": 329,
     "flags": [
       "SLICING"
     ],
@@ -33618,7 +33667,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Revives a fainted party    and restores half of its HP.",
-    "effect": 325,
+    "effect": 321,
     "flags": [
       "MIRROR_MOVE_BANNED"
     ],
@@ -33652,11 +33701,19 @@
   },
   {
     "accuracy": 100,
-    "additionalEffects": null,
+    "additionalEffects": [
+      {
+        "chance": 100,
+        "moveEffect": 84,
+        "onChargeTurnOnly": false,
+        "onlyIfTargetRaisedStats": false,
+        "self": false
+      }
+    ],
     "category": 0,
     "criticalHitStage": 0,
     "description": "Hurts foe every turn. Double damage to Steel and Water.",
-    "effect": 331,
+    "effect": 1,
     "flags": [
       "METRONOME_BANNED"
     ],
@@ -33738,13 +33795,6 @@
     "accuracy": 100,
     "additionalEffects": [
       {
-        "chance": 0,
-        "moveEffect": 36,
-        "onChargeTurnOnly": false,
-        "onlyIfTargetRaisedStats": false,
-        "self": true
-      },
-      {
         "chance": 100,
         "moveEffect": 2,
         "onChargeTurnOnly": false,
@@ -33755,7 +33805,7 @@
     "category": 0,
     "criticalHitStage": 0,
     "description": "Erases trap moves and Leech Seed. Poisons adjacent foes.",
-    "effect": 1,
+    "effect": 350,
     "flags": [
       "CONTACT"
     ],
@@ -33801,7 +33851,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Changes user's and ally's Ability into the target's.",
-    "effect": 337,
+    "effect": 332,
     "flags": [
       "MIRROR_MOVE_BANNED"
     ],
@@ -33839,7 +33889,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Sharply boosts offenses and Speed by using its own HP.",
-    "effect": 338,
+    "effect": 333,
     "flags": [
       "SNATCH_AFFECTED"
     ],
@@ -34061,7 +34111,7 @@
     "category": 0,
     "criticalHitStage": 0,
     "description": "Tackle that breaks barriers. User's form determines type.",
-    "effect": 335,
+    "effect": 330,
     "flags": [
       "METRONOME_BANNED"
     ],
@@ -34204,8 +34254,8 @@
     "additionalEffects": null,
     "category": 0,
     "criticalHitStage": 0,
-    "description": "Prehistoric explosion that's stronger if supereffective.",
-    "effect": 328,
+    "description": "Prehistoric explosion that's stronger if super effective.",
+    "effect": 324,
     "flags": [
       "METRONOME_BANNED"
     ],
@@ -34242,8 +34292,8 @@
     "additionalEffects": null,
     "category": 1,
     "criticalHitStage": 0,
-    "description": "Futuristic electricity. It's stronger if supereffective.",
-    "effect": 328,
+    "description": "Futuristic electricity. It's stronger if super effective.",
+    "effect": 324,
     "flags": [
       "METRONOME_BANNED"
     ],
@@ -34281,7 +34331,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Creates a Substitute for itself before switching out.",
-    "effect": 343,
+    "effect": 338,
     "flags": [
       "MIRROR_MOVE_BANNED"
     ],
@@ -34319,7 +34369,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Bad joke summons snowstorm. The user also switches out.",
-    "effect": 332,
+    "effect": 327,
     "flags": [
       "MIRROR_MOVE_BANNED"
     ],
@@ -34357,7 +34407,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "User tidies up hazards and raises its Attack and Speed.",
-    "effect": 347,
+    "effect": 342,
     "flags": [
       "MIRROR_MOVE_BANNED"
     ],
@@ -34395,7 +34445,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Summons a snowstorm that lasts for five turns.",
-    "effect": 326,
+    "effect": 322,
     "flags": [
       "MIRROR_MOVE_BANNED"
     ],
@@ -34671,7 +34721,7 @@
     "category": 0,
     "criticalHitStage": 0,
     "description": "The more the user has been hit, the stronger the move.",
-    "effect": 336,
+    "effect": 331,
     "flags": [
       "METRONOME_BANNED"
     ],
@@ -34708,7 +34758,7 @@
     "additionalEffects": [
       {
         "chance": 0,
-        "moveEffect": 56,
+        "moveEffect": 55,
         "onChargeTurnOnly": false,
         "onlyIfTargetRaisedStats": false,
         "self": true
@@ -34809,7 +34859,7 @@
     "category": 0,
     "criticalHitStage": 0,
     "description": "Discharges all electricity, losing the Electric type.",
-    "effect": 275,
+    "effect": 278,
     "flags": [
       "METRONOME_BANNED"
     ],
@@ -34893,7 +34943,7 @@
     "category": 0,
     "criticalHitStage": 0,
     "description": "Retaliates strongly against who last hurt the user.",
-    "effect": 213,
+    "effect": 216,
     "flags": [
       "METRONOME_BANNED"
     ],
@@ -35239,7 +35289,7 @@
     "category": 0,
     "criticalHitStage": 0,
     "description": "This move's power increases when on Electric Terrain.",
-    "effect": 323,
+    "effect": 319,
     "flags": [
       "SLICING"
     ],
@@ -35277,7 +35327,7 @@
     "category": 1,
     "criticalHitStage": 0,
     "description": "This move's power increases under harsh sunlight.",
-    "effect": 324,
+    "effect": 320,
     "flags": [
       "THAWS_USER"
     ],
@@ -35406,7 +35456,7 @@
     "additionalEffects": [
       {
         "chance": 100,
-        "moveEffect": 75,
+        "moveEffect": 73,
         "onChargeTurnOnly": false,
         "onlyIfTargetRaisedStats": false,
         "self": false
@@ -35461,7 +35511,7 @@
     "category": 0,
     "criticalHitStage": 1,
     "description": "Type changes with held mask. High critical-hit ratio.",
-    "effect": 339,
+    "effect": 334,
     "flags": [
       "METRONOME_BANNED"
     ],
@@ -35502,18 +35552,11 @@
         "onChargeTurnOnly": true,
         "onlyIfTargetRaisedStats": false,
         "self": true
-      },
-      {
-        "chance": 100,
-        "moveEffect": 0,
-        "onChargeTurnOnly": false,
-        "onlyIfTargetRaisedStats": false,
-        "self": false
       }
     ],
     "category": 1,
     "criticalHitStage": 0,
-    "description": "Absorbs electricity in one turn, then attacks next turn.",
+    "description": "Gathers electricity, then fires a high-voltage shot.",
     "effect": 58,
     "flags": null,
     "id": 833,
@@ -35555,8 +35598,8 @@
     "additionalEffects": null,
     "category": 1,
     "criticalHitStage": 0,
-    "description": "Damages all opponents if user is Stellar form Terapagos.",
-    "effect": 0,
+    "description": "In Terapagos's Stellar Form, it hits all foes.",
+    "effect": 345,
     "flags": [
       "MIMIC_BANNED"
     ],
@@ -35594,7 +35637,7 @@
     "category": 1,
     "criticalHitStage": 0,
     "description": "Shoots a beam of light. Sometimes twice as strong.",
-    "effect": 340,
+    "effect": 335,
     "flags": null,
     "id": 835,
     "name": "Fickle Beam",
@@ -35628,7 +35671,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Evades attack, and burns the foe if struck.",
-    "effect": 87,
+    "effect": 90,
     "flags": [
       "MIRROR_MOVE_BANNED"
     ],
@@ -35666,7 +35709,7 @@
     "category": 1,
     "criticalHitStage": 0,
     "description": "Strikes first if the foe is preparing an attack.",
-    "effect": 215,
+    "effect": 218,
     "flags": null,
     "id": 837,
     "name": "Thunderclap",
@@ -35776,7 +35819,7 @@
     "category": 0,
     "criticalHitStage": 0,
     "description": "The higher the foe's HP the more damage caused.",
-    "effect": 176,
+    "effect": 179,
     "flags": [
       "CONTACT"
     ],
@@ -35801,7 +35844,7 @@
       "target": 0,
       "type": 9
     },
-    "power": 1,
+    "power": 100,
     "pp": 10,
     "priority": 0,
     "recoil": 0,
@@ -35814,7 +35857,7 @@
     "category": 2,
     "criticalHitStage": 0,
     "description": "Increases allies' critical hit ratio, especially if Dragons.",
-    "effect": 345,
+    "effect": 340,
     "flags": [
       "IGNORES_SUBSTITUTE"
     ],
@@ -35859,7 +35902,7 @@
     ],
     "category": 1,
     "criticalHitStage": 0,
-    "description": "Confuses the target if their stats were boosted this turn.",
+    "description": "Confuses foe if its stats were boosted this turn.",
     "effect": 1,
     "flags": [
       "SOUND"
@@ -35906,7 +35949,7 @@
     "category": 0,
     "criticalHitStage": 0,
     "description": "A desperation attack. Power doubles if last move failed.",
-    "effect": 268,
+    "effect": 271,
     "flags": [
       "CONTACT"
     ],
@@ -35946,7 +35989,7 @@
     "description": "An electrified slam. If it misses, the user is hurt.",
     "effect": 36,
     "flags": [
-      "CONTACT"
+      "MINIMIZE_DOUBLE_DAMAGE"
     ],
     "id": 844,
     "name": "Supercell Slam",
@@ -35981,7 +36024,7 @@
     "additionalEffects": [
       {
         "chance": 100,
-        "moveEffect": 78,
+        "moveEffect": 76,
         "onChargeTurnOnly": false,
         "onlyIfTargetRaisedStats": false,
         "self": false
@@ -36044,7 +36087,7 @@
     "category": 0,
     "criticalHitStage": 0,
     "description": "Makes the target flinch if readying a priority move.",
-    "effect": 344,
+    "effect": 339,
     "flags": [
       "CONTACT"
     ],

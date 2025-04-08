@@ -479,7 +479,7 @@
           {
             "methods": [
               {
-                "clause": 25,
+                "clause": 22,
                 "method": 4
               }
             ],
@@ -1629,7 +1629,7 @@
           {
             "methods": [
               {
-                "clause": 37,
+                "clause": 33,
                 "method": 4
               }
             ],
@@ -1708,8 +1708,17 @@
           {
             "methods": [
               {
-                "clause": 428,
-                "method": 41
+                "clause": 62,
+                "method": 25
+              }
+            ],
+            "species": 462
+          },
+          {
+            "methods": [
+              {
+                "clause": 213,
+                "method": 7
               }
             ],
             "species": 462
@@ -2166,8 +2175,8 @@
           {
             "methods": [
               {
-                "clause": 216,
-                "method": 7
+                "clause": 0,
+                "method": 0
               }
             ],
             "species": 972
@@ -2222,11 +2231,20 @@
           {
             "methods": [
               {
-                "clause": 65,
-                "method": 25
+                "clause": 0,
+                "method": 0
               }
             ],
             "species": 973
+          },
+          {
+            "methods": [
+              {
+                "clause": 0,
+                "method": 0
+              }
+            ],
+            "species": 1483
           }
         ]
       }
@@ -3287,7 +3305,7 @@
             "methods": [
               {
                 "clause": 0,
-                "method": 65534
+                "method": 0
               }
             ],
             "species": 997
@@ -3626,8 +3644,8 @@
           {
             "methods": [
               {
-                "clause": 94,
-                "method": 23
+                "clause": 0,
+                "method": 0
               }
             ],
             "species": 958
@@ -6114,7 +6132,7 @@
           {
             "methods": [
               {
-                "clause": 36,
+                "clause": 40,
                 "method": 4
               }
             ],
@@ -6270,8 +6288,17 @@
           {
             "methods": [
               {
-                "clause": 441,
-                "method": 41
+                "clause": 62,
+                "method": 25
+              }
+            ],
+            "species": 476
+          },
+          {
+            "methods": [
+              {
+                "clause": 213,
+                "method": 7
               }
             ],
             "species": 476
@@ -6355,7 +6382,7 @@
           {
             "methods": [
               {
-                "clause": 25,
+                "clause": 32,
                 "method": 4
               }
             ],
@@ -7021,6 +7048,15 @@
               {
                 "clause": 170,
                 "method": 15
+              }
+            ],
+            "species": 350
+          },
+          {
+            "methods": [
+              {
+                "clause": 234,
+                "method": 6
               }
             ],
             "species": 350
@@ -8595,7 +8631,7 @@
             "methods": [
               {
                 "clause": 0,
-                "method": 65534
+                "method": 0
               }
             ],
             "species": 981
@@ -9307,7 +9343,7 @@
             "methods": [
               {
                 "clause": 0,
-                "method": 65534
+                "method": 0
               }
             ],
             "species": 1000
@@ -10237,7 +10273,7 @@
             "methods": [
               {
                 "clause": 0,
-                "method": 65534
+                "method": 0
               }
             ],
             "species": 1001
@@ -10956,7 +10992,7 @@
           {
             "methods": [
               {
-                "clause": 34,
+                "clause": 28,
                 "method": 4
               }
             ],
@@ -12666,7 +12702,7 @@
           {
             "methods": [
               {
-                "clause": 30,
+                "clause": 28,
                 "method": 4
               }
             ],
@@ -12742,7 +12778,7 @@
           {
             "methods": [
               {
-                "clause": 40,
+                "clause": 30,
                 "method": 4
               }
             ],
@@ -13166,7 +13202,7 @@
             "methods": [
               {
                 "clause": 0,
-                "method": 65534
+                "method": 0
               }
             ],
             "species": 1007
@@ -13274,7 +13310,7 @@
             "methods": [
               {
                 "clause": 0,
-                "method": 65534
+                "method": 0
               }
             ],
             "species": 1008
@@ -16193,7 +16229,7 @@
           {
             "methods": [
               {
-                "clause": 22,
+                "clause": 0,
                 "method": 1
               }
             ],
@@ -16809,7 +16845,7 @@
             "methods": [
               {
                 "clause": 492,
-                "method": 40
+                "method": 21
               }
             ],
             "species": 903
@@ -16818,7 +16854,7 @@
             "methods": [
               {
                 "clause": 492,
-                "method": 21
+                "method": 40
               }
             ],
             "species": 903
@@ -16915,7 +16951,7 @@
                 "method": 17
               }
             ],
-            "species": 414
+            "species": 1436
           }
         ]
       }
@@ -17137,7 +17173,7 @@
           {
             "methods": [
               {
-                "clause": 34,
+                "clause": 28,
                 "method": 4
               }
             ],
@@ -17175,7 +17211,7 @@
           {
             "methods": [
               {
-                "clause": 34,
+                "clause": 28,
                 "method": 4
               }
             ],
@@ -17213,7 +17249,7 @@
           {
             "methods": [
               {
-                "clause": 34,
+                "clause": 28,
                 "method": 4
               }
             ],
