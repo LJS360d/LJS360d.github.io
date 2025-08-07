@@ -3,6 +3,7 @@ import type { PokemonType } from "../types/pokemon.types";
 
 export interface SearchFilters {
   diffTypes: boolean;
+  diffStats: boolean;
   types: PokemonType[];
   generations: number[];
 }

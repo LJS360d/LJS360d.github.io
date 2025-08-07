@@ -15,9 +15,14 @@ export default function PokemonVirtualList() {
     const allMons = getBaseMonsData();
     const searchText = searchStore.text;
     const filters = searchStore.filters;
-    
-    if (!searchText && !filters.diffTypes && !filters.types?.length) return allMons;
-    
+
+    if (
+      !searchText &&
+      !filters.diffTypes &&
+      !filters.diffStats &&
+      !filters.types?.length
+    ) return allMons;
+
     return allMons
       .filter((mon) => mon.species.toLowerCase().includes(searchText.toLowerCase()))
       .filter((mon) => {
@@ -27,6 +32,9 @@ export default function PokemonVirtualList() {
         }
         if (filters.diffTypes) {
           filterOut ||= isEqual(mon.types, mon.old?.types);
+        }
+        if (filters.diffStats) {
+          filterOut ||= isEqual(mon.stats, mon.old?.stats);
         }
         return !filterOut;
       })

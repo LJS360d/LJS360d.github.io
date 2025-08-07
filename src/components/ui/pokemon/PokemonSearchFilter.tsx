@@ -19,6 +19,7 @@ function PokemonSearchFilterContent() {
   return (
     <div class='flex flex-col gap-6'>
       <PokemonTypesDiffSelector />
+      <PokemonStatsDiffSelector />
       <PokemonTypeSelector />
       {/* <PokemonGenerationSelector /> */}
     </div>
@@ -32,11 +33,31 @@ function PokemonTypesDiffSelector() {
 
   return (
     <section>
-      <label class='form-control gap-1'>
+      <label class='flex gap-4'>
         <span>Only show Pokémon with type differences</span>
         <input
           type='checkbox'
           checked={searchStore.filters.diffTypes ?? false}
+          class='toggle toggle-secondary'
+          onChange={(e) => toggleDiff(e.target.checked)}
+        />
+      </label>
+    </section>
+  );
+}
+
+function PokemonStatsDiffSelector() {
+  const toggleDiff = (diff: boolean) => {
+    searchStore.filters.diffStats = diff;
+  };
+
+  return (
+    <section>
+      <label class='flex gap-4'>
+        <span>Only show Pokémon with stat differences</span>
+        <input
+          type='checkbox'
+          checked={searchStore.filters.diffStats ?? false}
           class='toggle toggle-secondary'
           onChange={(e) => toggleDiff(e.target.checked)}
         />
