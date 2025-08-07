@@ -1,20 +1,8 @@
 ---
+import ItemList from "../components/ui/item/ItemsList";
 import Layout from "../layouts/Layout.astro";
-import ItemComponent from "../components/ui/item/ItemComponent";
-import { items } from "../data";
 ---
 
 <Layout title="Items">
-  <ul id="item-list" class="list-base">
-    {items.map((item) => <ItemComponent item={item} />)}
-  </ul>
+  <ItemList client:load />
 </Layout>
-
-<script>
-  import { updateList } from "../utils/search.utils";
-  const itemList = document.getElementById("item-list") as HTMLUListElement;
-  const itemArr = Array.from(itemList.children) as HTMLLIElement[];
-  document.addEventListener("search", (ev) =>
-    updateList(ev, itemArr, "data-item-name"),
-  );
-</script>

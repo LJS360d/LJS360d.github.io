@@ -15,12 +15,11 @@ interface ClauseProps {
   clause: number;
 }
 
-export default function ClauseFactory({ clause, method }: ClauseProps) {
-  const methodDescription = getEvolutionMethodDescription(method, clause);
+export default function ClauseFactory(props: ClauseProps) {
 
   return (
     <div class={'flex gap-2'}>
-      <span>{methodDescription}</span>
+      <span>{getEvolutionMethodDescription(props.method, props.clause)}</span>
     </div>
   );
 }

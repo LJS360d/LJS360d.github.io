@@ -1,4 +1,3 @@
-import { pokemon } from '../../../data';
 import type {
   MonsInfo,
   WildEncounters,
@@ -10,21 +9,21 @@ interface WildEncountersProps {
   encounters: WildEncounters;
 }
 // TODO diffing
-function WildEncountersComponent({ encounters }: WildEncountersProps) {
+function WildEncountersComponent(props: WildEncountersProps) {
   return (
-    <li data-search={getWildEncountersSearchString(encounters)} class='bg-base-200'>
+    <li class='bg-base-200'>
       <section>
-        <h1 class='stat-title'>{toCapitalized(encounters.locationName)}</h1>
+        <h1 class='stat-title'>{toCapitalized(props.encounters.locationName)}</h1>
       </section>
       <div class='grid grid-flow-row'>
-        <EncountersGroup monsInfo={encounters.landMonsInfo} label='Land' />
+        <EncountersGroup monsInfo={props.encounters.landMonsInfo} label='Land' />
         <EncountersGroup
-          monsInfo={encounters.rockSmashMonsInfo}
+          monsInfo={props.encounters.rockSmashMonsInfo}
           label='Rock Smash'
         />
-        <EncountersGroup monsInfo={encounters.waterMonsInfo} label='Water' />
+        <EncountersGroup monsInfo={props.encounters.waterMonsInfo} label='Water' />
         <EncountersGroup
-          monsInfo={encounters.fishingMonsInfo}
+          monsInfo={props.encounters.fishingMonsInfo}
           label='Fishing'
         />
       </div>
@@ -32,40 +31,22 @@ function WildEncountersComponent({ encounters }: WildEncountersProps) {
   );
 }
 
-function getWildEncountersSearchString(encounters: WildEncounters) {
-  const monsSet = new Set<string>([
-    ...(encounters.landMonsInfo?.wildPokemon.map(
-      (mon) => pokemon[mon.species - 1].speciesName
-    ) ?? []),
-    ...(encounters.waterMonsInfo?.wildPokemon.map(
-      (mon) => pokemon[mon.species - 1].speciesName
-    ) ?? []),
-    ...(encounters.fishingMonsInfo?.wildPokemon.map(
-      (mon) => pokemon[mon.species - 1].speciesName
-    ) ?? []),
-    ...(encounters.rockSmashMonsInfo?.wildPokemon.map(
-      (mon) => pokemon[mon.species - 1].speciesName
-    ) ?? []),
-  ]);
-  return Array.from(monsSet).join(' ').toUpperCase();
-}
-
 interface EncountersGroupProps {
   monsInfo: MonsInfo | null;
   label: string;
 }
 
-function EncountersGroup({ monsInfo, label }: EncountersGroupProps) {
-  if (!monsInfo?.wildPokemon.length) {
+function EncountersGroup(props: EncountersGroupProps) {
+  if (!props.monsInfo?.wildPokemon.length) {
     return null;
   }
 
   return (
     <section class='flex flex-wrap items-center'>
-      <h2 class='w-20'>{label}</h2>
-      <span class='w-24'>{monsInfo.encounterRate} %</span>
-      {monsInfo.wildPokemon.map((mon, i) => (
-        <PokemonIconComponent size={48} key={i} species={mon.species} />
+      <h2 class='w-20'>{props.label}</h2>
+      <span class='w-24'>{props.monsInfo.encounterRate} %</span>
+      {props.monsInfo.wildPokemon.map((mon) => (
+        <PokemonIconComponent size={48} species={mon.species} />
       ))}
     </section>
   );

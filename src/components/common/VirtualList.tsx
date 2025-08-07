@@ -4,7 +4,7 @@ import { For, type JSXElement } from "solid-js";
 export interface VirtualListProps<T extends readonly any[]> {
   items: T;
   rowHeight: number;
-  rootHeight: number;
+  rootHeight?: number;
   overscan?: number;
   fallback?: JSXElement;
   children: (item: T[number]) => JSXElement;
@@ -24,13 +24,13 @@ export default function VirtualList<T extends readonly any[]>(props: VirtualList
     <div
       ref={parentRef}
       style={{
-        overflow: "auto",
-        height: `${props.rootHeight}px`,
+        "overflow-y": "auto",
       }}
     >
       <div
         style={{
-          height: "100%",
+          /* set rootHeight to prevent the use of rowVirtualizer.getTotalSize which is very expensive for big lists */
+          height: `${props.rootHeight ?? rowVirtualizer.getTotalSize()}px`,
           width: "100%",
           position: "relative",
         }}
@@ -48,7 +48,7 @@ export default function VirtualList<T extends readonly any[]>(props: VirtualList
                   position: "absolute",
                   top: 0,
                   left: 0,
-                  transform: `translateY(${virtualRow.start}px)`,
+                  transform: `translateY(${virtualRow.start - rowVirtualizer.options.scrollMargin}px)`,
                   width: "100%",
                 }}
               >

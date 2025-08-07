@@ -1,4 +1,3 @@
-import { pokemon } from '../../../data';
 import type {
   EvolutionOutcome,
   EvolutionPath,
@@ -13,13 +12,12 @@ interface EvolutionProps {
 
 export default function EvolutionTreeComponent({ evolution }: EvolutionProps) {
   const evos = flattenEvolutions(evolution.evolutions);
-  const search = getEvolutionTreeSearchString(evolution);
   const renderEvolutionPath = (path: EvolutionPath, prev = true) => (
     <>
       {prev && <PokemonSpriteComponent species={path.from} />}
       <div class='flex flex-col'>
         {path.to.map((to, i) => (
-          <div key={i} class='flex items-center gap-6'>
+          <div class='flex items-center gap-6'>
             <EvolutionClause evo={to.methods} />
             <PokemonSpriteComponent species={to.species} />
             {renderBranches(to)}
@@ -35,8 +33,8 @@ export default function EvolutionTreeComponent({ evolution }: EvolutionProps) {
     );
     return branches.length ? (
       <div class='flex flex-col'>
-        {branches.map((branch, index) => (
-          <div key={index} class='ml-4 flex flex-col'>
+        {branches.map((branch) => (
+          <div class='ml-4 flex flex-col'>
             {renderEvolutionPath(branch, false)}
           </div>
         ))}
@@ -46,11 +44,10 @@ export default function EvolutionTreeComponent({ evolution }: EvolutionProps) {
 
   return (
     <li
-      data-evolution-name={search}
       class='cursor-default bg-base-200 rounded-lg flex flex-col justify-start flex-1 p-2'>
       <div class='flex items-center'>
-        {evos.map((evo, index) => (
-          <div key={index} class='flex items-center gap-6'>
+        {evos.map((evo) => (
+          <div class='flex items-center gap-6'>
             {renderEvolutionPath(evo)}
           </div>
         ))}
@@ -66,8 +63,4 @@ function flattenEvolutions(evolutions: EvolutionPath[]) {
   return roots;
 }
 
-function getEvolutionTreeSearchString(evolution: EvolutionTree) {
-  return `${pokemon.find((p) => p.id === (evolution.family))?.speciesName.toUpperCase()}-${evolution.evolutions
-    .map((e) => `${e.to.map((t) => pokemon.find((p) => p.id === (t.species))?.speciesName.toUpperCase()).join(' ')}`)
-    .join(' ')}`;
-}
+

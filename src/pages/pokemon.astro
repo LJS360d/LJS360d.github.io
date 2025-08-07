@@ -8,33 +8,3 @@ import Layout from "../layouts/Layout.astro";
   <PokemonSearchFilter client:load />
  <PokemonVirtualList client:only />
 </Layout>
-
-
-<script >
-  import { type PokemonFilters } from "../components/ui/pokemon/PokemonSearchFilter";
-  import { updateList } from "../utils/search.utils";
-  let pokemonArr: HTMLLIElement[] = [];
-  // TODO make search work with virtual list
-  document.addEventListener("search", (ev) => {
-    updateList<PokemonFilters>(ev, pokemonArr, "data-name");
-  });
-</script>
-
-<!-- <script>
-  import autoAnimate from "@formkit/auto-animate";
-  const pokemonList = document.getElementById(
-    "pokemon-list",
-  ) as HTMLUListElement;
-  autoAnimate(pokemonList);
-  const pokemonArr = Array.from(pokemonList.children) as HTMLLIElement[];
-  document.addEventListener("search", (event: Event) => {
-    const searchText = (event as CustomEvent).detail.text.toUpperCase();
-    pokemonList.innerHTML = "";
-    pokemonArr.forEach((pokemonElement) => {
-      const pokemonName = pokemonElement.getAttribute("data-pokemon-name")!;
-      if (searchText !== "" && pokemonName.includes(searchText)) {
-        pokemonList.appendChild(pokemonElement);
-      }
-    });
-  });
-</script> -->

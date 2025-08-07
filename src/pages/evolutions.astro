@@ -1,22 +1,9 @@
 ---
-import { evolutions } from "../data";
+import EvolutionsList from "../components/ui/evolution/EvolutionsList";
 import Layout from "../layouts/Layout.astro";
-import EvolutionComponent from "../components/ui/evolution/EvolutionComponent";
 ---
 
 <Layout title="Evolutions">
-  <ul id="evolution-list" class="list-base">
-    {evolutions.map((evo) => <EvolutionComponent evolution={evo} />)}
-  </ul>
+  <EvolutionsList client:load />
 </Layout>
 
-<script>
-  import { updateList } from "../utils/search.utils";
-  const evolutionList = document.getElementById(
-    "evolution-list",
-  ) as HTMLUListElement;
-  const evolutionArr = Array.from(evolutionList.children) as HTMLLIElement[];
-  document.addEventListener("search", (ev) =>
-    updateList(ev, evolutionArr, "data-evolution-name"),
-  );
-</script>

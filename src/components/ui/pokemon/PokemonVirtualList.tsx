@@ -11,8 +11,9 @@ function getLearnset(pokemonId: number) {
 }
 
 export default function PokemonVirtualList() {
+  const allMons = getBaseMonsData();
+  
   const filteredPokemon = createMemo(() => {
-    const allMons = getBaseMonsData();
     const searchText = searchStore.text;
     const filters = searchStore.filters;
 

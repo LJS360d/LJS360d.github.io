@@ -1,24 +1,11 @@
 ---
-import WildEncountersComponent from "../components/ui/wildEncounters/WildEncountersComponent";
-import { wildEncounters } from "../data";
+import WildEncountersList from "../components/ui/wildEncounters/WildEncountersList";
 import Layout from "../layouts/Layout.astro";
 
 ---
 
 <Layout title="Wild Encounters">
-  <ul id="wild-encounters-list" class="list-base">
-    {wildEncounters.map((encounters) => (
-      <WildEncountersComponent encounters={encounters} />
-    ))}
-  </ul>
+  <WildEncountersList client:load />
 </Layout>
 
-<script>
-  import { updateList } from "../utils/search.utils";
-  const list = document.getElementById("wild-encounters-list") as HTMLUListElement;
-  const elements = Array.from(list.children) as HTMLLIElement[];
-  document.addEventListener("search", (ev) =>
-    updateList(ev, elements, "data-search"),
-  );
-</script>
 
