@@ -19,9 +19,12 @@ export default function MovesVirtualList() {
       rowHeight={108}
       rootHeight={window.innerHeight - 64}
     >
-      {(item) => (
-        <MoveComponent move={item} />
-      )}
+      {(item) => {
+        if (!item) return null;
+        return (
+          <MoveComponent move={item} />
+        );
+      }}
     </VirtualList>
   )
 }

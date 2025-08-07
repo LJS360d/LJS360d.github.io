@@ -1,11 +1,19 @@
-import { createStore } from "solid-js/store";
+import { createMutable } from "solid-js/store";
+import type { PokemonType } from "../types/pokemon.types";
 
-interface SearchState {
-  text: string | null;
-  filters: Record<string, any> | null;
+export interface SearchFilters {
+  diffTypes: boolean;
+  types: PokemonType[];
+  generations: number[];
 }
 
-export const [searchStore, setSearchStore] = createStore<SearchState>({
-  text: null,
-  filters: null,
+
+interface SearchState {
+  text: string;
+  filters: Partial<SearchFilters>;
+}
+
+export const searchStore = createMutable<SearchState>({
+  text: "",
+  filters: {},
 });

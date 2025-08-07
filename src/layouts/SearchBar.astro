@@ -42,14 +42,11 @@ import MdSearch from "~icons/material-symbols/search";
 <!-- search event -->
 <script>
   const DEBOUNCE_DELAY = 500;
-import { searchStore, setSearchStore } from "../data/store/search.store";
+import { searchStore } from "../data/store/search.store";
   import { debounce } from "../utils/event.utils.mjs";
   const inputElement = document.getElementById(
     "search-input",
   ) as HTMLInputElement;
-  const loadingElement = document.getElementById(
-    "search-loading",
-  ) as HTMLDivElement;
 
   const debouncedDispatchSearchEvent = debounce(function (event: Event) {
     const text = (event.target as HTMLInputElement).value;
@@ -57,19 +54,11 @@ import { searchStore, setSearchStore } from "../data/store/search.store";
   }, DEBOUNCE_DELAY);
 
   inputElement.addEventListener("input", debouncedDispatchSearchEvent);
-  document.addEventListener("searchEnd", handleSearchEnd);
 
   function dispatchSearchEvent(text: string) {
-    const searchEvent = new CustomEvent("search", {
-      detail: { text },
-    });
-    loadingElement.hidden = false;
-    document.dispatchEvent(searchEvent);
     // solid store
-    setSearchStore("text", text);
+    searchStore.text = text;
   }
 
-  function handleSearchEnd(_: Event) {
-    loadingElement.hidden = true;
-  }
+
 </script>
