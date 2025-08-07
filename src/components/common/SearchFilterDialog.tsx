@@ -1,23 +1,17 @@
-interface SearchFilterDialogProps extends React.HTMLAttributes<HTMLDialogElement> {
-  children: React.ReactNode;
-}
+import type { HTMLAttributes } from "astro/types";
+import type { JSXElement } from "solid-js";
 
-export default function SearchFilterDialog({
-  children,
-  className = "",
-  id = 'search-filter',
-  ...props
-}: SearchFilterDialogProps) {
+export default function SearchFilterDialog(props: HTMLAttributes<"dialog"> & { children?: string | JSXElement }) {
   return (
-    <dialog className={`modal-box ${className}`} id={id} {...props}>
-      <form method='dialog'>
+    <dialog {...props as any} id={props.id ?? "search-filter"} class={`modal ${props.class ?? ''}`}>
+      <form method='dialog' class="modal-box">
         <button
           type='submit'
-          className='btn btn-sm btn-circle btn-ghost absolute right-2 top-2'>
+          class='btn btn-sm btn-circle btn-ghost absolute right-2 top-2'>
           ✕
         </button>
+        {props.children}
       </form>
-      {children}
     </dialog>
   );
 }

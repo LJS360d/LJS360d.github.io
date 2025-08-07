@@ -1,6 +1,7 @@
 import lodash from 'lodash';
 import type { PokemonInfo } from '../../../data/types/pokemon';
 import TypeIcon from '../shared/TypeIcon';
+import { createMemo, For } from 'solid-js';
 
 const { difference, intersection } = lodash;
 
@@ -8,31 +9,35 @@ interface TypeBarProps {
   pokemon: PokemonInfo;
 }
 
-function PokemonTyping({ pokemon }: TypeBarProps) {
-  const newTypes = pokemon.types;
-  const oldTypes = pokemon.old?.types ?? [];
+function PokemonTyping(props: TypeBarProps) {
 
-  const commonTypes = intersection(newTypes, oldTypes);
-  const removedTypes = difference(oldTypes, newTypes);
-  const addedTypes = difference(newTypes, oldTypes);
+  const commonTypes = createMemo(() => intersection(props.pokemon.types, (props.pokemon.old?.types ?? [])));
+  const removedTypes = createMemo(() => difference((props.pokemon.old?.types ?? []), props.pokemon.types));
+  const addedTypes = createMemo(() => difference(props.pokemon.types, (props.pokemon.old?.types ?? [])));
 
   return (
-    <div className='flex flex-col gap-2'>
-      <span className='mr-2'>Type:</span>
-      <div className='flex flex-row items-center'>
-        <div className='grid grid-flow-col gap-2'>
-          <div className='flex flex-wrap gap-2'>
-            {commonTypes.map((type, i) => (
-              <TypeIcon key={`common-${i}`} type={type} />
-            ))}
-            {addedTypes.map((type, i) => (
-              <TypeIcon key={`new-${i}`} type={type} new />
-            ))}
+    <div class='flex flex-col gap-2'>
+      <span class='mr-2'>Type:</span>
+      <div class='flex flex-row items-center'>
+        <div class='grid grid-flow-col gap-2'>
+          <div class='flex flex-wrap gap-2'>
+            <For each={commonTypes()}>
+              {(type) => (
+                <TypeIcon type={type} />
+              )}
+            </For>
+            <For each={addedTypes()}>
+              {(type) => (
+                <TypeIcon type={type} new />
+              )}
+            </For>
           </div>
-          <div className='flex flex-wrap gap-2 justify-end'>
-            {removedTypes.map((type, i) => (
-              <TypeIcon key={`old-${i}`} type={type} strikeThrough />
-            ))}
+          <div class='flex flex-wrap gap-2 justify-end'>
+            <For each={removedTypes()}>
+              {(type) => (
+                <TypeIcon type={type} strikeThrough />
+              )}
+            </For>
           </div>
         </div>
       </div>

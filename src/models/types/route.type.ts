@@ -1,9 +1,9 @@
-import type { IconType } from "react-icons";
+import type { Component } from "solid-js";
 
 export interface Route {
   readonly label: string;
   readonly route: string;
-  readonly icon: IconType;
+  readonly icon: Component | string;
   readonly restricted?: boolean;
   readonly disabled?: boolean;
 }

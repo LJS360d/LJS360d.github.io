@@ -10,9 +10,9 @@ interface ItemIconProps {
 
 export default function ItemIcon({ id }: ItemIconProps) {
   return (
-    <div className='min-w-fit'>
+    <div class='min-w-fit'>
       <img
-        className='icon'
+        class='icon'
         src={`/assets/items/icons/${id}.png`}
         alt={`${id}-icon`}
         title={getItemName(id)}

@@ -1,0 +1,93 @@
+
+:root {
+  --color-type-normal: #A8A878;
+  --color-type-fire: #F08030;
+  --color-type-water: #6890F0;
+  --color-type-grass: #78C850;
+  --color-type-electric: #F8D030;
+  --color-type-ice: #98D8D8;
+  --color-type-fighting: #C03028;
+  --color-type-poison: #A040A0;
+  --color-type-ground: #E0C068;
+  --color-type-flying: #A890F0;
+  --color-type-psychic: #F85888;
+  --color-type-bug: #A8B820;
+  --color-type-rock: #B8A038;
+  --color-type-ghost: #705898;
+  --color-type-dark: #705848;
+  --color-type-dragon: #7038F8;
+  --color-type-steel: #B8B8D0;
+  --color-type-fairy: #EE99AC;
+  --color-type-mystery: #68A090;
+
+  --color-category-status: #A8A878;
+  --color-category-physical: #F08030;
+  --color-category-special: #6890F0;
+}
+
+/* Base styles for all type spans */
+*[class^="type-"] {
+  @apply text-white rounded-lg flex items-center justify-center font-bold text-sm;
+  padding: .1rem;
+  width: 4.5rem;
+  height: 1.75rem;
+  text-transform: capitalize;
+}
+
+/* Dynamically apply background colors based on custom properties */
+.type-normal { background-color: var(--color-type-normal); }
+.type-fire { background-color: var(--color-type-fire); }
+.type-water { background-color: var(--color-type-water); }
+.type-grass { background-color: var(--color-type-grass); }
+.type-electric { background-color: var(--color-type-electric); }
+.type-ice { background-color: var(--color-type-ice); }
+.type-fighting { background-color: var(--color-type-fighting); }
+.type-poison { background-color: var(--color-type-poison); }
+.type-ground { background-color: var(--color-type-ground); }
+.type-flying { background-color: var(--color-type-flying); }
+.type-psychic { background-color: var(--color-type-psychic); }
+.type-bug { background-color: var(--color-type-bug); }
+.type-rock { background-color: var(--color-type-rock); }
+.type-ghost { background-color: var(--color-type-ghost); }
+.type-dark { background-color: var(--color-type-dark); }
+.type-dragon { background-color: var(--color-type-dragon); }
+.type-steel { background-color: var(--color-type-steel); }
+.type-fairy { background-color: var(--color-type-fairy); }
+.type-mystery { background-color: var(--color-type-mystery); }
+
+
+/* Base styles for all category spans */
+*[class^="category-"] {
+  @apply flex items-center justify-center rounded-lg;
+  padding: .1rem;
+  width: 4.5rem;
+  height: 1.75rem;
+  background-size: 4.5rem;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Dynamically apply background colors and images */
+.category-status { 
+  background-color: var(--color-category-status);
+  background-image: url('/assets/status.svg');
+}
+.category-physical {
+  background-color: var(--color-category-physical);
+  background-image: url('/assets/physical.svg');
+}
+.category-special { 
+  background-color: var(--color-category-special);
+  background-image: url('/assets/special.svg');
+}
+
+/* Styles for the 'new-type' class */
+.new-type {
+  @apply relative;
+}
+
+.new-type::after {
+  content: 'New!';
+  transform: translate(50%, -50%);
+  @apply absolute top-0 right-0 bg-green-500 text-white text-xs font-bold py-0.5 px-1 rounded-full z-10;
+}

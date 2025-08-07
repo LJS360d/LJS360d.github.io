@@ -12,11 +12,11 @@ interface WildEncountersProps {
 // TODO diffing
 function WildEncountersComponent({ encounters }: WildEncountersProps) {
   return (
-    <li data-search={getWildEncountersSearchString(encounters)} className='bg-base-200'>
+    <li data-search={getWildEncountersSearchString(encounters)} class='bg-base-200'>
       <section>
-        <h1 className='stat-title'>{toCapitalized(encounters.locationName)}</h1>
+        <h1 class='stat-title'>{toCapitalized(encounters.locationName)}</h1>
       </section>
-      <div className='grid grid-flow-row'>
+      <div class='grid grid-flow-row'>
         <EncountersGroup monsInfo={encounters.landMonsInfo} label='Land' />
         <EncountersGroup
           monsInfo={encounters.rockSmashMonsInfo}
@@ -61,9 +61,9 @@ function EncountersGroup({ monsInfo, label }: EncountersGroupProps) {
   }
 
   return (
-    <section className='flex flex-wrap items-center'>
-      <h2 className='w-20'>{label}</h2>
-      <span className='w-24'>{monsInfo.encounterRate} %</span>
+    <section class='flex flex-wrap items-center'>
+      <h2 class='w-20'>{label}</h2>
+      <span class='w-24'>{monsInfo.encounterRate} %</span>
       {monsInfo.wildPokemon.map((mon, i) => (
         <PokemonIconComponent size={48} key={i} species={mon.species} />
       ))}

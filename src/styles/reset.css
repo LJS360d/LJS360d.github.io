@@ -1,0 +1,74 @@
+/*
+  This is the equivalent of your @mixin.
+  You can define a reusable scrollbar style and apply it to a class.
+*/
+.sb-base::-webkit-scrollbar-thumb {
+  background-color: currentColor;
+  max-height: 4rem;
+  border-radius: 16px;
+  width: 0.35rem;
+}
+
+.sb-base::-webkit-scrollbar {
+  background-color: transparent;
+  width: 0.35rem;
+}
+
+.sb-base::-webkit-scrollbar-track {
+  border-radius: 16px;
+}
+
+/* This is a standard CSS selector */
+[hidden] {
+  display: none !important;
+}
+
+/* Standard body styles */
+body {
+  margin: 0;
+}
+
+@layer utilities {
+  /* Utility classes use @apply and are not nested */
+  .old {
+    @apply text-red-500 line-through;
+  }
+
+  .new {
+    @apply text-green-500 font-semibold;
+  }
+
+  .obst {
+    @apply relative;
+  }
+
+  /* The nested `&::before` is converted to a direct CSS selector */
+  .obst::before {
+    content: '';
+    top: 50%;
+    transform: rotate(10deg);
+    @apply absolute border-2 border-red-500 right-0 left-0;
+  }
+
+  .new-pop {
+    @apply relative;
+  }
+
+  .new-pop::before {
+    content: 'New!';
+    top: -1.5rem;
+    left: -0.7rem;
+    @apply absolute text-green-500 font-semibold;
+  }
+}
+
+@layer components {
+  /* Tailwind components are not nested */
+  .sb-base {
+    /* Your scrollbar styles are now part of this class definition */
+  }
+
+  .list-base {
+    @apply menu gap-4 w-full;
+  }
+}

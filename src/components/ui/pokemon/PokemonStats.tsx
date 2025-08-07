@@ -1,40 +1,43 @@
+import { createMemo } from 'solid-js';
 import type { PokemonInfo } from '../../../data/types/pokemon';
 
 interface StatBarProps {
   pokemon: PokemonInfo;
 }
 
-export default function PokemonStats({ pokemon }: StatBarProps) {
+export default function PokemonStats(props: StatBarProps) {
   const statNames = ['HP', 'ATK', 'DEF', 'SPATK', 'SPDEF', 'SPE'];
+ const newStats = () => props.pokemon.stats;
+  const oldStats = () => props.pokemon.old?.stats ?? newStats();
 
-  const newStats = pokemon.stats;
-  const oldStats = pokemon.old?.stats ?? newStats;
-  const statDifferences = getStatDifferences();
+  const statDifferences = createMemo(() => {
+    const differences = [];
+    const newStatsArr = newStats();
+    const oldStatsArr = oldStats();
+    for (let i = 0; i < newStatsArr.length; i++) {
+      differences.push(newStatsArr[i] - oldStatsArr[i]);
+    }
+    return differences;
+  });
 
-  const oldBST = oldStats.reduce((sum, num) => sum + num, 0);
-  const newBST = newStats.reduce((sum, num) => sum + num, 0);
-  const BSTDifference = statDifferences.reduce((sum, num) => sum + num, 0);
+  const oldBST = createMemo(() => oldStats().reduce((sum, num) => sum + num, 0));
+  const newBST = createMemo(() => newStats().reduce((sum, num) => sum + num, 0));
+  const BSTDifference = createMemo(() => statDifferences().reduce((sum, num) => sum + num, 0));
 
-  function getStatDifferences() {
-    const statDifferencesArray = [];
-    for (let i = 0; i < oldStats.length; i++)
-      statDifferencesArray.push(newStats[i] - oldStats[i]);
-    return statDifferencesArray;
-  }
 
   return (
-    <div className='grid grid-cols-2 gap-2'>
+    <div class='grid grid-cols-2 gap-2'>
       <div>
-        {newStats.map((statValue, i) => (
+        {newStats().map((statValue, i) => (
           <div
-            className='flex flex-row items-center justify-between w-28'
-            key={i}>
-            <span className='flex-1'>{statNames[i]}</span>
+            class='flex flex-row items-center justify-between w-28'
+          >
+            <span class='flex-1'>{statNames[i]}</span>
             <span
-              className={
-                statDifferences[i] > 0
+              class={
+                statDifferences()[i] > 0
                   ? 'new'
-                  : statDifferences[i] < 0
+                  : statDifferences()[i] < 0
                     ? 'text-red-500 '
                     : ''
               }>
@@ -42,30 +45,29 @@ export default function PokemonStats({ pokemon }: StatBarProps) {
             </span>
           </div>
         ))}
-        <div className='flex flex-row items-center justify-between w-28'>
+        <div class='flex flex-row items-center justify-between w-28'>
           <span>BST</span>
           <span
-            className={
-              BSTDifference > 0
+            class={
+              BSTDifference() > 0
                 ? 'new'
-                : BSTDifference < 0
+                : BSTDifference() < 0
                   ? 'text-red-500'
                   : ''
             }>
-            {newBST}
+            {newBST()}
           </span>
         </div>
       </div>
-      <div className='flex flex-col'>
-        {oldStats.map((stat, i) => (
+      <div class='flex flex-col'>
+        {oldStats().map((stat, i) => (
           <span
-            key={i}
-            className={statDifferences[i] !== 0 ? 'old' : 'invisible'}>
+            class={statDifferences()[i] !== 0 ? 'old' : 'invisible'}>
             {stat}
           </span>
         ))}
-        <span className={newBST !== oldBST ? 'old' : 'invisible'}>
-          {oldBST}
+        <span class={newBST() !== oldBST() ? 'old' : 'invisible'}>
+          {oldBST()}
         </span>
       </div>
     </div>

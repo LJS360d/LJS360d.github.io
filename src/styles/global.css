@@ -1,0 +1,13 @@
+@import "tailwindcss";
+@plugin "daisyui" {
+  themes: light --default, dark --prefersdark, night, aqua;
+  root: ":root";
+  /* include: ; */
+  exclude: rootscrollgutter;
+  /* prefix: ; */
+  logs: false;
+}
+
+/* Custom CSS */
+@import './poke-components.css';
+@import './reset.css';

@@ -1,12 +1,13 @@
 ---
-import { MdChevronLeft, MdChevronRight } from "react-icons/md";
+import MdChevronLeft from "~icons/material-symbols/chevron-left";
+import MdChevronRight from "~icons/material-symbols/chevron-right";
 import PokemonComponent from "../../components/ui/pokemon/PokemonComponent";
 import PokemonIconComponent from "../../components/ui/shared/PokemonIcon";
-import { pokemon, learnsets } from "../../data";
+import { learnsets, pokemon } from "../../data";
 import Layout from "../../layouts/Layout.astro";
 import {
-  getMonAlternateForms,
-  getMonPaginator,
+getMonAlternateForms,
+getMonPaginator,
 } from "../../utils/pokemon.data.utils";
 
 export async function getStaticPaths() {

@@ -1,53 +1,20 @@
 ---
-import PokemonComponent from "../components/ui/pokemon/PokemonComponent";
 import PokemonSearchFilter from "../components/ui/pokemon/PokemonSearchFilter";
-import { learnsets } from "../data";
+import PokemonVirtualList from "../components/ui/pokemon/PokemonVirtualList";
 import Layout from "../layouts/Layout.astro";
-import {
-  getBaseMonsData,
-  getMonAlternateForms,
-} from "../utils/pokemon.data.utils";
-
-function getLearnset(pokemonId: number) {
-  return learnsets.find((ls) => ls.species === pokemonId);
-}
 ---
 
 <Layout title="Pokèmon">
   <PokemonSearchFilter client:load />
-  <ul id="pokemon-list" class="list-base">
-    {
-      getBaseMonsData().map((mon) => (
-        <PokemonComponent
-          client:visible
-          pokemon={mon}
-          forms={getMonAlternateForms(mon.species)}
-          learnset={getLearnset(mon.id)}
-        />
-      ))
-    }
-  </ul>
+ <PokemonVirtualList client:only />
 </Layout>
 
-<script>
+
+<script >
   import { type PokemonFilters } from "../components/ui/pokemon/PokemonSearchFilter";
   import { updateList } from "../utils/search.utils";
   let pokemonArr: HTMLLIElement[] = [];
-  document.addEventListener("DOMContentLoaded", () => {
-    // Wait for React components to mount and render
-    setTimeout(() => {
-      const parent = document.getElementById("pokemon-list")!;
-      const islands = Array.from(parent.querySelectorAll("astro-island")!);
-
-      pokemonArr = islands.map((island) => {
-        // Access the rendered content of each astro-island
-        const content = island.shadowRoot
-          ? island.shadowRoot.querySelector("*")
-          : island.querySelector("*");
-        return content as HTMLLIElement;
-      });
-    }, 0);
-  });
+  // TODO make search work with virtual list
   document.addEventListener("search", (ev) => {
     updateList<PokemonFilters>(ev, pokemonArr, "data-name");
   });

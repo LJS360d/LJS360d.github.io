@@ -1,6 +1,7 @@
 import lodash from 'lodash';
 import type { PokemonInfo } from '../../../data/types/pokemon';
 import { toCapitalized } from '../../../utils/formatting.utils';
+import { createMemo, For } from 'solid-js';
 
 const { difference, intersection } = lodash;
 
@@ -8,34 +9,38 @@ interface AbilitiesBarProps {
   pokemon: PokemonInfo;
 }
 
-export default function PokemonAbilities({ pokemon }: AbilitiesBarProps) {
-  const newAbilities = pokemon?.abilities ?? [];
-  const oldAbilities = pokemon.old?.abilities ?? [];
-  const label = newAbilities?.length === 1 ? 'Ability' : 'Abilities';
+export default function PokemonAbilities(props: AbilitiesBarProps) {
+  const label = (props.pokemon?.abilities ?? [])?.length === 1 ? 'Ability' : 'Abilities';
 
-  const commonAbilities = intersection(newAbilities, oldAbilities);
-  const removedAbilities = difference(oldAbilities, newAbilities);
-  const addedAbilities = difference(newAbilities, oldAbilities);
+  const commonAbilities = createMemo(() => intersection((props.pokemon?.abilities ?? []), (props.pokemon.old?.abilities ?? [])));
+  const removedAbilities = createMemo(() => difference((props.pokemon.old?.abilities ?? []), (props.pokemon?.abilities ?? [])));
+  const addedAbilities = createMemo(() => difference((props.pokemon?.abilities ?? []), (props.pokemon.old?.abilities ?? [])));
 
   return (
     <div>
       <span>{label}:</span>
-      <div className='grid grid-flow-row'>
-        {commonAbilities.map((ability, i) => (
-          <span className='common' key={`common-${i}`}>
-            {toCapitalized(ability)}
-          </span>
-        ))}
-        {removedAbilities.map((ability, i) => (
-          <span className='old' key={`old-${i}`}>
-            {toCapitalized(ability)}
-          </span>
-        ))}
-        {addedAbilities.map((ability, i) => (
-          <span className='new' key={`new-${i}`}>
-            {toCapitalized(ability)}
-          </span>
-        ))}
+      <div class='grid grid-flow-row'>
+        <For each={commonAbilities()}>
+          {(ability) => (
+            <span class='common'>
+              {toCapitalized(ability)}
+            </span>
+          )}
+        </For>
+        <For each={addedAbilities()}>
+          {(ability) => (
+            <span class='new'>
+              {toCapitalized(ability)}
+            </span>
+          )}
+        </For>
+        <For each={removedAbilities()}>
+          {(ability) => (
+            <span class='old'>
+              {toCapitalized(ability)}
+            </span>
+          )}
+        </For>
       </div>
     </div>
   );

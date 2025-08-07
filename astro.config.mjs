@@ -1,15 +1,29 @@
+// @ts-check
 import { defineConfig } from 'astro/config';
-import sitemap from '@astrojs/sitemap';
-import tailwind from '@astrojs/tailwind';
+import tailwindcss from '@tailwindcss/vite';
+import Icons from 'unplugin-icons/vite';
+import solidJs from '@astrojs/solid-js';
 
-import react from '@astrojs/react';
+import icon from 'astro-icon';
 
 // https://astro.build/config
 export default defineConfig({
   site: 'https://LJS360d.github.io',
-  integrations: [sitemap(), tailwind(), react()],
   image: {
     remotePatterns: [{ protocol: 'https' }],
     domains: ['img.pokemondb.net'],
   },
+
+  vite: {
+    plugins: [
+      tailwindcss(),
+      Icons({
+        compiler: 'solid',
+        autoInstall: true,
+        jsx: "preact"
+      }),
+    ]
+  },
+
+  integrations: [solidJs(), icon()]
 });

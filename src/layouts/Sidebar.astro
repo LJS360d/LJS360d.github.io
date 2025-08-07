@@ -1,5 +1,5 @@
 ---
-import { MdClose } from "react-icons/md";
+import MdClose from "~icons/material-symbols/close";
 import type { Route } from "../models/types/route.type";
 import Toolbar from "./Toolbar.astro";
 interface Props {
@@ -32,7 +32,7 @@ const { title, themes, routes, version } = data;
       <div>
         <header class="flex w-full">
           <label for={sidebarId} class="justify-start w-full btn btn-ghost">
-            <MdClose className="text-2xl" />
+            <MdClose class="text-2xl" />
           </label>
         </header>
         <ul class="menu text-lg">

@@ -4,19 +4,15 @@ interface PokemonSpriteProps {
   height?: number;
 }
 
-export default function PokemonSpriteComponent({
-  species,
-  width = 64,
-  height = width,
-}: PokemonSpriteProps) {
+export default function PokemonSpriteComponent(props: PokemonSpriteProps) {
   return (
-    <div className='min-w-fit'>
+    <div class='min-w-fit'>
       <img
-        className='sprite'
-        src={`/assets/pokemon/sprites/${species}.png`}
-        alt={`${species}-sprite`}
-        width={width}
-        height={height}
+        class='sprite'
+        src={`/assets/pokemon/sprites/${props.species}.png`}
+        alt={`${props.species}-sprite`}
+        width={props.width ?? 64}
+        height={props.height ?? props.width ?? 64}
         loading='lazy'
       />
     </div>

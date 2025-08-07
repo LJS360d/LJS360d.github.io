@@ -5,9 +5,9 @@ interface PokemonIconProps {
 
 export default function PokemonIconComponent({ species, size = 24 }: PokemonIconProps) {
   return (
-    <div className='min-w-fit'>
+    <div class='min-w-fit'>
       <img
-        className='icon'
+        class='icon'
         src={`/assets/pokemon/icons/${species}.png`}
         alt={`${species}-icon`}
         width={size}

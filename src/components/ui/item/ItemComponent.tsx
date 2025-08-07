@@ -10,11 +10,11 @@ export default function ItemComponent({ item }: ItemComponentProps) {
   return (
     <li
       data-item-name={item.name.toUpperCase()}
-      className='flex flex-row justify-start w-full'>
-      <div className='flex gap-4'>
+      class='flex flex-row justify-start w-full'>
+      <div class='flex gap-4'>
         <ItemIcon id={item.id} />
         <span>{toCapitalized(item.name)}</span>
-        <p className='text-xs'>{item.description}</p>
+        <p class='text-xs'>{item.description}</p>
       </div>
     </li>
   );

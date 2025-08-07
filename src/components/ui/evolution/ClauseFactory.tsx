@@ -1,4 +1,3 @@
-import type { ReactNode } from 'react';
 import ItemIcon from '../item/ItemIcon';
 import PokemonIconComponent from '../shared/PokemonIcon';
 import moves from '../../../data/moves.json';
@@ -20,7 +19,7 @@ export default function ClauseFactory({ clause, method }: ClauseProps) {
   const methodDescription = getEvolutionMethodDescription(method, clause);
 
   return (
-    <div className={'flex gap-2'}>
+    <div class={'flex gap-2'}>
       <span>{methodDescription}</span>
     </div>
   );
@@ -85,7 +84,7 @@ enum EvolutionMethod {
 function getEvolutionMethodDescription(
   method: EvolutionMethod,
   clause: number
-): ReactNode {
+) {
   switch (method) {
     case EvolutionMethod.EVO_NONE:
       return 'No evolution method';
@@ -104,14 +103,14 @@ function getEvolutionMethodDescription(
       return 'Trade';
     case EvolutionMethod.EVO_TRADE_ITEM:
       return (
-        <div className='flex gap-1 items-center'>
+        <div class='flex gap-1 items-center'>
           Trade while holding
           <ItemIcon id={clause} />
         </div>
       );
     case EvolutionMethod.EVO_ITEM:
       return (
-        <div className='flex gap-1 items-center'>
+        <div class='flex gap-1 items-center'>
           Use item
           <ItemIcon id={clause} />
         </div>
@@ -124,11 +123,11 @@ function getEvolutionMethodDescription(
       return `At level ${clause}, with Attack less than Defense`;
     case EvolutionMethod.EVO_LEVEL_SHEDINJA:
       return (
-        <div className='flex gap-2 items-center'>
+        <div class='flex gap-2 items-center'>
           <span>At level {clause}</span>
-          <div className='italic text-xs'>
+          <div class='italic text-xs'>
             <span>with an empty slot in the party</span>
-            <span className='flex justify-center items-center'>
+            <span class='flex justify-center items-center'>
               and at least 1 PokéBall in the bag
             </span>
           </div>
@@ -148,7 +147,7 @@ function getEvolutionMethodDescription(
       return `At level ${clause}, during dusk`;
     case EvolutionMethod.EVO_ITEM_HOLD_DAY:
       return (
-        <div className='flex gap-1 items-center'>
+        <div class='flex gap-1 items-center'>
           Level up while holding
           <ItemIcon id={clause} />
           during the day
@@ -156,7 +155,7 @@ function getEvolutionMethodDescription(
       );
     case EvolutionMethod.EVO_ITEM_HOLD_NIGHT:
       return (
-        <div className='flex gap-1 items-center'>
+        <div class='flex gap-1 items-center'>
           Level up while holding
           <ItemIcon id={clause} />
           during the night
@@ -164,14 +163,14 @@ function getEvolutionMethodDescription(
       );
     case EvolutionMethod.EVO_MOVE:
       return (
-        <div className='flex gap-1 items-center'>
+        <div class='flex gap-1 items-center'>
           Level up having learned
           <b>{getMoveName(clause)}</b>
         </div>
       );
     case EvolutionMethod.EVO_FRIENDSHIP_MOVE_TYPE:
       return (
-        <div className='flex gap-1 items-center'>
+        <div class='flex gap-1 items-center'>
           At high friendship when knowing a<b>{PokemonTypeString[clause]}</b>
           type move
         </div>
@@ -180,7 +179,7 @@ function getEvolutionMethodDescription(
       return `Level up in area ${clause}`;
     case EvolutionMethod.EVO_ITEM_MALE:
       return (
-        <div className='flex gap-1 items-center'>
+        <div class='flex gap-1 items-center'>
           Use item
           <ItemIcon id={clause} />
           to evolve if male
@@ -188,7 +187,7 @@ function getEvolutionMethodDescription(
       );
     case EvolutionMethod.EVO_ITEM_FEMALE:
       return (
-        <div className='flex gap-1 items-center'>
+        <div class='flex gap-1 items-center'>
           Use item
           <ItemIcon id={clause} />
           to evolve if female
@@ -198,7 +197,7 @@ function getEvolutionMethodDescription(
       return `At level ${clause}, during rain`;
     case EvolutionMethod.EVO_SPECIFIC_MON_IN_PARTY:
       return (
-        <div className='flex gap-1 items-end mb-1'>
+        <div class='flex gap-1 items-end mb-1'>
           Level up while
           <PokemonIconComponent species={clause} />
           is in the party
@@ -208,7 +207,7 @@ function getEvolutionMethodDescription(
       return `At level ${clause}, with a Dark-type Pokémon in the party`;
     case EvolutionMethod.EVO_TRADE_SPECIFIC_MON:
       return (
-        <div className='flex gap-1 items-center'>
+        <div class='flex gap-1 items-center'>
           Trade with
           <PokemonIconComponent species={clause} />
         </div>
@@ -229,7 +228,7 @@ function getEvolutionMethodDescription(
       return 'Use the Water Scroll to evolve';
     case EvolutionMethod.EVO_ITEM_NIGHT:
       return (
-        <div className='flex gap-1 items-center'>
+        <div class='flex gap-1 items-center'>
           Use item
           <ItemIcon id={clause} />
           during the night
@@ -237,7 +236,7 @@ function getEvolutionMethodDescription(
       );
     case EvolutionMethod.EVO_ITEM_DAY:
       return (
-        <div className='flex gap-1 items-center'>
+        <div class='flex gap-1 items-center'>
           Use item
           <ItemIcon id={clause} />
           during the day
@@ -245,7 +244,7 @@ function getEvolutionMethodDescription(
       );
     case EvolutionMethod.EVO_ITEM_HOLD:
       return (
-        <div className='flex gap-1 items-center'>
+        <div class='flex gap-1 items-center'>
           Level up while holding
           <ItemIcon id={clause} />
         </div>
@@ -254,14 +253,14 @@ function getEvolutionMethodDescription(
       return `At level ${clause}, during fog`;
     case EvolutionMethod.EVO_MOVE_TWO_SEGMENT:
       return (
-        <div className='flex gap-1 items-center'>
+        <div class='flex gap-1 items-center'>
           Level up having learned
           <b>{getMoveName(clause)}</b>
         </div>
       );
     case EvolutionMethod.EVO_MOVE_THREE_SEGMENT:
       return (
-        <div className='flex gap-1 items-center'>
+        <div class='flex gap-1 items-center'>
           Level up having learned
           <b>{getMoveName(clause)}</b>, 1% chance
         </div>
@@ -272,7 +271,7 @@ function getEvolutionMethodDescription(
       return `At level ${clause}, evolves if in a family of four`;
     case EvolutionMethod.EVO_USE_MOVE_TWENTY_TIMES:
       return (
-        <div className='flex gap-1 items-center'>
+        <div class='flex gap-1 items-center'>
           Evolves after using the move
           <b>{getMoveName(clause)}</b>
           twenty times
@@ -284,7 +283,7 @@ function getEvolutionMethodDescription(
       return `Evolves after taking ${clause} recoil damage as a female`;
     case EvolutionMethod.EVO_ITEM_COUNT_999:
       return (
-        <div className='flex gap-1 items-center'>
+        <div class='flex gap-1 items-center'>
           Have 999 of
           <ItemIcon id={clause} />
           in your bag
@@ -292,7 +291,7 @@ function getEvolutionMethodDescription(
       );
     case EvolutionMethod.EVO_DEFEAT_THREE_WITH_ITEM:
       return (
-        <div className='flex gap-1 items-center'>
+        <div class='flex gap-1 items-center'>
           After defeating three Pokémon while holding
           <ItemIcon id={clause} />
         </div>

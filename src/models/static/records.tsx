@@ -1,14 +1,16 @@
-const Male = () => <span className='text-blue-400 font-semibold'>Male ♂️</span>;
+import type { JSXElement } from "solid-js";
+
+const Male = () => <span class='text-blue-400 font-semibold'>Male ♂️</span>;
 const Female = () => (
-  <span className='text-pink-400 font-semibold'>Female ♀️</span>
+  <span class='text-pink-400 font-semibold'>Female ♀️</span>
 );
-const Day = () => <span className='text-yellow-400 font-semibold'>Day</span>;
+const Day = () => <span class='text-yellow-400 font-semibold'>Day</span>;
 const Night = () => (
-  <span className='text-purple-400 font-semibold'>Night</span>
+  <span class='text-purple-400 font-semibold'>Night</span>
 );
-const Dusk = () => <span className='text-orange-400 font-semibold'>Dusk</span>;
-const Rain = () => <span className='text-blue-400 font-semibold'>Rain</span>;
-const Fog = () => <span className='text-slate-400 font-semibold'>Fog</span>;
+const Dusk = () => <span class='text-orange-400 font-semibold'>Dusk</span>;
+const Rain = () => <span class='text-blue-400 font-semibold'>Rain</span>;
+const Fog = () => <span class='text-slate-400 font-semibold'>Fog</span>;
 const AmpedNatures = [
   'Adamant',
   'Brave',
@@ -25,8 +27,8 @@ const AmpedNatures = [
   'Sassy',
 ];
 const Amped = () => (
-  <div className='tooltip' data-tip={AmpedNatures.join(' ')}>
-    <span className='text-yellow-300 font-semibold hover:underline'>Amped</span>
+  <div class='tooltip' data-tip={AmpedNatures.join(' ')}>
+    <span class='text-yellow-300 font-semibold hover:underline'>Amped</span>
   </div>
 );
 const LowKeyNatures = [
@@ -44,14 +46,14 @@ const LowKeyNatures = [
   'Timid',
 ];
 const LowKey = () => (
-  <div className='tooltip' data-tip={LowKeyNatures.join(' ')}>
-    <span className='text-blue-300 font-semibold hover:underline'>Low-Key</span>
+  <div class='tooltip' data-tip={LowKeyNatures.join(' ')}>
+    <span class='text-blue-300 font-semibold hover:underline'>Low-Key</span>
   </div>
 );
 const RareCandy = () => (
   <img
     title='By level'
-    className='w-6 aspect-square'
+    class='w-6 aspect-square'
     alt='Level'
     src='/assets/items/rare_candy.png'
   />
@@ -59,7 +61,7 @@ const RareCandy = () => (
 const PokeBall = () => (
   <img
     title='Pokè Ball'
-    className='w-6 aspect-square'
+    class='w-6 aspect-square'
     alt='Level'
     src='/assets/items/poke_ball.png'
   />
@@ -176,24 +178,24 @@ const weatherMethods = {
 };
 const monSpecificMethods = {
   LEVEL_SILCOON: (
-    <div className='flex flex-col items-center'>
+    <div class='flex flex-col items-center'>
       <RareCandy />
-      <span className='italic text-xs'>by personality</span>
+      <span class='italic text-xs'>by personality</span>
     </div>
   ),
   LEVEL_CASCOON: (
-    <div className='flex flex-col items-center'>
+    <div class='flex flex-col items-center'>
       <RareCandy />
-      <span className='italic text-xs'>by personality</span>
+      <span class='italic text-xs'>by personality</span>
     </div>
   ),
   LEVEL_NINJASK: 'Level',
   LEVEL_SHEDINJA: (
-    <div className='flex flex-col items-center'>
+    <div class='flex flex-col items-center'>
       <RareCandy />
-      <div className='italic text-xs'>
+      <div class='italic text-xs'>
         <span>with an empty slot in the party</span>
-        <span className='flex justify-center items-center'>
+        <span class='flex justify-center items-center'>
           and at least 1 <PokeBall /> in the bag
         </span>
       </div>
@@ -203,9 +205,9 @@ const monSpecificMethods = {
   SPECIFIC_MON_IN_PARTY: 'Level up while having in party',
   TRADE_SPECIFIC_MON: 'Trade with',
   LEVEL_DARK_TYPE_MON_IN_PARTY: (
-    <span className='flex flex-row gap-2'>
+    <span class='flex flex-row gap-2'>
       <span>With a</span>
-      <span className='type-dark'>Dark</span>
+      <span class='type-dark'>Dark</span>
       <span>pokèmon in the party at level</span>
     </span>
   ),
@@ -220,7 +222,7 @@ const monSpecificMethods = {
     </>
   ),
 };
-export const EvolutionMethods: Record<string, string | JSX.Element> = {
+export const EvolutionMethods: Record<string, string | JSXElement> = {
   LEVEL: <RareCandy />,
   TRADE: 'Trade',
   ITEM: 'Use',

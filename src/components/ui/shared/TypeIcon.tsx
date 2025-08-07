@@ -19,9 +19,9 @@ export default function TypeIcon({
     typeof type === 'number'
       ? PokemonTypeString[type].toLowerCase()
       : type.toLowerCase();
-  const className = `type-${
+  const klass = `type-${
     formattedType === '???' ? 'mystery' : formattedType
   } ${strikeThrough ? 'obst' : ''} ${isNew ? 'new-type' : ''}`;
 
-  return <span className={className}>{formattedType}</span>;
+  return <span class={klass}>{formattedType}</span>;
 }

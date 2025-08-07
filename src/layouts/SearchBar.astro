@@ -1,5 +1,5 @@
 ---
-import { MdSearch } from "react-icons/md";
+import MdSearch from "~icons/material-symbols/search";
 ---
 
 <div class="relative">
@@ -10,16 +10,16 @@ import { MdSearch } from "react-icons/md";
   >
   </div>
   <label class="relative">
-    <MdSearch className="absolute left-3 top-[2.5px] text-lg text-accent" />
+    <MdSearch class="absolute !left-2 !z-10 top-[2.5px] text-lg text-accent" />
     <input
       autocomplete="off"
       id="search-input"
       placeholder="Search..."
-      class="pl-8 pr-16 border-accent w-48 input bg-base-100 rounded-s-none border-s-0 focus:outline-none"
+      class="!pl-8 !pr-16 !border-accent !w-48 !input !rounded-s-none !border-s-0 focus:!outline-0"
       type="text"
     />
     <span
-      class="absolute select-none pointer-events-none right-4 top-[2.5px] text-xs text-gray-300"
+      class="absolute select-none pointer-events-none right-4 top-[2.5px] text-xs !z-10 text-gray-300"
       >CTRL K</span
     >
   </label>
@@ -42,6 +42,7 @@ import { MdSearch } from "react-icons/md";
 <!-- search event -->
 <script>
   const DEBOUNCE_DELAY = 500;
+import { searchStore, setSearchStore } from "../data/store/search.store";
   import { debounce } from "../utils/event.utils.mjs";
   const inputElement = document.getElementById(
     "search-input",
@@ -64,6 +65,8 @@ import { MdSearch } from "react-icons/md";
     });
     loadingElement.hidden = false;
     document.dispatchEvent(searchEvent);
+    // solid store
+    setSearchStore("text", text);
   }
 
   function handleSearchEnd(_: Event) {

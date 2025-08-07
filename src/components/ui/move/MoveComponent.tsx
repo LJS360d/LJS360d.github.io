@@ -15,12 +15,12 @@ function MoveComponent({ move }: MoveComponentProps) {
   return (
     <li
       data-move-name={move.name.toUpperCase()}
-      className='cursor-default bg-base-200 rounded-lg flex flex-row justify-start flex-1'>
-      <div className='flex flex-col items-start'>
-        <h6 className='capitalize'>{toCapitalized(move.name)}</h6>
-        <div className='flex flex-row gap-1'>
+      class='cursor-default bg-base-200 rounded-lg flex flex-row justify-start flex-1'>
+      <div class='flex flex-col items-start'>
+        <h6 class='capitalize'>{toCapitalized(move.name)}</h6>
+        <div class='flex flex-row gap-1'>
           {move.old && move.type !== move.old?.type ? (
-            <div className='flex flex-col gap-1'>
+            <div class='flex flex-col gap-1'>
               <TypeIcon type={move.type} />
               <TypeIcon type={move.old.type} strikeThrough />
             </div>
@@ -28,7 +28,7 @@ function MoveComponent({ move }: MoveComponentProps) {
             <TypeIcon type={move.type} />
           )}
           {move.old && move.category !== move.old.category ? (
-            <div className='flex flex-col gap-1'>
+            <div class='flex flex-col gap-1'>
               <MoveCategory type={move.type} category={move.category} />
               <MoveCategory type={move.old.type} category={move.old.category} strikeThrough />
             </div>
@@ -38,38 +38,38 @@ function MoveComponent({ move }: MoveComponentProps) {
         </div>
       </div>
       {move.category !== MoveCategoryEnum.STATUS && move.power > 1 && (
-        <div className='flex flex-col items-start'>
+        <div class='flex flex-col items-start'>
           <span>Power</span>
           {move.old && move.power !== move.old.power ? (
             <>
-              <span className='new'>{move.power}</span>
-              <span className='old'>{move.old.power}</span>
+              <span class='new'>{move.power}</span>
+              <span class='old'>{move.old.power}</span>
             </>
           ) : (
             <span>{move.power}</span>
           )}
         </div>
       )}
-      <div className='flex flex-col items-start'>
+      <div class='flex flex-col items-start'>
         <span>Accuracy</span>
         {move.old && move.accuracy !== move.old.accuracy ? (
           <>
-            <span className='new'>{move.accuracy}%</span>
-            <span className='old'>{move.old.accuracy}%</span>
+            <span class='new'>{move.accuracy}%</span>
+            <span class='old'>{move.old.accuracy}%</span>
           </>
         ) : (
           <span>{move.accuracy ? `${move.accuracy}%` : '-'}</span>
         )}
       </div>
       {move.target !== MoveTarget.SELECTED && (
-        <div className='flex flex-col items-start'>
+        <div class='flex flex-col items-start'>
           <span>Target</span>
           {move.old && move.target !== move.old.target ? (
             <>
-              <span className='new'>
+              <span class='new'>
                 {MoveTarget[move.target] ?? move.target}
               </span>
-              <span className='old'>
+              <span class='old'>
                 {MoveTarget[move.old.target] ?? move.old.target}
               </span>
             </>
@@ -79,12 +79,12 @@ function MoveComponent({ move }: MoveComponentProps) {
         </div>
       )}
       {move.priority > 0 && (
-        <div className='flex flex-col items-start'>
+        <div class='flex flex-col items-start'>
           <span>Priority</span>
           {move.old && move.priority !== move.old.priority ? (
             <>
-              <span className='new'>{move.priority}</span>
-              <span className='old'>{move.old.priority}</span>
+              <span class='new'>{move.priority}</span>
+              <span class='old'>{move.old.priority}</span>
             </>
           ) : (
             <span>{move.priority}</span>
@@ -92,12 +92,12 @@ function MoveComponent({ move }: MoveComponentProps) {
         </div>
       )}
       {move.recoil > 0 && (
-        <div className='flex flex-col items-start'>
+        <div class='flex flex-col items-start'>
           <span>Recoil</span>
           {move.old && move.recoil !== move.old.recoil ? (
             <>
-              <span className='new'>{move.recoil}%</span>
-              <span className='old'>{move.old.recoil}%</span>
+              <span class='new'>{move.recoil}%</span>
+              <span class='old'>{move.old.recoil}%</span>
             </>
           ) : (
             <span>{move.recoil}%</span>
@@ -105,15 +105,15 @@ function MoveComponent({ move }: MoveComponentProps) {
         </div>
       )}
       {move.effect !== 1 && (
-        <div className='flex flex-col items-start'>
+        <div class='flex flex-col items-start'>
           <span>Effect</span>
           {move.old && move.effect !== move.old.effect ? (
             <>
-              <span className='new w-fit'>{getEffectStr(move.effect)}</span>
-              <span className='old w-fit'>{getEffectStr(move.old.effect)}</span>
+              <span class='new w-fit'>{getEffectStr(move.effect)}</span>
+              <span class='old w-fit'>{getEffectStr(move.old.effect)}</span>
             </>
           ) : (
-            <span className='w-fit'>{getEffectStr(move.effect)}</span>
+            <span class='w-fit'>{getEffectStr(move.effect)}</span>
           )}
         </div>
       )}
@@ -121,15 +121,15 @@ function MoveComponent({ move }: MoveComponentProps) {
         <>
           {move.additionalEffects.map((effect, index) => (
             <div key={index}>
-              <div className='flex flex-col items-start'>
+              <div class='flex flex-col items-start'>
                 <span>Secondary Effect</span>
                 {move.old?.additionalEffects?.[index]?.moveEffect !==
                 effect.moveEffect ? (
                   <>
-                    <span className='new'>
+                    <span class='new'>
                       {getEffectStr(effect.moveEffect)}
                     </span>
-                    <span className='old'>
+                    <span class='old'>
                       {getEffectStr(
                         move.old?.additionalEffects?.[index]?.moveEffect
                       )}
@@ -141,13 +141,13 @@ function MoveComponent({ move }: MoveComponentProps) {
               </div>
 
               {!!effect.chance && (
-                <div className='flex flex-col items-start'>
+                <div class='flex flex-col items-start'>
                   <span>Effect chance</span>
                   {move.old?.additionalEffects?.[index]?.chance !==
                   effect.chance ? (
                     <>
-                      <span className='new'>{effect.chance}%</span>
-                      <span className='old'>
+                      <span class='new'>{effect.chance}%</span>
+                      <span class='old'>
                         {move.old?.additionalEffects?.[index]?.chance}%
                       </span>
                     </>

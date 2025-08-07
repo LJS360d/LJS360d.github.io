@@ -1,3 +1,4 @@
+import { splitProps } from "solid-js";
 import type { PokemonInfo } from "../../../data/types/pokemon";
 import ItemIcon from "../item/ItemIcon";
 
@@ -5,32 +6,32 @@ interface PokemonHeldItemsProps {
   pokemon: PokemonInfo;
 }
 
-function PokemonHeldItems({ pokemon }: PokemonHeldItemsProps) {
-  const { itemCommon, itemRare } = pokemon;
-  const { itemCommon: oldItemCommon, itemRare: oldItemRare } = pokemon.old ?? {};
+function PokemonHeldItems(props: PokemonHeldItemsProps) {
+  const [newEntries,] = splitProps(props.pokemon, ["itemCommon", "itemRare"]);
+  const [old,] = splitProps(props.pokemon?.old ?? {} as PokemonInfo, ["itemCommon", "itemRare"]);
 
   return (
-    <div className="flex flex-col items-start">
-      {!!itemCommon && (
+    <div class="flex flex-col items-start">
+      {!!newEntries.itemCommon && (
         <div>
           <span>Common held item</span>
-          {oldItemCommon !== undefined && oldItemCommon !== itemCommon ? (
-            <div className="old">
-              <ItemIcon id={oldItemCommon} />
+          {old.itemCommon !== undefined && old.itemCommon !== newEntries.itemCommon ? (
+            <div class="old">
+              <ItemIcon id={old.itemCommon} />
             </div>
           ) : null}
-          <ItemIcon id={itemCommon} />
+          <ItemIcon id={newEntries.itemCommon} />
         </div>
       )}
-      {!!itemRare && (
+      {!!newEntries.itemRare && (
         <div>
           <span>Rare held item</span>
-          {oldItemRare !== undefined && oldItemRare !== itemRare ? (
-            <div className="old">
-              <ItemIcon id={oldItemRare} />
+          {old.itemRare !== undefined && old.itemRare !== newEntries.itemRare ? (
+            <div class="old">
+              <ItemIcon id={old.itemRare} />
             </div>
           ) : null}
-          <ItemIcon id={itemRare} />
+          <ItemIcon id={newEntries.itemRare} />
         </div>
       )}
     </div>

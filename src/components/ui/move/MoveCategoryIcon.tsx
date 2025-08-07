@@ -18,7 +18,7 @@ function MoveCategory({
     ];
   return (
     <span
-      className={`category-${categoryStr} ${
+      class={`category-${categoryStr} ${
         strikeThrough ? 'obst' : ''
       }`}
     />

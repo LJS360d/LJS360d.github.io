@@ -1,16 +1,48 @@
 ---
 import pkg from "../../package.json";
-import tailwindConfig from "../../tailwind.config.mjs";
 import { RoutesIterator } from "../models/static/routes";
 import Sidebar from "./Sidebar.astro";
-import "../styles/styles.scss";
+import "../styles/global.css";
 export interface Props {
   title: string;
 }
 
 const { title } = Astro.props;
 const version = pkg.version;
-const themes = tailwindConfig.daisyui.themes as string[];
+const themes = [
+  "dark",
+  "light",
+ /*  "cupcake",
+  "bumblebee",
+  "emerald",
+  "corporate",
+  "synthwave",
+  "retro",
+  "cyberpunk",
+  "valentine",
+  "halloween",
+  "garden",
+  "forest", */
+  "aqua",
+ /*  "lofi",
+  "pastel",
+  "fantasy",
+  "wireframe",
+  "black",
+  "luxury",
+  "dracula",
+  "cmyk",
+  "autumn",
+  "business",
+  "acid",
+  "lemonade", */
+  "night",
+  /* "coffee",
+  "winter",
+  "dim",
+  "nord",
+  "sunset", */
+];
 const theme = themes[0];
 const sidebarData = { title, themes, theme, version, routes: RoutesIterator };
 ---

@@ -17,9 +17,9 @@ export default function EvolutionTreeComponent({ evolution }: EvolutionProps) {
   const renderEvolutionPath = (path: EvolutionPath, prev = true) => (
     <>
       {prev && <PokemonSpriteComponent species={path.from} />}
-      <div className='flex flex-col'>
+      <div class='flex flex-col'>
         {path.to.map((to, i) => (
-          <div key={i} className='flex items-center gap-6'>
+          <div key={i} class='flex items-center gap-6'>
             <EvolutionClause evo={to.methods} />
             <PokemonSpriteComponent species={to.species} />
             {renderBranches(to)}
@@ -34,9 +34,9 @@ export default function EvolutionTreeComponent({ evolution }: EvolutionProps) {
       (e) => e.from === outcome.species
     );
     return branches.length ? (
-      <div className='flex flex-col'>
+      <div class='flex flex-col'>
         {branches.map((branch, index) => (
-          <div key={index} className='ml-4 flex flex-col'>
+          <div key={index} class='ml-4 flex flex-col'>
             {renderEvolutionPath(branch, false)}
           </div>
         ))}
@@ -47,10 +47,10 @@ export default function EvolutionTreeComponent({ evolution }: EvolutionProps) {
   return (
     <li
       data-evolution-name={search}
-      className='cursor-default bg-base-200 rounded-lg flex flex-col justify-start flex-1 p-2'>
-      <div className='flex items-center'>
+      class='cursor-default bg-base-200 rounded-lg flex flex-col justify-start flex-1 p-2'>
+      <div class='flex items-center'>
         {evos.map((evo, index) => (
-          <div key={index} className='flex items-center gap-6'>
+          <div key={index} class='flex items-center gap-6'>
             {renderEvolutionPath(evo)}
           </div>
         ))}
