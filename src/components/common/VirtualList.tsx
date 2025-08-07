@@ -5,9 +5,10 @@ export interface VirtualListProps<T extends readonly any[]> {
   items: T;
   rowHeight: number;
   rootHeight: number;
-  overscan: number;
+  overscan?: number;
   fallback?: JSXElement;
   children: (item: T[number]) => JSXElement;
+  class?: string;
 }
 
 export default function VirtualList<T extends readonly any[]>(props: VirtualListProps<T>) {
@@ -16,7 +17,7 @@ export default function VirtualList<T extends readonly any[]>(props: VirtualList
     count: props.items.length,
     getScrollElement: () => parentRef ?? null,
     estimateSize: () => props.rowHeight,
-    overscan: props.overscan,
+    overscan: props.overscan ?? 40,
   });
 
   return (
@@ -33,6 +34,7 @@ export default function VirtualList<T extends readonly any[]>(props: VirtualList
           width: "100%",
           position: "relative",
         }}
+        class={props.class ?? ""}
       >
         <For fallback={props.fallback} each={rowVirtualizer.getVirtualItems()}>
           {(virtualRow) => {

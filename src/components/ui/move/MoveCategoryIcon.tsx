@@ -6,20 +6,15 @@ interface MoveCategoryProps {
 }
 
 const categoryStrings = ['physical', 'special', 'status'];
-function MoveCategory({
-  category,
-  strikeThrough,
-  type,
-  typeBasedCategory = true,
-}: MoveCategoryProps) {
+function MoveCategory(props: MoveCategoryProps) {
   const categoryStr =
     categoryStrings[
-      typeBasedCategory && category !== 2 ? getCategoryForType(type) : category
+      (props.typeBasedCategory ?? true) && props.category !== 2 ? getCategoryForType(props.type) : props.category
     ];
   return (
     <span
       class={`category-${categoryStr} ${
-        strikeThrough ? 'obst' : ''
+        props.strikeThrough ? 'obst' : ''
       }`}
     />
   );

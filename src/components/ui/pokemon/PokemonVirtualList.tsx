@@ -19,11 +19,11 @@ export default function PokemonVirtualList() {
 
   return (
     <VirtualList
+      class="list-base"
       items={filteredPokemon()}
       rowHeight={240}
       rootHeight={window.innerHeight - 64}
       overscan={40}
-      fallback={<div>Loading...</div>}
     >
       {
         (item) => {

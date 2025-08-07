@@ -1,20 +1,8 @@
 ---
-import MoveComponent from "../components/ui/move/MoveComponent";
-import { moves } from "../data";
+import MovesVirtualList from "../components/ui/move/MovesVirtualList";
 import Layout from "../layouts/Layout.astro";
 ---
 
 <Layout title="Moves">
-  <ul id="move-list" class="list-base">
-    {moves.map((move) => <MoveComponent move={move} />)}
-  </ul>
+  <MovesVirtualList client:only />
 </Layout>
-
-<script>
-  import { updateList } from "../utils/search.utils";
-  const moveList = document.getElementById("move-list") as HTMLUListElement;
-  const moveArr = Array.from(moveList.children) as HTMLLIElement[];
-  document.addEventListener("search", (ev) =>
-    updateList(ev, moveArr, "data-move-name"),
-  );
-</script>
