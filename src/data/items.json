@@ -13891,7 +13891,7 @@
   },
   {
     "battleUsage": 0,
-    "description": "Snaps Pokémon out of move-binding effects.",
+    "description": "A hold item that snaps Pokémon out of infatuation.",
     "flingPower": 10,
     "holdEffect": 28,
     "holdEffectParam": 0,
@@ -15694,7 +15694,7 @@
     "description": "A hold item that restores HP but may confuse.",
     "flingPower": 10,
     "holdEffect": 10,
-    "holdEffectParam": 3,
+    "holdEffectParam": 8,
     "id": 524,
     "importance": 0,
     "name": "Figy Berry",
@@ -15724,7 +15724,7 @@
     "description": "A hold item that restores HP but may confuse.",
     "flingPower": 10,
     "holdEffect": 11,
-    "holdEffectParam": 3,
+    "holdEffectParam": 8,
     "id": 525,
     "importance": 0,
     "name": "Wiki Berry",
@@ -15754,7 +15754,7 @@
     "description": "A hold item that restores HP but may confuse.",
     "flingPower": 10,
     "holdEffect": 12,
-    "holdEffectParam": 3,
+    "holdEffectParam": 8,
     "id": 526,
     "importance": 0,
     "name": "Mago Berry",
@@ -15784,7 +15784,7 @@
     "description": "A hold item that restores HP but may confuse.",
     "flingPower": 10,
     "holdEffect": 13,
-    "holdEffectParam": 3,
+    "holdEffectParam": 8,
     "id": 527,
     "importance": 0,
     "name": "Aguav Berry",
@@ -15814,7 +15814,7 @@
     "description": "A hold item that restores HP but may confuse.",
     "flingPower": 10,
     "holdEffect": 14,
-    "holdEffectParam": 3,
+    "holdEffectParam": 8,
     "id": 528,
     "importance": 0,
     "name": "Iapapa Berry",
@@ -17436,7 +17436,7 @@
     "holdEffect": 0,
     "holdEffectParam": 0,
     "id": 582,
-    "importance": 0,
+    "importance": 1,
     "name": "TM01",
     "old": {
       "battleUsage": 0,
@@ -17466,7 +17466,7 @@
     "holdEffect": 0,
     "holdEffectParam": 0,
     "id": 583,
-    "importance": 0,
+    "importance": 1,
     "name": "TM02",
     "old": {
       "battleUsage": 0,
@@ -17496,7 +17496,7 @@
     "holdEffect": 0,
     "holdEffectParam": 0,
     "id": 584,
-    "importance": 0,
+    "importance": 1,
     "name": "TM03",
     "old": {
       "battleUsage": 0,
@@ -17526,7 +17526,7 @@
     "holdEffect": 0,
     "holdEffectParam": 0,
     "id": 585,
-    "importance": 0,
+    "importance": 1,
     "name": "TM04",
     "old": {
       "battleUsage": 0,
@@ -17556,7 +17556,7 @@
     "holdEffect": 0,
     "holdEffectParam": 0,
     "id": 586,
-    "importance": 0,
+    "importance": 1,
     "name": "TM05",
     "old": {
       "battleUsage": 0,
@@ -17586,7 +17586,7 @@
     "holdEffect": 0,
     "holdEffectParam": 0,
     "id": 587,
-    "importance": 0,
+    "importance": 1,
     "name": "TM06",
     "old": {
       "battleUsage": 0,
@@ -17616,7 +17616,7 @@
     "holdEffect": 0,
     "holdEffectParam": 0,
     "id": 588,
-    "importance": 0,
+    "importance": 1,
     "name": "TM07",
     "old": {
       "battleUsage": 0,
@@ -17646,7 +17646,7 @@
     "holdEffect": 0,
     "holdEffectParam": 0,
     "id": 589,
-    "importance": 0,
+    "importance": 1,
     "name": "TM08",
     "old": {
       "battleUsage": 0,
@@ -17676,7 +17676,7 @@
     "holdEffect": 0,
     "holdEffectParam": 0,
     "id": 590,
-    "importance": 0,
+    "importance": 1,
     "name": "TM09",
     "old": {
       "battleUsage": 0,
@@ -17706,7 +17706,7 @@
     "holdEffect": 0,
     "holdEffectParam": 0,
     "id": 591,
-    "importance": 0,
+    "importance": 1,
     "name": "TM10",
     "old": {
       "battleUsage": 0,
@@ -17736,7 +17736,7 @@
     "holdEffect": 0,
     "holdEffectParam": 0,
     "id": 592,
-    "importance": 0,
+    "importance": 1,
     "name": "TM11",
     "old": {
       "battleUsage": 0,
@@ -17766,7 +17766,7 @@
     "holdEffect": 0,
     "holdEffectParam": 0,
     "id": 593,
-    "importance": 0,
+    "importance": 1,
     "name": "TM12",
     "old": {
       "battleUsage": 0,
@@ -17796,7 +17796,7 @@
     "holdEffect": 0,
     "holdEffectParam": 0,
     "id": 594,
-    "importance": 0,
+    "importance": 1,
     "name": "TM13",
     "old": {
       "battleUsage": 0,
@@ -17826,7 +17826,7 @@
     "holdEffect": 0,
     "holdEffectParam": 0,
     "id": 595,
-    "importance": 0,
+    "importance": 1,
     "name": "TM14",
     "old": {
       "battleUsage": 0,
@@ -17856,7 +17856,7 @@
     "holdEffect": 0,
     "holdEffectParam": 0,
     "id": 596,
-    "importance": 0,
+    "importance": 1,
     "name": "TM15",
     "old": {
       "battleUsage": 0,
@@ -17886,7 +17886,7 @@
     "holdEffect": 0,
     "holdEffectParam": 0,
     "id": 597,
-    "importance": 0,
+    "importance": 1,
     "name": "TM16",
     "old": {
       "battleUsage": 0,
@@ -17916,7 +17916,7 @@
     "holdEffect": 0,
     "holdEffectParam": 0,
     "id": 598,
-    "importance": 0,
+    "importance": 1,
     "name": "TM17",
     "old": {
       "battleUsage": 0,
@@ -17946,7 +17946,7 @@
     "holdEffect": 0,
     "holdEffectParam": 0,
     "id": 599,
-    "importance": 0,
+    "importance": 1,
     "name": "TM18",
     "old": {
       "battleUsage": 0,
@@ -17976,7 +17976,7 @@
     "holdEffect": 0,
     "holdEffectParam": 0,
     "id": 600,
-    "importance": 0,
+    "importance": 1,
     "name": "TM19",
     "old": {
       "battleUsage": 0,
@@ -18006,7 +18006,7 @@
     "holdEffect": 0,
     "holdEffectParam": 0,
     "id": 601,
-    "importance": 0,
+    "importance": 1,
     "name": "TM20",
     "old": {
       "battleUsage": 0,
@@ -18036,7 +18036,7 @@
     "holdEffect": 0,
     "holdEffectParam": 0,
     "id": 602,
-    "importance": 0,
+    "importance": 1,
     "name": "TM21",
     "old": {
       "battleUsage": 0,
@@ -18066,7 +18066,7 @@
     "holdEffect": 0,
     "holdEffectParam": 0,
     "id": 603,
-    "importance": 0,
+    "importance": 1,
     "name": "TM22",
     "old": {
       "battleUsage": 0,
@@ -18096,7 +18096,7 @@
     "holdEffect": 0,
     "holdEffectParam": 0,
     "id": 604,
-    "importance": 0,
+    "importance": 1,
     "name": "TM23",
     "old": {
       "battleUsage": 0,
@@ -18126,7 +18126,7 @@
     "holdEffect": 0,
     "holdEffectParam": 0,
     "id": 605,
-    "importance": 0,
+    "importance": 1,
     "name": "TM24",
     "old": {
       "battleUsage": 0,
@@ -18156,7 +18156,7 @@
     "holdEffect": 0,
     "holdEffectParam": 0,
     "id": 606,
-    "importance": 0,
+    "importance": 1,
     "name": "TM25",
     "old": {
       "battleUsage": 0,
@@ -18186,7 +18186,7 @@
     "holdEffect": 0,
     "holdEffectParam": 0,
     "id": 607,
-    "importance": 0,
+    "importance": 1,
     "name": "TM26",
     "old": {
       "battleUsage": 0,
@@ -18216,7 +18216,7 @@
     "holdEffect": 0,
     "holdEffectParam": 0,
     "id": 608,
-    "importance": 0,
+    "importance": 1,
     "name": "TM27",
     "old": {
       "battleUsage": 0,
@@ -18246,7 +18246,7 @@
     "holdEffect": 0,
     "holdEffectParam": 0,
     "id": 609,
-    "importance": 0,
+    "importance": 1,
     "name": "TM28",
     "old": {
       "battleUsage": 0,
@@ -18276,7 +18276,7 @@
     "holdEffect": 0,
     "holdEffectParam": 0,
     "id": 610,
-    "importance": 0,
+    "importance": 1,
     "name": "TM29",
     "old": {
       "battleUsage": 0,
@@ -18306,7 +18306,7 @@
     "holdEffect": 0,
     "holdEffectParam": 0,
     "id": 611,
-    "importance": 0,
+    "importance": 1,
     "name": "TM30",
     "old": {
       "battleUsage": 0,
@@ -18336,7 +18336,7 @@
     "holdEffect": 0,
     "holdEffectParam": 0,
     "id": 612,
-    "importance": 0,
+    "importance": 1,
     "name": "TM31",
     "old": {
       "battleUsage": 0,
@@ -18366,7 +18366,7 @@
     "holdEffect": 0,
     "holdEffectParam": 0,
     "id": 613,
-    "importance": 0,
+    "importance": 1,
     "name": "TM32",
     "old": {
       "battleUsage": 0,
@@ -18396,7 +18396,7 @@
     "holdEffect": 0,
     "holdEffectParam": 0,
     "id": 614,
-    "importance": 0,
+    "importance": 1,
     "name": "TM33",
     "old": {
       "battleUsage": 0,
@@ -18426,7 +18426,7 @@
     "holdEffect": 0,
     "holdEffectParam": 0,
     "id": 615,
-    "importance": 0,
+    "importance": 1,
     "name": "TM34",
     "old": {
       "battleUsage": 0,
@@ -18456,7 +18456,7 @@
     "holdEffect": 0,
     "holdEffectParam": 0,
     "id": 616,
-    "importance": 0,
+    "importance": 1,
     "name": "TM35",
     "old": {
       "battleUsage": 0,
@@ -18486,7 +18486,7 @@
     "holdEffect": 0,
     "holdEffectParam": 0,
     "id": 617,
-    "importance": 0,
+    "importance": 1,
     "name": "TM36",
     "old": {
       "battleUsage": 0,
@@ -18516,7 +18516,7 @@
     "holdEffect": 0,
     "holdEffectParam": 0,
     "id": 618,
-    "importance": 0,
+    "importance": 1,
     "name": "TM37",
     "old": {
       "battleUsage": 0,
@@ -18546,7 +18546,7 @@
     "holdEffect": 0,
     "holdEffectParam": 0,
     "id": 619,
-    "importance": 0,
+    "importance": 1,
     "name": "TM38",
     "old": {
       "battleUsage": 0,
@@ -18576,7 +18576,7 @@
     "holdEffect": 0,
     "holdEffectParam": 0,
     "id": 620,
-    "importance": 0,
+    "importance": 1,
     "name": "TM39",
     "old": {
       "battleUsage": 0,
@@ -18606,7 +18606,7 @@
     "holdEffect": 0,
     "holdEffectParam": 0,
     "id": 621,
-    "importance": 0,
+    "importance": 1,
     "name": "TM40",
     "old": {
       "battleUsage": 0,
@@ -18636,7 +18636,7 @@
     "holdEffect": 0,
     "holdEffectParam": 0,
     "id": 622,
-    "importance": 0,
+    "importance": 1,
     "name": "TM41",
     "old": {
       "battleUsage": 0,
@@ -18666,7 +18666,7 @@
     "holdEffect": 0,
     "holdEffectParam": 0,
     "id": 623,
-    "importance": 0,
+    "importance": 1,
     "name": "TM42",
     "old": {
       "battleUsage": 0,
@@ -18696,7 +18696,7 @@
     "holdEffect": 0,
     "holdEffectParam": 0,
     "id": 624,
-    "importance": 0,
+    "importance": 1,
     "name": "TM43",
     "old": {
       "battleUsage": 0,
@@ -18726,7 +18726,7 @@
     "holdEffect": 0,
     "holdEffectParam": 0,
     "id": 625,
-    "importance": 0,
+    "importance": 1,
     "name": "TM44",
     "old": {
       "battleUsage": 0,
@@ -18756,7 +18756,7 @@
     "holdEffect": 0,
     "holdEffectParam": 0,
     "id": 626,
-    "importance": 0,
+    "importance": 1,
     "name": "TM45",
     "old": {
       "battleUsage": 0,
@@ -18786,7 +18786,7 @@
     "holdEffect": 0,
     "holdEffectParam": 0,
     "id": 627,
-    "importance": 0,
+    "importance": 1,
     "name": "TM46",
     "old": {
       "battleUsage": 0,
@@ -18816,7 +18816,7 @@
     "holdEffect": 0,
     "holdEffectParam": 0,
     "id": 628,
-    "importance": 0,
+    "importance": 1,
     "name": "TM47",
     "old": {
       "battleUsage": 0,
@@ -18846,7 +18846,7 @@
     "holdEffect": 0,
     "holdEffectParam": 0,
     "id": 629,
-    "importance": 0,
+    "importance": 1,
     "name": "TM48",
     "old": {
       "battleUsage": 0,
@@ -18876,7 +18876,7 @@
     "holdEffect": 0,
     "holdEffectParam": 0,
     "id": 630,
-    "importance": 0,
+    "importance": 1,
     "name": "TM49",
     "old": {
       "battleUsage": 0,
@@ -18906,7 +18906,7 @@
     "holdEffect": 0,
     "holdEffectParam": 0,
     "id": 631,
-    "importance": 0,
+    "importance": 1,
     "name": "TM50",
     "old": {
       "battleUsage": 0,
@@ -18936,7 +18936,7 @@
     "holdEffect": 0,
     "holdEffectParam": 0,
     "id": 632,
-    "importance": 0,
+    "importance": 1,
     "name": "TM51",
     "old": {
       "battleUsage": 0,
@@ -18966,7 +18966,7 @@
     "holdEffect": 0,
     "holdEffectParam": 0,
     "id": 633,
-    "importance": 0,
+    "importance": 1,
     "name": "TM52",
     "old": {
       "battleUsage": 0,
@@ -18996,7 +18996,7 @@
     "holdEffect": 0,
     "holdEffectParam": 0,
     "id": 634,
-    "importance": 0,
+    "importance": 1,
     "name": "TM53",
     "old": {
       "battleUsage": 0,
@@ -19026,7 +19026,7 @@
     "holdEffect": 0,
     "holdEffectParam": 0,
     "id": 635,
-    "importance": 0,
+    "importance": 1,
     "name": "TM54",
     "old": {
       "battleUsage": 0,
@@ -19056,7 +19056,7 @@
     "holdEffect": 0,
     "holdEffectParam": 0,
     "id": 636,
-    "importance": 0,
+    "importance": 1,
     "name": "TM55",
     "old": {
       "battleUsage": 0,
@@ -19086,7 +19086,7 @@
     "holdEffect": 0,
     "holdEffectParam": 0,
     "id": 637,
-    "importance": 0,
+    "importance": 1,
     "name": "TM56",
     "old": {
       "battleUsage": 0,
@@ -19116,7 +19116,7 @@
     "holdEffect": 0,
     "holdEffectParam": 0,
     "id": 638,
-    "importance": 0,
+    "importance": 1,
     "name": "TM57",
     "old": {
       "battleUsage": 0,
@@ -19146,7 +19146,7 @@
     "holdEffect": 0,
     "holdEffectParam": 0,
     "id": 639,
-    "importance": 0,
+    "importance": 1,
     "name": "TM58",
     "old": {
       "battleUsage": 0,
@@ -19176,7 +19176,7 @@
     "holdEffect": 0,
     "holdEffectParam": 0,
     "id": 640,
-    "importance": 0,
+    "importance": 1,
     "name": "TM59",
     "old": {
       "battleUsage": 0,
@@ -19206,7 +19206,7 @@
     "holdEffect": 0,
     "holdEffectParam": 0,
     "id": 641,
-    "importance": 0,
+    "importance": 1,
     "name": "TM60",
     "old": {
       "battleUsage": 0,
@@ -19236,7 +19236,7 @@
     "holdEffect": 0,
     "holdEffectParam": 0,
     "id": 642,
-    "importance": 0,
+    "importance": 1,
     "name": "TM61",
     "old": {
       "battleUsage": 0,
@@ -19266,7 +19266,7 @@
     "holdEffect": 0,
     "holdEffectParam": 0,
     "id": 643,
-    "importance": 0,
+    "importance": 1,
     "name": "TM62",
     "old": {
       "battleUsage": 0,
@@ -19296,7 +19296,7 @@
     "holdEffect": 0,
     "holdEffectParam": 0,
     "id": 644,
-    "importance": 0,
+    "importance": 1,
     "name": "TM63",
     "old": {
       "battleUsage": 0,
@@ -19326,7 +19326,7 @@
     "holdEffect": 0,
     "holdEffectParam": 0,
     "id": 645,
-    "importance": 0,
+    "importance": 1,
     "name": "TM64",
     "old": {
       "battleUsage": 0,
@@ -19356,7 +19356,7 @@
     "holdEffect": 0,
     "holdEffectParam": 0,
     "id": 646,
-    "importance": 0,
+    "importance": 1,
     "name": "TM65",
     "old": {
       "battleUsage": 0,
@@ -19386,7 +19386,7 @@
     "holdEffect": 0,
     "holdEffectParam": 0,
     "id": 647,
-    "importance": 0,
+    "importance": 1,
     "name": "TM66",
     "old": {
       "battleUsage": 0,
@@ -19416,7 +19416,7 @@
     "holdEffect": 0,
     "holdEffectParam": 0,
     "id": 648,
-    "importance": 0,
+    "importance": 1,
     "name": "TM67",
     "old": {
       "battleUsage": 0,
@@ -19446,7 +19446,7 @@
     "holdEffect": 0,
     "holdEffectParam": 0,
     "id": 649,
-    "importance": 0,
+    "importance": 1,
     "name": "TM68",
     "old": {
       "battleUsage": 0,
@@ -19476,7 +19476,7 @@
     "holdEffect": 0,
     "holdEffectParam": 0,
     "id": 650,
-    "importance": 0,
+    "importance": 1,
     "name": "TM69",
     "old": {
       "battleUsage": 0,
@@ -19506,7 +19506,7 @@
     "holdEffect": 0,
     "holdEffectParam": 0,
     "id": 651,
-    "importance": 0,
+    "importance": 1,
     "name": "TM70",
     "old": {
       "battleUsage": 0,
@@ -19536,7 +19536,7 @@
     "holdEffect": 0,
     "holdEffectParam": 0,
     "id": 652,
-    "importance": 0,
+    "importance": 1,
     "name": "TM71",
     "old": {
       "battleUsage": 0,
@@ -19566,7 +19566,7 @@
     "holdEffect": 0,
     "holdEffectParam": 0,
     "id": 653,
-    "importance": 0,
+    "importance": 1,
     "name": "TM72",
     "old": {
       "battleUsage": 0,
@@ -19596,7 +19596,7 @@
     "holdEffect": 0,
     "holdEffectParam": 0,
     "id": 654,
-    "importance": 0,
+    "importance": 1,
     "name": "TM73",
     "old": {
       "battleUsage": 0,
@@ -19626,7 +19626,7 @@
     "holdEffect": 0,
     "holdEffectParam": 0,
     "id": 655,
-    "importance": 0,
+    "importance": 1,
     "name": "TM74",
     "old": {
       "battleUsage": 0,
@@ -19656,7 +19656,7 @@
     "holdEffect": 0,
     "holdEffectParam": 0,
     "id": 656,
-    "importance": 0,
+    "importance": 1,
     "name": "TM75",
     "old": {
       "battleUsage": 0,
@@ -19686,7 +19686,7 @@
     "holdEffect": 0,
     "holdEffectParam": 0,
     "id": 657,
-    "importance": 0,
+    "importance": 1,
     "name": "TM76",
     "old": {
       "battleUsage": 0,
@@ -19716,7 +19716,7 @@
     "holdEffect": 0,
     "holdEffectParam": 0,
     "id": 658,
-    "importance": 0,
+    "importance": 1,
     "name": "TM77",
     "old": {
       "battleUsage": 0,
@@ -19746,7 +19746,7 @@
     "holdEffect": 0,
     "holdEffectParam": 0,
     "id": 659,
-    "importance": 0,
+    "importance": 1,
     "name": "TM78",
     "old": {
       "battleUsage": 0,
@@ -19776,7 +19776,7 @@
     "holdEffect": 0,
     "holdEffectParam": 0,
     "id": 660,
-    "importance": 0,
+    "importance": 1,
     "name": "TM79",
     "old": {
       "battleUsage": 0,
@@ -19806,7 +19806,7 @@
     "holdEffect": 0,
     "holdEffectParam": 0,
     "id": 661,
-    "importance": 0,
+    "importance": 1,
     "name": "TM80",
     "old": {
       "battleUsage": 0,
@@ -19836,7 +19836,7 @@
     "holdEffect": 0,
     "holdEffectParam": 0,
     "id": 662,
-    "importance": 0,
+    "importance": 1,
     "name": "TM81",
     "old": {
       "battleUsage": 0,
@@ -19866,7 +19866,7 @@
     "holdEffect": 0,
     "holdEffectParam": 0,
     "id": 663,
-    "importance": 0,
+    "importance": 1,
     "name": "TM82",
     "old": {
       "battleUsage": 0,
@@ -19896,7 +19896,7 @@
     "holdEffect": 0,
     "holdEffectParam": 0,
     "id": 664,
-    "importance": 0,
+    "importance": 1,
     "name": "TM83",
     "old": {
       "battleUsage": 0,
@@ -19926,7 +19926,7 @@
     "holdEffect": 0,
     "holdEffectParam": 0,
     "id": 665,
-    "importance": 0,
+    "importance": 1,
     "name": "TM84",
     "old": {
       "battleUsage": 0,
@@ -19956,7 +19956,7 @@
     "holdEffect": 0,
     "holdEffectParam": 0,
     "id": 666,
-    "importance": 0,
+    "importance": 1,
     "name": "TM85",
     "old": {
       "battleUsage": 0,
@@ -19986,7 +19986,7 @@
     "holdEffect": 0,
     "holdEffectParam": 0,
     "id": 667,
-    "importance": 0,
+    "importance": 1,
     "name": "TM86",
     "old": {
       "battleUsage": 0,
@@ -20016,7 +20016,7 @@
     "holdEffect": 0,
     "holdEffectParam": 0,
     "id": 668,
-    "importance": 0,
+    "importance": 1,
     "name": "TM87",
     "old": {
       "battleUsage": 0,
@@ -20046,7 +20046,7 @@
     "holdEffect": 0,
     "holdEffectParam": 0,
     "id": 669,
-    "importance": 0,
+    "importance": 1,
     "name": "TM88",
     "old": {
       "battleUsage": 0,
@@ -20076,7 +20076,7 @@
     "holdEffect": 0,
     "holdEffectParam": 0,
     "id": 670,
-    "importance": 0,
+    "importance": 1,
     "name": "TM89",
     "old": {
       "battleUsage": 0,
@@ -20106,7 +20106,7 @@
     "holdEffect": 0,
     "holdEffectParam": 0,
     "id": 671,
-    "importance": 0,
+    "importance": 1,
     "name": "TM90",
     "old": {
       "battleUsage": 0,
@@ -20136,7 +20136,7 @@
     "holdEffect": 0,
     "holdEffectParam": 0,
     "id": 672,
-    "importance": 0,
+    "importance": 1,
     "name": "TM91",
     "old": {
       "battleUsage": 0,
@@ -20166,7 +20166,7 @@
     "holdEffect": 0,
     "holdEffectParam": 0,
     "id": 673,
-    "importance": 0,
+    "importance": 1,
     "name": "TM92",
     "old": {
       "battleUsage": 0,
@@ -20196,7 +20196,7 @@
     "holdEffect": 0,
     "holdEffectParam": 0,
     "id": 674,
-    "importance": 0,
+    "importance": 1,
     "name": "TM93",
     "old": {
       "battleUsage": 0,
@@ -20226,7 +20226,7 @@
     "holdEffect": 0,
     "holdEffectParam": 0,
     "id": 675,
-    "importance": 0,
+    "importance": 1,
     "name": "TM94",
     "old": {
       "battleUsage": 0,
@@ -20256,7 +20256,7 @@
     "holdEffect": 0,
     "holdEffectParam": 0,
     "id": 676,
-    "importance": 0,
+    "importance": 1,
     "name": "TM95",
     "old": {
       "battleUsage": 0,
@@ -20286,7 +20286,7 @@
     "holdEffect": 0,
     "holdEffectParam": 0,
     "id": 677,
-    "importance": 0,
+    "importance": 1,
     "name": "TM96",
     "old": {
       "battleUsage": 0,
@@ -20316,7 +20316,7 @@
     "holdEffect": 0,
     "holdEffectParam": 0,
     "id": 678,
-    "importance": 0,
+    "importance": 1,
     "name": "TM97",
     "old": {
       "battleUsage": 0,
@@ -20346,7 +20346,7 @@
     "holdEffect": 0,
     "holdEffectParam": 0,
     "id": 679,
-    "importance": 0,
+    "importance": 1,
     "name": "TM98",
     "old": {
       "battleUsage": 0,
@@ -20376,7 +20376,7 @@
     "holdEffect": 0,
     "holdEffectParam": 0,
     "id": 680,
-    "importance": 0,
+    "importance": 1,
     "name": "TM99",
     "old": {
       "battleUsage": 0,
@@ -20406,7 +20406,7 @@
     "holdEffect": 0,
     "holdEffectParam": 0,
     "id": 681,
-    "importance": 0,
+    "importance": 1,
     "name": "TM100",
     "old": {
       "battleUsage": 0,
@@ -24843,7 +24843,7 @@
     "battleUsage": 0,
     "description": "A wooden toy carved in the image of a Pokémon. Can be sold.",
     "flingPower": 60,
-    "holdEffect": 185,
+    "holdEffect": 149,
     "holdEffectParam": 10,
     "id": 829,
     "importance": 0,
@@ -24859,7 +24859,7 @@
     "battleUsage": 0,
     "description": "A hold item for Gastly's evolution line. Turns ghost moves special.",
     "flingPower": 60,
-    "holdEffect": 186,
+    "holdEffect": 150,
     "holdEffectParam": 10,
     "id": 830,
     "importance": 0,
@@ -24875,7 +24875,7 @@
     "battleUsage": 0,
     "description": "A hold item for Sawsbuck. Changes normal moves  depending on its form.",
     "flingPower": 30,
-    "holdEffect": 187,
+    "holdEffect": 151,
     "holdEffectParam": 10,
     "id": 831,
     "importance": 0,
@@ -24891,7 +24891,7 @@
     "battleUsage": 0,
     "description": "A hold item for Baxcalibur. Slicing moves are physical  and slightly boosted.",
     "flingPower": 30,
-    "holdEffect": 188,
+    "holdEffect": 152,
     "holdEffectParam": 10,
     "id": 832,
     "importance": 0,

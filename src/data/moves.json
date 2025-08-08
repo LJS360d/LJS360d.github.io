@@ -794,7 +794,7 @@
     ],
     "category": 0,
     "criticalHitStage": 0,
-    "description": "Binds and squeezes the foe for 4 or 5 turns.",
+    "description": "Binds and squeezes the foe for 2 to 5 turns.",
     "effect": 1,
     "flags": [
       "CONTACT"
@@ -1444,7 +1444,7 @@
     ],
     "category": 0,
     "criticalHitStage": 0,
-    "description": "Wraps and squeezes the foe 4 or 5 times with vines, etc.",
+    "description": "Wraps and squeezes the foe 2 to 5 times with vines, etc.",
     "effect": 1,
     "flags": [
       "CONTACT"
@@ -2461,7 +2461,7 @@
     "category": 1,
     "criticalHitStage": 0,
     "description": "Hits the foe with an icy storm that may freeze it.",
-    "effect": 336,
+    "effect": 1,
     "flags": null,
     "id": 59,
     "name": "Blizzard",
@@ -3452,7 +3452,7 @@
     ],
     "category": 1,
     "criticalHitStage": 0,
-    "description": "Traps the foe in a ring of fire for 4 or 5 turns.",
+    "description": "Traps the foe in a ring of fire for 2 to 5 turns.",
     "effect": 1,
     "flags": null,
     "id": 83,
@@ -5310,7 +5310,7 @@
     ],
     "category": 0,
     "criticalHitStage": 0,
-    "description": "Traps and squeezes the foe for 4 or 5 turns.",
+    "description": "Traps and squeezes the foe for 2 to 5 turns.",
     "effect": 1,
     "flags": [
       "CONTACT"
@@ -7210,7 +7210,7 @@
       "target": 0,
       "type": 1
     },
-    "power": 85,
+    "power": 70,
     "pp": 15,
     "priority": 0,
     "recoil": 0,
@@ -10248,7 +10248,7 @@
     ],
     "category": 1,
     "criticalHitStage": 0,
-    "description": "Hurls a black blob that may lower the foe's Sp. Def.",
+    "description": "Hurls a black blob that may lower the foe's Def.",
     "effect": 1,
     "flags": [
       "BALLISTIC"
@@ -10394,7 +10394,7 @@
     ],
     "category": 1,
     "criticalHitStage": 0,
-    "description": "Traps and hurts the foe in a whirlpool for 4 or 5 turns.",
+    "description": "Traps and hurts the foe in a whirlpool for 2 to 5 turns.",
     "effect": 1,
     "flags": [
       "DAMAGES_UNDERWATER"
@@ -10536,7 +10536,7 @@
     ],
     "category": 1,
     "criticalHitStage": 0,
-    "description": "Causes an uproar for 2 to 5 turns and prevents sleep.",
+    "description": "Causes an uproar for 3 turns and prevents sleep.",
     "effect": 129,
     "flags": [
       "SOUND"
@@ -13666,7 +13666,7 @@
     ],
     "category": 0,
     "criticalHitStage": 0,
-    "description": "Traps and hurts the foe in quicksand for 4 or 5 turns.",
+    "description": "Traps and hurts the foe in quicksand for 2 to 5 turns.",
     "effect": 1,
     "flags": null,
     "id": 328,
@@ -16874,7 +16874,7 @@
     ],
     "category": 1,
     "criticalHitStage": 0,
-    "description": "A damaging sound wave that may lower Sp. Def.",
+    "description": "A damaging sound wave that may lower Def.",
     "effect": 1,
     "flags": [
       "SOUND"
@@ -17118,7 +17118,7 @@
     "additionalEffects": [
       {
         "chance": 10,
-        "moveEffect": 26,
+        "moveEffect": 23,
         "onChargeTurnOnly": false,
         "onlyIfTargetRaisedStats": false,
         "self": false
@@ -17126,7 +17126,7 @@
     ],
     "category": 1,
     "criticalHitStage": 0,
-    "description": "Attacks at full power. May lower Sp. Def.",
+    "description": "Attacks at full power. May lower Def.",
     "effect": 1,
     "flags": [
       "BALLISTIC"
@@ -17272,7 +17272,7 @@
     ],
     "category": 1,
     "criticalHitStage": 0,
-    "description": "Makes the ground erupt with power. May lower Sp. Def.",
+    "description": "Makes the ground erupt with power. May lower Def.",
     "effect": 1,
     "flags": [
       "SKY_BATTLE_BANNED"
@@ -18042,7 +18042,7 @@
     ],
     "category": 1,
     "criticalHitStage": 0,
-    "description": "Releases a blast of light that may lower Sp. Def.",
+    "description": "Releases a blast of light that may lower Def.",
     "effect": 1,
     "flags": null,
     "id": 430,
@@ -19472,7 +19472,7 @@
     ],
     "category": 1,
     "criticalHitStage": 0,
-    "description": "Traps the foe in a vortex of fire for 4 or 5 turns.",
+    "description": "Traps the foe in a vortex of fire for 2 to 5 turns.",
     "effect": 1,
     "flags": null,
     "id": 463,
@@ -20648,7 +20648,7 @@
     ],
     "category": 1,
     "criticalHitStage": 0,
-    "description": "Sprays a hide-melting acid. Sharply reduces Sp. Def.",
+    "description": "Sprays a hide-melting acid. Sharply reduces Def.",
     "effect": 1,
     "flags": [
       "BALLISTIC"
@@ -22402,7 +22402,7 @@
     "additionalEffects": [
       {
         "chance": 50,
-        "moveEffect": 23,
+        "moveEffect": 26,
         "onChargeTurnOnly": false,
         "onlyIfTargetRaisedStats": false,
         "self": false
@@ -22410,7 +22410,7 @@
     ],
     "category": 0,
     "criticalHitStage": 0,
-    "description": "Tears at the foe with sharp shells. May lower Defense.",
+    "description": "Tears at the foe with sharp shells. May lower Sp. Def.",
     "effect": 1,
     "flags": [
       "SLICING"
@@ -25680,7 +25680,7 @@
     ],
     "category": 1,
     "criticalHitStage": 0,
-    "description": "The foe is infested and attacked for 4 or 5 turns.",
+    "description": "The foe is infested and attacked for 2 to 5 turns.",
     "effect": 1,
     "flags": [
       "CONTACT"
@@ -27080,7 +27080,7 @@
     ],
     "category": 0,
     "criticalHitStage": 0,
-    "description": "Whips the foe with fire lowering its Defense.",
+    "description": "Whips the foe with fire lowering its Sp. Def.",
     "effect": 1,
     "flags": [
       "CONTACT"
@@ -27978,7 +27978,7 @@
     ],
     "category": 0,
     "criticalHitStage": 0,
-    "description": "Slams the foe with water. Can lower Defense.",
+    "description": "Slams the foe with water. Can lower Sp. Def.",
     "effect": 1,
     "flags": [
       "CONTACT"
@@ -31604,7 +31604,7 @@
     ],
     "category": 1,
     "criticalHitStage": 0,
-    "description": "Traps the foe in a cage of electricity for 4 or 5 turns.",
+    "description": "Traps the foe in a cage of electricity for 2 to 5 turns.",
     "effect": 1,
     "flags": [
       "METRONOME_BANNED"
@@ -33460,7 +33460,7 @@
     "additionalEffects": null,
     "category": 2,
     "criticalHitStage": 0,
-    "description": "Sharply ups target's Attack, harshly lowers its Defense.",
+    "description": "Sharply ups target's Attack, harshly lowers its Sp. Def.",
     "effect": 343,
     "flags": [
       "METRONOME_BANNED"
@@ -34155,7 +34155,7 @@
       },
       {
         "chance": 0,
-        "moveEffect": 25,
+        "moveEffect": 22,
         "onChargeTurnOnly": false,
         "onlyIfTargetRaisedStats": false,
         "self": true
@@ -34163,7 +34163,7 @@
     ],
     "category": 1,
     "criticalHitStage": 0,
-    "description": "Lowers the user's Sp. Atk. Money is recovered after.",
+    "description": "Lowers the user's Atk. Money is recovered after.",
     "effect": 1,
     "flags": [
       "METRONOME_BANNED"

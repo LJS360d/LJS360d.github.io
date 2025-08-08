@@ -553,28 +553,53 @@
       "encounterRate": 30,
       "wildPokemon": [
         {
-          "maxLevel": 10,
-          "minLevel": 5,
-          "species": 129
+          "maxLevel": 24,
+          "minLevel": 22,
+          "species": 120
         },
         {
-          "maxLevel": 10,
-          "minLevel": 5,
+          "maxLevel": 24,
+          "minLevel": 22,
           "species": 118
         },
         {
-          "maxLevel": 30,
-          "minLevel": 10,
-          "species": 129
+          "maxLevel": 24,
+          "minLevel": 22,
+          "species": 602
         },
         {
-          "maxLevel": 30,
-          "minLevel": 10,
+          "maxLevel": 24,
+          "minLevel": 22,
+          "species": 602
+        },
+        {
+          "maxLevel": 24,
+          "minLevel": 22,
+          "species": 339
+        },
+        {
+          "maxLevel": 24,
+          "minLevel": 22,
+          "species": 349
+        },
+        {
+          "maxLevel": 24,
+          "minLevel": 22,
           "species": 118
         },
         {
-          "maxLevel": 30,
-          "minLevel": 10,
+          "maxLevel": 24,
+          "minLevel": 22,
+          "species": 339
+        },
+        {
+          "maxLevel": 24,
+          "minLevel": 22,
+          "species": 339
+        },
+        {
+          "maxLevel": 24,
+          "minLevel": 22,
           "species": 339
         }
       ]
@@ -584,54 +609,59 @@
       "encounterRate": 10,
       "wildPokemon": [
         {
-          "maxLevel": 16,
-          "minLevel": 16,
-          "species": 41
+          "maxLevel": 24,
+          "minLevel": 22,
+          "species": 42
         },
         {
-          "maxLevel": 17,
-          "minLevel": 17,
-          "species": 41
+          "maxLevel": 24,
+          "minLevel": 22,
+          "species": 963
         },
         {
-          "maxLevel": 18,
-          "minLevel": 18,
-          "species": 41
+          "maxLevel": 24,
+          "minLevel": 22,
+          "species": 299
         },
         {
-          "maxLevel": 15,
-          "minLevel": 15,
-          "species": 41
+          "maxLevel": 24,
+          "minLevel": 22,
+          "species": 436
         },
         {
-          "maxLevel": 14,
-          "minLevel": 14,
-          "species": 41
+          "maxLevel": 24,
+          "minLevel": 22,
+          "species": 35
         },
         {
-          "maxLevel": 16,
-          "minLevel": 16,
+          "maxLevel": 24,
+          "minLevel": 22,
+          "species": 774
+        },
+        {
+          "maxLevel": 24,
+          "minLevel": 22,
+          "species": 1358
+        },
+        {
+          "maxLevel": 24,
+          "minLevel": 22,
           "species": 338
         },
         {
-          "maxLevel": 18,
-          "minLevel": 18,
-          "species": 338
+          "maxLevel": 24,
+          "minLevel": 22,
+          "species": 337
         },
         {
-          "maxLevel": 14,
-          "minLevel": 14,
-          "species": 338
+          "maxLevel": 24,
+          "minLevel": 22,
+          "species": 371
         },
         {
-          "maxLevel": 19,
-          "minLevel": 19,
-          "species": 41
-        },
-        {
-          "maxLevel": 20,
-          "minLevel": 20,
-          "species": 41
+          "maxLevel": 24,
+          "minLevel": 22,
+          "species": 371
         }
       ]
     },
@@ -4881,54 +4911,59 @@
       "encounterRate": 20,
       "wildPokemon": [
         {
-          "maxLevel": 21,
-          "minLevel": 21,
-          "species": 322
-        },
-        {
-          "maxLevel": 21,
-          "minLevel": 21,
-          "species": 322
-        },
-        {
-          "maxLevel": 21,
-          "minLevel": 21,
-          "species": 66
-        },
-        {
-          "maxLevel": 20,
-          "minLevel": 20,
-          "species": 322
-        },
-        {
-          "maxLevel": 20,
-          "minLevel": 20,
+          "maxLevel": 26,
+          "minLevel": 24,
           "species": 325
         },
         {
-          "maxLevel": 20,
-          "minLevel": 20,
+          "maxLevel": 26,
+          "minLevel": 24,
+          "species": 672
+        },
+        {
+          "maxLevel": 26,
+          "minLevel": 24,
           "species": 66
         },
         {
-          "maxLevel": 21,
-          "minLevel": 21,
-          "species": 325
+          "maxLevel": 26,
+          "minLevel": 24,
+          "species": 234
         },
         {
-          "maxLevel": 22,
-          "minLevel": 22,
-          "species": 66
+          "maxLevel": 26,
+          "minLevel": 24,
+          "species": 860
         },
         {
-          "maxLevel": 22,
-          "minLevel": 22,
-          "species": 322
+          "maxLevel": 26,
+          "minLevel": 24,
+          "species": 229
         },
         {
-          "maxLevel": 22,
-          "minLevel": 22,
-          "species": 325
+          "maxLevel": 26,
+          "minLevel": 24,
+          "species": 605
+        },
+        {
+          "maxLevel": 26,
+          "minLevel": 24,
+          "species": 631
+        },
+        {
+          "maxLevel": 26,
+          "minLevel": 24,
+          "species": 632
+        },
+        {
+          "maxLevel": 26,
+          "minLevel": 24,
+          "species": 447
+        },
+        {
+          "maxLevel": 26,
+          "minLevel": 24,
+          "species": 447
         }
       ]
     },
@@ -5019,54 +5054,59 @@
       "encounterRate": 10,
       "wildPokemon": [
         {
-          "maxLevel": 15,
-          "minLevel": 15,
-          "species": 322
+          "maxLevel": 20,
+          "minLevel": 18,
+          "species": 757
         },
         {
-          "maxLevel": 15,
-          "minLevel": 15,
+          "maxLevel": 20,
+          "minLevel": 18,
           "species": 109
         },
         {
-          "maxLevel": 16,
-          "minLevel": 16,
+          "maxLevel": 20,
+          "minLevel": 18,
           "species": 322
         },
         {
-          "maxLevel": 15,
-          "minLevel": 15,
+          "maxLevel": 20,
+          "minLevel": 18,
+          "species": 228
+        },
+        {
+          "maxLevel": 20,
+          "minLevel": 18,
           "species": 66
         },
         {
-          "maxLevel": 15,
-          "minLevel": 15,
-          "species": 324
-        },
-        {
-          "maxLevel": 15,
-          "minLevel": 15,
+          "maxLevel": 20,
+          "minLevel": 18,
           "species": 218
         },
         {
-          "maxLevel": 16,
-          "minLevel": 16,
-          "species": 109
+          "maxLevel": 20,
+          "minLevel": 18,
+          "species": 838
         },
         {
-          "maxLevel": 16,
-          "minLevel": 16,
-          "species": 66
-        },
-        {
-          "maxLevel": 14,
-          "minLevel": 14,
+          "maxLevel": 20,
+          "minLevel": 18,
           "species": 324
         },
         {
-          "maxLevel": 16,
-          "minLevel": 16,
-          "species": 324
+          "maxLevel": 20,
+          "minLevel": 18,
+          "species": 776
+        },
+        {
+          "maxLevel": 20,
+          "minLevel": 18,
+          "species": 4
+        },
+        {
+          "maxLevel": 20,
+          "minLevel": 18,
+          "species": 4
         }
       ]
     },
@@ -9148,28 +9188,53 @@
       "encounterRate": 30,
       "wildPokemon": [
         {
-          "maxLevel": 10,
-          "minLevel": 5,
-          "species": 129
+          "maxLevel": 20,
+          "minLevel": 18,
+          "species": 194
         },
         {
-          "maxLevel": 10,
-          "minLevel": 5,
-          "species": 118
+          "maxLevel": 20,
+          "minLevel": 18,
+          "species": 535
         },
         {
-          "maxLevel": 30,
-          "minLevel": 10,
-          "species": 129
+          "maxLevel": 20,
+          "minLevel": 18,
+          "species": 54
         },
         {
-          "maxLevel": 30,
-          "minLevel": 10,
-          "species": 118
+          "maxLevel": 20,
+          "minLevel": 18,
+          "species": 618
         },
         {
-          "maxLevel": 30,
-          "minLevel": 10,
+          "maxLevel": 20,
+          "minLevel": 18,
+          "species": 339
+        },
+        {
+          "maxLevel": 20,
+          "minLevel": 18,
+          "species": 618
+        },
+        {
+          "maxLevel": 20,
+          "minLevel": 18,
+          "species": 54
+        },
+        {
+          "maxLevel": 20,
+          "minLevel": 18,
+          "species": 339
+        },
+        {
+          "maxLevel": 20,
+          "minLevel": 18,
+          "species": 339
+        },
+        {
+          "maxLevel": 20,
+          "minLevel": 18,
           "species": 339
         }
       ]
@@ -9423,29 +9488,29 @@
       "encounterRate": 20,
       "wildPokemon": [
         {
-          "maxLevel": 15,
-          "minLevel": 10,
-          "species": 74
-        },
-        {
-          "maxLevel": 10,
-          "minLevel": 5,
+          "maxLevel": 20,
+          "minLevel": 18,
           "species": 74
         },
         {
           "maxLevel": 20,
-          "minLevel": 15,
-          "species": 74
+          "minLevel": 18,
+          "species": 967
         },
         {
           "maxLevel": 20,
-          "minLevel": 15,
-          "species": 74
+          "minLevel": 18,
+          "species": 967
         },
         {
           "maxLevel": 20,
-          "minLevel": 15,
-          "species": 74
+          "minLevel": 18,
+          "species": 213
+        },
+        {
+          "maxLevel": 20,
+          "minLevel": 18,
+          "species": 213
         }
       ]
     },
@@ -9619,54 +9684,59 @@
       "encounterRate": 20,
       "wildPokemon": [
         {
-          "maxLevel": 15,
-          "minLevel": 15,
+          "maxLevel": 20,
+          "minLevel": 18,
           "species": 322
         },
         {
-          "maxLevel": 15,
-          "minLevel": 15,
-          "species": 322
+          "maxLevel": 20,
+          "minLevel": 18,
+          "species": 434
         },
         {
-          "maxLevel": 15,
-          "minLevel": 15,
-          "species": 183
+          "maxLevel": 20,
+          "minLevel": 18,
+          "species": 431
         },
         {
-          "maxLevel": 14,
-          "minLevel": 14,
-          "species": 322
+          "maxLevel": 20,
+          "minLevel": 18,
+          "species": 77
         },
         {
-          "maxLevel": 14,
-          "minLevel": 14,
-          "species": 322
+          "maxLevel": 20,
+          "minLevel": 18,
+          "species": 216
         },
         {
-          "maxLevel": 14,
-          "minLevel": 14,
-          "species": 183
+          "maxLevel": 20,
+          "minLevel": 18,
+          "species": 425
         },
         {
-          "maxLevel": 16,
-          "minLevel": 16,
-          "species": 322
+          "maxLevel": 20,
+          "minLevel": 18,
+          "species": 850
         },
         {
-          "maxLevel": 16,
-          "minLevel": 16,
-          "species": 183
+          "maxLevel": 20,
+          "minLevel": 18,
+          "species": 336
         },
         {
-          "maxLevel": 16,
-          "minLevel": 16,
-          "species": 322
+          "maxLevel": 20,
+          "minLevel": 18,
+          "species": 335
         },
         {
-          "maxLevel": 16,
-          "minLevel": 16,
-          "species": 322
+          "maxLevel": 20,
+          "minLevel": 18,
+          "species": 1323
+        },
+        {
+          "maxLevel": 20,
+          "minLevel": 18,
+          "species": 498
         }
       ]
     },
@@ -9757,53 +9827,58 @@
       "encounterRate": 20,
       "wildPokemon": [
         {
-          "maxLevel": 15,
-          "minLevel": 15,
+          "maxLevel": 23,
+          "minLevel": 20,
+          "species": 1334
+        },
+        {
+          "maxLevel": 23,
+          "minLevel": 20,
           "species": 327
         },
         {
-          "maxLevel": 15,
-          "minLevel": 15,
-          "species": 327
+          "maxLevel": 23,
+          "minLevel": 20,
+          "species": 111
         },
         {
-          "maxLevel": 15,
-          "minLevel": 15,
-          "species": 218
+          "maxLevel": 23,
+          "minLevel": 20,
+          "species": 749
         },
         {
-          "maxLevel": 14,
-          "minLevel": 14,
-          "species": 327
+          "maxLevel": 23,
+          "minLevel": 20,
+          "species": 629
         },
         {
-          "maxLevel": 14,
-          "minLevel": 14,
-          "species": 327
+          "maxLevel": 23,
+          "minLevel": 20,
+          "species": 744
         },
         {
-          "maxLevel": 14,
-          "minLevel": 14,
-          "species": 218
+          "maxLevel": 23,
+          "minLevel": 20,
+          "species": 1338
         },
         {
-          "maxLevel": 16,
-          "minLevel": 16,
-          "species": 327
+          "maxLevel": 23,
+          "minLevel": 20,
+          "species": 870
         },
         {
-          "maxLevel": 16,
-          "minLevel": 16,
-          "species": 218
+          "maxLevel": 23,
+          "minLevel": 20,
+          "species": 782
         },
         {
-          "maxLevel": 16,
-          "minLevel": 16,
-          "species": 327
+          "maxLevel": 23,
+          "minLevel": 20,
+          "species": 227
         },
         {
-          "maxLevel": 16,
-          "minLevel": 16,
+          "maxLevel": 23,
+          "minLevel": 20,
           "species": 227
         }
       ]
@@ -10031,29 +10106,54 @@
       "encounterRate": 30,
       "wildPokemon": [
         {
-          "maxLevel": 10,
-          "minLevel": 5,
+          "maxLevel": 23,
+          "minLevel": 20,
           "species": 129
         },
         {
-          "maxLevel": 10,
-          "minLevel": 5,
+          "maxLevel": 23,
+          "minLevel": 20,
+          "species": 550
+        },
+        {
+          "maxLevel": 23,
+          "minLevel": 20,
           "species": 118
         },
         {
-          "maxLevel": 30,
-          "minLevel": 10,
-          "species": 129
-        },
-        {
-          "maxLevel": 30,
-          "minLevel": 10,
+          "maxLevel": 23,
+          "minLevel": 20,
           "species": 118
         },
         {
-          "maxLevel": 30,
-          "minLevel": 10,
+          "maxLevel": 23,
+          "minLevel": 20,
           "species": 339
+        },
+        {
+          "maxLevel": 23,
+          "minLevel": 20,
+          "species": 550
+        },
+        {
+          "maxLevel": 23,
+          "minLevel": 20,
+          "species": 339
+        },
+        {
+          "maxLevel": 23,
+          "minLevel": 20,
+          "species": 339
+        },
+        {
+          "maxLevel": 23,
+          "minLevel": 20,
+          "species": 618
+        },
+        {
+          "maxLevel": 23,
+          "minLevel": 20,
+          "species": 618
         }
       ]
     },
@@ -10062,54 +10162,59 @@
       "encounterRate": 20,
       "wildPokemon": [
         {
-          "maxLevel": 16,
-          "minLevel": 16,
+          "maxLevel": 23,
+          "minLevel": 20,
           "species": 333
         },
         {
-          "maxLevel": 16,
-          "minLevel": 16,
+          "maxLevel": 23,
+          "minLevel": 20,
           "species": 270
         },
         {
-          "maxLevel": 17,
-          "minLevel": 17,
-          "species": 333
+          "maxLevel": 23,
+          "minLevel": 20,
+          "species": 822
         },
         {
-          "maxLevel": 15,
-          "minLevel": 15,
-          "species": 333
+          "maxLevel": 23,
+          "minLevel": 20,
+          "species": 1345
         },
         {
-          "maxLevel": 15,
-          "minLevel": 15,
-          "species": 270
+          "maxLevel": 23,
+          "minLevel": 20,
+          "species": 539
         },
         {
-          "maxLevel": 16,
-          "minLevel": 16,
-          "species": 271
+          "maxLevel": 23,
+          "minLevel": 20,
+          "species": 358
         },
         {
-          "maxLevel": 16,
-          "minLevel": 16,
-          "species": 271
+          "maxLevel": 23,
+          "minLevel": 20,
+          "species": 538
         },
         {
-          "maxLevel": 18,
-          "minLevel": 18,
-          "species": 271
+          "maxLevel": 23,
+          "minLevel": 20,
+          "species": 1350
         },
         {
-          "maxLevel": 17,
-          "minLevel": 17,
+          "maxLevel": 23,
+          "minLevel": 20,
           "species": 336
         },
         {
-          "maxLevel": 15,
-          "minLevel": 15,
-          "species": 336
+          "maxLevel": 23,
+          "minLevel": 20,
+          "species": 335
+        },
+        {
+          "maxLevel": 23,
+          "minLevel": 20,
+          "species": 335
         }
       ]
     },
@@ -10306,29 +10411,29 @@
       "encounterRate": 20,
       "wildPokemon": [
         {
-          "maxLevel": 15,
-          "minLevel": 10,
+          "maxLevel": 23,
+          "minLevel": 20,
           "species": 74
         },
         {
-          "maxLevel": 10,
-          "minLevel": 5,
-          "species": 74
+          "maxLevel": 23,
+          "minLevel": 20,
+          "species": 837
         },
         {
-          "maxLevel": 20,
-          "minLevel": 15,
-          "species": 74
+          "maxLevel": 23,
+          "minLevel": 20,
+          "species": 837
         },
         {
-          "maxLevel": 20,
-          "minLevel": 15,
-          "species": 74
+          "maxLevel": 23,
+          "minLevel": 20,
+          "species": 213
         },
         {
-          "maxLevel": 20,
-          "minLevel": 15,
-          "species": 74
+          "maxLevel": 23,
+          "minLevel": 20,
+          "species": 213
         }
       ]
     },
@@ -10615,7 +10720,7 @@
         {
           "maxLevel": 10,
           "minLevel": 5,
-          "species": 129
+          "species": 118
         },
         {
           "maxLevel": 10,
@@ -10623,19 +10728,44 @@
           "species": 72
         },
         {
-          "maxLevel": 30,
-          "minLevel": 10,
+          "maxLevel": 10,
+          "minLevel": 5,
           "species": 129
         },
         {
-          "maxLevel": 30,
-          "minLevel": 10,
-          "species": 72
+          "maxLevel": 10,
+          "minLevel": 5,
+          "species": 116
         },
         {
-          "maxLevel": 30,
-          "minLevel": 10,
+          "maxLevel": 10,
+          "minLevel": 5,
           "species": 320
+        },
+        {
+          "maxLevel": 10,
+          "minLevel": 5,
+          "species": 318
+        },
+        {
+          "maxLevel": 10,
+          "minLevel": 5,
+          "species": 147
+        },
+        {
+          "maxLevel": 10,
+          "minLevel": 5,
+          "species": 120
+        },
+        {
+          "maxLevel": 10,
+          "minLevel": 5,
+          "species": 120
+        },
+        {
+          "maxLevel": 10,
+          "minLevel": 5,
+          "species": 120
         }
       ]
     },
