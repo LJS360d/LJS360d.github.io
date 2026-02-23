@@ -1,4 +1,3 @@
-import { splitProps } from 'solid-js';
 import {
   getEffectStr,
   MoveCategory as MoveCategoryEnum,

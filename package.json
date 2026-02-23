@@ -3,33 +3,35 @@
   "type": "module",
   "version": "3.0.0",
   "engines": {
-    "node": ">=22"
+    "node": ">=24",
+    "bun": ">=1.3.9"
   },
   "scripts": {
-    "dev": "astro dev",
-    "build": "astro build",
-    "lint": "astro check",
-    "preview": "astro preview",
-    "astro": "astro"
+    "dev": "bunx --bun astro dev",
+    "build": "bunx --bun astro build",
+    "lint": "bunx --bun astro check"
   },
   "dependencies": {
-    "@astrojs/solid-js": "^5.1.0",
-    "@formkit/auto-animate": "^0.8.2",
+    "@astrojs/check": "^0.9.6",
+    "@astrojs/solid-js": "^5.1.3",
+    "@formkit/auto-animate": "^0.9.0",
+    "@iconify/json": "^2.2.442",
     "@solid-primitives/virtual": "^0.2.2",
-    "@tailwindcss/vite": "^4.1.11",
-    "@tanstack/solid-virtual": "^3.13.12",
-    "astro": "^5.12.8",
+    "@tailwindcss/vite": "^4.2.1",
+    "@tanstack/solid-virtual": "^3.13.18",
+    "astro": "^5.17.1",
     "astro-icon": "^1.1.5",
     "clsx": "^2.1.1",
-    "lodash": "^4.17.21",
-    "solid-js": "^1.9.7",
-    "solid-zustand": "^1.8.1",
-    "tailwindcss": "^4.1.11"
+    "daisyui": "^5.5.19",
+    "lodash": "^4.17.23",
+    "solid-js": "^1.9.11",
+    "solid-zustand": "^2.0.0",
+    "tailwindcss": "^4.2.1",
+    "typescript": "^5.9.3",
+    "unplugin-icons": "^23.0.1"
   },
   "devDependencies": {
-    "@iconify/json": "^2.2.366",
-    "@types/lodash": "^4.17.20",
-    "daisyui": "^5.0.50",
-    "unplugin-icons": "^22.2.0"
+    "@types/bun": "^1.3.9",
+    "@types/lodash": "^4.17.24"
   }
 }

@@ -5,10 +5,17 @@
     "**/*"
   ],
   "exclude": [
-    "dist"
+    "dist",
+    "node_modules",
+    "public/wasm_exec.js"
   ],
   "compilerOptions": {
     "jsx": "preserve",
-    "jsxImportSource": "solid-js"
+    "jsxImportSource": "solid-js",
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ]
+    }
   }
 }

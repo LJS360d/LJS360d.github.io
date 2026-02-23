@@ -96,7 +96,7 @@ function PokemonTypeSelector() {
         <span>Types</span>
       </div>
       <div class='flex flex-wrap gap-4'>
-        {Object.values(UsedPokemonTypes).map((type, i) => (
+        {Object.values(UsedPokemonTypes).map((type) => (
           <button class={clsx('p-1 w-24 rounded-md font-bold', {
             obst: searchStore.filters.types?.includes(type.toUpperCase() as PokemonType),
             [`type-${type.toLowerCase()}`]: true,

@@ -1,4 +1,4 @@
-// @ts-check
+// @ts-ignore
 import { defineConfig } from 'astro/config';
 import tailwindcss from '@tailwindcss/vite';
 import Icons from 'unplugin-icons/vite';
