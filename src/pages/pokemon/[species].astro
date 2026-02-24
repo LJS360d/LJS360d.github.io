@@ -25,13 +25,14 @@ const { mon } = Astro.props;
 const [prev, next] = getMonPaginator(mon.species);
 ---
 
-<Layout title="Pokèmon">
-  <div class="flex justify-between mx-4 my-2">
+<Layout title="Pokémon">
+  <div class="flex flex-col flex-1 p-4 md:p-6  mx-auto min-w-0">
+  <div class="flex flex-wrap items-center justify-between gap-2 mb-4">
     {
       prev && (
         <a
           href={`/pokemon/${prev.species.toLowerCase()}`}
-          class="flex items-end"
+          class="flex items-center gap-2 rounded-lg border border-base-300 px-3 py-2 hover:bg-base-300/50"
         >
           <MdChevronLeft size={20} />
           <PokemonIconComponent species={prev.id} />
@@ -44,7 +45,7 @@ const [prev, next] = getMonPaginator(mon.species);
       next && (
         <a
           href={`/pokemon/${next.species.toLowerCase()}`}
-          class="flex items-end"
+          class="flex items-center gap-2 rounded-lg border border-base-300 px-3 py-2 hover:bg-base-300/50"
         >
           <span class="mr-2">{next.speciesName}</span>
           <PokemonIconComponent species={next.id} />
@@ -59,4 +60,5 @@ const [prev, next] = getMonPaginator(mon.species);
     forms={getMonAlternateForms(mon.species)}
     learnset={getLearnset(mon.id)}
   />
+  </div>
 </Layout>

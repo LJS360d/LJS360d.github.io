@@ -1,11 +1,16 @@
 ---
+import PageSearchBar from "../components/common/PageSearchBar";
 import WildEncountersList from "../components/ui/wildEncounters/WildEncountersList";
 import Layout from "../layouts/Layout.astro";
-
 ---
 
 <Layout title="Wild Encounters">
-  <WildEncountersList client:load />
+  <div class="flex flex-col h-[calc(100vh-4rem)] min-h-0 overflow-y-auto pt-2">
+    <div
+      class="sticky top-0 z-40 mx-2 pb-2"
+    >
+      <PageSearchBar client:only />
+    </div>
+    <WildEncountersList client:only />
+  </div>
 </Layout>
-
-

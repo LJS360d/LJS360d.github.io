@@ -1,4 +1,4 @@
-import { createMemo } from "solid-js";
+import { For, createMemo } from "solid-js";
 import { learnsets } from "../../../data";
 import { searchStore } from "../../../data/store/search.store";
 import { getBaseMonsData, getMonAlternateForms } from "../../../utils/pokemon.data.utils";
@@ -12,7 +12,7 @@ function getLearnset(pokemonId: number) {
 
 export default function PokemonVirtualList() {
   const allMons = getBaseMonsData();
-  
+
   const filteredPokemon = createMemo(() => {
     const searchText = searchStore.text;
     const filters = searchStore.filters;
@@ -21,25 +21,28 @@ export default function PokemonVirtualList() {
       !searchText &&
       !filters.diffTypes &&
       !filters.diffStats &&
-      !filters.types?.length
-    ) return allMons;
+      !filters.types?.length &&
+      !filters.generations?.length
+    )
+      return allMons;
 
     return allMons
       .filter((mon) => mon.species.toLowerCase().includes(searchText.toLowerCase()))
       .filter((mon) => {
-        let filterOut = false;
         if (filters.types?.length) {
-          filterOut ||= filters.types.some(type => mon.types.includes(type));
+          const hasAny = filters.types.some((t) => mon.types.includes(t));
+          const hasAll = filters.types.every((t) => mon.types.includes(t));
+          const mode = filters.typeFilterMode ?? "include_any";
+          if (mode === "include_any" && !hasAny) return false;
+          if (mode === "exclude_any" && hasAny) return false;
+          if (mode === "include_all" && !hasAll) return false;
+          if (mode === "exclude_all" && hasAll) return false;
         }
-        if (filters.diffTypes) {
-          filterOut ||= isEqual(mon.types, mon.old?.types);
-        }
-        if (filters.diffStats) {
-          filterOut ||= isEqual(mon.stats, mon.old?.stats);
-        }
-        return !filterOut;
-      })
-      ;
+        if (filters.generations?.length && !filters.generations.includes(mon.generation)) return false;
+        if (filters.diffTypes && isEqual(mon.types, mon.old?.types)) return false;
+        if (filters.diffStats && isEqual(mon.stats, mon.old?.stats)) return false;
+        return true;
+      });
   });
 
   return (
@@ -47,7 +50,7 @@ export default function PokemonVirtualList() {
       class="list-base"
       items={filteredPokemon()}
       rowHeight={240}
-      rootHeight={window.innerHeight - 64}
+      rootHeight={window.innerHeight * 0.80 }
       overscan={40}
     >
       {

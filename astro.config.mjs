@@ -9,6 +9,7 @@ import icon from 'astro-icon';
 // https://astro.build/config
 export default defineConfig({
   site: 'https://LJS360d.github.io',
+  // base: '/rh-docs/',
   image: {
     remotePatterns: [{ protocol: 'https' }],
     domains: ['img.pokemondb.net'],

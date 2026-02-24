@@ -3,10 +3,11 @@ import Layout from '../layouts/Layout.astro';
 ---
 
 <Layout title="Parse savefile">
-  <div class="grid grid-flow-col justify-around items-start mt-8">
+  <div class="flex flex-col flex-1 p-4 md:p-6  mx-auto min-w-0">
+  <div class="grid grid-flow-col justify-around items-start gap-6">
     <div class="grid grid-flow-row">
       <!-- .sav input -->
-      <label for="sav-file-input" class="flex flex-col mt-6 items-center justify-center p-6 bg-accent/10 rounded-lg shadow-md cursor-pointer 
+      <label for="sav-file-input" class="flex flex-col mt-6 items-center justify-center p-6 bg-accent/10 rounded-lg shadow-md cursor-pointer
     h-64 border-2 border-dashed border-accent hover:bg-accent/20"
     >
         <span class="text-lg font-semibold">Drop your .sav file here or click to browse</span>
@@ -17,13 +18,13 @@ import Layout from '../layouts/Layout.astro';
         readonly>
       <span class="text-xs">Upload a .gba file to Override the ROM with your own</span>
       <!-- .gba input -->
-      <label for="gba-file-input" class="flex flex-col mt-6 items-center justify-center p-6 bg-primary/10 rounded-lg shadow-md cursor-pointer 
+      <label for="gba-file-input" class="flex flex-col mt-6 items-center justify-center p-6 bg-primary/10 rounded-lg shadow-md cursor-pointer
       h-64 border-2 border-dashed border-primary hover:bg-primary/20
       ">
         <span class="text-lg font-semibold">Drop your .gba file here or click to browse</span>
         <input id="gba-file-input" type="file" accept=".gba" class="hidden">
       </label>
-      <p class="p-2 max-w-96"> 
+      <p class="p-2 max-w-96">
         Only ROMs built from the <a href="https://github.com/rh-hideout/pokeemerald-expansion" class="text-primary">rhh pokemon emerald expansion</a>
         are supported for now, if you want to add support for other ROMs, please contact the creator (zlejon) on discord (dms open)
       </p>
@@ -39,13 +40,14 @@ import Layout from '../layouts/Layout.astro';
         cols="50"></textarea>
     </div>
   </div>
+  </div>
 </Layout>
 
 <script>
   import { SaveParser, DEFAULT_ROM_FILENAME } from "../save-parser/save-parser";
   const parser = await SaveParser.init();
 
-  
+
   const savFileInput = document.getElementById("sav-file-input") as HTMLInputElement;
   savFileInput.addEventListener("change", async function (e) {
     e.preventDefault();
@@ -74,8 +76,8 @@ import Layout from '../layouts/Layout.astro';
     await updateGba(file);
   });
   gbaFileInput.ondragover = e => e.preventDefault();
-  
-  
+
+
   async function updateSav(file: File) {
     const buffer = new Uint8Array(await file.arrayBuffer());
     const result = await parser.parseSav(buffer);
@@ -86,7 +88,7 @@ import Layout from '../layouts/Layout.astro';
     const teamTextarea = document.getElementById("team-mons") as HTMLTextAreaElement;
     teamTextarea.value = teamMons;
   }
-  
+
   const romSelect = document.getElementById("loaded-rom") as HTMLInputElement;
   romSelect.value = DEFAULT_ROM_FILENAME;
   async function updateGba(file: File) {

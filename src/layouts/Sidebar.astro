@@ -19,27 +19,28 @@ const { data } = Astro.props;
 const { title, themes, routes, version } = data;
 ---
 
-<div class="drawer">
+<div class="drawer min-h-svh">
   <input id={sidebarId} type="checkbox" class="drawer-toggle" />
-  <div class="drawer-content">
+  <div class="drawer-content flex flex-col">
     <Toolbar title={title} sidebarId={sidebarId} />
-    <slot />
+    <main class="flex-1">
+      <slot />
+    </main>
   </div>
   <div class="drawer-side z-50">
-    <label for={sidebarId} aria-label="close sidebar" class="drawer-overlay"
-    ></label>
+    <label for={sidebarId} aria-label="close sidebar" class="drawer-overlay"></label>
     <div class="bg-base-300 flex flex-col h-full justify-between w-60">
       <div>
-        <header class="flex w-full">
-          <label for={sidebarId} class="justify-start w-full btn btn-ghost">
-            <MdClose class="text-2xl" />
+        <header class="flex w-full py-2 border-b border-base-content/10">
+          <label for={sidebarId} class="btn pr-1 btn-ghost btn-sm">
+            <MdClose class="text-xl" />
           </label>
         </header>
-        <ul class="menu text-lg">
+        <ul class="menu p-0 gap-1 text-base-content w-full">
           {
             routes.map((route) => (
-              <li class="capitalize">
-                <a href={route.route}>
+              <li>
+                <a href={route.route} class="flex items-center gap-2 py-2 px-3 capitalize hover:bg-base-content/10">
                   <route.icon />
                   <span>{route.label ?? route.route}</span>
                 </a>
@@ -48,14 +49,14 @@ const { title, themes, routes, version } = data;
           }
         </ul>
       </div>
-      <footer class="flex flex-col items-center justify-center pb-2">
-        <div class="w-1/2">
-          <div class="label">
-            <span class="label-text">Theme</span>
-          </div>
+      <footer class="flex flex-col items-center gap-2 p-4 border-t border-base-content/10">
+        <div class="w-full max-w-35">
+          <label class="label py-0">
+            <span class="label-text text-xs">Theme</span>
+          </label>
           <select
             id="theme-select"
-            class="select select-secondary capitalize w-full"
+            class="select select-sm select-bordered w-full capitalize"
             name="theme"
             onchange="
             document.documentElement.setAttribute('data-theme', this.value);
@@ -65,9 +66,7 @@ const { title, themes, routes, version } = data;
             {themes.map((t) => <option value={t}>{t}</option>)}
           </select>
         </div>
-        <span class="text-sm">
-          Version: <b class="font-bold">{version}</b>
-        </span>
+        <span class="text-xs opacity-80">v{version}</span>
       </footer>
     </div>
   </div>

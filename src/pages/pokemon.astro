@@ -1,10 +1,14 @@
 ---
+import PokemonPageToolbar from "../components/ui/pokemon/PokemonPageToolbar";
 import PokemonSearchFilter from "../components/ui/pokemon/PokemonSearchFilter";
 import PokemonVirtualList from "../components/ui/pokemon/PokemonVirtualList";
 import Layout from "../layouts/Layout.astro";
 ---
 
-<Layout title="Pokèmon">
-  <PokemonSearchFilter client:load />
- <PokemonVirtualList client:only />
+<Layout title="Pokémon">
+  <div class="flex flex-col flex-1 p-4 w-full mx-auto gap-4 min-w-0">
+    <PokemonPageToolbar client:load />
+    <PokemonSearchFilter client:load />
+    <PokemonVirtualList client:only />
+  </div>
 </Layout>
