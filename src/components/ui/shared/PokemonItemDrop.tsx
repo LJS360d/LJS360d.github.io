@@ -1,25 +1,15 @@
-import { pokemon, items } from "../../../data";
-import { ItemInfo } from "../../../data/types/item";
-import { PokemonInfo } from "../../../data/types/pokemon";
+import { getItemName, monById } from '../../../data/lookups';
 
 interface PokemonItemDropProps {
   species: number;
   size?: number;
 }
 
-function getMon(species: number): PokemonInfo | null {
-  return pokemon.find((mon) => mon.id === species) ?? null;
-}
-
-function getItem(item: number): ItemInfo | null {
-  return items.find((it) => it.id === item) ?? null;
-}
-
 export default function PokemonItemDropComponent({
   species,
   size = 24,
 }: PokemonItemDropProps) {
-  const mon = getMon(species);
+  const mon = monById.get(species);
   if (!mon) return null;
   if (!mon.itemCommon && !mon.itemRare) return null;
   return (
@@ -29,10 +19,11 @@ export default function PokemonItemDropComponent({
           class="icon"
           src={`/assets/items/icons/${mon.itemCommon}.png`}
           alt={`item-${mon.itemCommon}-icon`}
-          title={"(50%) "+ getItem(mon.itemCommon)!.name}
+          title={`(50%) ${getItemName(mon.itemCommon)}`}
           width={size}
           height={size}
           loading="lazy"
+          decoding="async"
         />
       )}
       {!!mon.itemRare && (
@@ -40,10 +31,11 @@ export default function PokemonItemDropComponent({
           class="icon"
           src={`/assets/items/icons/${mon.itemRare}.png`}
           alt={`item-${mon.itemRare}-icon`}
-          title={"(5%) "+ getItem(mon.itemRare)!.name}
+          title={`(5%) ${getItemName(mon.itemRare)}`}
           width={size}
           height={size}
           loading="lazy"
+          decoding="async"
         />
       )}
     </>

@@ -1,8 +1,4 @@
-import items from '../../../data/items.json';
-
-function getItemName(item: number) {
-  return items.find((i) => i.id === item)?.name ?? `ITEM ID: ${item}`;
-}
+import { getItemName } from '../../../data/lookups';
 
 interface ItemIconProps {
   id: number;
@@ -19,6 +15,7 @@ export default function ItemIcon({ id }: ItemIconProps) {
         width={32}
         height={32}
         loading='lazy'
+        decoding='async'
       />
     </div>
   );

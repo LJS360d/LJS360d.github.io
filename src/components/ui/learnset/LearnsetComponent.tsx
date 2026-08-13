@@ -1,14 +1,15 @@
-import { createMemo, For } from 'solid-js';
-import { moves } from '../../../data';
+import { For } from 'solid-js';
+import { moveById } from '../../../data/lookups';
 import type { Learnset } from '../../../data/types/learnset';
 import { toCapitalized } from '../../../utils/formatting.utils';
 
 interface LearnsetInfoProps {
-  learnset: Learnset;
+  learnset?: Learnset;
 }
 
 export default function LearnsetComponent(props: LearnsetInfoProps) {
-  const levelUpLearnset = createMemo(() => props.learnset.levelUpLearnset ?? []);
+  const levelUpLearnset = () => props.learnset?.levelUpLearnset ?? [];
+  if (!levelUpLearnset().length) return null;
   return (
     <div class='overflow-auto max-h-44 sb-base'>
       <table class='table-zebra table-xs'>
@@ -23,11 +24,7 @@ export default function LearnsetComponent(props: LearnsetInfoProps) {
             {(move) => (
               <tr>
                 <td>{move.level}</td>
-                <td>
-                  {toCapitalized(
-                    moves.find((m) => m.id === move.move)?.name ?? ''
-                  )}
-                </td>
+                <td>{toCapitalized(moveById.get(move.move)?.name ?? '')}</td>
               </tr>
             )}
           </For>

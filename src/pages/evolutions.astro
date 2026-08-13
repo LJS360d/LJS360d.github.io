@@ -1,16 +1,22 @@
 ---
-import PageSearchBar from "../components/common/PageSearchBar";
-import EvolutionsList from "../components/ui/evolution/EvolutionsList";
-import Layout from "../layouts/Layout.astro";
+import EvolutionTreeComponent from "../components/ui/evolution/EvolutionComponent";
+import { evolutions } from "../data";
+import { evolutionSearchKey } from "../data/lookups";
+import ListPage from "../layouts/ListPage.astro";
 ---
 
-<Layout title="Evolutions">
-  <div class="flex flex-col h-[calc(100vh-4rem)] min-h-0 overflow-y-auto pt-2">
-    <div
-      class="sticky top-0 z-40 mx-2 pb-2"
-    >
-      <PageSearchBar client:only />
-    </div>
-    <EvolutionsList client:only />
-  </div>
-</Layout>
+<ListPage title="Evolutions" rowHeight="9rem">
+  {
+    evolutions.map((evolution) => (
+      <EvolutionTreeComponent
+        evolution={evolution}
+        searchKey={evolutionSearchKey(evolution)}
+      />
+    ))
+  }
+</ListPage>
+
+<script>
+  import { initListSearch } from "../scripts/list-search";
+  initListSearch();
+</script>

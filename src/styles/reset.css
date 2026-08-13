@@ -1,7 +1,4 @@
-/*
-  This is the equivalent of your @mixin.
-  You can define a reusable scrollbar style and apply it to a class.
-*/
+/* Thin scrollbar, opt-in via .sb-base */
 .sb-base::-webkit-scrollbar-thumb {
   background-color: currentColor;
   max-height: 4rem;
@@ -18,18 +15,16 @@
   border-radius: 16px;
 }
 
-/* This is a standard CSS selector */
+/* Wins over the display set by daisyui/tailwind utilities on hidden rows. */
 [hidden] {
   display: none !important;
 }
 
-/* Standard body styles */
 body {
   margin: 0;
 }
 
 @layer utilities {
-  /* Utility classes use @apply and are not nested */
   .old {
     @apply text-red-500 line-through;
   }
@@ -42,7 +37,6 @@ body {
     @apply relative;
   }
 
-  /* The nested `&::before` is converted to a direct CSS selector */
   .obst::before {
     content: '';
     top: 50%;
@@ -63,12 +57,14 @@ body {
 }
 
 @layer components {
-  /* Tailwind components are not nested */
-  .sb-base {
-    /* Your scrollbar styles are now part of this class definition */
-  }
-
   .list-base {
     @apply menu gap-4 w-full;
+  }
+
+  /* Skips style/layout/paint for offscreen rows, replacing the JS virtual list.
+     `--row-h` is the placeholder height each page sets for its row shape. */
+  .list-base > li {
+    content-visibility: auto;
+    contain-intrinsic-size: auto var(--row-h, 6rem);
   }
 }

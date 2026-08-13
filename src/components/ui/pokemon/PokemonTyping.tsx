@@ -3,6 +3,7 @@ import type { PokemonInfo } from '../../../data/types/pokemon';
 import TypeIcon from '../shared/TypeIcon';
 import { createMemo, For } from 'solid-js';
 
+// Rendered to HTML by Astro, never hydrated, so lodash stays on the build machine.
 const { difference, intersection } = lodash;
 
 interface TypeBarProps {
@@ -10,10 +11,12 @@ interface TypeBarProps {
 }
 
 function PokemonTyping(props: TypeBarProps) {
+  const current = () => props.pokemon.types;
+  const old = () => props.pokemon.old?.types ?? [];
 
-  const commonTypes = createMemo(() => intersection(props.pokemon.types, (props.pokemon.old?.types ?? [])));
-  const removedTypes = createMemo(() => difference((props.pokemon.old?.types ?? []), props.pokemon.types));
-  const addedTypes = createMemo(() => difference(props.pokemon.types, (props.pokemon.old?.types ?? [])));
+  const commonTypes = createMemo(() => intersection(current(), old()));
+  const removedTypes = createMemo(() => difference(old(), current()));
+  const addedTypes = createMemo(() => difference(current(), old()));
 
   return (
     <div class='flex flex-col gap-2'>

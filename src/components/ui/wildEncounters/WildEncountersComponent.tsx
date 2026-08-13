@@ -9,11 +9,12 @@ import PokemonItemDropComponent from "../shared/PokemonItemDrop";
 
 interface WildEncountersProps {
   encounters: WildEncounters;
+  searchKey?: string;
 }
 // TODO diffing
 function WildEncountersComponent(props: WildEncountersProps) {
   return (
-    <li class="bg-base-200">
+    <li data-s={props.searchKey} class="bg-base-200">
       <section>
         <h1 class="stat-title">
           {toCapitalized(props.encounters.locationName)}

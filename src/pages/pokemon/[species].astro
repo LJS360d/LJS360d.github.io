@@ -3,12 +3,9 @@ import MdChevronLeft from "~icons/material-symbols/chevron-left";
 import MdChevronRight from "~icons/material-symbols/chevron-right";
 import PokemonComponent from "../../components/ui/pokemon/PokemonComponent";
 import PokemonIconComponent from "../../components/ui/shared/PokemonIcon";
-import { learnsets, pokemon } from "../../data";
+import { pokemon } from "../../data";
 import Layout from "../../layouts/Layout.astro";
-import {
-getMonAlternateForms,
-getMonPaginator,
-} from "../../utils/pokemon.data.utils";
+import { getMonAlternateForms, getMonPaginator } from "../../data/lookups";
 
 export async function getStaticPaths() {
   return pokemon.map((mon) => ({
@@ -17,48 +14,45 @@ export async function getStaticPaths() {
   }));
 }
 
-function getLearnset(pokemonId: number) {
-  return learnsets.find((ls) => ls.species === pokemonId);
-}
-
 const { mon } = Astro.props;
 const [prev, next] = getMonPaginator(mon.species);
 ---
 
 <Layout title="Pokémon">
-  <div class="flex flex-col flex-1 p-4 md:p-6  mx-auto min-w-0">
-  <div class="flex flex-wrap items-center justify-between gap-2 mb-4">
-    {
-      prev && (
-        <a
-          href={`/pokemon/${prev.species.toLowerCase()}`}
-          class="flex items-center gap-2 rounded-lg border border-base-300 px-3 py-2 hover:bg-base-300/50"
-        >
-          <MdChevronLeft size={20} />
-          <PokemonIconComponent species={prev.id} />
-          <span class="ml-2">{prev.speciesName}</span>
-        </a>
-      )
-    }
-    <PokemonIconComponent species={mon.id} />
-    {
-      next && (
-        <a
-          href={`/pokemon/${next.species.toLowerCase()}`}
-          class="flex items-center gap-2 rounded-lg border border-base-300 px-3 py-2 hover:bg-base-300/50"
-        >
-          <span class="mr-2">{next.speciesName}</span>
-          <PokemonIconComponent species={next.id} />
-          <MdChevronRight size={20} />
-        </a>
-      )
-    }
-  </div>
-  <PokemonComponent
-    client:visible
-    pokemon={mon}
-    forms={getMonAlternateForms(mon.species)}
-    learnset={getLearnset(mon.id)}
-  />
+  <div class="flex flex-col flex-1 p-4 md:p-6 mx-auto min-w-0">
+    <div class="flex flex-wrap items-center justify-between gap-2 mb-4">
+      {
+        prev && (
+          <a
+            href={`/pokemon/${prev.species.toLowerCase()}`}
+            class="flex items-center gap-2 rounded-lg border border-base-300 px-3 py-2 hover:bg-base-300/50"
+          >
+            <MdChevronLeft size={20} />
+            <PokemonIconComponent species={prev.id} />
+            <span class="ml-2">{prev.speciesName}</span>
+          </a>
+        )
+      }
+      <PokemonIconComponent species={mon.id} />
+      {
+        next && (
+          <a
+            href={`/pokemon/${next.species.toLowerCase()}`}
+            class="flex items-center gap-2 rounded-lg border border-base-300 px-3 py-2 hover:bg-base-300/50"
+          >
+            <span class="mr-2">{next.speciesName}</span>
+            <PokemonIconComponent species={next.id} />
+            <MdChevronRight size={20} />
+          </a>
+        )
+      }
+    </div>
+    <ul class="list-none p-0 m-0">
+      <PokemonComponent pokemon={mon} forms={getMonAlternateForms(mon.species)} />
+    </ul>
   </div>
 </Layout>
+
+<script>
+  import "../../scripts/form-tabs";
+</script>

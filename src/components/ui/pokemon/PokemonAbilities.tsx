@@ -3,6 +3,7 @@ import type { PokemonInfo } from '../../../data/types/pokemon';
 import { toCapitalized } from '../../../utils/formatting.utils';
 import { createMemo, For } from 'solid-js';
 
+// Rendered to HTML by Astro, never hydrated, so lodash stays on the build machine.
 const { difference, intersection } = lodash;
 
 interface AbilitiesBarProps {
@@ -10,11 +11,13 @@ interface AbilitiesBarProps {
 }
 
 export default function PokemonAbilities(props: AbilitiesBarProps) {
-  const label = (props.pokemon?.abilities ?? [])?.length === 1 ? 'Ability' : 'Abilities';
+  const current = () => props.pokemon.abilities ?? [];
+  const old = () => props.pokemon.old?.abilities ?? [];
+  const label = current().length === 1 ? 'Ability' : 'Abilities';
 
-  const commonAbilities = createMemo(() => intersection((props.pokemon?.abilities ?? []), (props.pokemon.old?.abilities ?? [])));
-  const removedAbilities = createMemo(() => difference((props.pokemon.old?.abilities ?? []), (props.pokemon?.abilities ?? [])));
-  const addedAbilities = createMemo(() => difference((props.pokemon?.abilities ?? []), (props.pokemon.old?.abilities ?? [])));
+  const commonAbilities = createMemo(() => intersection(current(), old()));
+  const removedAbilities = createMemo(() => difference(old(), current()));
+  const addedAbilities = createMemo(() => difference(current(), old()));
 
   return (
     <div>

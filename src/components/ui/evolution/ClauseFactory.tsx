@@ -1,14 +1,7 @@
 import ItemIcon from '../item/ItemIcon';
 import PokemonIconComponent from '../shared/PokemonIcon';
-import moves from '../../../data/moves.json';
-import type { MoveInfo } from '../../../data/types/move';
+import { getMoveName } from '../../../data/lookups';
 import { PokemonTypeString } from '../../../data/types/pokemon.types';
-
-const moveData = moves as MoveInfo[];
-
-function getMoveName(move: number) {
-  return moveData.find((m) => m.id === move)?.name ?? `MOVE ID: ${move}`;
-}
 
 interface ClauseProps {
   method: number;

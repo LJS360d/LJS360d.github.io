@@ -4,17 +4,16 @@ import ItemIcon from './ItemIcon';
 
 interface ItemComponentProps {
   item: ItemInfo;
+  searchKey?: string;
 }
 
-export default function ItemComponent({ item }: ItemComponentProps) {
+export default function ItemComponent(props: ItemComponentProps) {
   return (
-    <li
-      data-item-name={item.name.toUpperCase()}
-      class='flex flex-row justify-start w-full'>
+    <li data-s={props.searchKey} class='flex flex-row justify-start w-full'>
       <div class='flex gap-4'>
-        <ItemIcon id={item.id} />
-        <span>{toCapitalized(item.name)}</span>
-        <p class='text-xs'>{item.description}</p>
+        <ItemIcon id={props.item.id} />
+        <span>{toCapitalized(props.item.name)}</span>
+        <p class='text-xs'>{props.item.description}</p>
       </div>
     </li>
   );

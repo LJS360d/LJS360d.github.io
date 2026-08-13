@@ -1,14 +1,42 @@
 ---
-import PokemonPageToolbar from "../components/ui/pokemon/PokemonPageToolbar";
-import PokemonSearchFilter from "../components/ui/pokemon/PokemonSearchFilter";
-import PokemonVirtualList from "../components/ui/pokemon/PokemonVirtualList";
-import Layout from "../layouts/Layout.astro";
+import PokemonComponent from "../components/ui/pokemon/PokemonComponent";
+import PokemonFilterDialog from "../components/ui/pokemon/PokemonFilterDialog.astro";
+import lodash from "lodash";
+import { baseMons, getMonAlternateForms } from "../data/lookups";
+import ListPage from "../layouts/ListPage.astro";
+
+const { isEqual } = lodash;
+
+// Filter metadata is precomputed into `data-*` attributes so the client ships
+// zero Pokémon data.
+const rows = baseMons.map((mon) => ({
+  mon,
+  forms: getMonAlternateForms(mon.species),
+  searchKey: `${mon.species} ${mon.speciesName}`.toLowerCase(),
+  attrs: {
+    "data-t": mon.types.map((t) => t.toLowerCase()).join(","),
+    "data-g": String(mon.generation),
+    "data-dt": isEqual(mon.types, mon.old?.types) ? undefined : "1",
+    "data-ds": isEqual(mon.stats, mon.old?.stats) ? undefined : "1",
+  },
+}));
 ---
 
-<Layout title="Pokémon">
-  <div class="flex flex-col flex-1 p-4 w-full mx-auto gap-4 min-w-0">
-    <PokemonPageToolbar client:load />
-    <PokemonSearchFilter client:load />
-    <PokemonVirtualList client:only />
-  </div>
-</Layout>
+<ListPage title="Pokémon" filter rowHeight="15rem">
+  {
+    rows.map((row) => (
+      <PokemonComponent
+        pokemon={row.mon}
+        forms={row.forms}
+        searchKey={row.searchKey}
+        attrs={row.attrs}
+      />
+    ))
+  }
+  <PokemonFilterDialog slot="dialog" />
+</ListPage>
+
+<script>
+  import "../scripts/pokemon-filters";
+  import "../scripts/form-tabs";
+</script>

@@ -1,0 +1,133 @@
+---
+import { baseMons } from "../../../data/lookups";
+import { UsedPokemonTypes } from "../../../data/types/pokemon.types";
+import { toCapitalized } from "../../../utils/formatting.utils";
+
+const types = Object.values(UsedPokemonTypes).map((t) => t.toUpperCase());
+const generations = [...new Set(baseMons.map((m) => m.generation))].sort(
+  (a, b) => a - b,
+);
+
+const modes = [
+  {
+    value: "include_any",
+    label: "Has any of",
+    hint: "Show Pokémon that have at least one of the selected types.",
+  },
+  {
+    value: "include_all",
+    label: "Has all of",
+    hint: "Show only Pokémon that have every selected type.",
+  },
+  {
+    value: "exclude_any",
+    label: "Has none of",
+    hint: "Hide Pokémon that have any of the selected types.",
+  },
+];
+---
+
+<dialog id="search-filter" class="modal">
+  <form method="dialog" class="modal-box">
+    <button
+      type="submit"
+      class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button
+    >
+    <div class="flex flex-col gap-6">
+      <section class="flex flex-col gap-2">
+        <h3 class="text-sm font-bold border-b border-base-300 pb-1">
+          Only show changed
+        </h3>
+        <label class="flex items-center gap-2 cursor-pointer text-sm">
+          <input
+            type="checkbox"
+            data-filter="diff-types"
+            class="checkbox checkbox-sm rounded border-base-300"
+          />
+          <span>Type changes (vs original)</span>
+        </label>
+        <label class="flex items-center gap-2 cursor-pointer text-sm">
+          <input
+            type="checkbox"
+            data-filter="diff-stats"
+            class="checkbox checkbox-sm rounded border-base-300"
+          />
+          <span>Stat changes (vs original)</span>
+        </label>
+      </section>
+
+      <section class="flex flex-col gap-2">
+        <h3 class="text-sm font-bold border-b border-base-300 pb-1">
+          Filter by type
+        </h3>
+        <div class="flex flex-wrap gap-2">
+          {
+            modes.map((mode, i) => (
+              <button
+                type="button"
+                data-filter="mode"
+                data-value={mode.value}
+                class:list={["btn btn-xs", i === 0 ? "btn-primary" : "btn-outline"]}
+              >
+                {mode.label}
+              </button>
+            ))
+          }
+        </div>
+        {
+          modes.map((mode, i) => (
+            <p
+              class="text-sm text-base-content/80"
+              data-mode-hint={mode.value}
+              hidden={i !== 0}
+            >
+              {mode.hint}
+            </p>
+          ))
+        }
+        <div class="flex flex-wrap gap-2">
+          <button type="button" class="btn btn-xs btn-ghost" data-filter="select-all"
+            >Select all</button
+          >
+        </div>
+        <div class="flex flex-wrap gap-2">
+          {
+            types.map((type) => (
+              <button
+                type="button"
+                data-filter="type"
+                data-value={type.toLowerCase()}
+                class={`p-1 w-18 rounded-md font-bold text-sm transition-opacity delay-200 type-${type.toLowerCase()} opacity-30`}
+              >
+                {toCapitalized(type.toLowerCase())}
+              </button>
+            ))
+          }
+        </div>
+      </section>
+
+      <section class="flex flex-col gap-2">
+        <h3 class="text-sm font-bold border-b border-base-300 pb-1">
+          Generation
+        </h3>
+        <p class="text-sm text-base-content/80">
+          Show only Pokémon from these generations.
+        </p>
+        <div class="flex flex-wrap gap-2">
+          {
+            generations.map((gen) => (
+              <button
+                type="button"
+                data-filter="gen"
+                data-value={String(gen)}
+                class="btn btn-sm border border-base-300"
+              >
+                Gen {gen}
+              </button>
+            ))
+          }
+        </div>
+      </section>
+    </div>
+  </form>
+</dialog>

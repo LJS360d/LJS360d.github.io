@@ -1,6 +1,6 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import { RoutesIterator } from "../models/static/routes";
+import { routes } from "../models/routes";
 ---
 
 <Layout title="Acering the pocemon">
@@ -9,13 +9,13 @@ import { RoutesIterator } from "../models/static/routes";
     <div class="flex flex-col pt-4 w-full gap-2 items-center">
       <div class="grid grid-flow-row md:grid-cols-2 lg:grid-cols-3 w-full gap-3 max-w-3xl">
         {
-          RoutesIterator.slice(1).map((route) => (
+          routes.slice(1).map((route) => (
             <a
               class="flex items-center justify-center gap-2 w-full py-3 px-4 rounded-lg border border-base-300 hover:bg-base-300/50 capitalize"
               href={route.route}
             >
               <route.icon />
-              <span>{route.label || route.route}</span>
+              <span>{route.label}</span>
             </a>
           ))
         }

@@ -10,10 +10,13 @@ import MoveCategory from './MoveCategoryIcon';
 
 interface MoveComponentProps {
   move: MoveInfo;
+  searchKey?: string;
 }
 function MoveComponent(props: MoveComponentProps) {
   return (
-    <li class='cursor-default bg-base-200 rounded-lg flex flex-row justify-start  flex-1'>
+    <li
+      data-s={props.searchKey}
+      class='cursor-default bg-base-200 rounded-lg flex flex-row justify-start  flex-1'>
       <div class='flex flex-col items-start'>
         <h6 class='capitalize'>{toCapitalized(props.move.name)}</h6>
         <div class='flex flex-row gap-1'>
